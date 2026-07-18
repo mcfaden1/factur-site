@@ -11,7 +11,7 @@
   --ink-mid-base:#6A6860;
   --ink-dim-base:#2E2E2C;
   /* derived: brighten secondary/ghost text toward --ink by --contrast */
-  --contrast:    0%;
+  --contrast:    35%;
   --ink-mid:     color-mix(in srgb, var(--ink-mid-base), var(--ink) var(--contrast));
   --ink-dim:     color-mix(in srgb, var(--ink-dim-base), var(--ink) calc(var(--contrast) * 0.7));
   --hairline:    rgba(224,219,211, calc(0.07 * var(--hl-mult, 1)));
