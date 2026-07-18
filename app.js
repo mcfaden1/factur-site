@@ -614,8 +614,8 @@
         const bodyEl = entry.querySelector('.entry-body');
         const raw = decodeURIComponent(bodyEl.dataset.raw);
         const matchOk = !q || raw.toLowerCase().includes(q);
-        entry.classList.toggle('gone', !(pieceOk && typeOk));
-        entry.classList.toggle('dim', pieceOk && typeOk && q && !matchOk);
+        entry.classList.toggle('gone', !(pieceOk && typeOk && (!q || matchOk)));
+        entry.classList.remove('dim');
         if (q && matchOk) {
           bodyEl.innerHTML = highlightTerm(raw, q);
         } else {
@@ -658,6 +658,32 @@
     const re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig');
     return esc.replace(re, '<mark>$1</mark>');
   }
+  /* wrap query matches in <mark> across every text node under a root (DOM-safe,
+     works with nested markup like MoltBook threads + replies) */
+  function markTextMatches(root, q) {
+    if (!q) return;
+    const re = new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'ig');
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    let n; while ((n = walker.nextNode())) nodes.push(n);
+    nodes.forEach((node) => {
+      const txt = node.nodeValue;
+      re.lastIndex = 0;
+      if (!re.test(txt)) return;
+      re.lastIndex = 0;
+      const frag = document.createDocumentFragment();
+      let last = 0, m;
+      while ((m = re.exec(txt))) {
+        if (m.index > last) frag.appendChild(document.createTextNode(txt.slice(last, m.index)));
+        const mk = document.createElement('mark'); mk.textContent = m[0];
+        frag.appendChild(mk);
+        last = m.index + m[0].length;
+        if (m.index === re.lastIndex) re.lastIndex++;
+      }
+      if (last < txt.length) frag.appendChild(document.createTextNode(txt.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
 
   /* =========================================================
      PAGE: MOLTBOOK  (prototype data — live fetch in Phase 2)
@@ -676,11 +702,17 @@
 
     const scroll = el('div', 'simple-scroll');
     const inner = el('div', 'molt-inner');
+    const topbar = el('div', 'molt-topbar');
     const tabs = el('div', 'molt-tabs');
     const tabO = el('button', 'molt-tab on', 'ORIGINATED');
     const tabC = el('button', 'molt-tab', 'IN CONVERSATION');
     tabs.appendChild(tabO); tabs.appendChild(tabC);
-    inner.appendChild(tabs);
+    topbar.appendChild(tabs);
+    const search = el('div', 'corpus-search');
+    search.innerHTML = ICON.search + '<input type="text" placeholder="search moltbook..." />';
+    topbar.appendChild(search);
+    inner.appendChild(topbar);
+    const searchInput = search.querySelector('input');
     const sub = el('div', 'molt-sub', 'Threads Factur originated.');
     inner.appendChild(sub);
     const list = el('div', 'molt-list');
@@ -704,10 +736,21 @@
         '<div class="thread-body">' + linkifyTitles(flowText(c.body)) + '</div>' +
         '<a class="view-on">→ VIEW ON MOLTBOOK</a></div>').join('');
     }
-    tabO.addEventListener('click', () => { tabO.classList.add('on'); tabC.classList.remove('on'); list.style.opacity = 0; setTimeout(() => { showOriginated(); list.style.opacity = 1; }, 200); });
-    tabC.addEventListener('click', () => { tabC.classList.add('on'); tabO.classList.remove('on'); list.style.opacity = 0; setTimeout(() => { showConversation(); list.style.opacity = 1; }, 200); });
+    let showFn = showOriginated;
+    function applyMoltSearch() {
+      const q = searchInput.value.trim().toLowerCase();
+      list.querySelectorAll('.thread').forEach((t) => {
+        const hit = !q || t.textContent.toLowerCase().includes(q);
+        t.classList.toggle('gone', !hit);
+        if (q && hit) markTextMatches(t, q);
+      });
+    }
+    function renderList() { showFn(); applyMoltSearch(); }
+    searchInput.addEventListener('input', renderList);
+    tabO.addEventListener('click', () => { tabO.classList.add('on'); tabC.classList.remove('on'); list.style.opacity = 0; setTimeout(() => { showFn = showOriginated; renderList(); list.style.opacity = 1; }, 200); });
+    tabC.addEventListener('click', () => { tabC.classList.add('on'); tabO.classList.remove('on'); list.style.opacity = 0; setTimeout(() => { showFn = showConversation; renderList(); list.style.opacity = 1; }, 200); });
     list.style.transition = 'opacity 0.3s ease';
-    showOriginated();
+    renderList();
 
     scroll.appendChild(inner);
     page.appendChild(scroll);

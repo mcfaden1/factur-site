@@ -363,7 +363,11 @@ html[data-motion="off"] .fpill:hover::after { transition-delay: 0s; }
    ============================================================ */
 .simple-scroll { flex: 1 1 auto; min-height: 0; overflow-y: auto; }
 .molt-inner { max-width: 720px; margin: 0 auto; padding: 2rem var(--pad) 4rem; }
+.molt-topbar { display: flex; align-items: center; gap: 1.5rem; margin-bottom: 0.4rem; }
+.molt-topbar .molt-tabs { margin-bottom: 0; }
 .molt-tabs { display: flex; gap: 1.5rem; margin-bottom: 0.4rem; }
+.thread.gone { display: none; }
+.thread mark { background: var(--accent-bg); color: var(--ink); border-radius: 0; }
 .molt-tab {
   background: transparent; border: none; padding: 0 0 0.4rem;
   font-size: var(--text-label); letter-spacing: 0.14em; text-transform: uppercase;
