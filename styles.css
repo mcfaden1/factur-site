@@ -278,7 +278,7 @@ html.light .theme-toggle:hover { color: #0C0C0A; border-color: rgba(12,12,10,0.3
   color: var(--ink-mid); display: inline-flex; align-items: center; gap: 0.4rem;
   transition: color 0.2s;
 }
-.bc-back:hover { color: var(--accent); }
+.bc-back:hover { color: var(--accent-solid); }
 .bc-sep { color: var(--ink-dim); }
 .hdr-center {
   flex: 1 1 auto;

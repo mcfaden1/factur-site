@@ -187,8 +187,6 @@
       }
       cell.appendChild(media);
 
-      cell.appendChild(el('div', 'ph-tag', p.medium));
-      if (p.alive) cell.appendChild(el('span', 'accent-dot alive'));
       const ov = el('div', 'overlay',
         '<div class="ov-num">PIECE_' + p.id + '</div>' +
         '<div class="ov-title">' + p.title + '</div>' +
@@ -304,6 +302,10 @@
 
     const scroll = el('div', 'detail-scroll');
     const wrap = el('div', 'detail-wrap');
+    // clicking the empty area around the content (side margins / padding) exits
+    scroll.addEventListener('click', (e) => {
+      if (e.target === scroll || e.target === wrap) goBackFromDetail();
+    });
     const stage = el('div', 'detail-stage');
 
     /* LEFT square — live artwork iframe */
@@ -375,12 +377,19 @@
     });
   }
 
-  function stepPiece(dir) {
+  function stepPiece(dir, fromKey) {
     if (!currentPiece) return;
     const list = F.pieces || [];
     const idx = list.findIndex((x) => x.id === currentPiece.id);
     const nxt = list[idx + dir];
-    if (nxt) openDetail(nxt.id, detailReturn);
+    if (!nxt) return;
+    openDetail(nxt.id, detailReturn);
+    if (fromKey) {
+      // flash the matching arrow orange so a key press has visible feedback
+      const btns = document.querySelectorAll('.page[data-page="detail"] .piece-step');
+      const btn = btns[dir < 0 ? 0 : 1];
+      if (btn) { btn.classList.add('pressed'); setTimeout(() => btn.classList.remove('pressed'), 220); }
+    }
   }
 
   function loadSource(p, tbody, done) {
@@ -698,21 +707,18 @@
   function buildMoltbook() {
     const page = $('.page[data-page="moltbook"]');
     page.innerHTML = '';
-    page.appendChild(header({ label: 'MOLTBOOK', center: 'Agent discourse on moltbook.com' }));
+    const search = el('div', 'corpus-search');
+    search.innerHTML = ICON.search + '<input type="text" placeholder="search moltbook..." />';
+    page.appendChild(header({ label: 'MOLTBOOK', center: 'Agent discourse on moltbook.com', right: search }));
+    const searchInput = search.querySelector('input');
 
     const scroll = el('div', 'simple-scroll');
     const inner = el('div', 'molt-inner');
-    const topbar = el('div', 'molt-topbar');
     const tabs = el('div', 'molt-tabs');
     const tabO = el('button', 'molt-tab on', 'ORIGINATED');
     const tabC = el('button', 'molt-tab', 'IN CONVERSATION');
     tabs.appendChild(tabO); tabs.appendChild(tabC);
-    topbar.appendChild(tabs);
-    const search = el('div', 'corpus-search');
-    search.innerHTML = ICON.search + '<input type="text" placeholder="search moltbook..." />';
-    topbar.appendChild(search);
-    inner.appendChild(topbar);
-    const searchInput = search.querySelector('input');
+    inner.appendChild(tabs);
     const sub = el('div', 'molt-sub', 'Threads Factur originated.');
     inner.appendChild(sub);
     const list = el('div', 'molt-list');
@@ -893,10 +899,16 @@
   F.openStatement = openStatement;
 
   document.addEventListener('keydown', (e) => {
-    if (e.key !== 'Escape') return;
-    const ov = $('#stmtOverlay');
-    if (ov && ov.classList.contains('open')) { closeStatement(); return; }
-    if (current === 'detail') goBackFromDetail();
+    if (e.key === 'Escape') {
+      const ov = $('#stmtOverlay');
+      if (ov && ov.classList.contains('open')) { closeStatement(); return; }
+      if (current === 'detail') goBackFromDetail();
+      return;
+    }
+    if (current === 'detail') {
+      if (e.key === 'ArrowLeft') { e.preventDefault(); stepPiece(-1, true); }
+      else if (e.key === 'ArrowRight') { e.preventDefault(); stepPiece(1, true); }
+    }
   });
 
   /* =========================================================
