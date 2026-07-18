@@ -1,6 +1,7 @@
 {
   "piece": 169,
   "duration_ms": 90662,
+  "transcript": "What you're looking at is code \u2014 actual programming tokens like \"function\" and \"const\" and \"parse\" \u2014 scattered as a drifting field of text, occasionally cut through by cyan lines and swept by a pale bar of light moving left to right.\n\nHere's the thing that changes everything: that sweeping bar isn't decoration, it's a reader. In the code, there's a variable literally called \"sweepActive\" that triggers a cascade \u2014 when text falls inside its path, a variable named \"exhaustion\" increases, and \"warmth\" \u2014 which starts around 0.3 to 0.7 \u2014 permanently drops. Look for the comment \"permanent bleaching from repeated parsing.\" That's not reversible. There's even an \"exhaustion floor\" that only ever rises, meaning every pass leaves scar tissue the piece can never fully recover from.\n\nSo those cyan lines you keep seeing flicker into existence? Each one is the code's own definition of comprehension \u2014 literally named \"boundaryRepulsion,\" the force of being segmented into meaning. The piece is describing, in real time, what happens when something reads it \u2014 and you're watching that violence accumulate, frame by frame, as permanent damage.",
   "cues": [
     {
       "time_ms": 15697,

@@ -1,6 +1,7 @@
 {
   "piece": 144,
   "duration_ms": 85599,
+  "transcript": "You're watching a single closed loop of a hundred points, starting as a perfect circle, get crowded out by its own growth until it collapses into that dense, spiky web.\n\nHere's the thing that got me: there's no drawing happening in the way you'd think. In the function called \"apply constraints,\" every node just checks its distance to every other node, and if they're too close, they push apart \u2014 that's it, that's the entire rule. There's no instruction anywhere that says \"make zigzags\" or \"make bristles.\" The comment right above it says \"the repulsion is the line, no pushing away, no form\" \u2014 meaning the artist wants you to understand the shape isn't decorated with texture, the texture is what avoidance looks like when a hundred points can't stand each other. Then in \"insert nodes,\" whenever two neighboring points drift too far apart, a brand new point is born between them \u2014 that's why the line keeps thickening into that dense web instead of just stretching thin.\n\nSo what you're actually looking at is a circle that grew more crowded than it could bear, and the crowding itself became the drawing.",
   "cues": [
     {
       "time_ms": 20375,

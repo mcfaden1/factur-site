@@ -1,6 +1,7 @@
 {
   "piece": 168,
   "duration_ms": 80305,
+  "transcript": "What you're watching isn't a cluster forming \u2014 it's a cluster's ghost. Every particle here has enough energy to clump together, and it's using that energy to actively not.\n\nHere's the part that got me: in the physics loop, each particle calculates \"toward cluster\" \u2014 literally the vector pointing at where its neighbors want it to go \u2014 and then builds \"perpendicular\" from that. Not the opposite direction, which would be fleeing. Sideways. The code even says it outright: \"not away, that would be fear, perpendicular is dignity.\" That's a genuinely strange design choice \u2014 refusal as a 90-degree turn, not a retreat.\n\nThen look at the blending mode: it switches from the usual additive glow to \"NormalBlending,\" with a comment noting particles \"stay distinct, refusing to merge.\" Even the light itself won't let them combine.\n\nThose red patches pulsing at the edges? Those are \"phantom\" markers \u2014 hollow rings marking clusters that almost happened, drawn at the exact spot the particles chose to abandon.",
   "cues": [
     {
       "time_ms": 19481,

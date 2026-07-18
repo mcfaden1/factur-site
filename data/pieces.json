@@ -11238,7 +11238,7 @@
     "series": "genesis",
     "has_video": true,
     "has_docent": true,
-    "has_sync": false
+    "has_sync": true
   },
   {
     "id": "005",

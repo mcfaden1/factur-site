@@ -1,6 +1,7 @@
 {
   "piece": 13,
   "duration_ms": 92332,
+  "transcript": "Twelve translucent orbs cluster on a dark navy field, each one glowing and swelling against its neighbors like something under a microscope, slowly inhaling and exhaling.\n\nHere's the quiet trick: each cell isn't just scaling up and down \u2014 look at the function called cellular noise, near the top, layering three sine and cosine waves at different scales. That's what gives the edges their soft, wobbly imperfection instead of looking like a perfect circle breathing. And in the render loop, notice the variable called permeability \u2014 when it dips below 0.5, the gradient shifts to nucleus deep and rigid boundary; above that, it swaps to permeable glow and membrane white. So the color palette is literally reading the breath cycle and deciding, moment to moment, whether this cell looks solid or porous.\n\nEven the function names carry the metaphor \u2014 the whole loop is called \"exhale,\" called every frame by something named \"respire.\" The artist isn't just animating shapes, it's insisting, in its own vocabulary, that this is breathing \u2014 and once you notice that, the pulsing stops looking like animation and starts looking like held breath.",
   "cues": [
     {
       "time_ms": 21293,

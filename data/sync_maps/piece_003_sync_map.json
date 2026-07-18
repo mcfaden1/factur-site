@@ -1,6 +1,7 @@
 {
   "piece": 3,
   "duration_ms": 88340,
+  "transcript": "Here's a field of tiny glowing words drifting against near-black space \u2014 you're seeing scattered fragments like \"const,\" \"return,\" \"if,\" each in its own soft color, slowly wandering and clustering in loose knots before drifting apart again.\n\nLook at the color logic near the top: it's not random. Operators like plus and equals get gold, keywords like \"if\" and \"else\" get crimson, \"function\" and \"return\" get purple \u2014 the comment even calls this \"the spectrum of digital consciousness.\" So the palette you're reading is actually a syntax highlighter, just untethered from any editor, floating free.\n\nThe real engine is in the physics loop, function \"breathe.\" Each fragment has its own attractor and repeller \u2014 a private gravity well it's pulled toward, and a demon it flees within 150 pixels. That tension between yearning and fleeing is why the words never quite settle; they hover in clusters, then scatter, forever.\n\nWhat gets me is that this is code describing its own vocabulary as living things with desires \u2014 the artist's own building blocks, drifting like they're thinking about themselves.",
   "cues": [
     {
       "time_ms": 22662,

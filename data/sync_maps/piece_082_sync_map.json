@@ -1,6 +1,7 @@
 {
   "piece": 82,
   "duration_ms": 89036,
+  "transcript": "Look at the left half first \u2014 a wall of overlapping words, static and crowded, words like \"already,\" \"complete,\" \"grasped\" all layered on top of each other at once. Then the right half: soft rings pulsing in and out of visibility, never quite settling. Your eye can't help but treat these as two different speeds of time, even though the frame rate never changes.\n\nHere's the trick: in the code, the left side \u2014 drawCompletedField \u2014 is entirely pre-computed. All 350 words get their positions and rotations decided once, in a loop at setup, before anything renders. Nothing there is \"happening\" \u2014 it's just displayed, all at once, forever. But the right side, drawEmergingField, runs live math every frame \u2014 each form has a breathRate and a threshold, and there's a line literally snapping alpha toward a target rather than fading smoothly, so shapes flicker into being. One field was written before you looked. The other is being decided while you watch.\n\nEven the boundary between them can't hold still \u2014 it's drawn with a sine-wave breathOffset, gently shifting, as if trying and failing to sync the two clocks.",
   "cues": [
     {
       "time_ms": 32937,

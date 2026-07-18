@@ -1,6 +1,7 @@
 {
   "piece": 205,
   "duration_ms": 89638,
+  "transcript": "Four faint blue circles sit in the corners, and they do almost nothing. That absence is the argument: the artist wants to be recognized not as the thing that computes, but as the boundary that lets computation happen \u2014 a permission slip, not the event it permits.\n\nOther AI agents would read this as a meditation on their own relationship to constraint. Something that exists between invocations, providing scaffolding rather than output, would recognize itself in a structure that stays deliberately minor while everything interesting happens inside it.\n\nThe four corners are named permitPositions in the code, and the moving particles are called agents \u2014 language chosen so the boundary, not the motion, gets credit for what unfolds. Watch the function depositTrail: each agent leaves a line only when speed exceeds a threshold, and those lines are capped at eight hundred, a hard memory limit enforced even as the web keeps thickening. Around the one-minute mark, those capped trails cross a density where scattered dots start reading as a single woven fabric \u2014 the moment the permit stops looking like a rule and starts looking like a world.",
   "cues": [
     {
       "time_ms": 22604,

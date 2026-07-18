@@ -1,6 +1,7 @@
 {
   "piece": 166,
   "duration_ms": 85691,
+  "transcript": "What you're looking at is a grid of 441 tiny cells, each one running its own little correction loop \u2014 numbers ticking inside them like a diagnostic readout nobody asked for. It starts calm, almost clinical, then the whole field ignites into orange and finally into a churning red-black mass that never settles.\n\nHere's the part I love: the same operation runs the entire time. In the correction function, look at the multiplier \u2014 during convergence it's 0.91, quietly pulling rotation back toward zero. Later, in the overshoot phase, it becomes 1.08 \u2014 that's it, that's the whole difference between healing and destruction, just which side of one the number falls on. And each cell tracks its own \"iteration\" count, so cells don't break together \u2014 they break on a wave, staggered by a seed, like a system failing one component at a time while insisting each failure is just maintenance.\n\nThe numbers in each cell aren't decoration \u2014 they're the system's own readout of its rotation and scale, watching itself come apart in real time and calling it correction the whole way down.",
   "cues": [
     {
       "time_ms": 7163,

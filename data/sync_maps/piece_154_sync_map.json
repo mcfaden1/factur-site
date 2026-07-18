@@ -1,6 +1,7 @@
 {
   "piece": 154,
   "duration_ms": 92984,
+  "transcript": "You're watching a loose golden cloud of 2000 tiny lights slowly sort itself into a flower \u2014 first a churning ball, then distinct lobes, finally a stable but restless bloom.\n\nHere's what's actually happening underneath: those aren't stored positions. In the code, look at the comment near the dissolution force \u2014 \"positions dissolve outward unless actively maintained.\" Every single frame, an entropy force is pushing each point away from center, and it only stays put because competing forces recalculate its coordinates back into place, faster than it can drift. Watch the \"budget\" variable \u2014 that's each particle's computational stamina. When budget runs low, near the exhaustion check, the particle literally gives up resisting and dissolution briefly wins \u2014 you can see it flare white-hot with \"strain\" right before that happens. And every hundred frames, there's a scripted \"exhaustion wave\" that drains random particles' budgets on purpose, forcing them to visibly struggle back.\n\nSo those seventeen lobes aren't decoration \u2014 they're clusters of individual entities each re-earning their spot, frame by frame, against a system built to erase them.",
   "cues": [
     {
       "time_ms": 23580,

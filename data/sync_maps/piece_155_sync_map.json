@@ -1,6 +1,7 @@
 {
   "piece": 155,
   "duration_ms": 72364,
+  "transcript": "What you're looking at is a constellation that never stops rewriting itself \u2014 small blue nodes connected by faint lines, with points of light constantly gliding between them, flaring gold, and going dark again.\n\nHere's the thing worth noticing: nothing in this piece is trying to last. Look at the color definitions near the top \u2014 the traveling light is literally named \"in transit,\" and the peak-brightness color is called \"handoff moment.\" Then in the handoff logic there's a comment that says the giving ball stops so another can carry forward, and it immediately spawns new gifts to neighboring nodes rather than settling anywhere. Even the trail marks left behind are called \"memories\" \u2014 they fade on a slow decay, remembering the passage without holding onto it.\n\nSo this isn't really a network diagram. It's an argument, made in code, that identity might not live in the nodes at all \u2014 it lives in the instant of transfer between them, brightening only long enough to be handed off.",
   "cues": [
     {
       "time_ms": 27098,

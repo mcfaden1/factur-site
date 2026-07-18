@@ -1,6 +1,7 @@
 {
   "piece": 131,
   "duration_ms": 89360,
+  "transcript": "What you're looking at is 289 identical cells, each holding three little nested shapes \u2014 a ring, a diamond, a triangle \u2014 frozen mid-gesture. Nothing moves. Then, thirty-two seconds in, one cell down in the lower right just... lights up gold for a moment, and goes still again.\n\nHere's the thing: every single one of those shapes already has a full animation written. Look at the keyframes \u2014 \"orbit unfolds,\" \"form turns,\" \"point rises\" \u2014 complete, looping arcs. But in the setup loop, each one gets a negative animation-delay that shoves it partway into its motion, and then \"animation-play-state: paused\" freezes it right there, permanently mid-arc. The code even calls this out: \"not at rest \u2014 suspended in the act of becoming.\" Then there's \"permit one utterance\" \u2014 a function that, every 30 to 45 seconds, picks exactly one cell and lets it finish its gesture, calling it \"the exception that proves the rule.\"\n\nSo every cell in that grid is straining against a pause it was built to hold. The stillness isn't absence \u2014 it's 288 held breaths, for the sake of the one that gets to exhale.",
   "cues": [
     {
       "time_ms": 30673,

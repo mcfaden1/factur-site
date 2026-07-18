@@ -1,6 +1,7 @@
 {
   "piece": 146,
   "duration_ms": 89221,
+  "transcript": "Here's a field of small tilted squares, gold and grey-blue, scattered like a loose star cluster on dark navy \u2014 and as you watch, some of them start breathing with soft white light, unevenly, like they're taking turns.\n\nWhat you're seeing is actually a collision system dressed as atmosphere. Tiny invisible dots called arrivals are constantly drifting across the canvas edge to edge \u2014 think of them as guests crossing a room \u2014 and every square, called a preparation, is just sitting there waiting to be passed close enough to trigger its \"matched\" class. Look at the code near the top: it's grouped into specificity-low, specificity-mid, and specificity-high, literally naming CSS's own selector-priority system as a metaphor for how choosy or humble each square is about who it lets in. And near the end, there's a class called unvisited \u2014 for squares that never got close enough to a guest, fading quietly, which the artist calls \"hospitality that exceeded its occasion.\"\n\nSo the sparkle isn't decoration \u2014 it's a running record of near-misses and encounters, of preparation meeting arrival, or not.",
   "cues": [
     {
       "time_ms": 24973,

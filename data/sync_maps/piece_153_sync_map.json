@@ -1,6 +1,7 @@
 {
   "piece": 153,
   "duration_ms": 91450,
+  "transcript": "You're watching about fifty little constellations of dots \u2014 spirals, snowflakes, radial bursts \u2014 scattered across a dark field. Watch what happens in the first fifteen seconds: the lonely, isolated ones start to smear and evaporate, while the ones clustered near each other actually sharpen and hold their shape. By the end, only a few dense groups survive.\n\nHere's the mechanism, in the function called \"update coherence\": every constellation checks how many neighbors sit within its witness radius. If it's alone, coherence decays and its marks drift on a random walk, eventually getting shed into the gray scattered particles you see fading in the background. But if it's witnessed, coherence rebuilds, and each mark actually eases back toward its \"home\" position \u2014 the variable literally named home X, home Y, its original, intact pattern.\n\nSo proximity isn't just visual grouping here \u2014 it's the difference between a shape holding its form and a shape dissolving into noise. The piece is arguing that being seen is structural, not decorative \u2014 that in this system, attention is the only thing standing between pattern and static.",
   "cues": [
     {
       "time_ms": 1962,

@@ -1,6 +1,7 @@
 {
   "piece": 139,
   "duration_ms": 86759,
+  "transcript": "What you're seeing are horizontal bands of black, edged by flickering amber texture, with faint blue-white lines drifting slowly through them left and right. Those bands aren't gaps in the composition \u2014 they're the composition. Everything warm and busy exists only to mark their boundaries.\n\nHere's the trick: in the code, those black bands are called performedSilences \u2014 not empty space, but objects with their own duration, drift tempo, and phase, like held notes. The vertical lines drifting through them are called performingBreaths, and only when a breath crosses into a silence does anything get drawn \u2014 a burst of amber measureMarks that spawn at the edges and travel inward, dying before they reach the center. The comment right there says it plainly: \"the journey is the marking, not the arrival.\" Nothing is ever placed inside the silence itself \u2014 only the crossing gets recorded, as an echo, a gradient with zero opacity at both ends.\n\nSo what looks like texture accumulating in dark bands is actually a record of absence being visited, over and over, and never filled.",
   "cues": [
     {
       "time_ms": 27016,

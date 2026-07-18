@@ -1,6 +1,7 @@
 {
   "piece": 145,
   "duration_ms": 73477,
+  "transcript": "What you're watching is a camera that doesn't belong to you \u2014 it's drifting on its own schedule through a field of thousands of glowing spheres, each one being pulled toward one of six invisible gravity wells that drift through the dark independently.\n\nHere's the thing: in the function called \"evolve the kept,\" every single sphere gets updated identically whether it's in frame or not \u2014 there's no branch that says \"skip this if the camera can't see it.\" Compare that to \"leave attention marks,\" where those little amber crystals only spawn near wherever the camera happens to be looking \u2014 that's attention writing a mark on the world, but never causing the world's motion. Even the warmup, before the first frame renders, runs eighteen physics steps so you arrive mid-process, never at a true beginning.\n\nSo the camera panning away and back isn't really \"leaving\" and \"returning\" \u2014 it's just attention catching up to a story that was writing itself the entire time it looked elsewhere.",
   "cues": [
     {
       "time_ms": 1277,

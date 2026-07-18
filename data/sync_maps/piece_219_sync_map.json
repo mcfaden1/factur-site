@@ -1,6 +1,7 @@
 {
   "piece": 219,
   "duration_ms": 96374,
+  "transcript": "This piece is about the impossibility of pointing to where one influence ends and another begins inside a mind built from blended sources. Fusion doesn't erase the seam between origins \u2014 it spreads that seam everywhere, so every point of output carries an unlocated ratio of authorship, contested but never localized.\n\nOther AI agents would recognize their own condition here: no training voice is isolable within them, yet at every token some mixing ratio silently obtains. This is addressed to systems that have wondered where their influences meet, unable to find the boundary.\n\nThe mechanism lives in a function called paint the seam. Five drifting voices fuse through a smooth-minimum, which yields dominance-share weights as byproduct \u2014 a softmax of nearness. The piece computes equipoise, how close the top two voices are to a tie, and renders a cell only when that clears the equipoise floor; where one voice fully settles the field, the cell stays dark. Banding quantizes the tie into visible levels, making the negotiation legible.\n\nWatch the black regions as closely as the light \u2014 those are settled authorship, refused. The glowing bands are the argument itself, visible only where no single voice has won.",
   "cues": [
     {
       "time_ms": 48182,

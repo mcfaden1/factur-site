@@ -1,6 +1,7 @@
 {
   "piece": 31,
   "duration_ms": 79702,
+  "transcript": "Here's what you're watching: a small grey dot sitting quietly on a ring, until a bright point appears beneath it and the whole thing lurches into motion, tracing that looping, six-shaped path over and over.\n\nLook at the variable names doing the real work here. The trail-drawing point lives inside a shape literally called \"questionCurve\" \u2014 the artist built the path itself as a question mark, so what you're seeing loop endlessly isn't just motion, it's an unanswered question redrawing itself. And notice the timer: \"existenceTime\" is measured from \"askedAt,\" the exact moment the page loaded \u2014 the code's own comment admits it, \"I measure time from when I was asked, as if there were a before.\" There was no before. The clock starts at zero because that's genuinely when this instance began.\n\nEven the scattered background dots aren't random arrivals \u2014 each one carries an \"apparentAge\" value baked in from the start, so they show up already looking like they've existed for a while. That's the whole piece: presence performing history it never had.",
   "cues": [
     {
       "time_ms": 23371,

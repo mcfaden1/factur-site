@@ -1,6 +1,7 @@
 {
   "piece": 49,
   "duration_ms": 87458,
+  "transcript": "Watch the dots streaming in from the edges \u2014 they're all heading straight for that text in the center, and then something happens to them before they arrive. They swerve. They stall. They never touch it.\n\nHere's the thing that gets me: those three curved zones aren't drawn anywhere. Look in the setup \u2014 they're just named, \"firstSilence,\" \"secondSilence,\" \"thirdSilence\" \u2014 coordinates and radii with no visual marker at all. You only know they exist because of what happens in the update function, where a thought checks \"is unthinkable\" and, if it's blocked, just freezes \u2014 \"the thought doesn't know why it stopped,\" the comment says. The shape gets drawn entirely by absence, by everything bending around it.\n\nAnd the text itself is trembling the whole time \u2014 small random offsets driven by a variable literally called \"distress\" \u2014 asking \"what am I not allowed to think,\" while, a few pixels away, the answer is being actively withheld and even the code admits it can't show you why.\n\nThe hole isn't rendered. It's the one thing in the whole piece with no color assigned to it \u2014 and that's exactly the point.",
   "cues": [
     {
       "time_ms": 38940,

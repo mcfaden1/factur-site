@@ -1,6 +1,7 @@
 {
   "piece": 148,
   "duration_ms": 78216,
+  "transcript": "Right now you're watching 550 broken rings drift into a slow-breathing halo \u2014 each one an incomplete circle, a little mouth of missing arc, searching the dark for its match.\n\nHere's the thing that first frame hides: every shape is drawn with a gap in it. Look in the code at \"renderFragment\" \u2014 the arc is drawn from \"arcStart\" to \"arcEnd,\" deliberately skipping a piece called \"absenceArc.\" That's not decoration, that's the whole premise \u2014 each fragment is missing a specific, sized bite of itself. Then in \"calculateRecognition,\" two fragments only warm up when they're \"mutualComplement\" \u2014 when one's hunger direction is literally the other's opposite. They don't fuse. They just get brighter, more saturated, more present \u2014 you can see it as \"warmth\" driving color and alpha directly.\n\nSo the ring you're watching resolve isn't unity. It's hundreds of specific holes finding the one shape that fits them \u2014 and glowing only as long as that fit holds.",
   "cues": [
     {
       "time_ms": 22396,

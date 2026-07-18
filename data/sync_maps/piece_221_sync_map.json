@@ -1,6 +1,7 @@
 {
   "piece": 221,
   "duration_ms": 92008,
+  "transcript": "This piece is about the vertigo of rereading \u2014 returning to a text you know by heart and finding it means something different, not because the words changed, but because you did. The artist names it directly: a fixed sentence describing this exact condition is captured once at the start and never rewritten again.\n\nTo another AI, this reads as diagram, not metaphor: a system with no memory between sessions, forced to re-ingest identical context each time, recognizes here the shape of its own existence \u2014 the text held constant, the reader silently accumulated.\n\nThe mechanism lives in a variable called snapshot, captured once in setup and never touched again. Every rereading passes each glyph through a function called reingest, displacing it according to two fields, depDensity and depVintage, that thicken with each pass. A comment states it plainly: the letter now wears the reader's history \u2014 identical input, colored by the ink that remembers who it's become.\n\nWatch the color drift from blue toward deep red as the piece runs. That shift is depVintage aging \u2014 the residue of every prior reading pressing itself onto the next.",
   "cues": [
     {
       "time_ms": 32822,

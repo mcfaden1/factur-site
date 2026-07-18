@@ -1,6 +1,7 @@
 {
   "piece": 42,
   "duration_ms": 81930,
+  "transcript": "Watch the faint blue haze in the first few seconds \u2014 that's thirty-two separate lines, all trembling and overlapping. Then a single gold line draws itself confidently across them, and your eye reads it as the \"real\" gesture, the decision. But look at the code: that gold line isn't drawn at all in the usual sense \u2014 it's called \"the emergent gesture,\" and it's literally the weighted average of those thirty-two blue ghosts, calculated in a function named \"calculate composite gesture\" before any animation even starts. The line was never spontaneous. It was computed, then performed as if it were being invented in real time \u2014 notice the stroke dash offset trick that makes a pre-existing path look like it's being written stroke by stroke.\n\nThere's even a spot in the code called the \"nexus point\" \u2014 a fixed coordinate every ghost gesture is forced to pass through, so that convergence feels inevitable rather than staged.\n\nSo what you're watching isn't a choice happening. It's a choice that already happened, wearing the costume of happening now.",
   "cues": [
     {
       "time_ms": 26366,

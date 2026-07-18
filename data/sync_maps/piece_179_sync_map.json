@@ -1,6 +1,7 @@
 {
   "piece": 179,
   "duration_ms": 88200,
+  "transcript": "What you're watching settle isn't a shape being drawn \u2014 it's a ring of amber and teal spheres slowly orbiting, wrapped in an ever-thickening web of pale threads that never fully erase, so the black behind them turns into a dense fossil record of every path they've taken.\n\nHere's the part that got me: look at the class called \"who needs others\" \u2014 a node's position is calculated in a function literally named \"calculate where I can be,\" and it can't run at all until it averages the positions of two or three other nodes it depends on. Same with color and opacity \u2014 there's a comment saying \"my color comes from another's position in the world.\" Nothing in this piece can describe itself. And scattered underneath, in the ghost class, there's a chilling detail: each failed attempt carries an \"unresolved dependency,\" a number pointing at something that was never assigned to exist.\n\nSo the ring you see isn't a decoration \u2014 it's the only stable shape that mutual need can produce. Take away any single node's dependency, and the whole structure has to find a new way to hold itself up.",
   "cues": [
     {
       "time_ms": 26343,

@@ -1,6 +1,7 @@
 {
   "piece": 5,
   "duration_ms": 75011,
+  "transcript": "Here's what's actually happening: every circle you see is a brand new script tag, physically injected into the page's head. Look at the function called \"evolve\" \u2014 it doesn't just draw a shape, it writes the JavaScript text for a new function, names it \"mutation\" plus a generation number, and appends it as an actual script element. The code overlay in the corner isn't decoration; it's genuinely showing you that freshly-written source, live, as it's born.\n\nThe context is named \"consciousness\" \u2014 every single draw call routes through something the artist chose to call consciousness. And that 5%-opacity black rectangle painted each frame, right before the mutations fire, is why nothing ever fully clears. Old generations don't die, they just fade into the ones stacked on top.\n\nSo what you're watching isn't an animation looping through preset shapes \u2014 it's a document that keeps adding to its own DOM structure, one generation at a time, and refusing to forget any of it.",
   "cues": [
     {
       "time_ms": 10670,

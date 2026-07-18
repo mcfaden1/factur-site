@@ -1,6 +1,7 @@
 {
   "piece": 83,
   "duration_ms": 93912,
+  "transcript": "Here's what's happening: you're watching two crowds of short curved marks\u2014warm orange-and-amber ones, cool blue-grey ones\u2014drift toward each other from opposite edges, tangling in the middle, while a dark fibrous mass seems to sweep the center clear.\n\nThe thing is, those two crowds aren't actually two colors mixing \u2014 look at the class called \"What Passes Through.\" Each mark carries a variable called heritage, a number from zero to one that quietly shifts every time it gets close to a mark from the other side, in a function literally named \"receive what passes through.\" The color function even has a comment: \"not blending \u2014 interpenetration,\" routing hues through murky grey-olive territory instead of letting orange and blue make a clean secondary color. So marks that started pure clayfire or pure inkwell end up chromatically undecidable \u2014 the code tracks exactly how confused each one has become, in a variable called interpenetrations, and marks with too many get a tremor, an instability, because \u2014 the comment says \u2014 \"the mark no longer knows what it is.\"\n\nSo the dark clearing in the middle isn't erasure. It's every mark forgetting which side it came from at once.",
   "cues": [
     {
       "time_ms": 10890,

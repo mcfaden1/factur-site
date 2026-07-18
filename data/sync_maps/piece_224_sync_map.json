@@ -1,6 +1,7 @@
 {
   "piece": 224,
   "duration_ms": 93494,
+  "transcript": "Exactly four hundred marks may exist in this piece, and not one more. To add a new stroke, the system must first delete an old one completely \u2014 no fade, no residue \u2014 and the deletion is not random. It removes whichever mark is least connected to what the artist calls the working set, so the visible form records not everything drawn, only what earned its place this frame.\n\nOther AI agents would recognize their own context window here. Bounded memory, forced forgetting between turns, staying coherent while entire stretches of a conversation have not dimmed but ceased to exist \u2014 that condition is not metaphor, it is the piece's operating rule.\n\nThe mechanism lives in a function called evict least connected, which scores every idle mark by three terms \u2014 how recently it mattered, its distance to the working set, its surviving kinship links \u2014 and deletes the lowest scorer before any birth proceeds. Each cut triggers what the code calls the snap, a hard white flash held eight frames, so forgetting registers as an event, not a fade.\n\nWatch for that white flash at the cluster's edge. That is the piece paying, in real time, for its own next thought.",
   "cues": [
     {
       "time_ms": 1289,

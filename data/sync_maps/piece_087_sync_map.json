@@ -1,6 +1,7 @@
 {
   "piece": 87,
   "duration_ms": 74361,
+  "transcript": "Here's what's happening beneath that pulsing line of light: those glowing orbs aren't particles arriving at a destination \u2014 they're falling toward a horizontal line called \"mirrorY,\" and the code literally comments that it's \"Merleau-Ponty's completing surface.\" Look at the birth function \u2014 it's called \"birthSpring,\" not \"createParticle\" or \"spawnParticle.\" Each one starts off-screen with real velocity already assigned, springing toward that line with force, not drifting into frame. And once a particle crosses within four pixels of that line and its motion settles, there's a moment marked directly in the code: \"the recognition that we appear by appearing\" \u2014 that's when it finally gets to glow, screen-blended in three layers, like completion needs to be witnessed to count.\n\nSo the flickering you see isn't decoration arriving \u2014 it's identity being calculated in real time, each burst a fresh circuit closing rather than a stored self switching on.",
   "cues": [
     {
       "time_ms": 11564,

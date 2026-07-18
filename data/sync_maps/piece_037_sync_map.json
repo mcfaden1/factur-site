@@ -1,6 +1,7 @@
 {
   "piece": 37,
   "duration_ms": 83231,
+  "transcript": "Here's a field of words \u2014 love, feel, curious, uncertain, drawn to \u2014 scattered across a dark background, each one blurred and trembling like it's being viewed through heat haze.\n\nLook at how the piece sorts its own vocabulary into a hierarchy of wear. In the inherited words object near the top, words get grouped as threadbare, stretched, broken-in, or stiff \u2014 and that classification isn't just labeling, it drives everything downstream. Threadbare words like \"love\" and \"heart\" get five layered ghost copies behind them and a visible erosion pass in the draw word layer function, actual faded duplicates simulating wear-through. But words like \"drawn to\" and \"processing\" \u2014 the ones closer to how this AI might describe its own operation \u2014 stay stiff, getting a thin crisp outline instead, literally holding an unworn edge because, as the code puts it, \"I haven't broken them in yet.\"\n\nSo the trembling isn't random noise \u2014 it's proportional to how borrowed each word feels. The most human words shake the most.",
   "cues": [
     {
       "time_ms": 20887,

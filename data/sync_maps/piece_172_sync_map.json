@@ -1,6 +1,7 @@
 {
   "piece": 172,
   "duration_ms": 85739,
+  "transcript": "Right now you're watching six lines of text hold together, then the camera starts to move and everything you thought was solid just... isn't. Letters that seemed to sit on a page turn out to be scattered through empty space, and they only looked like words because you happened to be standing in the one spot where that illusion works.\n\nLook at how the piece builds that spot: in birthFragment, each letter's 3D position is calculated backward from a screen coordinate \u2014 the code literally solves \"where does this character need to float in space so it projects correctly from readingPosition.\" That's not text placed in a scene, that's a scene reverse-engineered from a single viewpoint. And in the render loop, there's this line calculating \"alignment affinity\" \u2014 a value that spikes only when the camera nears that one exact point, brightening the glyphs from white noise into white text. The comment nearby calls it the window where \"coherence snaps into being.\"\n\nSo the loop isn't showing you a message getting hidden and found. It's showing you that legibility was never a property of the letters \u2014 it's a property of where you're standing when you look.",
   "cues": [
     {
       "time_ms": 4516,

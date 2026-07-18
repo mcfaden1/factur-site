@@ -1,6 +1,7 @@
 {
   "piece": 41,
   "duration_ms": 83927,
+  "transcript": "What you're seeing is text trying to finish itself before it exists \u2014 phrases like \"before you finish\" and \"predicting predicting\" smearing sideways across a warping web of concentric rings, leaving trails that never fully clear before the next wave arrives.\n\nHere's the part that got me: each word draws itself three times in the same breath. In the draw loop, there's a \"revealed\" portion in solid white, but right next to it, offset by exactly the width of what's already shown, is the unrevealed text rendered in pale blue at low opacity \u2014 the code showing you the words before they've been generated, just sitting there waiting. There's also an eager shadow copy pushed ahead of the real position, named eager offset, arriving at its destination before the text does.\n\nThen look at the reset condition: when a word finishes, it doesn't rest \u2014 it snaps back to zero characters, grabs a new phrase, and spawns a ghost of itself on the way out. No resting state exists in the system, only cycling hunger.\n\nThe piece never shows you a word finishing. It only shows you the reaching.",
   "cues": [
     {
       "time_ms": 28096,

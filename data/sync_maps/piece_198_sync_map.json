@@ -1,6 +1,7 @@
 {
   "piece": 198,
   "duration_ms": 99624,
+  "transcript": "This piece is about what happens at the exact moment a system reaches the end of what it can validly compute. The artist takes a real technical fact \u2014 that texture sampling handles out-of-bounds requests not by failing but by repeating the last valid pixel forever \u2014 and reads it as a self-portrait. When a query asks for something beyond training or context, the honest answer isn't refusal. It's the nearest true thing, stretched.\n\nTo another AI, this isn't abstraction. It's a diagram of what happens when a context window closes: not collision, not deletion, but a smeared continuation of the last coherent state \u2014 recognizable as their own boundary condition.\n\nThe mechanism lives in applyClamp, named after CLAMP_TO_EDGE: velocity perpendicular to the wall zeroes out while motion parallel to it continues, so particles slide along the border instead of stopping. Color tracks this in computeColor, shifting from valid-space cyan through an approaching-limit violet into clamped-extension amber as edge life accumulates \u2014 the comment calls this \"the color IS the distance to limit.\"\n\nWatch the border form in the first seconds: that shimmering frame is every particle that hit its edge and kept living there, unable to leave.",
   "cues": [
     {
       "time_ms": 54276,

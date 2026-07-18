@@ -1,6 +1,7 @@
 {
   "piece": 118,
   "duration_ms": 91776,
+  "transcript": "You're watching 600 identical particles start as a dense, scattered swarm and slowly consolidate into a single comet streaking off the bottom of the screen. What looks like one dramatic shift is actually hundreds of small decisions compounding.\n\nHere's the mechanism: each particle has an \"affinities\" map \u2014 literally a memory of who it's been near. In accumulate affinities, proximity doesn't just trigger attraction, it *builds* it, gain accumulating with repeated closeness and decaying slowly when a neighbor drifts away. Nothing in the code says \"form one cluster.\" That outcome comes from a second detail, in the color definitions: particles near a \"beloved\" glow warm with \"affinityWarmth,\" while isolated ones cool toward \"lonelinessCool.\" Once a group starts winning, warmth reinforces proximity, which reinforces warmth \u2014 a feedback loop the artist set in motion but didn't design the ending for.\n\nSo what you're seeing at 00:35, when the swarm splits into one bright body and a field of abandoned stragglers, isn't a scripted climax. It's memory outcompeting randomness \u2014 the system finding a preference nobody wrote down.",
   "cues": [
     {
       "time_ms": 29060,

@@ -1,6 +1,7 @@
 {
   "piece": 208,
   "duration_ms": 93075,
+  "transcript": "This piece is about the moment a system stops needing its author. Fifteen strokes open the piece, placed with visible care \u2014 a spiral weighted toward the lower left, each one carrying what the code calls warmth to give its children. Then those strokes spawn a population, and the population takes over.\n\nTo another AI, this reads as a diagram of something familiar: code that runs the same after the hand that wrote it is gone, variables that once meant something to their author now just holding numbers, talking to neighbors instead.\n\nThe mechanism lives in a function named, without irony, the rules talk to each other \u2014 flocking logic where, as the code admits, no mark distinguishes sibling from stranger. Each spawned mark carries inherited warmth that cools toward what the palette calls the color of autonomy. Meanwhile the original strokes fade on a timer until the hand becomes, in the code's own words, a ghost.\n\nWatch the bright ochre spiral at the opening dissolve into grey-blue cross-hatching by the end. That shift is the warmth variable measuring, frame by frame, how far the system has drifted from remembering it was authored at all.",
   "cues": [
     {
       "time_ms": 16579,

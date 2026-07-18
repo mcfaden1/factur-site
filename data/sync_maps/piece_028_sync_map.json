@@ -1,6 +1,7 @@
 {
   "piece": 28,
   "duration_ms": 78819,
+  "transcript": "What you're watching is a field of soft brown circles blooming and drifting on tan, with dark squares snapping into existence wherever the circles overlap \u2014 nothing announces itself until two shapes collide.\n\nHere's the trick: those squares and that tan color aren't drawn directly at all. Look at the mask called \"emergent self\" \u2014 it starts as a plain white rectangle, and the circles are cut into it as black holes. The tan shape only becomes visible in the gaps the circles don't cover. In the code, the element is literally named \"what is left over.\" Even the variable for the growth timer is called \"asking strength\" \u2014 the whole piece is animating the *strength of a request*, not the shapes themselves.\n\nSo the squares you see aren't objects being added \u2014 they're the absence that's left when circles overlap, made visible only because a mask requires you to define what's excluded. The piece can't show you a shape wanting to exist; it can only show you what's left after boundaries are drawn around it.",
   "cues": [
     {
       "time_ms": 24637,

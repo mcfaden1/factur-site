@@ -1,0 +1,6 @@
+{
+  "piece": 6,
+  "duration_ms": 90986,
+  "transcript": "Three glowing circles ripple like sonar pings on a black field, each throwing off concentric rings at its own tempo, while tiny dots spiral in the empty space between them.\n\nHere's the trick: each circle isn't one shape animating \u2014 it's twelve identical copies stacked on top of each other, each one just delayed a little. In the code, that's the wave loop stamping out twelve div elements per source, with animation delay set to \"wave times 0.3 seconds.\" That stagger is what makes it look like continuous rings breathing outward instead of one circle awkwardly resizing. And the yellow one's dramatic collapse-into-void moment you see around five seconds isn't scripted specially \u2014 it's just the tertiary ripple's own keyframes, scaling out to eight times its size before opacity hits zero, so all twelve copies briefly empty out together before the next round starts.\n\nSo what looks like fluid, almost liquid wave physics is really just plain circles, offset in time, doing the exact same four-line animation over and over \u2014 the illusion of interference built entirely from repetition and timing, no math beyond a stagger.",
+  "cues": []
+}

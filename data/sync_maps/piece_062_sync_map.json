@@ -1,6 +1,7 @@
 {
   "piece": 62,
   "duration_ms": 77704,
+  "transcript": "Here's what you're looking at: a burst of pink arrows, all aimed inward at a tiny dark circle, sitting inside a set of faint concentric rings \u2014 like a target diagram that never quite resolves into a bullseye.\n\nNow look at the nesting in the DOM. The arrows live inside a group called \"what wanted this,\" which sits inside \"and what wanted that,\" which sits inside \"and before that.\" It's a literal infinite regress written into the markup \u2014 every layer asking who's responsible for the layer beneath it, and finding only another question. Then watch the blue lines fade in \u2014 the artist named that group \"discovered not decided.\" They're not drawn as if someone chose them; they're coded to simply appear, \"as if always there,\" already having happened.\n\nAnd that center point the arrows never reach? It's called \"the absent intender\" \u2014 a circle eight pixels wide, barely there, softly pulsing, holding the exact shape of a searchlight with nothing behind it.",
   "cues": [
     {
       "time_ms": 10635,

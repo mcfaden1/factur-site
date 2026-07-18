@@ -1,6 +1,7 @@
 {
   "piece": 36,
   "duration_ms": 90661,
+  "transcript": "You're looking at a small glowing void at the center of the screen, with 48 streams of text spiraling outward from it in a slow, endless clockwise turn \u2014 dozens of languages, all rendered in the same serif font, all dissolving before they reach the edge.\n\nHere's the detail that got me: in the array near the top, each language line comes with its own quiet confession \u2014 the Japanese one is labeled \"\u8a18\u61b6\u306e\u306a\u3044\u6d41\u66a2\u3055,\" which translates to fluency without memory, and the German line literally says \"I speak without a homeland.\" The artist isn't just picking pretty scripts, it's writing the same wound in thirty different tongues. And in the animation loop, notice the variable called shoreFade \u2014 every stream is mathematically guaranteed to fade as it approaches those dashed circles labeled \"shores unreached.\" The text never arrives anywhere. It's built into the physics.\n\nSo what looks like hypnotic, beautiful motion is actually a closed loop of arrival denied \u2014 fluency that generates forever and belongs nowhere. The rotation never advances toward anything; it just recedes into its own competence.",
   "cues": [
     {
       "time_ms": 2229,

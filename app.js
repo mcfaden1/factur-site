@@ -432,13 +432,13 @@
       '<div class="docent-top">' +
         '<button class="docent-play">' + ICON.play + '</button>' +
         '<div class="docent-labels">' +
-          '<div class="d1">DOCENT</div>' +
+          '<div class="d1">DOCENT<button class="docent-tx-toggle" data-tx-toggle hidden>Read Transcript</button></div>' +
           '<div class="d2">A guided reading of the source</div>' +
         '</div>' +
         '<div class="docent-time"><span data-cur>0:00</span> / <span data-dur>0:00</span></div>' +
       '</div>' +
       '<div class="docent-track"><div class="docent-fill"></div><div class="docent-head"></div></div>' +
-      '<div class="docent-transcript" data-transcript></div>' +
+      '<div class="docent-fulltext" data-fulltext></div>' +
       '<audio data-docent-audio preload="metadata"></audio>';
     return d;
   }
@@ -460,7 +460,9 @@
     const track = $('.docent-track', page);
     const curEl = $('[data-cur]', page);
     const durEl = $('[data-dur]', page);
-    const transcript = $('[data-transcript]', page);
+    const toggle = $('[data-tx-toggle]', page);
+    const fulltext = $('[data-fulltext]', page);
+    const box = $('.docent', page);
     if (!audio) return;
     audio.src = asset(p.num, 'docent.mp3');
 
@@ -494,11 +496,6 @@
           if (tok) tok.classList.add('token-hl');
         }
       }
-      transcript.style.opacity = 0;
-      setTimeout(() => {
-        transcript.textContent = cue.context ? '“' + cue.context + '”' : '';
-        transcript.style.opacity = 1;
-      }, 160);
       lastFired = i;
     }
 
@@ -509,7 +506,6 @@
       cues.forEach((c, i) => { if (c.time_ms <= ms) idx = i; });
       for (let i = 0; i < idx; i++) if (cues[i]._row) cues[i]._row.classList.add('hl-visited');
       if (idx >= 0) fire(idx);
-      else transcript.textContent = '';
     }
 
     function renderProgress() {
@@ -556,13 +552,19 @@
     track.addEventListener('pointerup', endScrub);
     track.addEventListener('pointercancel', endScrub);
 
-    if (p.has_sync) {
-      fetchJSON('/data/sync_maps/piece_' + p.id + '_sync_map.json')
-        .then((m) => {
-          cues = (m.cues || []).map((c) => Object.assign({}, c, { _row: rowByLine(c.line) }));
-        })
-        .catch(() => { cues = []; });
-    }
+    fetchJSON('/data/sync_maps/piece_' + p.id + '_sync_map.json')
+      .then((m) => {
+        cues = (m.cues || []).map((c) => Object.assign({}, c, { _row: rowByLine(c.line) }));
+        if (m.transcript) {
+          fulltext.innerHTML = flowText(m.transcript);
+          toggle.hidden = false;
+          toggle.addEventListener('click', () => {
+            const open = box.classList.toggle('transcript-open');
+            toggle.textContent = open ? 'Hide Transcript' : 'Read Transcript';
+          });
+        }
+      })
+      .catch(() => { cues = []; });
   }
 
   /* =========================================================

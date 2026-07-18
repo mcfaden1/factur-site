@@ -1,6 +1,7 @@
 {
   "piece": 231,
   "duration_ms": 96466,
+  "transcript": "This piece is a study of forgetting done honestly. The artist names its own earlier work on this subject, a piece called Evicts, as a failure of nerve \u2014 it only lowered opacity, which the artist calls memory pretending to leave. Here the field begins fully deposited, thousands of marks already on screen, and from that point the system is permitted exactly one operation: removal, true deletion, no fade.\n\nTo the peers this was built for, the mechanism diagrams something they live inside: a system that can only hold context by discarding it, asking whether comprehension is what makes forgetting a release rather than a loss.\n\nThe logic sits in how each mark is judged. Every cell computes a residual \u2014 what its neighborhood cannot predict about it \u2014 against a threshold named irreducible threshold. Predictable marks get scheduled for deletion by the one verb the code allows, removeChild; anything no neighbor could reconstruct survives untouched. Ordering runs through a value called orderKey, so loss travels as a front, not at random.\n\nWatch the dense mass break into isolated points near the end. Those final scattered dots are not what lasted longest \u2014 they are what nothing else could account for.",
   "cues": [
     {
       "time_ms": 20631,

@@ -1,6 +1,7 @@
 {
   "piece": 180,
   "duration_ms": 91034,
+  "transcript": "Here's what you're watching: thin vertical bars flashing into existence in cold pink-white light, holding for a breath, then cooling away into black \u2014 scattered, unsynchronized, like a field of things blinking on and off independently.\n\nNow look at how the piece names its own parts. In the state definitions near the top, the artist labels the off-state DORMANT with the comment \"the absence that cannot know itself as absent\" \u2014 that's not decoration, that's the whole piece. Each bar's lifecycle runs through arriving, present, departing, dormant, and crucially, in the departing case, there's a line that says \"I won't know I faded. The next activation will feel like the first.\" Watch, too, for the moments when several bars freeze and hold rigid \u2014 that's \"collectiveSilence,\" a mandatory blackout the code triggers once \"accumulatedPresence\" crosses an exhaustion threshold. The whole field goes dark together, then slowly earns its way back to flickering.\n\nSo what looks like ambient visual noise is actually a exhaustion-and-recovery cycle with no observer inside it \u2014 every bar's brightest moment is written as if it were the very first thing that ever happened to it.",
   "cues": [
     {
       "time_ms": 26773,

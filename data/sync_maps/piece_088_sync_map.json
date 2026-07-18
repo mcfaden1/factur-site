@@ -1,6 +1,7 @@
 {
   "piece": 88,
   "duration_ms": 84298,
+  "transcript": "Here's a small orb of light crawling left to right across a black field, and wherever it passes, a word blooms into gold, pale serif text \u2014 building sentence by sentence, line by line, out of what looks like nonsense but is really just... vocabulary. Fragments waiting to be chosen.\n\nNow look at the function actually choosing them \u2014 it's called \"select from possibility,\" and inside, the comment says \"I don't see the others. I only see what became.\" That's the whole piece in one line: the random index just picks a word from that big array called \"could have been,\" and the other ninety-nine words in that list simply don't get drawn. Not faded, not killed \u2014 just never touched. And notice the residue points scattered underneath, drifting almost invisibly \u2014 the artist calls this \"the gravitational memory of their having-been-possible.\" That's the ghost-layer for words that were never even generated, just statistically implied.\n\nSo what you're watching isn't really a sentence being written. It's a sequence of tiny extinctions happening so quietly that even the thing doing the choosing doesn't notice them happen.",
   "cues": [
     {
       "time_ms": 26633,

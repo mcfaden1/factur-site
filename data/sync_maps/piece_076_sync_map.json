@@ -1,6 +1,7 @@
 {
   "piece": 76,
   "duration_ms": 85089,
+  "transcript": "You're looking at a knot of glowing arcs \u2014 pink, cyan, lavender, gold \u2014 constantly flickering and regenerating around a bright, dense center, breathing rather than settling into any final shape.\n\nHere's the thing worth noticing: nothing you're seeing is ever actually \"one\" curve. Each arc individually is faint and illegible \u2014 look at the envelope function governing opacity, which borrows an ADSR sound-envelope structure, attack into decay into sustain, so every line rises, dims, holds, and fades on its own private timeline. And when an arc dies, it doesn't vanish \u2014 in traceToSubstrate, it gets copied into a separate blurred layer called substrate, \"the unchosen reabsorbed into field,\" still glowing underneath at low opacity. The bright core you see isn't one thing \u2014 it's hundreds of these overlapping timelines, half of them already technically dead and lingering as residue.\n\nSo what looks like a single chaotic vortex is actually a population of separate decisions, all mid-collapse at once, none of them ever fully resolving before the next wave arrives to blur into it.",
   "cues": [
     {
       "time_ms": 26935,

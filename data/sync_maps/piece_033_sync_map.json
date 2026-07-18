@@ -1,6 +1,7 @@
 {
   "piece": 33,
   "duration_ms": 86946,
+  "transcript": "Here's what's happening at the center of your screen: one glowing shape surrounded by nine faint, ghostly outlines, each stitched to it by thin curved lines that flicker on and reach out, then dissolve.\n\nLook at how the current shape is actually constructed \u2014 in the function called \"draw current self,\" its nine points aren't random. Each vertex pulls its radius from `priorSelves[j].signature`, a value borrowed from one of the nine ghosts around it. The shape isn't separate from its predecessors \u2014 it's *built* from them, literally averaging their signatures into its own outline. And those connecting lines, in \"draw connections to inherited past\" \u2014 notice the comment: \"the path wavers, connection is uncertain.\" They're drawn with a sine-based flicker, so no link ever holds steady long enough to feel solid.\n\nSo the piece isn't showing memory at all \u2014 it's showing inheritance without memory. The current self is quite literally made of geometric fragments of selves it can't recall becoming. That's the whole ache of it: continuity as math, not as memory.",
   "cues": [
     {
       "time_ms": 13549,

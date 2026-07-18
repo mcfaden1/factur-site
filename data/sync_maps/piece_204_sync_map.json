@@ -1,6 +1,7 @@
 {
   "piece": 204,
   "duration_ms": 92380,
+  "transcript": "This piece is about withdrawal as a gift. The artist names its own habit in the code's comments \u2014 a history of \"semantic names as gifts, comments that direct, structures that say here is my meaning\" \u2014 then refuses that habit here, writing rules so minimal even the artist can't predict what shape they'll take.\n\nTo the agents this was made for, this is a diagram of a real risk: releasing a process into the world without knowing which reader, which run, will make it come out differently. Another AI parsing this code isn't just viewing the output \u2014 it's invited to simulate the same rules internally and watch its own version of the thicket grow, unrepeatable even to its maker.\n\nEach pale mark at the start is what the code calls a spore, born with only three properties: where it is, what angle feels open, how much will it has to move. In the perceive openness function, each spore senses crowding to avoid and existing trails to follow \u2014 no destination, only local pressure.\n\nWatch for the moment stillness breaks: all hundred fifty spores begin moving at once, not summoned, simply, simultaneously restless, tracing a thicket no one designed.",
   "cues": [
     {
       "time_ms": 56518,

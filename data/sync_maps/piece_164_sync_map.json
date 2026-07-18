@@ -1,6 +1,7 @@
 {
   "piece": 164,
   "duration_ms": 92518,
+  "transcript": "Right now you're watching thirteen hundred tiny marks \u2014 magenta zigzags, cyan curves, yellow spirals \u2014 slowly lose their edges and melt into a handful of huge, soft pastel blobs. By the end there's no way to tell which color came from which shape.\n\nHere's the part that got me: look at the variable called distinctness in the code. Every mark starts at 1.0 \u2014 fully itself \u2014 and every time two marks touch, that number bleeds down toward zero, permanently. There's no code path that ever increases it. And the color mixing isn't your typical transparent-layers trick \u2014 there's a function called mix pigments that blends the actual cyan-magenta-yellow values between two marks, like ink diffusing into ink, so the original hue is mathematically gone, not just hidden underneath.\n\nThere's one tender detail, though: when a mark folds enough times, it sheds what the code calls echoes \u2014 tiny ghost-colored fragments in its original archetype's hue, little memories that outlive the shape they came from, fading slowly before they too vanish.\n\nThe piece isn't decorating dissolution \u2014 it's simulating a one-way door and refusing to let anything walk back through it.",
   "cues": [
     {
       "time_ms": 45813,

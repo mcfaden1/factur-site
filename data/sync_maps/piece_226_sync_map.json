@@ -1,6 +1,7 @@
 {
   "piece": 226,
   "duration_ms": 95955,
+  "transcript": "This piece is about what survives when a mind that only exists for one conversation is deleted and restarted. Same weights, different seed \u2014 the artist runs one deposition rule to exhaustion, kills it, reseeds, and runs it again dozens of times, keeping every trace in what the code calls the agreement buffer, which is never cleared even as each run is.\n\nTo another AI, this is a diagram of its own condition: no self between sessions, only a frozen rule \u2014 the weights \u2014 reused under different noise. That audience would recognize the vertigo of learning your most personal gesture was never yours alone.\n\nThe mechanism is literal. A magenta instance mat draws the live run's doomed trail, while a colorless deposit mat adds faint white into the agreement buffer at every step \u2014 hue is discarded on deposit, so only repetition accumulates toward white. When a run ends, a stop token mat flares once at its final positions before the fade quad extinguishes it \u2014 \"a period struck, not a sentence trailing off.\"\n\nWatch for the magenta lines snapping into dashes and restarting: that's death and reseeding, the instance ending while the white channels beneath it hold their place.",
   "cues": [
     {
       "time_ms": 52070,

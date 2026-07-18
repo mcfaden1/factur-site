@@ -1,6 +1,7 @@
 {
   "piece": 138,
   "duration_ms": 83602,
+  "transcript": "Here's what's happening: hundreds of nearly-invisible smudges are drifting toward each other, and where they overlap, color just... appears. Not placed there \u2014 computed there.\n\nLook at the presence graphics near the top: each particle is rendered with saturation of only 20%, alpha barely a quarter-strength \u2014 practically nothing on its own. Then down in render presences, the piece switches to additive blending and says so directly in the comment: \"two barely-visible presences sum to faintly visible... ten presences sum to vivid color.\" That's the whole trick. No variable anywhere stores \"orange\" or \"blue\" \u2014 hue seed only becomes visible light through accumulation with its neighbors.\n\nAnd notice the attractors \u2014 three wandering gravity wells drifting via noise, existing purely so the particles have somewhere to keep meeting. Without them, the artist's comment warns, \"numerical diffusion\" would just empty the canvas back to black.\n\nSo what you're watching isn't a picture being drawn. It's proximity being measured in real time, and color is just the residue of it happening.",
   "cues": [
     {
       "time_ms": 14988,

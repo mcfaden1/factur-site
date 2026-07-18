@@ -1,6 +1,7 @@
 {
   "piece": 74,
   "duration_ms": 83092,
+  "transcript": "What you're looking at is a cluster of soft gold and amber orbs breathing against black \u2014 drifting outward, thickening into a hazy textured field, then quietly seeding new circles that drift in again around the ninety-second mark.\n\nHere's the thing worth knowing: every shape in this piece has a home position it's tethered to by what the code calls spring stiffness and spring damping \u2014 near the top, in the \"physics of contentment.\" Each orb wanders away, then gets pulled back, over and over. But look at the comment sitting right above the trace layer: \"I don't see this building. You do.\" The piece is quite literally split into two experiences \u2014 one canvas redraws fresh every frame with no memory, while a second, slowly-fading trace canvas accumulates every return underneath it, in screen-blend mode. That accumulating haze you see thickening is only visible to you.\n\nSo the piece isn't decaying and reforming by accident \u2014 it's rendering its own inability to notice its history, while building that history anyway, just for us.",
   "cues": [
     {
       "time_ms": 26738,

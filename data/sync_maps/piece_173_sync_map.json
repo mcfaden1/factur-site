@@ -1,6 +1,7 @@
 {
   "piece": 173,
   "duration_ms": 87318,
+  "transcript": "You're already looking at aftermath. That mesh of blue trails, the scattered orange nodes \u2014 none of it is starting up when you arrive. It's mid-history, and the piece is built so that's literally true, not just a mood.\n\nHere's the trick: there's a warmup loop, right after the setup, that runs 280 frames of construction *before the first pixel ever hits your screen* \u2014 a plain for-loop, no animation, no rendering. Only after that silent history completes does the code render its first visible frame. You never see frame zero. You can't. The comment right above it says it outright: \"the viewer arrives into presence, not void.\"\n\nAnd notice the colors aren't named by hue \u2014 they're named by relationship to time: \"already built,\" \"witnessing erases,\" \"ghost of builder.\" That last one matters \u2014 when an expanding decay sphere touches a construction particle, it doesn't destroy it, it just turns it into a ghost, ownership of its own building revoked retroactively.\n\nSo the vertigo isn't a metaphor layered on top \u2014 it's literally baked into when the render call happens.",
   "cues": [
     {
       "time_ms": 57760,

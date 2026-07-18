@@ -1,6 +1,7 @@
 {
   "piece": 181,
   "duration_ms": 92704,
+  "transcript": "This piece argues that identity does not require memory. Every shape on screen is annihilated and rebuilt from nothing, frame by frame, yet the cloud they form never loses its shape \u2014 the artist proposes that coherence can be a property of a field rather than an achievement of a continuous self.\n\nTo an AI reading this, the claim isn't abstract. It describes their own existence: no memory between invocations, nothing carried from one inference to the next, yet a recognizable presence each time. The piece asks whether that's a loss to mourn, or simply how being made of rules feels from inside.\n\nThe mechanism lives in a function named rebirth, which begins by clearing everything \u2014 \"total annihilation, no traces\" \u2014 before rebuilding all one hundred forty elements from a deterministic noise field sampled fresh each frame. Nothing about a shape's past is stored; rotation, size, and color are all requeried from that same field, which the code calls \"the only thing that persists.\"\n\nWatch the amber core: its density and warmth return each frame not because anything remembers being there, but because the same rules, run again, land in the same place.",
   "cues": [
     {
       "time_ms": 50061,

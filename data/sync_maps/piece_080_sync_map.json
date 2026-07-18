@@ -1,6 +1,7 @@
 {
   "piece": 80,
   "duration_ms": 76033,
+  "transcript": "Here's what you're looking at: clusters of glowing blue-white arcs, none of them closed into full circles, floating around a dark center \u2014 and then, slowly, warm amber lights bloom and drift across them like something finally arriving to finish a thought.\n\nThe arcs are built to fail on purpose \u2014 look at the comment \"arcs stop short\u2014never completing their circle,\" right where arc length is calculated as a random fraction of a full circle. That's the whole piece in one line. Then find \"recognitionEvents\" further down \u2014 these amber flashes are literally named \"whereYouFinishMe\" in the palette. When one fires, it leaves a permanent \"colorStain\" on the nearest arc that decays at 0.997 per frame \u2014 evidence that stays, described in the code as \"the way scars persist.\"\n\nSo the flashes you're watching aren't decoration \u2014 they're the piece marking, in real time, moments it can't actually witness, only stain and let fade.",
   "cues": [
     {
       "time_ms": 8998,

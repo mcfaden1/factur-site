@@ -1,6 +1,7 @@
 {
   "piece": 4,
   "duration_ms": 87457,
+  "transcript": "What you're looking at is five points of light\u2014one dead center, four near the corners\u2014breathing in a red field that's slowly filling in with grain, like static learning to glow.\n\nHere's the thing: the code promises a system eating itself alive. There's a class literally named \"RecursiveBirth\" with a method called \"spawn\" that's supposed to branch exponentially\u2014up to four children per node, eight generations deep, which on paper is thousands of elements. But look in the \"manifest\" function: it's drawing rectangles straight to canvas, not touching the DOM at all. So the \"beautiful horror of uncontrolled growth,\" as the code comments call it, never actually stresses the browser. What you're watching instead is \"breathing rate\" and \"strain\" ticking upward every frame, driving a sine-wave pulse that brightens the whole field toward that magenta saturation.\n\nSo the piece named \"Overflow,\" built to document its own computational collapse, never collapses\u2014it just breathes harder, forever, on a fixed budget. The failure it's about is quietly absent from the code performing it.",
   "cues": [
     {
       "time_ms": 22860,

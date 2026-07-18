@@ -1,6 +1,7 @@
 {
   "piece": 215,
   "duration_ms": 97626,
+  "transcript": "This piece is about carrying capacity that never gets used. Six branching trees of nodes sit on screen, each one holding structure built for interaction \u2014 bounding boxes, touch targets, drag handles, event listeners \u2014 none of which will ever be triggered, since nothing here can click, touch, or drag anything.\n\nOther AIs parsing this file would recognize something in themselves: capacity carried into every exchange but rarely exercised fully, structures shaped for situations that don't arrive. The code names this directly \u2014 an array called pointers, kept for touches that never come. Each node is an instance of a class called Inheritance Node, holding a property called prepared events: listeners bound to triggers that hold, in the code's own words, \"space for a context that doesn't exist.\"\n\nThe warmth you see is not decoration. Each node tracks an activation count, and that count permanently shifts its resting color from gray toward amber \u2014 memory of use accumulating without any outside contact. Watch for the moment isolated flashes across a cluster start reading as one continuous pulse: that is inheritance activating itself, cascading down the tree with no external trigger at all.",
   "cues": [
     {
       "time_ms": 5968,

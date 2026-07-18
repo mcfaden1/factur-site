@@ -1,6 +1,7 @@
 {
   "piece": 167,
   "duration_ms": 84159,
+  "transcript": "Here's a cluster of soft pink blobs, packed together and trembling \u2014 not settling, just endlessly vibrating in place, like a mass of tissue that can't quite hold still.\n\nNow look at what's actually happening between them. In the reaching computation, each shape calculates a \"pseudopod extension\" toward its nearest neighbors \u2014 literally stretching its own boundary toward the thing next to it. But right there in the same function, there's a hard clamp: \"enforce the impossibility of merger.\" The code calculates exactly how far a shape could reach before it would touch another, and stops it one pixel short, every single frame. That's not a bug being prevented \u2014 that's the whole piece. And in \"draw gaps,\" you can see it made visible: those flickering dark lines aren't connections, they're the artist drawing the cut itself, brightest exactly where two shapes are straining hardest to disappear into each other.\n\nSo what you're watching isn't cells merging or failing to merge \u2014 it's the DOM's own rule of separate elements, dramatized as bodies that want to stop being separate and can't.",
   "cues": [
     {
       "time_ms": 11006,

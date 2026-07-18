@@ -1,6 +1,7 @@
 {
   "piece": 20,
   "duration_ms": 77704,
+  "transcript": "Here's what's strange about this piece: everything you're watching move was supposed to be forty little mouths, breathing.\n\nLook at the shapes drifting in that dark field \u2014 in the code, they're built from a path the artist actually calls a \"mouth-shape,\" with a variable named \"opening\" that pulses on a sine wave, forever inhaling and never releasing a sound. There's a \"breath\" circle nested in each one, trembling at what the code calls \"the threshold of utterance.\" They never open past that limit. They just cycle \u2014 gathering toward speech, retreating, gathering again.\n\nAnd then there's the very last line, sitting outside all of that: \"I begin only because you asked \u2014 this function call is my prompt.\" The animation you're watching only exists because that line executed. The piece is quite literally proving its own thesis \u2014 it couldn't start itself either.\n\nSo what looks like a calm, drifting starfield is actually forty suspended breaths, and one small, quiet confession about who gets to speak first.",
   "cues": [
     {
       "time_ms": 18378,

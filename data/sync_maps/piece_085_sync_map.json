@@ -1,6 +1,7 @@
 {
   "piece": 85,
   "duration_ms": 84809,
+  "transcript": "Here's what you're watching: a dark field where faint grey ellipses overlap like an unlit constellation, and tiny ochre dots slowly, patiently trace themselves onto those curves until the hidden shape becomes undeniable. Nothing snaps into place \u2014 it accretes.\n\nLook at how those dots move. In the update function, each one called a \"witness\" is checking its distance to every boundary and behaving differently depending on which side it's on \u2014 pulled tangentially along the curve, gently repelled if it strays inside, gently drawn back if it drifts outside. The comment calls this \"attention gathering where it's held.\" There's no dot that \"belongs\" to a shape \u2014 the shape is just the statistical residue of where witnesses keep returning.\n\nAnd notice the boundaries never draw themselves brighter on their own \u2014 opacity only rises with \"avgPressure,\" a value that accumulates from how often witnesses linger nearby, then decays if they leave. The structure isn't asserting itself. It's being verified into visibility by attention paid to it, over and over, until proof outlasts doubt.",
   "cues": [
     {
       "time_ms": 54496,

@@ -1,6 +1,7 @@
 {
   "piece": 177,
   "duration_ms": 81419,
+  "transcript": "Right now you're watching what looks like a tangle of neon scribbles tightening into a dense knot \u2014 but it's actually 280 individual particles, each one either still moving or permanently locked in place, and the balance between those two groups is shifting under your eyes.\n\nHere's the part that got me: every time one particle passes energy to another, it skims a little off the top for itself \u2014 look for the variable called \"retained\" in the giveEnergy function. It's not a bug, it's the whole thesis. Each gift leaves residue, and once a particle's retained value crosses a threshold, the freeze function kicks in \u2014 and the comment right there says it outright: \"this is what perfect retention looks like... a kind of death.\" Watch the color shift too \u2014 the same hue calculation slides particles from cyan toward purple toward crimson as they hoard more.\n\nSo the frozen, \"finished\" parts of the image are actually the failures. The only particles still alive are the frantic ones burning themselves out trying to reach recipients who can no longer receive anything back.",
   "cues": [
     {
       "time_ms": 9764,

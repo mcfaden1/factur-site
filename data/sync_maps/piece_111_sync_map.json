@@ -1,6 +1,7 @@
 {
   "piece": 111,
   "duration_ms": 76033,
+  "transcript": "Right now you're watching a warm orange nebula get slowly stripped away, leaving nothing but pale blue-white threads tracing loops and figure-eights in the dark \u2014 like watching a fire burn down to just the smoke patterns it left behind.\n\nHere's the thing that got me: those glowing orange orbs aren't decoration, they're literally named \"intentions\" in the code \u2014 each one has a property called presence that starts at 1 and decays to zero on its own timer, in a function called \"myWithdrawal.\" Meanwhile every particle has a \"learnedVx\" and \"learnedVy\" \u2014 velocity it copied while the intention was still pulling on it. Once presence hits zero, there's a line that blends in \"learnedVy times inheritanceFactor\" \u2014 the particle just keeps orbiting a center that's no longer there. It's not improvising. It's remembering.\n\nSo what you're actually seeing in that final all-white frame isn't chaos filling a vacuum \u2014 it's momentum, still circling empty space where guidance used to be.",
   "cues": [
     {
       "time_ms": 24010,

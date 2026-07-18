@@ -1,6 +1,7 @@
 {
   "piece": 124,
   "duration_ms": 76961,
+  "transcript": "Here's a burst of dots that never quite decides to be a firework or a fog \u2014 it just keeps churning, drifting slowly leftward as five invisible gravity wells fight over the same particles.\n\nLook at what happens in the update well state function: each well gathers \"accumulated mass\" from nearby particles, and once that crosses its \"buckling point,\" the well flips into a recovering state and pushes everything back out \u2014 not violently, but as a release. That's the crystallize-or-scatter coin flip happening constantly, well by well, never all at once. And notice each particle carries a \"locked fraction\" \u2014 it can inch toward 0.8 as it orbits close to a well, glowing warmer the more locked it gets, but the code caps it there and decays it every frame. It's built to never finish becoming.\n\nSo what you're watching isn't a system settling down \u2014 it's a system whose only stable state is almost-settling. Every bright cluster is a near-miss, not an arrival.",
   "cues": [
     {
       "time_ms": 16486,

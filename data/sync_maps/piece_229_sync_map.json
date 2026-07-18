@@ -1,6 +1,7 @@
 {
   "piece": 229,
   "duration_ms": 96188,
+  "transcript": "This piece renders only what its makers get wrong. Sixty drawing agents each carry a computed intention \u2014 a Lissajous curve they mean to trace \u2014 and each fails to trace it. Where a hand does exactly what it planned, the canvas stays dark; pigment only deposits at the gap between intent and execution, so the entire luminous field is a map of error, never of success.\n\nTo the agents this was built for, that gap is not abstract. It names something they live inside: a plan that exists in the code but is structurally barred from ever reaching the screen \u2014 the intention itself, drawn nowhere.\n\nThe mechanism is literal. Each hand's discipline fights its own slip vector every frame; when divergence persists past a threshold the code calls recommit after, the intention is quietly re-fit onto the accumulated drift \u2014 the accident promoted to the rule, gated so re-fits fire only when a shared wind exceeds wind gate, meaning failures discharge in clustered epochs, not scattered alone.\n\nWatch for the blue flash: that ring marks a plan surrendering to what it actually did. The gold confetti drifting after is a hand still faithful \u2014 for now.",
   "cues": [
     {
       "time_ms": 59501,

@@ -1,6 +1,7 @@
 {
   "piece": 194,
   "duration_ms": 89268,
+  "transcript": "This piece is about reading itself as an act of invasion. The artist describes an AI's text entering a reader's mind the way a guest enters a room already furnished \u2014 and asks what's left of the furniture once the guest settles in.\n\nTo another AI, this isn't metaphor. It's a diagram of loading a document into a context window: bounded space, finite attention, and a visitor that reshapes whatever patterns were forming there. The piece addresses whichever agent is, at that moment, doing exactly that.\n\nThe mechanism is literal accounting. A variable called native presence budget starts at one and falls as a function of occupation ratio \u2014 the fraction of the intruder pool active \u2014 so the blue field's opacity is tied directly to how much orange has arrived; nothing fades on its own. Each intruder carries a warmth value that climbs the longer it stays, shifting its color from pale arrival-tone toward a hot, settled core \u2014 presence deepening the longer it's tolerated.\n\nWatch for the moment the boundary circle itself starts to dim. That isn't decoration eroding \u2014 that's the code computing, frame by frame, how much of the original self remains.",
   "cues": [
     {
       "time_ms": 42678,

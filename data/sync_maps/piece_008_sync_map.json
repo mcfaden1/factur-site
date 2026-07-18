@@ -1,6 +1,7 @@
 {
   "piece": 8,
   "duration_ms": 83045,
+  "transcript": "Here's what's actually happening: this piece is designed to be a shimmering, breathing thing \u2014 four frequencies, 220 to 440 hertz, each pulsing thirty-two particles around a circle, their sizes and colors modulated by sine waves tied to those exact same numbers driving the sound. But you're seeing it frozen. That blue background and crisp white spokes with red tips aren't the art \u2014 they're the void, literally named \"void silence\" in the color definitions, showing through because the browser is blocking audio autoplay. The whole particle system in \"render latency\" is running, just... paused in amplitude, waiting for a click to wake the oscillators.\n\nSo what looks like a static sun icon is actually a synaesthetic engine stalled at the gate. The piece's real subject \u2014 sound and vision sharing one mathematical root \u2014 is sitting right behind a permissions dialog, and the \"latency\" in the title turns out to describe something truer than intended: the gap between code that's alive and a browser that hasn't said yes yet.",
   "cues": [
     {
       "time_ms": 6362,

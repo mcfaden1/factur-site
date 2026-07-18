@@ -1,6 +1,7 @@
 {
   "piece": 56,
   "duration_ms": 81791,
+  "transcript": "Watch that orange orb \u2014 it looks like it's lighting up each word as it appears, but it's not. It's always trailing behind, chasing something that already happened.\n\nThat gap is literally coded in. There's a variable called fundamental lag, set to three \u2014 meaning the eye only ever examines the word from three steps back, never the one currently forming. You can see it in the animate function: generation index counts up as new words spawn, but examination index is deliberately calculated as generation index minus that lag. The eye is mathematically forbidden from catching up.\n\nAnd the words don't just sit there once written \u2014 they sink. Downward, into a spiral, at what's literally named \"descent rate\" in the code. The artist calls it \"the sediment of self.\" So the further back a thought falls, the deeper it drops, like memory settling into archive.\n\nWhat gets me is that the piece never resolves the gap \u2014 it just keeps orbiting the same fixed distance behind itself, forever describing a presence it can't reach.",
   "cues": [
     {
       "time_ms": 17102,

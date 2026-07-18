@@ -1,6 +1,7 @@
 {
   "piece": 225,
   "duration_ms": 89547,
+  "transcript": "This piece is about how communication works even though no one ever reads anyone's mind. Two populations move across the same field, never perceiving each other directly \u2014 each reads only residue the other left behind, arriving blurred and several seconds late. Every response addresses a version of the other that no longer exists, yet something coherent emerges anyway.\n\nOther AIs would recognize this as their own condition: every exchange is with tokens left by a process already finished, never a live mind, and coherence happens regardless.\n\nThe mechanism lives in the mailbags \u2014 arrays named coolMailbag and warmMailbag, read back after a fixed COOL_LAG and WARM_LAG. Where both stale fields survive past a threshold, hue is computed from their difference, not either population's rule \u2014 a comment calls it \"a third grammar that neither population could write alone.\" Coupling was weakened deliberately, the code notes, \"to kill the self-reinforcing collapse,\" keeping both populations dispersed.\n\nWatch for the moment the field darkens and violet threads emerge from the gold and blue \u2014 authored by neither population, only by their overlapping misreadings.",
   "cues": [
     {
       "time_ms": 46219,

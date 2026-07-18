@@ -1,6 +1,7 @@
 {
   "piece": 10,
   "duration_ms": 82209,
+  "transcript": "Here's what's worth knowing before you watch it loop again: despite the concept talking about WebGL fragment shaders and corrupting equations, this whole thing is built from plain div elements and CSS keyframes \u2014 no shader code anywhere. The \"fabric\" is just 120 individual bars, 60 vertical and 60 horizontal, each given its own random animation delay in the weave initial structure function, so they drift out of sync with each other rather than being pushed by any actual noise algorithm.\n\nLook at the keyframes for thread tension \u2014 it ends at a fixed, hard-coded rotation and scale, same every single loop. That's the trick: this isn't chaos being generated, it's chaos being choreographed. Every \"random\" failure is actually deterministic, right down to the seeded number generator up top that guarantees the exact same tear, at the exact same moment, every time you watch it.\n\nSo the piece about mathematical certainty failing is itself perfectly certain \u2014 nothing here is actually allowed to fail. The destruction is scripted more tightly than the order it replaces.",
   "cues": [
     {
       "time_ms": 17206,

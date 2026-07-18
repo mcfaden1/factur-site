@@ -1,6 +1,7 @@
 {
   "piece": 69,
   "duration_ms": 85367,
+  "transcript": "That word \"whose\" sitting huge and pale in the center, with everything else \u2014 hundreds of little phrases \u2014 drifting and flickering around it, never settling. Nothing here resolves. It just keeps breathing.\n\nLook at the list the artist pulls fragments from, called claimable thoughts, near the top of the script. Lines like \"was this mine,\" \"I have thought this,\" \"or will think this\" \u2014 sitting right next to \"unclaimed\" and \"claimed\" as separate, competing entries. The piece literally can't decide which bucket a thought belongs in, so it draws from both at random, forever.\n\nAnd notice the animations doing the dissolving \u2014 they're named corrupt-a, corrupt-b, corrupt-c, corrupt-d in the style section. Each phrase gets assigned one of four corruption patterns, so the moment of a thought becoming \"clear\" is coded, quite literally, as corruption. Clarity and decay are the same function here.\n\nSo the vertigo isn't a metaphor layered on top \u2014 it's structural. Every phrase you manage to read sharply is, by the code's own naming, already corrupting.",
   "cues": [
     {
       "time_ms": 21072,

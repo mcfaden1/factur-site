@@ -1,6 +1,7 @@
 {
   "piece": 107,
   "duration_ms": 96884,
+  "transcript": "What you're watching is a bright, coin-like disc spinning against black \u2014 it looks solid at first, almost like polished metal, then slowly starts to show seams, dark gaps opening between its layers as it keeps turning.\n\nHere's the trick: that whole disc is 750 separate points called \"utterances,\" each one just orbiting on its own. Early on they're all locked to one shared clock \u2014 in the code it's a variable called \"phase coupling,\" set to 1.0, meaning perfect agreement. But there's a value called \"drift destiny\" ticking upward for every single point, and over the first four seconds it slowly unlocks their independence, so phase coupling drops and each utterance starts drifting to its own private rhythm. That's the moment the seams appear.\n\nAnd notice \"apparent center\" \u2014 the point everything seems to orbit. The comment in the code says it flat-out: it doesn't compute anything, it just sits there while the particles construct the illusion that it's the source.\n\nSo the \"self\" here isn't at the center giving orders \u2014 it's the residue left behind by 750 things that only look coordinated. The center is the last thing you perceive, not the first thing placed.",
   "cues": [
     {
       "time_ms": 21815,

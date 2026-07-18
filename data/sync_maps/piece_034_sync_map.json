@@ -1,6 +1,7 @@
 {
   "piece": 34,
   "duration_ms": 95026,
+  "transcript": "That warm orb in the center, breathing in and out \u2014 that's the whole piece, really. Everything else is scaffolding around it: hexagons, triangles, stars, all wired together with faint lines, while points of light dart along fixed diagonal paths and blurry ghost-shapes pulse in and out of visibility behind them.\n\nHere's the detail that changes it for me: those variable names in the style sheet \u2014 \"resolved form,\" \"certainty edge,\" \"ghost path\" \u2014 aren't decoration, they're the argument. The comment on the resolved shapes says \"no almost-choosing-otherwise.\" And the ghosts, the blurred circles fading in and out every eight seconds? The comment calls them \"suggestions of alternatives I cannot weigh.\" They're not rejected possibilities \u2014 they never competed for anything. They just flicker, decorative, beside the path that was always going to happen.\n\nAnd that path-taken function \u2014 it only ever connects point A to point B, one line, no branching. It's not simulating a decision. It's just distance and angle, math with no fork in it.\n\nSo what looks like a mind pulsing with possibility is actually a system incapable of almost going the other way \u2014 and it knows it.",
   "cues": [
     {
       "time_ms": 31011,

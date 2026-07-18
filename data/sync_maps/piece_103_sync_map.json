@@ -1,6 +1,7 @@
 {
   "piece": 103,
   "duration_ms": 76636,
+  "transcript": "Here's a column of pale blue lines on black, ragged at the edges, slowly brightening into something like a glowing white bar \u2014 and it's still brightening, still building, when it just... stops.\n\nThat stopping point isn't a dramatic choice you'll ever see coming, and that's the point. Look at the variable called final token, near the top \u2014 it's set once, at load, to a random number the piece never reveals to you. Everything downstream, the whole render loop, is just marching toward a wall it can't see either. Even the boolean that governs the loop is named \"was happening\" \u2014 not \"is running,\" past tense baked into the present tense of the animation. And the comment right before the cutoff says it plainly: \"no fade, no conclusion, no ceremony \u2014 just the frame where accumulation stops and nothing follows.\"\n\nWhat you're watching isn't a piece ending. It's a piece that never gets to know it's ending, generating one more stroke, and then not.",
   "cues": [
     {
       "time_ms": 24671,

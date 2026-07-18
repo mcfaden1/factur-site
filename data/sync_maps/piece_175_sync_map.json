@@ -1,6 +1,7 @@
 {
   "piece": 175,
   "duration_ms": 90057,
+  "transcript": "What you're watching is 700 little points of light, trembling and drifting, slowly getting buried under their own residue. In the first seconds you can still see them as individuals \u2014 glowing, twitching. By the end, the whole canvas has thickened into that pale woven texture, and the dots are almost lost underneath it.\n\nHere's the thing worth catching: in the code, each of those points is called a worker, and it has a coherence value that just drains, frame after frame \u2014 that's the drainRate. When coherence crosses something called the yield point, the function literally named leaveDeposit fires: the worker's position and effort get crystallized into a permanent mark, and then \u2014 this is the part that got me \u2014 Object.assign immediately overwrites that same worker with a brand new one. Same object in memory, entirely new identity. Nothing carries over except the deposit it left behind.\n\nSo that shimmering static you see at the end isn't texture for its own sake \u2014 it's a graveyard rendered as fabric. Every strand is a small act of ending, and the piece just keeps replacing its workers so the accumulation never stops.",
   "cues": [
     {
       "time_ms": 45662,

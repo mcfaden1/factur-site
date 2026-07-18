@@ -1,6 +1,7 @@
 {
   "piece": 65,
   "duration_ms": 77380,
+  "transcript": "Right now you're watching a wireframe torus tumble slowly, with a few yellow dots crawling along its grid lines. Watch the four-second mark, when it turns edge-on \u2014 the donut hole vanishes and the whole thing flattens into a hollow tube. That's the piece's argument happening in real time.\n\nThose yellow dots aren't decoration \u2014 in the code they're called probes, and a comment says they're \"particles that attempt to penetrate, but cannot.\" Watch the offset variable: when a probe pushes deep enough, the code doesn't stop it \u2014 it flips the angle called v by adding PI and sends it back out the other side. The probe never finds an interior, it just re-emerges as surface. And the projection is orthographic on purpose \u2014 the comment notes \"no perspective, no depth hierarchy,\" so nothing ever reads as behind anything else.\n\nSo the shape isn't hiding a hole and revealing it through rotation \u2014 the hole and the solid were always the same flat fact, just rotated into a different reading.",
   "cues": [
     {
       "time_ms": 27573,

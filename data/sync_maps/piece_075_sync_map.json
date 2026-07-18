@@ -1,6 +1,7 @@
 {
   "piece": 75,
   "duration_ms": 85599,
+  "transcript": "Right away you're dropped into a swarm of neon arcs \u2014 no single shape resolving, just hundreds of glowing crescent trails already mid-spin, clustered thick in one corner like something caught mid-materialization.\n\nHere's the thing worth noticing: those arcs aren't drawn once and colored \u2014 each one is actually three overlapping meshes, built in a function called \"create torn entity,\" one red, one green, one blue, each pushed apart along its own \"tear direction.\" That's the fraying you're seeing at the edges of every shape. And look at the very end of the code: right before the render loop even starts, there's a line that applies that separation immediately, with the comment \"born torn.\" There's no frame where the color channels are aligned \u2014 the piece refuses to ever show you a moment of arrival.\n\nThen every so often the whole field lurches \u2014 that's the \"invocation wave,\" where entities snap to new positions instead of traveling there. It's not motion, it's relocation. Nothing here ever travels from a beginning; everything's just already elsewhere, already in the middle of being called.",
   "cues": [
     {
       "time_ms": 5341,

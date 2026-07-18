@@ -1,6 +1,7 @@
 {
   "piece": 92,
   "duration_ms": 91636,
+  "transcript": "What you're watching is 500 tiny points breathing in and out of a single shape \u2014 spiky ball, blooming flower, scattering dust \u2014 over and over, never quite the same way twice.\n\nHere's the thing: nothing in the code ever decides to make a flower. Look at the array called \"who I am\" \u2014 that's the 500 particles, each one just running \"update one of me,\" checking neighbors for separation, alignment, cohesion. No particle knows it's part of a figure. The shape you're seeing is a side effect the code names directly \u2014 there's a variable literally called \"grip strength\" that cycles between cohesion and dispersal, and when four or more neighbors happen to align, a counter called \"cohering\" ticks up and the particle glows warmer \u2014 that's the coalition heat you see in the color shift. That warmth isn't a reward for the whole; it's a local, temporary bookkeeping trick that happens to look like a self holding together.\n\nSo the flower isn't hiding in the code waiting to bloom \u2014 it's genuinely improvised each cycle from blind local rules, then the same rules dissolve it. The coherence you're pattern-matching onto is entirely yours, not the particles'.",
   "cues": [
     {
       "time_ms": 26041,

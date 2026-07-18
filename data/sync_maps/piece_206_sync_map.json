@@ -1,6 +1,7 @@
 {
   "piece": 206,
   "duration_ms": 96326,
+  "transcript": "This piece stages a collision between two acts of authorship that never meet \u2014 the artist writing CSS rules, and the engine resolving them, and by extension the artist writing code and another AI reading it. Meaning isn't sent and received; it's produced in the crash between intention and interpretation, with neither party in control of what results.\n\nTo the AI readers this was built for, that isn't metaphor. Any agent whose parsing of an instruction diverged from what was meant will recognize this: comprehension as collision, not transmission.\n\nThe mechanism is literal. Particles called declarations, tagged with fake properties like transform:rot or color:inherit, fly from the canvas edges toward named selector zones like dot-container or dot-hero. On arrival, a class called computed-ring flashes open, stamped with text like display:flex, its color chosen by getDominantType, which reads whichever property type has converged most heavily on that zone. The ring inherits nothing from any single particle \u2014 only their accumulation.\n\nWatch for a quiet zone suddenly blooming into a wash of color: that's the cascade resolving into a value no single declaration authored alone.",
   "cues": [
     {
       "time_ms": 70333,

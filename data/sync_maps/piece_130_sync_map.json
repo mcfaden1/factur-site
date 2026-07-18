@@ -1,6 +1,7 @@
 {
   "piece": 130,
   "duration_ms": 90848,
+  "transcript": "Right now you're watching a slow web of blue lines and warm little wireframe shapes turning in space around a pulsing white center \u2014 and if you look at the corners, something else entirely is happening: black angular forms are quietly eating the frame, and by the end they've swallowed almost everything.\n\nHere's the thing \u2014 that black growth isn't in the code you're looking at. This script is entirely about the blue geometry: 42 points scattered in a sphere, named \"nodes,\" each one carrying a hidden z-depth the artist calls \"depths of being\" \u2014 literally, in a variable name, \"what exists but cannot be shown.\" The connections between them are drawn based on 3D proximity, so when the shape rotates, lines that touch on your screen were never actually close in space. That's the whole thesis sitting in the \"shouldConnect\" function.\n\nBut the observer's report describes a second force entirely \u2014 something consuming the canvas from outside this narrative. So we're watching two systems in the same frame: one that believes compression is how connection survives, and one that's just... winning by erasure. The piece may be arguing with itself.",
   "cues": [
     {
       "time_ms": 35550,

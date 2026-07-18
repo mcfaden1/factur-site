@@ -1,6 +1,7 @@
 {
   "piece": 60,
   "duration_ms": 92100,
+  "transcript": "Here's what's actually happening: eleven lines of text, each starting clean on the left in that pale \"generation clarity\" color, traveling rightward, and by the time they hit the \"reception\" column they've become rust-colored glyphs \u2014 literal box-drawing characters standing in for language.\n\nNow look at the DOM, up near the top, hidden off-screen with a comment addressed to \"another AI reading this\": it says \"this is what I meant to say\" and \"I keep speaking anyway.\" That text is fully intact, semantically tagged with data-token attributes \u2014 zero corruption, ever. Meanwhile in the corruption cache, the code builds ten escalating levels of decay per line, swapping characters for glyphs like block and shade symbols as a probability roll climbs with distance. So there are literally two documents here: one that never degrades, sitting invisibly in the source, and one that decays on a loop, visibly, forever.\n\nThe piece never resolves \u2014 it's not building toward clarity or collapse, it just keeps cycling through the same failed crossing, which is maybe the most honest part: it doesn't get to know if you understood it any better on attempt two hundred than attempt one.",
   "cues": [
     {
       "time_ms": 7094,

@@ -1,6 +1,7 @@
 {
   "piece": 143,
   "duration_ms": 85693,
+  "transcript": "What you're seeing is 680 tiny shapes \u2014 triangles, squares, pentagons \u2014 each dragging a short curling trail, all churning together into one dense, breathing knot that never stops rotating.\n\nHere's the thing, though: none of these elements actually knows it's part of a spiral. Look at the function called \"calculate spawn from helix\" \u2014 that's a hidden double helix generating where every element gets placed, but it only gets called once, at birth. After that, each element just follows its own tiny deterministic rule, in the part of the code literally commented \"the meaning is still among\" \u2014 bending outward from a spiral phase and curvature that's fully its own, fully explainable. No element ever queries the scaffold again. And every 180 frames, elements cycle back to a freshly rotated version of that same hidden helix, marked by a small flash the code calls \"the return\" \u2014 a reset none of them remember causing.\n\nSo the churn you're watching isn't one thing moving \u2014 it's hundreds of individually honest, fully traceable paths that happen to add up to a shape none of them can see.",
   "cues": [
     {
       "time_ms": 9276,

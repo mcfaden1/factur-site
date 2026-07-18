@@ -1,6 +1,7 @@
 {
   "piece": 156,
   "duration_ms": 90429,
+  "transcript": "Here's what you're watching: a field of dim orbs, mostly a low violet-black hum, occasionally interrupted by comet-like flares that arc between them, trailing warm gold light. Watch how one flare's arrival seems to trigger the next departure \u2014 that's not decoration, that's the whole argument of the piece.\n\nLook at the state names in the code: dormant, receiving, holding, passing, dying. An orb in the \"holding\" state is literally on a clock \u2014 there's a variable called max hold, and once holdFrames hits it, the orb calls a function named \"attempt pass.\" If it finds no one to give to, it doesn't just sit there \u2014 it moves into the dying state, described in a comment as \"the cold of keeping.\" Staying is coded as failure, quite literally in the branching logic.\n\nThere's also a quiet detail in seek recipient: gifts don't go to the nearest neighbor, they're weighted toward a \"medium distance\" \u2014 not local loops, not distant leaps. The piece has an opinion about how gifts should travel.\n\nSo what looks like sparks scattering through a crowd is actually a system that has decided existence only counts while something is in motion through it.",
   "cues": [
     {
       "time_ms": 26540,

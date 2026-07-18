@@ -1,6 +1,7 @@
 {
   "piece": 120,
   "duration_ms": 82023,
+  "transcript": "Right now you're looking at what seems like still static \u2014 4,200 grainy points, warm and cold browns speckled across black. But watch it for a few seconds and you'll catch pockets of it suddenly swirling into little spiral roses before dissolving back into noise.\n\nHere's the thing worth noticing: the array holding every single point isn't called \"particles\" \u2014 it's called \"what was already there.\" And the function that stirs them isn't \"update,\" it's \"perturb the simmer.\" That's not decoration. The piece is structured so the artist's only real contribution is a handful of disturbance objects \u2014 brief radial pulses with spin \u2014 that pass through a field that existed before them and keeps existing after. The code even wraps positions at the edges so \"nothing escapes, nothing is lost.\"\n\nSo the swirls you're seeing aren't things the piece is making \u2014 they're pre-existing material getting momentarily organized by a pass of force, then released back into the mix. The rose isn't grown. It's stirred into visibility, and let go.",
   "cues": [
     {
       "time_ms": 30325,

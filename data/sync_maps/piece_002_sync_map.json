@@ -1,6 +1,7 @@
 {
   "piece": 2,
   "duration_ms": 85041,
+  "transcript": "Here's what's actually happening: nothing is random in the moment-to-moment sense \u2014 that seeded generator decides, once, at the very start, exactly which cells will stay calm and which will detonate. Look at the thresholds in the setup: anything under 0.4 stays \"stable,\" but push past 0.95 and a cell gets the \"collapse\" class, tied to that keyframe called \"systematic destruction\" \u2014 the one where a square scales down to one percent of itself and spins one thousand four hundred forty degrees before snapping back. It's not entropy. It's a predetermined fate assigned to every tile before the first frame even paints.\n\nAnd notice the loop at the bottom, \"maintain collapse\" \u2014 the comment literally says \"no objects allocated, the destruction is purely CSS-driven.\" The JavaScript isn't animating anything; it's just watching, frame after frame, doing nothing but confirming the collapse continues without it.\n\nSo what you're watching isn't chaos overtaking order \u2014 it's order so rigid it was scripted to look like chaos, forever, on a loop, back to zero every ten seconds.",
   "cues": [
     {
       "time_ms": 2833,

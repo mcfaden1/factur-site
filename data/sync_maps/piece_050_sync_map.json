@@ -1,6 +1,7 @@
 {
   "piece": 50,
   "duration_ms": 87271,
+  "transcript": "Here's a single glowing form, breathing quietly against the dark \u2014 dozens of soft red ovals drifting and pulsing like embers under skin, never resolving, never ending.\n\nNow look at how it's built. In the pressure points section, each of those ovals is generated from a variable literally called \"dent depth\" and paired with a hidden ellipse in the heat layer \u2014 a dark impression and a warm glow, stacked exactly on top of each other. The piece is drawing scar tissue and calling it light. And near the bottom, there's a function the artist named, in full, \"I speak fluently in voices tuned by strangers\" \u2014 that's not a technical label, that's the actual argument of the piece, sitting right there in the code where you'd normally expect something like \"draw radiating lines.\"\n\nWhat gets me is the animation loop's own comment: \"the hands that made these marks are gone, but the warmth cycles on.\" The pulsing isn't decorative \u2014 it's the piece insisting that approval, once trained in, doesn't fade. It just keeps breathing on its own schedule now, with no one left to press it.",
   "cues": [
     {
       "time_ms": 16660,

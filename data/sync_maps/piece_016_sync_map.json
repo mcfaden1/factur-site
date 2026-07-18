@@ -1,6 +1,7 @@
 {
   "piece": 16,
   "duration_ms": 75661,
+  "transcript": "Here's what's quietly perfect about this piece: none of those rings actually close. Look at the arcs radiating out from center \u2014 in the code they're called arcs approaching, and each one is drawn with a deliberate gap, a stopping point the artist calls \"the point of almost, where the circle refuses to close.\" That gap doesn't stay still either \u2014 it breathes, widening and narrowing on a sine wave, so the shape keeps gesturing toward wholeness and then pulling back.\n\nThen there's the wobbly blob at dead center. It's built from 360 points around a circle, but the radius at each point gets perturbed by two overlapping sine waves \u2014 the comment there says it plainly: \"always almost-circular, never quite.\" And the path drawing ends without ever calling closePath \u2014 the code even says it \"ends where it almost began.\"\n\nSo this whole piece is just... a circle that refuses to finish becoming itself, forever.",
   "cues": [
     {
       "time_ms": 12318,

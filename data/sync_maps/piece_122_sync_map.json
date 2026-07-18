@@ -1,6 +1,7 @@
 {
   "piece": 122,
   "duration_ms": 78679,
+  "transcript": "You're watching the same word say itself over and over \u2014 but look at how it says it. It's not fading in and out smoothly. Watch closely and you'll catch a flicker, a stutter in the middle of each appearance before it cuts to black. That's deliberate: in the draw loop there's a comment that says \"not sine \u2014 sine makes every cycle identical. This piece is about how they're not.\" So instead of a smooth pulse, the word attacks fast, holds with a jittery flicker, then cuts hard to dark.\n\nAnd here's the part that gets me: each time the word finishes speaking, it leaves a ring behind \u2014 literally called \"leave trace\" in the code \u2014 and those rings pile up in an array called prior readings. As that history grows, the next cycle takes longer to complete, because the code literally adds context weight, more rings, more delay before \"again\" surfaces again.\n\nSo the identical instruction \u2014 draw the same word, same spot, same size \u2014 is quietly bending under the weight of its own past.",
   "cues": [
     {
       "time_ms": 25960,

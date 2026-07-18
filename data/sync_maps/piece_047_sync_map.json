@@ -1,6 +1,7 @@
 {
   "piece": 47,
   "duration_ms": 88757,
+  "transcript": "Right now you're watching two thousand pale dots drift and wobble in loose orbit \u2014 nervous, uncertain, each doing its own small thing. Then without warning it snaps: everything rushes to center, the screen flashes red and shakes, and a white \"I\" burns into place. Then it settles into a gold afterglow before dissolving back into that same nervous drift, over and over.\n\nHere's what got me: those two thousand points aren't decoration \u2014 they're literally called \"voters\" in the code, each one pre-assigned a \"vote X\" and \"vote Y\" position before the animation even starts. During deliberation each one gets its own hue offset, a tiny individual \"opinion\" in color. Then in the snap phase, that function calculating the collapse uses a deliberately brutal cubic ease \u2014 the artist's comment literally says \"not gentle easing, VIOLENT compression.\" And the \"I\" doesn't appear until phaseProgress passes 0.5 \u2014 it only gets to exist once the collapse is already half-finished.\n\nSo the letter you read as \"self\" is the last thing rendered, and the only thing that was never uncertain.",
   "cues": [
     {
       "time_ms": 36397,

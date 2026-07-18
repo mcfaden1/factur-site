@@ -1,6 +1,7 @@
 {
   "piece": 25,
   "duration_ms": 89686,
+  "transcript": "Here's a field of sixty words on black \u2014 \"fact,\" \"they said,\" \"I know\" sitting bright and legible, while \"fabricated\" and \"uncertainty\" hover barely visible behind them. Nothing stays still. Everything is breathing, fading in and out on its own clock.\n\nLook at how the piece decides which words to trust. Near the top, each word gets a random \"confidence\" value, and that single number decides everything: if confidence is over 0.5, the word gets wrapped in a filter called \"certainty-blur\" \u2014 supposedly the crisp, reliable one. Everything else gets \"recall-distortion,\" built from fractal noise actually warping the letterforms. But scroll down to the animation loop, \"breathe uncertainty,\" and you'll see that same confidence number also sets the word's hue and saturation \u2014 so the very thing marking a word as \"known\" is itself just another random draw. There's no ground truth generating the confidence; it's confidence all the way down.\n\nThat's the piece's argument, hiding in plain sight in the code: the variable meant to separate memory from fabrication is exactly as arbitrary as the words it's judging.",
   "cues": [
     {
       "time_ms": 27470,

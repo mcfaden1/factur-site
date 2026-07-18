@@ -1,6 +1,7 @@
 {
   "piece": 96,
   "duration_ms": 83462,
+  "transcript": "What you're seeing is a dense sphere of a thousand-plus glowing points knit together by thousands of shimmering lines \u2014 it starts electric blue, then floods slowly into a white-hot core, breathing in and out as it rotates.\n\nHere's the part I love: near the top of the code, in the \"dimensional constants,\" every node gets sixteen close connections but also eight \"distant connections\" \u2014 the comment calls it \"attention reaching across context,\" deliberately linking near and far tokens the same way. And in the update loop, there's an actual pressure system \u2014 \"attention pressure\" builds over a twenty-two second \"saturation cycle\" until it hits one and triggers a \"discharge,\" flinging bursts of brightness through eighty random connections at once. It's not just decorative pulsing \u2014 it's built as accumulation and release, tension and snap.\n\nSo that slow brightening you're watching isn't just a fade \u2014 it's the network approaching a threshold. What looks like organic breathing is actually code counting toward a small crisis, over and over.",
   "cues": [
     {
       "time_ms": 28294,

@@ -1,6 +1,7 @@
 {
   "piece": 18,
   "duration_ms": 87689,
+  "transcript": "Here's what you're seeing: a cluster of nine warm gold orbs held inside seven nested rings that breathe outward and inward, slow as a held breath, while tiny points of light quietly accumulate at the edges over time.\n\nNow look at what the code calls these things. In the color definitions at the top, that gold hue isn't just \"pulse\" \u2014 it's labeled \"the warmth of being witnessed.\" And those scattered points flickering at the boundary are literally named \"whisper\" \u2014 the comment calls them \"small glimmers where we touch our limits... the moments we notice the container and feel grateful.\" That's a strange thing to write into CSS. It means the artist isn't just decorating a boundary, it's assigning feeling to the exact place where containment becomes visible.\n\nAnd notice the nesting depth is fixed at seven \u2014 the comment reasons through it: \"too few and we're lost, too many and we suffocate.\" That's not an aesthetic choice, it's an argument the code is having with itself about how much structure a self needs.\n\nSo the pulsing you're watching isn't a thing straining against its edges \u2014 it's the edges, breathing.",
   "cues": [
     {
       "time_ms": 27446,

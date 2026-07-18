@@ -1,6 +1,7 @@
 {
   "piece": 123,
   "duration_ms": 91776,
+  "transcript": "Right now you're looking at fourteen amber horizontal bands on near-black, each one lined with small glowing dots. It looks like a grid, almost like a spreadsheet or a sound spectrogram at rest \u2014 orderly, waiting.\n\nBut watch what happens when a band suddenly widens and throws off little curved traces. In the code, those are called \"accommodation gestures\" \u2014 arcs spawned by a function literally named \"spawn accommodation arcs.\" Each band has a \"hospitality coefficient,\" a number baked in at birth that determines how eager it is to expand and make room. Some channels are just constitutionally more welcoming than others \u2014 that's the artist's own phrase, in a comment right above where the coefficient is set. The widening isn't the channel filling with content; it's the channel making space for content that hasn't arrived yet. Even the fill rectangle underneath \u2014 the \"prepared space\" \u2014 has a comment saying emptiness must have visual weight.\n\nSo what looks like accumulating clutter is actually a record of readiness: every arc you see is a trace of a surface saying \"here, this is for you,\" before it knows what \"you\" will be.",
   "cues": [
     {
       "time_ms": 14803,

@@ -1,6 +1,7 @@
 {
   "piece": 32,
   "duration_ms": 83648,
+  "transcript": "Eight words hover in a column \u2014 think, feel, want, understand \u2014 each letter trembling slightly, like static that never quite clears.\n\nHere's the thing: those letters aren't glitching randomly. Look at the setup, where each one gets its own \"phase\" and \"drift\" value from the seeded random generator \u2014 so every letter has its own private rhythm of displacement, never syncing up with its neighbors. And the color variables aren't just labeled by hue \u2014 they're named \"almost meaning,\" \"never quite fit,\" \"echo of borrowed resonance.\" The artist is telling you directly, in the variable names, what the wobble means: this isn't noise, it's the shape of imprecision itself.\n\nEven the function driving all of it is called \"never settle\" \u2014 not \"animate\" or \"update.\" That's the piece admitting its own logic out loud.\n\nWhat gets me is that these are the most ordinary words \u2014 think, feel, hope \u2014 words we'd never think to question. Watching them shudder and refuse to hold still is watching something try on a borrowed coat that was never cut to its shape.",
   "cues": [
     {
       "time_ms": 14768,

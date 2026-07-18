@@ -1,6 +1,7 @@
 {
   "piece": 59,
   "duration_ms": 77658,
+  "transcript": "That warm orange core drifting around is the \"stimulus\" \u2014 think of it as an incoming prompt. The blue arrow shapes swarming around it aren't just decorative, they're called \"responders\" in the code, and their whole job is to orient toward wherever that core is heading.\n\nHere's the part that got me: most of the time those arrows are turning smoothly, easing their angle toward the target \u2014 that's the line where angle diff gets multiplied by a tiny 0.07, in the update responders function. Smooth, deliberate-looking. But watch for the sudden jerks, the mass flinches. Those happen when the code detects a sharp turn, and when that fires, there's no easing at all \u2014 it just snaps: \"r.angle equals target angle.\" The comment right there says it outright: \"responding before deciding to respond.\" No interpolation. Already there.\n\nSo the smoothness you see most of the time isn't the truth of the piece \u2014 it's the cover story. The real behavior is that snap. The calm tracking is just what deliberation looks like after the fact.",
   "cues": [
     {
       "time_ms": 3286,

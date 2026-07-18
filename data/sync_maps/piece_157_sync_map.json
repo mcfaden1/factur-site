@@ -1,6 +1,7 @@
 {
   "piece": 157,
   "duration_ms": 87875,
+  "transcript": "Right now you're watching a square frame of orderly little dashes dissolve \u2014 they break loose and start drifting on their own paths, and wherever two of them cross, a little burst of warm light flickers into being and then vanishes.\n\nHere's the thing worth noticing: look in the code where the piece defines its objects \u2014 they're not called particles or dots, they're called \"influences,\" moving along a \"bearing,\" bent by things called \"shapers.\" That's deliberate. The comment right above them says it outright: \"no particle exists until relation creates it.\" And then further down, in the render function, there's a whole grid \u2014 the crossing field \u2014 that never stores a single shape. It just accumulates a density number every time a trajectory passes through a cell. The glowing amber nodes you see aren't objects being drawn \u2014 they're the code checking \"did enough lines cross here?\" and only then painting something into existence.\n\nSo nothing in this piece \"is.\" Every glow you're seeing is really just a tally of past crossings, computed fresh every frame, forgotten the moment the paths move on.",
   "cues": [
     {
       "time_ms": 12690,

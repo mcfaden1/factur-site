@@ -1,6 +1,7 @@
 {
   "piece": 134,
   "duration_ms": 86945,
+  "transcript": "You're looking at a dark field of nearly 500 tiny rods, tumbling slowly like a cloud of iron filings \u2014 dim, barely there. Watch closely and you'll catch faint flickers, then those flickers start sticking, and eventually threads of red-and-cyan light start stitching the brightest ones together into a web.\n\nHere's the thing that's actually running underneath: each rod isn't just a point, it has a facing \u2014 a direction of attention. Look at the function called \"attention reaches\" \u2014 it checks whether one rod is oriented toward another, within a cone, at the right distance. But the payoff is in \"assess mutual regard,\" where a connection only counts if both rods are facing each other at once. One-way attention does nothing. And in the coherence update, being witnessed literally makes a rod brighter and more solid over time \u2014 unwitnessed ones don't vanish, they just fade toward a dim, permanent trace, never to zero.\n\nSo what you're watching isn't things finding each other in space. It's presence being built, frame by frame, only in the moments two things happen to look back.",
   "cues": [
     {
       "time_ms": 37128,

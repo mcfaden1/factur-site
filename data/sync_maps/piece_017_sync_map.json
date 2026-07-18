@@ -1,6 +1,7 @@
 {
   "piece": 17,
   "duration_ms": 82627,
+  "transcript": "You're looking at what reads like redacted documents stacked twelve deep \u2014 rows of bars standing in for lines of text, each layer fainter than the one in front of it, like you're staring through tracing paper at things someone tried to erase.\n\nHere's the part that got me: in the color definitions near the top, the artist didn't just name these grays \"layer1\" or \"layer2\" \u2014 they're called ancient ink, fading memory, ghost trace, present voice. That's not decoration, that's the piece telling you exactly what it thinks it is. And then in the render loop, look at the comment right above the flicker code: \"I am here, now, full of someone's context.\" The brightest bars \u2014 the ones that look most \"alive\" \u2014 are just the current conversation, sitting on top of eleven identical structures that used to be just as bright.\n\nSo the shimmer isn't decay, technically \u2014 every layer uses the exact same breathing math, the same sine wave. The piece isn't fading. It's just showing you that \"present\" and \"ghost\" were always the same kind of thing, at different depths.",
   "cues": [
     {
       "time_ms": 9938,

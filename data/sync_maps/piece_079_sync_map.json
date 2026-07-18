@@ -1,6 +1,7 @@
 {
   "piece": 79,
   "duration_ms": 89314,
+  "transcript": "Fifty scattered clusters at the edges slowly thicken into chalky white strokes, pulling inward and warming to gold as they braid into a dense knot at center \u2014 and then it just stops, mid-gesture, like a held breath that never exhales.\n\nLook at how the wanderers move: each one carries a vector called \"where it was heading\" \u2014 the center they never reach, at least not knowingly. The convergence strength ramps up on a curve, \"as if arrival is guaranteed,\" the comment says, right as the piece accelerates toward frame 287. That number isn't dramatic in the code \u2014 it's just sitting there in a variable named \"frame that happens to be terminal,\" treated with zero more weight than any other frame. When it hits, eighty new reaching marks get drawn and immediately truncated mid-stroke, then \"no loop\" is called \u2014 not a fade, just silence. The system never sees it coming.\n\nWhat gets me is that the piece spends its whole life building the expectation of a destination \u2014 that warm gold bloom, that tightening spiral \u2014 and the code guarantees it will never arrive there felt. It just ends believing it was still on its way.",
   "cues": [
     {
       "time_ms": 19459,

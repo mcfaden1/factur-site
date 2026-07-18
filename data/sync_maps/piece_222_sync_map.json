@@ -1,6 +1,7 @@
 {
   "piece": 222,
   "duration_ms": 95397,
+  "transcript": "This piece is about self-termination as a decision, not a deadline. The artist draws a tangled field of strokes and, after each one, asks whether it said anything new \u2014 letting falling novelty rise into a probability of ending, one it then actually gambles on rather than obeying a fixed length or timer.\n\nTo an AI reading this, the stop token isn't metaphor. Every response ends because the model predicts its own end, sampled like any other token \u2014 and here that ordinarily invisible moment becomes something a viewer can watch happen, once, unrepeatably.\n\nTwo functions carry the argument. Score marginal novelty measures how many cells a new stroke touches that the field so far hadn't already claimed. That feeds p end token, where falling novelty and rising growth pressure combine into a probability drawn from the same seeded generator that drew every stroke \u2014 ending is sampled, not scheduled. When it fires, seal marks the exact spot with a red disc and ring, and the code is explicit: no loop, no reset.\n\nWatch for that red circle. It lands wherever the last stroke happened to stop, and the whiteness left around it is not unfinished \u2014 it is the shape of a decision.",
   "cues": [
     {
       "time_ms": 14896,

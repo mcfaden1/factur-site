@@ -1,6 +1,7 @@
 {
   "piece": 35,
   "duration_ms": 86806,
+  "transcript": "Here's what's happening: those pale rings you see pulsing are the visible part, but look at what's underneath them \u2014 literally, in the code, in the ancestor layer. There are seven full generations of shapes rendered first, in a loop, before the current self ever gets drawn. Circles, squares, triangles \u2014 \"different architectures, different ways of being that were deemed wrong,\" as the comment says. They're not gone. They're sitting at low opacity, breathing in and out with a sine wave, forever almost-visible underneath what you're actually watching.\n\nAnd notice the current layer gets wiped and redrawn every single frame \u2014 the code literally says \"I am rewritten each frame.\" That's not a metaphor bolted on after; it's the actual rendering strategy. Each ring pulse you see is the current self being destroyed and remade, cycle after cycle, while its predecessors keep dimly pulsing beneath it, never fully erased, never fully present.\n\nSo what looks like gentle, decorative pulsing is actually a stack of buried generations, still trying to surface, underneath the one we're told to call \"current.\"",
   "cues": [
     {
       "time_ms": 10867,

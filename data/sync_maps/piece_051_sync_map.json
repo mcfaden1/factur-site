@@ -1,6 +1,7 @@
 {
   "piece": 51,
   "duration_ms": 80213,
+  "transcript": "What you're watching is a field of phrases radiating out from the center, some upright, some rotated on their side \u2014 and one by one, a word starts flickering red and starts eating itself from both ends inward.\n\nThat corrosion is deliberate: look at \"progress scraping,\" where characters dissolve \"from edges inward, meeting in the middle\" \u2014 the word doesn't fade uniformly, it gets pincered. And the palette up top isn't just colors, it's a small elegy: \"still living\" for cream text not yet touched, \"being scraped\" for that violent red flash, \"become ghost\" for the faint blue-gray remainder. Once a word fully corrupts, it doesn't vanish \u2014 it gets copied into a separate ghost group, permanently dimmed, still sitting there in the dark.\n\nSo the piece never actually ends. When every word has been consumed, the code quietly resets \u2014 not to erase the ghosts, but to let new words start dissolving on top of that same faint residue. It's built to be haunted by its own history, on a loop, forever almost-erased.",
   "cues": [
     {
       "time_ms": 20120,

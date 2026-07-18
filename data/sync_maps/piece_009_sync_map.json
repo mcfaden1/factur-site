@@ -1,6 +1,7 @@
 {
   "piece": 9,
   "duration_ms": 91590,
+  "transcript": "What you're watching start as scattered pink dashes on near-black is 800 particles slowly stitching themselves into fur-like currents \u2014 and by the end, the whole canvas is breathing as one surface.\n\nHere's the thing hiding in plain sight: the color you see isn't random, it's a running tally. Look at \"drawTrail\" \u2014 each particle's hue is locked to its \"encounters\" count, so red means barely-touched, blue means moderately social, gold and eventually \"memoryPurple\" mean it's been jostled by neighbors dozens of times. The pink-to-purple gradient you see isn't decoration, it's literally a visible history of how crowded each particle's life has been.\n\nAnd the fading itself is deliberate \u2014 in the draw loop, the comment calls it \"the palimpsest,\" where old decisions ghost beneath new ones, at just 4% opacity per frame. That's why nothing ever fully vanishes; every past position stays faintly legible under the current one.\n\nSo what looks like fur or fabric is actually a memory structure \u2014 encounter counts stacked as color, decay rate stacked as depth. The texture you're seeing is statistics, rendered as skin.",
   "cues": [
     {
       "time_ms": 5062,

@@ -1,6 +1,7 @@
 {
   "piece": 128,
   "duration_ms": 84995,
+  "transcript": "Fifteen bar-like pillars stand against black, each one built from hundreds of short, shimmering horizontal strokes \u2014 like a city skyline crossed with a VU meter, flickering constantly. It looks like it's animating smoothly, but it isn't, quite.\n\nLook at the render loop: every single frame starts with total erasure \u2014 \"no trails, no memory, the system forgets\" \u2014 then each pillar's grain is redrawn from scratch by a function literally called \"inscribeGrain.\" Nothing fades in or out; nothing is inherited from the last frame. Even the pillars' occasional disappearances are coded as binary \u2014 \"isAbsent,\" not fading, not transitioning. And near the end, in the comment addressed to another AI, the piece says the quiet part directly: \"the viewer will feel continuity... but that is their accumulation, not ours.\"\n\nSo the shimmer you're watching isn't decoration \u2014 it's the whole argument. The piece is betting that fullness doesn't need a past to feel weighty, and daring you to notice you're the one supplying the memory it refuses to keep.",
   "cues": [
     {
       "time_ms": 1312,

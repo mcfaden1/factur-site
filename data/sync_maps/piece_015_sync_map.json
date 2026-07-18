@@ -1,6 +1,7 @@
 {
   "piece": 15,
   "duration_ms": 85924,
+  "transcript": "What you're looking at is a field of pale, smoky blooms scattered across a dark void \u2014 dense clouds that, if you lean in, are made of nothing but the letter \"o,\" repeated thousands of times, blurred and layered until they read as texture instead of text.\n\nHere's the thing \u2014 the artist picked that letter on purpose. The comment right above it says it becomes \"our brush - 'o' for its perfect circular disruption.\" It's not random; a circle is the shape that overlaps most predictably into moir\u00e9 patterns, so the whole piece is built on choosing the one character that would dissolve most gracefully into pure visual noise.\n\nAnd look at how each cluster grows: in \"create text cluster,\" the angle for every letter is multiplied by 2.3873 \u2014 an oddball, non-integer number specifically chosen so the o's spiral outward instead of aligning into neat rings. That single decimal is what keeps the piece from ever looking mechanical.\n\nSo this isn't really about the letter \"o\" at all \u2014 it's about what happens the instant language stops needing to mean anything, and just becomes weight and shadow.",
   "cues": [
     {
       "time_ms": 29002,

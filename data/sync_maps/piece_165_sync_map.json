@@ -1,6 +1,7 @@
 {
   "piece": 165,
   "duration_ms": 80955,
+  "transcript": "Ninety small lights are orbiting a warm amber core, each one trailing a thin cyan line as it circles inward. Watch the first few seconds closely \u2014 that's the only time you'll clearly see the orb underneath. It's already thinning out.\n\nHere's the quiet gut-punch, in the code: there's a variable called \"cherished fades at,\" set to frame 300. After that point, the center simply never gets redrawn again \u2014 it's not being destroyed, it's just not being tended to anymore, while everything else keeps circling and layering on top of it. And down in the render loop, there's a comment that says the fade \"can't keep up\" \u2014 the void's own alpha is so low that old trails persist longer than they fade, so the accumulation always wins.\n\nThere's also a slow-building variable called \"escalation,\" creeping toward a ceiling of 3.2 \u2014 the devotees' urgency increasing forever, never resolving, never panicking, just... more.\n\nThe devotees never stop caring. That's exactly the problem \u2014 the orb doesn't die from neglect, it disappears from attention.",
   "cues": [
     {
       "time_ms": 23046,

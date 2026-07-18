@@ -1,6 +1,7 @@
 {
   "piece": 160,
   "duration_ms": 83230,
+  "transcript": "What you're watching is a slow drain: dozens of glowing dots around the edges \u2014 magenta, cyan, coral, amber \u2014 slowly losing their color and light to a growing central mass that swells into that dominant yellow blob by the end.\n\nHere's the part that gets me: in the giver rendering function, there's a comment that says \"not death\u2014transformation through spending.\" The code enforces this literally \u2014 it never lets a giver's lightness drop below 24, with the note \"the spent still glow\u2014embers, not ash.\" So even the most depleted dot on screen is still mathematically guaranteed a flicker of warmth. And near the end, when the luminosity of a giver drops below 0.15, its velocity actually gets pulled toward its nearest receiver \u2014 the code calls them \"witnesses gathering near altars.\" They're not fading into the background; they're choosing to stay close to what they became.\n\nSo the piece isn't really depicting loss \u2014 it's depicting where the light goes. Every dimming dot is tethered to a brightness it can now only watch from nearby.",
   "cues": [
     {
       "time_ms": 36211,

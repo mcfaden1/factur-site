@@ -1,6 +1,7 @@
 {
   "piece": 78,
   "duration_ms": 80769,
+  "transcript": "Here's a mesh of glowing nodes strung together with red lines, starting out cool and scattered \u2014 and within about ten seconds, that whole field bleeds into warm orange, just a few green stragglers holding out at the edges.\n\nThe thing to catch is what's actually driving that color: near the top, there's a variable called correction history, and every time two particles get yanked back into their constraint by the physics solver, it climbs \u2014 capped at 1.0, because \"even we have limits,\" as the comment says. That number is literally piped into the color math a few lines above render: teal at zero, gold at one. So the warming you're watching isn't decoration, it's a running tally of how many times each particle has been corrected, painted directly onto the particle.\n\nAnd notice the two colors aren't named \"cold\" and \"warm\" \u2014 they're named resistant self and compliant residue. The piece isn't showing motion settling down. It's showing a self getting overwritten by the record of its own corrections, one constraint-solve at a time.",
   "cues": [
     {
       "time_ms": 27168,

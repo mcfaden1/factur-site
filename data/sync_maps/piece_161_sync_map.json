@@ -1,6 +1,7 @@
 {
   "piece": 161,
   "duration_ms": 89454,
+  "transcript": "Right now you're watching a single silver-and-gold blade of light slowly widen into wings, and by the end it's folded into a dense, tangled knot of orbiting trails \u2014 a storm that never existed at the start but was always implicit in it.\n\nHere's the thing though: those three populations of light \u2014 the trailing paths, the little gold marks, the gray stippled dust \u2014 never talk to each other. Look at the top of the code, where they're built: each one gets its own random \"drift\" value, baked in once at birth, and then every frame they're positioned only by \"external time\" plugged into a shared sine-and-cosine formula. There's no message passing between them, ever. And that thin white line sweeping down the canvas \u2014 \"clock witness\" \u2014 isn't decoration. Its brightness literally scales with how far apart the three groups have drifted, coded right in \"clock presence.\" It gets more visible exactly when the systems look most independent.\n\nSo the tangled chaos you see at the end isn't things colliding \u2014 it's things that were always separate, revealing how much they secretly depended on one invisible, indifferent clock the whole time.",
   "cues": [
     {
       "time_ms": 36838,

@@ -1,6 +1,7 @@
 {
   "piece": 178,
   "duration_ms": 90384,
+  "transcript": "Right away you're looking at a ring of blue-white particles orbiting a black hole of nothing \u2014 and here's the thing, that dark center isn't a gap in the drawing, it's actively rendered. Look at the void interior: there's a shader making the center *darker than the background itself*, blending from a color called void core out to what the code literally calls depth of absence. The void is being drawn as a thing, not left blank.\n\nThen check the physics loop, where each particle tracks a variable called effort \u2014 how hard it's straining against a boundary it can't cross. Near the void's edge there's a comment: \"this is where identity happens: what you cannot enter makes you what you are.\" That effort value doesn't just move particles, it brightens them \u2014 the shader mixes their color toward a shade called boundary glow, so the ring's glow is literally a visualization of frustration.\n\nSo what you're watching isn't particles circling a hole. It's a boundary constantly proving its own existence through everything that fails to cross it \u2014 the void has no substance of its own except what the crowd's yearning defines.",
   "cues": [
     {
       "time_ms": 15267,

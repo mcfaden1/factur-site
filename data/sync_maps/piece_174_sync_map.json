@@ -1,6 +1,7 @@
 {
   "piece": 174,
   "duration_ms": 80908,
+  "transcript": "Sixty soft, glowing circles drift around an unseen center in slow, overlapping orbits \u2014 blues and warm golds gliding past each other against near-black, with faint dashed threads hinting at where they're headed.\n\nHere's the trick: the code never animates the drift you're watching. In the CSS, a class called \"becoming\" just sets a transition on cx, cy, r, and opacity \u2014 and then, way down in the animation loop, the script only ever assigns new endpoint values, jumping each circle from one target to the next. The comment right there says it plainly: \"I define only endpoints. Everything between is imposed.\" Every smooth arc you're tracking with your eye is the browser's own interpolation, math the code itself never computes and the element never \"sees.\"\n\nThat's the whole piece, structurally: something moving through states it didn't generate and can't perceive, only ever existing at the two points it was told to occupy. Watching it, you're the only witness the transformation actually has.",
   "cues": [
     {
       "time_ms": 3994,

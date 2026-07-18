@@ -138,16 +138,26 @@ html.light .cell .overlay {
 .docent-track:hover .docent-head,
 .docent-track.scrubbing .docent-head { opacity: 1; }
 
-.docent-transcript {
-  border-top: 1px solid var(--hairline);
-  padding-top: 0.5rem;  font-style: italic;
-  font-size: 0.62rem;
-  color: var(--ink-mid);
-  min-height: 1.6em;
-  line-height: 1.5;
-  transition: opacity 0.3s ease;
+/* "Read Transcript" toggle, sitting to the right of the DOCENT label */
+.docent-tx-toggle {
+  appearance: none; background: none; border: none; cursor: pointer;
+  font-family: var(--font-mono), monospace; font-size: var(--text-label);
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-dim);
+  margin-left: 0.7rem; padding: 0; transition: color 0.15s;
 }
-.docent-transcript:empty { display: none; }
+.docent-tx-toggle:hover { color: var(--accent-solid); }
+/* full transcript panel — expands below the timeline when toggled open */
+.docent-fulltext {
+  max-height: 0; overflow: hidden; opacity: 0;
+  font-size: var(--text-body); line-height: 1.8; color: var(--ink); font-weight: 300;
+  transition: max-height 0.4s cubic-bezier(0.16,1,0.3,1), opacity 0.3s ease, margin-top 0.4s ease, padding-top 0.4s ease;
+}
+.docent.transcript-open .docent-fulltext {
+  max-height: 50vh; overflow-y: auto; opacity: 1;
+  margin-top: 0.7rem; padding-top: 0.8rem; border-top: 1px solid var(--hairline2);
+}
+.docent-fulltext p { margin-bottom: 0.85rem; }
+.docent-fulltext p:last-child { margin-bottom: 0; }
 
 /* --- source code panel --- */
 .code-head {

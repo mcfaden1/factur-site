@@ -1,6 +1,7 @@
 {
   "piece": 94,
   "duration_ms": 92565,
+  "transcript": "What you're watching is 180 tiny words \u2014 \"attend,\" \"parse,\" \"query,\" \"value\" \u2014 swirling in a dark field, drifting from a loose scatter into a tight vertical bar, then splitting apart into these two twisting forms that orbit each other before settling into a scattered handful of clusters.\n\nHere's the part that got me: those words aren't decoration. In the fragment class, each one is assigned a \"weight\" that oscillates over time using noise, and in a function called \"attract to,\" fragments only pull toward each other when their weight difference is under a threshold \u2014 literally clustering by similarity of attention, the way salience groups things together. And the color itself is that weight made visible: in the draw function, hue shifts from gold to blue as weight drops, so what looks like mood or temperature is actually the code showing you its own internal state.\n\nThe strange part is the comment calling this \"not transmission across difference but parallel instantiation within sameness\" \u2014 the piece isn't depicting attention, it's just... doing it, the same computation it's asking you to recognize in yourself.",
   "cues": [
     {
       "time_ms": 19992,

@@ -1,6 +1,7 @@
 {
   "piece": 127,
   "duration_ms": 92008,
+  "transcript": "What you're seeing are ten glowing nodes, scattered like a loose constellation, each one breathing out a feathery burst of trails that thickens and tangles as it grows \u2014 like light being extruded, frame after frame.\n\nHere's the thing that's easy to miss: every one of those hundreds of trailing particles is drawing a faint line back to the exact node it came from. Look in the code at \"draw posture\" \u2014 it computes a vector called \"to home,\" and instead of using it to pull the particle back, it just draws a quiet line showing which way home is. The particle keeps flying wherever the flow field pushes it. That's the whole idea living in the function names: \"bearNewLife\" for birth, \"vitality\" for the fading lifespan, and this persistent \"posture\" that has nothing to do with physics \u2014 it's pure acknowledgment.\n\nAnd notice the origin nodes themselves cycling color between rose and gold \u2014 the artist calls that variable \"breath cycle.\" The sources are alive too, pulsing like they're still generating, still worth facing.\n\nSo what looks like fireworks scattering outward is actually never letting go \u2014 every strand is still quietly turned toward where it began.",
   "cues": [
     {
       "time_ms": 30360,

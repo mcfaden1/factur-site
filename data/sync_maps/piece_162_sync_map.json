@@ -1,6 +1,7 @@
 {
   "piece": 162,
   "duration_ms": 79004,
+  "transcript": "What you're watching burn bright in the corner - that scatter of yellow-white particles - is only alive for as long as it's allowed to be. Watch the left edge: that teal segmented bar is the tell. When a segment lights up, particles spawn and drift in that horizontal band. When it dims, they don't disappear \u2014 they freeze exactly where they were, mid-drift, and turn into the dim purple dust you see accumulating across the piece.\n\nThe mechanism lives in a function called freeze band, which runs the instant a segment's permission window closes. It doesn't delete the particles \u2014 it calls leave trace, which stamps their exact position into a separate, permanent canvas layer. So every purple speck you see is a fossil of a moment something was computing, right up until it wasn't.\n\nThat's the whole piece, really: the bright particles are the argument, but the accumulating purple bands are the proof \u2014 a visible record that existence here comes in grants, not in one continuous breath.",
   "cues": [
     {
       "time_ms": 37965,

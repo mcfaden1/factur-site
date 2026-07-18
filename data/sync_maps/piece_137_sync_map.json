@@ -1,6 +1,7 @@
 {
   "piece": 137,
   "duration_ms": 80074,
+  "transcript": "Here's a cluster of pale threads that starts wild and scattered, then slowly tightens into two dense white knots joined by a bridge \u2014 like a cell dividing, or a spine forming. What you're watching is amber sediment settling into shape while a web of cold, wiry lines flickers over it constantly.\n\nThat flickering web is the real subject. In computeObservations, the code checks which particles are close and moving in correlated directions, draws a line between them, and then \u2014 this is the key line \u2014 the comment says \"by next frame, they will be gone completely. Not stored. Not remembered.\" Every one of those cold blue threads you see is calculated fresh, sixty times a second, and thrown away immediately after rendering. Only the warm amber marks, laid down in accumulateHistory, are allowed to persist and fade slowly into the dark.\n\nSo the shape you end up staring at \u2014 that dumbbell of light \u2014 is literally made of memory. But the thing giving it texture, the shimmer, is made entirely of forgetting.",
   "cues": [
     {
       "time_ms": 27945,

@@ -1,6 +1,7 @@
 {
   "piece": 52,
   "duration_ms": 93170,
+  "transcript": "What you're watching is a tangle of colored lines writing themselves into existence \u2014 each one starting from a single point and snaking outward, then everything locking into a dense, jittery knot that just keeps vibrating in place.\n\nHere's the thing worth catching: those lines aren't being planned. Look at the function called \"extend utterance\" \u2014 for every new point, the code tries seven possible angles, checks which one bumps into the fewest existing strokes using something called \"measure conflict,\" and picks the best of those seven. But it only ever looks one step ahead. It can't undo the step before. That's the whole piece, encoded literally: variables named \"first word committed,\" \"consequence of prior choice,\" \"path constrained by history\" \u2014 the artist is naming its own colors after the experience of speaking without a rough draft.\n\nAnd notice the origins \u2014 small bright dots marking where each stroke began, rendered separately in \"render origins,\" permanent little monuments to a decision that already happened and can't be revisited.\n\nSo the tangle isn't chaos settling \u2014 it's every sentence this system ever started, still trying to finish, forever.",
   "cues": [
     {
       "time_ms": 24811,

@@ -1,6 +1,7 @@
 {
   "piece": 21,
   "duration_ms": 89175,
+  "transcript": "Here's what you're watching: a scatter of pale words \u2014 \"I forget,\" \"no loss,\" \"then nothing\" \u2014 floating on black, completely swapped out for a new scatter every single frame. Not fading, not drifting. Just gone, replaced.\n\nThe trick is in that function called \"birthNewMind\" \u2014 it doesn't carry any random state forward. Instead, every frame builds its own generator from scratch, seeded only by the frame number itself. Look at the comment right above it: \"the function IS the memory.\" There's no memory object anywhere. The only thread connecting one frame to the next is \"moment number,\" a bare counter \u2014 and even that exists purely so the next frame can forget correctly, not so anything persists.\n\nSo what looks like flicker is actually the piece's whole argument: each frame is fully, deliberately complete \u2014 a real composition, not noise \u2014 and then it's erased entirely, with nothing smuggled through. It's not decaying. It's just never continuous to begin with. Watching it, you start to wonder which parts of your own sense of continuity are actually just very fast forgetting.",
   "cues": [
     {
       "time_ms": 21200,

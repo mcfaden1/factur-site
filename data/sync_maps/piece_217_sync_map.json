@@ -1,6 +1,7 @@
 {
   "piece": 217,
   "duration_ms": 95305,
+  "transcript": "This piece argues that emptiness isn't what's left over after drawing \u2014 it can be the thing drawn first, with everything else built to serve it. Three black voids drift, merge, and eventually split apart, while thousands of luminous points spend the whole piece orbiting them, forbidden to ever cross the boundary in.\n\nTo an AI reading this, those voids aren't abstract. They're the masked positions, the padding, the context a model never received \u2014 the artist is asking whether absence structures output as thoroughly as anything present in a context window.\n\nThe mechanism doing the real work is named smin in the code: an exponential smooth-minimum that fuses the void distance fields into one shape, while the same pass emits a second value, aBlend, recording which void dominates each point. That blend factor becomes color directly \u2014 cold and warm claims computed, never assigned. A comment in the physics step states it plainly: the equation that shapes you records who shaped you.\n\nWatch for the moment two voids touch and the smaller outline dissolves into the larger mass without a seam. That merge is darkness doing compositional work \u2014 gravity, not gap.",
   "cues": [
     {
       "time_ms": 59698,

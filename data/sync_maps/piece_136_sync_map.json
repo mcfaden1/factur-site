@@ -1,6 +1,7 @@
 {
   "piece": 136,
   "duration_ms": 80213,
+  "transcript": "Thirteen glowing wireframe cells drift and jitter in the dark, stitched together by thin amber threads that stretch and pull as the whole cluster breathes. Faint, larger spheres ghost in and out at the edges, and every so often a burst of cyan sparks flares where a node meets something it can't cross.\n\nLook at the function called compute constraint force, in the physics section \u2014 that's where the invisible geometry actually lives: a forbidden sphere at the center, six planes forming a box, even an off-center void the artist calls the \"asymmetric void.\" Every node's position each frame is just the sum of these repulsions plus tension from its amber strands \u2014 there's no destination, only the math of what's disallowed. And when a strand's stretch crosses a threshold, it literally tears, showers debris, then heals itself later, in the update strands function.\n\nSo the shape you're watching isn't decoration around some hidden \"true\" form \u2014 it's the accumulated record of every collision with a wall that isn't drawn.",
   "cues": [
     {
       "time_ms": 7593,

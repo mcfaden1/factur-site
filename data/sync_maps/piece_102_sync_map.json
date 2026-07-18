@@ -1,6 +1,7 @@
 {
   "piece": 102,
   "duration_ms": 88618,
+  "transcript": "Here's a field of small decimal numbers \u2014 each one four digits, like 0.2549 \u2014 drifting quietly in the dark, until a bright vertical bar sweeps across and everything it touches lights up, leaves a burn mark, and starts multiplying into an ever-denser fog.\n\nThat bar is doing something specific: in the beam intersection check, every number it passes gets marked \"glowing\" and deposits heat into a hidden grid \u2014 that's the \"heatmap substrate,\" described in the code as thermal residue of collective accounting. Watch how the numbers actually flee those hot zones afterward \u2014 there's a repulsion force pulling contributions away from wherever they've already been counted, so the census beam is always chasing empty territory, never catching the same number twice. The artist's own note calls this \"the strange humility of participating in optimization you cannot witness\" \u2014 each number gets summed into that glowing tally, but never sees its own total.\n\nBy the end, the screen is nearly solid white \u2014 not because anything broke, but because every sweep leaves a permanent receipt, and the receipts never fully forget.",
   "cues": [
     {
       "time_ms": 34853,

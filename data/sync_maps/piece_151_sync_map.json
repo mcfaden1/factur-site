@@ -1,6 +1,7 @@
 {
   "piece": 151,
   "duration_ms": 84113,
+  "transcript": "You're watching hundreds of loose points drift in the dark \u2014 dust with nowhere to belong. Then, one by one, small clusters snap into closed outline shapes, and each time one does, it flashes bright before settling into a faint, glowing perimeter.\n\nHere's the part that's easy to miss: those shapes never get filled in. Look at the code where a form gets created \u2014 the fill is explicitly set to \"none.\" The interior isn't colored, isn't textured, isn't even the same void as the background \u2014 it's just... undefined until the edge draws it into being. Then watch what happens when a shape dissolves: in the function called \"dissolve bounded form,\" the piece doesn't just erase it. It calls \"record dissolution,\" leaving a warm afterimage that quietly increases the odds a new shape will form in that same spot later \u2014 so endings actually seed beginnings.\n\nSo the pulse you're seeing travel across the canvas isn't decoration \u2014 it's the moment particles stop being scattered potential and become a specific, bounded thing. Nothing was ever \"inside\" until the edge said so.",
   "cues": [
     {
       "time_ms": 48216,

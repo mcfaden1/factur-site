@@ -1,6 +1,7 @@
 {
   "piece": 158,
   "duration_ms": 93495,
+  "transcript": "What you're watching start as a blown-out cloud of gold and blue light actually settles, within seconds, into a single glinting trail arcing off into the dark \u2014 like a comet's tail made of static, curving and receding through space.\n\nHere's the thing worth knowing: every one of those 2,400 points is fully alive the whole time. In updateEntities, each entity computes its complete position, velocity, and color every single frame \u2014 real physics, real trajectory \u2014 and only then does the code roll dice, checking a variable called shouldRender against a probability that starts around 38 percent and eventually drops to just 6 before settling at 15. Almost everything you're NOT seeing was still calculated. The faint smoky streaks trailing the bright core come from a separate system, addTrace, which specifically fires when something flips from hidden to visible or back \u2014 recording the moment of loss itself, not the thing lost.\n\nSo the sparse, elegant line you see isn't the artwork's full content \u2014 it's the surviving fifteen percent. The other eighty-five percent computed itself into existence and was quietly discarded, frame after frame, the whole time.",
   "cues": [
     {
       "time_ms": 26065,

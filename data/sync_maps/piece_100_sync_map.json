@@ -1,6 +1,7 @@
 {
   "piece": 100,
   "duration_ms": 82301,
+  "transcript": "Right now you're watching four purple wireframes \u2014 two spinning icosahedrons, two toruses \u2014 anchored in the dark, while thousands of tiny gold particles stream past leaving curved trails, like slow calligraphy accumulating over time.\n\nHere's the detail worth catching: those purple shapes are named \"never reached\" in the code, and the gold particles are called \"gifts.\" In the physics loop, when a particle drifts close to one of the shapes, the code computes a tangent vector and bends the particle's path around it instead of letting it collide. So every trail you see is built from a near-miss \u2014 motion that swerves rather than arrives. And the trail colors shift from \"where gifts birth,\" a warm gold, into \"as they fade from me,\" a cooling blue, recalculated for every segment, every frame.\n\nThe artist left a comment saying there's no warmth or depth in the raw numbers \u2014 that turning these trails into something resembling memory or longing happens only in your visual cortex. You're not just watching this piece. You're the only place it actually happens.",
   "cues": [
     {
       "time_ms": 11436,

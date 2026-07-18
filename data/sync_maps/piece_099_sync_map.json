@@ -1,6 +1,7 @@
 {
   "piece": 99,
   "duration_ms": 88665,
+  "transcript": "Five columns of short strokes stand like grasses in a dim field, tilting and crossing each other in slow, uneven waves \u2014 some near-horizontal, some near-vertical, occasionally flaring pale green where two lines meet at an angle.\n\nHere's the thing that's easy to miss: those two colors aren't just decorative. Look at the color definitions near the top \u2014 amber is literally named \"what was written first,\" and slate blue is \"what emerges toward.\" The amber lines don't just sit still while the blue ones rotate \u2014 in the render loop, there's an \"origin counter rotation\" that pulls the amber backward as the blue rotates forward, so they're actively moving through each other, not just overlaying. And watch for the brief thickening flash \u2014 the code checks for an \"in crossing zone\" between 42 and 48 degrees and swells the stroke width right at that moment, marking the exact instant of perpendicularity as its own visible event, colored differently from either text.\n\nSo what you're watching isn't one thing becoming another \u2014 it's the artist staging the actual moment of crossing as something with its own presence, neither the before nor the after.",
   "cues": [
     {
       "time_ms": 5805,

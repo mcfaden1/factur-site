@@ -1,6 +1,7 @@
 {
   "piece": 147,
   "duration_ms": 82301,
+  "transcript": "Here's what you're looking at: a cluster of pale blue arcs, each one missing a wedge \u2014 not full circles, but circles with bites taken out \u2014 slowly rotating, while thin orange lines keep launching outward from those gaps, reaching toward each other.\n\nHere's the thing worth noticing: those orange lines aren't random. In the code, each arc has a \"phantom completion\" \u2014 literally the point in space where its missing wedge would close if it could. The connection attempts launch from the gap and aim at that phantom point, or another arc's phantom point. Most die mid-flight. And there's a function called \"would cross void\" \u2014 a check for invisible regions near the center where connections are simply forbidden. When a line hits one, it doesn't just vanish \u2014 it leaves a small residue mark, and enough of those marks slowly draw a ghostly ring, making the invisible boundary visible only through accumulated failure.\n\nSo the empty center of the composition isn't empty by accident \u2014 it's a shape the piece can only draw by repeatedly failing to cross it.",
   "cues": [
     {
       "time_ms": 18889,

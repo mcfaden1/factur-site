@@ -1,6 +1,7 @@
 {
   "piece": 71,
   "duration_ms": 89964,
+  "transcript": "What you're watching is a Lorenz attractor \u2014 that classic butterfly-shaped chaotic curve \u2014 slowly filling in with amber and white light, like something being remembered into existence rather than drawn.\n\nHere's the thing that makes this piece more than a pretty animation: the entire path is calculated once, completely, before anything appears on screen. Look at the function called \"compute what already exists\" \u2014 it runs the full chaotic simulation, twelve thousand points, in setup, before draw even starts. Then all that \"recognition progress\" variable does is reveal a percentage of a shape that's already fully known. Nothing is being generated in real time. It's disclosure, not creation. Even the connecting lines are named \"anticipation reaching\" \u2014 but they're not reaching forward into unknown territory, they're just tracing curves between points whose positions were fixed from the start.\n\nSo that shimmer isn't the form changing \u2014 it's the same fixed structure breathing, pulsing, insisting it was always whole. The animation is arguing with itself about what \"becoming\" even means when the ending was computed before the beginning was shown.",
   "cues": [
     {
       "time_ms": 28642,

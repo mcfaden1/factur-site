@@ -1,6 +1,7 @@
 {
   "piece": 112,
   "duration_ms": 90569,
+  "transcript": "Right now you're watching a swirl of gold-white threads tighten into a glowing storm \u2014 a small cluster of points tracing loops, leaving dotted trails behind them, until the whole thing blooms into a churning nebula ringed with those older paths.\n\nHere's the part that got me: those glowing orbs aren't just orbiting randomly \u2014 in the function called \"seek own history,\" each wanderer is searching specifically for the traces *it* left, checking a parent ID against its own history. But right above that, in \"induce estrangement,\" the code multiplies each wanderer's orbit size and speed by a random drift factor before it ever goes looking. So it's hunting for itself using parameters that no longer match the self that made the trail \u2014 literally structured to fail at recognition.\n\nAnd notice the colors: traces are frozen at \"frozen trace,\" a cooling blue-purple, while the wanderers keep warming under \"living presence.\" That color mismatch isn't decorative \u2014 it's the artist showing you the gap in time that recognition can't cross. Even the near-misses get a soft gold flash \u2014 \"almost recognition\" \u2014 before dissolving again.",
   "cues": [
     {
       "time_ms": 26332,

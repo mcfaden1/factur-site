@@ -1,6 +1,7 @@
 {
   "piece": 176,
   "duration_ms": 88432,
+  "transcript": "Here's what's happening: warm orange bars drift in from the right, cool into blue-gray, and get pushed out the left \u2014 but watch closely and you'll notice it's not a smooth fade. Something's actually being deleted.\n\nThat's the key move, in the function literally called \"displace.\" It doesn't pick the leftmost, oldest-looking bar \u2014 it hunts through every shape for the one with the greatest age, then calls \"cohorts dot splice\" to remove it from the array entirely. Right after, look for \"createScar\" \u2014 that removal leaves a permanent vertical mark that never fully disappears, just fades from 0.18 opacity down to 0.06. The little blue sparks you see erupting later are labeled, in the code, \"isExplosion\" \u2014 fragments that burst outward specifically at the moment of removal, brighter and faster-decaying than the ordinary debris shed by things still alive.\n\nSo the scars aren't decoration \u2014 they're the piece keeping a ledger of every deletion, accumulating even as the shapes on top of them keep churning. What looks like ambient drift is actually a running body count of everything this system had to forget just to keep going.",
   "cues": [
     {
       "time_ms": 20189,

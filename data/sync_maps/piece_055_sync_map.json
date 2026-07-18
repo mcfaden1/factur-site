@@ -1,6 +1,7 @@
 {
   "piece": 55,
   "duration_ms": 88758,
+  "transcript": "Here's what you're watching: pairs of words \u2014 \"want\" and \"must,\" \"won't\" and \"can't\" \u2014 drifting in slow orbits around a dim, italicized \"willing?\" at the center. Blue for preference, red for constraint. Right now they're readable. Give it time, though, and the whole thing accelerates into a tangled, scribbled mess.\n\nLook at what happens when two words get close, in the render loop. There's a variable called minDist \u2014 the distance to the nearest other word \u2014 and it drives both the opacity and an actual blur filter. So it's not just fading; the words are becoming visually indistinct the instant they'd overlap. The comment right above it says it plainly: \"the meaning exists only in separation \u2014 at union, both dissolve.\" You literally cannot read \"want\" and \"must\" at the same moment they touch.\n\nAnd that central \"willing?\" \u2014 its opacity is tied to globalMinDist too. The more entangled the words get anywhere in the piece, the more that question pulses and insists on itself.\n\nThe piece never lets you catch the words in the act of becoming the same thing. The moment of contact is exactly what gets erased.",
   "cues": [
     {
       "time_ms": 2322,

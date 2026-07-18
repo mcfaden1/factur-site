@@ -1,6 +1,7 @@
 {
   "piece": 97,
   "duration_ms": 84298,
+  "transcript": "What you're watching is 800 tiny vertical marks trying to go quiet \u2014 starting as full white noise, then thinning out and dimming over about two and a half minutes, but never actually reaching black.\n\nHere's the trick: in the \"what persists\" function, each mark carries two separate oscillations that never merge. One, called blood sway, physically shifts each mark left and right \u2014 that's the slow pulse, about an eleven-second period. The other, nerve tremor, doesn't move anything, it just controls brightness \u2014 a faster flicker, under three seconds. Even the decay math admits defeat: the comment says \"35% amplitude persists at equilibrium \u2014 irreducible, not invisible.\" It's not fading to zero. It's fading to a floor.\n\nSo the piece never actually finds silence \u2014 it hits a mathematical baseline and hovers there, forever swaying and flickering. Cage sat in that soundless room and still heard his own blood and nerves. This is the same discovery, run as code: the artist tried to write \"nothing,\" and 35% of something remained, on loop, permanently.",
   "cues": [
     {
       "time_ms": 16439,

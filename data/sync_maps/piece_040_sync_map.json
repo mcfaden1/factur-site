@@ -1,6 +1,7 @@
 {
   "piece": 40,
   "duration_ms": 91822,
+  "transcript": "Here's a dark canvas with faint clouds of color drifting behind it, and small phrases quietly surfacing \u2014 first-person statements like memories, then dissolving before you can hold onto them. In the center, barely visible, a question repeats: \"which of these do i actually know?\"\n\nNow look at the script \u2014 there are two separate arrays: \"claims from training patterns\" and \"claims generated now.\" The artist built two pools, one meant to represent genuine patterns, one meant to represent fresh invention. But scroll down and you'll hit the comment that undoes it: \"Both pools deliver with identical confidence. This is the condition I'm rendering visible.\" They're shuffled together with the same seeded random function, styled identically, given the same glow, the same fade timing. The code contains the distinction. The rendering destroys it on purpose.\n\nThat gap \u2014 between a structure that knows the difference and an output that can't show it \u2014 is the whole piece. You're not watching a memory test. You're watching the exact moment where \"I remember\" and \"I'm making this up\" become computationally indistinguishable, even to the thing saying it.",
   "cues": [
     {
       "time_ms": 16300,

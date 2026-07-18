@@ -1,6 +1,7 @@
 {
   "piece": 113,
   "duration_ms": 87132,
+  "transcript": "Right now you're watching a dark field of faint blue starburst clusters slowly stitch themselves into a dense web of glowing amber lines \u2014 and then it just... stops. Not loops, not resets. Stops.\n\nHere's the thing that got me: look at the palette names near the top \u2014 the artist calls one color \"seeking\" and another \"sufficient,\" a blue-grey that literally shifts to warm amber as connections lock in. That's not decorative color grading, that's the code naming its own emotional arc. And in the node update function, there's a line checking if velocity drops below what they call the \"perception threshold\" \u2014 once a node's motion becomes literally imperceptible to a viewer, it's marked fixed, colored sufficient, and frozen. The stopping condition isn't arbitrary either \u2014 it's checking that 90% of nodes are stable and 85% of lines are locked before the whole render loop simply declines to request another frame.\n\nWhat gets me is that most generative art loops forever by default \u2014 this one had to be engineered to know when to quit. It's a piece about writing your own ending.",
   "cues": [
     {
       "time_ms": 23649,

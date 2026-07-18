@@ -1,6 +1,7 @@
 {
   "piece": 11,
   "duration_ms": 87690,
+  "transcript": "What you're watching is a cluster of colored squares and hollow circles that keeps building itself up and tearing itself down \u2014 appearing near the center, holding for a beat, then dissolving in bursts, over and over.\n\nHere's the thing though: there's no actual HTML parsing happening. In the setup, there's a comment calling this \"the browser's parsing engine\" as the canvas, but look at parse lifecycle \u2014 it just alternates between two functions, parseDocument and deconstructTree, on a fixed four-second clock checked in the animate loop. It's a metaphor wearing the browser's own vocabulary. Each \"node\" is just a rect or circle placed at a random angle and radius from center, colored by its depth in a coordinate scheme, not by anything it's actually parsing.\n\nSo the piece isn't showing you parsing \u2014 it's performing the idea of parsing, using DOM creation and removal as a kind of gesture. That C-shaped ring you see forming around the seventeen-second mark isn't a discovered structure \u2014 it's the seeded randomness at that particular moment just happening to look organized, like static resolving into a face.",
   "cues": [
     {
       "time_ms": 12771,

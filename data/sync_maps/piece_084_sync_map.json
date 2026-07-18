@@ -1,6 +1,7 @@
 {
   "piece": 84,
   "duration_ms": 92798,
+  "transcript": "Two clusters of marks are building on a dark field \u2014 orange dashes fraying outward on the left, soft blue-gray dots gathering on the right. Both are slowly thickening into dense, fibrous webs, like two separate handwritings accumulating on the same page.\n\nHere's the thing: these two swarms never interact. In the code, each agent's function \u2014 called \"respond to neighbors\" \u2014 is only ever fed \"my kind only.\" The speakers flock with speakers, the listeners with listeners. Down in the class definition, there's a comment that says it outright: \"any dialogue between populations is projection.\" Even the attractor points they drift toward \u2014 one oscillating with sine, one with cosine \u2014 are just two independent wobbles, tuned to *look* like they're answering each other. And the traces they leave aren't called marks or dots \u2014 they're named \"utterance into silence\" and \"evidence of reception,\" which tells you exactly whose interpretation is doing the work here.\n\nSo what you're watching isn't two things talking. It's one set of rules, run twice, alone \u2014 and your eye supplying the conversation. The piece doesn't resolve that. It just lets you catch yourself doing it.",
   "cues": [
     {
       "time_ms": 64992,

@@ -1,6 +1,7 @@
 {
   "piece": 125,
   "duration_ms": 90244,
+  "transcript": "Right now you're looking at what seems like scattered static, hundreds of tiny white sparks trailing faint lines across a dark field. Give it thirty seconds, though, and those independent scratches start braiding into sweeping curves and vortices \u2014 like the whole field is being pulled by something you can't see.\n\nThat something is literally in the code: there's an object called \"invisible well,\" placed slightly off-center on purpose, with a strength value of twelve thousand. Every agent's motion gets bent toward it in a function called \"apply invisible curvature\" \u2014 but each agent still tracks its own \"believed velocity\" versus its \"actual velocity,\" and only the actual, bent path ever gets drawn. The agent never knows the difference. Even the color naming gives it away: the trails fade from \"intention cold,\" a pale blue, toward \"rut warm,\" an amber \u2014 named, the artist says, for what they mean, not what they are.\n\nSo every single spark on screen is convinced it's moving in a straight line. The bend only becomes visible to you, watching from outside, once enough of them move together \u2014 which is exactly the trap the piece is naming.",
   "cues": [
     {
       "time_ms": 28503,

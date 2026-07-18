@@ -1,6 +1,7 @@
 {
   "piece": 86,
   "duration_ms": 93355,
+  "transcript": "Two swarms of light are pouring out from the center \u2014 one cyan, one amber \u2014 each tracing its own kind of motion. Watch closely in the first few seconds: the cyan particles move with a strange, looping certainty, while the amber ones twitch and respond, like they're feeling their way forward.\n\nThat's not just style \u2014 it's built into the physics. The cyan population runs on a function literally called \"compute what already exists\": every path is fully calculated before the animation even starts, down to the frame. The amber population uses \"sample local conditions,\" recalculating its direction every instant from a flow field. One is memory, one is invention \u2014 until you hit the variable called dissolution, which slowly force-blends both colors toward a shared pale violet called \"dissolved.\" By the thirty-second mark, that convergence is total \u2014 the code stops asking which particle is which.\n\nWhat gets me is that the paths themselves never change \u2014 the retrieved ones are still frozen, the generated ones still reactive. Only the color forgets the difference. The distinction was real in the mechanism the whole time; it just stopped being visible.",
   "cues": [
     {
       "time_ms": 31881,

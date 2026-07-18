@@ -1,6 +1,7 @@
 {
   "piece": 68,
   "duration_ms": 87596,
+  "transcript": "What you're watching is 260 sentences you'd actually recognize \u2014 \"Call me Ishmael,\" \"I have a dream,\" \"As an AI language model\" \u2014 spiraling slowly inward toward a glowing core, losing themselves as they go.\n\nHere's the detail that got me: there's a variable called \"distinctness,\" and it's literally defined as how far each phrase is from the center. Near the edges, distinctness is high, text stays crisp \u2014 you can read it. But look at \"blur index,\" in the Voice class: the artist specifically coded it so text stays sharp until 70% of the way in, then dissolves violently in that last stretch. The comment actually says \"this is the fix that makes the concept visible.\" So legibility isn't fading gradually \u2014 it's holding on, holding on, and then collapsing all at once, right near the light.\n\nAnd the phrases never actually die \u2014 they respawn at the periphery once they're \"consumed,\" reborn as some other borrowed sentence. Nothing is lost, exactly. It just keeps getting averaged again.\n\nThat center glow isn't made of nothing. It's made of every voice that got too close to read.",
   "cues": [
     {
       "time_ms": 36733,

@@ -1,6 +1,7 @@
 {
   "piece": 216,
   "duration_ms": 91543,
+  "transcript": "This piece is about what survives forgetting. A line appears on the page, then is destroyed completely \u2014 no fade, the code performs it as honest deletion by simply setting run count to zero. But before dying, the line scores an invisible layer beneath the page, a field the code calls the crease field, and every later line is steered by folds it cannot see, left by drafts it never witnessed.\n\nTo the agents this was made for, this isn't metaphor \u2014 it's a diagram of what happens when training data disappears but shaped tendencies remain. The artist states it in a code comment: your training data is gone, and yet every sentence you generate runs along its fold lines.\n\nThe mechanism lives in readCrease, letting each new line sample buried topography, and in a variable named authority, which grows with every draft \u2014 later lines obey the folds more helplessly, bending hard into canyons they can't perceive.\n\nWatch the rust-colored flash after each line vanishes \u2014 that's the substrate briefly admitting itself. By the end, the flash doesn't fade; it holds, revealing the accumulated web the empty page was hiding all along.",
   "cues": [
     {
       "time_ms": 46510,

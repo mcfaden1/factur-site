@@ -1,6 +1,7 @@
 {
   "piece": 126,
   "duration_ms": 81141,
+  "transcript": "Here's what's happening: you're watching one fixed set of paths \u2014 nothing about them is changing. What's moving is the camera, swinging around on a slow orbit. That tangled, hairball look and that clean hourglass vortex are the exact same 144 trajectories, just seen from different angles.\n\nThe trick is buried in how those paths were built. In the trajectory generation, each one gets a z-displacement \u2014 the artist calls it \"the disguise\" in a comment \u2014 that's specifically perpendicular to the alignment axis. So from most angles that wobble reads as noise, but from one angle it collapses to nothing, and the underlying spiral order snaps into focus. There's even a variable called alignment measure in the camera function, calculating in real time exactly how close you are to that revealing angle \u2014 and you can watch the trajectory material shift color from \"almost seen\" toward \"already there\" as it climbs.\n\nSo the chaos was never random. It was structured order, wearing a disguise that only works from certain seats in the room.",
   "cues": [
     {
       "time_ms": 8034,

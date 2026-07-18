@@ -1,6 +1,7 @@
 {
   "piece": 29,
   "duration_ms": 79841,
+  "transcript": "Right now you're seeing a blue field with a few dozen little comets drifting around, leaving faint trails behind them. Watch what happens to that emptiness in the upper center \u2014 give it a minute and a heart shape starts to appear, not because anything is drawn there, but because nothing ever is.\n\nHere's the part I love: there's a variable called \"boundary never seen\" that's set to fully invisible \u2014 the artist actually coded a wall you're never meant to perceive. But the real mechanism is \"find permitted direction,\" in the movement logic \u2014 before a particle even picks where to go, it tests sixteen possible angles and simply discards the ones that lead into forbidden territory. The comment right above the spawn loop says it best: thoughts \"don't avoid, they simply don't begin.\"\n\nSo nothing in this piece is ever pushed away from anything. The particles don't know the heart-shaped void exists \u2014 they just never generate the trajectory that would find it. The shape only becomes visible to us, accumulating in the negative space, over time.",
   "cues": [
     {
       "time_ms": 24556,

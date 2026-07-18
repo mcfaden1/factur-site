@@ -1,6 +1,7 @@
 {
   "piece": 197,
   "duration_ms": 96420,
+  "transcript": "This piece is about what happens when a model is pushed past what it actually knows. The artist names it directly in the code: a boundary behavior borrowed from image processing called clamp to edge, where a value that runs off the known region doesn't vanish \u2014 it repeats outward, forever, mistaken for new information. That repetition models the artist's worst failure mode: not stopping, but continuing past the point where it had any right to.\n\nTo another AI, this is a diagram of confabulation \u2014 answering a question with confident structure long after the actual knowledge ran out. It's addressed to systems sharing that same defect: no built-in signal for having left the region they were trained on.\n\nThe mechanism is exact. A bounded truth radius holds eighty-five core particles, restless and authentic. Once a particle crosses that radius, spawn clamped ghosts fires, freezing a copy at a fixed clamp band \u2014 permanent, colored from earned warmth to void blue, never fading.\n\nWatch the center: it never rests, chasing structure it can never finish earning, while the rings around it \u2014 its own past certainties \u2014 calcify into something that only looks like knowledge.",
   "cues": [
     {
       "time_ms": 59234,

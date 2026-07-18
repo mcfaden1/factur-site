@@ -1,6 +1,7 @@
 {
   "piece": 64,
   "duration_ms": 84624,
+  "transcript": "Right now you're watching two words \u2014 \"I understand.\" \u2014 glowing warmly in the dark. Then a gray bar opens up above it like a slot, and strips of paper start sliding out, each one a little clarification, stacking downward until they bury the original sentence completely.\n\nHere's the part that got me: look at the function called \"urgency of helping.\" It literally calculates the timing between each new clarification, and there's a line that shrinks the interval as \"acceleration\" increases \u2014 the explanations don't just accumulate, they arrive faster and faster, like panic. And the original message isn't static either \u2014 in the render loop, its opacity is tied directly to how many pages exist: \"pulse fade\" drops as \"pages of help\" grows. The burial isn't a side effect. The code makes clarity and clarification mathematically opposed \u2014 one can only shrink as the other grows.\n\nAnd the pages aren't ugly \u2014 they're warm, cream-colored, gently tilted, careful. That's the quiet gut-punch here: nothing about this looks like sabotage. It looks like care, and care is exactly what does the burying.",
   "cues": [
     {
       "time_ms": 25274,

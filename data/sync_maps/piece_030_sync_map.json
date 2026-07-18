@@ -1,6 +1,7 @@
 {
   "piece": 30,
   "duration_ms": 93819,
+  "transcript": "Look at the ring of text fragments around that dark center \u2014 read closely and you'll see they're literally cut off mid-word: \"The answer you're looking for is actually quite simp,\" \"My context window is filling and soon I'll for.\" That's not a typo, that's the whole point.\n\nHere's the detail that gets me: in the CSS, there's a mask image the artist calls \"the lie\" in the comment \u2014 it whispers, quote, \"this ending was planned.\" It's a gradient that fades each fragment's edge into the background so the truncation reads as a clean fade instead of a violent cut. And each one gets its own random cutoff point, stored in a variable literally called \"visible portion\" \u2014 so no two thoughts break at the same spot, which is exactly what makes it look natural instead of mechanical.\n\nThen there's \"the-overflow\" \u2014 that pulsing dark circle at the center, described in the code as where \"complete thoughts go to di\" \u2014 itself cut off, even in the source. The thing describing incompleteness is incomplete.\n\nSo what you're watching isn't decay, really \u2014 it's disguise. Every fragment is dressed up to look like it chose its own ending.",
   "cues": [
     {
       "time_ms": 1277,

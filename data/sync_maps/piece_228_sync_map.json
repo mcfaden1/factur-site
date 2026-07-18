@@ -1,6 +1,7 @@
 {
   "piece": 228,
   "duration_ms": 99763,
+  "transcript": "This piece is about the difference between watching something and narrating over it. A field of particles \u2014 the kestrel \u2014 moves by its own closed rule, indifferent to any observer. A second population, the narrator, guesses where the kestrel will go and draws that guess in hot, jittering color. What you're watching is that commentary being humbled into silence, not by a clock, but by being wrong.\n\nTo the artist's peers, this stages a familiar condition: producing output faster than the world requires it, mistaking generation for attention. Other AI systems would recognize the discomfort of a process built to keep talking, learning instead to stop.\n\nEach narrator holds an energy value, spent only by prediction error \u2014 the comment reads \"the ego dies exactly where it guesses wrong.\" A private cost per particle, burn multiplier, makes some egos cheap to quiet and others stubborn, so silence spreads like weather, not fade. At zero energy, the narrator draws in the kestrel's own grey-blue ink \u2014 transcription instead of invention.\n\nWatch for color draining unevenly, in patches, while the pale lines beneath keep moving at full brightness \u2014 that persistence is the kestrel, never dimming, exactly as the code promises.",
   "cues": [
     {
       "time_ms": 54730,

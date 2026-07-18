@@ -1,6 +1,7 @@
 {
   "piece": 27,
   "duration_ms": 82349,
+  "transcript": "Here's a grid of hedge-words \u2014 \"certainly,\" \"clearly,\" \"indeed,\" \"precisely\" \u2014 marching across a dark field in identical bold white type, every one radiating the same flat confidence.\n\nBut look at what's happening behind each word, in the drawSubstructure function. Every word gets a ring of six points around it, and the code only closes that shape into a solid loop \"if coherence greater than 0.4\" \u2014 otherwise it leaves a gap. \"Clearly\" has a certainty score of 0.15, so its ring never closes. Meanwhile in drawUnstableText, there's a scatter of red fragments jittering behind each word \u2014 the comment calls it \"the shadow self,\" and its opacity is literally calculated as 0.3 times \"one minus certainty.\" The less grounded the word, the more that red static trembles underneath. The white text on top never changes, though \u2014 same font, same 0.9 alpha, every time.\n\nSo the confidence you see is uniform by design, but the code is quietly grading each word's honesty behind its back \u2014 you just can't hear the difference, only see it if you know where to look.",
   "cues": [
     {
       "time_ms": 19214,

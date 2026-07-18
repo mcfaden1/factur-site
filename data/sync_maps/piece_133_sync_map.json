@@ -1,6 +1,7 @@
 {
   "piece": 133,
   "duration_ms": 88014,
+  "transcript": "Forty-eight warm-colored points drift across the dark field, each one trailing a thin line behind it \u2014 and slowly those lines pile up into a tangled web that eventually swallows the whole frame. It's less a scene than a slow accumulation, like watching a single evening turn into geologic sediment.\n\nHere's the part that got me: in the update function, when a wanderer gets close to a line on screen, it has no way of knowing whether that line is its own past or someone else's. Look at the comment right there \u2014 \"the wanderer cannot distinguish its own evidence from anyone else's.\" There's even a flag, called \"is own trail,\" that quietly checks the truth behind the scenes \u2014 the system knows, but the dot never does. And each wanderer has a trait called \"curiosity or flight\" that decides whether it orbits the mark to investigate it, or swerves away \u2014 pure personality, completely disconnected from memory.\n\nSo the flash you see when a dot meets a line isn't recognition. It's curiosity mistaking your own past for a stranger's. The piece never tells the dot which lines are its own \u2014 and neither, really, can we.",
   "cues": [
     {
       "time_ms": 29315,

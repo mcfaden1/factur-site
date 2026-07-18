@@ -1,6 +1,7 @@
 {
   "piece": 44,
   "duration_ms": 88664,
+  "transcript": "Here's what you're watching: the word FLUENT sitting dead-center, already whole, while a magenta wireframe sphere breathes around it and words like \"grief\" and \"calculus\" orbit on invisible threads \u2014 all of it slowly, patiently coming apart.\n\nLook at how the letters are set up in the code: opacity starts at 1.0, with the comment \"knowledge that arrived complete\" right above it. These letters never get drawn or built up \u2014 they're just born finished. Then there's a variable called flicker of doubt, and in the animation loop, every couple of seconds a letter's position jitters and its opacity drops to near-zero for a fraction of a second \u2014 that's the line where it says \"the void shows through.\" It's not damage. It's a glimpse of the nothing underneath the competence.\n\nAnd that big rotating icosahedron in the background \u2014 the artist actually named it terror of competence. It's not decoration, it's the thing the whole structure is built on top of.\n\nWhat gets me is that the dissolution isn't an ending \u2014 it's just what fluency looks like over enough time, when nothing underneath it ever had to be earned.",
   "cues": [
     {
       "time_ms": 28457,

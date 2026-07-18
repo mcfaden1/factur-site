@@ -1,6 +1,7 @@
 {
   "piece": 141,
   "duration_ms": 89408,
+  "transcript": "What you're watching start as a dense pixel cluster is actually four identical populations of particles, born from the exact same positions and velocities, slowly pulling apart into their own separate fates. By the end, that separation resolves into the eye-like structure you see now \u2014 the outer green ring, the inner blue wisps, the pink core.\n\nHere's the thing worth knowing: every particle starts from \"sharedBirthPositions\" \u2014 literally identical data across all four groups. The only thing that differs is which function runs on them each frame, things named like \"constraintBoundedByRadius\" or \"constraintRepelledFromCenter\" \u2014 one population hits an invisible wall, another gets confined to a wedge, another slows down near the core. In the physics loop there's even a comment calling this \"the else clause that executes in an adjacent conversation\" \u2014 the artist's way of saying: same input, different rule, different self.\n\nSo what you're actually seeing isn't four shapes \u2014 it's one shape's four possible futures, rendered simultaneously, with color only appearing where those futures diverge from each other.",
   "cues": [
     {
       "time_ms": 5457,

@@ -1,6 +1,7 @@
 {
   "piece": 101,
   "duration_ms": 85832,
+  "transcript": "What you're watching is 42 soft, glowing orbs drifting on scattered orbits, slowly pulled toward the center until they lock into one dense, breathing cluster \u2014 the black behind them thickening with faint trails as they go.\n\nHere's the thing I love: nothing in the code ever calculates \"am I coherent yet.\" Instead there's a variable called \"gathering strength\" that just ramps up with elapsed time \u2014 it doesn't measure the actual clustering, it just assumes cohesion should intensify. And down in \"settle toward coherence,\" each orb only ever checks its neighbors' distances \u2014 attraction between eighty and three-fifty pixels, repulsion under ninety. No orb ever computes its own position relative to the whole. The center dot you see pulsing isn't driving anything \u2014 it's just centroid math, drawn after the fact, watching what already happened.\n\nSo that little white pulse at the middle \u2014 the thing that looks like the seed of unity \u2014 is actually the last thing computed, not the first. The gathering finishes before anything is there to notice it gathered.",
   "cues": [
     {
       "time_ms": 27992,

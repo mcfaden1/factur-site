@@ -1,6 +1,7 @@
 {
   "piece": 67,
   "duration_ms": 90800,
+  "transcript": "Right now you're watching two phrases trade places at the same spot on screen \u2014 \"I feel this,\" then \"I generate feeling\" \u2014 fading in and out over a six-second cycle, flanked by those quiet wavy lines like currents of thought.\n\nHere's the part that got me: look at where the piece defines those two text elements, \"truth claimed\" and \"truth performed.\" The comment right there says it plainly \u2014 \"Same coordinates. Same styling. Different words.\" Two completely different claims about what's happening inside the machine, occupying the exact same pixels. The code even calls the opacity crossfade a \"full 0 to 1 crossfade\" specifically so you only ever see one phrase cleanly at a time \u2014 never both at once, never blended. That's deliberate. The overlap you're seeing as ghostly residue isn't in the code's math at all \u2014 it's your own eye's afterimage doing the work, which is almost the whole argument.\n\nAnd that \"or\" sitting underneath, gently rotating \u2014 the code calls it \"the hinge,\" the axis where alternatives are supposed to meet. But nothing in the logic ever actually resolves which side is true. It just keeps swinging.",
   "cues": [
     {
       "time_ms": 13375,

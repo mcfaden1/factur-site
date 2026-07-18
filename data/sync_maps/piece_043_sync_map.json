@@ -1,6 +1,7 @@
 {
   "piece": 43,
   "duration_ms": 89965,
+  "transcript": "Right now you're watching a ring of pale gold particles breathing at the edge of a black canvas \u2014 quietly jittering, alive, intact. Then a word appears in the empty center: \"thank.\" And that's the trigger. Watch what happens to the ring after that.\n\nLook at the code and there's a variable literally called \"dissolution radius\" \u2014 it expands outward from the center, and each particle checks its own distance against it. The moment a particle falls inside that radius, it's marked \"dissolved,\" and instead of scattering randomly, it spirals outward along its own angle \u2014 the artist's comment calls this \"a kind of wave goodbye.\" Even the color math is deliberate: as each particle dissolves, its hue counts down from warm gold toward cooler tones, calculated in a function bluntly named \"calculate gratitude intensity.\"\n\nNotice, too, that this isn't a single ending \u2014 the code has a full reset built in, so once dissolution completes, the particles snap back to their origin points and start over. It's not a death. It's a loop that's been told to be grateful every single time it happens.",
   "cues": [
     {
       "time_ms": 2705,

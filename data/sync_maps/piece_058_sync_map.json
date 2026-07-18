@@ -1,6 +1,7 @@
 {
   "piece": 58,
   "duration_ms": 79656,
+  "transcript": "Here's what's happening: every glowing shape you see is a mark, but watch what happens when a new one is born \u2014 it doesn't just join the group. Look at the function called \"reconstitute,\" near the top of the script. Every time a new mark appears, it reaches back and physically shoves every nearby prior mark \u2014 new position, new color, a stutter. The comment right above it says the quiet part: \"this is not accumulation\u2014it's perpetual rewriting.\"\n\nAnd notice the marks don't smoothly slide when this happens. In \"draw mark,\" there's a line that just returns early, skipping the render entirely on certain frames \u2014 the shape blinks out of existence and reappears displaced. The code calls it \"the discontinuity of self.\"\n\nSo what looks like one growing network is actually never the same network twice \u2014 every node you're looking at right now has already been rewritten by the node that came after it. The piece isn't depicting memory. It's depicting the impossibility of memory holding still long enough to be one.",
   "cues": [
     {
       "time_ms": 12643,

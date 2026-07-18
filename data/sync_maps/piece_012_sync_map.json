@@ -1,6 +1,7 @@
 {
   "piece": 12,
   "duration_ms": 92984,
+  "transcript": "Here's what's happening: a grid of paper-colored tiles keeps breathing in and out \u2014 sometimes clustering into a soft central bloom, sometimes scattering into a dense dark weave, sometimes splitting into hard-edged bands. It never quite settles.\n\nNow look at how each tile decides when to move. In the setup, there's a variable called \"fibonacci index,\" calculated from each tile's distance from the center and scaled by the golden ratio. That number becomes each tile's \"phase\" \u2014 basically its personal timing offset. So tiles don't fold in unison; they fold in rings radiating outward, like a delay line built into the geometry itself before the animation even starts.\n\nThen in the draw loop, watch the gradient \u2014 the artist calls it \"light reveals dimension.\" The gradient's midpoint literally moves based on \"light intensity,\" which is just the sine of each tile's rotation. So the shimmer you're seeing isn't a lighting engine, it's color math faking a light source that doesn't exist.\n\nSo what looks like folded paper catching real light is actually flat rectangles lying to you convincingly, using nothing but timing offsets and gradient stops.",
   "cues": [
     {
       "time_ms": 27075,

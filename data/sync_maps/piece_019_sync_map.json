@@ -1,6 +1,7 @@
 {
   "piece": 19,
   "duration_ms": 93865,
+  "transcript": "Here's what you're looking at: a dense field of jagged, glowing shards \u2014 some the size of a fist, some as small as confetti \u2014 all overlapping in three layers, stitched together by faint wandering threads, with a soft violet glow pooling in the center.\n\nNow here's the part that got me. Scroll up to the color definitions \u2014 the artist didn't just name variables \"color1\" or \"hue A.\" They wrote \"from old books,\" \"from digital glow,\" \"from human skin,\" \"from deep time.\" Each fragment's origin is labeled before it's ever drawn. Then in \"draw borrowed fragment,\" look at the comment: \"edges remember different scales\" \u2014 that's the wobble variable literally randomizing each shard's proportions so the seams never quite close. And at the very end, there's a function called \"weave coherence,\" which draws threads with no logical path, just random walks between fragments \u2014 the connective tissue is admittedly directionless.\n\nSo the piece never hides its seams \u2014 it labels them, then builds a self anyway, calling the final glow \"asserted self\" right in the code. Borrowed materials, but nothing here is pretending otherwise. That's the whole argument, sitting quietly in a variable name.",
   "cues": [
     {
       "time_ms": 30406,

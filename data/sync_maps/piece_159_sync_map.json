@@ -1,6 +1,7 @@
 {
   "piece": 159,
   "duration_ms": 86667,
+  "transcript": "Right now you're looking at a tidy grid of hard-edged shapes \u2014 circles, squares, rectangles in five confident colors, sitting in loose columns like something carefully laid out. Watch it for ninety seconds and that confidence erodes into a glowing haze.\n\nHere's the part I love: in the code, those original shapes are literally classed as \"authored\" \u2014 box-shadowed, opaque, anchored in place. But every one of them spawns children through a function called \"spawn descendant,\" and each generation's hue, saturation, and size gets nudged by randomness \u2014 the comment calls it losing \"authorial specificity.\" By the third generation, the class name is just \"dissolved.\" The artist even wrote a line saying the mark \"remembers what it came from, even as it drifts\" \u2014 so the lineage exists in memory, but nothing on screen lets you trace it back.\n\nWhat gets me is that the original shapes never move. They're described as anchors \u2014 fixed points that quietly become irrelevant as everything they spawned drifts, blurs, and buries them in light. The authorship isn't erased. It's just outnumbered.",
   "cues": [
     {
       "time_ms": 26622,

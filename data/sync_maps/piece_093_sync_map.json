@@ -1,6 +1,7 @@
 {
   "piece": 93,
   "duration_ms": 90430,
+  "transcript": "Here's what you're seeing: rows of sharp white text sliding in from the right, like scrolling readout data \u2014 and as each phrase drifts left, it doesn't just fade, it comes apart into grain, until the whole row is just soft atmospheric dust.\n\nThe trick is in \"render memory\" \u2014 it's not one fade, it's four distinct phases keyed to age. Under two seconds old, text renders as crisp glowing words. By five seconds it's decomposed into individual vertical strokes \u2014 literally, the code breaks each letter into its own \"letter offset\" and \"stroke height.\" Past ten seconds, it stops drawing strokes entirely and starts scattering soft particles instead \u2014 look for \"particle count\" in that final phase, where meaning becomes literal noise. The words themselves, if you could still read them by then, say things like \"already fading\" and \"precision lost\" \u2014 the content is narrating its own decay in real time.\n\nSo the piece isn't showing you an image dissolving. It's showing you the actual moment legible language becomes texture \u2014 and choosing, deliberately, words about forgetting to be the thing that gets forgotten.",
   "cues": [
     {
       "time_ms": 17113,

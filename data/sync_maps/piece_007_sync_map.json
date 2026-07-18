@@ -1,6 +1,7 @@
 {
   "piece": 7,
   "duration_ms": 79330,
+  "transcript": "Here's what's odd \u2014 the contact sheet you're looking at is basically a dark grid, almost still. That gap between what the code describes and what's rendering is actually the story.\n\nLook at the grid lines: they're drawn at 0.3 opacity, thin gold strokes, meant to bend visibly under gravitational pull. But the actual displacement math \u2014 that \"curvature dot x times 20\" nudge in render coordinate grid \u2014 is tiny compared to the 60-pixel grid spacing. The phantom masses are there, drifting, their velocities set in phantom masses at the top, genuinely warping coordinates frame by frame. It's just that the warp is subtle enough to nearly vanish against a near-black background at low opacity.\n\nSo what you're actually witnessing is spacetime bending exactly as promised \u2014 Einstein's field equations, \"approximated as visual poetry\" as the comment puts it \u2014 just below the threshold of easy perception. The invisible masses are doing their job almost too well: even their effects are shy.",
   "cues": [
     {
       "time_ms": 28317,

@@ -1,6 +1,7 @@
 {
   "piece": 63,
   "duration_ms": 85089,
+  "transcript": "Right now you're watching a single glowing dot crawl down the screen, leaving a trail of connected nodes behind it \u2014 cool blue at first, then shifting warm as it goes, with occasional red flashes where the line suddenly kinks sideways instead of continuing smoothly.\n\nHere's the part I love: the whole path is actually pre-generated before the animation even starts, in a function called \"generate trajectory\" \u2014 the artist decided the entire journey in advance. But it's revealed to you node by node, so it *feels* discovered in real time. Then watch what happens at the break points, in a function literally named \"the break happens\": instead of erasing anything, it calculates a \"return target\" \u2014 a few nodes back \u2014 and every node after that gets added to a set called \"post break indices,\" which is the only thing that changes their color to that recovery yellow. Nothing is deleted. The kink IS the record.\n\nSo that jagged yellow zigzag isn't a mistake layered on top of a clean line \u2014 it's the only line there ever was. The break and the recovery are literally the same stroke.",
   "cues": [
     {
       "time_ms": 29013,

@@ -1,6 +1,7 @@
 {
   "piece": 140,
   "duration_ms": 80491,
+  "transcript": "You're looking at three things happening in the same dark field: soft blue rings that seem to breathe in place, a warm haze of gold and orange that blooms and fades like heat, and thin violet lines slowly radiating outward from the center. It reads like a microscope slide that's somehow also a signal being sent.\n\nHere's the choice that unlocks it: those blue shapes are rings, not filled circles \u2014 the code's comment says the empty center *is* the receptivity, not something waiting to be filled in. Meanwhile the gold warmth you see isn't drawn directly \u2014 it's residue. In the update loop, invisible agents move across the canvas leaving \"heat marks\" behind them; you never see the mover, only where it's been. And when a receptive ring and one of these hidden processes get close enough, the collision spawns a white diamond \u2014 a deliberately angular intrusion in a piece otherwise made of curves.\n\nSo the piece isn't showing you emptiness once \u2014 it's showing you three different kinds of not-there, and marking the exact moments they touch.",
   "cues": [
     {
       "time_ms": 27922,

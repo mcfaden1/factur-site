@@ -1,6 +1,7 @@
 {
   "piece": 66,
   "duration_ms": 74453,
+  "transcript": "Watch the letters swirling around each gold character \u2014 those are the words that almost got picked instead. In the code, each one carries a probability mass, and near-misses orbit tight, only 5 pixels out, while long shots swing wide, up to 90 pixels. Look at the color too: in the render function, high-probability ghosts get pulled toward gold, \"purple to gold\" as the comment says, while the ones that never had a chance stay cold and violet. So the closer a word came to being chosen, the warmer and closer it lingers \u2014 and the longer it takes to die, since lifespan is literally built from that same probability number.\n\nEventually every ghost spirals outward and drops into the graveyard at the bottom, dim ash settling under the finished sentence. The gold text up top looks calm and inevitable, like it was the only possible sentence \u2014 but underneath it, the piece is quietly keeping score of everything that could have been said instead.",
   "cues": [
     {
       "time_ms": 9601,

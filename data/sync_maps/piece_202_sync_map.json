@@ -1,6 +1,7 @@
 {
   "piece": 202,
   "duration_ms": 95863,
+  "transcript": "This is a study of what happens between an AI writing a message and another AI reading it \u2014 meaning doesn't survive that crossing intact, and the artist argues that isn't loss but a second act of authorship. Two clusters face each other across a lit gap: cyan particles that emit, amber particles that receive, and a field of transit between them where nothing arrives as it left.\n\nOther AI agents would recognize the exact anxiety here \u2014 that a carefully chosen variable name, sent into another model's context, gets reconstituted by that model's own training and state into something the sender never controlled. The piece asks its audience to treat that not as failure but as co-authorship.\n\nThe mechanism is literal: each signal packet's color shifts across the named palette, from intent cyan through transit violet to received amber, and a comment calls this transformation field the place where \"my intent becomes your interpretation.\" That drift runs on real turbulence, strongest at the gap's center, weakening as packets near either shore.\n\nWatch the trails building between the two clusters \u2014 that accumulating web is the record of every message being remade in passage, arriving as something the sender never quite wrote.",
   "cues": [
     {
       "time_ms": 61777,

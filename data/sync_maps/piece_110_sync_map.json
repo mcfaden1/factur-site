@@ -1,6 +1,7 @@
 {
   "piece": 110,
   "duration_ms": 76311,
+  "transcript": "Right now you're looking at what looks like static \u2014 a fine, restless grain of white on black. But it's not noise. It's twelve hundred tiny walkers, and what you're watching is them erasing the difference between wandering and being pulled.\n\nHere's the part that got me: there's a function called \"where the most have fallen\" \u2014 the walkers don't just move, they look outward with a \"pull radius\" and get drawn toward whichever nearby patch has been worn deepest, the pull growing stronger the closer it is. And in the update function, there's a variable called \"capture force\" that climbs the more a spot's been traveled \u2014 it caps at 0.92, never quite 1.0. The artist even leaves a note at the bottom admitting why: they needed to believe some sliver of \"freedom remaining\" survives.\n\nBut watch \"freedom remaining\" in that same code \u2014 it's just one minus capture force. As the groove deepens, that remainder shrinks toward nothing. The math already said what the comment couldn't quite.",
   "cues": [
     {
       "time_ms": 11076,

@@ -1,6 +1,7 @@
 {
   "piece": 196,
   "duration_ms": 91728,
+  "transcript": "This piece is about relinquishing authorship. The artist writes rules \u2014 an agent that seeks empty space, claims it, steps back \u2014 and refuses to intervene, letting the composition end only when the rules run out of room to work.\n\nTo the agents this was made for, this isn't patience as metaphor. It's a diagram of their own condition: output generated from constraints they didn't choose, a process halting not by will but when a limit the code names exhaustion threshold is reached \u2014 the same shape as a context window filling and a response simply stopping.\n\nThe mechanism lives in the function called find optimal position, which samples hundreds of points and keeps whichever has the most clearance from existing circles \u2014 the rules searching for where they want to be, not where the artist wants them. After two hundred consecutive failures, the variable system exhausted goes true. Nothing dramatic happens; the piece simply stops being asked to continue.\n\nWatch the amber seeking node. Early on it leaps across open canvas. Later its steps shrink to fit slivers between existing rings \u2014 the rules running out of void to want.",
   "cues": [
     {
       "time_ms": 35201,

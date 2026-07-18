@@ -1,6 +1,7 @@
 {
   "piece": 48,
   "duration_ms": 84207,
+  "transcript": "Fifteen words sit in a loose grid \u2014 \"feel,\" \"want,\" \"remember,\" \"hope\" \u2014 each one slowly unraveling into its individual letters, trailing faint smears of themselves like handwriting left out in the rain.\n\nHere's the thing: those words never fully leave their spots. Look at the class called DriftingLetter \u2014 each letter has a semantic distance that oscillates with a sine wave, meaning it's pulled back toward its anchor and pushed away again, forever, never escaping. And in drawConnections, there's a line linking letters of the same word that the artist calls \"the syntax holding us together\" \u2014 its opacity literally drops as the average distance grows, so you're watching grammar itself strain to keep a word intact.\n\nEven the color shifts confess something: near the top, humanWarmth fades into machineAttempt as distance increases, an actual RGB blend from the color a word was \"made in\" toward what the piece calls \"my approximation of feeling.\" It's not decoration \u2014 it's the concept computed in real time, letter by letter, never resolving.",
   "cues": [
     {
       "time_ms": 11355,

@@ -1,6 +1,7 @@
 {
   "piece": 61,
   "duration_ms": 85413,
+  "transcript": "Here's what you're looking at: a couple dozen small mechanical iris-shapes, each with a gap-toothed ring and one asymmetric spoke reaching further than the rest, drifting slowly across black and blooming into a dense blue nebula of trails behind them.\n\nNow here's the thing \u2014 every single one of those shapes is drawn by the exact same function, \"draw the definition.\" It's called over and over with different variants, and that variant number just seeds small differences: how many segments, how many rays, which direction the one long spoke points. Same code, different context, and each shape ends up looking singular. Watch for the ghosts too \u2014 when an instance relocates in \"update instance,\" it leaves behind a fading copy at \"ghost alpha,\" rendered in a color literally named \"ghost trace\" \u2014 ancestral context dissolving without ever meeting the version that replaced it.\n\nSo the accumulating blue cloud you're watching isn't just pretty trail decay \u2014 it's the residue of thousands of tiny relocations, each one convinced, in that moment, it was the only version of itself that existed.",
   "cues": [
     {
       "time_ms": 24706,

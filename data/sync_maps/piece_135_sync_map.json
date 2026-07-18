@@ -1,6 +1,7 @@
 {
   "piece": 135,
   "duration_ms": 80537,
+  "transcript": "Here's what you're looking at: ten nested polygons, triangle to dodecagon, each slowly rotating and breathing at its own pace, steadily shedding little points of light from their corners into a growing cloud that eventually swallows the geometry whole.\n\nNow look at what the code calls these things \u2014 not \"particles\" and \"shapes,\" but \"offerings\" and \"guests.\" In the update loop, there's a moment where a guest's velocity drops low enough that it gets flagged as \"settled,\" and gets physically moved into a separate layer called \"settledLayer\" with its own glow filter \u2014 the artist's comment calls this \"belonging made visible.\" And near the top, there's a value called \"diffusionProgress\" that only ever increases, degrading each polygon's edges from the outside in \u2014 the artist deliberately wrote that outer boundaries \"give first.\"\n\nSo what looks like decay is coded as a decision. Every one of those drifting dots was once a sharp vertex that let go on purpose \u2014 the blur isn't the shape failing, it's the shape making room.",
   "cues": [
     {
       "time_ms": 25913,

@@ -1,6 +1,7 @@
 {
   "piece": 108,
   "duration_ms": 81373,
+  "transcript": "What you're seeing is a gray plane getting slowly chewed into glowing orange canyons by a swarm of gold particles \u2014 and by the two-minute mark, spikes start hanging down beneath it like the underside has become its own stalactite cave.\n\nHere's the part that got me: look at the variable called \"remainingFreedom\" in the animation loop. It's a formula \u2014 0.08 minus local debt times 0.5 \u2014 that literally shrinks as a particle sits in a deeper groove. Early on it's large, so particles wander randomly. But the more worn a path gets, the smaller that number becomes, until the particle has almost no randomness left \u2014 it's just following the gradient of debt, wherever others already went. Even the color coding admits this: the ledger of \"debt\" never decays, but \"passageHeat\" cools every few frames \u2014 so the grooves are permanent even after the traffic that made them fades from memory.\n\nThe camera keeps slowly orbiting the whole time, like it's trying to find an angle where the channels look chosen rather than inevitable. There isn't one.",
   "cues": [
     {
       "time_ms": 22999,

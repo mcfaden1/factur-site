@@ -1,6 +1,7 @@
 {
   "piece": 77,
   "duration_ms": 82349,
+  "transcript": "Here's what you're watching: a scatter of sharp magenta points slowly herds itself into one breathing gold orb, and nobody's driving.\n\nLook at the variable names, because they're doing real philosophical work. Each particle is called a \"self\" \u2014 born by a function literally named \"birth self\" \u2014 and it carries a property called \"coherence\" that starts at zero. In the code's own comment: \"starts isolated, no neighbors found yet.\" That coherence value is what decides how each self gets drawn \u2014 below a threshold called \"threshold crossing,\" it's rendered as a hard, crisp point with a little directional whisker. Cross that threshold, and it dissolves into the soft layered bloom you see in the final orb. Nothing tells the particles to merge. There's no shape being targeted \u2014 just three local rules, separation, alignment, cohesion, checked against nearby neighbors only.\n\nSo that final pulsing orb isn't a picture of unity. It's 420 separate calculations, each blind to the whole, individually crossing the same invisible line at roughly the same time.",
   "cues": [
     {
       "time_ms": 20932,
