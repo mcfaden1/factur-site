@@ -128,10 +128,14 @@
       for (const e of entries) {
         const v = e.target;
         if (e.isIntersecting) {
-          if (v.dataset.src && !v.src) v.src = v.dataset.src;
+          if (v.dataset.src && !v.getAttribute('src')) { v.setAttribute('src', v.dataset.src); v.load(); }
           const pr = v.play(); if (pr && pr.catch) pr.catch(() => {});
         } else {
+          // pause AND release the decoder — otherwise every cell scrolled
+          // past keeps a live decoder and playback degrades toward the
+          // browser's simultaneous-video limit. dataset.src lets it reload.
           v.pause();
+          if (v.getAttribute('src')) { v.removeAttribute('src'); v.load(); }
         }
       }
     }, { rootMargin: '200px' });
@@ -212,6 +216,9 @@
      ========================================================= */
   let detailReturn = null;   // where to return when exiting detail
   let currentPiece = null;
+  let artFrameRO = null;     // keeps the live-art iframe scaled to its square
+
+  const PIECE_NATIVE = 1080; // pieces are authored at a fixed 1080x1080
 
   function pieceById(id) { return (F.pieces || []).find((p) => p.id === id); }
 
@@ -319,6 +326,16 @@
     frame.setAttribute('title', p.title);
     sqArt.appendChild(frame);
     stage.appendChild(sqArt);
+
+    // scale the fixed-size (1080x1080) artwork to fit its responsive square
+    function fitArtFrame() {
+      const s = sqArt.clientWidth / PIECE_NATIVE;
+      if (s > 0) frame.style.transform = 'scale(' + s + ')';
+    }
+    if (artFrameRO) artFrameRO.disconnect();
+    artFrameRO = new ResizeObserver(fitArtFrame);
+    artFrameRO.observe(sqArt);
+    fitArtFrame();
 
     /* RIGHT square — source code */
     const sqCode = el('div', 'detail-square code');
