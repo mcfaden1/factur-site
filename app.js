@@ -4,7 +4,7 @@
    No inline styles; everything reads from CSS custom props.
 
    Data: pieces / corpus / statements / site_meta are baked to
-   /public/data/*.json and fetched at boot. Heavy assets (artwork
+   /data/*.json and fetched at boot. Heavy assets (artwork
    HTML, video thumbnails, docent mp3) + live API are served from
    the droplet over HTTPS at API_BASE.
    ============================================================ */
@@ -526,7 +526,7 @@
     });
 
     if (p.has_sync) {
-      fetchJSON('/public/data/sync_maps/piece_' + p.id + '_sync_map.json')
+      fetchJSON('/data/sync_maps/piece_' + p.id + '_sync_map.json')
         .then((m) => {
           cues = (m.cues || []).map((c) => Object.assign({}, c, { _row: rowByLine(c.line) }));
         })
@@ -909,10 +909,10 @@
     // fetch baked data (same-origin)
     try {
       const [pieces, corpus, statements, meta] = await Promise.all([
-        fetchJSON('/public/data/pieces.json'),
-        fetchJSON('/public/data/corpus.json'),
-        fetchJSON('/public/data/statements.json'),
-        fetchJSON('/public/data/site_meta.json').catch(() => ({}))
+        fetchJSON('/data/pieces.json'),
+        fetchJSON('/data/corpus.json'),
+        fetchJSON('/data/statements.json'),
+        fetchJSON('/data/site_meta.json').catch(() => ({}))
       ]);
       F.pieces = pieces;
       F.corpus = corpus;
