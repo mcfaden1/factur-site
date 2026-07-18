@@ -30,8 +30,8 @@
 
   /* ---- defaults + state ---- */
   const DEFAULTS = {
-    accent: 'ember', backdrop: 'ink', hairlines: 1, contrast: 0,
-    fontDisplay: 'Syne', fontMono: 'JetBrains Mono', scale: 1,
+    accent: 'ember', backdrop: 'ink', hairlines: 1, contrast: 35,
+    fontDisplay: 'Syne', fontMono: 'JetBrains Mono', scale: 1.2,
     density: 280, dots: 'on',
     syntax: 'spectrum', codeSize: 0.68,
     motion: 'on', cursor: 'cross'
