@@ -29,7 +29,7 @@
   --font-display: 'Syne';
   --font-mono: 'JetBrains Mono';
   --hl-mult: 1;        /* hairline intensity multiplier */
-  --type-scale: 1;     /* global rem scale */
+  --type-scale: 1.2;   /* global rem scale */
   --cell-min: 280px;   /* gallery column min width */
 
   --text-wordmark: clamp(5rem, 14vw, 13rem);
