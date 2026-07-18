@@ -535,11 +535,26 @@
       if (audio.paused) { audio.play(); playBtn.innerHTML = ICON.pause; }
       else { audio.pause(); playBtn.innerHTML = ICON.play; }
     });
-    track.addEventListener('click', (e) => {
+    let scrubbing = false;
+    function seekToX(clientX) {
       const r = track.getBoundingClientRect();
-      const frac = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width));
-      if (audio.duration) audio.currentTime = frac * audio.duration;
+      const frac = Math.max(0, Math.min(1, (clientX - r.left) / r.width));
+      if (audio.duration) { audio.currentTime = frac * audio.duration; renderProgress(); }
+    }
+    track.addEventListener('pointerdown', (e) => {
+      scrubbing = true;
+      track.classList.add('scrubbing');
+      try { track.setPointerCapture(e.pointerId); } catch (_) {}
+      seekToX(e.clientX);
     });
+    track.addEventListener('pointermove', (e) => { if (scrubbing) seekToX(e.clientX); });
+    const endScrub = (e) => {
+      if (!scrubbing) return;
+      scrubbing = false; track.classList.remove('scrubbing');
+      try { track.releasePointerCapture(e.pointerId); } catch (_) {}
+    };
+    track.addEventListener('pointerup', endScrub);
+    track.addEventListener('pointercancel', endScrub);
 
     if (p.has_sync) {
       fetchJSON('/data/sync_maps/piece_' + p.id + '_sync_map.json')

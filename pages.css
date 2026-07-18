@@ -122,17 +122,21 @@ html.light .cell .overlay {
 .docent-time { font-size: 0.62rem; color: var(--ink-mid); font-variant-numeric: tabular-nums; white-space: nowrap; }
 
 .docent-track {
-  height: 2px; background: var(--hairline2);
-  position: relative;
-  margin: 0.1rem 0;
+  height: 18px; position: relative; margin: 0.1rem 0;
+  cursor: pointer; touch-action: none;
 }
-.docent-fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(--ink-mid); width: 0; }
+.docent-track::before {
+  content: ''; position: absolute; left: 0; right: 0; top: 50%;
+  transform: translateY(-50%); height: 2px; background: var(--hairline2);
+}
+.docent-fill { position: absolute; left: 0; top: 50%; transform: translateY(-50%); height: 2px; background: var(--ink-mid); width: 0; }
 .docent-head {
   position: absolute; top: 50%; width: 8px; height: 8px; border-radius: 50%;
   background: var(--ink); transform: translate(-50%,-50%); left: 0;
   opacity: 0; transition: opacity 0.2s;
 }
-.docent-track:hover .docent-head { opacity: 1; }
+.docent-track:hover .docent-head,
+.docent-track.scrubbing .docent-head { opacity: 1; }
 
 .docent-transcript {
   border-top: 1px solid var(--hairline);
@@ -193,9 +197,7 @@ table.code tr.hl-visited .ln { border-right: none; }
 
 /* --- inspector (System Output + Concept, flowed below) --- */
 .inspector {
-  margin-top: 2.6rem;
-  padding-top: 1.7rem;
-  border-top: 1px solid var(--hairline2);
+  margin-top: 1.7rem;
   display: grid;
   grid-template-columns: minmax(220px, 1fr) 2fr;
   gap: 2.6rem;
