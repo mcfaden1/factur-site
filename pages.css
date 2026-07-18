@@ -270,7 +270,7 @@ table.code tr.hl-visited .ln { border-right: none; }
    ============================================================ */
 .corpus-filterbar {
   flex: 0 0 auto;
-  min-height: 2.6rem;
+  min-height: 3rem;
   border-bottom: 1px solid var(--hairline2);
   display: flex; align-items: center; gap: 0.4rem;
   padding: 0 var(--pad);

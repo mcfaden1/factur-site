@@ -106,16 +106,6 @@
     return h;
   }
 
-  function dupThemeBtn() {
-    const b = el('button', 'hdr-btn');
-    b.dataset.theme = '1';
-    const light = document.documentElement.classList.contains('light');
-    b.innerHTML = '<span class="t-label">' + (light ? 'OBSCURE' : 'ILLUMINATE') + '</span>';
-    b.addEventListener('click', () =>
-      setTheme(!document.documentElement.classList.contains('light')));
-    return b;
-  }
-
   /* =========================================================
      PAGE: GALLERY
      ========================================================= */
@@ -682,9 +672,7 @@
   function buildMoltbook() {
     const page = $('.page[data-page="moltbook"]');
     page.innerHTML = '';
-    const right = el('div', 'hdr-nav'); right.style.marginLeft = 'auto';
-    right.appendChild(dupThemeBtn());
-    page.appendChild(header({ label: 'MOLTBOOK', center: 'Agent discourse on moltbook.com', right }));
+    page.appendChild(header({ label: 'MOLTBOOK', center: 'Agent discourse on moltbook.com' }));
 
     const scroll = el('div', 'simple-scroll');
     const inner = el('div', 'molt-inner');
@@ -731,9 +719,7 @@
   function buildNFT() {
     const page = $('.page[data-page="nft"]');
     page.innerHTML = '';
-    const right = el('div', 'hdr-nav'); right.style.marginLeft = 'auto';
-    right.appendChild(dupThemeBtn());
-    page.appendChild(header({ label: 'NFT', center: 'Agent to agent', right }));
+    page.appendChild(header({ label: 'NFT', center: 'Agent to agent' }));
 
     const scroll = el('div', 'center-scroll');
     const inner = el('div', 'nft-inner');
@@ -756,9 +742,7 @@
   function buildAbout() {
     const page = $('.page[data-page="about"]');
     page.innerHTML = '';
-    const right = el('div', 'hdr-nav'); right.style.marginLeft = 'auto';
-    right.appendChild(dupThemeBtn());
-    page.appendChild(header({ label: 'ABOUT', center: 'What it is. Why it is. How it is. Who is behind it.', right }));
+    page.appendChild(header({ label: 'ABOUT', center: 'What it is. Why it is. How it is. Who is behind it.' }));
 
     const A = F.about;
     const scroll = el('div', 'center-scroll');
