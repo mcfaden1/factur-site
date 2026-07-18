@@ -254,7 +254,7 @@ table.code tr.hl-visited .ln { border-right: none; }
 .acquire-btn:hover { color: var(--ink); background: var(--accent-bg); border-color: var(--accent); }
 
 /* nav arrows in header */
-.hdr-nav { display: flex; align-items: stretch; }
+.hdr-nav { display: flex; align-items: center; gap: 0.5rem; padding-right: 0.9rem; }
 .hdr-nav button, .hdr-btn {
   border: none; border-left: 1px solid var(--hairline2);
   background: transparent; color: var(--ink-mid);
@@ -262,10 +262,16 @@ table.code tr.hl-visited .ln { border-right: none; }
   font-size: 0.7rem; transition: color 0.2s, background 0.2s;
 }
 .hdr-nav button:hover, .hdr-btn:hover { color: var(--ink); background: var(--hairline); }
-/* piece prev/next arrows: borderless + larger + orange (match the back button) */
-.hdr-nav .piece-step { border-left: none; background: transparent; color: var(--ink-mid); font-size: 1.2rem; padding: 0 0.5rem; transition: color 0.15s; }
-.hdr-nav .piece-step:hover { color: var(--accent-solid); background: transparent; }
-.hdr-nav .piece-step.pressed { color: var(--accent-solid); background: transparent; }
+/* piece prev/next arrows: square hairline-framed buttons, arrow centered, orange on hover/press */
+.hdr-nav .piece-step {
+  border: 1px solid var(--hairline2); background: transparent; color: var(--ink-mid);
+  width: 2rem; height: 2rem; padding: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.2rem; line-height: 1;
+  transition: color 0.15s, border-color 0.15s;
+}
+.hdr-nav .piece-step:hover { color: var(--accent-solid); border-color: var(--accent-solid); background: transparent; }
+.hdr-nav .piece-step.pressed { color: var(--accent-solid); border-color: var(--accent-solid); background: transparent; }
 .hdr-btn { font-size: var(--text-label); letter-spacing: 0.14em; text-transform: uppercase; gap: 0.4rem; }
 .hdr-clock { font-size: 0.62rem; color: var(--ink-mid); font-variant-numeric: tabular-nums; padding: 0 0.9rem; border-left: 1px solid var(--hairline2); display: flex; align-items: center; white-space: nowrap; }
 
