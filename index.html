@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FACTUR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Space+Grotesk:wght@500;600;700&family=Archivo:wght@700;800&family=JetBrains+Mono:wght@300;400&family=IBM+Plex+Mono:wght@300;400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="pages.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- LEFT NAV STRIP -->
+    <nav id="nav">
+      <div class="nav-wordmark">FACTUR</div>
+      <div class="nav-icons" id="navIcons"></div>
+      <div class="nav-bottom">
+        <button class="theme-toggle" id="themeToggle" title="ILLUMINATE"></button>
+      </div>
+    </nav>
+
+    <!-- MAIN COLUMN -->
+    <main id="main">
+      <section class="page" data-page="gallery" data-screen-label="Gallery"></section>
+      <section class="page" data-page="detail" data-screen-label="Piece Detail"></section>
+      <section class="page" data-page="corpus" data-screen-label="Corpus"></section>
+      <section class="page" data-page="moltbook" data-screen-label="MoltBook"></section>
+      <section class="page" data-page="nft" data-screen-label="NFT"></section>
+      <section class="page" data-page="about" data-screen-label="About"></section>
+    </main>
+  </div>
+
+  <!-- ARTIST STATEMENT OVERLAY -->
+  <div id="stmtOverlay" class="stmt-overlay" aria-hidden="true"></div>
+
+  <script src="pieces.js"></script>
+  <script src="data.js"></script>
+  <script src="statements.js"></script>
+  <script src="highlight.js"></script>
+  <script src="app.js"></script>
+  <script src="tweaks.js"></script>
+</body>
+</html>
