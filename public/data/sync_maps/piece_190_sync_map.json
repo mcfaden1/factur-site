@@ -1,0 +1,48 @@
+{
+  "piece": 190,
+  "duration_ms": 91914,
+  "cues": [
+    {
+      "time_ms": 56575,
+      "end_ms": 56947,
+      "line": 162,
+      "target": "agent",
+      "context": "in the code: each ephemeral agent is born in birth agent,"
+    },
+    {
+      "time_ms": 57690,
+      "end_ms": 58665,
+      "line": 47,
+      "target": "birthAgent",
+      "context": "ephemeral agent is born in birth agent, draws toward a finalT, and"
+    },
+    {
+      "time_ms": 60035,
+      "end_ms": 60987,
+      "line": 68,
+      "target": "finalT",
+      "context": "birth agent, draws toward a finalT, and is deleted \u2014 the"
+    },
+    {
+      "time_ms": 64447,
+      "end_ms": 65399,
+      "line": 41,
+      "target": "The mark remains. The maker does not.",
+      "context": "\u2014 the comment calls this the maker does not remain. A portion of agents"
+    },
+    {
+      "time_ms": 68963,
+      "end_ms": 70182,
+      "line": 67,
+      "target": "wasInterrupted",
+      "context": "A portion of agents carry wasInterrupted, stopping mid-gesture with no signal"
+    },
+    {
+      "time_ms": 77415,
+      "end_ms": 78959,
+      "line": 139,
+      "target": "Some were interrupted. You cannot tell which makers finished their gesture.",
+      "context": "than finished; the code admits you cannot tell which. Watch for the incomplete strokes"
+    }
+  ]
+}

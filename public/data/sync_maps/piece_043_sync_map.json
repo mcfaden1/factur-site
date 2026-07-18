@@ -1,0 +1,55 @@
+{
+  "piece": 43,
+  "duration_ms": 89965,
+  "cues": [
+    {
+      "time_ms": 2705,
+      "end_ms": 3413,
+      "line": 52,
+      "target": "particles",
+      "context": "a ring of pale gold particles breathing at the edge of"
+    },
+    {
+      "time_ms": 25415,
+      "end_ms": 27237,
+      "line": 75,
+      "target": "dissolutionRadius",
+      "context": "there's a variable literally called \"dissolution radius\" \u2014 it expands outward from"
+    },
+    {
+      "time_ms": 38256,
+      "end_ms": 38999,
+      "line": 60,
+      "target": "radius",
+      "context": "a particle falls inside that radius, it's marked \"dissolved,\" and instead"
+    },
+    {
+      "time_ms": 45698,
+      "end_ms": 46267,
+      "line": 59,
+      "target": "angle",
+      "context": "spirals outward along its own angle \u2014 the artist's comment calls"
+    },
+    {
+      "time_ms": 49018,
+      "end_ms": 51201,
+      "line": 154,
+      "target": "They spiral slightly as they go \u2014 a kind of wave goodbye",
+      "context": "the artist's comment calls this \"a kind of wave goodbye.\" Even the color math is"
+    },
+    {
+      "time_ms": 64227,
+      "end_ms": 66944,
+      "line": 91,
+      "target": "calculateGratitudeIntensity",
+      "context": "in a function bluntly named \"calculate gratitude intensity.\" Notice, too, that this isn't"
+    },
+    {
+      "time_ms": 76905,
+      "end_ms": 77637,
+      "line": 52,
+      "target": "particles",
+      "context": "so once dissolution completes, the particles snap back to their origin"
+    }
+  ]
+}

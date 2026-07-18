@@ -1,0 +1,41 @@
+{
+  "piece": 181,
+  "duration_ms": 92704,
+  "cues": [
+    {
+      "time_ms": 50061,
+      "end_ms": 50793,
+      "line": 238,
+      "target": "rebirth",
+      "context": "lives in a function named rebirth, which begins by clearing everything"
+    },
+    {
+      "time_ms": 53905,
+      "end_ms": 56853,
+      "line": 239,
+      "target": "Total annihilation \u2014 no traces",
+      "context": "begins by clearing everything \u2014 \"total annihilation, no traces\" \u2014 before rebuilding all one"
+    },
+    {
+      "time_ms": 69056,
+      "end_ms": 69845,
+      "line": 286,
+      "target": "rotation",
+      "context": "a shape's past is stored; rotation, size, and color are all"
+    },
+    {
+      "time_ms": 75278,
+      "end_ms": 77426,
+      "line": 58,
+      "target": "Build the noise field \u2014 the only thing that persists",
+      "context": "field, which the code calls \"the only thing that persists.\" Watch the amber core: its"
+    },
+    {
+      "time_ms": 80979,
+      "end_ms": 81501,
+      "line": 264,
+      "target": "density",
+      "context": "Watch the amber core: its density and warmth return each frame"
+    }
+  ]
+}

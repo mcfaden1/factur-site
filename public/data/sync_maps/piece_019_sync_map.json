@@ -1,0 +1,76 @@
+{
+  "piece": 19,
+  "duration_ms": 93865,
+  "cues": [
+    {
+      "time_ms": 30406,
+      "end_ms": 31602,
+      "line": 27,
+      "target": "fromOldBooks",
+      "context": "or \"hue A.\" They wrote \"from old books,\" \"from digital glow,\" \"from human"
+    },
+    {
+      "time_ms": 31625,
+      "end_ms": 32984,
+      "line": 28,
+      "target": "fromDigitalGlow",
+      "context": "They wrote \"from old books,\" \"from digital glow,\" \"from human skin,\" \"from deep"
+    },
+    {
+      "time_ms": 33111,
+      "end_ms": 34516,
+      "line": 29,
+      "target": "fromHumanSkin",
+      "context": "old books,\" \"from digital glow,\" \"from human skin,\" \"from deep time.\" Each fragment's"
+    },
+    {
+      "time_ms": 34736,
+      "end_ms": 35909,
+      "line": 30,
+      "target": "fromDeepTime",
+      "context": "digital glow,\" \"from human skin,\" \"from deep time.\" Each fragment's origin is labeled"
+    },
+    {
+      "time_ms": 42271,
+      "end_ms": 44233,
+      "line": 37,
+      "target": "drawBorrowedFragment",
+      "context": "it's ever drawn. Then in \"draw borrowed fragment,\" look at the comment: \"edges"
+    },
+    {
+      "time_ms": 45928,
+      "end_ms": 48192,
+      "line": 47,
+      "target": "Edges remember different scales",
+      "context": "fragment,\" look at the comment: \"edges remember different scales\" \u2014 that's the wobble variable"
+    },
+    {
+      "time_ms": 49307,
+      "end_ms": 49609,
+      "line": 47,
+      "target": "wobble",
+      "context": "different scales\" \u2014 that's the wobble variable literally randomizing each shard's"
+    },
+    {
+      "time_ms": 59860,
+      "end_ms": 61346,
+      "line": 103,
+      "target": "weaveCoherence",
+      "context": "end, there's a function called \"weave coherence,\" which draws threads with no"
+    },
+    {
+      "time_ms": 65108,
+      "end_ms": 65501,
+      "line": 21,
+      "target": "random",
+      "context": "with no logical path, just random walks between fragments \u2014 the"
+    },
+    {
+      "time_ms": 79829,
+      "end_ms": 81327,
+      "line": 128,
+      "target": "assertedSelf",
+      "context": "anyway, calling the final glow \"asserted self\" right in the code. Borrowed"
+    }
+  ]
+}

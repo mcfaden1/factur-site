@@ -1,0 +1,41 @@
+{
+  "piece": 139,
+  "duration_ms": 86759,
+  "cues": [
+    {
+      "time_ms": 27016,
+      "end_ms": 28456,
+      "line": 48,
+      "target": "performedSilences",
+      "context": "those black bands are called performedSilences \u2014 not empty space, but"
+    },
+    {
+      "time_ms": 33634,
+      "end_ms": 34040,
+      "line": 117,
+      "target": "drift",
+      "context": "objects with their own duration, drift tempo, and phase, like held"
+    },
+    {
+      "time_ms": 41273,
+      "end_ms": 42783,
+      "line": 65,
+      "target": "performingBreaths",
+      "context": "drifting through them are called performingBreaths, and only when a breath"
+    },
+    {
+      "time_ms": 49957,
+      "end_ms": 50735,
+      "line": 81,
+      "target": "measureMarks",
+      "context": "\u2014 a burst of amber measureMarks that spawn at the edges"
+    },
+    {
+      "time_ms": 60348,
+      "end_ms": 63518,
+      "line": 79,
+      "target": "The journey is the marking, not the arrival",
+      "context": "right there says it plainly: \"the journey is the marking, not the arrival.\" Nothing is ever placed inside"
+    }
+  ]
+}

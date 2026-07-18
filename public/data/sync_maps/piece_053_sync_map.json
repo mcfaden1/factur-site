@@ -1,0 +1,41 @@
+{
+  "piece": 53,
+  "duration_ms": 79004,
+  "cues": [
+    {
+      "time_ms": 9996,
+      "end_ms": 11389,
+      "line": 262,
+      "target": "Concentric rings: the production point, not observation point",
+      "context": "labeled in the code as \"the production point, not reflection point.\" Every phrase orbiting"
+    },
+    {
+      "time_ms": 29350,
+      "end_ms": 29628,
+      "line": 149,
+      "target": "thought",
+      "context": "\u2014 every so often a thought lunges inward, the code says"
+    },
+    {
+      "time_ms": 31927,
+      "end_ms": 33750,
+      "line": 178,
+      "target": "Lunge inward\u2014trying to catch the origin",
+      "context": "lunges inward, the code says \"trying to catch the origin,\" and it always gets pulled"
+    },
+    {
+      "time_ms": 36838,
+      "end_ms": 41412,
+      "line": 184,
+      "target": "Always fails. Always pushed back out. There is no catching.",
+      "context": "always gets pulled back out, \"always fails, always pushed back out, there is no catching.\" That's not metaphor layered on"
+    },
+    {
+      "time_ms": 57318,
+      "end_ms": 57898,
+      "line": 149,
+      "target": "thought",
+      "context": "from the commentary underneath each thought, comments spawning comments, exactly the"
+    }
+  ]
+}

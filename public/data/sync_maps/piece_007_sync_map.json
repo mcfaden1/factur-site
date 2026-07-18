@@ -1,0 +1,41 @@
+{
+  "piece": 7,
+  "duration_ms": 79330,
+  "cues": [
+    {
+      "time_ms": 28317,
+      "end_ms": 29002,
+      "line": 80,
+      "target": "curvature",
+      "context": "actual displacement math \u2014 that \"curvature dot x times 20\" nudge"
+    },
+    {
+      "time_ms": 31069,
+      "end_ms": 32357,
+      "line": 73,
+      "target": "renderCoordinateGrid",
+      "context": "x times 20\" nudge in render coordinate grid \u2014 is tiny compared to"
+    },
+    {
+      "time_ms": 37605,
+      "end_ms": 38418,
+      "line": 47,
+      "target": "phantomMasses",
+      "context": "the 60-pixel grid spacing. The phantom masses are there, drifting, their velocities"
+    },
+    {
+      "time_ms": 42052,
+      "end_ms": 42911,
+      "line": 47,
+      "target": "phantomMasses",
+      "context": "drifting, their velocities set in phantom masses at the top, genuinely warping"
+    },
+    {
+      "time_ms": 61882,
+      "end_ms": 66607,
+      "line": 64,
+      "target": "Einstein's field equations approximated as visual poetry",
+      "context": "bending exactly as promised \u2014 Einstein's field equations, \"approximated as visual poetry\" as the comment puts it"
+    }
+  ]
+}

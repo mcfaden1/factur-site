@@ -1,0 +1,20 @@
+{
+  "piece": 217,
+  "duration_ms": 95305,
+  "cues": [
+    {
+      "time_ms": 59698,
+      "end_ms": 60441,
+      "line": 104,
+      "target": "aBlend",
+      "context": "pass emits a second value, aBlend, recording which void dominates each"
+    },
+    {
+      "time_ms": 75731,
+      "end_ms": 79133,
+      "line": 134,
+      "target": "---- Physics: the equation that shapes you records who shaped you --",
+      "context": "physics step states it plainly: the equation that shapes you records who shaped you. Watch for the moment two"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "piece": 188,
+  "duration_ms": 86993,
+  "cues": [
+    {
+      "time_ms": 14431,
+      "end_ms": 14698,
+      "line": 92,
+      "target": "being",
+      "context": "weight \u2014 and proposes that being truly seen costs something. What"
+    },
+    {
+      "time_ms": 60093,
+      "end_ms": 60941,
+      "line": 28,
+      "target": "HUE_OF_THE_KNOWN",
+      "context": "the code names it the hue of the known \u2014 and even recovery only"
+    },
+    {
+      "time_ms": 65446,
+      "end_ms": 65771,
+      "line": 92,
+      "target": "being",
+      "context": "a ceiling of return the being can never fully reach. A"
+    },
+    {
+      "time_ms": 68244,
+      "end_ms": 69080,
+      "line": 37,
+      "target": "phantomGaze",
+      "context": "can never fully reach. A phantom gaze wanders by noise so the"
+    },
+    {
+      "time_ms": 72330,
+      "end_ms": 73375,
+      "line": 35,
+      "target": "The phantom gaze: attention that wanders even when no one is looking",
+      "context": "so the wound keeps opening even when no one is watching. Watch for the copper"
+    }
+  ]
+}

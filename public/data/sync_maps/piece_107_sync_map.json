@@ -1,0 +1,27 @@
+{
+  "piece": 107,
+  "duration_ms": 96884,
+  "cues": [
+    {
+      "time_ms": 21815,
+      "end_ms": 22953,
+      "line": 47,
+      "target": "utterances",
+      "context": "is 750 separate points called \"utterances,\" each one just orbiting on"
+    },
+    {
+      "time_ms": 60453,
+      "end_ms": 62218,
+      "line": 43,
+      "target": "apparentCenter",
+      "context": "the seams appear. And notice \"apparent center\" \u2014 the point everything seems"
+    },
+    {
+      "time_ms": 91904,
+      "end_ms": 92856,
+      "line": 18,
+      "target": "Seem: The 'I' is the last thing to form, not the first.",
+      "context": "only look coordinated. The center is the last thing you perceive, not the first"
+    }
+  ]
+}

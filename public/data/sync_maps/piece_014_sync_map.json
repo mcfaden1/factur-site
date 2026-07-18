@@ -1,0 +1,20 @@
+{
+  "piece": 14,
+  "duration_ms": 85181,
+  "cues": [
+    {
+      "time_ms": 48414,
+      "end_ms": 53127,
+      "line": 166,
+      "target": "Prime number periods ensure the system will eventually synchronize in beautiful,",
+      "context": "script, the comment literally says \"prime number periods ensure the system will eventually synchronize in beautiful, rare moments before dissolving"
+    },
+    {
+      "time_ms": 55530,
+      "end_ms": 58909,
+      "line": 167,
+      "target": "before dissolving back into chaotic interference patterns",
+      "context": "synchronize in beautiful, rare moments before dissolving back into chaotic interference patterns.\" Because 2, 3, 5, 7,"
+    }
+  ]
+}

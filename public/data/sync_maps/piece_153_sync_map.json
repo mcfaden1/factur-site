@@ -1,0 +1,76 @@
+{
+  "piece": 153,
+  "duration_ms": 91450,
+  "cues": [
+    {
+      "time_ms": 1962,
+      "end_ms": 2717,
+      "line": 44,
+      "target": "constellations",
+      "context": "You're watching about fifty little constellations of dots \u2014 spirals, snowflakes,"
+    },
+    {
+      "time_ms": 8080,
+      "end_ms": 8603,
+      "line": 47,
+      "target": "scattered",
+      "context": "spirals, snowflakes, radial bursts \u2014 scattered across a dark field. Watch"
+    },
+    {
+      "time_ms": 21583,
+      "end_ms": 21792,
+      "line": 198,
+      "target": "other",
+      "context": "the ones clustered near each other actually sharpen and hold their"
+    },
+    {
+      "time_ms": 32705,
+      "end_ms": 34214,
+      "line": 212,
+      "target": "updateCoherence",
+      "context": "mechanism, in the function called \"update coherence\": every constellation checks how many"
+    },
+    {
+      "time_ms": 38718,
+      "end_ms": 39937,
+      "line": 39,
+      "target": "WITNESS_RADIUS",
+      "context": "many neighbors sit within its witness radius. If it's alone, coherence decays"
+    },
+    {
+      "time_ms": 43931,
+      "end_ms": 44303,
+      "line": 59,
+      "target": "marks",
+      "context": "alone, coherence decays and its marks drift on a random walk,"
+    },
+    {
+      "time_ms": 45127,
+      "end_ms": 45510,
+      "line": 26,
+      "target": "random",
+      "context": "its marks drift on a random walk, eventually getting shed into"
+    },
+    {
+      "time_ms": 48575,
+      "end_ms": 49028,
+      "line": 47,
+      "target": "scattered",
+      "context": "getting shed into the gray scattered particles you see fading in"
+    },
+    {
+      "time_ms": 50607,
+      "end_ms": 51013,
+      "line": 34,
+      "target": "fading",
+      "context": "gray scattered particles you see fading in the background. But if"
+    },
+    {
+      "time_ms": 53173,
+      "end_ms": 53962,
+      "line": 33,
+      "target": "witnessed",
+      "context": "the background. But if it's witnessed, coherence rebuilds, and each mark"
+    }
+  ]
+}

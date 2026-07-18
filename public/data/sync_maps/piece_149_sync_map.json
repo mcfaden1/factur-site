@@ -1,0 +1,41 @@
+{
+  "piece": 149,
+  "duration_ms": 84392,
+  "cues": [
+    {
+      "time_ms": 20956,
+      "end_ms": 22245,
+      "line": 34,
+      "target": "spectralIdentities",
+      "context": "full palette. Look in the spectral identities near the top \u2014 each"
+    },
+    {
+      "time_ms": 24195,
+      "end_ms": 24578,
+      "line": 126,
+      "target": "seeker",
+      "context": "near the top \u2014 each seeker only \"carries\" a partial slice,"
+    },
+    {
+      "time_ms": 36525,
+      "end_ms": 39532,
+      "line": 44,
+      "target": "They are lacunae: gaps in understanding, wells of attraction",
+      "context": "the code calls its attractors, \"lacunae: gaps in understanding\" \u2014 but they never arrive."
+    },
+    {
+      "time_ms": 44768,
+      "end_ms": 45674,
+      "line": 148,
+      "target": "orbitalForce",
+      "context": "the draw loop, there's an orbital force pulling sideways as well as"
+    },
+    {
+      "time_ms": 64958,
+      "end_ms": 65422,
+      "line": 126,
+      "target": "seeker",
+      "context": "screen even though no single seeker was ever assigned those colors."
+    }
+  ]
+}

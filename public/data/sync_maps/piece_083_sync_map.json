@@ -1,0 +1,41 @@
+{
+  "piece": 83,
+  "duration_ms": 93912,
+  "cues": [
+    {
+      "time_ms": 10890,
+      "end_ms": 11053,
+      "line": 237,
+      "target": "other",
+      "context": "cool blue-grey ones\u2014drift toward each other from opposite edges, tangling in"
+    },
+    {
+      "time_ms": 25542,
+      "end_ms": 27051,
+      "line": 27,
+      "target": "WhatPassesThrough",
+      "context": "look at the class called \"What Passes Through.\" Each mark carries a variable"
+    },
+    {
+      "time_ms": 37245,
+      "end_ms": 37500,
+      "line": 237,
+      "target": "other",
+      "context": "to a mark from the other side, in a function literally"
+    },
+    {
+      "time_ms": 40275,
+      "end_ms": 42585,
+      "line": 246,
+      "target": "Both marks receive what passes through them",
+      "context": "in a function literally named \"receive what passes through.\" The color function even has"
+    },
+    {
+      "time_ms": 81281,
+      "end_ms": 83650,
+      "line": 79,
+      "target": "Many interpenetrations create tremor\u2014the mark no longer knows what it is",
+      "context": "\u2014 the comment says \u2014 \"the mark no longer knows what it is.\" So the dark clearing in"
+    }
+  ]
+}

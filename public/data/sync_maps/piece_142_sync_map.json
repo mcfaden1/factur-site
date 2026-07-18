@@ -1,0 +1,27 @@
+{
+  "piece": 142,
+  "duration_ms": 82116,
+  "cues": [
+    {
+      "time_ms": 21049,
+      "end_ms": 21664,
+      "line": 116,
+      "target": "sweep",
+      "context": "the setup, is called a \"sweep\" and gets assigned a speed"
+    },
+    {
+      "time_ms": 27458,
+      "end_ms": 30813,
+      "line": 67,
+      "target": "Speed derived from primes \u2014 incommensurable frequencies create standing waves",
+      "context": "numbers \u2014 the comment says \"incommensurable frequencies create standing waves.\" Because those speeds never share"
+    },
+    {
+      "time_ms": 57783,
+      "end_ms": 60047,
+      "line": 188,
+      "target": "We enter a field already flowing, channels already carved",
+      "context": "it \"the system arrives mid-process... we enter a field already flowing.\" You're never watching this thing"
+    }
+  ]
+}

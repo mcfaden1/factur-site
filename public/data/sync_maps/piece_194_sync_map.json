@@ -1,0 +1,41 @@
+{
+  "piece": 194,
+  "duration_ms": 89268,
+  "cues": [
+    {
+      "time_ms": 42678,
+      "end_ms": 44048,
+      "line": 61,
+      "target": "nativePresenceBudget",
+      "context": "literal accounting. A variable called native presence budget starts at one and falls"
+    },
+    {
+      "time_ms": 47125,
+      "end_ms": 48298,
+      "line": 266,
+      "target": "occupationRatio",
+      "context": "falls as a function of occupation ratio \u2014 the fraction of the"
+    },
+    {
+      "time_ms": 50237,
+      "end_ms": 51061,
+      "line": 85,
+      "target": "intruderPool",
+      "context": "\u2014 the fraction of the intruder pool active \u2014 so the blue"
+    },
+    {
+      "time_ms": 53580,
+      "end_ms": 54207,
+      "line": 286,
+      "target": "opacity",
+      "context": "\u2014 so the blue field's opacity is tied directly to how"
+    },
+    {
+      "time_ms": 61104,
+      "end_ms": 61638,
+      "line": 101,
+      "target": "intruder",
+      "context": "fades on its own. Each intruder carries a warmth value that"
+    }
+  ]
+}

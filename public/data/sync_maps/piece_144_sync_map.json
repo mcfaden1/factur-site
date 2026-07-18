@@ -1,0 +1,27 @@
+{
+  "piece": 144,
+  "duration_ms": 85599,
+  "cues": [
+    {
+      "time_ms": 20375,
+      "end_ms": 21676,
+      "line": 70,
+      "target": "applyConstraints",
+      "context": "think. In the function called \"apply constraints,\" every node just checks its"
+    },
+    {
+      "time_ms": 40751,
+      "end_ms": 45383,
+      "line": 81,
+      "target": "The repulsion IS the line\u2014no pushing away, no form",
+      "context": "comment right above it says \"the repulsion is the line, no pushing away, no form\" \u2014 meaning the artist wants"
+    },
+    {
+      "time_ms": 59071,
+      "end_ms": 60569,
+      "line": 98,
+      "target": "insertNodes",
+      "context": "stand each other. Then in \"insert nodes,\" whenever two neighboring points drift"
+    }
+  ]
+}

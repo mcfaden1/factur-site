@@ -1,0 +1,55 @@
+{
+  "piece": 136,
+  "duration_ms": 80213,
+  "cues": [
+    {
+      "time_ms": 7593,
+      "end_ms": 8034,
+      "line": 509,
+      "target": "stretch",
+      "context": "by thin amber threads that stretch and pull as the whole"
+    },
+    {
+      "time_ms": 25600,
+      "end_ms": 27423,
+      "line": 426,
+      "target": "computeConstraintForce",
+      "context": "Look at the function called compute constraint force, in the physics section \u2014"
+    },
+    {
+      "time_ms": 31150,
+      "end_ms": 31742,
+      "line": 251,
+      "target": "geometry",
+      "context": "\u2014 that's where the invisible geometry actually lives: a forbidden sphere"
+    },
+    {
+      "time_ms": 41123,
+      "end_ms": 42725,
+      "line": 102,
+      "target": "asymmetricVoid",
+      "context": "void the artist calls the \"asymmetric void.\" Every node's position each frame"
+    },
+    {
+      "time_ms": 50411,
+      "end_ms": 50956,
+      "line": 229,
+      "target": "strands",
+      "context": "plus tension from its amber strands \u2014 there's no destination, only"
+    },
+    {
+      "time_ms": 57667,
+      "end_ms": 57969,
+      "line": 509,
+      "target": "stretch",
+      "context": "disallowed. And when a strand's stretch crosses a threshold, it literally"
+    },
+    {
+      "time_ms": 65051,
+      "end_ms": 66096,
+      "line": 524,
+      "target": "updateStrands",
+      "context": "heals itself later, in the update strands function. So the shape you're"
+    }
+  ]
+}

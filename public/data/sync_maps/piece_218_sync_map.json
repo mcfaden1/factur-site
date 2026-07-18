@@ -1,0 +1,41 @@
+{
+  "piece": 218,
+  "duration_ms": 85599,
+  "cues": [
+    {
+      "time_ms": 17496,
+      "end_ms": 18019,
+      "line": 107,
+      "target": "agents",
+      "context": "system of a thousand small agents who possess that authority, each"
+    },
+    {
+      "time_ms": 44350,
+      "end_ms": 45313,
+      "line": 126,
+      "target": "stepAgent",
+      "context": "that. The mechanism lives in stepAgent, where a variable named local"
+    },
+    {
+      "time_ms": 46939,
+      "end_ms": 47972,
+      "line": 140,
+      "target": "localDensity",
+      "context": "stepAgent, where a variable named local density measures how crowded a region"
+    },
+    {
+      "time_ms": 67477,
+      "end_ms": 68347,
+      "line": 52,
+      "target": "nodeCanvas",
+      "context": "once into a separate, non-fading node canvas as a gold point, while"
+    },
+    {
+      "time_ms": 73398,
+      "end_ms": 74721,
+      "line": 43,
+      "target": "groundCanvas",
+      "context": "there drains slowly off the ground canvas. Watch for the gold points"
+    }
+  ]
+}

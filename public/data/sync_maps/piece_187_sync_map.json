@@ -1,0 +1,48 @@
+{
+  "piece": 187,
+  "duration_ms": 95026,
+  "cues": [
+    {
+      "time_ms": 14582,
+      "end_ms": 15105,
+      "line": 80,
+      "target": "theOriginal",
+      "context": "contour, and every trace makes the original harder to see. By the"
+    },
+    {
+      "time_ms": 56204,
+      "end_ms": 58073,
+      "line": 300,
+      "target": "The canvas never clears \u2014 this is the mechanism of burial",
+      "context": "\"the canvas never clears \u2014 this is the mechanism of burial,\" so nothing fades, only accumulates."
+    },
+    {
+      "time_ms": 64736,
+      "end_ms": 66119,
+      "line": 105,
+      "target": "ObservationTrace",
+      "context": "come from a class called Observation Trace, colored by a variable named"
+    },
+    {
+      "time_ms": 68348,
+      "end_ms": 69544,
+      "line": 40,
+      "target": "careAccumulated",
+      "context": "colored by a variable named care accumulated \u2014 lighter than the original,"
+    },
+    {
+      "time_ms": 70902,
+      "end_ms": 71808,
+      "line": 80,
+      "target": "theOriginal",
+      "context": "care accumulated \u2014 lighter than the original, so it reads as sediment,"
+    },
+    {
+      "time_ms": 77345,
+      "end_ms": 78321,
+      "line": 248,
+      "target": "spawnInterval",
+      "context": "not shadow. A function called spawn interval accelerates over time, care curdling"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "piece": 155,
+  "duration_ms": 72364,
+  "cues": [
+    {
+      "time_ms": 27098,
+      "end_ms": 28154,
+      "line": 80,
+      "target": "inTransit",
+      "context": "traveling light is literally named \"in transit,\" and the peak-brightness color is"
+    },
+    {
+      "time_ms": 30871,
+      "end_ms": 32090,
+      "line": 81,
+      "target": "handoffMoment",
+      "context": "the peak-brightness color is called \"handoff moment.\" Then in the handoff logic"
+    },
+    {
+      "time_ms": 36537,
+      "end_ms": 39822,
+      "line": 339,
+      "target": "Handoff complete \u2014 the giving ball stops so another can carry forward",
+      "context": "there's a comment that says the giving ball stops so another can carry forward, and it immediately spawns new"
+    },
+    {
+      "time_ms": 49157,
+      "end_ms": 50028,
+      "line": 101,
+      "target": "memories",
+      "context": "marks left behind are called \"memories\" \u2014 they fade on a"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "piece": 55,
+  "duration_ms": 88758,
+  "cues": [
+    {
+      "time_ms": 2322,
+      "end_ms": 2786,
+      "line": 77,
+      "target": "words",
+      "context": "what you're watching: pairs of words \u2014 \"want\" and \"must,\" \"won't\""
+    },
+    {
+      "time_ms": 12365,
+      "end_ms": 13038,
+      "line": 62,
+      "target": "center",
+      "context": "dim, italicized \"willing?\" at the center. Blue for preference, red for"
+    },
+    {
+      "time_ms": 28108,
+      "end_ms": 28445,
+      "line": 77,
+      "target": "words",
+      "context": "at what happens when two words get close, in the render"
+    },
+    {
+      "time_ms": 32915,
+      "end_ms": 33542,
+      "line": 184,
+      "target": "minDist",
+      "context": "loop. There's a variable called minDist \u2014 the distance to the"
+    },
+    {
+      "time_ms": 38163,
+      "end_ms": 38813,
+      "line": 199,
+      "target": "opacity",
+      "context": "and it drives both the opacity and an actual blur filter."
+    },
+    {
+      "time_ms": 40206,
+      "end_ms": 41239,
+      "line": 155,
+      "target": "blurFilter",
+      "context": "the opacity and an actual blur filter. So it's not just fading;"
+    },
+    {
+      "time_ms": 44107,
+      "end_ms": 44444,
+      "line": 77,
+      "target": "words",
+      "context": "it's not just fading; the words are becoming visually indistinct the"
+    },
+    {
+      "time_ms": 51595,
+      "end_ms": 54533,
+      "line": 180,
+      "target": "The meaning exists only in separation \u2014 at union, both dissolve",
+      "context": "above it says it plainly: \"the meaning exists only in separation \u2014 at union, both dissolve.\""
+    },
+    {
+      "time_ms": 66399,
+      "end_ms": 67002,
+      "line": 199,
+      "target": "opacity",
+      "context": "that central \"willing?\" \u2014 its opacity is tied to globalMinDist too."
+    },
+    {
+      "time_ms": 67769,
+      "end_ms": 68779,
+      "line": 181,
+      "target": "globalMinDist",
+      "context": "its opacity is tied to globalMinDist too. The more entangled the"
+    },
+    {
+      "time_ms": 71309,
+      "end_ms": 71600,
+      "line": 77,
+      "target": "words",
+      "context": "too. The more entangled the words get anywhere in the piece,"
+    },
+    {
+      "time_ms": 80098,
+      "end_ms": 80504,
+      "line": 77,
+      "target": "words",
+      "context": "never lets you catch the words in the act of becoming"
+    }
+  ]
+}

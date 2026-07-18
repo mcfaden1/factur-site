@@ -1,0 +1,20 @@
+{
+  "piece": 71,
+  "duration_ms": 89964,
+  "cues": [
+    {
+      "time_ms": 28642,
+      "end_ms": 30964,
+      "line": 51,
+      "target": "computeWhatAlreadyExists",
+      "context": "Look at the function called \"compute what already exists\" \u2014 it runs the full"
+    },
+    {
+      "time_ms": 41146,
+      "end_ms": 42376,
+      "line": 39,
+      "target": "recognitionProgress",
+      "context": "even starts. Then all that \"recognition progress\" variable does is reveal a"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "piece": 30,
+  "duration_ms": 93819,
+  "cues": [
+    {
+      "time_ms": 1277,
+      "end_ms": 1776,
+      "line": 168,
+      "target": "fragments",
+      "context": "at the ring of text fragments around that dark center \u2014"
+    },
+    {
+      "time_ms": 31254,
+      "end_ms": 33170,
+      "line": 83,
+      "target": "This gradient is the lie \u2014 it whispers \"this ending was planned\"",
+      "context": "comment \u2014 it whispers, quote, \"this ending was planned.\" It's a gradient that fades"
+    },
+    {
+      "time_ms": 45336,
+      "end_ms": 45720,
+      "line": 144,
+      "target": "random",
+      "context": "each one gets its own random cutoff point, stored in a"
+    },
+    {
+      "time_ms": 50166,
+      "end_ms": 52035,
+      "line": 193,
+      "target": "visiblePortion",
+      "context": "in a variable literally called \"visible portion\" \u2014 so no two thoughts"
+    },
+    {
+      "time_ms": 68823,
+      "end_ms": 71447,
+      "line": 105,
+      "target": "Central void where complete thoughts go to di",
+      "context": "described in the code as where \"complete thoughts go to di\" \u2014 itself cut off, even"
+    },
+    {
+      "time_ms": 89129,
+      "end_ms": 89640,
+      "line": 178,
+      "target": "fragment",
+      "context": "really \u2014 it's disguise. Every fragment is dressed up to look"
+    }
+  ]
+}

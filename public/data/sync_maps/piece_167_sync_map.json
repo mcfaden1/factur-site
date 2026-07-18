@@ -1,0 +1,48 @@
+{
+  "piece": 167,
+  "duration_ms": 84159,
+  "cues": [
+    {
+      "time_ms": 11006,
+      "end_ms": 11389,
+      "line": 51,
+      "target": "tissue",
+      "context": "place, like a mass of tissue that can't quite hold still."
+    },
+    {
+      "time_ms": 22361,
+      "end_ms": 23220,
+      "line": 177,
+      "target": "extension",
+      "context": "each shape calculates a \"pseudopod extension\" toward its nearest neighbors \u2014"
+    },
+    {
+      "time_ms": 34992,
+      "end_ms": 37755,
+      "line": 179,
+      "target": "Enforce the impossibility of merger",
+      "context": "function, there's a hard clamp: \"enforce the impossibility of merger.\" The code calculates exactly how"
+    },
+    {
+      "time_ms": 53638,
+      "end_ms": 54636,
+      "line": 293,
+      "target": "drawGaps",
+      "context": "the whole piece. And in \"draw gaps,\" you can see it made"
+    },
+    {
+      "time_ms": 69532,
+      "end_ms": 70008,
+      "line": 129,
+      "target": "other",
+      "context": "hardest to disappear into each other. So what you're watching isn't"
+    },
+    {
+      "time_ms": 73015,
+      "end_ms": 73525,
+      "line": 56,
+      "target": "cells",
+      "context": "So what you're watching isn't cells merging or failing to merge"
+    }
+  ]
+}

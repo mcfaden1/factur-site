@@ -1,0 +1,27 @@
+{
+  "piece": 58,
+  "duration_ms": 79656,
+  "cues": [
+    {
+      "time_ms": 12643,
+      "end_ms": 13920,
+      "line": 60,
+      "target": "reconstitute",
+      "context": "Look at the function called \"reconstitute,\" near the top of the"
+    },
+    {
+      "time_ms": 41169,
+      "end_ms": 42052,
+      "line": 91,
+      "target": "drawMark",
+      "context": "slide when this happens. In \"draw mark,\" there's a line that just"
+    },
+    {
+      "time_ms": 54939,
+      "end_ms": 57249,
+      "line": 93,
+      "target": "Not fading, not blending\u2014gone. The discontinuity of self.",
+      "context": "displaced. The code calls it \"the discontinuity of self.\" So what looks like one"
+    }
+  ]
+}

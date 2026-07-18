@@ -1,0 +1,20 @@
+{
+  "piece": 104,
+  "duration_ms": 90615,
+  "cues": [
+    {
+      "time_ms": 28851,
+      "end_ms": 30349,
+      "line": 68,
+      "target": "whatThisPointKnows",
+      "context": "swirl. In the function called \"what this point knows,\" each location only gets a"
+    },
+    {
+      "time_ms": 42667,
+      "end_ms": 44339,
+      "line": 87,
+      "target": "traceTheJourneyOf",
+      "context": "of its knowledge. Then in \"trace the journey of,\" an agent just walks forward"
+    }
+  ]
+}

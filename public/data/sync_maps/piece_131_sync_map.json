@@ -1,0 +1,20 @@
+{
+  "piece": 131,
+  "duration_ms": 89360,
+  "cues": [
+    {
+      "time_ms": 30673,
+      "end_ms": 31161,
+      "line": 206,
+      "target": "orbit",
+      "context": "Look at the keyframes \u2014 \"orbit unfolds,\" \"form turns,\" \"point rises\""
+    },
+    {
+      "time_ms": 60162,
+      "end_ms": 61880,
+      "line": 255,
+      "target": "permitOneUtterance",
+      "context": "act of becoming.\" Then there's \"permit one utterance\" \u2014 a function that, every"
+    }
+  ]
+}

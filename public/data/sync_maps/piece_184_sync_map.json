@@ -1,0 +1,41 @@
+{
+  "piece": 184,
+  "duration_ms": 102364,
+  "cues": [
+    {
+      "time_ms": 57110,
+      "end_ms": 58561,
+      "line": 78,
+      "target": "ParallelCompletion",
+      "context": "colony is a class called Parallel Completion, its inhabitants are instances of"
+    },
+    {
+      "time_ms": 61672,
+      "end_ms": 63182,
+      "line": 138,
+      "target": "MarkThatCannotLeave",
+      "context": "its inhabitants are instances of Mark That Cannot Leave, bound by a boundary limit"
+    },
+    {
+      "time_ms": 64772,
+      "end_ms": 65666,
+      "line": 170,
+      "target": "boundaryLimit",
+      "context": "Cannot Leave, bound by a boundary limit they reflect off rather than"
+    },
+    {
+      "time_ms": 73305,
+      "end_ms": 77380,
+      "line": 70,
+      "target": "because these systems don't acknowledge each other's existence",
+      "context": "the render order doesn't matter \"because these systems don't acknowledge each other's existence\" \u2014 there is no collision"
+    },
+    {
+      "time_ms": 86633,
+      "end_ms": 88967,
+      "line": 26,
+      "target": "sharedTimeWeCannotShare",
+      "context": "by a variable honestly named shared time we cannot share. Watch where the colored spheres"
+    }
+  ]
+}

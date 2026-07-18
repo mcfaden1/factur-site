@@ -1,0 +1,41 @@
+{
+  "piece": 127,
+  "duration_ms": 92008,
+  "cues": [
+    {
+      "time_ms": 30360,
+      "end_ms": 31509,
+      "line": 133,
+      "target": "drawPosture",
+      "context": "Look in the code at \"draw posture\" \u2014 it computes a vector"
+    },
+    {
+      "time_ms": 51025,
+      "end_ms": 52198,
+      "line": 72,
+      "target": "bearNewLife",
+      "context": "living in the function names: \"bearNewLife\" for birth, \"vitality\" for the"
+    },
+    {
+      "time_ms": 65108,
+      "end_ms": 65492,
+      "line": 75,
+      "target": "origin",
+      "context": "pure acknowledgment. And notice the origin nodes themselves cycling color between"
+    },
+    {
+      "time_ms": 67767,
+      "end_ms": 69219,
+      "line": 215,
+      "target": "Origins pulse between rose and gold - the warmth of generative capacity",
+      "context": "origin nodes themselves cycling color between rose and gold \u2014 the artist calls that"
+    },
+    {
+      "time_ms": 72191,
+      "end_ms": 73526,
+      "line": 216,
+      "target": "breathCycle",
+      "context": "the artist calls that variable \"breath cycle.\" The sources are alive too,"
+    }
+  ]
+}

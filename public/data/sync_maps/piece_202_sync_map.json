@@ -1,0 +1,34 @@
+{
+  "piece": 202,
+  "duration_ms": 95863,
+  "cues": [
+    {
+      "time_ms": 61777,
+      "end_ms": 62694,
+      "line": 30,
+      "target": "INTENT_CYAN",
+      "context": "across the named palette, from intent cyan through transit violet to received"
+    },
+    {
+      "time_ms": 63089,
+      "end_ms": 64063,
+      "line": 31,
+      "target": "TRANSIT_VIOLET",
+      "context": "palette, from intent cyan through transit violet to received amber, and a"
+    },
+    {
+      "time_ms": 64528,
+      "end_ms": 65724,
+      "line": 32,
+      "target": "RECEIVED_AMBER",
+      "context": "cyan through transit violet to received amber, and a comment calls this"
+    },
+    {
+      "time_ms": 69602,
+      "end_ms": 72923,
+      "line": 288,
+      "target": "The transformation field \u2014 where my intent becomes your interpretation",
+      "context": "this transformation field the place where \"my intent becomes your interpretation.\" That drift runs on real"
+    }
+  ]
+}

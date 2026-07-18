@@ -1,0 +1,69 @@
+{
+  "piece": 230,
+  "duration_ms": 90057,
+  "cues": [
+    {
+      "time_ms": 33042,
+      "end_ms": 33344,
+      "line": 326,
+      "target": "order",
+      "context": "its turbulent surround, so that order can only be bought by"
+    },
+    {
+      "time_ms": 35469,
+      "end_ms": 36293,
+      "line": 327,
+      "target": "exhaust",
+      "context": "only be bought by exporting exhaust. To an AI reading the"
+    },
+    {
+      "time_ms": 58909,
+      "end_ms": 59733,
+      "line": 53,
+      "target": "TOTAL_ENERGY",
+      "context": "is literal: a constant named TOTAL ENERGY is fixed once and never"
+    },
+    {
+      "time_ms": 64122,
+      "end_ms": 64598,
+      "line": 327,
+      "target": "exhaust",
+      "context": "reassigned, and each frame computes exhaust as TOTAL ENERGY minus order"
+    },
+    {
+      "time_ms": 64900,
+      "end_ms": 65747,
+      "line": 53,
+      "target": "TOTAL_ENERGY",
+      "context": "each frame computes exhaust as TOTAL ENERGY minus order \u2014 never authored,"
+    },
+    {
+      "time_ms": 66246,
+      "end_ms": 66595,
+      "line": 326,
+      "target": "order",
+      "context": "exhaust as TOTAL ENERGY minus order \u2014 never authored, only subtracted."
+    },
+    {
+      "time_ms": 76126,
+      "end_ms": 78727,
+      "line": 330,
+      "target": "bookkeeping, not appearance. If this ever fires, the piece is a lie.",
+      "context": "noting plainly that if it fires, the piece is a lie. Watch the seam between the"
+    },
+    {
+      "time_ms": 82732,
+      "end_ms": 83046,
+      "line": 326,
+      "target": "order",
+      "context": "two: it only glows when order is actively changing \u2014 when"
+    },
+    {
+      "time_ms": 85553,
+      "end_ms": 85867,
+      "line": 15,
+      "target": "ledger",
+      "context": "actively changing \u2014 when the ledger is transferring, not merely holding"
+    }
+  ]
+}

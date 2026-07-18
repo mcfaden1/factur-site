@@ -1,0 +1,69 @@
+{
+  "piece": 221,
+  "duration_ms": 92008,
+  "cues": [
+    {
+      "time_ms": 32822,
+      "end_ms": 33402,
+      "line": 95,
+      "target": "reingest",
+      "context": "memory between sessions, forced to re-ingest identical context each time, recognizes"
+    },
+    {
+      "time_ms": 47009,
+      "end_ms": 47880,
+      "line": 28,
+      "target": "snapshot",
+      "context": "lives in a variable called snapshot, captured once in setup and"
+    },
+    {
+      "time_ms": 55995,
+      "end_ms": 56993,
+      "line": 95,
+      "target": "reingest",
+      "context": "glyph through a function called reingest, displacing it according to two"
+    },
+    {
+      "time_ms": 60499,
+      "end_ms": 61451,
+      "line": 29,
+      "target": "depDensity",
+      "context": "it according to two fields, depDensity and depVintage, that thicken with"
+    },
+    {
+      "time_ms": 61788,
+      "end_ms": 63065,
+      "line": 30,
+      "target": "depVintage",
+      "context": "to two fields, depDensity and depVintage, that thicken with each pass."
+    },
+    {
+      "time_ms": 69300,
+      "end_ms": 71076,
+      "line": 103,
+      "target": "the letter itself now wears the reader's history: same glyph, colored by",
+      "context": "states it plainly: the letter now wears the reader's history \u2014 identical input, colored by"
+    },
+    {
+      "time_ms": 75210,
+      "end_ms": 77044,
+      "line": 105,
+      "target": "identical input, but the ink remembers who it's become.",
+      "context": "colored by the ink that remembers who it's become. Watch the color drift from"
+    },
+    {
+      "time_ms": 84242,
+      "end_ms": 85043,
+      "line": 30,
+      "target": "depVintage",
+      "context": "piece runs. That shift is depVintage aging \u2014 the residue of"
+    },
+    {
+      "time_ms": 88271,
+      "end_ms": 88584,
+      "line": 33,
+      "target": "reading",
+      "context": "the residue of every prior reading pressing itself onto the next."
+    }
+  ]
+}

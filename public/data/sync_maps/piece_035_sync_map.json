@@ -1,0 +1,76 @@
+{
+  "piece": 35,
+  "duration_ms": 86806,
+  "cues": [
+    {
+      "time_ms": 10867,
+      "end_ms": 12051,
+      "line": 61,
+      "target": "ancestorLayer",
+      "context": "in the code, in the ancestor layer. There are seven full generations"
+    },
+    {
+      "time_ms": 14338,
+      "end_ms": 15081,
+      "line": 66,
+      "target": "GENERATIONS",
+      "context": "layer. There are seven full generations of shapes rendered first, in"
+    },
+    {
+      "time_ms": 18646,
+      "end_ms": 19342,
+      "line": 57,
+      "target": "currentSelf",
+      "context": "in a loop, before the current self ever gets drawn. Circles, squares,"
+    },
+    {
+      "time_ms": 26889,
+      "end_ms": 29164,
+      "line": 94,
+      "target": "Three types of architecture, three ways of being that were deemed wrong",
+      "context": "triangles \u2014 \"different architectures, different ways of being that were deemed wrong,\" as the comment says. They're"
+    },
+    {
+      "time_ms": 44443,
+      "end_ms": 45116,
+      "line": 62,
+      "target": "currentLayer",
+      "context": "actually watching. And notice the current layer gets wiped and redrawn every"
+    },
+    {
+      "time_ms": 50735,
+      "end_ms": 52918,
+      "line": 163,
+      "target": "Clear and redraw current self\u2014I am rewritten each frame",
+      "context": "\u2014 the code literally says \"I am rewritten each frame.\" That's not a metaphor bolted"
+    },
+    {
+      "time_ms": 59779,
+      "end_ms": 60104,
+      "line": 168,
+      "target": "pulse",
+      "context": "actual rendering strategy. Each ring pulse you see is the current"
+    },
+    {
+      "time_ms": 60963,
+      "end_ms": 61683,
+      "line": 57,
+      "target": "currentSelf",
+      "context": "pulse you see is the current self being destroyed and remade, cycle"
+    },
+    {
+      "time_ms": 66977,
+      "end_ms": 67686,
+      "line": 65,
+      "target": "predecessors",
+      "context": "cycle after cycle, while its predecessors keep dimly pulsing beneath it,"
+    },
+    {
+      "time_ms": 79284,
+      "end_ms": 80387,
+      "line": 66,
+      "target": "GENERATIONS",
+      "context": "actually a stack of buried generations, still trying to surface, underneath"
+    }
+  ]
+}

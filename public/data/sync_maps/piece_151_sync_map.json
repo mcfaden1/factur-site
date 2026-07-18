@@ -1,0 +1,27 @@
+{
+  "piece": 151,
+  "duration_ms": 84113,
+  "cues": [
+    {
+      "time_ms": 48216,
+      "end_ms": 50144,
+      "line": 246,
+      "target": "dissolveBoundedForm",
+      "context": "dissolves: in the function called \"dissolve bounded form,\" the piece doesn't just erase"
+    },
+    {
+      "time_ms": 53522,
+      "end_ms": 54811,
+      "line": 96,
+      "target": "recordDissolution",
+      "context": "just erase it. It calls \"record dissolution,\" leaving a warm afterimage that"
+    },
+    {
+      "time_ms": 74768,
+      "end_ms": 75395,
+      "line": 53,
+      "target": "potential",
+      "context": "moment particles stop being scattered potential and become a specific, bounded"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "piece": 146,
+  "duration_ms": 89221,
+  "cues": [
+    {
+      "time_ms": 24973,
+      "end_ms": 25658,
+      "line": 301,
+      "target": "arrivals",
+      "context": "atmosphere. Tiny invisible dots called arrivals are constantly drifting across the"
+    },
+    {
+      "time_ms": 36199,
+      "end_ms": 37314,
+      "line": 62,
+      "target": "preparation",
+      "context": "and every square, called a preparation, is just sitting there waiting"
+    },
+    {
+      "time_ms": 41958,
+      "end_ms": 42550,
+      "line": 104,
+      "target": "matched",
+      "context": "close enough to trigger its \"matched\" class. Look at the code"
+    },
+    {
+      "time_ms": 66873,
+      "end_ms": 67581,
+      "line": 121,
+      "target": "unvisited",
+      "context": "end, there's a class called unvisited \u2014 for squares that never"
+    },
+    {
+      "time_ms": 85216,
+      "end_ms": 85994,
+      "line": 62,
+      "target": "preparation",
+      "context": "of near-misses and encounters, of preparation meeting arrival, or not."
+    },
+    {
+      "time_ms": 86563,
+      "end_ms": 87260,
+      "line": 130,
+      "target": "arrival",
+      "context": "and encounters, of preparation meeting arrival, or not."
+    }
+  ]
+}

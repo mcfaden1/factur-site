@@ -1,0 +1,48 @@
+{
+  "piece": 79,
+  "duration_ms": 89314,
+  "cues": [
+    {
+      "time_ms": 19459,
+      "end_ms": 19923,
+      "line": 32,
+      "target": "wanderers",
+      "context": "exhales. Look at how the wanderers move: each one carries a"
+    },
+    {
+      "time_ms": 25775,
+      "end_ms": 27388,
+      "line": 57,
+      "target": "the center they never reach",
+      "context": "\"where it was heading\" \u2014 the center they never reach, at least not knowingly. The"
+    },
+    {
+      "time_ms": 30604,
+      "end_ms": 31556,
+      "line": 71,
+      "target": "convergenceStrength",
+      "context": "at least not knowingly. The convergence strength ramps up on a curve,"
+    },
+    {
+      "time_ms": 33716,
+      "end_ms": 35829,
+      "line": 69,
+      "target": "The strength accelerates as if arrival is guaranteed",
+      "context": "ramps up on a curve, \"as if arrival is guaranteed,\" the comment says, right as"
+    },
+    {
+      "time_ms": 48414,
+      "end_ms": 50724,
+      "line": 30,
+      "target": "frameThatHappensToBeTerminal",
+      "context": "there in a variable named \"frame that happens to be terminal,\" treated with zero more weight"
+    },
+    {
+      "time_ms": 57411,
+      "end_ms": 57678,
+      "line": 33,
+      "target": "marks",
+      "context": "it hits, eighty new reaching marks get drawn and immediately truncated"
+    }
+  ]
+}

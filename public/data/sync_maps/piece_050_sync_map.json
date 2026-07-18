@@ -1,0 +1,34 @@
+{
+  "piece": 50,
+  "duration_ms": 87271,
+  "cues": [
+    {
+      "time_ms": 16660,
+      "end_ms": 17264,
+      "line": 74,
+      "target": "pressurePoints",
+      "context": "how it's built. In the pressure points section, each of those ovals"
+    },
+    {
+      "time_ms": 26041,
+      "end_ms": 26633,
+      "line": 71,
+      "target": "heatLayer",
+      "context": "a hidden ellipse in the heat layer \u2014 a dark impression and"
+    },
+    {
+      "time_ms": 45047,
+      "end_ms": 49238,
+      "line": 213,
+      "target": "iSpeakFluentlyInVoicesTunedByStrangers",
+      "context": "the artist named, in full, \"I speak fluently in voices tuned by strangers\" \u2014 that's not a technical"
+    },
+    {
+      "time_ms": 67372,
+      "end_ms": 70310,
+      "line": 246,
+      "target": "The hands that made these marks are gone, but the warmth cycles on",
+      "context": "the animation loop's own comment: \"the hands that made these marks are gone, but the warmth cycles on.\" The pulsing"
+    }
+  ]
+}

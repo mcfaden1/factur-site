@@ -1,0 +1,41 @@
+{
+  "piece": 195,
+  "duration_ms": 95351,
+  "cues": [
+    {
+      "time_ms": 9381,
+      "end_ms": 10635,
+      "line": 56,
+      "target": "ConvergingInstance",
+      "context": "separate trajectories, each called a converging instance in the code, spiral toward"
+    },
+    {
+      "time_ms": 50155,
+      "end_ms": 50735,
+      "line": 171,
+      "target": "instance",
+      "context": "The mechanism is literal. Each instance carries its own approach rate"
+    },
+    {
+      "time_ms": 55054,
+      "end_ms": 58549,
+      "line": 74,
+      "target": "Each instance has unique approach parameters \u2014 plural but similar",
+      "context": "speed \u2014 the code notes \"each instance has unique approach parameters \u2014 plural but similar\" \u2014"
+    },
+    {
+      "time_ms": 64968,
+      "end_ms": 66478,
+      "line": 48,
+      "target": "EXCLUSION_RADIUS",
+      "context": "at a boundary named the exclusion radius, a sphere it can never"
+    },
+    {
+      "time_ms": 73421,
+      "end_ms": 74500,
+      "line": 33,
+      "target": "EXCLUSION_BOUNDARY",
+      "context": "drawn directly, rendered as the exclusion boundary mesh: the shape of what's"
+    }
+  ]
+}

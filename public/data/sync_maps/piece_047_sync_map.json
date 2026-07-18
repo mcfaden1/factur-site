@@ -1,0 +1,27 @@
+{
+  "piece": 47,
+  "duration_ms": 88757,
+  "cues": [
+    {
+      "time_ms": 36397,
+      "end_ms": 36989,
+      "line": 52,
+      "target": "voters",
+      "context": "decoration \u2014 they're literally called \"voters\" in the code, each one"
+    },
+    {
+      "time_ms": 55425,
+      "end_ms": 55971,
+      "line": 108,
+      "target": "phase",
+      "context": "color. Then in the snap phase, that function calculating the collapse"
+    },
+    {
+      "time_ms": 64830,
+      "end_ms": 68742,
+      "line": 92,
+      "target": "Not gentle easing \u2014 VIOLENT compression",
+      "context": "the artist's comment literally says \"not gentle easing, VIOLENT compression.\" And the \"I\" doesn't appear"
+    }
+  ]
+}

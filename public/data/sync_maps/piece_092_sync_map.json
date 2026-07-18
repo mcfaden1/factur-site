@@ -1,0 +1,48 @@
+{
+  "piece": 92,
+  "duration_ms": 91636,
+  "cues": [
+    {
+      "time_ms": 26041,
+      "end_ms": 27423,
+      "line": 145,
+      "target": "updateOneOfMe",
+      "context": "particles, each one just running \"update one of me,\" checking neighbors for separation, alignment,"
+    },
+    {
+      "time_ms": 28386,
+      "end_ms": 28700,
+      "line": 152,
+      "target": "neighbors",
+      "context": "\"update one of me,\" checking neighbors for separation, alignment, cohesion. No"
+    },
+    {
+      "time_ms": 43328,
+      "end_ms": 44570,
+      "line": 347,
+      "target": "gripStrength",
+      "context": "there's a variable literally called \"grip strength\" that cycles between cohesion and"
+    },
+    {
+      "time_ms": 49969,
+      "end_ms": 50294,
+      "line": 152,
+      "target": "neighbors",
+      "context": "and when four or more neighbors happen to align, a counter"
+    },
+    {
+      "time_ms": 59060,
+      "end_ms": 59919,
+      "line": 37,
+      "target": "coalitionHeat",
+      "context": "glows warmer \u2014 that's the coalition heat you see in the color"
+    },
+    {
+      "time_ms": 62717,
+      "end_ms": 63100,
+      "line": 293,
+      "target": "warmth",
+      "context": "in the color shift. That warmth isn't a reward for the"
+    }
+  ]
+}

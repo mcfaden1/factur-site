@@ -1,0 +1,41 @@
+{
+  "piece": 143,
+  "duration_ms": 85693,
+  "cues": [
+    {
+      "time_ms": 9276,
+      "end_ms": 9985,
+      "line": 182,
+      "target": "trail",
+      "context": "each dragging a short curling trail, all churning together into one"
+    },
+    {
+      "time_ms": 19389,
+      "end_ms": 19923,
+      "line": 39,
+      "target": "elements",
+      "context": "thing, though: none of these elements actually knows it's part of"
+    },
+    {
+      "time_ms": 24648,
+      "end_ms": 26889,
+      "line": 104,
+      "target": "calculateSpawnFromHelix",
+      "context": "Look at the function called \"calculate spawn from helix\" \u2014 that's a hidden double"
+    },
+    {
+      "time_ms": 44432,
+      "end_ms": 46382,
+      "line": 169,
+      "target": "You can explain every increment. The meaning is still among.",
+      "context": "of the code literally commented \"the meaning is still among\" \u2014 bending outward from a"
+    },
+    {
+      "time_ms": 60245,
+      "end_ms": 60674,
+      "line": 39,
+      "target": "elements",
+      "context": "again. And every 180 frames, elements cycle back to a freshly"
+    }
+  ]
+}

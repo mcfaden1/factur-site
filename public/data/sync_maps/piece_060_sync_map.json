@@ -1,0 +1,20 @@
+{
+  "piece": 60,
+  "duration_ms": 92100,
+  "cues": [
+    {
+      "time_ms": 7094,
+      "end_ms": 8452,
+      "line": 57,
+      "target": "generationClarity",
+      "context": "the left in that pale \"generation clarity\" color, traveling rightward, and by"
+    },
+    {
+      "time_ms": 45812,
+      "end_ms": 46846,
+      "line": 91,
+      "target": "corruptionCache",
+      "context": "corruption, ever. Meanwhile in the corruption cache, the code builds ten escalating"
+    }
+  ]
+}

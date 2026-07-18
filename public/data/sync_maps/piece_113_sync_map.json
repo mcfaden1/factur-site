@@ -1,0 +1,48 @@
+{
+  "piece": 113,
+  "duration_ms": 87132,
+  "cues": [
+    {
+      "time_ms": 23649,
+      "end_ms": 24404,
+      "line": 65,
+      "target": "seeking",
+      "context": "the artist calls one color \"seeking\" and another \"sufficient,\" a blue-grey"
+    },
+    {
+      "time_ms": 25263,
+      "end_ms": 26366,
+      "line": 66,
+      "target": "sufficient",
+      "context": "one color \"seeking\" and another \"sufficient,\" a blue-grey that literally shifts"
+    },
+    {
+      "time_ms": 43398,
+      "end_ms": 43932,
+      "line": 287,
+      "target": "velocity",
+      "context": "there's a line checking if velocity drops below what they call"
+    },
+    {
+      "time_ms": 46045,
+      "end_ms": 47462,
+      "line": 74,
+      "target": "PERCEPTION_THRESHOLD",
+      "context": "below what they call the \"perception threshold\" \u2014 once a node's motion"
+    },
+    {
+      "time_ms": 54869,
+      "end_ms": 55623,
+      "line": 66,
+      "target": "sufficient",
+      "context": "viewer, it's marked fixed, colored sufficient, and frozen. The stopping condition"
+    },
+    {
+      "time_ms": 63321,
+      "end_ms": 63565,
+      "line": 90,
+      "target": "nodes",
+      "context": "it's checking that 90% of nodes are stable and 85% of"
+    }
+  ]
+}

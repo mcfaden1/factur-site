@@ -1,0 +1,76 @@
+{
+  "piece": 170,
+  "duration_ms": 81698,
+  "cues": [
+    {
+      "time_ms": 20259,
+      "end_ms": 20654,
+      "line": 218,
+      "target": "visible",
+      "context": "only 22 particles' worth of visible light. The array in the"
+    },
+    {
+      "time_ms": 23928,
+      "end_ms": 25136,
+      "line": 63,
+      "target": "allThatCompute",
+      "context": "in the code is called \"allThatCompute\" \u2014 a thousand particles live"
+    },
+    {
+      "time_ms": 33042,
+      "end_ms": 34168,
+      "line": 70,
+      "target": "currentVisible",
+      "context": "by a variable literally named \"currentVisible\" against a \"target visible\" of"
+    },
+    {
+      "time_ms": 34981,
+      "end_ms": 36049,
+      "line": 59,
+      "target": "TARGET_VISIBLE",
+      "context": "literally named \"currentVisible\" against a \"target visible\" of 22. The other 978"
+    },
+    {
+      "time_ms": 38719,
+      "end_ms": 38974,
+      "line": 151,
+      "target": "other",
+      "context": "\"target visible\" of 22. The other 978 are still running the"
+    },
+    {
+      "time_ms": 44861,
+      "end_ms": 45116,
+      "line": 73,
+      "target": "force",
+      "context": "in fact, look at the force calculation, where it says \"the"
+    },
+    {
+      "time_ms": 46974,
+      "end_ms": 51350,
+      "line": 168,
+      "target": "The withheld pull harder. Their influence exceeds display.",
+      "context": "force calculation, where it says \"the withheld pull harder, their influence exceeds display,\" and multiplies their gravity by"
+    },
+    {
+      "time_ms": 57945,
+      "end_ms": 58363,
+      "line": 218,
+      "target": "visible",
+      "context": "but they're the reason the visible ones move the way they"
+    },
+    {
+      "time_ms": 65619,
+      "end_ms": 66118,
+      "line": 303,
+      "target": "density",
+      "context": "isn't atmosphere \u2014 it's a density map of everything the piece"
+    },
+    {
+      "time_ms": 76834,
+      "end_ms": 77426,
+      "line": 219,
+      "target": "withheld",
+      "context": "is the only moment the withheld briefly surface before going dark"
+    }
+  ]
+}

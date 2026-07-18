@@ -1,0 +1,62 @@
+{
+  "piece": 196,
+  "duration_ms": 91728,
+  "cues": [
+    {
+      "time_ms": 35201,
+      "end_ms": 36478,
+      "line": 58,
+      "target": "EXHAUSTION_THRESHOLD",
+      "context": "a limit the code names exhaustion threshold is reached \u2014 the same"
+    },
+    {
+      "time_ms": 47148,
+      "end_ms": 48854,
+      "line": 159,
+      "target": "findOptimalPosition",
+      "context": "lives in the function called find optimal position, which samples hundreds of points"
+    },
+    {
+      "time_ms": 49539,
+      "end_ms": 50085,
+      "line": 160,
+      "target": "samples",
+      "context": "called find optimal position, which samples hundreds of points and keeps"
+    },
+    {
+      "time_ms": 54345,
+      "end_ms": 54775,
+      "line": 149,
+      "target": "clearance",
+      "context": "keeps whichever has the most clearance from existing circles \u2014 the"
+    },
+    {
+      "time_ms": 58583,
+      "end_ms": 59895,
+      "line": 158,
+      "target": "The rules search for where they want to be \u2014 sampling the void for maximum clear",
+      "context": "circles \u2014 the rules searching for where they want to be, not where the artist wants"
+    },
+    {
+      "time_ms": 64120,
+      "end_ms": 65642,
+      "line": 68,
+      "target": "consecutiveFailures",
+      "context": "wants them. After two hundred consecutive failures, the variable system exhausted goes"
+    },
+    {
+      "time_ms": 66687,
+      "end_ms": 67674,
+      "line": 67,
+      "target": "systemExhausted",
+      "context": "hundred consecutive failures, the variable system exhausted goes true. Nothing dramatic happens;"
+    },
+    {
+      "time_ms": 77380,
+      "end_ms": 78448,
+      "line": 85,
+      "target": "seekingNode",
+      "context": "to continue. Watch the amber seeking node. Early on it leaps across"
+    }
+  ]
+}

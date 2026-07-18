@@ -1,0 +1,27 @@
+{
+  "piece": 42,
+  "duration_ms": 81930,
+  "cues": [
+    {
+      "time_ms": 26366,
+      "end_ms": 27968,
+      "line": 149,
+      "target": "theEmergentGesture",
+      "context": "usual sense \u2014 it's called \"the emergent gesture,\" and it's literally the weighted"
+    },
+    {
+      "time_ms": 35097,
+      "end_ms": 37303,
+      "line": 121,
+      "target": "calculateCompositeGesture",
+      "context": "calculated in a function named \"calculate composite gesture\" before any animation even starts."
+    },
+    {
+      "time_ms": 61254,
+      "end_ms": 62555,
+      "line": 57,
+      "target": "nexusPoint",
+      "context": "in the code called the \"nexus point\" \u2014 a fixed coordinate every"
+    }
+  ]
+}

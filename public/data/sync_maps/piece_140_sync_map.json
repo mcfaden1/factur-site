@@ -1,0 +1,13 @@
+{
+  "piece": 140,
+  "duration_ms": 80491,
+  "cues": [
+    {
+      "time_ms": 27922,
+      "end_ms": 29966,
+      "line": 95,
+      "target": "CHANGE 1: Awai are RINGS not filled circles \u2014 the emptiness in the center IS rec",
+      "context": "unlocks it: those blue shapes are rings, not filled circles \u2014 the code's comment says"
+    }
+  ]
+}

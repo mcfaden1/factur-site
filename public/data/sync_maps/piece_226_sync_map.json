@@ -1,0 +1,48 @@
+{
+  "piece": 226,
+  "duration_ms": 95955,
+  "cues": [
+    {
+      "time_ms": 52070,
+      "end_ms": 52987,
+      "line": 165,
+      "target": "instanceMat",
+      "context": "mechanism is literal. A magenta instance mat draws the live run's doomed"
+    },
+    {
+      "time_ms": 56738,
+      "end_ms": 57504,
+      "line": 159,
+      "target": "depositMat",
+      "context": "doomed trail, while a colorless deposit mat adds faint white into the"
+    },
+    {
+      "time_ms": 58920,
+      "end_ms": 60047,
+      "line": 156,
+      "target": "intensity-only deposit into the agreement buffer: hue is never remembered.",
+      "context": "deposit mat adds faint white into the agreement buffer at every step \u2014 hue"
+    },
+    {
+      "time_ms": 70345,
+      "end_ms": 71285,
+      "line": 172,
+      "target": "stopTokenMat",
+      "context": "When a run ends, a stop token mat flares once at its final"
+    },
+    {
+      "time_ms": 74861,
+      "end_ms": 75569,
+      "line": 187,
+      "target": "fadeQuad",
+      "context": "its final positions before the fade quad extinguishes it \u2014 \"a period"
+    },
+    {
+      "time_ms": 77833,
+      "end_ms": 82105,
+      "line": 171,
+      "target": "death reads as an event \u2014 a period struck, not a sentence trailing off",
+      "context": "fade quad extinguishes it \u2014 \"a period struck, not a sentence trailing off.\" Watch for the magenta lines"
+    }
+  ]
+}

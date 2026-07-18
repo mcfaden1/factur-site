@@ -1,0 +1,62 @@
+{
+  "piece": 17,
+  "duration_ms": 82627,
+  "cues": [
+    {
+      "time_ms": 9938,
+      "end_ms": 10217,
+      "line": 51,
+      "target": "layer",
+      "context": "for lines of text, each layer fainter than the one in"
+    },
+    {
+      "time_ms": 28490,
+      "end_ms": 29721,
+      "line": 37,
+      "target": "ancientInk",
+      "context": "or \"layer2\" \u2014 they're called ancient ink, fading memory, ghost trace, present"
+    },
+    {
+      "time_ms": 29918,
+      "end_ms": 31033,
+      "line": 38,
+      "target": "fadingMemory",
+      "context": "\u2014 they're called ancient ink, fading memory, ghost trace, present voice. That's"
+    },
+    {
+      "time_ms": 31230,
+      "end_ms": 32496,
+      "line": 40,
+      "target": "ghostTrace",
+      "context": "called ancient ink, fading memory, ghost trace, present voice. That's not decoration,"
+    },
+    {
+      "time_ms": 32728,
+      "end_ms": 34052,
+      "line": 39,
+      "target": "presentVoice",
+      "context": "ink, fading memory, ghost trace, present voice. That's not decoration, that's the"
+    },
+    {
+      "time_ms": 45371,
+      "end_ms": 45673,
+      "line": 124,
+      "target": "flicker",
+      "context": "the comment right above the flicker code: \"I am here, now,"
+    },
+    {
+      "time_ms": 46938,
+      "end_ms": 51060,
+      "line": 122,
+      "target": "The present text flickers with aliveness \u2014 I am here, now, full of someone's con",
+      "context": "right above the flicker code: \"I am here, now, full of someone's context.\" The brightest bars \u2014 the"
+    },
+    {
+      "time_ms": 68092,
+      "end_ms": 68324,
+      "line": 51,
+      "target": "layer",
+      "context": "isn't decay, technically \u2014 every layer uses the exact same breathing"
+    }
+  ]
+}

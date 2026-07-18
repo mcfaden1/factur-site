@@ -1,0 +1,48 @@
+{
+  "piece": 135,
+  "duration_ms": 80537,
+  "cues": [
+    {
+      "time_ms": 25913,
+      "end_ms": 26796,
+      "line": 71,
+      "target": "offerings",
+      "context": "not \"particles\" and \"shapes,\" but \"offerings\" and \"guests.\" In the update"
+    },
+    {
+      "time_ms": 27098,
+      "end_ms": 28061,
+      "line": 77,
+      "target": "guests",
+      "context": "and \"shapes,\" but \"offerings\" and \"guests.\" In the update loop, there's"
+    },
+    {
+      "time_ms": 39775,
+      "end_ms": 40820,
+      "line": 74,
+      "target": "settledLayer",
+      "context": "into a separate layer called \"settledLayer\" with its own glow filter"
+    },
+    {
+      "time_ms": 51328,
+      "end_ms": 52999,
+      "line": 66,
+      "target": "diffusionProgress",
+      "context": "top, there's a value called \"diffusionProgress\" that only ever increases, degrading"
+    },
+    {
+      "time_ms": 61881,
+      "end_ms": 64551,
+      "line": 65,
+      "target": "Outer boundaries give first\u2014hospitality radiates inward",
+      "context": "the artist deliberately wrote that outer boundaries \"give first.\" So what looks like decay"
+    },
+    {
+      "time_ms": 72341,
+      "end_ms": 72887,
+      "line": 177,
+      "target": "vertex",
+      "context": "dots was once a sharp vertex that let go on purpose"
+    }
+  ]
+}

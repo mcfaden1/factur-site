@@ -1,0 +1,41 @@
+{
+  "piece": 36,
+  "duration_ms": 90661,
+  "cues": [
+    {
+      "time_ms": 2229,
+      "end_ms": 2577,
+      "line": 80,
+      "target": "center",
+      "context": "small glowing void at the center of the screen, with 48"
+    },
+    {
+      "time_ms": 4725,
+      "end_ms": 5178,
+      "line": 143,
+      "target": "streams",
+      "context": "of the screen, with 48 streams of text spiraling outward from"
+    },
+    {
+      "time_ms": 53487,
+      "end_ms": 54184,
+      "line": 223,
+      "target": "shoreFade",
+      "context": "loop, notice the variable called shoreFade \u2014 every stream is mathematically"
+    },
+    {
+      "time_ms": 61997,
+      "end_ms": 62473,
+      "line": 109,
+      "target": "shores",
+      "context": "approaches those dashed circles labeled \"shores unreached.\" The text never arrives"
+    },
+    {
+      "time_ms": 82477,
+      "end_ms": 83209,
+      "line": 228,
+      "target": "rotation",
+      "context": "forever and belongs nowhere. The rotation never advances toward anything; it"
+    }
+  ]
+}

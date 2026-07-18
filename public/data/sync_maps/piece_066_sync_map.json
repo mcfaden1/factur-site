@@ -1,0 +1,55 @@
+{
+  "piece": 66,
+  "duration_ms": 74453,
+  "cues": [
+    {
+      "time_ms": 9601,
+      "end_ms": 10240,
+      "line": 144,
+      "target": "probability",
+      "context": "code, each one carries a probability mass, and near-misses orbit tight,"
+    },
+    {
+      "time_ms": 24544,
+      "end_ms": 24985,
+      "line": 44,
+      "target": "ghosts",
+      "context": "in the render function, high-probability ghosts get pulled toward gold, \"purple"
+    },
+    {
+      "time_ms": 31475,
+      "end_ms": 32601,
+      "line": 112,
+      "target": "Low probability \u2192 cold purple (never had a chance)",
+      "context": "says, while the ones that never had a chance stay cold and violet. So"
+    },
+    {
+      "time_ms": 46742,
+      "end_ms": 47438,
+      "line": 144,
+      "target": "probability",
+      "context": "literally built from that same probability number. Eventually every ghost spirals"
+    },
+    {
+      "time_ms": 50759,
+      "end_ms": 51142,
+      "line": 217,
+      "target": "ghost",
+      "context": "same probability number. Eventually every ghost spirals outward and drops into"
+    },
+    {
+      "time_ms": 53707,
+      "end_ms": 54183,
+      "line": 45,
+      "target": "graveyard",
+      "context": "outward and drops into the graveyard at the bottom, dim ash"
+    },
+    {
+      "time_ms": 71656,
+      "end_ms": 72330,
+      "line": 125,
+      "target": "Characters that could have been chosen instead",
+      "context": "quietly keeping score of everything that could have been said instead."
+    }
+  ]
+}

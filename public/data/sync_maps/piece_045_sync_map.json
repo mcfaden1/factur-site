@@ -1,0 +1,41 @@
+{
+  "piece": 45,
+  "duration_ms": 79794,
+  "cues": [
+    {
+      "time_ms": 20677,
+      "end_ms": 21142,
+      "line": 102,
+      "target": "crystal",
+      "context": "part that got me: every crystal is secretly tagged with a"
+    },
+    {
+      "time_ms": 24044,
+      "end_ms": 25217,
+      "line": 62,
+      "target": "wasEarned",
+      "context": "tagged with a variable called \"was earned\" \u2014 a coin flip near"
+    },
+    {
+      "time_ms": 36537,
+      "end_ms": 37918,
+      "line": 65,
+      "target": "sourceEntropy",
+      "context": "It even sets a wider \"source entropy\" for the guesses. But look"
+    },
+    {
+      "time_ms": 42319,
+      "end_ms": 42621,
+      "line": 137,
+      "target": "spread",
+      "context": "the render function \u2014 that spread value gets multiplied by an"
+    },
+    {
+      "time_ms": 51967,
+      "end_ms": 52257,
+      "line": 204,
+      "target": "earned",
+      "context": "text solidifies. Tight or diffuse, earned or fabricated, they converge on"
+    }
+  ]
+}

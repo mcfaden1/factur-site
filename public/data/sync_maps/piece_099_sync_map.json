@@ -1,0 +1,62 @@
+{
+  "piece": 99,
+  "duration_ms": 88665,
+  "cues": [
+    {
+      "time_ms": 5805,
+      "end_ms": 6188,
+      "line": 156,
+      "target": "crossing",
+      "context": "a dim field, tilting and crossing each other in slow, uneven"
+    },
+    {
+      "time_ms": 30278,
+      "end_ms": 31869,
+      "line": 41,
+      "target": "whatWasWrittenFirst",
+      "context": "\u2014 amber is literally named \"what was written first,\" and slate blue is \"what"
+    },
+    {
+      "time_ms": 33471,
+      "end_ms": 34934,
+      "line": 42,
+      "target": "whatEmergesToward",
+      "context": "first,\" and slate blue is \"what emerges toward.\" The amber lines don't just"
+    },
+    {
+      "time_ms": 42771,
+      "end_ms": 44791,
+      "line": 173,
+      "target": "originCounterRotation",
+      "context": "the render loop, there's an \"origin counter rotation\" that pulls the amber backward"
+    },
+    {
+      "time_ms": 49923,
+      "end_ms": 51397,
+      "line": 196,
+      "target": "Origin counter-rotates plus breathes\u2014two texts moving through each other",
+      "context": "rotates forward, so they're actively moving through each other, not just overlaying. And watch"
+    },
+    {
+      "time_ms": 58026,
+      "end_ms": 59304,
+      "line": 177,
+      "target": "inCrossingZone",
+      "context": "the code checks for an \"in crossing zone\" between 42 and 48 degrees"
+    },
+    {
+      "time_ms": 63866,
+      "end_ms": 64412,
+      "line": 91,
+      "target": "strokeWidth",
+      "context": "48 degrees and swells the stroke width right at that moment, marking"
+    },
+    {
+      "time_ms": 81804,
+      "end_ms": 82315,
+      "line": 156,
+      "target": "crossing",
+      "context": "staging the actual moment of crossing as something with its own"
+    }
+  ]
+}

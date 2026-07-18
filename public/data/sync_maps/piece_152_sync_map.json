@@ -1,0 +1,41 @@
+{
+  "piece": 152,
+  "duration_ms": 82905,
+  "cues": [
+    {
+      "time_ms": 55960,
+      "end_ms": 56807,
+      "line": 32,
+      "target": "earlyAsh",
+      "context": "color shifts from a cooler \"early ash\" gray to a warmer \"spent"
+    },
+    {
+      "time_ms": 58398,
+      "end_ms": 59211,
+      "line": 29,
+      "target": "spentTrace",
+      "context": "ash\" gray to a warmer \"spent trace\" hue based on \"global progress\""
+    },
+    {
+      "time_ms": 60534,
+      "end_ms": 61893,
+      "line": 109,
+      "target": "globalProgress",
+      "context": "\"spent trace\" hue based on \"global progress\" \u2014 how much of the"
+    },
+    {
+      "time_ms": 63692,
+      "end_ms": 64376,
+      "line": 23,
+      "target": "POPULATION",
+      "context": "how much of the whole population has already died. The coloring"
+    },
+    {
+      "time_ms": 70078,
+      "end_ms": 71494,
+      "line": 107,
+      "target": "Temporal progression: how much of the system has stopped?",
+      "context": "itself is a clock, recording how much of the system has gone still. What you're looking"
+    }
+  ]
+}

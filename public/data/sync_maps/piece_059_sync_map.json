@@ -1,0 +1,55 @@
+{
+  "piece": 59,
+  "duration_ms": 77658,
+  "cues": [
+    {
+      "time_ms": 3286,
+      "end_ms": 4342,
+      "line": 40,
+      "target": "stimulus",
+      "context": "core drifting around is the \"stimulus\" \u2014 think of it as"
+    },
+    {
+      "time_ms": 12365,
+      "end_ms": 13317,
+      "line": 51,
+      "target": "responders",
+      "context": "aren't just decorative, they're called \"responders\" in the code, and their"
+    },
+    {
+      "time_ms": 29350,
+      "end_ms": 29907,
+      "line": 143,
+      "target": "angleDiff",
+      "context": "\u2014 that's the line where angle diff gets multiplied by a tiny"
+    },
+    {
+      "time_ms": 34598,
+      "end_ms": 35794,
+      "line": 104,
+      "target": "updateResponders",
+      "context": "a tiny 0.07, in the update responders function. Smooth, deliberate-looking. But watch"
+    },
+    {
+      "time_ms": 44861,
+      "end_ms": 45685,
+      "line": 111,
+      "target": "sharpTurn",
+      "context": "when the code detects a sharp turn, and when that fires, there's"
+    },
+    {
+      "time_ms": 51746,
+      "end_ms": 52965,
+      "line": 117,
+      "target": "targetAngle",
+      "context": "it just snaps: \"r.angle equals target angle.\" The comment right there says"
+    },
+    {
+      "time_ms": 56007,
+      "end_ms": 58654,
+      "line": 125,
+      "target": "CHANGE 1: THE FLINCH - responding before deciding to respond",
+      "context": "right there says it outright: \"responding before deciding to respond.\" No interpolation. Already there. So"
+    }
+  ]
+}

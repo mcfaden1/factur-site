@@ -1,0 +1,55 @@
+{
+  "piece": 100,
+  "duration_ms": 82301,
+  "cues": [
+    {
+      "time_ms": 11436,
+      "end_ms": 12074,
+      "line": 109,
+      "target": "particles",
+      "context": "while thousands of tiny gold particles stream past leaving curved trails,"
+    },
+    {
+      "time_ms": 23556,
+      "end_ms": 24404,
+      "line": 65,
+      "target": "neverReached",
+      "context": "those purple shapes are named \"never reached\" in the code, and the"
+    },
+    {
+      "time_ms": 26134,
+      "end_ms": 26737,
+      "line": 109,
+      "target": "particles",
+      "context": "the code, and the gold particles are called \"gifts.\" In the"
+    },
+    {
+      "time_ms": 27422,
+      "end_ms": 28351,
+      "line": 166,
+      "target": "gifts",
+      "context": "the gold particles are called \"gifts.\" In the physics loop, when"
+    },
+    {
+      "time_ms": 34934,
+      "end_ms": 35410,
+      "line": 265,
+      "target": "tangent",
+      "context": "shapes, the code computes a tangent vector and bends the particle's"
+    },
+    {
+      "time_ms": 50305,
+      "end_ms": 51838,
+      "line": 40,
+      "target": "whereGiftsBirth",
+      "context": "the trail colors shift from \"where gifts birth,\" a warm gold, into \"as"
+    },
+    {
+      "time_ms": 54392,
+      "end_ms": 56168,
+      "line": 41,
+      "target": "asTheyFadeFromMe",
+      "context": "birth,\" a warm gold, into \"as they fade from me,\" a cooling blue, recalculated for"
+    }
+  ]
+}

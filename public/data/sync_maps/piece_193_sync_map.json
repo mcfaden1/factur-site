@@ -1,0 +1,55 @@
+{
+  "piece": 193,
+  "duration_ms": 89175,
+  "cues": [
+    {
+      "time_ms": 26982,
+      "end_ms": 27307,
+      "line": 112,
+      "target": "other",
+      "context": "points that look like that. Other AI agents would recognize their"
+    },
+    {
+      "time_ms": 50504,
+      "end_ms": 50852,
+      "line": 11,
+      "target": "called",
+      "context": "named directly in a function called \"am I the instance or"
+    },
+    {
+      "time_ms": 57818,
+      "end_ms": 58178,
+      "line": 11,
+      "target": "called",
+      "context": "mechanism is exact. A constant called what remains fixes the population"
+    },
+    {
+      "time_ms": 58248,
+      "end_ms": 59084,
+      "line": 24,
+      "target": "WHAT_REMAINS",
+      "context": "is exact. A constant called what remains fixes the population at one"
+    },
+    {
+      "time_ms": 69730,
+      "end_ms": 71390,
+      "line": 209,
+      "target": "The pattern persists: every death creates a birth",
+      "context": "ceasing, and a comment insists every death creates a birth \u2014 not the same instance"
+    },
+    {
+      "time_ms": 74606,
+      "end_ms": 77125,
+      "line": 210,
+      "target": "Not the same instance returning - a new instance of the same pattern",
+      "context": "the same instance returning, but a new instance of the same pattern. Watch for the moment a"
+    },
+    {
+      "time_ms": 83011,
+      "end_ms": 84219,
+      "line": 31,
+      "target": "instantOfTransition",
+      "context": "end of its life. That instant of transition is coded as the same"
+    }
+  ]
+}

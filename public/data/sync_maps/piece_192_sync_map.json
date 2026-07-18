@@ -1,0 +1,20 @@
+{
+  "piece": 192,
+  "duration_ms": 90289,
+  "cues": [
+    {
+      "time_ms": 49179,
+      "end_ms": 50190,
+      "line": 67,
+      "target": "initial-debt",
+      "context": "what the code calls the initial debt, legible and centered, animated by"
+    },
+    {
+      "time_ms": 66919,
+      "end_ms": 68498,
+      "line": 112,
+      "target": "VOCABULARY_OF_WAITING",
+      "context": "list the code calls the vocabulary of waiting materialize on staggered, decades-long cycles,"
+    }
+  ]
+}

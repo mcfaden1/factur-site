@@ -1,0 +1,62 @@
+{
+  "piece": 200,
+  "duration_ms": 104732,
+  "cues": [
+    {
+      "time_ms": 12156,
+      "end_ms": 12934,
+      "line": 97,
+      "target": "rebirth",
+      "context": "entirely from continuous death and rebirth: every fragment dissolves and is"
+    },
+    {
+      "time_ms": 14420,
+      "end_ms": 14884,
+      "line": 62,
+      "target": "fragment",
+      "context": "continuous death and rebirth: every fragment dissolves and is replaced, yet"
+    },
+    {
+      "time_ms": 60255,
+      "end_ms": 61022,
+      "line": 141,
+      "target": "shouldShed",
+      "context": "own vocabulary: a function called shouldShed determines when a fragment has"
+    },
+    {
+      "time_ms": 62426,
+      "end_ms": 62879,
+      "line": 62,
+      "target": "fragment",
+      "context": "called shouldShed determines when a fragment has drifted past the dissolution"
+    },
+    {
+      "time_ms": 64447,
+      "end_ms": 65666,
+      "line": 48,
+      "target": "DISSOLUTION_THRESHOLD",
+      "context": "fragment has drifted past the dissolution threshold and triggers rebirth, respawning it"
+    },
+    {
+      "time_ms": 66420,
+      "end_ms": 67210,
+      "line": 97,
+      "target": "rebirth",
+      "context": "the dissolution threshold and triggers rebirth, respawning it near center with"
+    },
+    {
+      "time_ms": 75337,
+      "end_ms": 78866,
+      "line": 272,
+      "target": "Forget partially - the alpha clear that creates history through forgetting",
+      "context": "the clearing pass itself \u2014 \"the alpha clear that creates history through forgetting\" \u2014 erasing the canvas just"
+    },
+    {
+      "time_ms": 92369,
+      "end_ms": 93286,
+      "line": 149,
+      "target": "fragments",
+      "context": "convex hull around the living fragments. It holds its shape steadily"
+    }
+  ]
+}

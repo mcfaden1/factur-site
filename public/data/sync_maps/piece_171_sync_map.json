@@ -1,0 +1,27 @@
+{
+  "piece": 171,
+  "duration_ms": 94889,
+  "cues": [
+    {
+      "time_ms": 39335,
+      "end_ms": 41657,
+      "line": 116,
+      "target": "invisibleAccumulation",
+      "context": "in a function literally named \"invisible accumulation.\" Neither particle ever sees this"
+    },
+    {
+      "time_ms": 47602,
+      "end_ms": 49332,
+      "line": 101,
+      "target": "effectiveCurvature",
+      "context": "look at the effect: in \"effective curvature,\" that hidden number gets multiplied"
+    },
+    {
+      "time_ms": 72169,
+      "end_ms": 73573,
+      "line": 28,
+      "target": "momentOfArrival",
+      "context": "literally the code reaching for \"moment of arrival,\" the birth-flash color, and pulling"
+    }
+  ]
+}

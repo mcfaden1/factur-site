@@ -1,0 +1,41 @@
+{
+  "piece": 141,
+  "duration_ms": 89408,
+  "cues": [
+    {
+      "time_ms": 5457,
+      "end_ms": 6165,
+      "line": 180,
+      "target": "populations",
+      "context": "cluster is actually four identical populations of particles, born from the"
+    },
+    {
+      "time_ms": 9323,
+      "end_ms": 9915,
+      "line": 247,
+      "target": "positions",
+      "context": "born from the exact same positions and velocities, slowly pulling apart"
+    },
+    {
+      "time_ms": 31974,
+      "end_ms": 33704,
+      "line": 60,
+      "target": "sharedBirthPositions",
+      "context": "knowing: every particle starts from \"sharedBirthPositions\" \u2014 literally identical data across"
+    },
+    {
+      "time_ms": 45035,
+      "end_ms": 47264,
+      "line": 84,
+      "target": "constraintBoundedByRadius",
+      "context": "each frame, things named like \"constraintBoundedByRadius\" or \"constraintRepelledFromCenter\" \u2014 one population"
+    },
+    {
+      "time_ms": 47915,
+      "end_ms": 50271,
+      "line": 148,
+      "target": "constraintRepelledFromCenter",
+      "context": "things named like \"constraintBoundedByRadius\" or \"constraintRepelledFromCenter\" \u2014 one population hits an"
+    }
+  ]
+}

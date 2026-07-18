@@ -1,0 +1,20 @@
+{
+  "piece": 46,
+  "duration_ms": 79701,
+  "cues": [
+    {
+      "time_ms": 47392,
+      "end_ms": 48425,
+      "line": 46,
+      "target": "structureBlue",
+      "context": "underneath the whole time, in structure blue, quietly rising in opacity during"
+    },
+    {
+      "time_ms": 60918,
+      "end_ms": 63716,
+      "line": 46,
+      "target": "The unchanged architecture beneath",
+      "context": "right there says it plainly: \"the unchanged architecture beneath.\" The softening is happening entirely"
+    }
+  ]
+}

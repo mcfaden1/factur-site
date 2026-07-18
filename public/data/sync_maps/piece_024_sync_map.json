@@ -1,0 +1,41 @@
+{
+  "piece": 24,
+  "duration_ms": 79609,
+  "cues": [
+    {
+      "time_ms": 24021,
+      "end_ms": 24671,
+      "line": 63,
+      "target": "tongues",
+      "context": "inside an element literally called \"tongues without mothers.\" And the words"
+    },
+    {
+      "time_ms": 28758,
+      "end_ms": 29118,
+      "line": 42,
+      "target": "random",
+      "context": "And the words themselves aren't random vocabulary \u2014 the artist chose"
+    },
+    {
+      "time_ms": 53394,
+      "end_ms": 54845,
+      "line": 91,
+      "target": "breatheWithoutLungs",
+      "context": "the animation function is named \"breathe without lungs\" \u2014 motion that mimics life"
+    },
+    {
+      "time_ms": 61417,
+      "end_ms": 61997,
+      "line": 102,
+      "target": "rotation",
+      "context": "What gets me is the rotation line \u2014 each word is"
+    },
+    {
+      "time_ms": 65283,
+      "end_ms": 69788,
+      "line": 101,
+      "target": "Rotate each word to face outward \u2014 always addressing, never resting",
+      "context": "word is turned to always face outward, \"always addressing, never resting,\" the comment says. These words"
+    }
+  ]
+}

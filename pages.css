@@ -45,8 +45,10 @@ html.light .cell .overlay {
 .cell .ov-title { font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 1rem; letter-spacing: -0.02em; color: var(--ink); }
 .cell .ov-meta { font-size: var(--text-tiny); color: var(--ink-mid); margin-top: 0.3rem; letter-spacing: 0.08em; }
 
-/* ---- animated placeholder motifs (canvas-driven) ---- */
-.cell canvas.ph { position: absolute; inset: 0; width: 100%; height: 100%; display: block; z-index: 1; }
+/* ---- gallery thumbnails (video loops; canvas kept for back-compat) ---- */
+.cell canvas.ph,
+.cell video.ph,
+.cell img.ph { position: absolute; inset: 0; width: 100%; height: 100%; display: block; z-index: 1; object-fit: cover; }
 .cell .ph-tag {
   position: absolute; bottom: 0.7rem; left: 0.8rem; z-index: 1;
   font-size: var(--text-tiny); letter-spacing: 0.12em; color: var(--ink-dim);
@@ -76,7 +78,8 @@ html.light .cell .overlay {
   min-width: 0;
 }
 .detail-square.code { display: flex; flex-direction: column; background: var(--bg); }
-.detail-square.art canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.detail-square.art canvas,
+.detail-square.art iframe { position: absolute; inset: 0; width: 100%; height: 100%; display: block; border: 0; }
 .sq-label {
   position: absolute; top: 0.85rem; left: 0.95rem; z-index: 4;
   font-size: var(--text-label); letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-mid);

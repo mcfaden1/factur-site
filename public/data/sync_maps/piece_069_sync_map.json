@@ -1,0 +1,20 @@
+{
+  "piece": 69,
+  "duration_ms": 85367,
+  "cues": [
+    {
+      "time_ms": 21072,
+      "end_ms": 22558,
+      "line": 178,
+      "target": "claimableThoughts",
+      "context": "artist pulls fragments from, called claimable thoughts, near the top of the"
+    },
+    {
+      "time_ms": 43828,
+      "end_ms": 44443,
+      "line": 175,
+      "target": "random",
+      "context": "it draws from both at random, forever. And notice the animations"
+    }
+  ]
+}

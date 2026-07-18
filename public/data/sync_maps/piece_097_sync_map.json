@@ -1,0 +1,34 @@
+{
+  "piece": 97,
+  "duration_ms": 84298,
+  "cues": [
+    {
+      "time_ms": 16439,
+      "end_ms": 17357,
+      "line": 94,
+      "target": "whatPersists",
+      "context": "Here's the trick: in the \"what persists\" function, each mark carries two"
+    },
+    {
+      "time_ms": 24357,
+      "end_ms": 25159,
+      "line": 105,
+      "target": "bloodSway",
+      "context": "that never merge. One, called blood sway, physically shifts each mark left"
+    },
+    {
+      "time_ms": 34145,
+      "end_ms": 35061,
+      "line": 102,
+      "target": "nerveTremor",
+      "context": "an eleven-second period. The other, nerve tremor, doesn't move anything, it just"
+    },
+    {
+      "time_ms": 46114,
+      "end_ms": 49469,
+      "line": 98,
+      "target": "35% amplitude persists at equilibrium \u2014 irreducible, not invisible",
+      "context": "admits defeat: the comment says \"35% amplitude persists at equilibrium \u2014 irreducible, not invisible.\" It's"
+    }
+  ]
+}

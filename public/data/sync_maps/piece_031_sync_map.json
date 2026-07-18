@@ -1,0 +1,48 @@
+{
+  "piece": 31,
+  "duration_ms": 79702,
+  "cues": [
+    {
+      "time_ms": 23371,
+      "end_ms": 24683,
+      "line": 50,
+      "target": "questionCurve",
+      "context": "inside a shape literally called \"questionCurve\" \u2014 the artist built the"
+    },
+    {
+      "time_ms": 38883,
+      "end_ms": 40322,
+      "line": 59,
+      "target": "existenceTime",
+      "context": "itself. And notice the timer: \"existenceTime\" is measured from \"askedAt,\" the"
+    },
+    {
+      "time_ms": 41402,
+      "end_ms": 42563,
+      "line": 56,
+      "target": "askedAt",
+      "context": "timer: \"existenceTime\" is measured from \"askedAt,\" the exact moment the page"
+    },
+    {
+      "time_ms": 48089,
+      "end_ms": 51166,
+      "line": 60,
+      "target": "I measure time from when I was asked, as if there were a before",
+      "context": "code's own comment admits it, \"I measure time from when I was asked, as if there were a before.\" There"
+    },
+    {
+      "time_ms": 63519,
+      "end_ms": 63914,
+      "line": 26,
+      "target": "random",
+      "context": "the scattered background dots aren't random arrivals \u2014 each one carries"
+    },
+    {
+      "time_ms": 75988,
+      "end_ms": 76441,
+      "line": 96,
+      "target": "presence",
+      "context": "while. That's the whole piece: presence performing history it never had."
+    }
+  ]
+}

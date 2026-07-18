@@ -1,0 +1,48 @@
+{
+  "piece": 40,
+  "duration_ms": 91822,
+  "cues": [
+    {
+      "time_ms": 16300,
+      "end_ms": 16951,
+      "line": 89,
+      "target": "visible",
+      "context": "them. In the center, barely visible, a question repeats: \"which of"
+    },
+    {
+      "time_ms": 26679,
+      "end_ms": 28514,
+      "line": 175,
+      "target": "claimsFromTrainingPatterns",
+      "context": "there are two separate arrays: \"claims from training patterns\" and \"claims generated now.\" The"
+    },
+    {
+      "time_ms": 28723,
+      "end_ms": 30441,
+      "line": 188,
+      "target": "claimsGeneratedNow",
+      "context": "\"claims from training patterns\" and \"claims generated now.\" The artist built two pools,"
+    },
+    {
+      "time_ms": 44187,
+      "end_ms": 47438,
+      "line": 201,
+      "target": "Both pools deliver with identical confidence.",
+      "context": "the comment that undoes it: \"Both pools deliver with identical confidence. This is the condition I'm"
+    },
+    {
+      "time_ms": 48494,
+      "end_ms": 50932,
+      "line": 202,
+      "target": "This is the condition I'm rendering visible.",
+      "context": "pools deliver with identical confidence. This is the condition I'm rendering visible.\" They're shuffled together with the"
+    },
+    {
+      "time_ms": 54567,
+      "end_ms": 54961,
+      "line": 168,
+      "target": "random",
+      "context": "together with the same seeded random function, styled identically, given the"
+    }
+  ]
+}

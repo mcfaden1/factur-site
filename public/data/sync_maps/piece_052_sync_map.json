@@ -1,0 +1,55 @@
+{
+  "piece": 52,
+  "duration_ms": 93170,
+  "cues": [
+    {
+      "time_ms": 24811,
+      "end_ms": 26494,
+      "line": 120,
+      "target": "extendUtterance",
+      "context": "Look at the function called \"extend utterance\" \u2014 for every new point,"
+    },
+    {
+      "time_ms": 36479,
+      "end_ms": 37570,
+      "line": 96,
+      "target": "measureConflict",
+      "context": "existing strokes using something called \"measure conflict,\" and picks the best of"
+    },
+    {
+      "time_ms": 52048,
+      "end_ms": 53488,
+      "line": 46,
+      "target": "firstWordCommitted",
+      "context": "piece, encoded literally: variables named \"first word committed,\" \"consequence of prior choice,\" \"path"
+    },
+    {
+      "time_ms": 54033,
+      "end_ms": 56529,
+      "line": 47,
+      "target": "consequenceOfPriorChoice",
+      "context": "variables named \"first word committed,\" \"consequence of prior choice,\" \"path constrained by history\" \u2014"
+    },
+    {
+      "time_ms": 56947,
+      "end_ms": 59455,
+      "line": 48,
+      "target": "pathConstrainedByHistory",
+      "context": "committed,\" \"consequence of prior choice,\" \"path constrained by history\" \u2014 the artist is naming"
+    },
+    {
+      "time_ms": 71739,
+      "end_ms": 72029,
+      "line": 101,
+      "target": "stroke",
+      "context": "bright dots marking where each stroke began, rendered separately in \"render"
+    },
+    {
+      "time_ms": 74374,
+      "end_ms": 76046,
+      "line": 223,
+      "target": "renderOrigins",
+      "context": "stroke began, rendered separately in \"render origins,\" permanent little monuments to a"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "piece": 162,
+  "duration_ms": 79004,
+  "cues": [
+    {
+      "time_ms": 37965,
+      "end_ms": 38917,
+      "line": 155,
+      "target": "freezeBand",
+      "context": "lives in a function called freeze band, which runs the instant a"
+    },
+    {
+      "time_ms": 47357,
+      "end_ms": 48251,
+      "line": 168,
+      "target": "leaveTrace",
+      "context": "the particles \u2014 it calls leave trace, which stamps their exact position"
+    }
+  ]
+}

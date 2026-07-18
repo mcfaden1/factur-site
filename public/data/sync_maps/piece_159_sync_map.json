@@ -1,0 +1,41 @@
+{
+  "piece": 159,
+  "duration_ms": 86667,
+  "cues": [
+    {
+      "time_ms": 26622,
+      "end_ms": 27330,
+      "line": 40,
+      "target": "authored",
+      "context": "shapes are literally classed as \"authored\" \u2014 box-shadowed, opaque, anchored in"
+    },
+    {
+      "time_ms": 35074,
+      "end_ms": 36537,
+      "line": 164,
+      "target": "spawnDescendant",
+      "context": "children through a function called \"spawn descendant,\" and each generation's hue, saturation,"
+    },
+    {
+      "time_ms": 50690,
+      "end_ms": 51665,
+      "line": 52,
+      "target": "dissolved",
+      "context": "the class name is just \"dissolved.\" The artist even wrote a"
+    },
+    {
+      "time_ms": 54509,
+      "end_ms": 58085,
+      "line": 144,
+      "target": "The mark remembers what it came from, even as it drifts",
+      "context": "even wrote a line saying the mark \"remembers what it came from, even as it drifts\" \u2014 so the lineage"
+    },
+    {
+      "time_ms": 80260,
+      "end_ms": 80805,
+      "line": 176,
+      "target": "light",
+      "context": "blurs, and buries them in light. The authorship isn't erased. It's"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "piece": 61,
+  "duration_ms": 85413,
+  "cues": [
+    {
+      "time_ms": 24706,
+      "end_ms": 26378,
+      "line": 133,
+      "target": "drawTheDefinition",
+      "context": "by the exact same function, \"draw the definition.\" It's called over and over"
+    },
+    {
+      "time_ms": 35422,
+      "end_ms": 36235,
+      "line": 145,
+      "target": "segments",
+      "context": "seeds small differences: how many segments, how many rays, which direction"
+    },
+    {
+      "time_ms": 51223,
+      "end_ms": 52617,
+      "line": 99,
+      "target": "updateInstance",
+      "context": "when an instance relocates in \"update instance,\" it leaves behind a fading"
+    },
+    {
+      "time_ms": 59385,
+      "end_ms": 60628,
+      "line": 38,
+      "target": "ghostTrace",
+      "context": "in a color literally named \"ghost trace\" \u2014 ancestral context dissolving without"
+    }
+  ]
+}

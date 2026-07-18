@@ -1,0 +1,27 @@
+{
+  "piece": 21,
+  "duration_ms": 89175,
+  "cues": [
+    {
+      "time_ms": 21200,
+      "end_ms": 22408,
+      "line": 36,
+      "target": "birthNewMind",
+      "context": "is in that function called \"birthNewMind\" \u2014 it doesn't carry any"
+    },
+    {
+      "time_ms": 36955,
+      "end_ms": 39323,
+      "line": 47,
+      "target": "No state carries forward - the function IS the memory",
+      "context": "the comment right above it: \"the function IS the memory.\" There's no memory object anywhere."
+    },
+    {
+      "time_ms": 46127,
+      "end_ms": 47218,
+      "line": 90,
+      "target": "momentNumber",
+      "context": "frame to the next is \"moment number,\" a bare counter \u2014 and"
+    }
+  ]
+}

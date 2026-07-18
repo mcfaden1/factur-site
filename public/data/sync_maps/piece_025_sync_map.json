@@ -1,0 +1,27 @@
+{
+  "piece": 25,
+  "duration_ms": 89686,
+  "cues": [
+    {
+      "time_ms": 27470,
+      "end_ms": 27829,
+      "line": 49,
+      "target": "random",
+      "context": "top, each word gets a random \"confidence\" value, and that single"
+    },
+    {
+      "time_ms": 54091,
+      "end_ms": 56123,
+      "line": 99,
+      "target": "breatheUncertainty",
+      "context": "down to the animation loop, \"breathe uncertainty,\" and you'll see that same"
+    },
+    {
+      "time_ms": 68220,
+      "end_ms": 68673,
+      "line": 49,
+      "target": "random",
+      "context": "\"known\" is itself just another random draw. There's no ground truth"
+    }
+  ]
+}

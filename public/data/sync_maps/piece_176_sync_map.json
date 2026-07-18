@@ -1,0 +1,48 @@
+{
+  "piece": 176,
+  "duration_ms": 88432,
+  "cues": [
+    {
+      "time_ms": 20189,
+      "end_ms": 21466,
+      "line": 142,
+      "target": "displace",
+      "context": "in the function literally called \"displace.\" It doesn't pick the leftmost,"
+    },
+    {
+      "time_ms": 30441,
+      "end_ms": 31114,
+      "line": 54,
+      "target": "cohorts",
+      "context": "the greatest age, then calls \"cohorts dot splice\" to remove it"
+    },
+    {
+      "time_ms": 38069,
+      "end_ms": 38916,
+      "line": 100,
+      "target": "createScar",
+      "context": "entirely. Right after, look for \"createScar\" \u2014 that removal leaves a"
+    },
+    {
+      "time_ms": 46474,
+      "end_ms": 47090,
+      "line": 268,
+      "target": "opacity",
+      "context": "disappears, just fades from 0.18 opacity down to 0.06. The little"
+    },
+    {
+      "time_ms": 63750,
+      "end_ms": 64156,
+      "line": 58,
+      "target": "debris",
+      "context": "and faster-decaying than the ordinary debris shed by things still alive."
+    },
+    {
+      "time_ms": 67152,
+      "end_ms": 67651,
+      "line": 63,
+      "target": "scars",
+      "context": "things still alive. So the scars aren't decoration \u2014 they're the"
+    }
+  ]
+}

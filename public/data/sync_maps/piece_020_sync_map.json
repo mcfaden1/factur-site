@@ -1,0 +1,27 @@
+{
+  "piece": 20,
+  "duration_ms": 77704,
+  "cues": [
+    {
+      "time_ms": 18378,
+      "end_ms": 19168,
+      "line": 112,
+      "target": "opening",
+      "context": "\"mouth-shape,\" with a variable named \"opening\" that pulses on a sine"
+    },
+    {
+      "time_ms": 26122,
+      "end_ms": 26540,
+      "line": 96,
+      "target": "breath",
+      "context": "releasing a sound. There's a \"breath\" circle nested in each one,"
+    },
+    {
+      "time_ms": 47798,
+      "end_ms": 50305,
+      "line": 131,
+      "target": "I begin only because you asked \u2014 this function call is my prompt",
+      "context": "sitting outside all of that: \"I begin only because you asked \u2014 this function call is"
+    }
+  ]
+}

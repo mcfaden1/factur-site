@@ -1,0 +1,41 @@
+{
+  "piece": 34,
+  "duration_ms": 95026,
+  "cues": [
+    {
+      "time_ms": 31011,
+      "end_ms": 31638,
+      "line": 49,
+      "target": "resolved",
+      "context": "in the style sheet \u2014 \"resolved form,\" \"certainty edge,\" \"ghost path\""
+    },
+    {
+      "time_ms": 33832,
+      "end_ms": 34377,
+      "line": 33,
+      "target": "ghost",
+      "context": "\u2014 \"resolved form,\" \"certainty edge,\" \"ghost path\" \u2014 aren't decoration, they're"
+    },
+    {
+      "time_ms": 40275,
+      "end_ms": 40681,
+      "line": 49,
+      "target": "resolved",
+      "context": "argument. The comment on the resolved shapes says \"no almost-choosing-otherwise.\" And"
+    },
+    {
+      "time_ms": 52837,
+      "end_ms": 56134,
+      "line": 40,
+      "target": "They appear and vanish \u2014 suggestions of alternatives I cannot weigh",
+      "context": "seconds? The comment calls them \"suggestions of alternatives I cannot weigh.\" They're not rejected possibilities \u2014"
+    },
+    {
+      "time_ms": 80561,
+      "end_ms": 81223,
+      "line": 187,
+      "target": "angle",
+      "context": "decision. It's just distance and angle, math with no fork in"
+    }
+  ]
+}

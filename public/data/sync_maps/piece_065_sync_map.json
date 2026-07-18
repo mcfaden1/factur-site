@@ -1,0 +1,27 @@
+{
+  "piece": 65,
+  "duration_ms": 77380,
+  "cues": [
+    {
+      "time_ms": 27573,
+      "end_ms": 28444,
+      "line": 37,
+      "target": "probes",
+      "context": "in the code they're called probes, and a comment says they're"
+    },
+    {
+      "time_ms": 30325,
+      "end_ms": 33727,
+      "line": 36,
+      "target": "Probes: particles that attempt to penetrate, but cannot",
+      "context": "and a comment says they're \"particles that attempt to penetrate, but cannot.\" Watch the offset variable: when"
+    },
+    {
+      "time_ms": 58247,
+      "end_ms": 61231,
+      "line": 81,
+      "target": "ORTHOGRAPHIC: no perspective, no depth hierarchy",
+      "context": "purpose \u2014 the comment notes \"no perspective, no depth hierarchy,\" so nothing ever reads as"
+    }
+  ]
+}

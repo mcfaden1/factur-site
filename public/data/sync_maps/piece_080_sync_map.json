@@ -1,0 +1,55 @@
+{
+  "piece": 80,
+  "duration_ms": 76033,
+  "cues": [
+    {
+      "time_ms": 8998,
+      "end_ms": 9416,
+      "line": 133,
+      "target": "center",
+      "context": "circles, floating around a dark center \u2014 and then, slowly, warm"
+    },
+    {
+      "time_ms": 13793,
+      "end_ms": 14211,
+      "line": 289,
+      "target": "bloom",
+      "context": "then, slowly, warm amber lights bloom and drift across them like"
+    },
+    {
+      "time_ms": 30314,
+      "end_ms": 30871,
+      "line": 139,
+      "target": "arcLength",
+      "context": "completing their circle,\" right where arc length is calculated as a random"
+    },
+    {
+      "time_ms": 32439,
+      "end_ms": 32822,
+      "line": 34,
+      "target": "random",
+      "context": "length is calculated as a random fraction of a full circle."
+    },
+    {
+      "time_ms": 39138,
+      "end_ms": 40392,
+      "line": 225,
+      "target": "recognitionEvents",
+      "context": "in one line. Then find \"recognitionEvents\" further down \u2014 these amber"
+    },
+    {
+      "time_ms": 44177,
+      "end_ms": 45221,
+      "line": 41,
+      "target": "whereYouFinishMe",
+      "context": "amber flashes are literally named \"whereYouFinishMe\" in the palette. When one"
+    },
+    {
+      "time_ms": 50539,
+      "end_ms": 51560,
+      "line": 389,
+      "target": "Leave a scar on the nearest arc",
+      "context": "it leaves a permanent \"colorStain\" on the nearest arc that decays at 0.997 per"
+    }
+  ]
+}

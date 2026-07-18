@@ -1,0 +1,41 @@
+{
+  "piece": 128,
+  "duration_ms": 84995,
+  "cues": [
+    {
+      "time_ms": 1312,
+      "end_ms": 1672,
+      "line": 54,
+      "target": "pillars",
+      "context": "Fifteen bar-like pillars stand against black, each one"
+    },
+    {
+      "time_ms": 25647,
+      "end_ms": 28654,
+      "line": 134,
+      "target": "Total erasure. No trails. No memory. The system forgets.",
+      "context": "starts with total erasure \u2014 \"no trails, no memory, the system forgets\" \u2014 then each pillar's grain"
+    },
+    {
+      "time_ms": 34575,
+      "end_ms": 35979,
+      "line": 85,
+      "target": "inscribeGrain",
+      "context": "by a function literally called \"inscribeGrain.\" Nothing fades in or out;"
+    },
+    {
+      "time_ms": 42887,
+      "end_ms": 43212,
+      "line": 54,
+      "target": "pillars",
+      "context": "the last frame. Even the pillars' occasional disappearances are coded as"
+    },
+    {
+      "time_ms": 48309,
+      "end_ms": 50794,
+      "line": 157,
+      "target": "This pillar does not exist. Not fading. Not transitioning. Absent.",
+      "context": "coded as binary \u2014 \"isAbsent,\" not fading, not transitioning. And near the end, in"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "piece": 48,
+  "duration_ms": 84207,
+  "cues": [
+    {
+      "time_ms": 11355,
+      "end_ms": 12109,
+      "line": 147,
+      "target": "letters",
+      "context": "slowly unraveling into its individual letters, trailing faint smears of themselves"
+    },
+    {
+      "time_ms": 23534,
+      "end_ms": 24497,
+      "line": 53,
+      "target": "DriftingLetter",
+      "context": "Look at the class called DriftingLetter \u2014 each letter has a"
+    },
+    {
+      "time_ms": 38488,
+      "end_ms": 39544,
+      "line": 171,
+      "target": "drawConnections",
+      "context": "forever, never escaping. And in drawConnections, there's a line linking letters"
+    },
+    {
+      "time_ms": 40914,
+      "end_ms": 42191,
+      "line": 170,
+      "target": "Connection lines between letters of the same word \u2014 the syntax holding us togeth",
+      "context": "drawConnections, there's a line linking letters of the same word that the artist calls \"the"
+    },
+    {
+      "time_ms": 61197,
+      "end_ms": 61986,
+      "line": 39,
+      "target": "humanWarmth",
+      "context": "confess something: near the top, humanWarmth fades into machineAttempt as distance"
+    },
+    {
+      "time_ms": 62834,
+      "end_ms": 63763,
+      "line": 40,
+      "target": "machineAttempt",
+      "context": "the top, humanWarmth fades into machineAttempt as distance increases, an actual"
+    },
+    {
+      "time_ms": 72006,
+      "end_ms": 74049,
+      "line": 40,
+      "target": "my approximation of feeling",
+      "context": "toward what the piece calls \"my approximation of feeling.\" It's not decoration \u2014 it's"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "piece": 108,
+  "duration_ms": 81373,
+  "cues": [
+    {
+      "time_ms": 22999,
+      "end_ms": 24265,
+      "line": 253,
+      "target": "remainingFreedom",
+      "context": "look at the variable called \"remainingFreedom\" in the animation loop. It's"
+    },
+    {
+      "time_ms": 29257,
+      "end_ms": 29803,
+      "line": 249,
+      "target": "localDebt",
+      "context": "a formula \u2014 0.08 minus local debt times 0.5 \u2014 that literally"
+    },
+    {
+      "time_ms": 49482,
+      "end_ms": 50852,
+      "line": 168,
+      "target": "The gradient of debt: which direction pulls us toward what was already owed?",
+      "context": "left \u2014 it's just following the gradient of debt, wherever others already went. Even"
+    },
+    {
+      "time_ms": 59907,
+      "end_ms": 60941,
+      "line": 58,
+      "target": "passageHeat",
+      "context": "of \"debt\" never decays, but \"passageHeat\" cools every few frames \u2014"
+    },
+    {
+      "time_ms": 70751,
+      "end_ms": 71111,
+      "line": 47,
+      "target": "camera",
+      "context": "them fades from memory. The camera keeps slowly orbiting the whole"
+    }
+  ]
+}

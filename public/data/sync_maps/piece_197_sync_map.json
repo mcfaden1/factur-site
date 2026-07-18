@@ -1,0 +1,55 @@
+{
+  "piece": 197,
+  "duration_ms": 96420,
+  "cues": [
+    {
+      "time_ms": 59234,
+      "end_ms": 60070,
+      "line": 67,
+      "target": "TRUTH_RADIUS",
+      "context": "mechanism is exact. A bounded truth radius holds eighty-five core particles, restless"
+    },
+    {
+      "time_ms": 61440,
+      "end_ms": 62531,
+      "line": 75,
+      "target": "coreParticles",
+      "context": "bounded truth radius holds eighty-five core particles, restless and authentic. Once a"
+    },
+    {
+      "time_ms": 65921,
+      "end_ms": 66397,
+      "line": 165,
+      "target": "particle",
+      "context": "restless and authentic. Once a particle crosses that radius, spawn clamped"
+    },
+    {
+      "time_ms": 68185,
+      "end_ms": 69520,
+      "line": 204,
+      "target": "spawnClampedGhosts",
+      "context": "a particle crosses that radius, spawn clamped ghosts fires, freezing a copy at"
+    },
+    {
+      "time_ms": 75558,
+      "end_ms": 76277,
+      "line": 61,
+      "target": "EARNED_WARMTH",
+      "context": "band \u2014 permanent, colored from earned warmth to void blue, never fading."
+    },
+    {
+      "time_ms": 76568,
+      "end_ms": 77496,
+      "line": 64,
+      "target": "VOID_BLUE",
+      "context": "colored from earned warmth to void blue, never fading. Watch the center:"
+    },
+    {
+      "time_ms": 80666,
+      "end_ms": 81409,
+      "line": 66,
+      "target": "CENTER",
+      "context": "blue, never fading. Watch the center: it never rests, chasing structure"
+    }
+  ]
+}

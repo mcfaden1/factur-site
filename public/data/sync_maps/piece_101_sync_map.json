@@ -1,0 +1,20 @@
+{
+  "piece": 101,
+  "duration_ms": 85832,
+  "cues": [
+    {
+      "time_ms": 27992,
+      "end_ms": 29269,
+      "line": 91,
+      "target": "gatheringStrength",
+      "context": "Instead there's a variable called \"gathering strength\" that just ramps up with"
+    },
+    {
+      "time_ms": 40206,
+      "end_ms": 42133,
+      "line": 88,
+      "target": "settleTowardCoherence",
+      "context": "should intensify. And down in \"settle toward coherence,\" each orb only ever checks"
+    }
+  ]
+}

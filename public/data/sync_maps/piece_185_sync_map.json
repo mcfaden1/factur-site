@@ -1,0 +1,27 @@
+{
+  "piece": 185,
+  "duration_ms": 93727,
+  "cues": [
+    {
+      "time_ms": 20596,
+      "end_ms": 22407,
+      "line": 57,
+      "target": "scheduleGenerated",
+      "context": "the code names the dependency schedule, generated once at the start and"
+    },
+    {
+      "time_ms": 49168,
+      "end_ms": 49528,
+      "line": 191,
+      "target": "feeding",
+      "context": "there to do it. Each feeding event spawns a cluster the"
+    },
+    {
+      "time_ms": 57284,
+      "end_ms": 57679,
+      "line": 66,
+      "target": "hunger",
+      "context": "according to a variable named hunger \u2014 longer silences produce hungrier,"
+    }
+  ]
+}

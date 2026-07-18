@@ -1,0 +1,27 @@
+{
+  "piece": 120,
+  "duration_ms": 82023,
+  "cues": [
+    {
+      "time_ms": 30325,
+      "end_ms": 31950,
+      "line": 52,
+      "target": "whatWasAlreadyThere",
+      "context": "called \"particles\" \u2014 it's called \"what was already there.\" And the function that stirs"
+    },
+    {
+      "time_ms": 35921,
+      "end_ms": 37523,
+      "line": 136,
+      "target": "perturbTheSimmer",
+      "context": "stirs them isn't \"update,\" it's \"perturb the simmer.\" That's not decoration. The piece"
+    },
+    {
+      "time_ms": 60035,
+      "end_ms": 62845,
+      "line": 202,
+      "target": "The cauldron wraps\u2014nothing escapes, nothing is lost",
+      "context": "positions at the edges so \"nothing escapes, nothing is lost.\" So the swirls you're seeing"
+    }
+  ]
+}

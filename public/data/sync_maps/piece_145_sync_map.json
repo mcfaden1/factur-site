@@ -1,0 +1,55 @@
+{
+  "piece": 145,
+  "duration_ms": 73477,
+  "cues": [
+    {
+      "time_ms": 1277,
+      "end_ms": 1800,
+      "line": 52,
+      "target": "camera",
+      "context": "What you're watching is a camera that doesn't belong to you"
+    },
+    {
+      "time_ms": 13862,
+      "end_ms": 14338,
+      "line": 261,
+      "target": "gravity",
+      "context": "toward one of six invisible gravity wells that drift through the"
+    },
+    {
+      "time_ms": 21769,
+      "end_ms": 23150,
+      "line": 230,
+      "target": "evolveTheKept",
+      "context": "thing: in the function called \"evolve the kept,\" every single sphere gets updated"
+    },
+    {
+      "time_ms": 31811,
+      "end_ms": 32113,
+      "line": 52,
+      "target": "camera",
+      "context": "says \"skip this if the camera can't see it.\" Compare that"
+    },
+    {
+      "time_ms": 34911,
+      "end_ms": 36408,
+      "line": 308,
+      "target": "leaveAttentionMarks",
+      "context": "see it.\" Compare that to \"leave attention marks,\" where those little amber crystals"
+    },
+    {
+      "time_ms": 40216,
+      "end_ms": 40588,
+      "line": 52,
+      "target": "camera",
+      "context": "only spawn near wherever the camera happens to be looking \u2014"
+    },
+    {
+      "time_ms": 60359,
+      "end_ms": 60673,
+      "line": 52,
+      "target": "camera",
+      "context": "a true beginning. So the camera panning away and back isn't"
+    }
+  ]
+}

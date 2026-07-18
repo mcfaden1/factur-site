@@ -1,0 +1,27 @@
+{
+  "piece": 16,
+  "duration_ms": 75661,
+  "cues": [
+    {
+      "time_ms": 12318,
+      "end_ms": 13607,
+      "line": 40,
+      "target": "arcsApproaching",
+      "context": "in the code they're called arcs approaching, and each one is drawn"
+    },
+    {
+      "time_ms": 19958,
+      "end_ms": 24578,
+      "line": 45,
+      "target": "The gap is the point of almost \u2014 where the circle refuses to close",
+      "context": "stopping point the artist calls \"the point of almost, where the circle refuses to close.\" That gap doesn't stay still"
+    },
+    {
+      "time_ms": 64041,
+      "end_ms": 66293,
+      "line": 116,
+      "target": "It never closes \u2014 the path ends where it almost began",
+      "context": "the code even says it \"ends where it almost began.\" So this whole piece is"
+    }
+  ]
+}

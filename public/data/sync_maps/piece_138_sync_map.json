@@ -1,0 +1,48 @@
+{
+  "piece": 138,
+  "duration_ms": 83602,
+  "cues": [
+    {
+      "time_ms": 14988,
+      "end_ms": 15964,
+      "line": 35,
+      "target": "presenceGraphics",
+      "context": "computed there. Look at the presence graphics near the top: each particle"
+    },
+    {
+      "time_ms": 22291,
+      "end_ms": 22651,
+      "line": 106,
+      "target": "alpha",
+      "context": "with saturation of only 20%, alpha barely a quarter-strength \u2014 practically"
+    },
+    {
+      "time_ms": 28839,
+      "end_ms": 30000,
+      "line": 262,
+      "target": "renderPresences",
+      "context": "its own. Then down in render presences, the piece switches to additive"
+    },
+    {
+      "time_ms": 36849,
+      "end_ms": 39647,
+      "line": 265,
+      "target": "Two barely-visible presences sum to faintly visible",
+      "context": "in the comment: \"two barely-visible presences sum to faintly visible... ten presences sum to vivid"
+    },
+    {
+      "time_ms": 40414,
+      "end_ms": 43130,
+      "line": 266,
+      "target": "Ten presences sum to vivid color",
+      "context": "presences sum to faintly visible... ten presences sum to vivid color.\" That's the whole trick. No"
+    },
+    {
+      "time_ms": 54914,
+      "end_ms": 55564,
+      "line": 39,
+      "target": "attractors",
+      "context": "its neighbors. And notice the attractors \u2014 three wandering gravity wells"
+    }
+  ]
+}

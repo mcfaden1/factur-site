@@ -1,0 +1,48 @@
+{
+  "piece": 132,
+  "duration_ms": 88339,
+  "cues": [
+    {
+      "time_ms": 11378,
+      "end_ms": 14071,
+      "line": 226,
+      "target": "Before release: precise, cool, the beauty of known destination",
+      "context": "code literally calls this phase \"the beauty of known destination,\" rendered in that clinical cyan-to-white"
+    },
+    {
+      "time_ms": 23476,
+      "end_ms": 24486,
+      "line": 119,
+      "target": "releaseThreshold",
+      "context": "\u2014 the variable is called release threshold \u2014 the line begins to"
+    },
+    {
+      "time_ms": 33681,
+      "end_ms": 34807,
+      "line": 45,
+      "target": "coherentDrift",
+      "context": "noise's sake; it's built from coherent drift, the same kind of function"
+    },
+    {
+      "time_ms": 51432,
+      "end_ms": 52408,
+      "line": 123,
+      "target": "persistsInKnowing",
+      "context": "30 percent are flagged as persists in knowing \u2014 they just... finish their"
+    },
+    {
+      "time_ms": 63902,
+      "end_ms": 64191,
+      "line": 236,
+      "target": "flicker",
+      "context": "ones that do loosen sometimes flicker back \u2014 \"grasping again\" moments,"
+    },
+    {
+      "time_ms": 69091,
+      "end_ms": 69753,
+      "line": 285,
+      "target": "perpendicular",
+      "context": "moments, marked by those small perpendicular ticks \u2014 brief, almost embarrassed"
+    }
+  ]
+}

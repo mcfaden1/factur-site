@@ -1,0 +1,41 @@
+{
+  "piece": 125,
+  "duration_ms": 90244,
+  "cues": [
+    {
+      "time_ms": 28503,
+      "end_ms": 29803,
+      "line": 67,
+      "target": "invisibleWell",
+      "context": "code: there's an object called \"invisible well,\" placed slightly off-center on purpose,"
+    },
+    {
+      "time_ms": 41715,
+      "end_ms": 44026,
+      "line": 133,
+      "target": "applyInvisibleCurvature",
+      "context": "it in a function called \"apply invisible curvature\" \u2014 but each agent still"
+    },
+    {
+      "time_ms": 61951,
+      "end_ms": 63240,
+      "line": 74,
+      "target": "intentionCold",
+      "context": "away: the trails fade from \"intention cold,\" a pale blue, toward \"rut"
+    },
+    {
+      "time_ms": 65132,
+      "end_ms": 66096,
+      "line": 75,
+      "target": "rutWarm",
+      "context": "cold,\" a pale blue, toward \"rut warm,\" an amber \u2014 named, the"
+    },
+    {
+      "time_ms": 69799,
+      "end_ms": 72342,
+      "line": 73,
+      "target": "Colors named for what they mean, not what they are",
+      "context": "\u2014 named, the artist says, for what they mean, not what they are. So every single spark on"
+    }
+  ]
+}

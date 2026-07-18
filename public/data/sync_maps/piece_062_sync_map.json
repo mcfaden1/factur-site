@@ -1,0 +1,27 @@
+{
+  "piece": 62,
+  "duration_ms": 77704,
+  "cues": [
+    {
+      "time_ms": 10635,
+      "end_ms": 11053,
+      "line": 240,
+      "target": "rings",
+      "context": "a set of faint concentric rings \u2014 like a target diagram"
+    },
+    {
+      "time_ms": 47264,
+      "end_ms": 49691,
+      "line": 113,
+      "target": "discoveredNotDecided",
+      "context": "the artist named that group \"discovered not decided.\" They're not drawn as if"
+    },
+    {
+      "time_ms": 55449,
+      "end_ms": 56877,
+      "line": 78,
+      "target": "discoveredNotDecided: paths that fade in as if always there",
+      "context": "they're coded to simply appear, \"as if always there,\" already having happened. And that"
+    }
+  ]
+}

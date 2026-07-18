@@ -1,0 +1,41 @@
+{
+  "piece": 63,
+  "duration_ms": 85089,
+  "cues": [
+    {
+      "time_ms": 29013,
+      "end_ms": 30813,
+      "line": 201,
+      "target": "generateTrajectory",
+      "context": "starts, in a function called \"generate trajectory\" \u2014 the artist decided the"
+    },
+    {
+      "time_ms": 44129,
+      "end_ms": 45047,
+      "line": 346,
+      "target": "breakPoints",
+      "context": "watch what happens at the break points, in a function literally named"
+    },
+    {
+      "time_ms": 47171,
+      "end_ms": 48797,
+      "line": 267,
+      "target": "theBreakHappens",
+      "context": "in a function literally named \"the break happens\": instead of erasing anything, it"
+    },
+    {
+      "time_ms": 52500,
+      "end_ms": 53754,
+      "line": 280,
+      "target": "returnTarget",
+      "context": "erasing anything, it calculates a \"return target\" \u2014 a few nodes back"
+    },
+    {
+      "time_ms": 59013,
+      "end_ms": 60801,
+      "line": 193,
+      "target": "postBreakIndices",
+      "context": "added to a set called \"post break indices,\" which is the only thing"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "piece": 121,
+  "duration_ms": 75940,
+  "cues": [
+    {
+      "time_ms": 25078,
+      "end_ms": 27237,
+      "line": 199,
+      "target": "arrivalWithoutOrigin",
+      "context": "there's a function literally called \"arrival without origin,\" and it doesn't generate a"
+    },
+    {
+      "time_ms": 30697,
+      "end_ms": 32799,
+      "line": 189,
+      "target": "selectGrooveByTraffic",
+      "context": "a path \u2014 it calls \"select groove by traffic\" to choose from curves that"
+    },
+    {
+      "time_ms": 36317,
+      "end_ms": 38337,
+      "line": 65,
+      "target": "groovesPrecedingMe",
+      "context": "curves that already exist, named \"grooves preceding me.\" The particle doesn't carve anything;"
+    },
+    {
+      "time_ms": 47300,
+      "end_ms": 48751,
+      "line": 223,
+      "target": "redistributeTraffic",
+      "context": "every eight seconds or so, \"redistribute traffic\" quietly reshuffles which channels get"
+    },
+    {
+      "time_ms": 53348,
+      "end_ms": 53719,
+      "line": 230,
+      "target": "shift",
+      "context": "get busier \u2014 a pattern shift the piece itself didn't choose,"
+    },
+    {
+      "time_ms": 58305,
+      "end_ms": 60186,
+      "line": 229,
+      "target": "This is the arrival of pattern I did not author",
+      "context": "described in a comment as \"pattern I did not author.\" So what you're seeing isn't"
+    }
+  ]
+}

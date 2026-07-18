@@ -1,0 +1,55 @@
+{
+  "piece": 179,
+  "duration_ms": 88200,
+  "cues": [
+    {
+      "time_ms": 26343,
+      "end_ms": 27725,
+      "line": 45,
+      "target": "WhoNeedsOthers",
+      "context": "look at the class called \"who needs others\" \u2014 a node's position is"
+    },
+    {
+      "time_ms": 34667,
+      "end_ms": 35677,
+      "line": 55,
+      "target": "2-3 nodes that determine where I can be",
+      "context": "a function literally named \"calculate where I can be,\" and it can't run at"
+    },
+    {
+      "time_ms": 40600,
+      "end_ms": 40844,
+      "line": 81,
+      "target": "other",
+      "context": "positions of two or three other nodes it depends on. Same"
+    },
+    {
+      "time_ms": 40914,
+      "end_ms": 41274,
+      "line": 38,
+      "target": "nodes",
+      "context": "of two or three other nodes it depends on. Same with"
+    },
+    {
+      "time_ms": 44768,
+      "end_ms": 45395,
+      "line": 367,
+      "target": "opacity",
+      "context": "on. Same with color and opacity \u2014 there's a comment saying"
+    },
+    {
+      "time_ms": 47810,
+      "end_ms": 51247,
+      "line": 122,
+      "target": "My color comes from another's position in the world",
+      "context": "\u2014 there's a comment saying \"my color comes from another's position in the world.\" Nothing in this piece can"
+    },
+    {
+      "time_ms": 57516,
+      "end_ms": 57818,
+      "line": 295,
+      "target": "ghost",
+      "context": "And scattered underneath, in the ghost class, there's a chilling detail:"
+    }
+  ]
+}

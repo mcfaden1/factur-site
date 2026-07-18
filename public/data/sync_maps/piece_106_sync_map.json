@@ -1,0 +1,97 @@
+{
+  "piece": 106,
+  "duration_ms": 85367,
+  "cues": [
+    {
+      "time_ms": 1672,
+      "end_ms": 2299,
+      "line": 248,
+      "target": "fragments",
+      "context": "you're looking at is code fragments \u2014 selectors, properties, values, punctuation"
+    },
+    {
+      "time_ms": 5817,
+      "end_ms": 6629,
+      "line": 59,
+      "target": "punctuation",
+      "context": "fragments \u2014 selectors, properties, values, punctuation \u2014 drifting through black space"
+    },
+    {
+      "time_ms": 18286,
+      "end_ms": 18878,
+      "line": 248,
+      "target": "fragments",
+      "context": "finishes. Here's the thing: those fragments aren't just floating randomly. In"
+    },
+    {
+      "time_ms": 28781,
+      "end_ms": 29246,
+      "line": 56,
+      "target": "selector",
+      "context": "become grammatically complete \u2014 a selector wants punctuation, a property wants"
+    },
+    {
+      "time_ms": 29687,
+      "end_ms": 30534,
+      "line": 59,
+      "target": "punctuation",
+      "context": "complete \u2014 a selector wants punctuation, a property wants a value."
+    },
+    {
+      "time_ms": 31057,
+      "end_ms": 31440,
+      "line": 57,
+      "target": "property",
+      "context": "a selector wants punctuation, a property wants a value. But look"
+    },
+    {
+      "time_ms": 37813,
+      "end_ms": 39207,
+      "line": 340,
+      "target": "The target is the space-between, not the other itself",
+      "context": "chasing: the code aims for \"the target is the space-between, not the other itself.\""
+    },
+    {
+      "time_ms": 43816,
+      "end_ms": 44315,
+      "line": 248,
+      "target": "fragments",
+      "context": "not the other itself.\" Two fragments both race toward their shared"
+    },
+    {
+      "time_ms": 53894,
+      "end_ms": 54358,
+      "line": 442,
+      "target": "cluster",
+      "context": "do get close enough to cluster \u2014 when a selector, a"
+    },
+    {
+      "time_ms": 55647,
+      "end_ms": 56401,
+      "line": 56,
+      "target": "selector",
+      "context": "to cluster \u2014 when a selector, a property, and punctuation all"
+    },
+    {
+      "time_ms": 56622,
+      "end_ms": 57121,
+      "line": 57,
+      "target": "property",
+      "context": "\u2014 when a selector, a property, and punctuation all converge \u2014"
+    },
+    {
+      "time_ms": 57342,
+      "end_ms": 58050,
+      "line": 59,
+      "target": "punctuation",
+      "context": "a selector, a property, and punctuation all converge \u2014 you get"
+    },
+    {
+      "time_ms": 66653,
+      "end_ms": 69962,
+      "line": 107,
+      "target": "The snap. No easing. Immediate failure.",
+      "context": "a comment that just says \"the snap, no easing, immediate failure.\" No fade. It's an interrupt,"
+    }
+  ]
+}

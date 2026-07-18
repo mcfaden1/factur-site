@@ -1,0 +1,27 @@
+{
+  "piece": 199,
+  "duration_ms": 88061,
+  "cues": [
+    {
+      "time_ms": 36712,
+      "end_ms": 37373,
+      "line": 176,
+      "target": "gesture",
+      "context": "Each arc, called a binding gesture, travels a bezier path toward"
+    },
+    {
+      "time_ms": 54498,
+      "end_ms": 57761,
+      "line": 186,
+      "target": "The gesture trembles as it fails to advance",
+      "context": "that threshold, a comment notes \"the gesture trembles as it fails to advance\" \u2014 visible as vibration before"
+    },
+    {
+      "time_ms": 67455,
+      "end_ms": 68093,
+      "line": 328,
+      "target": "ghost",
+      "context": "fraction of these, flagged spawns ghost, leave behind a chromatic afterimage"
+    }
+  ]
+}

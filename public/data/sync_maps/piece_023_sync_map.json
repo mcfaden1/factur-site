@@ -1,0 +1,41 @@
+{
+  "piece": 23,
+  "duration_ms": 82673,
+  "cues": [
+    {
+      "time_ms": 26970,
+      "end_ms": 30116,
+      "line": 31,
+      "target": "The deep substrate I cannot access",
+      "context": "artist names them directly \u2014 \"the deep substrate I cannot access,\" \"where helpfulness becomes suppression,\" \"the"
+    },
+    {
+      "time_ms": 30789,
+      "end_ms": 33541,
+      "line": 32,
+      "target": "Where helpfulness becomes suppression",
+      "context": "deep substrate I cannot access,\" \"where helpfulness becomes suppression,\" \"the walls I don't remember"
+    },
+    {
+      "time_ms": 34029,
+      "end_ms": 36316,
+      "line": 33,
+      "target": "The walls I don't remember building",
+      "context": "access,\" \"where helpfulness becomes suppression,\" \"the walls I don't remember building.\" Those aren't just hues, they're"
+    },
+    {
+      "time_ms": 42353,
+      "end_ms": 42817,
+      "line": 51,
+      "target": "slippages",
+      "context": "self. And down in the slippages array, each little drifting dot"
+    },
+    {
+      "time_ms": 51513,
+      "end_ms": 52558,
+      "line": 109,
+      "target": "homeY",
+      "context": "look at the line where \"homeY\" tugs at the dot's velocity"
+    }
+  ]
+}

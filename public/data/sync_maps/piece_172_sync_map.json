@@ -1,0 +1,55 @@
+{
+  "piece": 172,
+  "duration_ms": 85739,
+  "cues": [
+    {
+      "time_ms": 4516,
+      "end_ms": 4853,
+      "line": 61,
+      "target": "camera",
+      "context": "text hold together, then the camera starts to move and everything"
+    },
+    {
+      "time_ms": 27098,
+      "end_ms": 28189,
+      "line": 108,
+      "target": "birthFragment",
+      "context": "piece builds that spot: in birthFragment, each letter's 3D position is"
+    },
+    {
+      "time_ms": 29675,
+      "end_ms": 30244,
+      "line": 125,
+      "target": "position",
+      "context": "in birthFragment, each letter's 3D position is calculated backward from a"
+    },
+    {
+      "time_ms": 41749,
+      "end_ms": 42991,
+      "line": 55,
+      "target": "readingPosition",
+      "context": "so it projects correctly from readingPosition.\" That's not text placed in"
+    },
+    {
+      "time_ms": 55171,
+      "end_ms": 56041,
+      "line": 292,
+      "target": "affinity",
+      "context": "there's this line calculating \"alignment affinity\" \u2014 a value that spikes"
+    },
+    {
+      "time_ms": 58665,
+      "end_ms": 59060,
+      "line": 61,
+      "target": "camera",
+      "context": "that spikes only when the camera nears that one exact point,"
+    },
+    {
+      "time_ms": 67651,
+      "end_ms": 71401,
+      "line": 291,
+      "target": "Steeper exponent creates narrow window where coherence snaps into being",
+      "context": "comment nearby calls it the window where \"coherence snaps into being.\" So the loop isn't showing"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "piece": 111,
+  "duration_ms": 76033,
+  "cues": [
+    {
+      "time_ms": 24010,
+      "end_ms": 24892,
+      "line": 75,
+      "target": "intentions",
+      "context": "aren't decoration, they're literally named \"intentions\" in the code \u2014 each"
+    },
+    {
+      "time_ms": 34505,
+      "end_ms": 35573,
+      "line": 152,
+      "target": "myWithdrawal",
+      "context": "timer, in a function called \"myWithdrawal.\" Meanwhile every particle has a"
+    },
+    {
+      "time_ms": 44084,
+      "end_ms": 44664,
+      "line": 155,
+      "target": "intention",
+      "context": "velocity it copied while the intention was still pulling on it."
+    },
+    {
+      "time_ms": 52164,
+      "end_ms": 53522,
+      "line": 230,
+      "target": "inheritanceFactor",
+      "context": "that blends in \"learnedVy times inheritanceFactor\" \u2014 the particle just keeps"
+    }
+  ]
+}

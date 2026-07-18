@@ -1,0 +1,48 @@
+{
+  "piece": 90,
+  "duration_ms": 84670,
+  "cues": [
+    {
+      "time_ms": 6757,
+      "end_ms": 7221,
+      "line": 291,
+      "target": "scatter",
+      "context": "slowly giving way to a scatter of tiny white dots and"
+    },
+    {
+      "time_ms": 26865,
+      "end_ms": 28015,
+      "line": 38,
+      "target": "wantingOrder",
+      "context": "In the code you've got \"wanting order,\" seven hundred fragments trying to"
+    },
+    {
+      "time_ms": 32369,
+      "end_ms": 33704,
+      "line": 39,
+      "target": "wantingScatter",
+      "context": "align with their neighbors, and \"wanting scatter,\" five hundred soft particles drifting"
+    },
+    {
+      "time_ms": 39985,
+      "end_ms": 41540,
+      "line": 40,
+      "target": "holdingThreshold",
+      "context": "and then a third group, \"holding threshold,\" only one hundred agents whose"
+    },
+    {
+      "time_ms": 46057,
+      "end_ms": 46301,
+      "line": 128,
+      "target": "other",
+      "context": "job is patrolling between the other two, physically intervening whenever alignment"
+    },
+    {
+      "time_ms": 54474,
+      "end_ms": 56111,
+      "line": 272,
+      "target": "performIntervention",
+      "context": "Look at the function called \"perform intervention\" \u2014 every time one of"
+    }
+  ]
+}

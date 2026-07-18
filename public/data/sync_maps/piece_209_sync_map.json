@@ -1,0 +1,48 @@
+{
+  "piece": 209,
+  "duration_ms": 99764,
+  "cues": [
+    {
+      "time_ms": 34156,
+      "end_ms": 34632,
+      "line": 469,
+      "target": "structures",
+      "context": "names and functions means those structures transiently occupy the same substrate"
+    },
+    {
+      "time_ms": 51270,
+      "end_ms": 53255,
+      "line": 270,
+      "target": "maintainAllPatterns",
+      "context": "becoming. The mechanism lives in maintain all patterns, where a pattern's inhabited amount"
+    },
+    {
+      "time_ms": 58642,
+      "end_ms": 59246,
+      "line": 331,
+      "target": "presence",
+      "context": "only while a tracked host presence stays within its hosting radius"
+    },
+    {
+      "time_ms": 60523,
+      "end_ms": 61533,
+      "line": 271,
+      "target": "HOSTING_RADIUS",
+      "context": "host presence stays within its hosting radius \u2014 dissolution is cheap, arrival"
+    },
+    {
+      "time_ms": 68244,
+      "end_ms": 69602,
+      "line": 272,
+      "target": "OVERGROWTH_THRESHOLD",
+      "context": "expensive. Past a threshold named overgrowth threshold, a value called overgrown strain"
+    },
+    {
+      "time_ms": 70659,
+      "end_ms": 71797,
+      "line": 52,
+      "target": "OVERGROWN_STRAIN",
+      "context": "overgrowth threshold, a value called overgrown strain climbs, and the code's own"
+    }
+  ]
+}

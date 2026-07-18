@@ -1,0 +1,76 @@
+{
+  "piece": 11,
+  "duration_ms": 87690,
+  "cues": [
+    {
+      "time_ms": 12771,
+      "end_ms": 13317,
+      "line": 29,
+      "target": "dissolving",
+      "context": "holding for a beat, then dissolving in bursts, over and over."
+    },
+    {
+      "time_ms": 25344,
+      "end_ms": 27376,
+      "line": 76,
+      "target": "The browser's parsing engine becomes our canvas - each DOM operation is a brushs",
+      "context": "there's a comment calling this \"the browser's parsing engine\" as the canvas, but look"
+    },
+    {
+      "time_ms": 29977,
+      "end_ms": 31300,
+      "line": 155,
+      "target": "parseLifecycle",
+      "context": "the canvas, but look at parse lifecycle \u2014 it just alternates between"
+    },
+    {
+      "time_ms": 35503,
+      "end_ms": 36478,
+      "line": 111,
+      "target": "parseDocument",
+      "context": "just alternates between two functions, parseDocument and deconstructTree, on a fixed"
+    },
+    {
+      "time_ms": 36745,
+      "end_ms": 38162,
+      "line": 135,
+      "target": "deconstructTree",
+      "context": "between two functions, parseDocument and deconstructTree, on a fixed four-second clock"
+    },
+    {
+      "time_ms": 41343,
+      "end_ms": 41749,
+      "line": 164,
+      "target": "animate",
+      "context": "four-second clock checked in the animate loop. It's a metaphor wearing"
+    },
+    {
+      "time_ms": 50991,
+      "end_ms": 51362,
+      "line": 63,
+      "target": "random",
+      "context": "or circle placed at a random angle and radius from center,"
+    },
+    {
+      "time_ms": 51432,
+      "end_ms": 51989,
+      "line": 118,
+      "target": "angle",
+      "context": "circle placed at a random angle and radius from center, colored"
+    },
+    {
+      "time_ms": 52442,
+      "end_ms": 52895,
+      "line": 91,
+      "target": "radius",
+      "context": "at a random angle and radius from center, colored by its"
+    },
+    {
+      "time_ms": 54997,
+      "end_ms": 55322,
+      "line": 117,
+      "target": "depth",
+      "context": "from center, colored by its depth in a coordinate scheme, not"
+    }
+  ]
+}

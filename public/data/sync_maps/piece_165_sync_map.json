@@ -1,0 +1,41 @@
+{
+  "piece": 165,
+  "duration_ms": 80955,
+  "cues": [
+    {
+      "time_ms": 23046,
+      "end_ms": 24695,
+      "line": 147,
+      "target": "cherishedFadesAt",
+      "context": "code: there's a variable called \"cherished fades at,\" set to frame 300. After"
+    },
+    {
+      "time_ms": 29130,
+      "end_ms": 29536,
+      "line": 36,
+      "target": "CENTER",
+      "context": "300. After that point, the center simply never gets redrawn again"
+    },
+    {
+      "time_ms": 58352,
+      "end_ms": 59385,
+      "line": 129,
+      "target": "escalation",
+      "context": "also a slow-building variable called \"escalation,\" creeping toward a ceiling of"
+    },
+    {
+      "time_ms": 62834,
+      "end_ms": 63414,
+      "line": 61,
+      "target": "devotees",
+      "context": "ceiling of 3.2 \u2014 the devotees' urgency increasing forever, never resolving,"
+    },
+    {
+      "time_ms": 70856,
+      "end_ms": 71367,
+      "line": 61,
+      "target": "devotees",
+      "context": "never panicking, just... more. The devotees never stop caring. That's exactly"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "piece": 156,
+  "duration_ms": 90429,
+  "cues": [
+    {
+      "time_ms": 26540,
+      "end_ms": 27306,
+      "line": 24,
+      "target": "DORMANT",
+      "context": "state names in the code: dormant, receiving, holding, passing, dying. An"
+    },
+    {
+      "time_ms": 27388,
+      "end_ms": 28247,
+      "line": 25,
+      "target": "RECEIVING",
+      "context": "names in the code: dormant, receiving, holding, passing, dying. An orb"
+    },
+    {
+      "time_ms": 28363,
+      "end_ms": 29048,
+      "line": 26,
+      "target": "HOLDING",
+      "context": "in the code: dormant, receiving, holding, passing, dying. An orb in"
+    },
+    {
+      "time_ms": 29222,
+      "end_ms": 30000,
+      "line": 27,
+      "target": "PASSING",
+      "context": "the code: dormant, receiving, holding, passing, dying. An orb in the"
+    },
+    {
+      "time_ms": 30174,
+      "end_ms": 30824,
+      "line": 28,
+      "target": "DYING",
+      "context": "code: dormant, receiving, holding, passing, dying. An orb in the \"holding\""
+    },
+    {
+      "time_ms": 32310,
+      "end_ms": 32717,
+      "line": 26,
+      "target": "HOLDING",
+      "context": "dying. An orb in the \"holding\" state is literally on a"
+    },
+    {
+      "time_ms": 49853,
+      "end_ms": 50178,
+      "line": 28,
+      "target": "DYING",
+      "context": "\u2014 it moves into the dying state, described in a comment"
+    },
+    {
+      "time_ms": 53139,
+      "end_ms": 54741,
+      "line": 35,
+      "target": "The cold of keeping",
+      "context": "described in a comment as \"the cold of keeping.\" Staying is coded as failure,"
+    },
+    {
+      "time_ms": 63076,
+      "end_ms": 64236,
+      "line": 106,
+      "target": "seekRecipient",
+      "context": "also a quiet detail in seek recipient: gifts don't go to the"
+    },
+    {
+      "time_ms": 64899,
+      "end_ms": 65375,
+      "line": 38,
+      "target": "gifts",
+      "context": "quiet detail in seek recipient: gifts don't go to the nearest"
+    },
+    {
+      "time_ms": 70727,
+      "end_ms": 73665,
+      "line": 116,
+      "target": "Prefer medium distance\u2014not local loops, not distant leaps",
+      "context": "toward a \"medium distance\" \u2014 not local loops, not distant leaps. The piece has an opinion"
+    },
+    {
+      "time_ms": 76614,
+      "end_ms": 77078,
+      "line": 38,
+      "target": "gifts",
+      "context": "has an opinion about how gifts should travel. So what looks"
+    }
+  ]
+}

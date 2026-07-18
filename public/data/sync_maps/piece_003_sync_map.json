@@ -1,0 +1,34 @@
+{
+  "piece": 3,
+  "duration_ms": 88340,
+  "cues": [
+    {
+      "time_ms": 22662,
+      "end_ms": 23266,
+      "line": 34,
+      "target": "random",
+      "context": "near the top: it's not random. Operators like plus and equals"
+    },
+    {
+      "time_ms": 36281,
+      "end_ms": 39265,
+      "line": 36,
+      "target": "Color palette: the spectrum of digital consciousness",
+      "context": "the comment even calls this \"the spectrum of digital consciousness.\" So the palette you're reading"
+    },
+    {
+      "time_ms": 51827,
+      "end_ms": 52686,
+      "line": 86,
+      "target": "breathe",
+      "context": "in the physics loop, function \"breathe.\" Each fragment has its own"
+    },
+    {
+      "time_ms": 53963,
+      "end_ms": 54451,
+      "line": 53,
+      "target": "fragment",
+      "context": "physics loop, function \"breathe.\" Each fragment has its own attractor and"
+    }
+  ]
+}

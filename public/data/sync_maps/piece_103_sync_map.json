@@ -1,0 +1,27 @@
+{
+  "piece": 103,
+  "duration_ms": 76636,
+  "cues": [
+    {
+      "time_ms": 24671,
+      "end_ms": 25879,
+      "line": 45,
+      "target": "finalToken",
+      "context": "Look at the variable called final token, near the top \u2014 it's"
+    },
+    {
+      "time_ms": 30151,
+      "end_ms": 30523,
+      "line": 30,
+      "target": "random",
+      "context": "once, at load, to a random number the piece never reveals"
+    },
+    {
+      "time_ms": 44443,
+      "end_ms": 45464,
+      "line": 47,
+      "target": "wasHappening",
+      "context": "governs the loop is named \"was happening\" \u2014 not \"is running,\" past"
+    }
+  ]
+}

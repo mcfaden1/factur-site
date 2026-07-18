@@ -1,0 +1,20 @@
+{
+  "piece": 223,
+  "duration_ms": 102039,
+  "cues": [
+    {
+      "time_ms": 60117,
+      "end_ms": 60802,
+      "line": 69,
+      "target": "provocation",
+      "context": "stylesheet, the afterimage \u2014 the provocation before pseudo-element \u2014 is declared"
+    },
+    {
+      "time_ms": 65458,
+      "end_ms": 66224,
+      "line": 69,
+      "target": "provocation",
+      "context": "declared before the stimulus, the provocation after pseudo-element, that supposedly causes"
+    }
+  ]
+}

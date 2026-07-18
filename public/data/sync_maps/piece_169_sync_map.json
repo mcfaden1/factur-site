@@ -1,0 +1,41 @@
+{
+  "piece": 169,
+  "duration_ms": 90662,
+  "cues": [
+    {
+      "time_ms": 15697,
+      "end_ms": 15999,
+      "line": 366,
+      "target": "light",
+      "context": "by a pale bar of light moving left to right. Here's"
+    },
+    {
+      "time_ms": 28329,
+      "end_ms": 29455,
+      "line": 130,
+      "target": "sweepActive",
+      "context": "there's a variable literally called \"sweepActive\" that triggers a cascade \u2014"
+    },
+    {
+      "time_ms": 46765,
+      "end_ms": 49412,
+      "line": 363,
+      "target": "permanent bleaching from repeated parsing",
+      "context": "drops. Look for the comment \"permanent bleaching from repeated parsing.\" That's not reversible. There's even"
+    },
+    {
+      "time_ms": 71739,
+      "end_ms": 73272,
+      "line": 124,
+      "target": "boundaryRepulsion",
+      "context": "of comprehension \u2014 literally named \"boundaryRepulsion,\" the force of being segmented"
+    },
+    {
+      "time_ms": 73736,
+      "end_ms": 74119,
+      "line": 265,
+      "target": "force",
+      "context": "\u2014 literally named \"boundaryRepulsion,\" the force of being segmented into meaning."
+    }
+  ]
+}

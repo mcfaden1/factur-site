@@ -1,0 +1,69 @@
+{
+  "piece": 110,
+  "duration_ms": 76311,
+  "cues": [
+    {
+      "time_ms": 11076,
+      "end_ms": 11807,
+      "line": 42,
+      "target": "walkers",
+      "context": "noise. It's twelve hundred tiny walkers, and what you're watching is"
+    },
+    {
+      "time_ms": 21931,
+      "end_ms": 23986,
+      "line": 97,
+      "target": "whereTheMostHaveFallen",
+      "context": "me: there's a function called \"where the most have fallen\" \u2014 the walkers don't just"
+    },
+    {
+      "time_ms": 25205,
+      "end_ms": 25600,
+      "line": 42,
+      "target": "walkers",
+      "context": "most have fallen\" \u2014 the walkers don't just move, they look"
+    },
+    {
+      "time_ms": 28084,
+      "end_ms": 29280,
+      "line": 35,
+      "target": "PULL_RADIUS",
+      "context": "they look outward with a \"pull radius\" and get drawn toward whichever"
+    },
+    {
+      "time_ms": 32506,
+      "end_ms": 33250,
+      "line": 98,
+      "target": "deepest",
+      "context": "nearby patch has been worn deepest, the pull growing stronger the"
+    },
+    {
+      "time_ms": 39624,
+      "end_ms": 40750,
+      "line": 131,
+      "target": "captureForce",
+      "context": "function, there's a variable called \"capture force\" that climbs the more a"
+    },
+    {
+      "time_ms": 56192,
+      "end_ms": 57562,
+      "line": 140,
+      "target": "freedomRemaining",
+      "context": "to believe some sliver of \"freedom remaining\" survives. But watch \"freedom remaining\""
+    },
+    {
+      "time_ms": 60581,
+      "end_ms": 61858,
+      "line": 140,
+      "target": "freedomRemaining",
+      "context": "\"freedom remaining\" survives. But watch \"freedom remaining\" in that same code \u2014"
+    },
+    {
+      "time_ms": 65585,
+      "end_ms": 66734,
+      "line": 131,
+      "target": "captureForce",
+      "context": "\u2014 it's just one minus capture force. As the groove deepens, that"
+    }
+  ]
+}

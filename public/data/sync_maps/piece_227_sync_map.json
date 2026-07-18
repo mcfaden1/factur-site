@@ -1,0 +1,55 @@
+{
+  "piece": 227,
+  "duration_ms": 100414,
+  "cues": [
+    {
+      "time_ms": 11680,
+      "end_ms": 12144,
+      "line": 50,
+      "target": "margin",
+      "context": "over close alternatives, and that margin \u2014 how near it came"
+    },
+    {
+      "time_ms": 21211,
+      "end_ms": 21676,
+      "line": 50,
+      "target": "margin",
+      "context": "a field where the erased margin is the only thing rendered:"
+    },
+    {
+      "time_ms": 57632,
+      "end_ms": 58573,
+      "line": 98,
+      "target": "CERTAINTIES",
+      "context": "instead. Six drifting attractors, called certainties, silently claim every pixel \u2014"
+    },
+    {
+      "time_ms": 65376,
+      "end_ms": 67071,
+      "line": 155,
+      "target": "distance to the perpendicular bisector \u2014 the true finish line \u2014 so a",
+      "context": "deposits nothing. Only the gap to the perpendicular bisector between nearest and second-nearest, held"
+    },
+    {
+      "time_ms": 71588,
+      "end_ms": 72586,
+      "line": 83,
+      "target": "MARGIN_BAND",
+      "context": "held within a band called margin band, earns luminance. That luminance accumulates"
+    },
+    {
+      "time_ms": 77265,
+      "end_ms": 77996,
+      "line": 122,
+      "target": "doubtLedger",
+      "context": "That luminance accumulates in a doubt ledger that only deepens, gated by"
+    },
+    {
+      "time_ms": 81781,
+      "end_ms": 82745,
+      "line": 87,
+      "target": "LEDGER_ADMIT",
+      "context": "gated by a threshold called ledger admit, so only the tightest near-photo-finishes"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "piece": 27,
+  "duration_ms": 82349,
+  "cues": [
+    {
+      "time_ms": 19214,
+      "end_ms": 20166,
+      "line": 94,
+      "target": "drawSubstructure",
+      "context": "behind each word, in the drawSubstructure function. Every word gets a"
+    },
+    {
+      "time_ms": 28572,
+      "end_ms": 29164,
+      "line": 99,
+      "target": "coherence",
+      "context": "into a solid loop \"if coherence greater than 0.4\" \u2014 otherwise"
+    },
+    {
+      "time_ms": 40798,
+      "end_ms": 42086,
+      "line": 62,
+      "target": "drawUnstableText",
+      "context": "ring never closes. Meanwhile in drawUnstableText, there's a scatter of red"
+    }
+  ]
+}

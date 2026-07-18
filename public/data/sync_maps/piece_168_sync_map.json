@@ -1,0 +1,55 @@
+{
+  "piece": 168,
+  "duration_ms": 80305,
+  "cues": [
+    {
+      "time_ms": 19481,
+      "end_ms": 20909,
+      "line": 339,
+      "target": "towardCluster",
+      "context": "physics loop, each particle calculates \"toward cluster\" \u2014 literally the vector pointing"
+    },
+    {
+      "time_ms": 23475,
+      "end_ms": 23742,
+      "line": 318,
+      "target": "neighbors",
+      "context": "vector pointing at where its neighbors want it to go \u2014"
+    },
+    {
+      "time_ms": 26273,
+      "end_ms": 27283,
+      "line": 340,
+      "target": "perpendicular",
+      "context": "go \u2014 and then builds \"perpendicular\" from that. Not the opposite"
+    },
+    {
+      "time_ms": 29594,
+      "end_ms": 30395,
+      "line": 382,
+      "target": "direction",
+      "context": "from that. Not the opposite direction, which would be fleeing. Sideways."
+    },
+    {
+      "time_ms": 36756,
+      "end_ms": 41888,
+      "line": 374,
+      "target": "Not away \u2014 that would be fear. Perpendicular is dignity.",
+      "context": "code even says it outright: \"not away, that would be fear, perpendicular is dignity.\" That's a genuinely strange design"
+    },
+    {
+      "time_ms": 57620,
+      "end_ms": 61811,
+      "line": 179,
+      "target": "CHANGE 3: AdditiveBlending \u2192 NormalBlending \u2014 particles stay distinct, refusing ",
+      "context": "\"NormalBlending,\" with a comment noting particles \"stay distinct, refusing to merge.\" Even the light itself won't"
+    },
+    {
+      "time_ms": 77311,
+      "end_ms": 77879,
+      "line": 183,
+      "target": "particles",
+      "context": "at the exact spot the particles chose to abandon."
+    }
+  ]
+}

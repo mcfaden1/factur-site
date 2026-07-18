@@ -1,0 +1,41 @@
+{
+  "piece": 178,
+  "duration_ms": 90384,
+  "cues": [
+    {
+      "time_ms": 15267,
+      "end_ms": 16393,
+      "line": 199,
+      "target": "voidInterior",
+      "context": "actively rendered. Look at the void interior: there's a shader making the"
+    },
+    {
+      "time_ms": 23940,
+      "end_ms": 24776,
+      "line": 44,
+      "target": "voidCore",
+      "context": "blending from a color called void core out to what the code"
+    },
+    {
+      "time_ms": 27156,
+      "end_ms": 28863,
+      "line": 43,
+      "target": "depthOfAbsence",
+      "context": "what the code literally calls depth of absence. The void is being drawn"
+    },
+    {
+      "time_ms": 48368,
+      "end_ms": 53348,
+      "line": 326,
+      "target": "This is where identity happens: what you cannot enter makes you what you are",
+      "context": "void's edge there's a comment: \"this is where identity happens: what you cannot enter makes you what you are.\" That"
+    },
+    {
+      "time_ms": 64018,
+      "end_ms": 65075,
+      "line": 48,
+      "target": "boundaryGlow",
+      "context": "color toward a shade called boundary glow, so the ring's glow is"
+    }
+  ]
+}

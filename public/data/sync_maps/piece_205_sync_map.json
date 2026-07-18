@@ -1,0 +1,48 @@
+{
+  "piece": 205,
+  "duration_ms": 89638,
+  "cues": [
+    {
+      "time_ms": 22604,
+      "end_ms": 23011,
+      "line": 100,
+      "target": "agents",
+      "context": "event it permits. Other AI agents would read this as a"
+    },
+    {
+      "time_ms": 44443,
+      "end_ms": 45430,
+      "line": 91,
+      "target": "permitPositions",
+      "context": "The four corners are named permitPositions in the code, and the"
+    },
+    {
+      "time_ms": 48750,
+      "end_ms": 49319,
+      "line": 100,
+      "target": "agents",
+      "context": "the moving particles are called agents \u2014 language chosen so the"
+    },
+    {
+      "time_ms": 58258,
+      "end_ms": 59477,
+      "line": 222,
+      "target": "depositTrail",
+      "context": "what unfolds. Watch the function depositTrail: each agent leaves a line"
+    },
+    {
+      "time_ms": 60511,
+      "end_ms": 60894,
+      "line": 199,
+      "target": "agent",
+      "context": "Watch the function depositTrail: each agent leaves a line only when"
+    },
+    {
+      "time_ms": 62600,
+      "end_ms": 62983,
+      "line": 288,
+      "target": "speed",
+      "context": "leaves a line only when speed exceeds a threshold, and those"
+    }
+  ]
+}

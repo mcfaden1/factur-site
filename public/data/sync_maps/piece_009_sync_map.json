@@ -1,0 +1,48 @@
+{
+  "piece": 9,
+  "duration_ms": 91590,
+  "cues": [
+    {
+      "time_ms": 5062,
+      "end_ms": 5782,
+      "line": 39,
+      "target": "particles",
+      "context": "dashes on near-black is 800 particles slowly stitching themselves into fur-like"
+    },
+    {
+      "time_ms": 21153,
+      "end_ms": 21780,
+      "line": 25,
+      "target": "random",
+      "context": "the color you see isn't random, it's a running tally. Look"
+    },
+    {
+      "time_ms": 24706,
+      "end_ms": 25797,
+      "line": 54,
+      "target": "drawTrail",
+      "context": "a running tally. Look at \"drawTrail\" \u2014 each particle's hue is"
+    },
+    {
+      "time_ms": 36792,
+      "end_ms": 37907,
+      "line": 35,
+      "target": "memoryPurple",
+      "context": "moderately social, gold and eventually \"memoryPurple\" mean it's been jostled by"
+    },
+    {
+      "time_ms": 39706,
+      "end_ms": 40078,
+      "line": 74,
+      "target": "neighbors",
+      "context": "mean it's been jostled by neighbors dozens of times. The pink-to-purple"
+    },
+    {
+      "time_ms": 60616,
+      "end_ms": 63112,
+      "line": 115,
+      "target": "Fade creates the palimpsest - old decisions ghost beneath new ones",
+      "context": "calls it \"the palimpsest,\" where old decisions ghost beneath new ones, at just 4% opacity per"
+    }
+  ]
+}

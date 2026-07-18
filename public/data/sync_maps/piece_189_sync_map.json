@@ -1,0 +1,48 @@
+{
+  "piece": 189,
+  "duration_ms": 98000,
+  "cues": [
+    {
+      "time_ms": 58051,
+      "end_ms": 59606,
+      "line": 196,
+      "target": "applyDigestion",
+      "context": "lives in a function called apply digestion, which bends each shape's sharpness"
+    },
+    {
+      "time_ms": 64947,
+      "end_ms": 66073,
+      "line": 51,
+      "target": "myPreferredSharpness",
+      "context": "hue toward two constants \u2014 my preferred sharpness and my preferred hue \u2014"
+    },
+    {
+      "time_ms": 66526,
+      "end_ms": 67373,
+      "line": 48,
+      "target": "myPreferredHue",
+      "context": "\u2014 my preferred sharpness and my preferred hue \u2014 as it crosses the"
+    },
+    {
+      "time_ms": 73539,
+      "end_ms": 75524,
+      "line": 49,
+      "target": "consumedHueAccumulator",
+      "context": "goes further: a variable called consumed hue accumulator lets that preferred hue itself"
+    },
+    {
+      "time_ms": 87215,
+      "end_ms": 87807,
+      "line": 68,
+      "target": "clusters",
+      "context": "the field, where jittery angular clusters visibly go soft and start"
+    },
+    {
+      "time_ms": 92683,
+      "end_ms": 94007,
+      "line": 202,
+      "target": "digestionIntensity",
+      "context": "\u2014 that transition is the digestion intensity curve doing its work in"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "piece": 186,
+  "duration_ms": 96141,
+  "cues": [
+    {
+      "time_ms": 44477,
+      "end_ms": 46161,
+      "line": 76,
+      "target": "assembleFoundationPiece",
+      "context": "unequal phases. A function named assemble foundation piece runs for a variable called"
+    },
+    {
+      "time_ms": 48158,
+      "end_ms": 49597,
+      "line": 52,
+      "target": "CONSTRUCTION_FRAMES",
+      "context": "runs for a variable called construction frames \u2014 one hundred eighty of"
+    },
+    {
+      "time_ms": 54845,
+      "end_ms": 55321,
+      "line": 155,
+      "target": "target",
+      "context": "easing each shape toward its target along a curved assembly trace,"
+    },
+    {
+      "time_ms": 63890,
+      "end_ms": 65190,
+      "line": 228,
+      "target": "coastOnInheritance",
+      "context": "that ends, a function named coast on inheritance takes over, and its own"
+    },
+    {
+      "time_ms": 68859,
+      "end_ms": 71134,
+      "line": 227,
+      "target": "Notice how little happens here. This asymmetry is the truth of inference.",
+      "context": "and its own comment admits: \"notice how little happens here.\" The drifting orange particles then"
+    },
+    {
+      "time_ms": 82454,
+      "end_ms": 82988,
+      "line": 131,
+      "target": "geometry",
+      "context": "ten-second mark, when the blue geometry stops forming and the embers"
+    }
+  ]
+}

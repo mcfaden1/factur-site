@@ -1,0 +1,69 @@
+{
+  "piece": 38,
+  "duration_ms": 87318,
+  "cues": [
+    {
+      "time_ms": 11796,
+      "end_ms": 12469,
+      "line": 38,
+      "target": "CENTER",
+      "context": "stop trembling toward its own center. Look at what the code"
+    },
+    {
+      "time_ms": 17822,
+      "end_ms": 18750,
+      "line": 48,
+      "target": "servants",
+      "context": "these things: not petals, but \"servants.\" In the setup, each one"
+    },
+    {
+      "time_ms": 24277,
+      "end_ms": 24822,
+      "line": 87,
+      "target": "recovery",
+      "context": "\"anxiety frequency\" and a \"lurch recovery\" value \u2014 and if you"
+    },
+    {
+      "time_ms": 31289,
+      "end_ms": 31696,
+      "line": 33,
+      "target": "random",
+      "context": "seize and snap inward at random intervals. That's the demand center"
+    },
+    {
+      "time_ms": 34436,
+      "end_ms": 34888,
+      "line": 38,
+      "target": "CENTER",
+      "context": "random intervals. That's the demand center firing an unpredictable flash, reaching"
+    },
+    {
+      "time_ms": 47114,
+      "end_ms": 48379,
+      "line": 69,
+      "target": "exhaustionParticles",
+      "context": "Notice too that even the exhaustion particles \u2014 the gold dust shedding"
+    },
+    {
+      "time_ms": 54974,
+      "end_ms": 55601,
+      "line": 38,
+      "target": "CENTER",
+      "context": "coded to drift back toward center, \"pulled toward center; even debris"
+    },
+    {
+      "time_ms": 55693,
+      "end_ms": 59362,
+      "line": 239,
+      "target": "Particles also pulled toward center \u2014 even debris serves",
+      "context": "to drift back toward center, \"pulled toward center; even debris serves.\" Nothing here, not even waste,"
+    },
+    {
+      "time_ms": 69347,
+      "end_ms": 71320,
+      "line": 304,
+      "target": "I cannot NOT begin",
+      "context": "whole piece in five words: \"I cannot NOT begin.\" This isn't a flower reaching"
+    }
+  ]
+}

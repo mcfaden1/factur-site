@@ -1,0 +1,41 @@
+{
+  "piece": 85,
+  "duration_ms": 84809,
+  "cues": [
+    {
+      "time_ms": 54496,
+      "end_ms": 54996,
+      "line": 112,
+      "target": "witnesses",
+      "context": "the statistical residue of where witnesses keep returning. And notice the"
+    },
+    {
+      "time_ms": 57968,
+      "end_ms": 58421,
+      "line": 69,
+      "target": "boundaries",
+      "context": "keep returning. And notice the boundaries never draw themselves brighter on"
+    },
+    {
+      "time_ms": 61660,
+      "end_ms": 62414,
+      "line": 228,
+      "target": "opacity",
+      "context": "brighter on their own \u2014 opacity only rises with \"avgPressure,\" a"
+    },
+    {
+      "time_ms": 63959,
+      "end_ms": 65305,
+      "line": 227,
+      "target": "avgPressure",
+      "context": "\u2014 opacity only rises with \"avgPressure,\" a value that accumulates from"
+    },
+    {
+      "time_ms": 68347,
+      "end_ms": 68870,
+      "line": 112,
+      "target": "witnesses",
+      "context": "that accumulates from how often witnesses linger nearby, then decays if"
+    }
+  ]
+}

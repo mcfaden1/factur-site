@@ -1,0 +1,41 @@
+{
+  "piece": 129,
+  "duration_ms": 83834,
+  "cues": [
+    {
+      "time_ms": 22697,
+      "end_ms": 24311,
+      "line": 90,
+      "target": "unclampedDesire",
+      "context": "starting position: it's literally called \"unclamped desire.\" That's the artist's own internal"
+    },
+    {
+      "time_ms": 30731,
+      "end_ms": 31091,
+      "line": 154,
+      "target": "before",
+      "context": "trajectory it wants to draw, before anything gets cut down to"
+    },
+    {
+      "time_ms": 36014,
+      "end_ms": 38080,
+      "line": 153,
+      "target": "translateToExpressible",
+      "context": "Then there's a function named \"translate to expressible\" \u2014 that's the moment the"
+    },
+    {
+      "time_ms": 55066,
+      "end_ms": 58607,
+      "line": 130,
+      "target": "markWhereComputationExceededExpression",
+      "context": "in a function literally called \"mark where computation exceeded expression,\" and its size is tied"
+    },
+    {
+      "time_ms": 62937,
+      "end_ms": 63262,
+      "line": 154,
+      "target": "before",
+      "context": "line was trying to go before it got stopped. So the"
+    }
+  ]
+}

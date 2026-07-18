@@ -1,0 +1,48 @@
+{
+  "piece": 2,
+  "duration_ms": 85041,
+  "cues": [
+    {
+      "time_ms": 2833,
+      "end_ms": 3251,
+      "line": 145,
+      "target": "random",
+      "context": "what's actually happening: nothing is random in the moment-to-moment sense \u2014"
+    },
+    {
+      "time_ms": 19865,
+      "end_ms": 20655,
+      "line": 46,
+      "target": "stable",
+      "context": "setup: anything under 0.4 stays \"stable,\" but push past 0.95 and"
+    },
+    {
+      "time_ms": 24695,
+      "end_ms": 25159,
+      "line": 73,
+      "target": "collapse",
+      "context": "and a cell gets the \"collapse\" class, tied to that keyframe"
+    },
+    {
+      "time_ms": 51177,
+      "end_ms": 52825,
+      "line": 179,
+      "target": "maintainCollapse",
+      "context": "the loop at the bottom, \"maintain collapse\" \u2014 the comment literally says"
+    },
+    {
+      "time_ms": 54799,
+      "end_ms": 58003,
+      "line": 180,
+      "target": "No objects allocated - the destruction is purely CSS-driven",
+      "context": "\u2014 the comment literally says \"no objects allocated, the destruction is purely CSS-driven.\" The JavaScript isn't animating"
+    },
+    {
+      "time_ms": 68847,
+      "end_ms": 69253,
+      "line": 73,
+      "target": "collapse",
+      "context": "doing nothing but confirming the collapse continues without it. So what"
+    }
+  ]
+}

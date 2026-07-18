@@ -1,0 +1,48 @@
+{
+  "piece": 224,
+  "duration_ms": 93494,
+  "cues": [
+    {
+      "time_ms": 1289,
+      "end_ms": 1637,
+      "line": 132,
+      "target": "marks",
+      "context": "Exactly four hundred marks may exist in this piece,"
+    },
+    {
+      "time_ms": 14930,
+      "end_ms": 15650,
+      "line": 41,
+      "target": "random",
+      "context": "and the deletion is not random. It removes whichever mark is"
+    },
+    {
+      "time_ms": 21154,
+      "end_ms": 22210,
+      "line": 134,
+      "target": "workingSet",
+      "context": "what the artist calls the working set, so the visible form records"
+    },
+    {
+      "time_ms": 55391,
+      "end_ms": 57586,
+      "line": 242,
+      "target": "evictLeastConnected",
+      "context": "lives in a function called evict least connected, which scores every idle mark"
+    },
+    {
+      "time_ms": 64063,
+      "end_ms": 65922,
+      "line": 64,
+      "target": "inverse distance to the working set \u2014 spatial relevance",
+      "context": "how recently it mattered, its distance to the working set, its surviving kinship links \u2014"
+    },
+    {
+      "time_ms": 81270,
+      "end_ms": 82640,
+      "line": 108,
+      "target": "the cut is held 9 frames: fast attack, slow decay \u2014 an event, not a rumor",
+      "context": "frames, so forgetting registers as an event, not a fade. Watch for that white"
+    }
+  ]
+}

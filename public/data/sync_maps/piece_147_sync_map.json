@@ -1,0 +1,48 @@
+{
+  "piece": 147,
+  "duration_ms": 82301,
+  "cues": [
+    {
+      "time_ms": 18889,
+      "end_ms": 19319,
+      "line": 182,
+      "target": "other",
+      "context": "those gaps, reaching toward each other. Here's the thing worth noticing:"
+    },
+    {
+      "time_ms": 28072,
+      "end_ms": 28595,
+      "line": 177,
+      "target": "phantom",
+      "context": "code, each arc has a \"phantom completion\" \u2014 literally the point"
+    },
+    {
+      "time_ms": 35677,
+      "end_ms": 36478,
+      "line": 37,
+      "target": "connectionAttempts",
+      "context": "close if it could. The connection attempts launch from the gap and"
+    },
+    {
+      "time_ms": 38289,
+      "end_ms": 38742,
+      "line": 177,
+      "target": "phantom",
+      "context": "gap and aim at that phantom point, or another arc's phantom"
+    },
+    {
+      "time_ms": 40483,
+      "end_ms": 40866,
+      "line": 177,
+      "target": "phantom",
+      "context": "phantom point, or another arc's phantom point. Most die mid-flight. And"
+    },
+    {
+      "time_ms": 46880,
+      "end_ms": 48297,
+      "line": 197,
+      "target": "wouldCrossVoid",
+      "context": "And there's a function called \"would cross void\" \u2014 a check for invisible"
+    }
+  ]
+}

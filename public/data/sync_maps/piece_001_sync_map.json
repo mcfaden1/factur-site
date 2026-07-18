@@ -1,0 +1,55 @@
+{
+  "piece": 1,
+  "duration_ms": 82441,
+  "cues": [
+    {
+      "time_ms": 22826,
+      "end_ms": 23116,
+      "line": 69,
+      "target": "breathe",
+      "context": "The key is in the breathe function \u2014 the radius of"
+    },
+    {
+      "time_ms": 24579,
+      "end_ms": 25020,
+      "line": 84,
+      "target": "radius",
+      "context": "the breathe function \u2014 the radius of each circle is driven"
+    },
+    {
+      "time_ms": 28131,
+      "end_ms": 28573,
+      "line": 71,
+      "target": "breath",
+      "context": "by a sine wave using \"breath freq,\" which is just the"
+    },
+    {
+      "time_ms": 42354,
+      "end_ms": 43004,
+      "line": 84,
+      "target": "radius",
+      "context": "in the setup, notice \"base radius\" is literally the prime times"
+    },
+    {
+      "time_ms": 48136,
+      "end_ms": 48554,
+      "line": 38,
+      "target": "primes",
+      "context": "one-point-five plus twenty \u2014 bigger primes get bigger, slower bodies. Small"
+    },
+    {
+      "time_ms": 51630,
+      "end_ms": 52002,
+      "line": 38,
+      "target": "primes",
+      "context": "get bigger, slower bodies. Small primes flicker; large primes loom. The"
+    },
+    {
+      "time_ms": 53499,
+      "end_ms": 53905,
+      "line": 38,
+      "target": "primes",
+      "context": "bodies. Small primes flicker; large primes loom. The screen blend mode"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "piece": 72,
+  "duration_ms": 93261,
+  "cues": [
+    {
+      "time_ms": 22964,
+      "end_ms": 23707,
+      "line": 112,
+      "target": "claimParticle",
+      "context": "In the code, that's the claimParticle function firing \u2014 it doesn't"
+    },
+    {
+      "time_ms": 26238,
+      "end_ms": 26738,
+      "line": 117,
+      "target": "particle",
+      "context": "\u2014 it doesn't ease a particle into its new position, it"
+    },
+    {
+      "time_ms": 42295,
+      "end_ms": 43096,
+      "line": 79,
+      "target": "scars",
+      "context": "\u2014 literally a variable called scars, a line drawn between where"
+    },
+    {
+      "time_ms": 44919,
+      "end_ms": 45371,
+      "line": 117,
+      "target": "particle",
+      "context": "line drawn between where the particle was and where the word"
+    },
+    {
+      "time_ms": 57190,
+      "end_ms": 57898,
+      "line": 79,
+      "target": "scars",
+      "context": "rate the artist wrote as \"scars linger \u2014 wounds don't heal"
+    },
+    {
+      "time_ms": 59257,
+      "end_ms": 61126,
+      "line": 210,
+      "target": "Scars linger\u2014wounds don't heal quickly",
+      "context": "wrote as \"scars linger \u2014 wounds don't heal quickly.\" And that final grid you"
+    },
+    {
+      "time_ms": 65515,
+      "end_ms": 66525,
+      "line": 90,
+      "target": "latticePositions",
+      "context": "the end? Those are the lattice positions \u2014 pre-generated, shuffled coordinates waiting"
+    }
+  ]
+}

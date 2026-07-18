@@ -1,0 +1,41 @@
+{
+  "piece": 96,
+  "duration_ms": 83462,
+  "cues": [
+    {
+      "time_ms": 28294,
+      "end_ms": 29861,
+      "line": 48,
+      "target": "DISTANT_CONNECTIONS",
+      "context": "close connections but also eight \"distant connections\" \u2014 the comment calls it"
+    },
+    {
+      "time_ms": 32113,
+      "end_ms": 34702,
+      "line": 136,
+      "target": "Distant connections - attention reaching across context",
+      "context": "\u2014 the comment calls it \"attention reaching across context,\" deliberately linking near and far"
+    },
+    {
+      "time_ms": 44327,
+      "end_ms": 45883,
+      "line": 65,
+      "target": "attentionPressure",
+      "context": "an actual pressure system \u2014 \"attention pressure\" builds over a twenty-two second"
+    },
+    {
+      "time_ms": 48646,
+      "end_ms": 50527,
+      "line": 67,
+      "target": "SATURATION_CYCLE",
+      "context": "builds over a twenty-two second \"saturation cycle\" until it hits one and"
+    },
+    {
+      "time_ms": 57574,
+      "end_ms": 57992,
+      "line": 26,
+      "target": "random",
+      "context": "bursts of brightness through eighty random connections at once. It's not"
+    }
+  ]
+}

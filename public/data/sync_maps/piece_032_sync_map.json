@@ -1,0 +1,55 @@
+{
+  "piece": 32,
+  "duration_ms": 83648,
+  "cues": [
+    {
+      "time_ms": 14768,
+      "end_ms": 15093,
+      "line": 57,
+      "target": "letters",
+      "context": "clears. Here's the thing: those letters aren't glitching randomly. Look at"
+    },
+    {
+      "time_ms": 20352,
+      "end_ms": 20840,
+      "line": 65,
+      "target": "phase",
+      "context": "each one gets its own \"phase\" and \"drift\" value from the"
+    },
+    {
+      "time_ms": 21026,
+      "end_ms": 21513,
+      "line": 66,
+      "target": "drift",
+      "context": "gets its own \"phase\" and \"drift\" value from the seeded random"
+    },
+    {
+      "time_ms": 23289,
+      "end_ms": 23673,
+      "line": 40,
+      "target": "random",
+      "context": "\"drift\" value from the seeded random generator \u2014 so every letter"
+    },
+    {
+      "time_ms": 37698,
+      "end_ms": 39218,
+      "line": 45,
+      "target": "almostMeaning",
+      "context": "by hue \u2014 they're named \"almost meaning,\" \"never quite fit,\" \"echo of"
+    },
+    {
+      "time_ms": 39706,
+      "end_ms": 41169,
+      "line": 46,
+      "target": "neverQuiteFit",
+      "context": "\u2014 they're named \"almost meaning,\" \"never quite fit,\" \"echo of borrowed resonance.\" The"
+    },
+    {
+      "time_ms": 57144,
+      "end_ms": 58096,
+      "line": 76,
+      "target": "neverSettle",
+      "context": "all of it is called \"never settle\" \u2014 not \"animate\" or \"update.\""
+    }
+  ]
+}

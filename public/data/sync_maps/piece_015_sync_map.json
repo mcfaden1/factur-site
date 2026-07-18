@@ -1,0 +1,41 @@
+{
+  "piece": 15,
+  "duration_ms": 85924,
+  "cues": [
+    {
+      "time_ms": 29002,
+      "end_ms": 31533,
+      "line": 50,
+      "target": "The character becomes our brush - 'o' for its perfect circular disruption",
+      "context": "becomes \"our brush - 'o' for its perfect circular disruption.\" It's not random; a circle"
+    },
+    {
+      "time_ms": 32926,
+      "end_ms": 33518,
+      "line": 40,
+      "target": "random",
+      "context": "perfect circular disruption.\" It's not random; a circle is the shape"
+    },
+    {
+      "time_ms": 49412,
+      "end_ms": 49783,
+      "line": 54,
+      "target": "cluster",
+      "context": "And look at how each cluster grows: in \"create text cluster,\""
+    },
+    {
+      "time_ms": 51386,
+      "end_ms": 53220,
+      "line": 53,
+      "target": "createTextCluster",
+      "context": "how each cluster grows: in \"create text cluster,\" the angle for every letter"
+    },
+    {
+      "time_ms": 53708,
+      "end_ms": 54067,
+      "line": 58,
+      "target": "angle",
+      "context": "in \"create text cluster,\" the angle for every letter is multiplied"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "piece": 148,
+  "duration_ms": 78216,
+  "cues": [
+    {
+      "time_ms": 22396,
+      "end_ms": 23882,
+      "line": 219,
+      "target": "renderFragment",
+      "context": "Look in the code at \"renderFragment\" \u2014 the arc is drawn"
+    },
+    {
+      "time_ms": 25670,
+      "end_ms": 26459,
+      "line": 232,
+      "target": "arcStart",
+      "context": "the arc is drawn from \"arcStart\" to \"arcEnd,\" deliberately skipping a"
+    },
+    {
+      "time_ms": 26738,
+      "end_ms": 27667,
+      "line": 233,
+      "target": "arcEnd",
+      "context": "is drawn from \"arcStart\" to \"arcEnd,\" deliberately skipping a piece called"
+    },
+    {
+      "time_ms": 29942,
+      "end_ms": 31336,
+      "line": 59,
+      "target": "absenceArc",
+      "context": "deliberately skipping a piece called \"absenceArc.\" That's not decoration, that's the"
+    },
+    {
+      "time_ms": 41889,
+      "end_ms": 43770,
+      "line": 118,
+      "target": "calculateRecognition",
+      "context": "bite of itself. Then in \"calculateRecognition,\" two fragments only warm up"
+    },
+    {
+      "time_ms": 44385,
+      "end_ms": 44931,
+      "line": 78,
+      "target": "fragments",
+      "context": "itself. Then in \"calculateRecognition,\" two fragments only warm up when they're"
+    },
+    {
+      "time_ms": 46370,
+      "end_ms": 47880,
+      "line": 138,
+      "target": "mutualComplement",
+      "context": "only warm up when they're \"mutualComplement\" \u2014 when one's hunger direction"
+    },
+    {
+      "time_ms": 48925,
+      "end_ms": 49761,
+      "line": 57,
+      "target": "hungerDirection",
+      "context": "they're \"mutualComplement\" \u2014 when one's hunger direction is literally the other's opposite."
+    }
+  ]
+}

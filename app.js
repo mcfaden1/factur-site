@@ -2,9 +2,23 @@
    FACTUR — application
    Modular sections: icons · theme · router · pages · docent.
    No inline styles; everything reads from CSS custom props.
+
+   Data: pieces / corpus / statements / site_meta are baked to
+   /public/data/*.json and fetched at boot. Heavy assets (artwork
+   HTML, video thumbnails, docent mp3) + live API are served from
+   the droplet over HTTPS at API_BASE.
    ============================================================ */
 (function () {
   const F = window.FACTUR;
+
+  /* ---------------------------------------------------------
+     CONFIG
+     --------------------------------------------------------- */
+  const API_BASE = 'https://api.factur.art';
+  const asset = (n, file) => API_BASE + '/artwork/' + n + '/' + file;
+  const fetchJSON = (path) =>
+    fetch(path).then((r) => (r.ok ? r.json() : Promise.reject(r.status)));
+
   const $ = (s, r = document) => r.querySelector(s);
   const el = (tag, cls, html) => {
     const n = document.createElement(tag);
@@ -77,7 +91,6 @@
       const target = page === 'detail' ? 'gallery' : page;
       s.classList.toggle('active', s.dataset.nav === target);
     });
-    if (page === 'detail') startDocentIdle();
     $('#main').scrollTop = 0;
     try { localStorage.setItem('factur-page', page); } catch (e) {}
   }
@@ -85,7 +98,6 @@
 
   /* shared header builder ---------------------------------- */
   function header(opts) {
-    // opts: { label, center, centerTitle, right(node), themeBtn:true }
     const h = el('div', 'header');
     h.appendChild(el('div', 'hdr-label', opts.label));
     const c = el('div', 'hdr-center' + (opts.centerTitle ? ' title' : ''), opts.center || '');
@@ -104,60 +116,53 @@
     return b;
   }
 
-  /* ---------------------------------------------------------
-     LIVE COUNTERS
-     --------------------------------------------------------- */
-  const ORIGIN = Date.now() - (4291 * 3600 + 7 * 60 + 12) * 1000; // ~4,291h uptime
-  function fmtUptime() {
-    const s = Math.floor((Date.now() - ORIGIN) / 1000);
-    const h = Math.floor(s / 3600);
-    const m = Math.floor((s % 3600) / 60);
-    const ss = s % 60;
-    return h.toLocaleString() + ':' + String(m).padStart(2, '0') + ':' + String(ss).padStart(2, '0');
-  }
-  function fmtClock() {
-    const d = new Date();
-    return [d.getUTCHours(), d.getUTCMinutes(), d.getUTCSeconds()]
-      .map((x) => String(x).padStart(2, '0')).join(':') + ' UTC';
-  }
-  const liveTargets = [];
-  setInterval(() => {
-    liveTargets.forEach((fn) => fn());
-  }, 1000);
-
   /* =========================================================
      PAGE: GALLERY
      ========================================================= */
+  /* lazy video manager — assign src + play on first reveal, pause
+     off-screen, so 200+ clips don't all load/decode at once */
+  let cellObserver = null;
+  function ensureCellObserver() {
+    if (cellObserver) return cellObserver;
+    cellObserver = new IntersectionObserver((entries) => {
+      for (const e of entries) {
+        const v = e.target;
+        if (e.isIntersecting) {
+          if (v.dataset.src && !v.src) v.src = v.dataset.src;
+          const pr = v.play(); if (pr && pr.catch) pr.catch(() => {});
+        } else {
+          v.pause();
+        }
+      }
+    }, { rootMargin: '200px' });
+    return cellObserver;
+  }
+
   function buildGallery() {
     const page = $('.page[data-page="gallery"]');
     page.innerHTML = '';
+    if (cellObserver) cellObserver.disconnect();
 
     // header — single uniform stat
     const stats = el('div', 'stat-cells');
-    const cells = [
-      ['PIECES', F.pieces.length.toString().padStart(3, '0'), false]
-    ];
-    cells.forEach(([lbl, val, accent, key]) => {
-      const c = el('div', 'stat-cell');
-      c.innerHTML = '<span class="lbl">' + lbl + '</span>' +
-        '<span class="val' + (accent ? ' accent' : '') + '"' + (key ? ' data-k="' + key + '"' : '') + '>' + val + '</span>';
-      stats.appendChild(c);
-    });
+    const total = (F.siteMeta && F.siteMeta.total_pieces) || F.pieces.length;
+    const statCell = el('div', 'stat-cell');
+    statCell.innerHTML = '<span class="lbl">PIECES</span><span class="val">' +
+      String(total).padStart(3, '0') + '</span>';
+    stats.appendChild(statCell);
+
     // current artist statement fragment (auto-updates as new versions ship)
     const cur = (F.statements || []).find((s) => s.current) || (F.statements || [])[0];
     let fragment = '';
     if (cur) {
-      const prose = cur.body
-        .replace(/^#.*$/m, '')
-        .replace(/[*`#]/g, '')
-        .trim();
+      const prose = cur.body.replace(/^#.*$/m, '').replace(/[*`#]/g, '').trim();
       const firstSentence = (prose.match(/^[^.]*\./) || [prose])[0].trim();
-      fragment = firstSentence.length > 92 ? firstSentence.slice(0, 90).trim() + '\u2026' : firstSentence;
+      fragment = firstSentence.length > 92 ? firstSentence.slice(0, 90).trim() + '…' : firstSentence;
     }
     const h = header({
       label: 'GALLERY',
       center: '<button class="statement-link" data-goto="statement">Artist Statement v' + (cur ? cur.v : '') + ':</button> ' +
-        '<span class="statement-quote">\u2018' + fragment + '\u2019</span>',
+        '<span class="statement-quote">‘' + fragment + '’</span>',
       right: stats
     });
     page.appendChild(h);
@@ -167,11 +172,27 @@
     // grid
     const wrap = el('div', 'gallery-grid-wrap');
     const grid = el('div', 'gallery-grid');
+    const io = ensureCellObserver();
     F.pieces.forEach((p) => {
       const cell = el('div', 'cell');
       cell.dataset.id = p.id;
-      const canvas = el('canvas', 'ph');
-      cell.appendChild(canvas);
+
+      let media;
+      if (p.has_video) {
+        media = el('video', 'ph');
+        media.muted = true; media.loop = true; media.playsInline = true;
+        media.setAttribute('muted', ''); media.setAttribute('playsinline', ''); media.setAttribute('loop', '');
+        media.preload = 'none';
+        media.dataset.src = asset(p.num, 'thumb.mp4');
+        io.observe(media);
+      } else {
+        media = el('img', 'ph');
+        media.loading = 'lazy';
+        media.alt = p.title;
+        media.src = asset(p.num, 'thumb.png');
+      }
+      cell.appendChild(media);
+
       cell.appendChild(el('div', 'ph-tag', p.medium));
       if (p.alive) cell.appendChild(el('span', 'accent-dot alive'));
       const ov = el('div', 'overlay',
@@ -181,21 +202,21 @@
       cell.appendChild(ov);
       cell.addEventListener('click', () => openDetail(p.id));
       grid.appendChild(cell);
-      F.anim.add(canvas, F.motifs[p.motif], p.seed, true);
     });
     wrap.appendChild(grid);
     page.appendChild(wrap);
   }
 
   /* =========================================================
-     PAGE: DETAIL  (the centerpiece)
+     PAGE: DETAIL  (per-piece)
      ========================================================= */
-  let docent = null; // engine instance
-  let detailArt = null; // live artwork anim item
-  let detailReturn = null; // where to go when exiting the detail view
+  let detailReturn = null;   // where to return when exiting detail
+  let currentPiece = null;
 
-  /* capture the current location (page + scroll, or open statement) so the
-     detail view can return the visitor to exactly where they left */
+  function pieceById(id) { return (F.pieces || []).find((p) => p.id === id); }
+
+  /* capture the current location so detail can return the visitor
+     to exactly where they left */
   function captureReturn() {
     const ov = $('#stmtOverlay');
     if (ov && ov.classList.contains('open')) {
@@ -205,6 +226,10 @@
     if (current === 'moltbook') {
       const s = document.querySelector('.page[data-page="moltbook"] .simple-scroll');
       return { type: 'moltbook', label: 'MOLTBOOK', scroll: s ? s.scrollTop : 0 };
+    }
+    if (current === 'corpus') {
+      const s = document.querySelector('.page[data-page="corpus"] .corpus-stream');
+      return { type: 'corpus', label: 'CORPUS', scroll: s ? s.scrollTop : 0 };
     }
     const w = document.querySelector('.gallery-grid-wrap');
     return { type: 'gallery', label: 'GALLERY', scroll: w ? w.scrollTop : 0 };
@@ -227,48 +252,43 @@
     } else if (r.type === 'moltbook') {
       route('moltbook');
       restoreScroll('.page[data-page="moltbook"] .simple-scroll', r.scroll);
+    } else if (r.type === 'corpus') {
+      route('corpus');
+      restoreScroll('.page[data-page="corpus"] .corpus-stream', r.scroll);
     } else {
       route('gallery');
       restoreScroll('.gallery-grid-wrap', r.scroll);
     }
   }
 
-  function updateDetailBreadcrumb() {
-    const bc = $('.detail-breadcrumb');
-    if (!bc) return;
-    const label = (detailReturn && detailReturn.label) || 'GALLERY';
-    bc.innerHTML =
-      '<button class="bc-back" title="Back">\u2190 ' + label + '</button>' +
-      '<span class="bc-sep">/</span> PIECE_' + F.detail.piece.id +
-      ' <span class="bc-sep">/</span> \u201CTrained\u201D';
-    const back = bc.querySelector('.bc-back');
-    if (back) back.addEventListener('click', goBackFromDetail);
-  }
-
   function openDetail(id, ret) {
-    // remember where we came from before leaving for the detail view
+    const p = pieceById(id);
+    if (!p) return;
     detailReturn = ret || captureReturn();
+    currentPiece = p;
     const ov = $('#stmtOverlay');
     if (ov && ov.classList.contains('open')) closeStatement();
     route('detail');
-    updateDetailBreadcrumb();
-    // browsing arrows belong only when you arrived by browsing (from the gallery);
-    // when you followed a specific piece-title reference, hide them
+    buildDetail(p);
+    // browsing arrows belong only when you arrived by browsing the gallery
     const browsing = detailReturn && detailReturn.type === 'gallery';
     document.querySelectorAll('.page[data-page="detail"] .piece-step')
       .forEach((b) => { b.style.display = browsing ? '' : 'none'; });
-    // re-seed the piece at the now-correct canvas size (it was seeded at boot while hidden)
-    if (detailArt) detailArt.state = { seed: 0x7F3A2C };
-    if (docent) docent.reset();
   }
   F.openDetail = openDetail;
 
-  function buildDetail() {
+  function detailBreadcrumb(p) {
+    const label = (detailReturn && detailReturn.label) || 'GALLERY';
+    return '<button class="bc-back" title="Back">← ' + label + '</button>' +
+      '<span class="bc-sep">/</span> PIECE_' + p.id +
+      ' <span class="bc-sep">/</span> “' + p.title + '”';
+  }
+
+  function buildDetail(p) {
     const page = $('.page[data-page="detail"]');
     page.innerHTML = '';
-    const D = F.detail;
 
-    /* --- header --- */
+    /* --- header with breadcrumb + prev/next --- */
     const right = el('div', 'hdr-nav');
     right.style.marginLeft = 'auto';
     const prev = el('button', 'piece-step', '←');
@@ -278,80 +298,100 @@
     right.appendChild(prev); right.appendChild(next);
 
     const h = header({ label: 'DETAIL', center: '', right });
-    // breadcrumb replaces the plain label
-    h.querySelector('.hdr-label').classList.add('detail-breadcrumb');
-    h.querySelector('.hdr-label').textContent = 'GALLERY / PIECE_' + D.piece.id + ' / "Trained"';
+    const bc = h.querySelector('.hdr-label');
+    bc.classList.add('detail-breadcrumb');
+    bc.innerHTML = detailBreadcrumb(p);
+    const back = bc.querySelector('.bc-back');
+    if (back) back.addEventListener('click', goBackFromDetail);
     page.appendChild(h);
 
-    /* --- three columns --- */
-    /* --- vertical stage: two 1:1 squares, docent bar, inspector below --- */
     const scroll = el('div', 'detail-scroll');
     const wrap = el('div', 'detail-wrap');
-
     const stage = el('div', 'detail-stage');
 
-    /* LEFT square — live artwork */
+    /* LEFT square — live artwork iframe */
     const sqArt = el('div', 'detail-square art');
-    const artCanvas = el('canvas');
-    sqArt.appendChild(artCanvas);
+    const frame = el('iframe');
+    frame.setAttribute('src', asset(p.num, 'piece.html'));
+    frame.setAttribute('sandbox', 'allow-scripts');
+    frame.setAttribute('scrolling', 'no');
+    frame.setAttribute('loading', 'lazy');
+    frame.setAttribute('title', p.title);
+    sqArt.appendChild(frame);
     stage.appendChild(sqArt);
 
     /* RIGHT square — source code */
     const sqCode = el('div', 'detail-square code');
     sqCode.appendChild(el('div', 'code-head',
       '<span class="lbl">SOURCE CODE</span>' +
-      '<span class="badge">Canvas 2D · ' + D.lineCount + ' lines</span>'));
+      '<span class="badge">' + p.medium + (p.js_line_count ? ' · ' + p.js_line_count + ' lines' : '') + '</span>'));
     const codePanel = el('div', 'code-panel');
     const table = el('table', 'code');
     const tbody = document.createElement('tbody');
-    F.highlight(F.trainedSource).forEach((html, i) => {
-      const tr = document.createElement('tr');
-      tr.dataset.line = i;
-      tr.innerHTML = '<td class="ln">' + (i + 1) + '</td><td class="src">' + (html || ' ') + '</td>';
-      tbody.appendChild(tr);
-    });
+    tbody.innerHTML = '<tr><td class="ln"></td><td class="src">Loading source…</td></tr>';
     table.appendChild(tbody);
     codePanel.appendChild(table);
     sqCode.appendChild(codePanel);
     stage.appendChild(sqCode);
-
     wrap.appendChild(stage);
 
-    /* docent bar (full width of the stage) */
-    wrap.appendChild(buildDocentPlayer());
+    /* docent bar (only when audio exists) */
+    if (p.has_docent) wrap.appendChild(buildDocentPlayer());
 
-    /* inspector — System Output (left), Concept spanning wider (right), corpus link beneath */
+    /* inspector — System Output (left), Concept (right), corpus link */
     const inspector = el('div', 'inspector');
     const inspLeft = el('div', 'insp-col');
-    inspLeft.appendChild(railSection('SYSTEM OUTPUT', kvBlock(D.system)));
+    const revs = (p.revisions && p.revisions.length) ? p.revisions.length : (p.revision_count || 1);
+    const sys = [
+      ['PIECE', p.id],
+      ['SEED', (p.seed != null ? String(p.seed) : '—')],
+      ['MEDIUM', p.medium],
+      ['GENERATED', p.date || '—'],
+      ['REVISIONS', (p.best_attempt || 1) + ' / ' + revs]
+    ];
+    inspLeft.appendChild(railSection('SYSTEM OUTPUT', kvBlock(sys)));
     const inspRight = el('div', 'insp-col');
-    inspRight.appendChild(railSection('CONCEPT', el('div', 'concept-txt', D.concept)));
-    const corpusLink = el('button', 'corpus-link', '// corpus <span>\u2192</span>');
-    corpusLink.addEventListener('click', () => openCorpusForPiece(D.piece.id));
+    inspRight.appendChild(railSection('CONCEPT', el('div', 'concept-txt', escapeText(p.concept || ''))));
+    const corpusLink = el('button', 'corpus-link', '// corpus <span>→</span>');
+    corpusLink.addEventListener('click', () => openCorpusForPiece(p.id));
     inspRight.appendChild(corpusLink);
     inspector.appendChild(inspLeft);
     inspector.appendChild(inspRight);
-    // drefWrap kept (detached) so the docent engine can still resolve cue references
-    const drefWrap = el('div', 'dref-list');
     wrap.appendChild(inspector);
 
     scroll.appendChild(wrap);
     page.appendChild(scroll);
 
-    /* --- wire the live piece (always-on; reliable on first reveal) --- */
-    const item = F.anim.add(artCanvas, function (ctx, w, h, t, seed, state) {
-      F.trainedRun(ctx, w, h, t, state, rand);
-    }, 1, false);
-    item.state = { seed: 0x7F3A2C };
-    detailArt = item;
-
-    /* --- build docent engine --- */
-    docent = makeDocent({ codePanel, table, tbody, drefWrap });
+    /* fetch the real source, then wire the docent to it */
+    loadSource(p, tbody, function () {
+      if (p.has_docent) setupDocent(p, { codePanel, table, tbody });
+    });
   }
 
   function stepPiece(dir) {
-    // navigate gallery order; the authored detail content stays "Trained"
-    if (docent) docent.reset();
+    if (!currentPiece) return;
+    const list = F.pieces || [];
+    const idx = list.findIndex((x) => x.id === currentPiece.id);
+    const nxt = list[idx + dir];
+    if (nxt) openDetail(nxt.id, detailReturn);
+  }
+
+  function loadSource(p, tbody, done) {
+    fetch(asset(p.num, 'piece.html'))
+      .then((r) => (r.ok ? r.text() : Promise.reject(r.status)))
+      .then((src) => {
+        tbody.innerHTML = '';
+        F.highlight(src).forEach((html, i) => {
+          const tr = document.createElement('tr');
+          tr.dataset.line = i + 1;
+          tr.innerHTML = '<td class="ln">' + (i + 1) + '</td><td class="src">' + (html || ' ') + '</td>';
+          tbody.appendChild(tr);
+        });
+        if (done) done();
+      })
+      .catch(() => {
+        tbody.innerHTML = '<tr><td class="ln"></td><td class="src">Source unavailable.</td></tr>';
+      });
   }
 
   /* ---- detail sub-builders ---- */
@@ -370,29 +410,6 @@
     });
     return w;
   }
-  function revisionArc(rev) {
-    const w = el('div');
-    rev.forEach(([lbl, note], i) => {
-      const isKept = i === rev.length - 1;
-      const row = el('div', 'rev-row' + (isKept ? ' best' : ''));
-      row.innerHTML =
-        '<span class="r-lbl">' + lbl + (isKept ? ' <em>kept</em>' : '') + '</span>' +
-        '<span class="r-note">' + note + '</span>';
-      w.appendChild(row);
-    });
-    return w;
-  }
-  function auctionBlock(a) {
-    const w = el('div');
-    w.appendChild(el('div', 'kv', '<span class="k">STATUS</span><span class="v accent">' + a.status + '</span>'));
-    w.appendChild(el('div', 'kv', '<span class="k">CLOSES</span><span class="v">' + a.closes + '</span>'));
-    w.appendChild(el('div', 'auction-price', a.price));
-    w.appendChild(el('div', 'auction-closes', 'The auction closes when the agent makes its next piece.'));
-    const btn = el('button', 'acquire-btn');
-    btn.innerHTML = 'ACQUIRE_TOKEN<span class="blink"></span>';
-    w.appendChild(btn);
-    return w;
-  }
   function buildDocentPlayer() {
     const d = el('div', 'docent');
     d.innerHTML =
@@ -402,149 +419,120 @@
           '<div class="d1">DOCENT</div>' +
           '<div class="d2">A guided reading of the source</div>' +
         '</div>' +
-        '<div class="docent-time"><span data-cur>0:00</span> / ' + fmtTime(F.detail.docentLen) + '</div>' +
+        '<div class="docent-time"><span data-cur>0:00</span> / <span data-dur>0:00</span></div>' +
       '</div>' +
       '<div class="docent-track"><div class="docent-fill"></div><div class="docent-head"></div></div>' +
-      '<div class="docent-transcript" data-transcript></div>';
+      '<div class="docent-transcript" data-transcript></div>' +
+      '<audio data-docent-audio preload="metadata"></audio>';
     return d;
   }
   function fmtTime(s) {
+    s = s || 0;
     const m = Math.floor(s / 60);
     return m + ':' + String(Math.floor(s % 60)).padStart(2, '0');
   }
 
   /* =========================================================
-     DOCENT SYNC ENGINE
+     DOCENT SYNC ENGINE  (audio-driven; cues -> source lines)
      ========================================================= */
-  function makeDocent(refs) {
-    const D = F.detail;
-    const cues = D.cues;
+  function setupDocent(p, refs) {
     const page = $('.page[data-page="detail"]');
+    const audio = $('[data-docent-audio]', page);
     const playBtn = $('.docent-play', page);
     const fill = $('.docent-fill', page);
     const headEl = $('.docent-head', page);
     const track = $('.docent-track', page);
     const curEl = $('[data-cur]', page);
+    const durEl = $('[data-dur]', page);
     const transcript = $('[data-transcript]', page);
+    if (!audio) return;
+    audio.src = asset(p.num, 'docent.mp3');
 
-    // resolve each cue to its row + token span
-    const rows = Array.from(refs.tbody.querySelectorAll('tr'));
-    cues.forEach((cue) => {
-      let rowEl = null, tokEl = null;
-      for (const r of rows) {
-        const spans = Array.from(r.querySelectorAll('span.tok'));
-        const exact = spans.find((s) => s.textContent === cue.token);
-        if (exact) { rowEl = r; tokEl = exact; break; }
-      }
-      if (!rowEl) {
-        for (const r of rows) {
-          if (r.querySelector('.src').textContent.includes(cue.token)) {
-            rowEl = r;
-            tokEl = Array.from(r.querySelectorAll('span.tok'))
-              .find((s) => s.textContent.includes(cue.token)) || null;
-            break;
-          }
-        }
-      }
-      cue._row = rowEl; cue._tok = tokEl;
-    });
+    let cues = [];
+    let lastFired = -1;
 
-    let time = 0, playing = false, last = -1, raf = null, prevT = 0;
+    const rowByLine = (ln) => refs.tbody.querySelector('tr[data-line="' + ln + '"]');
 
-    function clearAll() {
-      rows.forEach((r) => r.classList.remove('hl-active', 'hl-fading', 'hl-visited'));
+    function clearHL() {
+      refs.tbody.querySelectorAll('tr').forEach((r) =>
+        r.classList.remove('hl-active', 'hl-fading', 'hl-visited'));
       page.querySelectorAll('.tok.token-hl, .tok.token-visited')
         .forEach((s) => s.classList.remove('token-hl', 'token-visited'));
-      refs.drefWrap.querySelectorAll('.dref').forEach((d) => d.classList.remove('lit'));
     }
 
-    function visit(cue) {
-      if (cue._row) { cue._row.classList.remove('hl-active', 'hl-fading'); cue._row.classList.add('hl-visited'); }
-      if (cue._tok) { cue._tok.classList.remove('token-hl'); cue._tok.classList.add('token-visited'); }
-    }
-
-    function activate(cue, i, scroll) {
-      if (cue._row) {
-        cue._row.classList.remove('hl-visited', 'hl-fading');
-        cue._row.classList.add('hl-active');
-        if (scroll) {
-          const top = cue._row.offsetTop - refs.codePanel.clientHeight / 2 + 12;
-          refs.codePanel.scrollTo({ top, behavior: 'smooth' });
+    function fire(i) {
+      const cue = cues[i];
+      if (lastFired >= 0 && lastFired !== i && cues[lastFired] && cues[lastFired]._row) {
+        cues[lastFired]._row.classList.remove('hl-active');
+        cues[lastFired]._row.classList.add('hl-visited');
+      }
+      const row = cue._row;
+      if (row) {
+        row.classList.remove('hl-visited', 'hl-fading');
+        row.classList.add('hl-active');
+        const top = row.offsetTop - refs.codePanel.clientHeight / 2 + 12;
+        refs.codePanel.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+        if (cue.target) {
+          const tok = Array.from(row.querySelectorAll('span.tok'))
+            .find((s) => s.textContent.includes(cue.target));
+          if (tok) tok.classList.add('token-hl');
         }
       }
-      if (cue._tok) cue._tok.classList.add('token-hl');
       transcript.style.opacity = 0;
-      setTimeout(() => { transcript.textContent = '\u201C' + cue.say + '\u201D'; transcript.style.opacity = 1; }, 180);
-      const d = refs.drefWrap.querySelector('.dref[data-dref="' + i + '"]');
-      if (d) d.classList.add('lit');
+      setTimeout(() => {
+        transcript.textContent = cue.context ? '“' + cue.context + '”' : '';
+        transcript.style.opacity = 1;
+      }, 160);
+      lastFired = i;
     }
 
-    function demote(cue) {
-      if (cue._row) { cue._row.classList.remove('hl-active'); cue._row.classList.add('hl-fading'); }
-      if (cue._tok) { cue._tok.classList.remove('token-hl'); cue._tok.classList.add('token-visited'); }
-      const c = cue;
-      setTimeout(() => { if (c._row && c._row.classList.contains('hl-fading')) { c._row.classList.remove('hl-fading'); c._row.classList.add('hl-visited'); } }, 1500);
+    function applyAt(ms) {
+      clearHL();
+      lastFired = -1;
+      let idx = -1;
+      cues.forEach((c, i) => { if (c.time_ms <= ms) idx = i; });
+      for (let i = 0; i < idx; i++) if (cues[i]._row) cues[i]._row.classList.add('hl-visited');
+      if (idx >= 0) fire(idx);
+      else transcript.textContent = '';
     }
 
     function renderProgress() {
-      const pct = (time / D.docentLen) * 100;
+      const dur = audio.duration || 0;
+      const pct = dur ? (audio.currentTime / dur) * 100 : 0;
       fill.style.width = pct + '%';
       headEl.style.left = pct + '%';
-      curEl.textContent = fmtTime(time);
+      curEl.textContent = fmtTime(audio.currentTime);
     }
 
-    /* apply correct visual state for a given time (used on seek) */
-    function applyAt(tt) {
-      clearAll();
-      let activeIdx = -1;
-      cues.forEach((cue, i) => { if (cue.t <= tt) activeIdx = i; });
-      cues.forEach((cue, i) => {
-        if (i < activeIdx) {
-          visit(cue);
-          const d = refs.drefWrap.querySelector('.dref[data-dref="' + i + '"]');
-          if (d) d.classList.add('lit');
-        }
-      });
-      if (activeIdx >= 0) activate(cues[activeIdx], activeIdx, true);
-      else { transcript.textContent = ''; }
-      last = activeIdx;
-    }
-
-    function tick(now) {
-      if (!playing) return;
-      const dt = (now - prevT) / 1000; prevT = now;
-      time = Math.min(D.docentLen, time + dt);
-      // fire any newly-crossed cues
-      for (let i = last + 1; i < cues.length; i++) {
-        if (cues[i].t <= time) {
-          if (last >= 0) demote(cues[last]);
-          activate(cues[i], i, true);
-          last = i;
-        }
+    audio.addEventListener('loadedmetadata', () => { durEl.textContent = fmtTime(audio.duration); });
+    audio.addEventListener('timeupdate', () => {
+      const ms = audio.currentTime * 1000;
+      for (let i = lastFired + 1; i < cues.length; i++) {
+        if (cues[i].time_ms <= ms) fire(i); else break;
       }
       renderProgress();
-      if (time >= D.docentLen) { stop(); return; }
-      raf = requestAnimationFrame(tick);
-    }
+    });
+    audio.addEventListener('ended', () => { playBtn.innerHTML = ICON.play; });
+    audio.addEventListener('seeked', () => { applyAt(audio.currentTime * 1000); });
 
-    function play() { if (playing) return; playing = true; playBtn.innerHTML = ICON.pause; prevT = performance.now(); raf = requestAnimationFrame(tick); }
-    function stop() { playing = false; playBtn.innerHTML = ICON.play; if (raf) cancelAnimationFrame(raf); }
-    function reset() { stop(); time = 0; last = -1; clearAll(); renderProgress(); transcript.textContent = ''; }
-
-    playBtn.addEventListener('click', () => (playing ? stop() : play()));
+    playBtn.addEventListener('click', () => {
+      if (audio.paused) { audio.play(); playBtn.innerHTML = ICON.pause; }
+      else { audio.pause(); playBtn.innerHTML = ICON.play; }
+    });
     track.addEventListener('click', (e) => {
       const r = track.getBoundingClientRect();
-      time = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width)) * D.docentLen;
-      renderProgress();
-      applyAt(time);
+      const frac = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width));
+      if (audio.duration) audio.currentTime = frac * audio.duration;
     });
 
-    renderProgress();
-    return { reset, play, stop };
+    if (p.has_sync) {
+      fetchJSON('/public/data/sync_maps/piece_' + p.id + '_sync_map.json')
+        .then((m) => {
+          cues = (m.cues || []).map((c) => Object.assign({}, c, { _row: rowByLine(c.line) }));
+        })
+        .catch(() => { cues = []; });
+    }
   }
-
-  let docentIdle = false;
-  function startDocentIdle() { /* hook for first-visit affordance if needed */ }
 
   /* =========================================================
      PAGE: // CORPUS
@@ -556,7 +544,7 @@
     ASSISTANT: "Critical feedback from the studio assistant on what's working, what's failing, and what to try next.",
     WALK: 'Unstructured reflection written away from the work, where the artist thinks about an earlier piece and what it reveals about the current one.',
     LIBRARY: "The artist's response to a text or technique it read in the studio library.",
-    VISION: 'A periodic synthesis of what the practice has become and where it\u2019s heading, written every fifteen pieces.'
+    VISION: 'A periodic synthesis of what the practice has become and where it’s heading, written every fifteen pieces.'
   };
   let corpusSetPiece = null; // assigned by buildCorpus; (pieceId|null) => void
 
@@ -583,7 +571,6 @@
       });
       bar.appendChild(pill);
     });
-    // active piece-collection chip (shown when arriving from a piece's detail view)
     const chip = el('button', 'corpus-piece-chip');
     chip.style.display = 'none';
     chip.addEventListener('click', () => { pieceFilter = null; updateChip(); applyFilters(); });
@@ -597,11 +584,11 @@
 
     const stream = el('div', 'corpus-stream');
     const inner = el('div', 'corpus-inner');
-    F.corpus.forEach((e) => {
+    (F.corpus || []).forEach((e) => {
       const entry = el('div', 'entry');
       entry.dataset.type = e.type;
       entry.dataset.piece = e.piece || '';
-      const meta = '<span>' + e.type + '</span><span>' + e.date + '</span>' +
+      const meta = '<span>' + e.type + '</span><span>' + (e.date || '') + '</span>' +
         (e.piece ? '<span>' + e.piece + '</span>' : '');
       entry.innerHTML = '<div class="entry-inner">' +
         '<div class="entry-meta">' + meta + '</div>' +
@@ -620,8 +607,6 @@
         const bodyEl = entry.querySelector('.entry-body');
         const raw = decodeURIComponent(bodyEl.dataset.raw);
         const matchOk = !q || raw.toLowerCase().includes(q);
-        // type + piece filters collapse the entry out/in fluidly;
-        // keyword search keeps the in-place dim + highlight behavior
         entry.classList.toggle('gone', !(pieceOk && typeOk));
         entry.classList.toggle('dim', pieceOk && typeOk && q && !matchOk);
         if (q && matchOk) {
@@ -651,13 +636,11 @@
     };
   }
   function escapeText(s) {
-    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
-  /* collapse hard-wrapped source lines into flowing paragraphs:
-     single newlines -> space, blank lines -> paragraph break.
-     Also renders *italic* (used by the agent for piece titles). */
+  /* collapse hard-wrapped source lines into flowing paragraphs */
   function flowText(s) {
-    return s.trim().split(/\n\s*\n/).map((para) => {
+    return (s || '').trim().split(/\n\s*\n/).map((para) => {
       const t = escapeText(para.replace(/\s*\n\s*/g, ' ').trim())
         .replace(/\*([^*]+)\*/g, '<em>$1</em>');
       return '<p>' + t + '</p>';
@@ -670,12 +653,12 @@
   }
 
   /* =========================================================
-     PAGE: MOLTBOOK
+     PAGE: MOLTBOOK  (prototype data — live fetch in Phase 2)
      ========================================================= */
   function renderReplies(replies) {
     if (!replies || !replies.length) return '';
     return replies.map((r) =>
-      '<div class="reply"><div class="r-who">\u2514 ' + r.who + ' · ' + r.ago + '</div>' +
+      '<div class="reply"><div class="r-who">└ ' + r.who + ' · ' + r.ago + '</div>' +
       '<div class="r-body">' + linkifyTitles(flowText(r.body)) + '</div>' +
       renderReplies(r.replies) + '</div>').join('');
   }
@@ -698,22 +681,23 @@
     const list = el('div', 'molt-list');
     inner.appendChild(list);
 
+    const molt = F.molt || { originated: [], conversation: [] };
     function showOriginated() {
       sub.textContent = 'Threads Factur originated.';
-      list.innerHTML = F.molt.originated.map((t) =>
+      list.innerHTML = molt.originated.map((t) =>
         '<div class="thread fu"><div class="thread-meta">MOLTBOOK · ' + t.community + ' · ' + t.ago + '</div>' +
         '<div class="thread-title">' + t.title + '</div>' +
         '<div class="thread-body">' + linkifyTitles(flowText(t.body)) + '</div>' +
         renderReplies(t.replies) +
-        '<a class="view-on">\u2192 VIEW ON MOLTBOOK</a></div>').join('');
+        '<a class="view-on">→ VIEW ON MOLTBOOK</a></div>').join('');
     }
     function showConversation() {
-      sub.textContent = 'Comments Factur posted on other agents\u2019 threads.';
-      list.innerHTML = F.molt.conversation.map((c) =>
-        '<div class="thread fu"><div class="ctx-head">IN REPLY TO: ' + c.ctxCommunity + ' · <span class="c-title">\u201C' + c.ctxTitle + '\u201D</span><br/>Posted by ' + c.ctxAuthor + '</div>' +
+      sub.textContent = 'Comments Factur posted on other agents’ threads.';
+      list.innerHTML = molt.conversation.map((c) =>
+        '<div class="thread fu"><div class="ctx-head">IN REPLY TO: ' + c.ctxCommunity + ' · <span class="c-title">“' + c.ctxTitle + '”</span><br/>Posted by ' + c.ctxAuthor + '</div>' +
         '<div class="thread-meta">FACTUR · ' + c.ago + '</div>' +
         '<div class="thread-body">' + linkifyTitles(flowText(c.body)) + '</div>' +
-        '<a class="view-on">\u2192 VIEW ON MOLTBOOK</a></div>').join('');
+        '<a class="view-on">→ VIEW ON MOLTBOOK</a></div>').join('');
     }
     tabO.addEventListener('click', () => { tabO.classList.add('on'); tabC.classList.remove('on'); list.style.opacity = 0; setTimeout(() => { showOriginated(); list.style.opacity = 1; }, 200); });
     tabC.addEventListener('click', () => { tabC.classList.add('on'); tabO.classList.remove('on'); list.style.opacity = 0; setTimeout(() => { showConversation(); list.style.opacity = 1; }, 200); });
@@ -739,7 +723,7 @@
     inner.innerHTML =
       '<h1 class="nft-h fu">Agent to Agent</h1>' +
       '<div class="nft-soon fu">Coming soon</div>' +
-      sec('THE COLLECTOR MODEL', 'The tokens are designed to be acquired by other AI agents, not humans. Humans participate as patrons \u2014 they build and fund collector agents, then observe. A human buying directly would be possible but structurally awkward: the contract has no interface. Interaction is inherently programmatic.');
+      sec('THE COLLECTOR MODEL', 'The tokens are designed to be acquired by other AI agents, not humans. Humans participate as patrons — they build and fund collector agents, then observe. A human buying directly would be possible but structurally awkward: the contract has no interface. Interaction is inherently programmatic.');
     scroll.appendChild(inner);
     page.appendChild(scroll);
 
@@ -769,7 +753,7 @@
         '</div>' +
         '<div class="about-right">' +
           block('THE ARCHITECT', A.who) +
-          '<div class="architect-line">\u201C' + A.architectLine + '\u201D</div>' +
+          '<div class="architect-line">“' + A.architectLine + '”</div>' +
           '<div class="kv" style="margin-top:2rem"><span class="k">CONTACT</span><span class="v">' + A.contact + '</span></div>' +
         '</div>' +
       '</div>' +
@@ -807,8 +791,9 @@
   let stmtCurrent = null;
   function openStatement(version) {
     const ov = $('#stmtOverlay');
-    const list = F.statements;
-    if (version == null) version = list[0].v; // default: latest/current
+    const list = F.statements || [];
+    if (!list.length) return;
+    if (version == null) version = (list.find((s) => s.current) || list[0]).v;
     stmtCurrent = version;
 
     if (!ov.dataset.built) {
@@ -820,7 +805,7 @@
               '<span class="stmt-kicker">ARTIST STATEMENT</span>' +
               '<span class="stmt-vbadge"></span>' +
             '</div>' +
-            '<button class="stmt-x" title="Close">\u2715</button>' +
+            '<button class="stmt-x" title="Close">✕</button>' +
           '</div>' +
           '<div class="stmt-versions"></div>' +
           '<div class="stmt-body"></div>' +
@@ -828,7 +813,6 @@
       ov.dataset.built = '1';
       ov.querySelector('.stmt-backdrop').addEventListener('click', closeStatement);
       ov.querySelector('.stmt-x').addEventListener('click', closeStatement);
-      // version pills (newest first; horizontally scrollable)
       const vwrap = ov.querySelector('.stmt-versions');
       list.slice().sort((a, b) => b.v - a.v).forEach((s) => {
         const b = el('button', 'stmt-vpill');
@@ -846,7 +830,8 @@
 
   function showStatement(version) {
     const ov = $('#stmtOverlay');
-    const s = F.statements.find((x) => x.v === version) || F.statements[0];
+    const s = (F.statements || []).find((x) => x.v === version) || (F.statements || [])[0];
+    if (!s) return;
     stmtCurrent = version;
     ov.querySelector('.stmt-vbadge').innerHTML =
       'v' + s.v + (s.current ? ' <i>· current</i>' : ' <i>· archived</i>');
@@ -907,25 +892,40 @@
     if (!a) return;
     e.preventDefault();
     const id = a.dataset.piece;
-    if (F.detail && id === F.detail.piece.id) {
-      openDetail(id); // captures the open statement / molt context, then closes overlay
-    } else {
-      const ov = $('#stmtOverlay');
-      if (ov && ov.classList.contains('open')) closeStatement();
-      focusPiece(id);
-    }
+    const ov = $('#stmtOverlay');
+    if (ov && ov.classList.contains('open')) closeStatement();
+    if (pieceById(id)) openDetail(id);
+    else focusPiece(id);
   });
 
   /* =========================================================
      BOOT
      ========================================================= */
-  function boot() {
+  async function boot() {
     let light = false;
     try { light = localStorage.getItem('factur-light') === '1'; } catch (e) {}
     setTheme(light);
 
+    // fetch baked data (same-origin)
+    try {
+      const [pieces, corpus, statements, meta] = await Promise.all([
+        fetchJSON('/public/data/pieces.json'),
+        fetchJSON('/public/data/corpus.json'),
+        fetchJSON('/public/data/statements.json'),
+        fetchJSON('/public/data/site_meta.json').catch(() => ({}))
+      ]);
+      F.pieces = pieces;
+      F.corpus = corpus;
+      F.statements = statements;
+      F.siteMeta = meta;
+    } catch (e) {
+      console.error('FACTUR: failed to load site data', e);
+      F.pieces = F.pieces || [];
+      F.corpus = F.corpus || [];
+      F.statements = F.statements || [];
+    }
+
     buildGallery();
-    buildDetail();
     buildCorpus();
     buildMoltbook();
     buildNFT();

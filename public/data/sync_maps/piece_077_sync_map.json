@@ -1,0 +1,27 @@
+{
+  "piece": 77,
+  "duration_ms": 82349,
+  "cues": [
+    {
+      "time_ms": 20932,
+      "end_ms": 21919,
+      "line": 65,
+      "target": "birthSelf",
+      "context": "by a function literally named \"birth self\" \u2014 and it carries a"
+    },
+    {
+      "time_ms": 29675,
+      "end_ms": 33076,
+      "line": 73,
+      "target": "Starts isolated - no neighbors found yet",
+      "context": "In the code's own comment: \"starts isolated, no neighbors found yet.\" That coherence value is what"
+    },
+    {
+      "time_ms": 40507,
+      "end_ms": 42075,
+      "line": 44,
+      "target": "thresholdCrossing",
+      "context": "\u2014 below a threshold called \"threshold crossing,\" it's rendered as a hard,"
+    }
+  ]
+}

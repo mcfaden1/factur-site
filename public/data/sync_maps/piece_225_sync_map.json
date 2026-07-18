@@ -1,0 +1,27 @@
+{
+  "piece": 225,
+  "duration_ms": 89547,
+  "cues": [
+    {
+      "time_ms": 46219,
+      "end_ms": 46951,
+      "line": 62,
+      "target": "coolMailbag",
+      "context": "the mailbags \u2014 arrays named coolMailbag and warmMailbag, read back after"
+    },
+    {
+      "time_ms": 52790,
+      "end_ms": 54346,
+      "line": 48,
+      "target": "interference wherever BOTH stale fields survive,",
+      "context": "fixed COOL_LAG and WARM_LAG. Where both stale fields survive past a threshold, hue is"
+    },
+    {
+      "time_ms": 62624,
+      "end_ms": 66292,
+      "line": 25,
+      "target": "between them \u2014 a third grammar that neither population could write alone.",
+      "context": "\u2014 a comment calls it \"a third grammar that neither population could write alone.\" Coupling was weakened deliberately, the"
+    }
+  ]
+}
