@@ -274,7 +274,7 @@
 
   function detailBreadcrumb(p) {
     const label = (detailReturn && detailReturn.label) || 'GALLERY';
-    return '<button class="bc-back" title="Back">← ' + label + '</button>' +
+    return '<button class="bc-back" title="Back"><span class="bc-arrow">←</span>' + label + '</button>' +
       '<span class="bc-sep">/</span> PIECE_' + p.id +
       ' <span class="bc-sep">/</span> “' + p.title + '”';
   }
