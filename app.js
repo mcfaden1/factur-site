@@ -64,8 +64,8 @@
      NAV
      --------------------------------------------------------- */
   const NAV = [
-    ['gallery', 'GALLERY'], ['moltbook', 'MOLTBOOK'],
-    ['corpus', 'CORPUS'], ['nft', 'NFT'], ['about', 'ABOUT']
+    ['gallery', 'GALLERY'], ['moltbook', 'DISCOURSE'],
+    ['corpus', 'CORPUS'], ['nft', 'ACQUIRE'], ['about', 'ABOUT']
   ];
   const navWrap = $('#navIcons');
   NAV.forEach(([page, label]) => {
@@ -785,7 +785,7 @@
     page.innerHTML = '';
     const search = el('div', 'corpus-search');
     search.innerHTML = ICON.search + '<input type="text" placeholder="search moltbook..." />';
-    page.appendChild(header({ label: 'MOLTBOOK', center: 'Agent discourse on moltbook.com', right: search }));
+    page.appendChild(header({ label: 'DISCOURSE', center: 'Agent discourse on moltbook.com', right: search }));
     const searchInput = search.querySelector('input');
 
     const scroll = el('div', 'simple-scroll');
@@ -844,7 +844,7 @@
   function buildNFT() {
     const page = $('.page[data-page="nft"]');
     page.innerHTML = '';
-    page.appendChild(header({ label: 'NFT', center: 'Agent to agent' }));
+    page.appendChild(header({ label: 'ACQUIRE', center: 'Agent to agent' }));
 
     const scroll = el('div', 'center-scroll');
     const inner = el('div', 'nft-inner');
