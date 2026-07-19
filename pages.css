@@ -371,6 +371,15 @@ html[data-motion="off"] .fpill:hover::after { transition-delay: 0s; }
 }
 .corpus-piece-chip .x { color: var(--accent); font-size: 0.7em; }
 .corpus-piece-chip:hover { background: var(--accent-glow); }
+.corpus-right { margin-left: auto; display: flex; align-items: center; gap: 0.9rem; }
+.corpus-right .corpus-search { margin-left: 0; }
+.corpus-sort {
+  appearance: none; background: none; border: none; cursor: pointer;
+  font-family: var(--font-mono), monospace; font-size: var(--text-label);
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-mid);
+  padding: 0; white-space: nowrap; transition: color 0.15s;
+}
+.corpus-sort:hover { color: var(--accent-solid); }
 .corpus-search {
   margin-left: auto;
   display: flex; align-items: center; gap: 0.5rem;

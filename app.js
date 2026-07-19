@@ -655,6 +655,8 @@
     const bar = el('div', 'corpus-filterbar');
     bar.appendChild(el('span', 'cf-label', '// CORPUS'));
     let pieceFilter = null;
+    let sortAsc = false;
+    let originalOrder = [];
     const activeTypes = new Set();
     CORPUS_TYPES.forEach((t) => {
       const pill = el('button', 'fpill', t);
@@ -670,9 +672,18 @@
     chip.style.display = 'none';
     chip.addEventListener('click', () => { pieceFilter = null; updateChip(); applyFilters(); });
     bar.appendChild(chip);
+    const rightGroup = el('div', 'corpus-right');
+    const sortBtn = el('button', 'corpus-sort', 'NEWEST ↓');
+    sortBtn.addEventListener('click', () => {
+      sortAsc = !sortAsc;
+      sortBtn.textContent = sortAsc ? 'OLDEST ↑' : 'NEWEST ↓';
+      applySort();
+    });
+    rightGroup.appendChild(sortBtn);
     const search = el('div', 'corpus-search');
     search.innerHTML = ICON.search + '<input type="text" placeholder="search the corpus..." />';
-    bar.appendChild(search);
+    rightGroup.appendChild(search);
+    bar.appendChild(rightGroup);
     const input = search.querySelector('input');
     input.addEventListener('input', applyFilters);
     page.appendChild(bar);
@@ -698,6 +709,11 @@
     });
     stream.appendChild(inner);
     page.appendChild(stream);
+    originalOrder = Array.from(inner.children);
+    function applySort() {
+      const ord = sortAsc ? originalOrder.slice().reverse() : originalOrder;
+      ord.forEach((n) => inner.appendChild(n));
+    }
 
     function applyFilters() {
       const q = input.value.trim().toLowerCase();
