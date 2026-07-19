@@ -114,11 +114,12 @@ body {
 
 .syne { font-family: var(--font-display), sans-serif; }
 
-/* ---- scrollbars ---- */
+/* ---- scrollbars (orange thumb site-wide) ---- */
+html { scrollbar-color: var(--accent-solid) transparent; }
 ::-webkit-scrollbar { width: 8px; height: 8px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--hairline2); }
-::-webkit-scrollbar-thumb:hover { background: var(--ink-dim); }
+::-webkit-scrollbar-thumb { background: var(--accent-solid); }
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
 
 /* ============================================================
    APP SHELL
