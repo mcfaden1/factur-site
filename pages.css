@@ -183,6 +183,8 @@ table.code .ln {
 table.code .src { padding-right: var(--pad); white-space: pre; }
 table.code tr.hl-active { background: var(--accent-bg); }
 table.code tr.hl-active .ln { color: var(--accent); }
+/* the narrated line is the focus — lift its dim comment text so it stays legible on the highlight */
+table.code tr.hl-active .k-com { color: var(--ink); font-style: italic; }
 table.code tr.hl-fading { transition: background 1.5s ease-out; background: transparent; }
 table.code tr.hl-fading .ln { transition: color 1.5s ease-out; color: var(--ink-dim); }
 table.code tr.hl-visited .src { box-shadow: none; }
