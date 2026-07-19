@@ -185,6 +185,10 @@ table.code tr.hl-active { background: var(--accent-bg); }
 table.code tr.hl-active .ln { color: var(--accent); }
 /* the narrated line is the focus — lift its dim comment text so it stays legible on the highlight */
 table.code tr.hl-active .k-com { color: var(--ink); font-style: italic; }
+/* focus mode: dim non-narrated lines while the docent audio is playing */
+table.code tr { transition: opacity 0.35s ease; }
+table.code.playing-dim tr { opacity: 0.5; }
+table.code.playing-dim tr.hl-active { opacity: 1; }
 table.code tr.hl-fading { transition: background 1.5s ease-out; background: transparent; }
 table.code tr.hl-fading .ln { transition: color 1.5s ease-out; color: var(--ink-dim); }
 table.code tr.hl-visited .src { box-shadow: none; }

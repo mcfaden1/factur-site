@@ -537,13 +537,12 @@
       }
       renderProgress();
     });
-    audio.addEventListener('ended', () => { playBtn.innerHTML = ICON.play; });
+    audio.addEventListener('play', () => { playBtn.innerHTML = ICON.pause; refs.table.classList.add('playing-dim'); });
+    audio.addEventListener('pause', () => { playBtn.innerHTML = ICON.play; refs.table.classList.remove('playing-dim'); });
+    audio.addEventListener('ended', () => { playBtn.innerHTML = ICON.play; refs.table.classList.remove('playing-dim'); });
     audio.addEventListener('seeked', () => { applyAt(audio.currentTime * 1000); });
 
-    playBtn.addEventListener('click', () => {
-      if (audio.paused) { audio.play(); playBtn.innerHTML = ICON.pause; }
-      else { audio.pause(); playBtn.innerHTML = ICON.play; }
-    });
+    playBtn.addEventListener('click', () => { if (audio.paused) audio.play(); else audio.pause(); });
     let scrubbing = false;
     function seekToX(clientX) {
       const r = track.getBoundingClientRect();
