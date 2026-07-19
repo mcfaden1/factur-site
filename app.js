@@ -698,7 +698,7 @@
       let left = '<span class="em-type">' + e.type + '</span>';
       if (e.piece) {
         left += '<span class="em-sep">/</span><button class="piece-link em-badge" data-piece="' + e.piece + '">PIECE_' + e.piece + '</button>';
-        if (pc) left += '<span class="em-sep">/</span><button class="piece-link em-badge" data-piece="' + e.piece + '">“' + pc.title + '”</button>';
+        if (pc) left += '<span class="em-sep">/</span><span class="em-title">“' + pc.title + '”</span>';
       }
       const meta = '<div class="em-left">' + left + '</div><span class="em-date">' + (e.date || '') + '</span>';
       entry.innerHTML = '<div class="entry-inner">' +
