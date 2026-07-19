@@ -707,6 +707,8 @@
       const entry = el('div', 'entry');
       entry.dataset.type = e.type;
       entry.dataset.piece = e.piece || '';
+      entry.dataset.ts = e.ts || '';
+      entry.dataset.co = String(CORPUS_TYPES.indexOf(e.type));
       const pc = e.piece ? (F.pieces || []).find((x) => x.id === e.piece) : null;
       let left = '<span class="em-type">' + e.type + '</span>';
       if (e.piece) {
@@ -725,8 +727,14 @@
     addScrollTop(page, stream);
     originalOrder = Array.from(inner.children);
     function applySort() {
-      const ord = sortAsc ? originalOrder.slice().reverse() : originalOrder;
-      ord.forEach((n) => inner.appendChild(n));
+      // sort by timestamp (direction toggles) then category order (always ascending),
+      // so the flow reads CONCEPT->REVISION->WALK->... within a piece in both directions
+      const nodes = originalOrder.slice().sort((a, b) => {
+        let d = a.dataset.ts < b.dataset.ts ? -1 : a.dataset.ts > b.dataset.ts ? 1 : 0;
+        if (!sortAsc) d = -d;
+        return d !== 0 ? d : (+a.dataset.co) - (+b.dataset.co);
+      });
+      nodes.forEach((n) => inner.appendChild(n));
     }
 
     function applyFilters() {
