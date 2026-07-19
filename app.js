@@ -217,7 +217,7 @@
     const ov = $('#stmtOverlay');
     if (ov && ov.classList.contains('open')) {
       const b = ov.querySelector('.stmt-body');
-      return { type: 'statement', label: 'STATEMENT v' + stmtCurrent, version: stmtCurrent, scroll: b ? b.scrollTop : 0 };
+      return { type: 'statement', label: 'ARTIST STATEMENT', version: stmtCurrent, scroll: b ? b.scrollTop : 0 };
     }
     if (current === 'moltbook') {
       const s = document.querySelector('.page[data-page="moltbook"] .simple-scroll');
@@ -1063,10 +1063,13 @@
     if (!a) return;
     e.preventDefault();
     const id = a.dataset.piece;
-    const ov = $('#stmtOverlay');
-    if (ov && ov.classList.contains('open')) closeStatement();
-    if (pieceById(id)) openDetail(id);
-    else focusPiece(id);
+    if (pieceById(id)) {
+      openDetail(id); // captures the open statement as the return target, then closes it
+    } else {
+      const ov = $('#stmtOverlay');
+      if (ov && ov.classList.contains('open')) closeStatement();
+      focusPiece(id);
+    }
   });
 
   /* =========================================================
