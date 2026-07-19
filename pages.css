@@ -395,6 +395,23 @@ html[data-motion="off"] .fpill:hover::after { transition-delay: 0s; }
 .corpus-search input::placeholder { color: var(--ink-dim); }
 
 .corpus-stream { flex: 1 1 auto; min-height: 0; overflow-y: auto; }
+/* orange scroll handle on corpus + discourse */
+.corpus-stream, .simple-scroll { scrollbar-color: var(--accent-solid) transparent; }
+.corpus-stream::-webkit-scrollbar-thumb,
+.simple-scroll::-webkit-scrollbar-thumb { background: var(--accent-solid); }
+.corpus-stream::-webkit-scrollbar-thumb:hover,
+.simple-scroll::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+/* floating back-to-top button */
+.scroll-top {
+  position: fixed; bottom: 1.6rem; right: 1.6rem; z-index: 60;
+  width: 2.4rem; height: 2.4rem; display: flex; align-items: center; justify-content: center;
+  background: rgba(8,8,8,0.72); border: 1px solid var(--hairline2); color: var(--ink-mid);
+  cursor: pointer; opacity: 0; pointer-events: none; transform: translateY(6px);
+  transition: opacity 0.25s ease, transform 0.25s ease, color 0.15s, border-color 0.15s;
+}
+.scroll-top.show { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.scroll-top:hover { color: var(--accent-solid); border-color: var(--accent-solid); }
+.scroll-top svg { width: 15px; height: 15px; }
 .corpus-inner { max-width: 760px; margin: 0 auto; padding: 0 var(--pad); }
 .entry {
   border-top: 1px solid var(--hairline);

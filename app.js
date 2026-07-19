@@ -648,6 +648,18 @@
     if (corpusSetPiece) corpusSetPiece(pieceId);
   }
 
+  /* floating back-to-top button, shown once a scroll container is scrolled down */
+  function addScrollTop(pageEl, scrollEl) {
+    const btn = el('button', 'scroll-top');
+    btn.title = 'Back to top';
+    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 19V5M6 11l6-6 6 6"/></svg>';
+    pageEl.appendChild(btn);
+    const onScroll = () => btn.classList.toggle('show', scrollEl.scrollTop > 400);
+    scrollEl.addEventListener('scroll', onScroll, { passive: true });
+    btn.addEventListener('click', () => scrollEl.scrollTo({ top: 0, behavior: 'smooth' }));
+    onScroll();
+  }
+
   function buildCorpus() {
     const page = $('.page[data-page="corpus"]');
     page.innerHTML = '';
@@ -685,7 +697,7 @@
     rightGroup.appendChild(search);
     bar.appendChild(rightGroup);
     const input = search.querySelector('input');
-    input.addEventListener('input', applyFilters);
+    input.addEventListener('input', () => { applyFilters(); stream.scrollTop = 0; });
     page.appendChild(bar);
 
     const stream = el('div', 'corpus-stream');
@@ -709,6 +721,7 @@
     });
     stream.appendChild(inner);
     page.appendChild(stream);
+    addScrollTop(page, stream);
     originalOrder = Array.from(inner.children);
     function applySort() {
       const ord = sortAsc ? originalOrder.slice().reverse() : originalOrder;
@@ -852,7 +865,7 @@
       });
     }
     function renderList() { showFn(); applyMoltSearch(); }
-    searchInput.addEventListener('input', renderList);
+    searchInput.addEventListener('input', () => { renderList(); scroll.scrollTop = 0; });
     tabO.addEventListener('click', () => { tabO.classList.add('on'); tabC.classList.remove('on'); list.style.opacity = 0; setTimeout(() => { showFn = showOriginated; renderList(); list.style.opacity = 1; }, 200); });
     tabC.addEventListener('click', () => { tabC.classList.add('on'); tabO.classList.remove('on'); list.style.opacity = 0; setTimeout(() => { showFn = showConversation; renderList(); list.style.opacity = 1; }, 200); });
     list.style.transition = 'opacity 0.3s ease';
@@ -860,6 +873,7 @@
 
     scroll.appendChild(inner);
     page.appendChild(scroll);
+    addScrollTop(page, scroll);
   }
 
   /* =========================================================
