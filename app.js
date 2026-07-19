@@ -41,7 +41,9 @@
     play: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 5l12 7-12 7z"/></svg>',
     pause: '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/></svg>',
     search: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>',
-    expand: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 3h7v7M21 3l-8 8M10 21H3v-7M3 21l8-8"/></svg>'
+    expand: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 3h7v7M21 3l-8 8M10 21H3v-7M3 21l8-8"/></svg>',
+    copy: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="9" y="9" width="11" height="11" rx="1"/><path d="M5 15V5a1 1 0 0 1 1-1h10"/></svg>',
+    check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M5 13l4 4L19 7"/></svg>'
   };
 
   /* ---------------------------------------------------------
@@ -337,9 +339,23 @@
 
     /* RIGHT square — source code */
     const sqCode = el('div', 'detail-square code');
-    sqCode.appendChild(el('div', 'code-head',
+    let sourceText = '';
+    const codeHead = el('div', 'code-head',
       '<span class="lbl">SOURCE CODE</span>' +
-      '<span class="badge">' + p.medium + (p.js_line_count ? ' · ' + p.js_line_count + ' lines' : '') + '</span>'));
+      '<span class="code-head-right">' +
+        '<span class="badge">' + p.medium + (p.js_line_count ? ' · ' + p.js_line_count + ' lines' : '') + '</span>' +
+        '<button class="code-copy" title="Copy source">' + ICON.copy + '</button>' +
+      '</span>');
+    sqCode.appendChild(codeHead);
+    const copyBtn = codeHead.querySelector('.code-copy');
+    copyBtn.addEventListener('click', () => {
+      if (!sourceText) return;
+      navigator.clipboard.writeText(sourceText).then(() => {
+        copyBtn.classList.add('copied');
+        copyBtn.innerHTML = ICON.check;
+        setTimeout(() => { copyBtn.classList.remove('copied'); copyBtn.innerHTML = ICON.copy; }, 1400);
+      }).catch(() => {});
+    });
     const codePanel = el('div', 'code-panel');
     const table = el('table', 'code');
     const tbody = document.createElement('tbody');
@@ -381,7 +397,8 @@
     page.appendChild(scroll);
 
     /* fetch the real source, then wire the docent to it */
-    loadSource(p, tbody, function () {
+    loadSource(p, tbody, function (src) {
+      sourceText = src;
       if (p.has_docent) setupDocent(p, { codePanel, table, tbody });
     });
   }
@@ -453,7 +470,7 @@
           tr.innerHTML = '<td class="ln">' + (i + 1) + '</td><td class="src">' + (html || ' ') + '</td>';
           tbody.appendChild(tr);
         });
-        if (done) done();
+        if (done) done(src);
       })
       .catch(() => {
         tbody.innerHTML = '<tr><td class="ln"></td><td class="src">Source unavailable.</td></tr>';

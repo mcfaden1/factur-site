@@ -196,6 +196,13 @@ html.light .cell .overlay {
   font-size: var(--text-tiny); letter-spacing: 0.06em; color: var(--ink-mid);
   border: 1px solid var(--hairline); padding: 0.2rem 0.5rem;
 }
+.code-head-right { display: flex; align-items: center; gap: 0.6rem; }
+.code-copy {
+  appearance: none; background: transparent; border: none; padding: 0; cursor: pointer;
+  color: var(--ink-mid); display: flex; align-items: center; transition: color 0.15s;
+}
+.code-copy:hover, .code-copy.copied { color: var(--accent-solid); }
+.code-copy svg { width: 15px; height: 15px; }
 .code-panel { flex: 1 1 auto; min-height: 0; overflow-y: auto; padding: 0.8rem 0; }
 table.code { border-collapse: collapse; width: 100%; font-size: var(--text-code); line-height: 1.7; }
 table.code td { padding: 0 0; vertical-align: top; }
