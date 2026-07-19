@@ -40,7 +40,8 @@
     moon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20 14a8 8 0 1 1-9-11 6.5 6.5 0 0 0 9 11z"/></svg>',
     play: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 5l12 7-12 7z"/></svg>',
     pause: '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/></svg>',
-    search: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>'
+    search: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>',
+    expand: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 3h7v7M21 3l-8 8M10 21H3v-7M3 21l8-8"/></svg>'
   };
 
   /* ---------------------------------------------------------
@@ -317,6 +318,11 @@
     frame.setAttribute('loading', 'lazy');
     frame.setAttribute('title', p.title);
     sqArt.appendChild(frame);
+    const expandBtn = el('button', 'art-expand');
+    expandBtn.innerHTML = ICON.expand;
+    expandBtn.title = 'Fullscreen';
+    expandBtn.addEventListener('click', () => openLightbox(p));
+    sqArt.appendChild(expandBtn);
     stage.appendChild(sqArt);
 
     // scale the fixed-size (1080x1080) artwork to fit its responsive square
@@ -390,6 +396,47 @@
       const btn = btns[dir < 0 ? 0 : 1];
       if (btn) { btn.classList.add('pressed'); setTimeout(() => btn.classList.remove('pressed'), 220); }
     }
+  }
+
+  /* fullscreen lightbox — the artwork alone on black, centered, up to 1080px,
+     with a margin all around; CLOSE top-right; click-outside / Escape to exit */
+  function openLightbox(p) {
+    const ov = el('div', 'lightbox');
+    const close = el('button', 'lightbox-close', 'CLOSE');
+    const stage = el('div', 'lightbox-stage');
+    const frame = el('iframe');
+    frame.setAttribute('src', asset(p.num, 'piece.html'));
+    frame.setAttribute('sandbox', 'allow-scripts');
+    frame.setAttribute('scrolling', 'no');
+    frame.setAttribute('title', p.title);
+    stage.appendChild(frame);
+    ov.appendChild(close);
+    ov.appendChild(stage);
+    document.body.appendChild(ov);
+
+    function fit() {
+      const size = Math.min(PIECE_NATIVE, Math.floor(Math.min(window.innerWidth, window.innerHeight) * 0.86));
+      stage.style.width = size + 'px';
+      stage.style.height = size + 'px';
+      frame.style.transform = 'scale(' + (size / PIECE_NATIVE) + ')';
+      // sit CLOSE just above the piece, aligned to its right edge
+      const mx = Math.round((window.innerWidth - size) / 2);
+      const my = Math.round((window.innerHeight - size) / 2);
+      close.style.right = mx + 'px';
+      close.style.top = Math.max(8, my - 26) + 'px';
+    }
+    fit();
+    window.addEventListener('resize', fit);
+
+    function done() {
+      window.removeEventListener('resize', fit);
+      document.removeEventListener('keydown', onKey, true);
+      ov.remove();
+    }
+    function onKey(e) { if (e.key === 'Escape') { e.stopPropagation(); done(); } }
+    document.addEventListener('keydown', onKey, true);
+    close.addEventListener('click', (e) => { e.stopPropagation(); done(); });
+    ov.addEventListener('click', (e) => { if (e.target === ov) done(); });
   }
 
   function loadSource(p, tbody, done) {

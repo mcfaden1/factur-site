@@ -82,6 +82,30 @@ html.light .cell .overlay {
 }
 .detail-square.code { display: flex; flex-direction: column; background: var(--bg); }
 .detail-square.art canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+/* hover-reveal fullscreen expand button */
+.detail-square.art .art-expand {
+  position: absolute; top: 0.7rem; right: 0.7rem; z-index: 5;
+  width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center;
+  background: rgba(8,8,8,0.55); border: 1px solid var(--hairline2); color: var(--ink);
+  cursor: pointer; opacity: 0; transition: opacity 0.2s ease, color 0.15s, border-color 0.15s;
+}
+.detail-square.art:hover .art-expand { opacity: 1; }
+.detail-square.art .art-expand:hover { color: var(--accent-solid); border-color: var(--accent-solid); }
+.detail-square.art .art-expand svg { width: 15px; height: 15px; }
+/* fullscreen lightbox */
+.lightbox {
+  position: fixed; inset: 0; z-index: 1000; background: #000;
+  display: flex; align-items: center; justify-content: center; overflow: hidden;
+}
+.lightbox-stage { position: relative; overflow: hidden; }
+.lightbox iframe { position: absolute; top: 0; left: 0; width: 1080px; height: 1080px; border: 0; display: block; transform-origin: top left; }
+.lightbox-close {
+  position: absolute; z-index: 2; appearance: none; background: none; border: none; cursor: pointer;
+  font-family: var(--font-mono), monospace; font-size: var(--text-label);
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-dim);
+  padding: 0.3rem; transition: color 0.15s;
+}
+.lightbox-close:hover { color: var(--accent-solid); }
 /* pieces render at a fixed 1080x1080; render the iframe at native size and
    scale it to fit the square (factor set in JS — fitArtFrame) */
 .detail-square.art iframe { position: absolute; top: 0; left: 0; width: 1080px; height: 1080px; border: 0; display: block; transform-origin: top left; }
