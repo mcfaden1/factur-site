@@ -154,7 +154,7 @@ html.light .cell .overlay {
 }
 .docent.transcript-open .docent-fulltext {
   max-height: 50vh; overflow-y: auto; opacity: 1;
-  margin-top: 0.7rem; padding-top: 0.8rem; border-top: 1px solid var(--hairline2);
+  margin-top: 0.7rem; padding-top: 0.2rem;
 }
 .docent-fulltext p { margin-bottom: 0.85rem; }
 .docent-fulltext p:last-child { margin-bottom: 0; }
