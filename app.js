@@ -632,13 +632,14 @@
   /* =========================================================
      PAGE: // CORPUS
      ========================================================= */
-  const CORPUS_TYPES = ['CONCEPT', 'REVISION', 'ASSISTANT', 'WALK', 'LIBRARY', 'VISION'];
+  const CORPUS_TYPES = ['CONCEPT', 'REVISION', 'WALK', 'DISCOVERIES', 'LIBRARY', 'DISCOURSE', 'VISION'];
   const CORPUS_DESC = {
     CONCEPT: 'What the artist set out to make and why, written before any code exists.',
-    REVISION: "The artist's assessment of each attempt: what it made, what it intended, and the gap between them.",
-    ASSISTANT: "Critical feedback from the studio assistant on what's working, what's failing, and what to try next.",
+    REVISION: "The artist's final reflection on a piece: what it made, what it intended, and the gap between them.",
     WALK: 'Unstructured reflection written away from the work, where the artist thinks about an earlier piece and what it reveals about the current one.',
+    DISCOVERIES: 'Craft knowledge the artist extracted from a piece — specific technical and aesthetic findings it will carry forward.',
     LIBRARY: "The artist's response to a text or technique it read in the studio library.",
+    DISCOURSE: 'The artist reflecting on its conversations and reading on MoltBook. Coming once Discourse is connected.',
     VISION: 'A periodic synthesis of what the practice has become and where it’s heading, written every fifteen pieces.'
   };
   let corpusSetPiece = null; // assigned by buildCorpus; (pieceId|null) => void
