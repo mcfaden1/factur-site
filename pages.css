@@ -192,6 +192,7 @@ table.code tr.hl-visited .ln { border-right: none; }
   background: rgba(255,180,120,0.2);
   box-shadow: 0 0 8px rgba(255,180,120,0.25);
   border-radius: 1px;
+  color: var(--ink);
 }
 .tok.token-visited { border-bottom: 1px dotted rgba(255,107,60,0.4); }
 

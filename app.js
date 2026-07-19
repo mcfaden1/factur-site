@@ -470,6 +470,12 @@
     let lastFired = -1;
 
     const rowByLine = (ln) => refs.tbody.querySelector('tr[data-line="' + ln + '"]');
+    let lastScrollAt = 0;
+    function rowVisible(row) {
+      const pr = refs.codePanel.getBoundingClientRect();
+      const rr = row.getBoundingClientRect();
+      return rr.top >= pr.top + 12 && rr.bottom <= pr.bottom - 12;
+    }
 
     function clearHL() {
       refs.tbody.querySelectorAll('tr').forEach((r) =>
@@ -488,8 +494,14 @@
       if (row) {
         row.classList.remove('hl-visited', 'hl-fading');
         row.classList.add('hl-active');
-        const top = row.offsetTop - refs.codePanel.clientHeight / 2 + 12;
-        refs.codePanel.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+        // only scroll when the target is off-screen, and rate-limit so rapid
+        // back-to-back cues (distant lines within ~2s) don't make the panel yo-yo
+        const now = performance.now();
+        if (!rowVisible(row) && now - lastScrollAt > 1300) {
+          const top = row.offsetTop - refs.codePanel.clientHeight / 2 + 12;
+          refs.codePanel.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+          lastScrollAt = now;
+        }
         if (cue.target) {
           const tok = Array.from(row.querySelectorAll('span.tok'))
             .find((s) => s.textContent.includes(cue.target));
@@ -502,6 +514,7 @@
     function applyAt(ms) {
       clearHL();
       lastFired = -1;
+      lastScrollAt = 0;
       let idx = -1;
       cues.forEach((c, i) => { if (c.time_ms <= ms) idx = i; });
       for (let i = 0; i < idx; i++) if (cues[i]._row) cues[i]._row.classList.add('hl-visited');
