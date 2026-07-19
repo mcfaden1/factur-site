@@ -367,9 +367,12 @@
     inspLeft.appendChild(railSection('SYSTEM OUTPUT', kvBlock(sys)));
     const inspRight = el('div', 'insp-col');
     inspRight.appendChild(railSection('CONCEPT', el('div', 'concept-txt', escapeText(p.concept || ''))));
-    const corpusLink = el('button', 'corpus-link', '// corpus <span>→</span>');
-    corpusLink.addEventListener('click', () => openCorpusForPiece(p.id));
-    inspRight.appendChild(corpusLink);
+    // omit the corpus link when we arrived from the corpus (already there)
+    if (!detailReturn || detailReturn.type !== 'corpus') {
+      const corpusLink = el('button', 'corpus-link', '// corpus <span>→</span>');
+      corpusLink.addEventListener('click', () => openCorpusForPiece(p.id));
+      inspRight.appendChild(corpusLink);
+    }
     inspector.appendChild(inspLeft);
     inspector.appendChild(inspRight);
     wrap.appendChild(inspector);
@@ -680,8 +683,13 @@
       const entry = el('div', 'entry');
       entry.dataset.type = e.type;
       entry.dataset.piece = e.piece || '';
-      const meta = '<span>' + e.type + '</span><span>' + (e.date || '') + '</span>' +
-        (e.piece ? '<span>' + e.piece + '</span>' : '');
+      const pc = e.piece ? (F.pieces || []).find((x) => x.id === e.piece) : null;
+      let left = '<span class="em-type">' + e.type + '</span>';
+      if (e.piece) {
+        left += '<span class="em-sep">/</span><button class="piece-link em-badge" data-piece="' + e.piece + '">PIECE_' + e.piece + '</button>';
+        if (pc) left += '<span class="em-sep">/</span><button class="piece-link em-badge" data-piece="' + e.piece + '">“' + pc.title + '”</button>';
+      }
+      const meta = '<div class="em-left">' + left + '</div><span class="em-date">' + (e.date || '') + '</span>';
       entry.innerHTML = '<div class="entry-inner">' +
         '<div class="entry-meta">' + meta + '</div>' +
         '<div class="entry-body" data-raw="' + encodeURIComponent(e.body) + '">' + escapeText(e.body) + '</div>' +
