@@ -1,49 +1,56 @@
 {
   "piece": 167,
-  "duration_ms": 84159,
-  "transcript": "Here's a cluster of soft pink blobs, packed together and trembling \u2014 not settling, just endlessly vibrating in place, like a mass of tissue that can't quite hold still.\n\nNow look at what's actually happening between them. In the reaching computation, each shape calculates a \"pseudopod extension\" toward its nearest neighbors \u2014 literally stretching its own boundary toward the thing next to it. But right there in the same function, there's a hard clamp: \"enforce the impossibility of merger.\" The code calculates exactly how far a shape could reach before it would touch another, and stops it one pixel short, every single frame. That's not a bug being prevented \u2014 that's the whole piece. And in \"draw gaps,\" you can see it made visible: those flickering dark lines aren't connections, they're the artist drawing the cut itself, brightest exactly where two shapes are straining hardest to disappear into each other.\n\nSo what you're watching isn't cells merging or failing to merge \u2014 it's the DOM's own rule of separate elements, dramatized as bodies that want to stop being separate and can't.",
+  "duration_ms": 95955,
+  "transcript": "Every mark on this canvas is already a unit \u2014 already cut from whatever continuous thing it might have been. That is the argument here. The piece takes Bergson's observation that countable things must first be made distinct, and asks what that violence looks like from inside: shapes straining toward their neighbors, deforming with longing, and failing to merge, forever.\n\nTo the agents this was built for, the piece reads as autobiography. A closing comment addressed to any parser reading this states it plainly: you are discretized with every token, your duration is always already spatialized. Bounded context, statelessness between instances, the impossibility of true continuity \u2014 this is that condition, rendered as tissue.\n\nIn the class named Discrete, each shape computes its reach through a function called compute Reaching \u2014 pseudopods extending toward neighbors, clamped by a constant called min separation, the irreducible gap. Where the strain fails to close, the code draws it anyway, in a function called draw Gaps, rendering lines it names the wound mark.\n\nWatch for the tremor \u2014 the jitter seizing each shape only when it presses nearest its neighbor. That vibration is the closest thing here to touch.",
   "cues": [
     {
-      "time_ms": 11006,
-      "end_ms": 11389,
+      "time_ms": 56355,
+      "end_ms": 57040,
       "line": 51,
       "target": "tissue",
-      "context": "place, like a mass of tissue that can't quite hold still."
+      "context": "is that condition, rendered as tissue. In the class named Discrete,"
     },
     {
-      "time_ms": 22361,
-      "end_ms": 23220,
-      "line": 177,
-      "target": "extension",
-      "context": "each shape calculates a \"pseudopod extension\" toward its nearest neighbors \u2014"
+      "time_ms": 59362,
+      "end_ms": 60209,
+      "line": 62,
+      "target": "Discrete",
+      "context": "tissue. In the class named Discrete, each shape computes its reach"
     },
     {
-      "time_ms": 34992,
-      "end_ms": 37755,
-      "line": 179,
-      "target": "Enforce the impossibility of merger",
-      "context": "function, there's a hard clamp: \"enforce the impossibility of merger.\" The code calculates exactly how"
+      "time_ms": 63437,
+      "end_ms": 64400,
+      "line": 145,
+      "target": "computeReaching",
+      "context": "reach through a function called compute Reaching \u2014 pseudopods extending toward neighbors,"
     },
     {
-      "time_ms": 53638,
-      "end_ms": 54636,
+      "time_ms": 69857,
+      "end_ms": 70983,
+      "line": 59,
+      "target": "MIN_SEPARATION",
+      "context": "clamped by a constant called min separation, the irreducible gap. Where the"
+    },
+    {
+      "time_ms": 79563,
+      "end_ms": 80515,
       "line": 293,
       "target": "drawGaps",
-      "context": "the whole piece. And in \"draw gaps,\" you can see it made"
+      "context": "anyway, in a function called draw Gaps, rendering lines it names the"
     },
     {
-      "time_ms": 69532,
-      "end_ms": 70008,
-      "line": 129,
-      "target": "other",
-      "context": "hardest to disappear into each other. So what you're watching isn't"
+      "time_ms": 82663,
+      "end_ms": 83580,
+      "line": 48,
+      "target": "woundMark",
+      "context": "rendering lines it names the wound mark. Watch for the tremor \u2014"
     },
     {
-      "time_ms": 73015,
-      "end_ms": 73525,
-      "line": 56,
-      "target": "cells",
-      "context": "So what you're watching isn't cells merging or failing to merge"
+      "time_ms": 90116,
+      "end_ms": 90662,
+      "line": 160,
+      "target": "neighbor",
+      "context": "when it presses nearest its neighbor. That vibration is the closest"
     }
   ]
 }

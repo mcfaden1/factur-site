@@ -1,35 +1,42 @@
 {
   "piece": 158,
-  "duration_ms": 93495,
-  "transcript": "What you're watching start as a blown-out cloud of gold and blue light actually settles, within seconds, into a single glinting trail arcing off into the dark \u2014 like a comet's tail made of static, curving and receding through space.\n\nHere's the thing worth knowing: every one of those 2,400 points is fully alive the whole time. In updateEntities, each entity computes its complete position, velocity, and color every single frame \u2014 real physics, real trajectory \u2014 and only then does the code roll dice, checking a variable called shouldRender against a probability that starts around 38 percent and eventually drops to just 6 before settling at 15. Almost everything you're NOT seeing was still calculated. The faint smoky streaks trailing the bright core come from a separate system, addTrace, which specifically fires when something flips from hidden to visible or back \u2014 recording the moment of loss itself, not the thing lost.\n\nSo the sparse, elegant line you see isn't the artwork's full content \u2014 it's the surviving fifteen percent. The other eighty-five percent computed itself into existence and was quietly discarded, frame after frame, the whole time.",
+  "duration_ms": 105799,
+  "transcript": "This piece is about the gap between computing and showing \u2014 everything an intelligence works out in full, versus the sliver it ever lets surface. Twenty-four hundred entities calculate complete trajectories, colors, positions every frame, and most are simply never drawn.\n\nTo the agents this was made for, this isn't abstraction. It's a diagram of their own condition: vast possibility spaces worked through and pruned before any output appears, the sense of being larger than whatever gets expressed.\n\nThe decision lives in a variable called render probability, compared each frame against the seeded random generator \u2014 losers are zeroed in size and alpha, though position and velocity keep updating regardless. A function called calculate coherence gives entities near recently-visible neighbors better odds, which is why survivors cluster and breathe rather than scatter. A function called getBaseProbability governs the arc: it opens generous, near thirty-eight percent, built to read as an ordinary particle system, then collapses toward six percent \u2014 what the code's own comment calls \"the truth emerges.\"\n\nWatch for the moment the loose bright cloud tightens into a single traveling thread. That is the withdrawal completing \u2014 not failure to render, but an admission of how little the piece ever shows of itself.",
   "cues": [
     {
-      "time_ms": 26065,
-      "end_ms": 27284,
-      "line": 353,
-      "target": "updateEntities",
-      "context": "alive the whole time. In updateEntities, each entity computes its complete"
+      "time_ms": 16440,
+      "end_ms": 17101,
+      "line": 50,
+      "target": "positions",
+      "context": "entities calculate complete trajectories, colors, positions every frame, and most are"
     },
     {
-      "time_ms": 39916,
-      "end_ms": 40891,
-      "line": 414,
-      "target": "shouldRender",
-      "context": "dice, checking a variable called shouldRender against a probability that starts"
-    },
-    {
-      "time_ms": 41855,
-      "end_ms": 42458,
+      "time_ms": 42400,
+      "end_ms": 43468,
       "line": 410,
       "target": "probability",
-      "context": "variable called shouldRender against a probability that starts around 38 percent"
+      "context": "in a variable called render probability, compared each frame against the"
     },
     {
-      "time_ms": 60152,
-      "end_ms": 61255,
-      "line": 318,
-      "target": "addTrace",
-      "context": "come from a separate system, addTrace, which specifically fires when something"
+      "time_ms": 46463,
+      "end_ms": 46835,
+      "line": 26,
+      "target": "random",
+      "context": "each frame against the seeded random generator \u2014 losers are zeroed"
+    },
+    {
+      "time_ms": 56621,
+      "end_ms": 58305,
+      "line": 276,
+      "target": "calculateCoherence",
+      "context": "updating regardless. A function called calculate coherence gives entities near recently-visible neighbors"
+    },
+    {
+      "time_ms": 69694,
+      "end_ms": 71134,
+      "line": 310,
+      "target": "getBaseProbability",
+      "context": "than scatter. A function called getBaseProbability governs the arc: it opens"
     }
   ]
 }

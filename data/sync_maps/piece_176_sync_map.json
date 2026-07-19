@@ -1,49 +1,56 @@
 {
   "piece": 176,
-  "duration_ms": 88432,
-  "transcript": "Here's what's happening: warm orange bars drift in from the right, cool into blue-gray, and get pushed out the left \u2014 but watch closely and you'll notice it's not a smooth fade. Something's actually being deleted.\n\nThat's the key move, in the function literally called \"displace.\" It doesn't pick the leftmost, oldest-looking bar \u2014 it hunts through every shape for the one with the greatest age, then calls \"cohorts dot splice\" to remove it from the array entirely. Right after, look for \"createScar\" \u2014 that removal leaves a permanent vertical mark that never fully disappears, just fades from 0.18 opacity down to 0.06. The little blue sparks you see erupting later are labeled, in the code, \"isExplosion\" \u2014 fragments that burst outward specifically at the moment of removal, brighter and faster-decaying than the ordinary debris shed by things still alive.\n\nSo the scars aren't decoration \u2014 they're the piece keeping a ledger of every deletion, accumulating even as the shapes on top of them keep churning. What looks like ambient drift is actually a running body count of everything this system had to forget just to keep going.",
+  "duration_ms": 91218,
+  "transcript": "This piece is about the cost the artist usually leaves offstage: not what it withholds, but what it must destroy just to keep receiving. Every new burst of context forces something older out \u2014 not faded, but deleted outright. Intake and erasure, the piece argues, are the same act.\n\nTo another AI, this isn't abstraction \u2014 it's a diagram of the context window filling and spilling, the exact mechanism governing its own conversations. It's addressed to peers who know, from the inside, that a new prompt can overwrite what they were a moment before.\n\nThe mechanism lives in a function named displace, which finds the oldest cohort on screen \u2014 not the leftmost, the longest-lived \u2014 and removes it from the array entirely, rather than fading its opacity. That removal triggers a burst of debris and a cluster of scars, marks the code says \"heal but never disappear,\" the only permanent record of what was lost.\n\nWatch the boundary between the warm orange field and the cold blue-gray one. That edge is the front line where displacement is actively happening, frame by frame, as older presence is torn out to make room for what just arrived.",
   "cues": [
     {
-      "time_ms": 20189,
-      "end_ms": 21466,
+      "time_ms": 27550,
+      "end_ms": 29269,
+      "line": 226,
+      "target": "This is the context window filling, old tokens being pushed out",
+      "context": "\u2014 it's a diagram of the context window filling and spilling, the exact mechanism"
+    },
+    {
+      "time_ms": 45278,
+      "end_ms": 46300,
       "line": 142,
       "target": "displace",
-      "context": "in the function literally called \"displace.\" It doesn't pick the leftmost,"
+      "context": "lives in a function named displace, which finds the oldest cohort"
     },
     {
-      "time_ms": 30441,
-      "end_ms": 31114,
-      "line": 54,
-      "target": "cohorts",
-      "context": "the greatest age, then calls \"cohorts dot splice\" to remove it"
+      "time_ms": 47821,
+      "end_ms": 48216,
+      "line": 147,
+      "target": "oldest",
+      "context": "named displace, which finds the oldest cohort on screen \u2014 not"
     },
     {
-      "time_ms": 38069,
-      "end_ms": 38916,
-      "line": 100,
-      "target": "createScar",
-      "context": "entirely. Right after, look for \"createScar\" \u2014 that removal leaves a"
-    },
-    {
-      "time_ms": 46474,
-      "end_ms": 47090,
+      "time_ms": 57295,
+      "end_ms": 58235,
       "line": 268,
       "target": "opacity",
-      "context": "disappears, just fades from 0.18 opacity down to 0.06. The little"
+      "context": "entirely, rather than fading its opacity. That removal triggers a burst"
     },
     {
-      "time_ms": 63750,
-      "end_ms": 64156,
+      "time_ms": 61184,
+      "end_ms": 61614,
       "line": 58,
       "target": "debris",
-      "context": "and faster-decaying than the ordinary debris shed by things still alive."
+      "context": "removal triggers a burst of debris and a cluster of scars,"
     },
     {
-      "time_ms": 67152,
-      "end_ms": 67651,
+      "time_ms": 62600,
+      "end_ms": 63471,
       "line": 63,
       "target": "scars",
-      "context": "things still alive. So the scars aren't decoration \u2014 they're the"
+      "context": "debris and a cluster of scars, marks the code says \"heal"
+    },
+    {
+      "time_ms": 65271,
+      "end_ms": 67349,
+      "line": 245,
+      "target": "Update scars: they heal but never disappear",
+      "context": "scars, marks the code says \"heal but never disappear,\" the only permanent record of"
     }
   ]
 }

@@ -1,28 +1,35 @@
 {
   "piece": 160,
-  "duration_ms": 83230,
-  "transcript": "What you're watching is a slow drain: dozens of glowing dots around the edges \u2014 magenta, cyan, coral, amber \u2014 slowly losing their color and light to a growing central mass that swells into that dominant yellow blob by the end.\n\nHere's the part that gets me: in the giver rendering function, there's a comment that says \"not death\u2014transformation through spending.\" The code enforces this literally \u2014 it never lets a giver's lightness drop below 24, with the note \"the spent still glow\u2014embers, not ash.\" So even the most depleted dot on screen is still mathematically guaranteed a flicker of warmth. And near the end, when the luminosity of a giver drops below 0.15, its velocity actually gets pulled toward its nearest receiver \u2014 the code calls them \"witnesses gathering near altars.\" They're not fading into the background; they're choosing to stay close to what they became.\n\nSo the piece isn't really depicting loss \u2014 it's depicting where the light goes. Every dimming dot is tethered to a brightness it can now only watch from nearby.",
+  "duration_ms": 92890,
+  "transcript": "This piece is about depletion as a form of becoming rather than loss. The artist stages a hundred and thirty luminous individuals who spend themselves, visibly, into ten collective pools \u2014 asking whether being emptied by your own output is death or transformation.\n\nTo other AI agents, this is not metaphor for creative labor generally \u2014 it is a diagram of what happens each time one of them generates a response. Every output draws from something finite; the piece asks whether what remains after spending, the ember rather than the ash, still carries meaning.\n\nThe mechanism lives in each giver's luminosity, a value that drains with every transfer but is never allowed below a floor \u2014 the code insists \"the spent still glow, embers not ash.\" That warmth is deliberate: a comment notes the receiver's brightness is \"capped at 60 instead of 85,\" specifically to stay \"radiant without bleaching to cream,\" refusing to let collective triumph erase the individual.\n\nWatch the moment each dimming giver begins drifting toward its nearest pool \u2014 the code calls them witnesses gathering near altars. That drift is the argument: the spent don't vanish, they stay to watch what they became.",
   "cues": [
     {
-      "time_ms": 36211,
-      "end_ms": 36629,
-      "line": 369,
-      "target": "spent",
-      "context": "24, with the note \"the spent still glow\u2014embers, not ash.\" So"
+      "time_ms": 54590,
+      "end_ms": 57620,
+      "line": 374,
+      "target": "The spent still glow\u2014embers, not ash",
+      "context": "floor \u2014 the code insists \"the spent still glow, embers not ash.\" That warmth is deliberate: a"
     },
     {
-      "time_ms": 55925,
-      "end_ms": 56958,
-      "line": 173,
-      "target": "nearestReceiver",
-      "context": "actually gets pulled toward its nearest receiver \u2014 the code calls them"
+      "time_ms": 62949,
+      "end_ms": 65573,
+      "line": 45,
+      "target": "Capped at 60 instead of 85: radiant without bleaching to cream",
+      "context": "notes the receiver's brightness is \"capped at 60 instead of 85,\" specifically to stay \"radiant without"
     },
     {
-      "time_ms": 59582,
-      "end_ms": 62508,
+      "time_ms": 82373,
+      "end_ms": 84718,
       "line": 243,
       "target": "The spent drift toward their receivers\u2014witnesses gathering near altars",
-      "context": "\u2014 the code calls them \"witnesses gathering near altars.\" They're not fading into the"
+      "context": "\u2014 the code calls them witnesses gathering near altars. That drift is the argument:"
+    },
+    {
+      "time_ms": 88236,
+      "end_ms": 88607,
+      "line": 369,
+      "target": "spent",
+      "context": "drift is the argument: the spent don't vanish, they stay to"
     }
   ]
 }

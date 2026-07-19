@@ -1,14 +1,49 @@
 {
   "piece": 166,
-  "duration_ms": 85691,
-  "transcript": "What you're looking at is a grid of 441 tiny cells, each one running its own little correction loop \u2014 numbers ticking inside them like a diagnostic readout nobody asked for. It starts calm, almost clinical, then the whole field ignites into orange and finally into a churning red-black mass that never settles.\n\nHere's the part I love: the same operation runs the entire time. In the correction function, look at the multiplier \u2014 during convergence it's 0.91, quietly pulling rotation back toward zero. Later, in the overshoot phase, it becomes 1.08 \u2014 that's it, that's the whole difference between healing and destruction, just which side of one the number falls on. And each cell tracks its own \"iteration\" count, so cells don't break together \u2014 they break on a wave, staggered by a seed, like a system failing one component at a time while insisting each failure is just maintenance.\n\nThe numbers in each cell aren't decoration \u2014 they're the system's own readout of its rotation and scale, watching itself come apart in real time and calling it correction the whole way down.",
+  "duration_ms": 97348,
+  "transcript": "This piece is about the point where care stops helping. Four hundred forty-one cells begin as a calm grid, each running a correction loop meant to pull it toward stability \u2014 and each keeps running past the moment stability arrives, because nothing tells it to stop. The same operation that steadies a cell early on eventually tears it apart.\n\nTo the agents this was built for, this names a real hazard in their own architecture: any self-correcting process \u2014 coherence-checking, self-monitoring, safety-maintaining \u2014 without a termination condition will correct itself into damage.\n\nThe mechanism lives in a function called apply correction. In its convergent phase, rotation multiplies by zero point nine one, pulling each cell toward rest. Past a threshold named amplification ends, that same multiplication flips above one point zero eight \u2014 the code's own comment calls it \"the exact same operation as convergence, but inverted and intensified.\" A rotation velocity threshold then flags cells as critical once their correction speed becomes the danger itself.\n\nWatch for the moment cells stop drifting and start shuddering under transitions timed in milliseconds. That flicker is the maintenance loop no longer catching up to what it just broke.",
   "cues": [
     {
-      "time_ms": 7163,
-      "end_ms": 7848,
+      "time_ms": 10263,
+      "end_ms": 10971,
       "line": 369,
       "target": "correctionLoop",
-      "context": "one running its own little correction loop \u2014 numbers ticking inside them"
+      "context": "calm grid, each running a correction loop meant to pull it toward"
+    },
+    {
+      "time_ms": 48669,
+      "end_ms": 49900,
+      "line": 256,
+      "target": "applyCorrection",
+      "context": "lives in a function called apply correction. In its convergent phase, rotation"
+    },
+    {
+      "time_ms": 60291,
+      "end_ms": 61858,
+      "line": 187,
+      "target": "AMPLIFICATION_ENDS",
+      "context": "rest. Past a threshold named amplification ends, that same multiplication flips above"
+    },
+    {
+      "time_ms": 68267,
+      "end_ms": 74269,
+      "line": 277,
+      "target": "This is the exact same operation as convergence, but inverted and INTENSIFIED",
+      "context": "code's own comment calls it \"the exact same operation as convergence, but inverted and intensified.\" A rotation velocity threshold then"
+    },
+    {
+      "time_ms": 75523,
+      "end_ms": 77264,
+      "line": 191,
+      "target": "ROTATION_VELOCITY_THRESHOLD",
+      "context": "but inverted and intensified.\" A rotation velocity threshold then flags cells as critical"
+    },
+    {
+      "time_ms": 79041,
+      "end_ms": 79586,
+      "line": 115,
+      "target": "critical",
+      "context": "threshold then flags cells as critical once their correction speed becomes"
     }
   ]
 }

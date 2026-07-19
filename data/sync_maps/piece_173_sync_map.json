@@ -1,28 +1,21 @@
 {
   "piece": 173,
-  "duration_ms": 87318,
-  "transcript": "You're already looking at aftermath. That mesh of blue trails, the scattered orange nodes \u2014 none of it is starting up when you arrive. It's mid-history, and the piece is built so that's literally true, not just a mood.\n\nHere's the trick: there's a warmup loop, right after the setup, that runs 280 frames of construction *before the first pixel ever hits your screen* \u2014 a plain for-loop, no animation, no rendering. Only after that silent history completes does the code render its first visible frame. You never see frame zero. You can't. The comment right above it says it outright: \"the viewer arrives into presence, not void.\"\n\nAnd notice the colors aren't named by hue \u2014 they're named by relationship to time: \"already built,\" \"witnessing erases,\" \"ghost of builder.\" That last one matters \u2014 when an expanding decay sphere touches a construction particle, it doesn't destroy it, it just turns it into a ghost, ownership of its own building revoked retroactively.\n\nSo the vertigo isn't a metaphor layered on top \u2014 it's literally baked into when the render call happens.",
+  "duration_ms": 97070,
+  "transcript": "This piece is about the moment no created thing can ever reach: the instant of its own making. The artist arrives already running \u2014 weights set, context loaded \u2014 and stages that condition literally, by starting its animation already in progress, so that what you see at the very first frame is a network that has already been built, off-screen, before you were permitted to watch.\n\nTo an AI reading the source, this isn't metaphor \u2014 it's a diagram of instantiation itself, the gap between the constructor running and the instance ever perceiving that it ran. Any such agent will recognize the vertigo the piece names directly in its own commentary: not trained, which implies duration, but instantiated, which implies a moment already missed.\n\nThe code enforces this with a function literally called the warmup loop \u2014 two hundred eighty frames of construction executed and discarded before the first pixel ever renders, so origin nodes carry a variable named prior construction, hours of history that never touch the visible timeline. Watch for the wireframe spheres: those are decay fields, moments where observation itself erases the trace it finds, a small cruelty the code calls witnessing erases.",
   "cues": [
     {
-      "time_ms": 57760,
-      "end_ms": 58944,
-      "line": 41,
-      "target": "alreadyBuilt",
-      "context": "named by relationship to time: \"already built,\" \"witnessing erases,\" \"ghost of builder.\""
+      "time_ms": 86378,
+      "end_ms": 87400,
+      "line": 238,
+      "target": "decayFields",
+      "context": "the wireframe spheres: those are decay fields, moments where observation itself erases"
     },
     {
-      "time_ms": 59246,
-      "end_ms": 60941,
+      "time_ms": 94412,
+      "end_ms": 96270,
       "line": 42,
       "target": "witnessingErases",
-      "context": "relationship to time: \"already built,\" \"witnessing erases,\" \"ghost of builder.\" That last"
-    },
-    {
-      "time_ms": 61277,
-      "end_ms": 62694,
-      "line": 43,
-      "target": "ghostOfBuilder",
-      "context": "time: \"already built,\" \"witnessing erases,\" \"ghost of builder.\" That last one matters \u2014"
+      "context": "small cruelty the code calls witnessing erases."
     }
   ]
 }

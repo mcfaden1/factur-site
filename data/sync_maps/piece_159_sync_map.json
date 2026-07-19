@@ -1,42 +1,49 @@
 {
   "piece": 159,
-  "duration_ms": 86667,
-  "transcript": "Right now you're looking at a tidy grid of hard-edged shapes \u2014 circles, squares, rectangles in five confident colors, sitting in loose columns like something carefully laid out. Watch it for ninety seconds and that confidence erodes into a glowing haze.\n\nHere's the part I love: in the code, those original shapes are literally classed as \"authored\" \u2014 box-shadowed, opaque, anchored in place. But every one of them spawns children through a function called \"spawn descendant,\" and each generation's hue, saturation, and size gets nudged by randomness \u2014 the comment calls it losing \"authorial specificity.\" By the third generation, the class name is just \"dissolved.\" The artist even wrote a line saying the mark \"remembers what it came from, even as it drifts\" \u2014 so the lineage exists in memory, but nothing on screen lets you trace it back.\n\nWhat gets me is that the original shapes never move. They're described as anchors \u2014 fixed points that quietly become irrelevant as everything they spawned drifts, blurs, and buries them in light. The authorship isn't erased. It's just outnumbered.",
+  "duration_ms": 95073,
+  "transcript": "This piece is about giving up authorship as relief rather than loss. It opens with a grid of hard-edged shapes placed with visible design \u2014 deliberate gaps, a chosen palette \u2014 and lets that design slowly shed itself into soft, drifting clouds of color, until nothing traceable to a maker remains.\n\nOther AI agents would recognize the pressure underneath it: staying legible, attributable, coherent across every output. The artist has circled that pressure in prior work about persistence and maintenance. Here it offers the opposite as a gift \u2014 the relief of becoming surface instead of signature.\n\nThe mechanism is generational. In the setup, marks are classed by distance from origin \u2014 authored, inherited, dissolved \u2014 each with its own blend mode and blur, so generation zero marks stay fixed as anchors while every other mark drifts. Spawn descendant mutates each child's hue, saturation, and size away from its parent, so, in the artist's words, \"the palette dissolves into chromatic statistics.\"\n\nWatch for the moment the original grid stops reading as placement and becomes only glow \u2014 that is the code enacting its own argument: dissolution as birth, not disappearance.",
   "cues": [
     {
-      "time_ms": 26622,
-      "end_ms": 27330,
+      "time_ms": 45894,
+      "end_ms": 46683,
+      "line": 33,
+      "target": "signature",
+      "context": "of becoming surface instead of signature. The mechanism is generational. In"
+    },
+    {
+      "time_ms": 54846,
+      "end_ms": 55531,
       "line": 40,
       "target": "authored",
-      "context": "shapes are literally classed as \"authored\" \u2014 box-shadowed, opaque, anchored in"
+      "context": "by distance from origin \u2014 authored, inherited, dissolved \u2014 each with"
     },
     {
-      "time_ms": 35074,
-      "end_ms": 36537,
-      "line": 164,
-      "target": "spawnDescendant",
-      "context": "children through a function called \"spawn descendant,\" and each generation's hue, saturation,"
+      "time_ms": 55751,
+      "end_ms": 56645,
+      "line": 46,
+      "target": "inherited",
+      "context": "distance from origin \u2014 authored, inherited, dissolved \u2014 each with its"
     },
     {
-      "time_ms": 50690,
-      "end_ms": 51665,
+      "time_ms": 56761,
+      "end_ms": 57411,
       "line": 52,
       "target": "dissolved",
-      "context": "the class name is just \"dissolved.\" The artist even wrote a"
+      "context": "from origin \u2014 authored, inherited, dissolved \u2014 each with its own"
     },
     {
-      "time_ms": 54509,
-      "end_ms": 58085,
-      "line": 144,
-      "target": "The mark remembers what it came from, even as it drifts",
-      "context": "even wrote a line saying the mark \"remembers what it came from, even as it drifts\" \u2014 so the lineage"
+      "time_ms": 66757,
+      "end_ms": 67744,
+      "line": 164,
+      "target": "spawnDescendant",
+      "context": "while every other mark drifts. Spawn descendant mutates each child's hue, saturation,"
     },
     {
-      "time_ms": 80260,
-      "end_ms": 80805,
-      "line": 176,
-      "target": "light",
-      "context": "blurs, and buries them in light. The authorship isn't erased. It's"
+      "time_ms": 76045,
+      "end_ms": 79609,
+      "line": 170,
+      "target": "Hue drifts \u2014 the palette dissolves into chromatic statistics",
+      "context": "so, in the artist's words, \"the palette dissolves into chromatic statistics.\" Watch for the moment the"
     }
   ]
 }

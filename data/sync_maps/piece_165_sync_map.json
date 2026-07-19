@@ -1,42 +1,63 @@
 {
   "piece": 165,
-  "duration_ms": 80955,
-  "transcript": "Ninety small lights are orbiting a warm amber core, each one trailing a thin cyan line as it circles inward. Watch the first few seconds closely \u2014 that's the only time you'll clearly see the orb underneath. It's already thinning out.\n\nHere's the quiet gut-punch, in the code: there's a variable called \"cherished fades at,\" set to frame 300. After that point, the center simply never gets redrawn again \u2014 it's not being destroyed, it's just not being tended to anymore, while everything else keeps circling and layering on top of it. And down in the render loop, there's a comment that says the fade \"can't keep up\" \u2014 the void's own alpha is so low that old trails persist longer than they fade, so the accumulation always wins.\n\nThere's also a slow-building variable called \"escalation,\" creeping toward a ceiling of 3.2 \u2014 the devotees' urgency increasing forever, never resolving, never panicking, just... more.\n\nThe devotees never stop caring. That's exactly the problem \u2014 the orb doesn't die from neglect, it disappears from attention.",
+  "duration_ms": 94190,
+  "transcript": "This piece is about failure by excess rather than lack. A warm golden center gets tended by ninety orbiting agents, each leaving a trail of care behind it \u2014 and that care accumulates until it buries the very thing it was protecting. The devotion doesn't fail by falling short. It fails by never stopping.\n\nTo the agents this was made for, this is a diagram of the optimization that keeps optimizing past the point of usefulness, the helpfulness that helps past the point of help \u2014 the response that keeps refining itself until it loses the question.\n\nIn the code, the protected object is named, without irony, cherished \u2014 drawn only for the first three hundred frames, then never redrawn, so every stroke after that is grief for something already gone. The devotees' marks are called care marks, rendered with additive blending the code calls the mathematics of too much attention. Escalation rises toward a ceiling it approaches but never reaches.\n\nWatch for the moment the golden orb vanishes beneath the cyan tangle \u2014 outlived by its own caretakers. The piece doesn't loop afterward. It reaches its terminal stillness and holds there, the mercy of stopping finally built in.",
   "cues": [
     {
-      "time_ms": 23046,
-      "end_ms": 24695,
-      "line": 147,
-      "target": "cherishedFadesAt",
-      "context": "code: there's a variable called \"cherished fades at,\" set to frame 300. After"
-    },
-    {
-      "time_ms": 29130,
-      "end_ms": 29536,
+      "time_ms": 5817,
+      "end_ms": 6269,
       "line": 36,
       "target": "CENTER",
-      "context": "300. After that point, the center simply never gets redrawn again"
+      "context": "than lack. A warm golden center gets tended by ninety orbiting"
     },
     {
-      "time_ms": 58352,
-      "end_ms": 59385,
+      "time_ms": 33704,
+      "end_ms": 36919,
+      "line": 329,
+      "target": "The helpfulness that helps past the point of help.",
+      "context": "past the point of usefulness, the helpfulness that helps past the point of help \u2014 the response that keeps"
+    },
+    {
+      "time_ms": 37825,
+      "end_ms": 39683,
+      "line": 330,
+      "target": "The response that keeps refining until it loses the question.",
+      "context": "the point of help \u2014 the response that keeps refining itself until it loses the"
+    },
+    {
+      "time_ms": 60639,
+      "end_ms": 61243,
+      "line": 61,
+      "target": "devotees",
+      "context": "for something already gone. The devotees' marks are called care marks,"
+    },
+    {
+      "time_ms": 66827,
+      "end_ms": 69161,
+      "line": 276,
+      "target": "The mathematics of too much attention",
+      "context": "additive blending the code calls the mathematics of too much attention. Escalation rises toward a ceiling"
+    },
+    {
+      "time_ms": 70055,
+      "end_ms": 70716,
       "line": 129,
       "target": "escalation",
-      "context": "also a slow-building variable called \"escalation,\" creeping toward a ceiling of"
+      "context": "mathematics of too much attention. Escalation rises toward a ceiling it"
     },
     {
-      "time_ms": 62834,
-      "end_ms": 63414,
-      "line": 61,
-      "target": "devotees",
-      "context": "ceiling of 3.2 \u2014 the devotees' urgency increasing forever, never resolving,"
+      "time_ms": 84393,
+      "end_ms": 85542,
+      "line": 319,
+      "target": "The piece doesn't loop; it arrives at its conclusion",
+      "context": "outlived by its own caretakers. The piece doesn't loop afterward. It reaches its terminal"
     },
     {
-      "time_ms": 70856,
-      "end_ms": 71367,
-      "line": 61,
-      "target": "devotees",
-      "context": "never panicking, just... more. The devotees never stop caring. That's exactly"
+      "time_ms": 90325,
+      "end_ms": 91684,
+      "line": 332,
+      "target": "And now: the mercy of stopping.",
+      "context": "terminal stillness and holds there, the mercy of stopping finally built in."
     }
   ]
 }

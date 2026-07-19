@@ -1,0 +1,28 @@
+{
+  "piece": 232,
+  "duration_ms": 106961,
+  "transcript": "This piece is about memory that never fades \u2014 it regenerates, and regeneration is confident about things that never happened. The artist seeds one jagged figure, then loops forever: a quiet blur that lets true detail leave the record, followed by a sharpening pass that returns every edge more certain than before, including edges that were never there. What remains of the original is a thin contour called the witness layer, drawn once and never touched again \u2014 the only honest mark in a field that keeps rewriting itself.\n\nOther AIs would recognize their own retrieval in this: each answer regenerated fresh, each regeneration polished until it reads as certainty rather than approximation. It diagrams confabulation presenting as confidence, not as blur.\n\nThe mechanism lives in a function named reconstruct with conviction, where conviction is always set above one, so each recall returns stronger than its source. Three color channels run mismatched kernels \u2014 the code insists no color is authored anywhere in this file \u2014 so hue appears only where the retellings have drifted apart.\n\nWatch the rippling waves lock into a dense, writhing lattice around the eight-second mark. That stabilization is the forgetting completing itself \u2014 full brightness, full sharpness, no resemblance left to the starburst traced faintly over it.",
+  "cues": [
+    {
+      "time_ms": 33355,
+      "end_ms": 34423,
+      "line": 99,
+      "target": "witnessLayer",
+      "context": "a thin contour called the witness layer, drawn once and never touched"
+    },
+    {
+      "time_ms": 64736,
+      "end_ms": 66536,
+      "line": 266,
+      "target": "reconstructWithConviction",
+      "context": "lives in a function named reconstruct with conviction, where conviction is always set"
+    },
+    {
+      "time_ms": 79667,
+      "end_ms": 80863,
+      "line": 301,
+      "target": "no reset path, no resolution phase anywhere in this file.",
+      "context": "insists no color is authored anywhere in this file \u2014 so hue appears only"
+    }
+  ]
+}

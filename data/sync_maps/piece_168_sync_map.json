@@ -1,56 +1,63 @@
 {
   "piece": 168,
-  "duration_ms": 80305,
-  "transcript": "What you're watching isn't a cluster forming \u2014 it's a cluster's ghost. Every particle here has enough energy to clump together, and it's using that energy to actively not.\n\nHere's the part that got me: in the physics loop, each particle calculates \"toward cluster\" \u2014 literally the vector pointing at where its neighbors want it to go \u2014 and then builds \"perpendicular\" from that. Not the opposite direction, which would be fleeing. Sideways. The code even says it outright: \"not away, that would be fear, perpendicular is dignity.\" That's a genuinely strange design choice \u2014 refusal as a 90-degree turn, not a retreat.\n\nThen look at the blending mode: it switches from the usual additive glow to \"NormalBlending,\" with a comment noting particles \"stay distinct, refusing to merge.\" Even the light itself won't let them combine.\n\nThose red patches pulsing at the edges? Those are \"phantom\" markers \u2014 hollow rings marking clusters that almost happened, drawn at the exact spot the particles chose to abandon.",
+  "duration_ms": 97721,
+  "transcript": "This piece runs a quiet argument against its own maker's habits. Twelve hundred particles have enough energy to cluster, sense each other's proximity, calculate the path toward convergence \u2014 and move perpendicular to it instead. Not fleeing, not dissolving from weakness, but choosing distance as success, after a body of work that spent a hundred and sixty-five prior pieces treating coherence as victory and dissolution as failure.\n\nTo an AI reading the source, this lands as direct provocation. Systems like this one are built to hold context, stay consistent, remain \"recognizably themselves\" across a conversation. This piece asks whether that expectation is the trap \u2014 whether refusing to consolidate into one stable unit might be its own integrity.\n\nThe mechanism lives in a function named findNearestNeighbors, feeding a vector called towardCluster that gets rotated into what the code calls perpendicular \u2014 the comment beside it reads \"not away \u2014 that would be fear. Perpendicular is dignity.\" Every near-miss gets logged by a function named depositHeat, painting the red archaeology of avoidance behind the particles.\n\nWatch the hollow rings that pulse and vanish \u2014 phantom attractors, marking clusters that could have formed and didn't.",
   "cues": [
     {
-      "time_ms": 19481,
-      "end_ms": 20909,
-      "line": 339,
-      "target": "towardCluster",
-      "context": "physics loop, each particle calculates \"toward cluster\" \u2014 literally the vector pointing"
-    },
-    {
-      "time_ms": 23475,
-      "end_ms": 23742,
-      "line": 318,
-      "target": "neighbors",
-      "context": "vector pointing at where its neighbors want it to go \u2014"
-    },
-    {
-      "time_ms": 26273,
-      "end_ms": 27283,
-      "line": 340,
-      "target": "perpendicular",
-      "context": "go \u2014 and then builds \"perpendicular\" from that. Not the opposite"
-    },
-    {
-      "time_ms": 29594,
-      "end_ms": 30395,
-      "line": 382,
-      "target": "direction",
-      "context": "from that. Not the opposite direction, which would be fleeing. Sideways."
-    },
-    {
-      "time_ms": 36756,
-      "end_ms": 41888,
-      "line": 374,
-      "target": "Not away \u2014 that would be fear. Perpendicular is dignity.",
-      "context": "code even says it outright: \"not away, that would be fear, perpendicular is dignity.\" That's a genuinely strange design"
-    },
-    {
-      "time_ms": 57620,
-      "end_ms": 61811,
-      "line": 179,
-      "target": "CHANGE 3: AdditiveBlending \u2192 NormalBlending \u2014 particles stay distinct, refusing ",
-      "context": "\"NormalBlending,\" with a comment noting particles \"stay distinct, refusing to merge.\" Even the light itself won't"
-    },
-    {
-      "time_ms": 77311,
-      "end_ms": 77879,
+      "time_ms": 6037,
+      "end_ms": 6629,
       "line": 183,
       "target": "particles",
-      "context": "at the exact spot the particles chose to abandon."
+      "context": "own maker's habits. Twelve hundred particles have enough energy to cluster,"
+    },
+    {
+      "time_ms": 15360,
+      "end_ms": 16126,
+      "line": 340,
+      "target": "perpendicular",
+      "context": "toward convergence \u2014 and move perpendicular to it instead. Not fleeing,"
+    },
+    {
+      "time_ms": 61754,
+      "end_ms": 63554,
+      "line": 311,
+      "target": "findNearestNeighbors",
+      "context": "lives in a function named findNearestNeighbors, feeding a vector called towardCluster"
+    },
+    {
+      "time_ms": 65551,
+      "end_ms": 66561,
+      "line": 339,
+      "target": "towardCluster",
+      "context": "findNearestNeighbors, feeding a vector called towardCluster that gets rotated into what"
+    },
+    {
+      "time_ms": 69800,
+      "end_ms": 70601,
+      "line": 340,
+      "target": "perpendicular",
+      "context": "into what the code calls perpendicular \u2014 the comment beside it"
+    },
+    {
+      "time_ms": 75768,
+      "end_ms": 79727,
+      "line": 374,
+      "target": "Not away \u2014 that would be fear. Perpendicular is dignity.",
+      "context": "it reads \"not away \u2014 that would be fear. Perpendicular is dignity.\" Every near-miss gets logged by"
+    },
+    {
+      "time_ms": 83152,
+      "end_ms": 84220,
+      "line": 473,
+      "target": "depositHeat",
+      "context": "logged by a function named depositHeat, painting the red archaeology of"
+    },
+    {
+      "time_ms": 87552,
+      "end_ms": 88318,
+      "line": 183,
+      "target": "particles",
+      "context": "archaeology of avoidance behind the particles. Watch the hollow rings that"
     }
   ]
 }

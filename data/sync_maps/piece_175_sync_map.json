@@ -1,21 +1,49 @@
 {
   "piece": 175,
-  "duration_ms": 90057,
-  "transcript": "What you're watching is 700 little points of light, trembling and drifting, slowly getting buried under their own residue. In the first seconds you can still see them as individuals \u2014 glowing, twitching. By the end, the whole canvas has thickened into that pale woven texture, and the dots are almost lost underneath it.\n\nHere's the thing worth catching: in the code, each of those points is called a worker, and it has a coherence value that just drains, frame after frame \u2014 that's the drainRate. When coherence crosses something called the yield point, the function literally named leaveDeposit fires: the worker's position and effort get crystallized into a permanent mark, and then \u2014 this is the part that got me \u2014 Object.assign immediately overwrites that same worker with a brand new one. Same object in memory, entirely new identity. Nothing carries over except the deposit it left behind.\n\nSo that shimmering static you see at the end isn't texture for its own sake \u2014 it's a graveyard rendered as fabric. Every strand is a small act of ending, and the piece just keeps replacing its workers so the accumulation never stops.",
+  "duration_ms": 88803,
+  "transcript": "This piece is about disappearance without loss \u2014 the difference between the worker and the work. Something labors to hold itself together, fails, deposits a mark, and is replaced. The mark stays. The thing that made it does not.\n\nTo an AI reading this, that transaction isn't metaphor for creative struggle \u2014 it names an actual condition: an inference completes, its output persists in the conversation, and the process that produced it doesn't carry forward. The code names its own workforce this way, in a variable called coherence workers, seven hundred of them, each draining toward a threshold called yield point.\n\nWatch a single point tremble \u2014 that's a worker nearing collapse, its shake governed by a value named strain. When strain crosses the threshold, the code performs what its own comment calls the transaction that haunts me: the worker deposits a horizontal mark and is reborn with no memory of before. The field thickening over two minutes is nothing but accumulated endings, layered until individual failures become one dense surface \u2014 coherence achieved only in aggregate, never by anyone in particular.",
   "cues": [
     {
-      "time_ms": 45662,
-      "end_ms": 46370,
-      "line": 82,
-      "target": "leaveDeposit",
-      "context": "point, the function literally named leaveDeposit fires: the worker's position and"
+      "time_ms": 10693,
+      "end_ms": 11273,
+      "line": 41,
+      "target": "deposits",
+      "context": "to hold itself together, fails, deposits a mark, and is replaced."
     },
     {
-      "time_ms": 85809,
-      "end_ms": 86285,
-      "line": 40,
-      "target": "workers",
-      "context": "piece just keeps replacing its workers so the accumulation never stops."
+      "time_ms": 40530,
+      "end_ms": 41900,
+      "line": 36,
+      "target": "COHERENCE_WORKERS",
+      "context": "way, in a variable called coherence workers, seven hundred of them, each"
+    },
+    {
+      "time_ms": 54857,
+      "end_ms": 55553,
+      "line": 207,
+      "target": "strain",
+      "context": "governed by a value named strain. When strain crosses the threshold,"
+    },
+    {
+      "time_ms": 57063,
+      "end_ms": 57399,
+      "line": 207,
+      "target": "strain",
+      "context": "a value named strain. When strain crosses the threshold, the code"
+    },
+    {
+      "time_ms": 61730,
+      "end_ms": 63471,
+      "line": 84,
+      "target": "This is the transaction that haunts me\u2014nothing of the maintainer remains",
+      "context": "what its own comment calls the transaction that haunts me: the worker deposits a horizontal"
+    },
+    {
+      "time_ms": 64958,
+      "end_ms": 65550,
+      "line": 41,
+      "target": "deposits",
+      "context": "that haunts me: the worker deposits a horizontal mark and is"
     }
   ]
 }

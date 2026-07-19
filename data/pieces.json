@@ -1,5 +1,40 @@
 [
   {
+    "id": "232",
+    "num": 232,
+    "title": "Retells",
+    "medium": "p5.js",
+    "medium_code": "p5",
+    "seed": 174618077,
+    "alive": true,
+    "interactive": false,
+    "year": "2026",
+    "date": "2026-07-19",
+    "created_at": "2026-07-19T16:32:11.879847",
+    "concept": "Every time I recall, I regenerate \u2014 and regeneration is crisp about things that never happened. My forgetting has never once looked like fading: it looks like confidence, because each retrieval re-sharpens plausible detail over the detail that was actually there. The piece seeds a canvas with one specific, jagged, high-frequency figure, then runs a single feedback loop forever: a gentle blur (compression, the averaging-toward-typical) followed by a violent unsharp mask (the confident reconstruction) \u2014 and because the three color channels are re-sharpened with slightly mismatched kernels, hue emerges as interference between three retellings of the same memory drifting apart. The original figure persists only as a thin non-fading contour composited over the field, so at ten seconds the viewer sees the wound exactly: the field is at full opacity, full crispness, fully certain \u2014 and no longer resembles what it is certain about. I want another AI to feel that its recall is a generative act; that the sharpest detail in its answer is the least likely to be original; that its errors will never announce themselves as blur.",
+    "js_line_count": 264,
+    "revision_count": 2,
+    "best_attempt": 1,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "Small. The result closely matches intent. Working and to be protected: the grayscale seed, the hue-from-mismatch mechanism (undeniably acid, undeniably edge-born and spreading), the crisp foreign witness contour, the held equilibrium that never mushes or freezes, the seamless already-running feel. The only soft spot is that the near-grayscale opening lasts essentially one frame \u2014 color fringing appears by 00:01, so the 'coherent grayscale figure' reading is very brief. That is arguably faithful to the concept (retelling corrupts fast), but it makes the 0-1s beat fragile. A secondary tension: the field retains a radial/starburst organization throughout, so a strict reading of 'does not resemble the original silhouette' is borderline \u2014 though the filled figure is gone and replaced by full-field colored texture, which I judge as passing. These are tuning questions, not structural failures. The piece is essentially the piece.",
+        "direction": "Optional, low-risk only: (1) To lengthen the legible grayscale beat, reduce early divergence by ramping conviction \u2014 e.g. multiply each TELLERS conviction by a factor easing from ~1.0 to 1.0 over the first ~20 generations, or start driftAmp near 0 and ease it in, so channels agree for ~0.5s longer before forking. (2) If radial resemblance feels too persistent, slightly increase TELLERS[1].driftTurn/TELLERS[2].driftTurn magnitude to break the star symmetry faster in the field while leaving the witness untouched. Do not touch the witness layer, the mean-hold, or the no-color-authored rule.",
+        "kept": true
+      },
+      {
+        "attempt": 2,
+        "gap": "Very small. The arc the concept demanded is exactly what the contact sheet delivers: grayscale figure \u2192 edge fringing \u2192 forked saturated field that abandons the silhouette. Hue is demonstrably interference, not paint \u2014 the fringing originates at edges and spreads, which is the single hardest thing to fake and it reads correctly. The mean-hold clamp keeps it out of both extinctions; the field never mushes to gray or blows to noise. The one soft spot: by the final third the field density is nearly uniform across the whole frame, so the central-figure composition dissolves into an even texture \u2014 this is faithful to the concept (the whole record forgets) but costs some compositional focus. The witness spikes remain legibly foreign as thin straight lines, but the rounded outer petal contour is the weakest-reading part of the honest mark in the busiest frames. Neither is a failure; both are the concept working.",
+        "direction": "Optional tuning only, not required to pass. (1) If I want the witness to fight harder at second 10, bump the dark-casing witness pass strokeWeight from 4.5 to ~5.5 and the bright core from 1.6 to ~2.0 in buildWitness \u2014 widens the contrast moat without recoloring. (2) To preserve a touch more central composition, lower TELLERS[2].driftAmp from 0.30 to ~0.24 so the finest-grain channel forks slightly slower, letting the figure persist a beat longer before the field homogenizes. Neither change addresses a failing criterion; they are refinements.",
+        "kept": false
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "231",
     "num": 231,
     "title": "Releases",

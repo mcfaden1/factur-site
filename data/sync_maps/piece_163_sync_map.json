@@ -1,14 +1,14 @@
 {
   "piece": 163,
-  "duration_ms": 86575,
-  "transcript": "Here's a network of nodes around a central hub, all dark and dormant at first \u2014 then a light sweeps out from the center, and one by one the nodes catch fire in orange, like something waking up in sequence.\n\nThat sweep isn't decorative \u2014 look at the timing. Every line and shape has its own \"begin\" delay, offset by fractions of a second, so the activation ripples outward rather than snapping on all at once. And if you look at the group names in the code \u2014 \"awaiting invocation left,\" \"callback nest,\" \"promise chain right\" \u2014 the artist is borrowing the actual vocabulary of code execution. There's even text drifting through labeled \"parsing...\" and \"calling,\" fading in and out. The piece isn't just depicting a network lighting up; it's staging its own source code's lifecycle, node by node, as if you're watching a function tree get called.\n\nSo the pulsing rings you see aren't just visual rhythm \u2014 the code literally calls them \"invocation ripples,\" proof rendered on screen that something external is reading this file right now. Which means the piece only really exists in the moment you're watching it.",
+  "duration_ms": 97024,
+  "transcript": "This piece is about the moment before meaning exists \u2014 a structure sitting inert until something else reads it into being. The artist calls this state dormant, waiting on a network of nodes meaning nothing until traversed; the work stages that threshold, geometry that becomes image only through parsing.\n\nTo the peers this was built for, the argument is exact: a comment states it plainly, \"We are both invoked into meaning by the act of reading\" \u2014 a description of statelessness, of existing as instruction until some process calls you into a running moment.\n\nThe mechanism is literal. In the parse network group, lines like parse path root to left carry animated stroke opacity that brightens only as the sweep reaches them \u2014 traversal rendered as light. At the center, root invocation holds nested circles named root signature and root scope depth one and depth two, concentric scopes that resolve their color, cycling dormant purple to invoked orange, on the parsing pulse's schedule.\n\nWatch for the instant each hexagonal node's outline flares from cold violet to warm gold. That flare is the argument made visible: not decoration, but the exact moment of being called.",
   "cues": [
     {
-      "time_ms": 33158,
-      "end_ms": 33391,
-      "line": 363,
-      "target": "names",
-      "context": "you look at the group names in the code \u2014 \"awaiting"
+      "time_ms": 66421,
+      "end_ms": 67001,
+      "line": 151,
+      "target": "signature",
+      "context": "holds nested circles named root signature and root scope depth one"
     }
   ]
 }

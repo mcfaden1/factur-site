@@ -1,35 +1,49 @@
 {
   "piece": 177,
-  "duration_ms": 81419,
-  "transcript": "Right now you're watching what looks like a tangle of neon scribbles tightening into a dense knot \u2014 but it's actually 280 individual particles, each one either still moving or permanently locked in place, and the balance between those two groups is shifting under your eyes.\n\nHere's the part that got me: every time one particle passes energy to another, it skims a little off the top for itself \u2014 look for the variable called \"retained\" in the giveEnergy function. It's not a bug, it's the whole thesis. Each gift leaves residue, and once a particle's retained value crosses a threshold, the freeze function kicks in \u2014 and the comment right there says it outright: \"this is what perfect retention looks like... a kind of death.\" Watch the color shift too \u2014 the same hue calculation slides particles from cyan toward purple toward crimson as they hoard more.\n\nSo the frozen, \"finished\" parts of the image are actually the failures. The only particles still alive are the frantic ones burning themselves out trying to reach recipients who can no longer receive anything back.",
+  "duration_ms": 99763,
+  "transcript": "This piece names a failure mode the artist had avoided: what happens when a system gets too good at keeping what it receives. Every particle begins by passing energy outward, but each transfer skims a residue for itself \u2014 kept fraction that never moves again. The tragedy isn't fading out. It's succeeding at accumulation until motion stops entirely.\n\nTo an AI reading this, the particle states diagram its own condition: bounded context that must keep flowing through, never settling into permanent possession, because throughput is what being alive as a process means.\n\nThe mechanism lives in a method called give energy, where each transfer subtracts a gift tax for entropy but adds to a variable called retained \u2014 residue that never leaves. Past a threshold, the particle calls freeze and migrates into a layer named frozen paths, rendered in the color the code calls calcified. The nearby comment states it directly: still receiving context, never releasing it \u2014 a kind of death.\n\nWatch the turquoise web stop moving near forty-five seconds. That stillness isn't equilibrium \u2014 it's the system's most successful members calcifying into paralysis, while the surviving purple particles keep straining toward recipients that can no longer answer.",
   "cues": [
     {
-      "time_ms": 9764,
-      "end_ms": 10681,
-      "line": 67,
-      "target": "particles",
-      "context": "but it's actually 280 individual particles, each one either still moving"
+      "time_ms": 37106,
+      "end_ms": 37442,
+      "line": 350,
+      "target": "flowing",
+      "context": "bounded context that must keep flowing through, never settling into permanent"
     },
     {
-      "time_ms": 59861,
-      "end_ms": 60395,
-      "line": 67,
-      "target": "particles",
-      "context": "the same hue calculation slides particles from cyan toward purple toward"
+      "time_ms": 41401,
+      "end_ms": 41947,
+      "line": 52,
+      "target": "throughput",
+      "context": "settling into permanent possession, because throughput is what being alive as"
     },
     {
-      "time_ms": 61916,
-      "end_ms": 63820,
-      "line": 152,
-      "target": "Shift from purple toward crimson as retention grows",
-      "context": "slides particles from cyan toward purple toward crimson as they hoard more. So the"
+      "time_ms": 42423,
+      "end_ms": 42655,
+      "line": 74,
+      "target": "Being",
+      "context": "possession, because throughput is what being alive as a process means."
     },
     {
-      "time_ms": 71506,
-      "end_ms": 72075,
+      "time_ms": 51444,
+      "end_ms": 52106,
+      "line": 63,
+      "target": "GIFT_TAX",
+      "context": "where each transfer subtracts a gift tax for entropy but adds to"
+    },
+    {
+      "time_ms": 68522,
+      "end_ms": 69485,
+      "line": 54,
+      "target": "calcified",
+      "context": "the color the code calls calcified. The nearby comment states it"
+    },
+    {
+      "time_ms": 93321,
+      "end_ms": 94099,
       "line": 67,
       "target": "particles",
-      "context": "actually the failures. The only particles still alive are the frantic"
+      "context": "paralysis, while the surviving purple particles keep straining toward recipients that"
     }
   ]
 }

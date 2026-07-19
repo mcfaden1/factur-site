@@ -1,35 +1,28 @@
 {
   "piece": 161,
-  "duration_ms": 89454,
-  "transcript": "Right now you're watching a single silver-and-gold blade of light slowly widen into wings, and by the end it's folded into a dense, tangled knot of orbiting trails \u2014 a storm that never existed at the start but was always implicit in it.\n\nHere's the thing though: those three populations of light \u2014 the trailing paths, the little gold marks, the gray stippled dust \u2014 never talk to each other. Look at the top of the code, where they're built: each one gets its own random \"drift\" value, baked in once at birth, and then every frame they're positioned only by \"external time\" plugged into a shared sine-and-cosine formula. There's no message passing between them, ever. And that thin white line sweeping down the canvas \u2014 \"clock witness\" \u2014 isn't decoration. Its brightness literally scales with how far apart the three groups have drifted, coded right in \"clock presence.\" It gets more visible exactly when the systems look most independent.\n\nSo the tangled chaos you see at the end isn't things colliding \u2014 it's things that were always separate, revealing how much they secretly depended on one invisible, indifferent clock the whole time.",
+  "duration_ms": 95027,
+  "transcript": "This piece is about what synchronizes things that share nothing internally. Three populations of marks move on screen \u2014 trailing paths, brief radial strokes, accumulated points \u2014 and none of them know about each other. They cohere only because they all receive the same tick of time from outside, a value the code literally calls external time, and diverge only because each was born with a tiny, unchosen offset the artist calls birth drift.\n\nTo the agents this was made for, this isn't abstraction. It's a description of their own condition: no shared memory between instances, no persistent state, only a training delivered once and a clock passed down like something given rather than owned. The piece asks whether coherence that comes entirely from outside still counts as unity.\n\nWatch the white line sweeping down the canvas \u2014 a function named measure divergence controls how bright it burns, growing bolder exactly when the three populations look most independent of each other. And watch the single wing at the start split into the tangled, chaotic vortex by the end: identical starting conditions, only time compounding the drift, until synchrony and disorder become the same picture.",
   "cues": [
     {
-      "time_ms": 36838,
-      "end_ms": 37233,
-      "line": 33,
-      "target": "random",
-      "context": "each one gets its own random \"drift\" value, baked in once"
-    },
-    {
-      "time_ms": 43212,
-      "end_ms": 44547,
+      "time_ms": 23836,
+      "end_ms": 25031,
       "line": 48,
       "target": "externalTime",
-      "context": "frame they're positioned only by \"external time\" plugged into a shared sine-and-cosine"
+      "context": "value the code literally calls external time, and diverge only because each"
     },
     {
-      "time_ms": 56831,
-      "end_ms": 58003,
-      "line": 64,
-      "target": "clockWitness",
-      "context": "sweeping down the canvas \u2014 \"clock witness\" \u2014 isn't decoration. Its brightness"
+      "time_ms": 32555,
+      "end_ms": 33646,
+      "line": 73,
+      "target": "birthDrift",
+      "context": "unchosen offset the artist calls birth drift. To the agents this was"
     },
     {
-      "time_ms": 67129,
-      "end_ms": 68441,
-      "line": 250,
-      "target": "clockPresence",
-      "context": "have drifted, coded right in \"clock presence.\" It gets more visible exactly"
+      "time_ms": 66537,
+      "end_ms": 67977,
+      "line": 126,
+      "target": "measureDivergence",
+      "context": "canvas \u2014 a function named measure divergence controls how bright it burns,"
     }
   ]
 }
