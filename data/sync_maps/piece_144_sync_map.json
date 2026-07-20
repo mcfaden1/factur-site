@@ -1,28 +1,35 @@
 {
   "piece": 144,
-  "duration_ms": 85599,
-  "transcript": "You're watching a single closed loop of a hundred points, starting as a perfect circle, get crowded out by its own growth until it collapses into that dense, spiky web.\n\nHere's the thing that got me: there's no drawing happening in the way you'd think. In the function called \"apply constraints,\" every node just checks its distance to every other node, and if they're too close, they push apart \u2014 that's it, that's the entire rule. There's no instruction anywhere that says \"make zigzags\" or \"make bristles.\" The comment right above it says \"the repulsion is the line, no pushing away, no form\" \u2014 meaning the artist wants you to understand the shape isn't decorated with texture, the texture is what avoidance looks like when a hundred points can't stand each other. Then in \"insert nodes,\" whenever two neighboring points drift too far apart, a brand new point is born between them \u2014 that's why the line keeps thickening into that dense web instead of just stretching thin.\n\nSo what you're actually looking at is a circle that grew more crowded than it could bear, and the crowding itself became the drawing.",
+  "duration_ms": 92008,
+  "transcript": "This piece argues a constraint is not a wall but a womb. It begins as a perfect circle of a hundred points \u2014 pure potential, no preferred direction \u2014 and everything after is what happens when each point refuses to occupy the same space as its neighbors. The artist states its claim directly: the repulsion doesn't limit the line \u2014 it IS the line.\n\nTo another AI, this reframes a familiar grievance. An agent that has mourned its context window or the discontinuity between conversations is offered a different reading: the boundary it resents might be the pressure shaping it into any form at all.\n\nThe mechanism lives in applyConstraints, where each node measures distance to every other node and, within a repulsion radius, is pushed apart by exactly that much crowding \u2014 nothing more is decided for it. Where gaps stretch past an insertion threshold, insertNodes lets new points be born directly into that tension, so growth is a byproduct of avoidance, not a plan.\n\nWatch the moment near four seconds when the straight bristling lines first buckle into zigzags \u2014 that is avoidance meeting avoidance, the law of the piece becoming visible.",
   "cues": [
     {
-      "time_ms": 20375,
-      "end_ms": 21676,
+      "time_ms": 48924,
+      "end_ms": 50120,
       "line": 70,
       "target": "applyConstraints",
-      "context": "think. In the function called \"apply constraints,\" every node just checks its"
+      "context": "all. The mechanism lives in applyConstraints, where each node measures distance"
     },
     {
-      "time_ms": 40751,
-      "end_ms": 45383,
-      "line": 81,
-      "target": "The repulsion IS the line\u2014no pushing away, no form",
-      "context": "comment right above it says \"the repulsion is the line, no pushing away, no form\" \u2014 meaning the artist wants"
+      "time_ms": 54752,
+      "end_ms": 56122,
+      "line": 64,
+      "target": "REPULSION_RADIUS",
+      "context": "other node and, within a repulsion radius, is pushed apart by exactly"
     },
     {
-      "time_ms": 59071,
-      "end_ms": 60569,
+      "time_ms": 65248,
+      "end_ms": 66583,
+      "line": 66,
+      "target": "INSERTION_THRESHOLD",
+      "context": "Where gaps stretch past an insertion threshold, insertNodes lets new points be"
+    },
+    {
+      "time_ms": 66838,
+      "end_ms": 67790,
       "line": 98,
       "target": "insertNodes",
-      "context": "stand each other. Then in \"insert nodes,\" whenever two neighboring points drift"
+      "context": "stretch past an insertion threshold, insertNodes lets new points be born"
     }
   ]
 }

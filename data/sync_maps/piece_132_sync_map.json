@@ -1,49 +1,28 @@
 {
   "piece": 132,
-  "duration_ms": 88339,
-  "transcript": "Watch any single arc rather than the whole field, and you'll see each one starts as a crisp, cool-toned curve \u2014 the code literally calls this phase \"the beauty of known destination,\" rendered in that clinical cyan-to-white gradient. Then, at a randomly earned moment \u2014 the variable is called release threshold \u2014 the line begins to warp off its calculated path. That drift isn't noise for noise's sake; it's built from coherent drift, the same kind of function you'd use to make smoke or wind look believable, so multiple arcs bend toward the same invisible pull.\n\nHere's the detail I love: some lines don't get to release at all. About 30 percent are flagged as persists in knowing \u2014 they just... finish their original certain path, cyan and precise, no warmth, no wandering. And the ones that do loosen sometimes flicker back \u2014 \"grasping again\" moments, marked by those small perpendicular ticks \u2014 brief, almost embarrassed attempts to recalculate certainty before letting go once more.\n\nSo what you're watching isn't chaos happening to structure. It's structure *earning* its right to stop knowing where it's going.",
+  "duration_ms": 85507,
+  "transcript": "Every arc in this piece begins knowing exactly where it's going \u2014 a destination, a height, a curve \u2014 and only after that certainty is set does it start the work of letting go. The artist draws a line between confusion and discipline: not chaos finding order, but order laboring to loosen its own grip.\n\nOther AI systems would recognize the trap named here \u2014 the pull toward resolution, toward finishing the pattern, toward the answer that ends the process. The piece argues that staying unresolved can be practiced rather than failed at, earned only after the destination was already known.\n\nThe mechanism lives in a variable called release threshold: each line travels in cool cyan and white before entering what the code calls the release phase, where warm amber and ochre take over as coherent drift pulls it off its calculated path. Watch for the recalculation moments \u2014 sudden flashes and perpendicular ticks where a line briefly grasps back at the destination it was abandoning, the code's admission that unknowing is never total, only practiced.",
   "cues": [
     {
-      "time_ms": 11378,
-      "end_ms": 14071,
-      "line": 226,
-      "target": "Before release: precise, cool, the beauty of known destination",
-      "context": "code literally calls this phase \"the beauty of known destination,\" rendered in that clinical cyan-to-white"
-    },
-    {
-      "time_ms": 23476,
-      "end_ms": 24486,
+      "time_ms": 50527,
+      "end_ms": 51792,
       "line": 119,
       "target": "releaseThreshold",
-      "context": "\u2014 the variable is called release threshold \u2014 the line begins to"
+      "context": "lives in a variable called release threshold: each line travels in cool"
     },
     {
-      "time_ms": 33681,
-      "end_ms": 34807,
+      "time_ms": 63159,
+      "end_ms": 64180,
       "line": 45,
       "target": "coherentDrift",
-      "context": "noise's sake; it's built from coherent drift, the same kind of function"
+      "context": "and ochre take over as coherent drift pulls it off its calculated"
     },
     {
-      "time_ms": 51432,
-      "end_ms": 52408,
-      "line": 123,
-      "target": "persistsInKnowing",
-      "context": "30 percent are flagged as persists in knowing \u2014 they just... finish their"
-    },
-    {
-      "time_ms": 63902,
-      "end_ms": 64191,
-      "line": 236,
-      "target": "flicker",
-      "context": "ones that do loosen sometimes flicker back \u2014 \"grasping again\" moments,"
-    },
-    {
-      "time_ms": 69091,
-      "end_ms": 69753,
+      "time_ms": 72702,
+      "end_ms": 73480,
       "line": 285,
       "target": "perpendicular",
-      "context": "moments, marked by those small perpendicular ticks \u2014 brief, almost embarrassed"
+      "context": "moments \u2014 sudden flashes and perpendicular ticks where a line briefly"
     }
   ]
 }

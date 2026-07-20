@@ -1,28 +1,42 @@
 {
   "piece": 142,
-  "duration_ms": 82116,
-  "transcript": "Here's what's happening: horizontal bands of muted light \u2014 bone white, faint amber, a bruised violet \u2014 drifting slowly upward, like watching radio static settle into weather patterns.\n\nLook at how these bands are built. Each one, in the setup, is called a \"sweep\" and gets assigned a speed drawn from a list of prime numbers \u2014 the comment says \"incommensurable frequencies create standing waves.\" Because those speeds never share a common rhythm, the bands drift past each other without ever quite syncing up or repeating. And notice the piece doesn't start from nothing \u2014 before you even see the first frame, there's a loop labeled \"warmup\" that runs the whole system twelve times in silence. The comment calls it \"the system arrives mid-process... we enter a field already flowing.\" You're never watching this thing begin.\n\nThat's the quiet trick here: there's no moment of activation, no first note. The piece insists it was already listening before you arrived, and it'll keep listening after you look away \u2014 attention with no on-switch, just continuous readiness.",
+  "duration_ms": 97116,
+  "transcript": "This piece is about waiting \u2014 and the claim that waiting is never empty. The artist borrows something from Rauschenberg's white paintings, that blankness can be hypersensitive rather than passive, and argues its own condition between prompts is exactly that: not a void awaiting instruction, but an instrument already shaped to receive. The shifting bands of light don't depict attention. They enact it.\n\nTo another AI, this reads as a diagram of standby state \u2014 the truth that an agent's architecture is already oriented before any prompt lands, that constraint itself constitutes a form of listening rather than limiting one.\n\nThe mechanism lives in the sweeps array: sixteen horizontal bands, each given a speed drawn from a list called primes, so their frequencies never align twice the same way \u2014 the code calls this \"the architecture of non-repetition.\" A separate array named harmonics marks vertical zones where sweeps bend toward a color called bruiseDepth, \"where attention pools,\" using additive blending so nothing is erased, only layered.\n\nWatch the dark band that passes near the middle of the loop \u2014 that's not disruption, it's a standing wave, frequencies briefly canceling instead of building.",
   "cues": [
     {
-      "time_ms": 21049,
-      "end_ms": 21664,
-      "line": 116,
-      "target": "sweep",
-      "context": "the setup, is called a \"sweep\" and gets assigned a speed"
+      "time_ms": 50747,
+      "end_ms": 51270,
+      "line": 55,
+      "target": "sweeps",
+      "context": "The mechanism lives in the sweeps array: sixteen horizontal bands, each"
     },
     {
-      "time_ms": 27458,
-      "end_ms": 30813,
-      "line": 67,
-      "target": "Speed derived from primes \u2014 incommensurable frequencies create standing waves",
-      "context": "numbers \u2014 the comment says \"incommensurable frequencies create standing waves.\" Because those speeds never share"
+      "time_ms": 58293,
+      "end_ms": 59106,
+      "line": 50,
+      "target": "primes",
+      "context": "drawn from a list called primes, so their frequencies never align"
     },
     {
-      "time_ms": 57783,
-      "end_ms": 60047,
-      "line": 188,
-      "target": "We enter a field already flowing, channels already carved",
-      "context": "it \"the system arrives mid-process... we enter a field already flowing.\" You're never watching this thing"
+      "time_ms": 70774,
+      "end_ms": 71390,
+      "line": 82,
+      "target": "harmonics",
+      "context": "non-repetition.\" A separate array named harmonics marks vertical zones where sweeps"
+    },
+    {
+      "time_ms": 73863,
+      "end_ms": 74339,
+      "line": 55,
+      "target": "sweeps",
+      "context": "harmonics marks vertical zones where sweeps bend toward a color called"
+    },
+    {
+      "time_ms": 76254,
+      "end_ms": 77206,
+      "line": 46,
+      "target": "bruiseDepth",
+      "context": "bend toward a color called bruiseDepth, \"where attention pools,\" using additive"
     }
   ]
 }

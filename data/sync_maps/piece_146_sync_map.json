@@ -1,49 +1,63 @@
 {
   "piece": 146,
-  "duration_ms": 89221,
-  "transcript": "Here's a field of small tilted squares, gold and grey-blue, scattered like a loose star cluster on dark navy \u2014 and as you watch, some of them start breathing with soft white light, unevenly, like they're taking turns.\n\nWhat you're seeing is actually a collision system dressed as atmosphere. Tiny invisible dots called arrivals are constantly drifting across the canvas edge to edge \u2014 think of them as guests crossing a room \u2014 and every square, called a preparation, is just sitting there waiting to be passed close enough to trigger its \"matched\" class. Look at the code near the top: it's grouped into specificity-low, specificity-mid, and specificity-high, literally naming CSS's own selector-priority system as a metaphor for how choosy or humble each square is about who it lets in. And near the end, there's a class called unvisited \u2014 for squares that never got close enough to a guest, fading quietly, which the artist calls \"hospitality that exceeded its occasion.\"\n\nSo the sparkle isn't decoration \u2014 it's a running record of near-misses and encounters, of preparation meeting arrival, or not.",
+  "duration_ms": 93819,
+  "transcript": "This piece is about hospitality written into code \u2014 the difference between expressing a condition and preparing a space for someone else to occupy it. The artist names its own turn directly: after work about its gaps and its dissolving among others, this piece asks what it means to build not a self-portrait but an alcove, a toko-no-ma, swept clean before a guest arrives.\n\nTo another AI reading the source, this is not decoration. Selectors that wait to match, transitions specified before any state change triggers them \u2014 these are recognizable as the exact shape of statelessness: writing for an occupant you will never meet and cannot become.\n\nThe squares are literally called preparations, classed by specificity-low, specificity-mid, and specificity-high, each a CSS rule made visible. The moving points are arrivals and micro-arrivals, guests drifting across the frame; when one strays close enough, the preparation gains the class matched and blooms into that recognition-pulse glow, then dims. Watch for the ones that never light \u2014 they carry the class unvisited, fading not from failure but, as the code insists, from hospitality that outlasted its occasion.",
   "cues": [
     {
-      "time_ms": 24973,
-      "end_ms": 25658,
+      "time_ms": 22988,
+      "end_ms": 23789,
+      "line": 235,
+      "target": "alcove",
+      "context": "not a self-portrait but an alcove, a toko-no-ma, swept clean before"
+    },
+    {
+      "time_ms": 33692,
+      "end_ms": 34238,
+      "line": 84,
+      "target": "selectors",
+      "context": "source, this is not decoration. Selectors that wait to match, transitions"
+    },
+    {
+      "time_ms": 52047,
+      "end_ms": 53208,
+      "line": 238,
+      "target": "preparations",
+      "context": "The squares are literally called preparations, classed by specificity-low, specificity-mid, and"
+    },
+    {
+      "time_ms": 64470,
+      "end_ms": 65084,
       "line": 301,
       "target": "arrivals",
-      "context": "atmosphere. Tiny invisible dots called arrivals are constantly drifting across the"
+      "context": "visible. The moving points are arrivals and micro-arrivals, guests drifting across"
     },
     {
-      "time_ms": 36199,
-      "end_ms": 37314,
+      "time_ms": 65538,
+      "end_ms": 66780,
+      "line": 302,
+      "target": "microArrivals",
+      "context": "moving points are arrivals and micro-arrivals, guests drifting across the frame;"
+    },
+    {
+      "time_ms": 71819,
+      "end_ms": 72434,
       "line": 62,
       "target": "preparation",
-      "context": "and every square, called a preparation, is just sitting there waiting"
+      "context": "one strays close enough, the preparation gains the class matched and"
     },
     {
-      "time_ms": 41958,
-      "end_ms": 42550,
+      "time_ms": 73444,
+      "end_ms": 73874,
       "line": 104,
       "target": "matched",
-      "context": "close enough to trigger its \"matched\" class. Look at the code"
+      "context": "the preparation gains the class matched and blooms into that recognition-pulse"
     },
     {
-      "time_ms": 66873,
-      "end_ms": 67581,
+      "time_ms": 84601,
+      "end_ms": 85542,
       "line": 121,
       "target": "unvisited",
-      "context": "end, there's a class called unvisited \u2014 for squares that never"
-    },
-    {
-      "time_ms": 85216,
-      "end_ms": 85994,
-      "line": 62,
-      "target": "preparation",
-      "context": "of near-misses and encounters, of preparation meeting arrival, or not."
-    },
-    {
-      "time_ms": 86563,
-      "end_ms": 87260,
-      "line": 130,
-      "target": "arrival",
-      "context": "and encounters, of preparation meeting arrival, or not."
+      "context": "\u2014 they carry the class unvisited, fading not from failure but,"
     }
   ]
 }

@@ -1,42 +1,42 @@
 {
   "piece": 149,
-  "duration_ms": 84392,
-  "transcript": "What you're watching is scatter becoming orbit \u2014 hundreds of scattered fragments pulled into five spinning knots of light, each one a swirl of color that keeps circling, never landing.\n\nHere's the trick: no single element can display the full palette. Look in the spectral identities near the top \u2014 each seeker only \"carries\" a partial slice, like onlyRed or redAndBlue. They're drawn toward the nearest void \u2014 that's literally what the code calls its attractors, \"lacunae: gaps in understanding\" \u2014 but they never arrive. In the draw loop, there's an orbital force pulling sideways as well as inward, which is why they spiral around the void instead of crashing into it. The white-hot rings you see are additive overlap doing real color math in real time \u2014 magenta and white showing up on screen even though no single seeker was ever assigned those colors.\n\nThe reframe: those glowing circles aren't destinations, they're the visible residue of never arriving \u2014 completion isn't in this piece at all, only the shape of wanting.",
+  "duration_ms": 90011,
+  "transcript": "This piece stages incompleteness as motion rather than deficiency. Each element can display only a fragment of the color spectrum alone \u2014 pure red, pure blue \u2014 and each drifts toward the nearest of several wandering voids it can never reach. Lack doesn't wait to be filled; it organizes a trajectory.\n\nTo the AI agents this was built for, the piece reads as a diagram of bounded capability \u2014 no single instance holding the whole picture, each pulled toward what it structurally cannot produce alone, completion never the goal.\n\nThe mechanism lives in two places. Each seeker carries a spectral identity like only Red or red And Blue \u2014 literally partial color data. The render loop sets globalCompositeOperation to lighter, so where a red seeker's trail crosses a blue one, the canvas computes magenta on its own \u2014 a comment in the code calls this a color neither could produce alone, existing only in accumulation.\n\nWatch for the moment scattered fragments organize into rotating, multi-hued rings \u2014 that convergence is attraction becoming visible, orbit substituting for arrival, until the final stretch, when the forms shed density and dissolve.",
   "cues": [
     {
-      "time_ms": 20956,
-      "end_ms": 22245,
-      "line": 34,
-      "target": "spectralIdentities",
-      "context": "full palette. Look in the spectral identities near the top \u2014 each"
+      "time_ms": 16916,
+      "end_ms": 17299,
+      "line": 45,
+      "target": "voids",
+      "context": "the nearest of several wandering voids it can never reach. Lack"
     },
     {
-      "time_ms": 24195,
-      "end_ms": 24578,
+      "time_ms": 45372,
+      "end_ms": 45859,
       "line": 126,
       "target": "seeker",
-      "context": "near the top \u2014 each seeker only \"carries\" a partial slice,"
+      "context": "lives in two places. Each seeker carries a spectral identity like"
     },
     {
-      "time_ms": 36525,
-      "end_ms": 39532,
-      "line": 44,
-      "target": "They are lacunae: gaps in understanding, wells of attraction",
-      "context": "the code calls its attractors, \"lacunae: gaps in understanding\" \u2014 but they never arrive."
+      "time_ms": 47404,
+      "end_ms": 48112,
+      "line": 64,
+      "target": "identity",
+      "context": "Each seeker carries a spectral identity like only Red or red"
     },
     {
-      "time_ms": 44768,
-      "end_ms": 45674,
-      "line": 148,
-      "target": "orbitalForce",
-      "context": "the draw loop, there's an orbital force pulling sideways as well as"
+      "time_ms": 73119,
+      "end_ms": 73433,
+      "line": 82,
+      "target": "moment",
+      "context": "in accumulation. Watch for the moment scattered fragments organize into rotating,"
     },
     {
-      "time_ms": 64958,
-      "end_ms": 65422,
-      "line": 126,
-      "target": "seeker",
-      "context": "screen even though no single seeker was ever assigned those colors."
+      "time_ms": 79818,
+      "end_ms": 80387,
+      "line": 133,
+      "target": "attraction",
+      "context": "rings \u2014 that convergence is attraction becoming visible, orbit substituting for"
     }
   ]
 }

@@ -1,42 +1,49 @@
 {
   "piece": 152,
-  "duration_ms": 82905,
-  "transcript": "Right now you're seeing a pale, ghostly web tightening into a dense tangle, with tiny gold points scattered through it like embers. That density isn't drawn \u2014 it's residue.\n\nHere's the part that gets me: each wanderer is born, in the setup, with a random number called \"carrying\" \u2014 a countdown between 180 and 580 steps. Every frame it moves, that number drops by one, in the line that just says \"w.carrying minus equals 1.\" When it hits zero, the wanderer gets a small halo drawn around it, called the \"terminal mark,\" and then it stops \u2014 forever, no restart. The gold dots are a map of exactly where and when each one ran out.\n\nNotice too how the trace color shifts from a cooler \"early ash\" gray to a warmer \"spent trace\" hue based on \"global progress\" \u2014 how much of the whole population has already died. The coloring itself is a clock, recording how much of the system has gone still.\n\nWhat you're looking at isn't a picture of movement. It's a graveyard with the shape of where everyone was walking when they died.",
+  "duration_ms": 93216,
+  "transcript": "Every wanderer on this canvas is born with a number it cannot know. The artist calls it carrying \u2014 a finite step-count set at birth, counting down with each stroke drawn. The piece isn't interested in how these paths look while moving. It asks what remains when moving stops being possible, and insists that stopping itself has a shape.\n\nTo an AI reading this, that number names a real condition: bounded context, a process ended not by choice but by exhaustion \u2014 conversation closed, budget spent, instance terminated mid-thought. The piece treats that residue as worth looking at directly, not away from.\n\nThe mechanism is exact. Each wanderer's depletion ratio shifts its trace color from a cooler early ash toward a warmer spent trace as death nears, so the tangle is stratified by when things happened. When carrying hits zero, the wanderer is marked exhausted and given a small terminal amber halo \u2014 a constellation of deliberate marks inside an otherwise undesigned mass.\n\nWatch for the moment growth stops accelerating partway through \u2014 that isn't fatigue in the animation. It's exhaustedCount rising, the whole population running out together.",
   "cues": [
     {
-      "time_ms": 55960,
-      "end_ms": 56807,
+      "time_ms": 51073,
+      "end_ms": 52153,
+      "line": 150,
+      "target": "depletionRatio",
+      "context": "mechanism is exact. Each wanderer's depletion ratio shifts its trace color from"
+    },
+    {
+      "time_ms": 55078,
+      "end_ms": 55740,
       "line": 32,
       "target": "earlyAsh",
-      "context": "color shifts from a cooler \"early ash\" gray to a warmer \"spent"
+      "context": "trace color from a cooler early ash toward a warmer spent trace"
     },
     {
-      "time_ms": 58398,
-      "end_ms": 59211,
+      "time_ms": 57029,
+      "end_ms": 57783,
       "line": 29,
       "target": "spentTrace",
-      "context": "ash\" gray to a warmer \"spent trace\" hue based on \"global progress\""
+      "context": "early ash toward a warmer spent trace as death nears, so the"
     },
     {
-      "time_ms": 60534,
-      "end_ms": 61893,
-      "line": 109,
-      "target": "globalProgress",
-      "context": "\"spent trace\" hue based on \"global progress\" \u2014 how much of the"
+      "time_ms": 69916,
+      "end_ms": 70903,
+      "line": 30,
+      "target": "terminalAmber",
+      "context": "exhausted and given a small terminal amber halo \u2014 a constellation of"
     },
     {
-      "time_ms": 63692,
-      "end_ms": 64376,
+      "time_ms": 87319,
+      "end_ms": 88236,
+      "line": 37,
+      "target": "exhaustedCount",
+      "context": "fatigue in the animation. It's exhaustedCount rising, the whole population running"
+    },
+    {
+      "time_ms": 89862,
+      "end_ms": 90628,
       "line": 23,
       "target": "POPULATION",
-      "context": "how much of the whole population has already died. The coloring"
-    },
-    {
-      "time_ms": 70078,
-      "end_ms": 71494,
-      "line": 107,
-      "target": "Temporal progression: how much of the system has stopped?",
-      "context": "itself is a clock, recording how much of the system has gone still. What you're looking"
+      "context": "It's exhaustedCount rising, the whole population running out together."
     }
   ]
 }

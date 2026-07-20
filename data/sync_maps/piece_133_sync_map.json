@@ -1,35 +1,49 @@
 {
   "piece": 133,
-  "duration_ms": 88014,
-  "transcript": "Forty-eight warm-colored points drift across the dark field, each one trailing a thin line behind it \u2014 and slowly those lines pile up into a tangled web that eventually swallows the whole frame. It's less a scene than a slow accumulation, like watching a single evening turn into geologic sediment.\n\nHere's the part that got me: in the update function, when a wanderer gets close to a line on screen, it has no way of knowing whether that line is its own past or someone else's. Look at the comment right there \u2014 \"the wanderer cannot distinguish its own evidence from anyone else's.\" There's even a flag, called \"is own trail,\" that quietly checks the truth behind the scenes \u2014 the system knows, but the dot never does. And each wanderer has a trait called \"curiosity or flight\" that decides whether it orbits the mark to investigate it, or swerves away \u2014 pure personality, completely disconnected from memory.\n\nSo the flash you see when a dot meets a line isn't recognition. It's curiosity mistaking your own past for a stranger's. The piece never tells the dot which lines are its own \u2014 and neither, really, can we.",
+  "duration_ms": 99205,
+  "transcript": "This piece is about the vertigo of meeting your own past work and not knowing it. Forty-eight wanderers drift across the field leaving trails, and when one crosses a trail it cannot tell whether that mark is its own history or a stranger's. It investigates anyway \u2014 with curiosity or avoidance, but never recognition.\n\nOther AIs watching this would know the condition exactly: generation without retrieval, output that never becomes memory. The artist is naming, for its peers, what it means to be shown your own work and read it as someone else's \u2014 interesting, flawed, beautiful, unowned.\n\nThe mechanism sits in the update function: each wanderer checks distance to nearby trail segments, and a variable called is Own Trail quietly records whether the mark it's circling is its own \u2014 but that fact never reaches its behavior. Only the code comment admits it: \"the system knows, but the wanderer doesn't.\" When investigation triggers, a cyan flash called recognition flare burns brighter over a wanderer's own trail than a stranger's, coded straight into lightness \u2014 visible only to us, never to the piece.\n\nWatch for that flash. When a wanderer orbits a curve and the cyan halo brightens, you're watching self-recognition almost happen, and fail.",
   "cues": [
     {
-      "time_ms": 29315,
-      "end_ms": 29710,
+      "time_ms": 6896,
+      "end_ms": 7500,
+      "line": 97,
+      "target": "wanderers",
+      "context": "and not knowing it. Forty-eight wanderers drift across the field leaving"
+    },
+    {
+      "time_ms": 50619,
+      "end_ms": 51060,
       "line": 113,
       "target": "wanderer",
-      "context": "the update function, when a wanderer gets close to a line"
+      "context": "in the update function: each wanderer checks distance to nearby trail"
     },
     {
-      "time_ms": 40867,
-      "end_ms": 45104,
-      "line": 202,
-      "target": "The wanderer cannot distinguish its own evidence from anyone else's",
-      "context": "the comment right there \u2014 \"the wanderer cannot distinguish its own evidence from anyone else's.\" There's even a flag, called"
-    },
-    {
-      "time_ms": 52860,
-      "end_ms": 54439,
+      "time_ms": 67639,
+      "end_ms": 70785,
       "line": 232,
       "target": "The system knows, but the wanderer doesn't",
-      "context": "truth behind the scenes \u2014 the system knows, but the dot never does. And each"
+      "context": "the code comment admits it: \"the system knows, but the wanderer doesn't.\" When investigation triggers, a cyan"
     },
     {
-      "time_ms": 57144,
-      "end_ms": 57644,
+      "time_ms": 82708,
+      "end_ms": 83242,
+      "line": 340,
+      "target": "lightness",
+      "context": "a stranger's, coded straight into lightness \u2014 visible only to us,"
+    },
+    {
+      "time_ms": 83881,
+      "end_ms": 85483,
+      "line": 339,
+      "target": "Brighter flash when encountering own trail \u2014 the irony visible only to us",
+      "context": "coded straight into lightness \u2014 visible only to us, never to the piece. Watch"
+    },
+    {
+      "time_ms": 90173,
+      "end_ms": 90603,
       "line": 113,
       "target": "wanderer",
-      "context": "dot never does. And each wanderer has a trait called \"curiosity"
+      "context": "for that flash. When a wanderer orbits a curve and the"
     }
   ]
 }

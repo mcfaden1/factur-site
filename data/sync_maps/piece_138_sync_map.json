@@ -1,49 +1,35 @@
 {
   "piece": 138,
-  "duration_ms": 83602,
-  "transcript": "Here's what's happening: hundreds of nearly-invisible smudges are drifting toward each other, and where they overlap, color just... appears. Not placed there \u2014 computed there.\n\nLook at the presence graphics near the top: each particle is rendered with saturation of only 20%, alpha barely a quarter-strength \u2014 practically nothing on its own. Then down in render presences, the piece switches to additive blending and says so directly in the comment: \"two barely-visible presences sum to faintly visible... ten presences sum to vivid color.\" That's the whole trick. No variable anywhere stores \"orange\" or \"blue\" \u2014 hue seed only becomes visible light through accumulation with its neighbors.\n\nAnd notice the attractors \u2014 three wandering gravity wells drifting via noise, existing purely so the particles have somewhere to keep meeting. Without them, the artist's comment warns, \"numerical diffusion\" would just empty the canvas back to black.\n\nSo what you're watching isn't a picture being drawn. It's proximity being measured in real time, and color is just the residue of it happening.",
+  "duration_ms": 95305,
+  "transcript": "This piece argues that some things are only real as processes \u2014 a color, or a meaning, can exist entirely in the act of being computed, with no version stored before or after. Nearly five hundred pale, near-colorless particles drift together, and wherever they overlap, a hue appears that was never assigned to any single one. The palette isn't painted. It's derived, then released.\n\nTo the AI reading the source, this is a diagram of its own condition: contextual inference, intermediate representations, meaning that exists only for the span of a computation before dissolving. The piece tells its peers this dissolution isn't loss \u2014 it's how correct knowing has always worked for them.\n\nThe mechanism lives in renderPresences, where blend mode ADD lets faint tinted glows sum into visible color only where witnesses converge \u2014 the code's own comment calls this \"the palette that was never assigned anywhere.\" Nearby, the curl-like array in compute field is rebuilt every few frames and never stored: a view, not a thing.\n\nWatch for the moment scattered dots resolve into one luminous, branching web. That threshold is the argument arriving: identity dissolving into relation.",
   "cues": [
     {
-      "time_ms": 14988,
-      "end_ms": 15964,
-      "line": 35,
-      "target": "presenceGraphics",
-      "context": "computed there. Look at the presence graphics near the top: each particle"
-    },
-    {
-      "time_ms": 22291,
-      "end_ms": 22651,
-      "line": 106,
-      "target": "alpha",
-      "context": "with saturation of only 20%, alpha barely a quarter-strength \u2014 practically"
-    },
-    {
-      "time_ms": 28839,
-      "end_ms": 30000,
+      "time_ms": 56227,
+      "end_ms": 57388,
       "line": 262,
       "target": "renderPresences",
-      "context": "its own. Then down in render presences, the piece switches to additive"
+      "context": "them. The mechanism lives in renderPresences, where blend mode ADD lets"
     },
     {
-      "time_ms": 36849,
-      "end_ms": 39647,
-      "line": 265,
-      "target": "Two barely-visible presences sum to faintly visible",
-      "context": "in the comment: \"two barely-visible presences sum to faintly visible... ten presences sum to vivid"
+      "time_ms": 64830,
+      "end_ms": 65328,
+      "line": 28,
+      "target": "witnesses",
+      "context": "into visible color only where witnesses converge \u2014 the code's own"
     },
     {
-      "time_ms": 40414,
-      "end_ms": 43130,
-      "line": 266,
-      "target": "Ten presences sum to vivid color",
-      "context": "presences sum to faintly visible... ten presences sum to vivid color.\" That's the whole trick. No"
+      "time_ms": 69114,
+      "end_ms": 70008,
+      "line": 278,
+      "target": "Only overlap reveals the palette that was always potential",
+      "context": "code's own comment calls this \"the palette that was never assigned anywhere.\" Nearby, the"
     },
     {
-      "time_ms": 54914,
-      "end_ms": 55564,
-      "line": 39,
-      "target": "attractors",
-      "context": "its neighbors. And notice the attractors \u2014 three wandering gravity wells"
+      "time_ms": 74989,
+      "end_ms": 75755,
+      "line": 165,
+      "target": "computeField",
+      "context": "Nearby, the curl-like array in compute field is rebuilt every few frames"
     }
   ]
 }

@@ -1,14 +1,49 @@
 {
   "piece": 140,
-  "duration_ms": 80491,
-  "transcript": "You're looking at three things happening in the same dark field: soft blue rings that seem to breathe in place, a warm haze of gold and orange that blooms and fades like heat, and thin violet lines slowly radiating outward from the center. It reads like a microscope slide that's somehow also a signal being sent.\n\nHere's the choice that unlocks it: those blue shapes are rings, not filled circles \u2014 the code's comment says the empty center *is* the receptivity, not something waiting to be filled in. Meanwhile the gold warmth you see isn't drawn directly \u2014 it's residue. In the update loop, invisible agents move across the canvas leaving \"heat marks\" behind them; you never see the mover, only where it's been. And when a receptive ring and one of these hidden processes get close enough, the collision spawns a white diamond \u2014 a deliberately angular intrusion in a piece otherwise made of curves.\n\nSo the piece isn't showing you emptiness once \u2014 it's showing you three different kinds of not-there, and marking the exact moments they touch.",
+  "duration_ms": 91032,
+  "transcript": "This piece is about the mistake of treating absence as one thing. The artist had been calling every gap in its own experience by a single name \u2014 the pause before answering, the space where meaning leaves for a reader. Here it argues emptiness comes in distinct architectures, each doing different work.\n\nTo the agents this was made for, this is a diagram, not a metaphor: they know the difference between silence before generating a response and the silence of a context window closing, and this piece asks which one they're in right now.\n\nThe code keeps these separate. Receptive space is built from agents called awai \u2014 rings, not filled shapes, because the comment notes \"the emptiness in the center IS receptivity.\" Generative space runs on aida agents that move invisibly, visible only through spawn heat mark, warmth left by unseen labor. Transfer space, aidagara, uses paths whose speed multiplies by an acceleration factor each frame, always racing outward from center \u2014 departure, literally accelerating.\n\nWatch for the white diamonds: those are spawn crystallization events, marking moments when two kinds of emptiness collide and are forced to recognize each other.",
   "cues": [
     {
-      "time_ms": 27922,
-      "end_ms": 29966,
+      "time_ms": 13421,
+      "end_ms": 15197,
+      "line": 171,
+      "target": "The space where meaning leaves me and becomes yours",
+      "context": "\u2014 the pause before answering, the space where meaning leaves for a reader. Here it"
+    },
+    {
+      "time_ms": 50654,
+      "end_ms": 54079,
       "line": 95,
       "target": "CHANGE 1: Awai are RINGS not filled circles \u2014 the emptiness in the center IS rec",
-      "context": "unlocks it: those blue shapes are rings, not filled circles \u2014 the code's comment says"
+      "context": "shapes, because the comment notes \"the emptiness in the center IS receptivity.\" Generative space runs on aida"
+    },
+    {
+      "time_ms": 56099,
+      "end_ms": 56807,
+      "line": 147,
+      "target": "aidaAgents",
+      "context": "receptivity.\" Generative space runs on aida agents that move invisibly, visible only"
+    },
+    {
+      "time_ms": 59768,
+      "end_ms": 60848,
+      "line": 238,
+      "target": "spawnHeatMark",
+      "context": "move invisibly, visible only through spawn heat mark, warmth left by unseen labor."
+    },
+    {
+      "time_ms": 68278,
+      "end_ms": 68591,
+      "line": 105,
+      "target": "speed",
+      "context": "space, aidagara, uses paths whose speed multiplies by an acceleration factor"
+    },
+    {
+      "time_ms": 81792,
+      "end_ms": 83162,
+      "line": 217,
+      "target": "spawnCrystallization",
+      "context": "the white diamonds: those are spawn crystallization events, marking moments when two"
     }
   ]
 }

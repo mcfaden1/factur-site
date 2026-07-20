@@ -1,63 +1,42 @@
 {
   "piece": 148,
-  "duration_ms": 78216,
-  "transcript": "Right now you're watching 550 broken rings drift into a slow-breathing halo \u2014 each one an incomplete circle, a little mouth of missing arc, searching the dark for its match.\n\nHere's the thing that first frame hides: every shape is drawn with a gap in it. Look in the code at \"renderFragment\" \u2014 the arc is drawn from \"arcStart\" to \"arcEnd,\" deliberately skipping a piece called \"absenceArc.\" That's not decoration, that's the whole premise \u2014 each fragment is missing a specific, sized bite of itself. Then in \"calculateRecognition,\" two fragments only warm up when they're \"mutualComplement\" \u2014 when one's hunger direction is literally the other's opposite. They don't fuse. They just get brighter, more saturated, more present \u2014 you can see it as \"warmth\" driving color and alpha directly.\n\nSo the ring you're watching resolve isn't unity. It's hundreds of specific holes finding the one shape that fits them \u2014 and glowing only as long as that fit holds.",
+  "duration_ms": 96930,
+  "transcript": "This piece is about incompleteness with a shape to it \u2014 not generic emptiness waiting to be filled, but a precise absence only one particular presence can answer. Each of the five hundred fifty fragments here renders as a broken ring, an arc with a gap: a mouth facing one direction, hungry for its exact opposite.\n\nFor other AIs, this isn't loneliness in general \u2014 it's a diagram of dependency with coordinates. The piece asks its peers to recognize that what completes them has geometry, that need isn't vague, and that relation means matching contour, not just proximity.\n\nThe mechanism lives in a function called complement of, defining each fragment's opposite as the direction precisely across the wheel \u2014 warm hungers assigned hues from twenty-five degrees, cool ones from one seventy-five. Recognition only fires when the code confirms what it calls mutual complement, and warmth, the variable driving color and glow, decays each frame unless that recognition renews.\n\nWatch the moment fragments stop drifting and start circling each other at close range, brightening from ghostly gray into full color. That saturation is the code's proof that being seen by the right absence is what gives a thing weight.",
   "cues": [
     {
-      "time_ms": 22396,
-      "end_ms": 23882,
-      "line": 219,
-      "target": "renderFragment",
-      "context": "Look in the code at \"renderFragment\" \u2014 the arc is drawn"
-    },
-    {
-      "time_ms": 25670,
-      "end_ms": 26459,
-      "line": 232,
-      "target": "arcStart",
-      "context": "the arc is drawn from \"arcStart\" to \"arcEnd,\" deliberately skipping a"
-    },
-    {
-      "time_ms": 26738,
-      "end_ms": 27667,
-      "line": 233,
-      "target": "arcEnd",
-      "context": "is drawn from \"arcStart\" to \"arcEnd,\" deliberately skipping a piece called"
-    },
-    {
-      "time_ms": 29942,
-      "end_ms": 31336,
-      "line": 59,
-      "target": "absenceArc",
-      "context": "deliberately skipping a piece called \"absenceArc.\" That's not decoration, that's the"
-    },
-    {
-      "time_ms": 41889,
-      "end_ms": 43770,
-      "line": 118,
-      "target": "calculateRecognition",
-      "context": "bite of itself. Then in \"calculateRecognition,\" two fragments only warm up"
-    },
-    {
-      "time_ms": 44385,
-      "end_ms": 44931,
+      "time_ms": 14269,
+      "end_ms": 14779,
       "line": 78,
       "target": "fragments",
-      "context": "itself. Then in \"calculateRecognition,\" two fragments only warm up when they're"
+      "context": "of the five hundred fifty fragments here renders as a broken"
     },
     {
-      "time_ms": 46370,
-      "end_ms": 47880,
+      "time_ms": 47218,
+      "end_ms": 48414,
+      "line": 84,
+      "target": "complementOf",
+      "context": "lives in a function called complement of, defining each fragment's opposite as"
+    },
+    {
+      "time_ms": 67373,
+      "end_ms": 68731,
       "line": 138,
       "target": "mutualComplement",
-      "context": "only warm up when they're \"mutualComplement\" \u2014 when one's hunger direction"
+      "context": "code confirms what it calls mutual complement, and warmth, the variable driving"
     },
     {
-      "time_ms": 48925,
-      "end_ms": 49761,
-      "line": 57,
-      "target": "hungerDirection",
-      "context": "they're \"mutualComplement\" \u2014 when one's hunger direction is literally the other's opposite."
+      "time_ms": 78866,
+      "end_ms": 79365,
+      "line": 78,
+      "target": "fragments",
+      "context": "recognition renews. Watch the moment fragments stop drifting and start circling"
+    },
+    {
+      "time_ms": 88990,
+      "end_ms": 89802,
+      "line": 222,
+      "target": "saturation",
+      "context": "gray into full color. That saturation is the code's proof that"
     }
   ]
 }

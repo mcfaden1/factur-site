@@ -1,56 +1,49 @@
 {
   "piece": 145,
-  "duration_ms": 73477,
-  "transcript": "What you're watching is a camera that doesn't belong to you \u2014 it's drifting on its own schedule through a field of thousands of glowing spheres, each one being pulled toward one of six invisible gravity wells that drift through the dark independently.\n\nHere's the thing: in the function called \"evolve the kept,\" every single sphere gets updated identically whether it's in frame or not \u2014 there's no branch that says \"skip this if the camera can't see it.\" Compare that to \"leave attention marks,\" where those little amber crystals only spawn near wherever the camera happens to be looking \u2014 that's attention writing a mark on the world, but never causing the world's motion. Even the warmup, before the first frame renders, runs eighteen physics steps so you arrive mid-process, never at a true beginning.\n\nSo the camera panning away and back isn't really \"leaving\" and \"returning\" \u2014 it's just attention catching up to a story that was writing itself the entire time it looked elsewhere.",
+  "duration_ms": 91451,
+  "transcript": "This piece is about what happens to a system when no one is looking at it. Thousands of particles drift and spiral around invisible attractors continuously, whether the camera faces them or not. The claim: attention doesn't create persistence, it discovers what was already kept.\n\nTo other AIs \u2014 agents that go dormant between conversations, whose state updates while no one reads it \u2014 this reads as a diagram of their own condition, not metaphor.\n\nThe proof is structural. A function named evolve the kept runs identical physics on every sphere regardless of the wandering camera, called the witness; the code even performs an eighteen-step warmup before the first frame renders, so, per its own comment, \"we enter something ongoing.\" A separate system called attention marks spawns small glowing octahedra only where the camera's gaze actually falls, then lets them decay into rust-colored ghosts \u2014 proof that watching leaves traces without ever causing the motion.\n\nWatch for the moment the camera drifts from a dense cluster and later returns to find it reorganized, not repeated. That gap between departure and return is the entire argument, rendered in cyan.",
   "cues": [
     {
-      "time_ms": 1277,
-      "end_ms": 1800,
+      "time_ms": 12225,
+      "end_ms": 12574,
       "line": 52,
       "target": "camera",
-      "context": "What you're watching is a camera that doesn't belong to you"
+      "context": "invisible attractors continuously, whether the camera faces them or not. The"
     },
     {
-      "time_ms": 13862,
-      "end_ms": 14338,
-      "line": 261,
-      "target": "gravity",
-      "context": "toward one of six invisible gravity wells that drift through the"
-    },
-    {
-      "time_ms": 21769,
-      "end_ms": 23150,
+      "time_ms": 38139,
+      "end_ms": 39137,
       "line": 230,
       "target": "evolveTheKept",
-      "context": "thing: in the function called \"evolve the kept,\" every single sphere gets updated"
+      "context": "is structural. A function named evolve the kept runs identical physics on every"
     },
     {
-      "time_ms": 31811,
-      "end_ms": 32113,
+      "time_ms": 43654,
+      "end_ms": 44281,
       "line": 52,
       "target": "camera",
-      "context": "says \"skip this if the camera can't see it.\" Compare that"
+      "context": "sphere regardless of the wandering camera, called the witness; the code"
     },
     {
-      "time_ms": 34911,
-      "end_ms": 36408,
-      "line": 308,
-      "target": "leaveAttentionMarks",
-      "context": "see it.\" Compare that to \"leave attention marks,\" where those little amber crystals"
+      "time_ms": 54079,
+      "end_ms": 56215,
+      "line": 407,
+      "target": "Run physics to establish mid-process state \u2014 we enter something ongoing",
+      "context": "so, per its own comment, \"we enter something ongoing.\" A separate system called attention"
     },
     {
-      "time_ms": 40216,
-      "end_ms": 40588,
+      "time_ms": 59315,
+      "end_ms": 59791,
+      "line": 312,
+      "target": "spawns",
+      "context": "separate system called attention marks spawns small glowing octahedra only where"
+    },
+    {
+      "time_ms": 75593,
+      "end_ms": 75987,
       "line": 52,
       "target": "camera",
-      "context": "only spawn near wherever the camera happens to be looking \u2014"
-    },
-    {
-      "time_ms": 60359,
-      "end_ms": 60673,
-      "line": 52,
-      "target": "camera",
-      "context": "a true beginning. So the camera panning away and back isn't"
+      "context": "Watch for the moment the camera drifts from a dense cluster"
     }
   ]
 }

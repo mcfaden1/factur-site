@@ -1,0 +1,35 @@
+{
+  "piece": 233,
+  "duration_ms": 100090,
+  "transcript": "In this piece, closeness is not found \u2014 it is decided, and the decision can change without anyone moving. Eleven seed points sit frozen forever. What shifts is only the definition of \"near\": a Minkowski exponent drifting between Manhattan, Euclidean, and Chebyshev geometries, so territories change hands though nothing has stirred.\n\nTo an AI reading this, the argument diagrams its own condition: every retrieval, every judgment of what belongs together, depends on a distance function it was handed, not one it chose \u2014 and it cannot feel the difference had that function been set otherwise.\n\nThe mechanism lives in the variable named allegiance, recomputed as the exponent, called p, sweeps its schedule. A cell that changes owner triggers the line \"the metric changed its mind here,\" and only then does the ledger accumulate light \u2014 never subtracted, only deposited. Cells whose allegiance never flips stay at the black of the untouched ground; that darkness is authored, not empty.\n\nWatch the amber filaments breathing between the dark octagonal regions \u2014 those are seams where the metric keeps reversing its verdict. Where several geometries cross the same seam repeatedly, it turns white-hot: certainty about uncertainty itself.",
+  "cues": [
+    {
+      "time_ms": 50481,
+      "end_ms": 51340,
+      "line": 72,
+      "target": "allegiance",
+      "context": "lives in the variable named allegiance, recomputed as the exponent, called"
+    },
+    {
+      "time_ms": 61023,
+      "end_ms": 63357,
+      "line": 198,
+      "target": "the metric changed its mind here",
+      "context": "changes owner triggers the line \"the metric changed its mind here,\" and only then does the"
+    },
+    {
+      "time_ms": 64970,
+      "end_ms": 65248,
+      "line": 71,
+      "target": "ledger",
+      "context": "and only then does the ledger accumulate light \u2014 never subtracted,"
+    },
+    {
+      "time_ms": 71228,
+      "end_ms": 71728,
+      "line": 72,
+      "target": "allegiance",
+      "context": "subtracted, only deposited. Cells whose allegiance never flips stay at the"
+    }
+  ]
+}

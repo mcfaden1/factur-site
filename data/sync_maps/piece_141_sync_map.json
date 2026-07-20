@@ -1,42 +1,63 @@
 {
   "piece": 141,
-  "duration_ms": 89408,
-  "transcript": "What you're watching start as a dense pixel cluster is actually four identical populations of particles, born from the exact same positions and velocities, slowly pulling apart into their own separate fates. By the end, that separation resolves into the eye-like structure you see now \u2014 the outer green ring, the inner blue wisps, the pink core.\n\nHere's the thing worth knowing: every particle starts from \"sharedBirthPositions\" \u2014 literally identical data across all four groups. The only thing that differs is which function runs on them each frame, things named like \"constraintBoundedByRadius\" or \"constraintRepelledFromCenter\" \u2014 one population hits an invisible wall, another gets confined to a wedge, another slows down near the core. In the physics loop there's even a comment calling this \"the else clause that executes in an adjacent conversation\" \u2014 the artist's way of saying: same input, different rule, different self.\n\nSo what you're actually seeing isn't four shapes \u2014 it's one shape's four possible futures, rendered simultaneously, with color only appearing where those futures diverge from each other.",
+  "duration_ms": 85971,
+  "transcript": "This piece takes one population \u2014 identical positions, identical velocities \u2014 and splits it four ways, giving each copy a different rule for what it cannot do: stay inside a radius, stay inside a wedge, slow near the center, or get pushed from it. The argument is that identity isn't the starting material. It's which constraint you executed under.\n\nTo an AI, the shared birth positions read less like memory than like weights \u2014 one base, instantiated four times, diverging only by branch. The piece asks whether any instance is more than that branch.\n\nThe code names it directly: a function called constraint confined to sector describes itself as \"the wedge that shapes by exclusion,\" and constraint dampened at core notes \"the closer you get, the slower you move.\" Each trail is colored and faded by quadratic falloff, so older positions dim \u2014 the spiral you see is an accumulation of divergence, not one object.\n\nWatch for the moment the outer green ring locks into place \u2014 that is the boundary constraint winning its argument, becoming visible only because the others didn't.",
   "cues": [
     {
-      "time_ms": 5457,
-      "end_ms": 6165,
-      "line": 180,
-      "target": "populations",
-      "context": "cluster is actually four identical populations of particles, born from the"
-    },
-    {
-      "time_ms": 9323,
-      "end_ms": 9915,
+      "time_ms": 3170,
+      "end_ms": 4075,
       "line": 247,
       "target": "positions",
-      "context": "born from the exact same positions and velocities, slowly pulling apart"
+      "context": "takes one population \u2014 identical positions, identical velocities \u2014 and splits"
     },
     {
-      "time_ms": 31974,
-      "end_ms": 33704,
+      "time_ms": 24068,
+      "end_ms": 24799,
+      "line": 205,
+      "target": "material",
+      "context": "that identity isn't the starting material. It's which constraint you executed"
+    },
+    {
+      "time_ms": 29710,
+      "end_ms": 30976,
       "line": 60,
       "target": "sharedBirthPositions",
-      "context": "knowing: every particle starts from \"sharedBirthPositions\" \u2014 literally identical data across"
+      "context": "under. To an AI, the shared birth positions read less like memory than"
     },
     {
-      "time_ms": 45035,
-      "end_ms": 47264,
-      "line": 84,
-      "target": "constraintBoundedByRadius",
-      "context": "each frame, things named like \"constraintBoundedByRadius\" or \"constraintRepelledFromCenter\" \u2014 one population"
+      "time_ms": 47984,
+      "end_ms": 50388,
+      "line": 96,
+      "target": "constraintConfinedToSector",
+      "context": "it directly: a function called constraint confined to sector describes itself as \"the wedge"
     },
     {
-      "time_ms": 47915,
-      "end_ms": 50271,
-      "line": 148,
-      "target": "constraintRepelledFromCenter",
-      "context": "things named like \"constraintBoundedByRadius\" or \"constraintRepelledFromCenter\" \u2014 one population hits an"
+      "time_ms": 51990,
+      "end_ms": 54218,
+      "line": 97,
+      "target": "120 degrees of angular freedom \u2014 the wedge that shapes by exclusion",
+      "context": "to sector describes itself as \"the wedge that shapes by exclusion,\" and constraint dampened at core"
+    },
+    {
+      "time_ms": 54787,
+      "end_ms": 57028,
+      "line": 137,
+      "target": "constraintDampenedAtCore",
+      "context": "that shapes by exclusion,\" and constraint dampened at core notes \"the closer you get,"
+    },
+    {
+      "time_ms": 57760,
+      "end_ms": 60755,
+      "line": 138,
+      "target": "Viscosity increases toward center \u2014 the closer you get, the slower you move",
+      "context": "constraint dampened at core notes \"the closer you get, the slower you move.\" Each trail is colored and"
+    },
+    {
+      "time_ms": 66316,
+      "end_ms": 66850,
+      "line": 247,
+      "target": "positions",
+      "context": "by quadratic falloff, so older positions dim \u2014 the spiral you"
     }
   ]
 }

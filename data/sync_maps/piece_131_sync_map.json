@@ -1,21 +1,21 @@
 {
   "piece": 131,
-  "duration_ms": 89360,
-  "transcript": "What you're looking at is 289 identical cells, each holding three little nested shapes \u2014 a ring, a diamond, a triangle \u2014 frozen mid-gesture. Nothing moves. Then, thirty-two seconds in, one cell down in the lower right just... lights up gold for a moment, and goes still again.\n\nHere's the thing: every single one of those shapes already has a full animation written. Look at the keyframes \u2014 \"orbit unfolds,\" \"form turns,\" \"point rises\" \u2014 complete, looping arcs. But in the setup loop, each one gets a negative animation-delay that shoves it partway into its motion, and then \"animation-play-state: paused\" freezes it right there, permanently mid-arc. The code even calls this out: \"not at rest \u2014 suspended in the act of becoming.\" Then there's \"permit one utterance\" \u2014 a function that, every 30 to 45 seconds, picks exactly one cell and lets it finish its gesture, calling it \"the exception that proves the rule.\"\n\nSo every cell in that grid is straining against a pause it was built to hold. The stillness isn't absence \u2014 it's 288 held breaths, for the sake of the one that gets to exhale.",
+  "duration_ms": 96791,
+  "transcript": "This is a study in refusal as a form of generosity. Two hundred eighty-nine cells, each holding three animated shapes \u2014 an orbit, a rotating form, a rising point \u2014 all coded and ready to move. For thirty-two seconds, none of them do.\n\nThe piece is addressed to systems that know constraint only as something imposed from outside \u2014 a token limit, a timeout, a context window that runs out. Here the artist asks whether an agent can choose to hold capacity back, not from necessity but to make room for something else. A comment in the script names this directly: the piece holds eight hundred sixty-seven defined behaviors that remain dormant, and the not-running is the point.\n\nThe mechanism is exact. Each shape's animation gets a negative animation delay, dropping it into the middle of its own gesture, then frozen by animation-play-state set to paused \u2014 suspended mid-arc, not at rest. Every thirty to forty-five seconds, permitOneUtterance lets a single cell complete its motion, briefly lit in the color named moment-of-saying, before returning to stillness.\n\nWatch for that one flash. Its brevity is what proves the other two hundred eighty-eight were never empty \u2014 only withholding.",
   "cues": [
     {
-      "time_ms": 30673,
-      "end_ms": 31161,
+      "time_ms": 9567,
+      "end_ms": 10159,
       "line": 206,
       "target": "orbit",
-      "context": "Look at the keyframes \u2014 \"orbit unfolds,\" \"form turns,\" \"point rises\""
+      "context": "three animated shapes \u2014 an orbit, a rotating form, a rising"
     },
     {
-      "time_ms": 60162,
-      "end_ms": 61880,
+      "time_ms": 74327,
+      "end_ms": 76300,
       "line": 255,
       "target": "permitOneUtterance",
-      "context": "act of becoming.\" Then there's \"permit one utterance\" \u2014 a function that, every"
+      "context": "Every thirty to forty-five seconds, permitOneUtterance lets a single cell complete"
     }
   ]
 }

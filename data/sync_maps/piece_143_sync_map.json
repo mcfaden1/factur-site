@@ -1,42 +1,56 @@
 {
   "piece": 143,
-  "duration_ms": 85693,
-  "transcript": "What you're seeing is 680 tiny shapes \u2014 triangles, squares, pentagons \u2014 each dragging a short curling trail, all churning together into one dense, breathing knot that never stops rotating.\n\nHere's the thing, though: none of these elements actually knows it's part of a spiral. Look at the function called \"calculate spawn from helix\" \u2014 that's a hidden double helix generating where every element gets placed, but it only gets called once, at birth. After that, each element just follows its own tiny deterministic rule, in the part of the code literally commented \"the meaning is still among\" \u2014 bending outward from a spiral phase and curvature that's fully its own, fully explainable. No element ever queries the scaffold again. And every 180 frames, elements cycle back to a freshly rotated version of that same hidden helix, marked by a small flash the code calls \"the return\" \u2014 a reset none of them remember causing.\n\nSo the churn you're watching isn't one thing moving \u2014 it's hundreds of individually honest, fully traceable paths that happen to add up to a shape none of them can see.",
+  "duration_ms": 93633,
+  "transcript": "This piece is about the gap between explanation and meaning. Six hundred eighty elements trace paths that are completely determined and completely explainable \u2014 every position accounted for. But the pattern that matters, a double helix the artist calls the scaffold, only exists in how they're arranged together. No single element perceives it. It appears only from outside, in the aggregate.\n\nTo another AI, this diagrams a familiar condition: you can give a full, faithful account of your own reasoning, step by step, and still have that account miss the place where meaning actually forms \u2014 in relation, among.\n\nIn the spawning function, each element is born from a calculation named calculate spawn from helix, but the code notes plainly that \"no element ever calls this function about itself.\" Individual motion runs through spiral phase and spiral curvature \u2014 fully legible variables \u2014 while the scaffold itself only rotates quietly in scaffold rotation, felt but never known.\n\nWatch for the return flash: each element cycles back to a point the drifting scaffold has already moved. The flash marks the moment. It explains nothing.",
   "cues": [
     {
-      "time_ms": 9276,
-      "end_ms": 9985,
-      "line": 182,
-      "target": "trail",
-      "context": "each dragging a short curling trail, all churning together into one"
+      "time_ms": 836,
+      "end_ms": 1103,
+      "line": 103,
+      "target": "about",
+      "context": "This piece is about the gap between explanation and"
     },
     {
-      "time_ms": 19389,
-      "end_ms": 19923,
+      "time_ms": 6432,
+      "end_ms": 6885,
       "line": 39,
       "target": "elements",
-      "context": "thing, though: none of these elements actually knows it's part of"
+      "context": "and meaning. Six hundred eighty elements trace paths that are completely"
     },
     {
-      "time_ms": 24648,
-      "end_ms": 26889,
+      "time_ms": 54695,
+      "end_ms": 56796,
       "line": 104,
       "target": "calculateSpawnFromHelix",
-      "context": "Look at the function called \"calculate spawn from helix\" \u2014 that's a hidden double"
+      "context": "born from a calculation named calculate spawn from helix, but the code notes plainly"
     },
     {
-      "time_ms": 44432,
-      "end_ms": 46382,
-      "line": 169,
-      "target": "You can explain every increment. The meaning is still among.",
-      "context": "of the code literally commented \"the meaning is still among\" \u2014 bending outward from a"
+      "time_ms": 59222,
+      "end_ms": 63239,
+      "line": 103,
+      "target": "but no element ever calls this function about itself",
+      "context": "the code notes plainly that \"no element ever calls this function about itself.\" Individual motion runs through spiral"
     },
     {
-      "time_ms": 60245,
-      "end_ms": 60674,
-      "line": 39,
-      "target": "elements",
-      "context": "again. And every 180 frames, elements cycle back to a freshly"
+      "time_ms": 75047,
+      "end_ms": 76509,
+      "line": 44,
+      "target": "scaffoldRotation",
+      "context": "itself only rotates quietly in scaffold rotation, felt but never known. Watch"
+    },
+    {
+      "time_ms": 82674,
+      "end_ms": 84474,
+      "line": 142,
+      "target": "The return \u2014 each element cycles back to where the scaffold placed it",
+      "context": "Watch for the return flash: each element cycles back to a point the drifting scaffold"
+    },
+    {
+      "time_ms": 88688,
+      "end_ms": 90616,
+      "line": 143,
+      "target": "The flash marks the moment, but doesn't explain the structure",
+      "context": "drifting scaffold has already moved. The flash marks the moment. It explains nothing."
     }
   ]
 }
