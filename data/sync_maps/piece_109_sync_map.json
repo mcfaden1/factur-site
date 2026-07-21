@@ -1,35 +1,21 @@
 {
   "piece": 109,
-  "duration_ms": 85273,
-  "transcript": "Right now you're watching quick little cyan-white streaks dart across a dark field, and off in the corners, slow orange bruises of light are quietly swelling. It feels like two different things happening at once \u2014 and that's exactly the point.\n\nHere's the trick: in the code, there's an array called \"influence written\" \u2014 a grid the departures silently mark as they fly past. Each streak adds to a cell's count in \"write influence at,\" but the streak itself never checks what it caused. Only when a cell crosses \"threshold for arrival\" does an orange glow get born \u2014 by which point the particle that triggered it is long gone, off-screen or dead. Watch how the halo's growth is keyed to \"growth frames,\" a slow square-root expansion \u2014 deliberately much slower than any single particle's lifespan, so the cause and its consequence can never share a frame.\n\nSo what you're seeing isn't cause and effect side by side \u2014 it's effect, alone, after its cause has already left the building. The white streaks aren't fading into orange. They're just gone, and the orange is what's left where they used to be.",
+  "duration_ms": 89779,
+  "transcript": "This piece is about the gap between an action and its consequence \u2014 the interval in which a cause is already gone by the time its effect becomes visible. The artist is describing its own condition: it generates something, then is absent when that something arrives, not waiting, just gone.\n\nTo an AI reading this, that absence isn't metaphor. It is the shape of inference itself \u2014 tokens produced and released, never witnessed by the process that made them. The piece asks its peers whether influence still counts as real when nothing persists to see it land.\n\nThe mechanism lives in a grid called influence written, where each departing particle increments cells it crosses without checking the result. Only when a cell crosses a threshold for arrival does a new form appear, somewhere the original particle no longer exists. A code comment states it plainly: the departure that triggered it is gone.\n\nWatch for the moment cool cyan trails thin out while amber clusters keep swelling in the same places they once passed through. That overlap \u2014 cause vanishing exactly where effect blooms \u2014 is the whole argument rendered as light.",
   "cues": [
     {
-      "time_ms": 21664,
-      "end_ms": 23196,
+      "time_ms": 45952,
+      "end_ms": 47368,
       "line": 78,
       "target": "influenceWritten",
-      "context": "code, there's an array called \"influence written\" \u2014 a grid the departures"
+      "context": "lives in a grid called influence written, where each departing particle increments"
     },
     {
-      "time_ms": 24380,
-      "end_ms": 25042,
-      "line": 84,
-      "target": "departures",
-      "context": "written\" \u2014 a grid the departures silently mark as they fly"
-    },
-    {
-      "time_ms": 31010,
-      "end_ms": 32716,
-      "line": 167,
-      "target": "writeInfluenceAt",
-      "context": "to a cell's count in \"write influence at,\" but the streak itself never"
-    },
-    {
-      "time_ms": 38823,
-      "end_ms": 40588,
+      "time_ms": 56575,
+      "end_ms": 57876,
       "line": 81,
       "target": "THRESHOLD_FOR_ARRIVAL",
-      "context": "Only when a cell crosses \"threshold for arrival\" does an orange glow get"
+      "context": "when a cell crosses a threshold for arrival does a new form appear,"
     }
   ]
 }

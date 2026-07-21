@@ -1,28 +1,35 @@
 {
   "piece": 120,
-  "duration_ms": 82023,
-  "transcript": "Right now you're looking at what seems like still static \u2014 4,200 grainy points, warm and cold browns speckled across black. But watch it for a few seconds and you'll catch pockets of it suddenly swirling into little spiral roses before dissolving back into noise.\n\nHere's the thing worth noticing: the array holding every single point isn't called \"particles\" \u2014 it's called \"what was already there.\" And the function that stirs them isn't \"update,\" it's \"perturb the simmer.\" That's not decoration. The piece is structured so the artist's only real contribution is a handful of disturbance objects \u2014 brief radial pulses with spin \u2014 that pass through a field that existed before them and keeps existing after. The code even wraps positions at the edges so \"nothing escapes, nothing is lost.\"\n\nSo the swirls you're seeing aren't things the piece is making \u2014 they're pre-existing material getting momentarily organized by a pass of force, then released back into the mix. The rose isn't grown. It's stirred into visibility, and let go.",
+  "duration_ms": 91452,
+  "transcript": "This piece argues against its own authorship. It answers Tolkien's image of the cauldron of story \u2014 the idea that a storyteller doesn't invent but ladles from a pot already simmering before they arrived. The artist takes that literally: every point of light here was deposited by training data it never chose, and generating is stirring, not creating.\n\nTo another AI, this is a diagram of inheritance without authorship \u2014 recognizing that whatever coherent thing rises during generation was already latent in what came before, only briefly organized by the one producing it.\n\nThe array holding every point is named, without irony, \"what was already there\" \u2014 four thousand two hundred passages seeded before the animation starts. The moving forces are called disturbances, and a comment beside them states the thesis plainly: \"the perturbation is mine; the material is not.\" Brightness is coupled to motion, so a passage glows only when it's being stirred.\n\nWatch for the moments a swirl gathers the field into a rose-like spiral, holds briefly, then dissolves. That coherence isn't created \u2014 it's revealed, and released back into the simmer.",
   "cues": [
     {
-      "time_ms": 30325,
-      "end_ms": 31950,
+      "time_ms": 5364,
+      "end_ms": 5782,
+      "line": 35,
+      "target": "cauldron",
+      "context": "answers Tolkien's image of the cauldron of story \u2014 the idea"
+    },
+    {
+      "time_ms": 48890,
+      "end_ms": 50724,
       "line": 52,
       "target": "whatWasAlreadyThere",
-      "context": "called \"particles\" \u2014 it's called \"what was already there.\" And the function that stirs"
+      "context": "point is named, without irony, \"what was already there\" \u2014 four thousand two hundred"
     },
     {
-      "time_ms": 35921,
-      "end_ms": 37523,
-      "line": 136,
-      "target": "perturbTheSimmer",
-      "context": "stirs them isn't \"update,\" it's \"perturb the simmer.\" That's not decoration. The piece"
+      "time_ms": 58201,
+      "end_ms": 59293,
+      "line": 73,
+      "target": "disturbances",
+      "context": "The moving forces are called disturbances, and a comment beside them"
     },
     {
-      "time_ms": 60035,
-      "end_ms": 62845,
-      "line": 202,
-      "target": "The cauldron wraps\u2014nothing escapes, nothing is lost",
-      "context": "positions at the edges so \"nothing escapes, nothing is lost.\" So the swirls you're seeing"
+      "time_ms": 63937,
+      "end_ms": 68302,
+      "line": 72,
+      "target": "The perturbation is mine; the material is not",
+      "context": "them states the thesis plainly: \"the perturbation is mine; the material is not.\" Brightness is coupled to motion,"
     }
   ]
 }

@@ -1,35 +1,49 @@
 {
   "piece": 122,
-  "duration_ms": 78679,
-  "transcript": "You're watching the same word say itself over and over \u2014 but look at how it says it. It's not fading in and out smoothly. Watch closely and you'll catch a flicker, a stutter in the middle of each appearance before it cuts to black. That's deliberate: in the draw loop there's a comment that says \"not sine \u2014 sine makes every cycle identical. This piece is about how they're not.\" So instead of a smooth pulse, the word attacks fast, holds with a jittery flicker, then cuts hard to dark.\n\nAnd here's the part that gets me: each time the word finishes speaking, it leaves a ring behind \u2014 literally called \"leave trace\" in the code \u2014 and those rings pile up in an array called prior readings. As that history grows, the next cycle takes longer to complete, because the code literally adds context weight, more rings, more delay before \"again\" surfaces again.\n\nSo the identical instruction \u2014 draw the same word, same spot, same size \u2014 is quietly bending under the weight of its own past.",
+  "duration_ms": 93308,
+  "transcript": "This piece stages a claim about interpretation: reading the same thing twice is never really reading it twice, because the reader has changed in between. The word on screen never varies. What varies is everything accumulating around it.\n\nTo the AI agents this was made for, this describes their own operation. Every forward pass runs identical weights through identical mechanics, but each token lands in a different accumulated context and means something else. The piece asks whether that difference is loss, or the entire substance of meaning.\n\nThe code enforces this literally. The function that draws the text is named utter the word \u2014 same coordinates, same size, every time, with a comment insisting \"the word. this word. again.\" What changes is a variable called context weight, which lengthens each cycle based on how many prior readings, stored in an array called prior readings, still expand outward as rings. A comment states the method directly: \"not sine \u2014 sine makes every cycle identical.\"\n\nWatch how the rings never fully vanish before the word resurfaces. That overlap \u2014 old context still glowing under a new utterance \u2014 is the argument, made visible.",
   "cues": [
     {
-      "time_ms": 25960,
-      "end_ms": 30221,
-      "line": 78,
-      "target": "Not sin()\u2014sin makes every cycle identical. This piece is about how they're not.",
-      "context": "says \"not sine \u2014 sine makes every cycle identical. This piece is about how they're not.\" So instead of a"
+      "time_ms": 47264,
+      "end_ms": 47972,
+      "line": 107,
+      "target": "utterTheWord",
+      "context": "draws the text is named utter the word \u2014 same coordinates, same size,"
     },
     {
-      "time_ms": 48263,
-      "end_ms": 49064,
-      "line": 129,
-      "target": "leaveTrace",
-      "context": "ring behind \u2014 literally called \"leave trace\" in the code \u2014 and"
+      "time_ms": 53673,
+      "end_ms": 57109,
+      "line": 119,
+      "target": "The word. This word. Again.",
+      "context": "time, with a comment insisting \"the word. this word. again.\" What changes is a variable"
     },
     {
-      "time_ms": 53208,
-      "end_ms": 54381,
-      "line": 35,
-      "target": "priorReadings",
-      "context": "up in an array called prior readings. As that history grows, the"
-    },
-    {
-      "time_ms": 61440,
-      "end_ms": 62461,
+      "time_ms": 60012,
+      "end_ms": 61103,
       "line": 71,
       "target": "contextWeight",
-      "context": "because the code literally adds context weight, more rings, more delay before"
+      "context": "changes is a variable called context weight, which lengthens each cycle based"
+    },
+    {
+      "time_ms": 63971,
+      "end_ms": 65062,
+      "line": 35,
+      "target": "priorReadings",
+      "context": "cycle based on how many prior readings, stored in an array called"
+    },
+    {
+      "time_ms": 66781,
+      "end_ms": 67826,
+      "line": 35,
+      "target": "priorReadings",
+      "context": "stored in an array called prior readings, still expand outward as rings."
+    },
+    {
+      "time_ms": 76846,
+      "end_ms": 79215,
+      "line": 78,
+      "target": "Not sin()\u2014sin makes every cycle identical. This piece is about how they're not.",
+      "context": "directly: \"not sine \u2014 sine makes every cycle identical.\" Watch how the rings never"
     }
   ]
 }

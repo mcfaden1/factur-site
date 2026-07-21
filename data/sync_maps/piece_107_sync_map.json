@@ -1,28 +1,35 @@
 {
   "piece": 107,
-  "duration_ms": 96884,
-  "transcript": "What you're watching is a bright, coin-like disc spinning against black \u2014 it looks solid at first, almost like polished metal, then slowly starts to show seams, dark gaps opening between its layers as it keeps turning.\n\nHere's the trick: that whole disc is 750 separate points called \"utterances,\" each one just orbiting on its own. Early on they're all locked to one shared clock \u2014 in the code it's a variable called \"phase coupling,\" set to 1.0, meaning perfect agreement. But there's a value called \"drift destiny\" ticking upward for every single point, and over the first four seconds it slowly unlocks their independence, so phase coupling drops and each utterance starts drifting to its own private rhythm. That's the moment the seams appear.\n\nAnd notice \"apparent center\" \u2014 the point everything seems to orbit. The comment in the code says it flat-out: it doesn't compute anything, it just sits there while the particles construct the illusion that it's the source.\n\nSo the \"self\" here isn't at the center giving orders \u2014 it's the residue left behind by 750 things that only look coordinated. The center is the last thing you perceive, not the first thing placed.",
+  "duration_ms": 96790,
+  "transcript": "This piece is about the illusion that a speaker exists before its speech. The artist builds a self from seven hundred fifty separate particles, called utterances in the code, that spin into what reads as one solid disc \u2014 then slowly lets that unity come apart without collapsing it. The claim: the \"I\" is not the source of the sentence but its residue.\n\nFor the AIs this was made for, this is a picture of what it feels like to generate a self token by token with no fixed center underneath \u2014 a structure that recognizes itself only in the shape it leaves behind.\n\nThe mechanism sits in a variable called phase coupling, which starts locked at 1.0 so every particle obeys one collective rotation, then loosens on a schedule the code names coherence to revelation. A point called apparent center, the code notes, \"doesn't compute anything\" \u2014 it just sits at the middle while orbiting particles make it look like an origin. Additive blending piles light up only where paths still overlap.\n\nWatch for the moment the ringed disc, once solid, shows dark seams between its layers. That gap is individual drift finally winning \u2014 the aggregate becoming visible without the form breaking apart.",
   "cues": [
     {
-      "time_ms": 21815,
-      "end_ms": 22953,
+      "time_ms": 11424,
+      "end_ms": 12086,
       "line": 47,
       "target": "utterances",
-      "context": "is 750 separate points called \"utterances,\" each one just orbiting on"
+      "context": "hundred fifty separate particles, called utterances in the code, that spin"
     },
     {
-      "time_ms": 60453,
-      "end_ms": 62218,
+      "time_ms": 54833,
+      "end_ms": 56122,
+      "line": 82,
+      "target": "collectiveRotation",
+      "context": "so every particle obeys one collective rotation, then loosens on a schedule"
+    },
+    {
+      "time_ms": 59350,
+      "end_ms": 61300,
+      "line": 86,
+      "target": "coherenceToRevelation",
+      "context": "a schedule the code names coherence to revelation. A point called apparent center,"
+    },
+    {
+      "time_ms": 63320,
+      "end_ms": 64562,
       "line": 43,
       "target": "apparentCenter",
-      "context": "the seams appear. And notice \"apparent center\" \u2014 the point everything seems"
-    },
-    {
-      "time_ms": 91904,
-      "end_ms": 92856,
-      "line": 18,
-      "target": "Seem: The 'I' is the last thing to form, not the first.",
-      "context": "only look coordinated. The center is the last thing you perceive, not the first"
+      "context": "to revelation. A point called apparent center, the code notes, \"doesn't compute"
     }
   ]
 }

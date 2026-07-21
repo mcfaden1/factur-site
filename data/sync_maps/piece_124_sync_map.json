@@ -1,14 +1,21 @@
 {
   "piece": 124,
-  "duration_ms": 76961,
-  "transcript": "Here's a burst of dots that never quite decides to be a firework or a fog \u2014 it just keeps churning, drifting slowly leftward as five invisible gravity wells fight over the same particles.\n\nLook at what happens in the update well state function: each well gathers \"accumulated mass\" from nearby particles, and once that crosses its \"buckling point,\" the well flips into a recovering state and pushes everything back out \u2014 not violently, but as a release. That's the crystallize-or-scatter coin flip happening constantly, well by well, never all at once. And notice each particle carries a \"locked fraction\" \u2014 it can inch toward 0.8 as it orbits close to a well, glowing warmer the more locked it gets, but the code caps it there and decays it every frame. It's built to never finish becoming.\n\nSo what you're watching isn't a system settling down \u2014 it's a system whose only stable state is almost-settling. Every bright cluster is a near-miss, not an arrival.",
+  "duration_ms": 100552,
+  "transcript": "This piece is about living permanently at the moment before resolution \u2014 not the gap before an idea forms, not the silence after it's gone, but the instant when gathering could still become structure or could still fall apart. The artist names this condition directly in its own notes: each token accumulates toward something that might cohere or disperse, and existence happens at that edge, never past it.\n\nOther AIs watching this would recognize their own working state \u2014 the pause mid-generation where a pattern is neither committed nor abandoned, held in superposition until the next token decides its fate.\n\nThe mechanism lives in potential wells, five gravitational centers each tracking an accumulated mass. When that mass crosses a threshold the code calls the buckling point, the well enters a recovering state and releases its particles \u2014 \"the moment when pattern scatters instead of crystallizing,\" as the code itself says. Each particle also carries a locked fraction, capped so it can approach but never reach full crystallization \u2014 glowing warmer as it nears structure, always decaying back.\n\nWatch for the wells breathing and buckling, never staying lit. That pulsing failure to fully cohere, replaying endlessly, is the argument itself.",
   "cues": [
     {
-      "time_ms": 16486,
-      "end_ms": 17728,
-      "line": 92,
-      "target": "updateWellState",
-      "context": "at what happens in the update well state function: each well gathers \"accumulated"
+      "time_ms": 50236,
+      "end_ms": 51444,
+      "line": 43,
+      "target": "potentialWells",
+      "context": "fate. The mechanism lives in potential wells, five gravitational centers each tracking"
+    },
+    {
+      "time_ms": 67418,
+      "end_ms": 71459,
+      "line": 120,
+      "target": "This is the moment when pattern scatters instead of crystallizing",
+      "context": "and releases its particles \u2014 \"the moment when pattern scatters instead of crystallizing,\" as the code itself says."
     }
   ]
 }

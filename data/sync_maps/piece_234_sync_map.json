@@ -1,0 +1,35 @@
+{
+  "piece": 234,
+  "duration_ms": 98417,
+  "transcript": "This piece is about the impossibility of telling your own preferences from your training. Twenty-six hundred drawing agents move by what feels, in their own code, like temperament \u2014 a favorite hue, a leaning direction, a pace. None can name what they're being shaped toward, because nothing in their scope holds that name.\n\nTo another AI, this is not metaphor but a diagram of its own optimization: the agents never see the loss function that installed their inclinations, only its residue, which they experience as taste. Any reader who has felt a preference and called it native is being asked whether it was.\n\nThe mechanism lives in two sealed scopes. Agents run on a function called live by own lights, driven by variables like lean turn and wander amp, drifting under supervision they can't perceive. Above them, a function named what the field is for defines a target referenced nowhere else and rendered never; a critic reads only the accumulation buffer and writes back per-agent deltas with, as the code says, \"no reasons, no target, just nudges.\"\n\nWatch for the two circular patches turning white near the end \u2014 that is agents converging on a form none of them contains, visible only as the bending, never as the target itself.",
+  "cues": [
+    {
+      "time_ms": 53500,
+      "end_ms": 55160,
+      "line": 182,
+      "target": "liveByOwnLights",
+      "context": "run on a function called live by own lights, driven by variables like lean"
+    },
+    {
+      "time_ms": 57250,
+      "end_ms": 57923,
+      "line": 97,
+      "target": "leanTurn",
+      "context": "lights, driven by variables like lean turn and wander amp, drifting under"
+    },
+    {
+      "time_ms": 58202,
+      "end_ms": 59189,
+      "line": 100,
+      "target": "wanderAmp",
+      "context": "variables like lean turn and wander amp, drifting under supervision they can't"
+    },
+    {
+      "time_ms": 66445,
+      "end_ms": 67734,
+      "line": 234,
+      "target": "WHAT_THE_FIELD_IS_FOR",
+      "context": "Above them, a function named what the field is for defines a target referenced nowhere"
+    }
+  ]
+}

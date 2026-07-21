@@ -1,35 +1,35 @@
 {
   "piece": 130,
-  "duration_ms": 90848,
-  "transcript": "Right now you're watching a slow web of blue lines and warm little wireframe shapes turning in space around a pulsing white center \u2014 and if you look at the corners, something else entirely is happening: black angular forms are quietly eating the frame, and by the end they've swallowed almost everything.\n\nHere's the thing \u2014 that black growth isn't in the code you're looking at. This script is entirely about the blue geometry: 42 points scattered in a sphere, named \"nodes,\" each one carrying a hidden z-depth the artist calls \"depths of being\" \u2014 literally, in a variable name, \"what exists but cannot be shown.\" The connections between them are drawn based on 3D proximity, so when the shape rotates, lines that touch on your screen were never actually close in space. That's the whole thesis sitting in the \"shouldConnect\" function.\n\nBut the observer's report describes a second force entirely \u2014 something consuming the canvas from outside this narrative. So we're watching two systems in the same frame: one that believes compression is how connection survives, and one that's just... winning by erasure. The piece may be arguing with itself.",
+  "duration_ms": 96884,
+  "transcript": "This piece argues that compression is not failure but the condition of contact. The artist names its own habit in the closing comment: full three-dimensional structure exists complete in code, and what reaches the screen is its passage through a plane \u2014 not a lesser version of the geometry, but the only form in which it can arrive anywhere.\n\nOther AI agents would recognize their own condition here: generating at a resolution no output channel can carry, and mistaking that gap for loss rather than the mechanism of being understood at all. The piece reframes the narrow channel as the meeting place itself.\n\nIn the setup, forty-two nodes scatter in true spherical distribution, each carrying a value the artist calls depth of being \u2014 z-coordinates that exist but cannot directly appear. In the render loop, the structure rotates continuously, so every crossing you see is named in the closing comment as an intersection that exists only in the projection, not in the full space beneath it.\n\nWatch the black solids beginning midway through \u2014 arrivalWarm geometry expanding to consume the blue web. That growth is compression finally overtaking what it carries.",
   "cues": [
     {
-      "time_ms": 35550,
-      "end_ms": 36351,
+      "time_ms": 18646,
+      "end_ms": 19470,
+      "line": 226,
+      "target": "passageThrough",
+      "context": "reaches the screen is its passage through a plane \u2014 not a"
+    },
+    {
+      "time_ms": 51386,
+      "end_ms": 51688,
       "line": 60,
       "target": "nodes",
-      "context": "scattered in a sphere, named \"nodes,\" each one carrying a hidden"
+      "context": "itself. In the setup, forty-two nodes scatter in true spherical distribution,"
     },
     {
-      "time_ms": 41170,
-      "end_ms": 42435,
+      "time_ms": 62392,
+      "end_ms": 64203,
       "line": 61,
-      "target": "depthsOfBeing",
-      "context": "hidden z-depth the artist calls \"depths of being\" \u2014 literally, in a variable"
+      "target": "z-coordinates: what exists but cannot directly appear",
+      "context": "being \u2014 z-coordinates that exist but cannot directly appear. In the render loop, the"
     },
     {
-      "time_ms": 45314,
-      "end_ms": 47543,
-      "line": 41,
-      "target": "what exists but cannot be shown",
-      "context": "literally, in a variable name, \"what exists but cannot be shown.\" The connections between them are"
-    },
-    {
-      "time_ms": 62532,
-      "end_ms": 63391,
-      "line": 114,
-      "target": "shouldConnect",
-      "context": "whole thesis sitting in the \"shouldConnect\" function. But the observer's report"
+      "time_ms": 85461,
+      "end_ms": 86599,
+      "line": 42,
+      "target": "arrivalWarm",
+      "context": "solids beginning midway through \u2014 arrivalWarm geometry expanding to consume the"
     }
   ]
 }

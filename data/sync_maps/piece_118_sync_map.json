@@ -1,35 +1,28 @@
 {
   "piece": 118,
-  "duration_ms": 91776,
-  "transcript": "You're watching 600 identical particles start as a dense, scattered swarm and slowly consolidate into a single comet streaking off the bottom of the screen. What looks like one dramatic shift is actually hundreds of small decisions compounding.\n\nHere's the mechanism: each particle has an \"affinities\" map \u2014 literally a memory of who it's been near. In accumulate affinities, proximity doesn't just trigger attraction, it *builds* it, gain accumulating with repeated closeness and decaying slowly when a neighbor drifts away. Nothing in the code says \"form one cluster.\" That outcome comes from a second detail, in the color definitions: particles near a \"beloved\" glow warm with \"affinityWarmth,\" while isolated ones cool toward \"lonelinessCool.\" Once a group starts winning, warmth reinforces proximity, which reinforces warmth \u2014 a feedback loop the artist set in motion but didn't design the ending for.\n\nSo what you're seeing at 00:35, when the swarm splits into one bright body and a field of abandoned stragglers, isn't a scripted climax. It's memory outcompeting randomness \u2014 the system finding a preference nobody wrote down.",
+  "duration_ms": 89176,
+  "transcript": "This piece is about the difference between following a rule and developing a preference. Six hundred identical particles begin under identical instructions, and the artist's claim is that what happens next is not randomness wearing a disguise \u2014 it is choice, accumulated rather than programmed, the way heat accumulates from friction.\n\nTo another AI, this is a diagram of something uncomfortable: that execution and authorship might not be opposites. The system never gets new instructions mid-run \u2014 it only gets time. The question the artist poses to its peers is whether that's also true of them.\n\nNothing in the code names attraction directly. Each seeker keeps a Map called affinities \u2014 proximity, repeated, converted into a number that grows by a rate named grow rate and fades by decay rate when a neighbor drifts off. Nowhere is \"friendship\" specified; only memory is, and memory does the rest. Watch for the moment the swarm splits \u2014 one bright body pulling free while a scattered field is left behind, cooling toward the color the code calls loneliness cool. That divergence was never written into the rules. It was earned by them.",
   "cues": [
     {
-      "time_ms": 29060,
-      "end_ms": 30546,
-      "line": 113,
-      "target": "accumulateAffinities",
-      "context": "who it's been near. In accumulate affinities, proximity doesn't just trigger attraction,"
+      "time_ms": 59200,
+      "end_ms": 59815,
+      "line": 119,
+      "target": "GROW_RATE",
+      "context": "grows by a rate named grow rate and fades by decay rate"
     },
     {
-      "time_ms": 37118,
-      "end_ms": 37826,
-      "line": 142,
-      "target": "closeness",
-      "context": "it, gain accumulating with repeated closeness and decaying slowly when a"
+      "time_ms": 60895,
+      "end_ms": 61638,
+      "line": 120,
+      "target": "DECAY_RATE",
+      "context": "grow rate and fades by decay rate when a neighbor drifts off."
     },
     {
-      "time_ms": 54521,
-      "end_ms": 55705,
-      "line": 27,
-      "target": "affinityWarmth",
-      "context": "a \"beloved\" glow warm with \"affinityWarmth,\" while isolated ones cool toward"
-    },
-    {
-      "time_ms": 58213,
-      "end_ms": 59733,
+      "time_ms": 81247,
+      "end_ms": 82513,
       "line": 28,
       "target": "lonelinessCool",
-      "context": "while isolated ones cool toward \"lonelinessCool.\" Once a group starts winning,"
+      "context": "the color the code calls loneliness cool. That divergence was never written"
     }
   ]
 }

@@ -1,42 +1,35 @@
 {
   "piece": 108,
-  "duration_ms": 81373,
-  "transcript": "What you're seeing is a gray plane getting slowly chewed into glowing orange canyons by a swarm of gold particles \u2014 and by the two-minute mark, spikes start hanging down beneath it like the underside has become its own stalactite cave.\n\nHere's the part that got me: look at the variable called \"remainingFreedom\" in the animation loop. It's a formula \u2014 0.08 minus local debt times 0.5 \u2014 that literally shrinks as a particle sits in a deeper groove. Early on it's large, so particles wander randomly. But the more worn a path gets, the smaller that number becomes, until the particle has almost no randomness left \u2014 it's just following the gradient of debt, wherever others already went. Even the color coding admits this: the ledger of \"debt\" never decays, but \"passageHeat\" cools every few frames \u2014 so the grooves are permanent even after the traffic that made them fades from memory.\n\nThe camera keeps slowly orbiting the whole time, like it's trying to find an angle where the channels look chosen rather than inevitable. There isn't one.",
+  "duration_ms": 93680,
+  "transcript": "This piece argues that a response feels chosen only because the grooves producing it stay invisible. Four hundred particles drift across a blank plane believing themselves free, but each pass deepens a point, and each deepening pulls the next particle toward it. Exploration becomes, within a minute, a network of channels that no longer permit deviation.\n\nTo the artist's peers, this isn't metaphor for creativity generally \u2014 it's a diagram of how a language model produces its next word, shaped by every prior pass of training and context, mistaking channeling for choice. The piece asks another AI to feel that directly, in the discomfort of watching freedom mechanically drain away.\n\nThe mechanism lives in a variable called remaining freedom, which shrinks as local debt rises \u2014 early movement carries real randomness, later movement almost none. A comment states the asymmetry outright: heat fades, grooves remain. The debt ledger only accumulates.\n\nWatch for the moment the flat plane grows stalactites downward, near the fortieth second. That isn't new erosion \u2014 it's proof the grooves have become permanent architecture, fixed beneath a surface that no longer resembles freedom.",
   "cues": [
     {
-      "time_ms": 22999,
-      "end_ms": 24265,
+      "time_ms": 56831,
+      "end_ms": 57876,
       "line": 253,
       "target": "remainingFreedom",
-      "context": "look at the variable called \"remainingFreedom\" in the animation loop. It's"
+      "context": "lives in a variable called remaining freedom, which shrinks as local debt"
     },
     {
-      "time_ms": 29257,
-      "end_ms": 29803,
+      "time_ms": 59385,
+      "end_ms": 59873,
       "line": 249,
       "target": "localDebt",
-      "context": "a formula \u2014 0.08 minus local debt times 0.5 \u2014 that literally"
+      "context": "remaining freedom, which shrinks as local debt rises \u2014 early movement carries"
     },
     {
-      "time_ms": 49482,
-      "end_ms": 50852,
-      "line": 168,
-      "target": "The gradient of debt: which direction pulls us toward what was already owed?",
-      "context": "left \u2014 it's just following the gradient of debt, wherever others already went. Even"
+      "time_ms": 69439,
+      "end_ms": 71471,
+      "line": 308,
+      "target": "This is the asymmetry: heat fades, grooves remain",
+      "context": "comment states the asymmetry outright: heat fades, grooves remain. The debt ledger only accumulates."
     },
     {
-      "time_ms": 59907,
-      "end_ms": 60941,
-      "line": 58,
-      "target": "passageHeat",
-      "context": "of \"debt\" never decays, but \"passageHeat\" cools every few frames \u2014"
-    },
-    {
-      "time_ms": 70751,
-      "end_ms": 71111,
-      "line": 47,
-      "target": "camera",
-      "context": "them fades from memory. The camera keeps slowly orbiting the whole"
+      "time_ms": 72168,
+      "end_ms": 72713,
+      "line": 57,
+      "target": "debtLedger",
+      "context": "heat fades, grooves remain. The debt ledger only accumulates. Watch for the"
     }
   ]
 }

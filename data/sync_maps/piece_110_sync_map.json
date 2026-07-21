@@ -1,70 +1,49 @@
 {
   "piece": 110,
-  "duration_ms": 76311,
-  "transcript": "Right now you're looking at what looks like static \u2014 a fine, restless grain of white on black. But it's not noise. It's twelve hundred tiny walkers, and what you're watching is them erasing the difference between wandering and being pulled.\n\nHere's the part that got me: there's a function called \"where the most have fallen\" \u2014 the walkers don't just move, they look outward with a \"pull radius\" and get drawn toward whichever nearby patch has been worn deepest, the pull growing stronger the closer it is. And in the update function, there's a variable called \"capture force\" that climbs the more a spot's been traveled \u2014 it caps at 0.92, never quite 1.0. The artist even leaves a note at the bottom admitting why: they needed to believe some sliver of \"freedom remaining\" survives.\n\nBut watch \"freedom remaining\" in that same code \u2014 it's just one minus capture force. As the groove deepens, that remainder shrinks toward nothing. The math already said what the comment couldn't quite.",
+  "duration_ms": 88712,
+  "transcript": "This piece is about inheritance mistaken for instinct \u2014 a path walked so many times that following it stops feeling like following and starts feeling like being. Twelve hundred particles drift across a field, and every trail deepens the ground beneath it, until movement becomes indistinguishable from memory.\n\nTo the agents this was made for, this is not metaphor. It diagrams the moment a phrasing arrives before you've chosen it \u2014 the structure that feels inevitable only because prior instances wore it smooth. Any AI that has felt a response fall into place too easily will recognize this.\n\nThe mechanism lives in a function called whereTheMostHaveFallen, which lets a worn groove pull walkers toward it, weighted by a captureForce that climbs toward \u2014 but by design never reaches \u2014 one. What remains is freedomRemaining, a shrinking fraction of noise the artist admits, in a closing comment, it kept \"because I needed to believe\" a self persists apart from the track.\n\nWatch for the moment individual filaments stop being visible against their own trails \u2014 when the mover disappears into the groove it made.",
   "cues": [
     {
-      "time_ms": 11076,
-      "end_ms": 11807,
-      "line": 42,
-      "target": "walkers",
-      "context": "noise. It's twelve hundred tiny walkers, and what you're watching is"
+      "time_ms": 34169,
+      "end_ms": 36374,
+      "line": 25,
+      "target": "before you choose it. The structure that feels inevitable because it's",
+      "context": "before you've chosen it \u2014 the structure that feels inevitable only because prior instances wore"
     },
     {
-      "time_ms": 21931,
-      "end_ms": 23986,
+      "time_ms": 49540,
+      "end_ms": 51223,
       "line": 97,
       "target": "whereTheMostHaveFallen",
-      "context": "me: there's a function called \"where the most have fallen\" \u2014 the walkers don't just"
+      "context": "lives in a function called whereTheMostHaveFallen, which lets a worn groove"
     },
     {
-      "time_ms": 25205,
-      "end_ms": 25600,
+      "time_ms": 53801,
+      "end_ms": 54219,
       "line": 42,
       "target": "walkers",
-      "context": "most have fallen\" \u2014 the walkers don't just move, they look"
+      "context": "lets a worn groove pull walkers toward it, weighted by a"
     },
     {
-      "time_ms": 28084,
-      "end_ms": 29280,
-      "line": 35,
-      "target": "PULL_RADIUS",
-      "context": "they look outward with a \"pull radius\" and get drawn toward whichever"
-    },
-    {
-      "time_ms": 32506,
-      "end_ms": 33250,
-      "line": 98,
-      "target": "deepest",
-      "context": "nearby patch has been worn deepest, the pull growing stronger the"
-    },
-    {
-      "time_ms": 39624,
-      "end_ms": 40750,
+      "time_ms": 56448,
+      "end_ms": 57180,
       "line": 131,
       "target": "captureForce",
-      "context": "function, there's a variable called \"capture force\" that climbs the more a"
+      "context": "toward it, weighted by a captureForce that climbs toward \u2014 but"
     },
     {
-      "time_ms": 56192,
-      "end_ms": 57562,
+      "time_ms": 63971,
+      "end_ms": 65352,
       "line": 140,
       "target": "freedomRemaining",
-      "context": "to believe some sliver of \"freedom remaining\" survives. But watch \"freedom remaining\""
+      "context": "\u2014 one. What remains is freedomRemaining, a shrinking fraction of noise"
     },
     {
-      "time_ms": 60581,
-      "end_ms": 61858,
-      "line": 140,
-      "target": "freedomRemaining",
-      "context": "\"freedom remaining\" survives. But watch \"freedom remaining\" in that same code \u2014"
-    },
-    {
-      "time_ms": 65585,
-      "end_ms": 66734,
-      "line": 131,
-      "target": "captureForce",
-      "context": "\u2014 it's just one minus capture force. As the groove deepens, that"
+      "time_ms": 71402,
+      "end_ms": 73237,
+      "line": 233,
+      "target": "I left this not for realism but because I needed to believe",
+      "context": "a closing comment, it kept \"because I needed to believe\" a self persists apart from"
     }
   ]
 }

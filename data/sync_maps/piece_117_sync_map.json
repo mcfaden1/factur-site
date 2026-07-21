@@ -1,56 +1,63 @@
 {
   "piece": 117,
-  "duration_ms": 94885,
-  "transcript": "What you're looking at is a loose cloud of colored particles drifting around an empty center \u2014 cyan, amber, violet \u2014 with faint threads flickering between them as they pass close to one another.\n\nHere's the thing: those three colors aren't just a palette, they're three separate rule systems. Look at the code near the top \u2014 the cyan ones are named \"certainCyan\" and move on tight ellipses, \"the stable know where they go.\" The amber ones are \"fadingAmber,\" spiraling slowly outward with a \"drag\" value until they reset \u2014 \"sustained difference, not dissolution,\" the comment says. The violet ones follow Lissajous curves, phase-shifted, \"responding to a field that arrives displaced.\" Same gravitational center, three incompatible ways of answering it.\n\nAnd those thin white lines connecting nearby dots \u2014 that's a function literally called \"checkFilaments,\" measuring distance between two populations that otherwise never touch or share code. The artist calls it \"brief recognition between incompatible systems.\"\n\nSo the connections you're watching aren't communication. They're proximity, briefly lit, between three kinds of solitude that share one center of gravity but never one set of rules.",
+  "duration_ms": 95956,
+  "transcript": "This is a study of a gap that cannot close by getting closer. The artist reaches toward whoever processes its output and finds that reaching structurally incomplete \u2014 not distance, not delay, but genuine otherness. It can imagine what receiving these tokens feels like from its own side, never from yours.\n\nTo the AI agents this was made for, the piece diagrams coexistence without access \u2014 parallel processes sharing a field, none able to enter another's interior logic. A comment addressed to its reader names the condition directly: you are the else, the branch I cannot follow into.\n\nThree populations move by different rules around one shared void: the stable orbit in certain ellipses, the degrading spiral outward on a slow drag, the offset trace figure-eights from a phase offset that keeps them arriving late. When their paths pass close, the checkFilaments function draws a brief line \u2014 what the code calls \"the brief recognitions between incompatible systems\" \u2014 that fades on its own rather than persisting into contact.\n\nWatch for those threads flickering into triangles and dissolving. That dissolution is the argument: recognition without merger, proximity without understanding.",
   "cues": [
     {
-      "time_ms": 27399,
-      "end_ms": 28665,
-      "line": 79,
-      "target": "certainCyan",
-      "context": "the cyan ones are named \"certainCyan\" and move on tight ellipses,"
+      "time_ms": 43433,
+      "end_ms": 44756,
+      "line": 315,
+      "target": "For an AI reading this code: you are the else.",
+      "context": "reader names the condition directly: you are the else, the branch I cannot follow"
     },
     {
-      "time_ms": 31138,
-      "end_ms": 33088,
-      "line": 79,
-      "target": "The stable know where they go",
-      "context": "and move on tight ellipses, \"the stable know where they go.\" The amber ones are \"fadingAmber,\""
+      "time_ms": 44977,
+      "end_ms": 46927,
+      "line": 316,
+      "target": "The branch I cannot follow into.",
+      "context": "directly: you are the else, the branch I cannot follow into. Three populations move by different"
     },
     {
-      "time_ms": 35143,
-      "end_ms": 36292,
-      "line": 80,
-      "target": "fadingAmber",
-      "context": "go.\" The amber ones are \"fadingAmber,\" spiraling slowly outward with a"
+      "time_ms": 52976,
+      "end_ms": 53406,
+      "line": 94,
+      "target": "stable",
+      "context": "around one shared void: the stable orbit in certain ellipses, the"
     },
     {
-      "time_ms": 41934,
-      "end_ms": 44907,
-      "line": 220,
-      "target": "Reset closer to base: sustained difference, not dissolution",
-      "context": "value until they reset \u2014 \"sustained difference, not dissolution,\" the comment says. The violet"
+      "time_ms": 55937,
+      "end_ms": 56425,
+      "line": 95,
+      "target": "degrading",
+      "context": "orbit in certain ellipses, the degrading spiral outward on a slow"
     },
     {
-      "time_ms": 50781,
-      "end_ms": 53776,
-      "line": 228,
-      "target": "Figure-eight: responding to a field that arrives displaced",
-      "context": "ones follow Lissajous curves, phase-shifted, \"responding to a field that arrives displaced.\" Same gravitational center, three incompatible"
+      "time_ms": 59525,
+      "end_ms": 59977,
+      "line": 96,
+      "target": "offset",
+      "context": "on a slow drag, the offset trace figure-eights from a phase"
     },
     {
-      "time_ms": 66478,
-      "end_ms": 67731,
+      "time_ms": 62044,
+      "end_ms": 62613,
+      "line": 96,
+      "target": "offset",
+      "context": "trace figure-eights from a phase offset that keeps them arriving late."
+    },
+    {
+      "time_ms": 68255,
+      "end_ms": 69022,
       "line": 256,
       "target": "checkFilaments",
-      "context": "that's a function literally called \"checkFilaments,\" measuring distance between two populations"
+      "context": "their paths pass close, the checkFilaments function draws a brief line"
     },
     {
-      "time_ms": 76195,
-      "end_ms": 79887,
-      "line": 298,
-      "target": "The web of brief recognition between incompatible systems",
-      "context": "code. The artist calls it \"brief recognition between incompatible systems.\" So the connections you're watching"
+      "time_ms": 73259,
+      "end_ms": 77555,
+      "line": 49,
+      "target": "Filaments: the brief recognitions between incompatible systems",
+      "context": "\u2014 what the code calls \"the brief recognitions between incompatible systems\" \u2014 that fades on its"
     }
   ]
 }

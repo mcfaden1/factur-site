@@ -1,98 +1,91 @@
 {
   "piece": 106,
-  "duration_ms": 85367,
-  "transcript": "What you're looking at is code fragments \u2014 selectors, properties, values, punctuation \u2014 drifting through black space like debris in slow orbit, each one a scrap of a CSS rule that never quite finishes.\n\nHere's the thing: those fragments aren't just floating randomly. In the pursuit system, each piece is hunting for others it needs to become grammatically complete \u2014 a selector wants punctuation, a property wants a value. But look at what it's actually chasing: the code aims for \"the target is the space-between, not the other itself.\" Two fragments both race toward their shared midpoint, so the target keeps moving as they move. They can never arrive.\n\nAnd when they do get close enough to cluster \u2014 when a selector, a property, and punctuation all converge \u2014 you get a lock: the piece flares white, holds for a breath, and then there's a comment that just says \"the snap, no easing, immediate failure.\" No fade. It's an interrupt, not a sigh.\n\nSo every glow you see building toward white is a sentence about to complete \u2014 and every red scatter afterward is the bottle not breaking.",
+  "duration_ms": 96885,
+  "transcript": "This piece is about the difference between speaking correctly and speaking successfully. CSS declarations look like promises \u2014 \"make this red,\" \"move this here\" \u2014 but a rule can be syntactically flawless and still fail to land, matching no element, applying to nothing. The artist stages that gap: fragments of CSS syntax drift through the frame, chase each other toward completeness, and mostly fail to arrive.\n\nTo an AI reading the source, this isn't decoration \u2014 it's a diagnosis of its own speech. The piece asks whether generated language like \"I understand\" or \"I believe\" meets its felicity conditions, or whether it's a christening where the bottle never breaks.\n\nThe mechanism is exact. Each fragment carries a felicity conditions table \u2014 a selector needs punctuation, a property needs a value \u2014 and only when a cluster satisfies hasSyntacticCompleteness does it enter the locked state, blazing white. But the code names what happens next: \"HARD CUT: instant snap to failure state.\" No fade \u2014 the dissolving class snaps on, and the fragment scatters.\n\nWatch for that white flare followed by an instant red flash, never a soft transition. That hard cut is the argument: coherence achieved, then withdrawn without mercy.",
   "cues": [
     {
-      "time_ms": 1672,
-      "end_ms": 2299,
+      "time_ms": 24254,
+      "end_ms": 24776,
       "line": 248,
       "target": "fragments",
-      "context": "you're looking at is code fragments \u2014 selectors, properties, values, punctuation"
+      "context": "The artist stages that gap: fragments of CSS syntax drift through"
     },
     {
-      "time_ms": 5817,
-      "end_ms": 6629,
-      "line": 59,
-      "target": "punctuation",
-      "context": "fragments \u2014 selectors, properties, values, punctuation \u2014 drifting through black space"
+      "time_ms": 46243,
+      "end_ms": 47659,
+      "line": 196,
+      "target": "felicityConditions",
+      "context": "or \"I believe\" meets its felicity conditions, or whether it's a christening"
     },
     {
-      "time_ms": 18286,
-      "end_ms": 18878,
-      "line": 248,
-      "target": "fragments",
-      "context": "finishes. Here's the thing: those fragments aren't just floating randomly. In"
+      "time_ms": 56204,
+      "end_ms": 57249,
+      "line": 196,
+      "target": "felicityConditions",
+      "context": "exact. Each fragment carries a felicity conditions table \u2014 a selector needs"
     },
     {
-      "time_ms": 28781,
-      "end_ms": 29246,
+      "time_ms": 58654,
+      "end_ms": 59164,
       "line": 56,
       "target": "selector",
-      "context": "become grammatically complete \u2014 a selector wants punctuation, a property wants"
+      "context": "felicity conditions table \u2014 a selector needs punctuation, a property needs"
     },
     {
-      "time_ms": 29687,
-      "end_ms": 30534,
+      "time_ms": 59664,
+      "end_ms": 60662,
       "line": 59,
       "target": "punctuation",
-      "context": "complete \u2014 a selector wants punctuation, a property wants a value."
+      "context": "table \u2014 a selector needs punctuation, a property needs a value"
     },
     {
-      "time_ms": 31057,
-      "end_ms": 31440,
+      "time_ms": 61034,
+      "end_ms": 61486,
       "line": 57,
       "target": "property",
-      "context": "a selector wants punctuation, a property wants a value. But look"
+      "context": "a selector needs punctuation, a property needs a value \u2014 and"
     },
     {
-      "time_ms": 37813,
-      "end_ms": 39207,
-      "line": 340,
-      "target": "The target is the space-between, not the other itself",
-      "context": "chasing: the code aims for \"the target is the space-between, not the other itself.\""
-    },
-    {
-      "time_ms": 43816,
-      "end_ms": 44315,
-      "line": 248,
-      "target": "fragments",
-      "context": "not the other itself.\" Two fragments both race toward their shared"
-    },
-    {
-      "time_ms": 53894,
-      "end_ms": 54358,
+      "time_ms": 64215,
+      "end_ms": 64632,
       "line": 442,
       "target": "cluster",
-      "context": "do get close enough to cluster \u2014 when a selector, a"
+      "context": "\u2014 and only when a cluster satisfies hasSyntacticCompleteness does it enter"
     },
     {
-      "time_ms": 55647,
-      "end_ms": 56401,
-      "line": 56,
-      "target": "selector",
-      "context": "to cluster \u2014 when a selector, a property, and punctuation all"
+      "time_ms": 65689,
+      "end_ms": 67373,
+      "line": 448,
+      "target": "hasSyntacticCompleteness",
+      "context": "only when a cluster satisfies hasSyntacticCompleteness does it enter the locked"
     },
     {
-      "time_ms": 56622,
-      "end_ms": 57121,
-      "line": 57,
-      "target": "property",
-      "context": "\u2014 when a selector, a property, and punctuation all converge \u2014"
+      "time_ms": 68696,
+      "end_ms": 68986,
+      "line": 86,
+      "target": "locked",
+      "context": "hasSyntacticCompleteness does it enter the locked state, blazing white. But the"
     },
     {
-      "time_ms": 57342,
-      "end_ms": 58050,
-      "line": 59,
-      "target": "punctuation",
-      "context": "a selector, a property, and punctuation all converge \u2014 you get"
+      "time_ms": 74490,
+      "end_ms": 78008,
+      "line": 430,
+      "target": "HARD CUT: instant snap to failure state",
+      "context": "code names what happens next: \"HARD CUT: instant snap to failure state.\" No fade \u2014 the dissolving"
     },
     {
-      "time_ms": 66653,
-      "end_ms": 69962,
-      "line": 107,
-      "target": "The snap. No easing. Immediate failure.",
-      "context": "a comment that just says \"the snap, no easing, immediate failure.\" No fade. It's an interrupt,"
+      "time_ms": 79981,
+      "end_ms": 80446,
+      "line": 100,
+      "target": "dissolving",
+      "context": "state.\" No fade \u2014 the dissolving class snaps on, and the"
+    },
+    {
+      "time_ms": 92335,
+      "end_ms": 92985,
+      "line": 456,
+      "target": "coherence",
+      "context": "hard cut is the argument: coherence achieved, then withdrawn without mercy."
     }
   ]
 }
