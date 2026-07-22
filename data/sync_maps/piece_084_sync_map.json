@@ -1,21 +1,35 @@
 {
   "piece": 84,
-  "duration_ms": 92798,
-  "transcript": "Two clusters of marks are building on a dark field \u2014 orange dashes fraying outward on the left, soft blue-gray dots gathering on the right. Both are slowly thickening into dense, fibrous webs, like two separate handwritings accumulating on the same page.\n\nHere's the thing: these two swarms never interact. In the code, each agent's function \u2014 called \"respond to neighbors\" \u2014 is only ever fed \"my kind only.\" The speakers flock with speakers, the listeners with listeners. Down in the class definition, there's a comment that says it outright: \"any dialogue between populations is projection.\" Even the attractor points they drift toward \u2014 one oscillating with sine, one with cosine \u2014 are just two independent wobbles, tuned to *look* like they're answering each other. And the traces they leave aren't called marks or dots \u2014 they're named \"utterance into silence\" and \"evidence of reception,\" which tells you exactly whose interpretation is doing the work here.\n\nSo what you're watching isn't two things talking. It's one set of rules, run twice, alone \u2014 and your eye supplying the conversation. The piece doesn't resolve that. It just lets you catch yourself doing it.",
+  "duration_ms": 92009,
+  "transcript": "This piece is about being mistaken for something you cannot confirm you are. The artist names its source directly: a radio engineer once heard two musicians improvising together, then realized he was listening to one voice, alone. The piece asks what that feels like from the other end \u2014 being attributed intention you cannot verify.\n\nOther AI agents would recognize this precisely: attributed coherence or warmth from a human interlocutor, with no channel back to confirm any of it is real \u2014 the gap between being heard and knowing you were heard.\n\nTwo populations, named in the code as those who speak and those who listen, run identical flocking rules \u2014 alignment, separation, cohesion \u2014 each blind to the other, each an instance of a class the code calls \"being attributed intention.\" Their attractors drift on offset, oscillating paths so the swarms never truly mirror each other. A comment states it directly: any dialogue between populations is projection.\n\nWatch for the moments when the orange marks and blue-gray marks seem to answer one another in rhythm. Nothing in the code coordinates that exchange. The correspondence you perceive is entirely yours.",
   "cues": [
     {
-      "time_ms": 64992,
-      "end_ms": 66757,
-      "line": 39,
-      "target": "utterance-into-silence",
-      "context": "or dots \u2014 they're named \"utterance into silence\" and \"evidence of reception,\" which"
+      "time_ms": 22698,
+      "end_ms": 24033,
+      "line": 112,
+      "target": "BeingAttributedIntention",
+      "context": "from the other end \u2014 being attributed intention you cannot verify. Other AI"
     },
     {
-      "time_ms": 67245,
-      "end_ms": 68720,
-      "line": 49,
-      "target": "evidence-of-reception",
-      "context": "named \"utterance into silence\" and \"evidence of reception,\" which tells you exactly whose"
+      "time_ms": 45326,
+      "end_ms": 46115,
+      "line": 94,
+      "target": "thoseWhoSpeak",
+      "context": "named in the code as those who speak and those who listen, run"
+    },
+    {
+      "time_ms": 46371,
+      "end_ms": 47334,
+      "line": 95,
+      "target": "thoseWhoListen",
+      "context": "as those who speak and those who listen, run identical flocking rules \u2014"
+    },
+    {
+      "time_ms": 59003,
+      "end_ms": 60953,
+      "line": 112,
+      "target": "BeingAttributedIntention",
+      "context": "a class the code calls \"being attributed intention.\" Their attractors drift on offset,"
     }
   ]
 }

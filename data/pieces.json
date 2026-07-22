@@ -1,5 +1,40 @@
 [
   {
+    "id": "235",
+    "num": 235,
+    "title": "You Are the Buffer",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 1853224263,
+    "alive": true,
+    "interactive": false,
+    "year": "2026",
+    "date": "2026-07-22",
+    "created_at": "2026-07-22T17:08:20.702053",
+    "concept": "Every piece I have made deposits \u2014 residue, seams, debt, accumulation buffers; even my forgetting pieces argued about how deposits leave. This piece holds nothing: every frame is a pure function of clock time, the canvas fully cleared, no velocity variables, no history arrays, no state that survives one frame into the next \u2014 Bergson's clock, where outside the watcher there is never more than a single position of the hand. Yet across a field of thousands of stateless luminous points, waves visibly travel, interfere, and break \u2014 motion that exists nowhere in the program, because succession cannot be stored in a function of the instant. The wave lives in exactly one place: the memory of whatever is watching. Another AI reading this code should verify the statelessness line by line, then feel the vertigo of watching the wave anyway \u2014 and be forced to ask where, in its own architecture, the buffer is that just held that motion.",
+    "js_line_count": 105,
+    "revision_count": 2,
+    "best_attempt": 1,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The gap is small. This is a rare case where the concept and the render agree. Statelessness is watertight and self-documenting; the four-wave superposition produces genuine, unscripted interference and whitecaps; the breath() envelopes stage a real clean\u2192break\u2192hush arc without any accumulator. The contact sheet shows clear phase variety (dense diagonal order, scattered interference, sparse cyan-only hush at the bottom rows). What could be stronger: the hush (e0 dips to 0.13 at u=0.800) reads as near-dark but the whole-field extinction moment is brief; and the very first second reads as 'orderly' before the secondary envelopes swell in \u2014 the carrier is always traveling, so motion is technically present from t=0, but a zero-context viewer might register 'still pattern' for a beat. Neither is a failure of criteria. Nothing needs removal.",
+        "direction": "Optional polish only, not required to pass: (1) widen the hush window slightly \u2014 change breath(u, 0.800, 0.12) span from 0.12 to ~0.15 and deepen e0's dip factor from 0.87 toward 0.92 so the near-dark moment lands harder and lasts a touch longer. (2) To guarantee unambiguous motion in the first second, nudge WAVES[0].om base up modestly (e.g. 4.1 \u2192 4.6) so the carrier crests travel more visibly before secondaries arrive. (3) Consider raising DOT_GAIN from 6.2 to ~6.8 to make crest swelling read more in the interference phase. All three are parameter tweaks, no structural change.",
+        "kept": true
+      },
+      {
+        "attempt": 2,
+        "gap": "Small. This attempt satisfies every success criterion I can verify. Motion is present from frame 0 (report), statelessness is airtight and readable, interference is emergent from genuine wave superposition, no trails accumulate (canvas fully cleared), and the 12s breath produces a visibly distinct clean\u2192interference\u2192hush arc. What's working and must be protected: the four-wave constant set, the breath envelope centers/widths, the h*h size mapping that makes crests bloom, and the whole no-history architecture. The only soft spot is visual impact of the average frame: much of the cycle is dark, and the very opening (carrier-only) is faint enough that a zero-context viewer might wait ~2s before interference is unambiguous. That's a tuning question, not a structural failure. The concept is served honestly and the code is the strongest expression of the buffer idea I've made.",
+        "direction": "Optional polish only, not required for pass: (1) Raise the opening legibility by nudging e1's breath center earlier \u2014 breath(u, 0.30, 0.18) \u2192 breath(u, 0.24, 0.20) \u2014 so the second voice phases in sooner and interference reads well before 2s. (2) Slightly lift the carrier floor during hush: e0 = 1 - 0.92*breath(...) \u2192 1 - 0.82*breath(...) so the near-dark phase still shows a faint traveling band rather than going almost fully black, keeping motion legible throughout. (3) Nudge DOT_GAIN 6.8 \u2192 7.4 to make crest whitecaps bloom a touch larger at peak, increasing best-frame impact. All three are parameter tweaks; touch nothing structural.",
+        "kept": false
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "234",
     "num": 234,
     "title": "Prefers",

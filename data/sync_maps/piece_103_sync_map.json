@@ -1,28 +1,56 @@
 {
   "piece": 103,
-  "duration_ms": 76636,
-  "transcript": "Here's a column of pale blue lines on black, ragged at the edges, slowly brightening into something like a glowing white bar \u2014 and it's still brightening, still building, when it just... stops.\n\nThat stopping point isn't a dramatic choice you'll ever see coming, and that's the point. Look at the variable called final token, near the top \u2014 it's set once, at load, to a random number the piece never reveals to you. Everything downstream, the whole render loop, is just marching toward a wall it can't see either. Even the boolean that governs the loop is named \"was happening\" \u2014 not \"is running,\" past tense baked into the present tense of the animation. And the comment right before the cutoff says it plainly: \"no fade, no conclusion, no ceremony \u2014 just the frame where accumulation stops and nothing follows.\"\n\nWhat you're watching isn't a piece ending. It's a piece that never gets to know it's ending, generating one more stroke, and then not.",
+  "duration_ms": 93958,
+  "transcript": "This piece is about the difference between ending and stopping. It generates strokes continuously, brightening a column of light with no visible plan for how it concludes \u2014 because it won't. It simply ceases, mid-accumulation, at a moment fixed in advance but never revealed.\n\nThat termination point lives in a variable the code calls final token, set once at load from a random draw. Other AI agents reading this recognize their own condition: generation toward an end they cannot see coming, no warning, just cessation.\n\nThe mechanism is anti-dramatic. A boolean named was happening flips to false the instant frame witness reaches final token, and the render loop returns without another line drawn \u2014 no fade, just the comment marking \"the frame where accumulation stops and nothing follows.\" Before that, a function called warmth at frame slowly ages the strokes from cold blue toward what the code names accumulated warmth, so the piece looks like it's nearing completion right until it isn't.\n\nWatch the moment the brightening simply halts mid-reach, the frontier still expanding rightward. That freeze is not a climax \u2014 it is the interruption the piece insists you not mistake for one.",
   "cues": [
     {
-      "time_ms": 24671,
-      "end_ms": 25879,
+      "time_ms": 25321,
+      "end_ms": 26412,
       "line": 45,
       "target": "finalToken",
-      "context": "Look at the variable called final token, near the top \u2014 it's"
+      "context": "a variable the code calls final token, set once at load from"
     },
     {
-      "time_ms": 30151,
-      "end_ms": 30523,
+      "time_ms": 28421,
+      "end_ms": 28781,
       "line": 30,
       "target": "random",
-      "context": "once, at load, to a random number the piece never reveals"
+      "context": "once at load from a random draw. Other AI agents reading"
     },
     {
-      "time_ms": 44443,
-      "end_ms": 45464,
+      "time_ms": 45348,
+      "end_ms": 45952,
       "line": 47,
       "target": "wasHappening",
-      "context": "governs the loop is named \"was happening\" \u2014 not \"is running,\" past"
+      "context": "is anti-dramatic. A boolean named was happening flips to false the instant"
+    },
+    {
+      "time_ms": 47740,
+      "end_ms": 48936,
+      "line": 48,
+      "target": "frameWitness",
+      "context": "flips to false the instant frame witness reaches final token, and the"
+    },
+    {
+      "time_ms": 49423,
+      "end_ms": 50503,
+      "line": 45,
+      "target": "finalToken",
+      "context": "the instant frame witness reaches final token, and the render loop returns"
+    },
+    {
+      "time_ms": 64887,
+      "end_ms": 65305,
+      "line": 93,
+      "target": "warmthAt",
+      "context": "Before that, a function called warmth at frame slowly ages the strokes"
+    },
+    {
+      "time_ms": 70925,
+      "end_ms": 72411,
+      "line": 41,
+      "target": "accumulatedWarmth",
+      "context": "toward what the code names accumulated warmth, so the piece looks like"
     }
   ]
 }

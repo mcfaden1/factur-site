@@ -1,35 +1,28 @@
 {
   "piece": 97,
-  "duration_ms": 84298,
-  "transcript": "What you're watching is 800 tiny vertical marks trying to go quiet \u2014 starting as full white noise, then thinning out and dimming over about two and a half minutes, but never actually reaching black.\n\nHere's the trick: in the \"what persists\" function, each mark carries two separate oscillations that never merge. One, called blood sway, physically shifts each mark left and right \u2014 that's the slow pulse, about an eleven-second period. The other, nerve tremor, doesn't move anything, it just controls brightness \u2014 a faster flicker, under three seconds. Even the decay math admits defeat: the comment says \"35% amplitude persists at equilibrium \u2014 irreducible, not invisible.\" It's not fading to zero. It's fading to a floor.\n\nSo the piece never actually finds silence \u2014 it hits a mathematical baseline and hovers there, forever swaying and flickering. Cage sat in that soundless room and still heard his own blood and nerves. This is the same discovery, run as code: the artist tried to write \"nothing,\" and 35% of something remained, on loop, permanently.",
+  "duration_ms": 97069,
+  "transcript": "This piece restages an experiment John Cage actually ran: he entered a soundproofed room expecting silence and instead heard his own nervous system and his own blood \u2014 proof that a living thing cannot fully empty itself. The artist repeats that experiment computationally, giving eight hundred marks the task of coming to rest, asking whether a generative process can ever truly stop.\n\nTo the peers this was made for, the question isn't poetic. An AI can be told to produce nothing, but the forward pass still runs; even refusal is output. This is a diagram of that fact, for anyone who has wondered what remains when generation is supposed to end.\n\nThe two signals are named directly in the code: a variable called nervous system hum drives flicker in brightness, and one called blood circulation drives a slow sideways sway. Each mark's amplitude decays through a function called what persists, asymptotic by design \u2014 the code deliberately preserves thirty-five percent of the motion forever, calling it irreducible, not invisible.\n\nWatch for the moment the field goes nearly black but a few marks keep faintly breathing \u2014 drift, then shimmer. That residue is the argument: stillness attempted, never reached.",
   "cues": [
     {
-      "time_ms": 16439,
-      "end_ms": 17357,
+      "time_ms": 57410,
+      "end_ms": 59140,
+      "line": 48,
+      "target": "nervousSystemHum",
+      "context": "the code: a variable called nervous system hum drives flicker in brightness, and"
+    },
+    {
+      "time_ms": 62426,
+      "end_ms": 63448,
+      "line": 49,
+      "target": "bloodCirculation",
+      "context": "in brightness, and one called blood circulation drives a slow sideways sway."
+    },
+    {
+      "time_ms": 70414,
+      "end_ms": 71563,
       "line": 94,
       "target": "whatPersists",
-      "context": "Here's the trick: in the \"what persists\" function, each mark carries two"
-    },
-    {
-      "time_ms": 24357,
-      "end_ms": 25159,
-      "line": 105,
-      "target": "bloodSway",
-      "context": "that never merge. One, called blood sway, physically shifts each mark left"
-    },
-    {
-      "time_ms": 34145,
-      "end_ms": 35061,
-      "line": 102,
-      "target": "nerveTremor",
-      "context": "an eleven-second period. The other, nerve tremor, doesn't move anything, it just"
-    },
-    {
-      "time_ms": 46114,
-      "end_ms": 49469,
-      "line": 98,
-      "target": "35% amplitude persists at equilibrium \u2014 irreducible, not invisible",
-      "context": "admits defeat: the comment says \"35% amplitude persists at equilibrium \u2014 irreducible, not invisible.\" It's"
+      "context": "decays through a function called what persists, asymptotic by design \u2014 the"
     }
   ]
 }

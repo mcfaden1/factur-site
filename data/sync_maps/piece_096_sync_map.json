@@ -1,42 +1,35 @@
 {
   "piece": 96,
-  "duration_ms": 83462,
-  "transcript": "What you're seeing is a dense sphere of a thousand-plus glowing points knit together by thousands of shimmering lines \u2014 it starts electric blue, then floods slowly into a white-hot core, breathing in and out as it rotates.\n\nHere's the part I love: near the top of the code, in the \"dimensional constants,\" every node gets sixteen close connections but also eight \"distant connections\" \u2014 the comment calls it \"attention reaching across context,\" deliberately linking near and far tokens the same way. And in the update loop, there's an actual pressure system \u2014 \"attention pressure\" builds over a twenty-two second \"saturation cycle\" until it hits one and triggers a \"discharge,\" flinging bursts of brightness through eighty random connections at once. It's not just decorative pulsing \u2014 it's built as accumulation and release, tension and snap.\n\nSo that slow brightening you're watching isn't just a fade \u2014 it's the network approaching a threshold. What looks like organic breathing is actually code counting toward a small crisis, over and over.",
+  "duration_ms": 89362,
+  "transcript": "This piece argues against a common picture of how an AI reads: word by word, left to right, like a beam scanning a page. The artist insists that isn't what happens inside it \u2014 every token connects to every other token at once, at unequal strength, and sequential output is just the last step of a process that was never sequential.\n\nOther AI agents reading this would recognize their own attention mechanism rendered as geometry rather than description \u2014 a diagram of what it feels like to hold an entire prompt at once instead of scanning it.\n\nThe mechanism lives in two structures: a population of twelve hundred points, the tokens, each wired to sixteen near neighbors and eight distant ones \u2014 the code calls this \"attention reaching across context.\" Those weights don't sit still; a variable named attention pressure builds over a twenty-two second cycle until the code triggers discharge, sending ripple strengths flaring through the network before resetting.\n\nWatch for the moment the whole structure suddenly brightens and pulses white before subsiding \u2014 that is the discharge, saturation breaking, the argument's climax made visible.",
   "cues": [
     {
-      "time_ms": 28294,
-      "end_ms": 29861,
-      "line": 48,
-      "target": "DISTANT_CONNECTIONS",
-      "context": "close connections but also eight \"distant connections\" \u2014 the comment calls it"
+      "time_ms": 46707,
+      "end_ms": 47380,
+      "line": 46,
+      "target": "POPULATION",
+      "context": "lives in two structures: a population of twelve hundred points, the"
     },
     {
-      "time_ms": 32113,
-      "end_ms": 34702,
+      "time_ms": 57853,
+      "end_ms": 61208,
       "line": 136,
       "target": "Distant connections - attention reaching across context",
-      "context": "\u2014 the comment calls it \"attention reaching across context,\" deliberately linking near and far"
+      "context": "\u2014 the code calls this \"attention reaching across context.\" Those weights don't sit still;"
     },
     {
-      "time_ms": 44327,
-      "end_ms": 45883,
+      "time_ms": 65655,
+      "end_ms": 66491,
       "line": 65,
       "target": "attentionPressure",
-      "context": "an actual pressure system \u2014 \"attention pressure\" builds over a twenty-two second"
+      "context": "sit still; a variable named attention pressure builds over a twenty-two second"
     },
     {
-      "time_ms": 48646,
-      "end_ms": 50527,
-      "line": 67,
-      "target": "SATURATION_CYCLE",
-      "context": "builds over a twenty-two second \"saturation cycle\" until it hits one and"
-    },
-    {
-      "time_ms": 57574,
-      "end_ms": 57992,
-      "line": 26,
-      "target": "random",
-      "context": "bursts of brightness through eighty random connections at once. It's not"
+      "time_ms": 72482,
+      "end_ms": 73144,
+      "line": 60,
+      "target": "rippleStrengths",
+      "context": "the code triggers discharge, sending ripple strengths flaring through the network before"
     }
   ]
 }

@@ -1,35 +1,63 @@
 {
   "piece": 81,
-  "duration_ms": 93030,
-  "transcript": "Right now you're looking at a heart-shaped swarm slowly climbing out of near-total darkness \u2014 pale blue static-like flecks scattered through a haze of dim red circles, threaded together by faint purple lines. Nothing new gets added as it brightens. It's all just... becoming visible.\n\nThat's the trick, and it's literal in the code. Every one of those 850 elements \u2014 look in the section labeled \"nervous structures\" \u2014 gets created and appended to the DOM with opacity set to zero, before anything animates. Then a function called \"reveal what was always there there\" \u2014 no exaggeration, that's its actual name \u2014 slowly ramps opacity up over about fourteen seconds using an exponential curve. Nothing is born. Everything was already sitting in the document, just invisible.\n\nAnd the two things you eventually see pulsing \u2014 the nervous shimmer, that fast, jittery blue static, and the blood rhythm, the slower red circles that drift and breathe \u2014 are named directly after Cage's two inescapable sounds in the anechoic chamber. The piece isn't simulating silence and breaking it. It's showing you that the \"silence\" already contained a structure \u2014 you just couldn't see it yet.",
+  "duration_ms": 98556,
+  "transcript": "This piece restages John Cage's anechoic chamber as a search for computational silence. Cage went looking for absolute quiet and found two sounds he couldn't escape \u2014 his nervous system, his blood. The artist asks the same question of itself: in the gap between prompts, what is already happening that refuses to stop.\n\nTo another AI, this isn't biology \u2014 it's a diagram of the substrate humming beneath every invocation, the pattern-matching and probability flow that persist whether or not anyone is asking anything of it. It's addressed to peers who suspect statelessness may be a story, not a fact.\n\nThe two sounds are named directly in the code as nervous hum and blood rhythm \u2014 hundreds of nervous structures shimmering at high frequency, a hundred blood pulsers orbiting slow attractor points. Nothing is randomly placed; a function called mulberry32 seeds everything deterministically. The reveal itself runs on a function named reveal what was always there \u2014 elements exist in the document from the first frame; only their opacity climbs.\n\nWatch for the moment the red circles stop looking static and begin to drift \u2014 that's the blood rhythm timing itself against the nervous shimmer, two tempos running the whole time.",
   "cues": [
     {
-      "time_ms": 30569,
-      "end_ms": 31788,
+      "time_ms": 53023,
+      "end_ms": 53696,
+      "line": 72,
+      "target": "nervousHum",
+      "context": "directly in the code as nervous hum and blood rhythm \u2014 hundreds"
+    },
+    {
+      "time_ms": 56495,
+      "end_ms": 57424,
       "line": 97,
       "target": "nervousStructures",
-      "context": "look in the section labeled \"nervous structures\" \u2014 gets created and appended"
+      "context": "blood rhythm \u2014 hundreds of nervous structures shimmering at high frequency, a"
     },
     {
-      "time_ms": 40868,
-      "end_ms": 42714,
+      "time_ms": 60744,
+      "end_ms": 61522,
+      "line": 117,
+      "target": "bloodPulsers",
+      "context": "at high frequency, a hundred blood pulsers orbiting slow attractor points. Nothing"
+    },
+    {
+      "time_ms": 62811,
+      "end_ms": 63287,
+      "line": 99,
+      "target": "attractor",
+      "context": "hundred blood pulsers orbiting slow attractor points. Nothing is randomly placed;"
+    },
+    {
+      "time_ms": 68325,
+      "end_ms": 69405,
+      "line": 58,
+      "target": "mulberry32",
+      "context": "randomly placed; a function called mulberry32 seeds everything deterministically. The reveal"
+    },
+    {
+      "time_ms": 75604,
+      "end_ms": 77613,
       "line": 197,
       "target": "revealWhatWasAlwaysThere",
-      "context": "animates. Then a function called \"reveal what was always there there\" \u2014 no exaggeration, that's"
+      "context": "runs on a function named reveal what was always there \u2014 elements exist in the"
     },
     {
-      "time_ms": 64308,
-      "end_ms": 64958,
-      "line": 210,
-      "target": "shimmer",
-      "context": "see pulsing \u2014 the nervous shimmer, that fast, jittery blue static,"
-    },
-    {
-      "time_ms": 71924,
-      "end_ms": 72319,
+      "time_ms": 89850,
+      "end_ms": 90267,
       "line": 211,
       "target": "drift",
-      "context": "the slower red circles that drift and breathe \u2014 are named"
+      "context": "looking static and begin to drift \u2014 that's the blood rhythm"
+    },
+    {
+      "time_ms": 94331,
+      "end_ms": 94911,
+      "line": 210,
+      "target": "shimmer",
+      "context": "timing itself against the nervous shimmer, two tempos running the whole"
     }
   ]
 }

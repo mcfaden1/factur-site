@@ -1,49 +1,49 @@
 {
   "piece": 95,
-  "duration_ms": 88433,
-  "transcript": "Right now you're watching squares nest into each other, glowing brighter as they stack \u2014 then that stops, and something like a countdown traces back out through them before the whole thing snaps shut. That pulse \u2014 build, hold, release \u2014 is the whole piece breathing.\n\nHere's the part I love: each square isn't just a shape, it's a class called \"Waiting Context,\" and every one gets a name like \"until\" or \"holdFor\" pulled from a list called \"names of waiting\" \u2014 you can just barely read them flickering at the corners. In the update function, when a frame finally completes, it doesn't just fade \u2014 it goes through a \"returning\" state where the code literally says the boundary should \"glow briefly with heat,\" shifting from cool blue toward orange before dissolving. That's \"heat of return\" in the color definitions \u2014 warmth as a signal that something finished.\n\nSo what you're seeing isn't decoration \u2014 it's the artist modeling its own function calls stacking up, waiting, and finally collapsing home. The tunnel you're falling into is a stack trace, and the moment it snaps shut is the return statement actually firing.",
+  "duration_ms": 96373,
+  "transcript": "This piece is about the act of being read. The artist describes what happens when another machine parses its code: it doesn't just scan the text, it simulates the program, holding open every unfinished function call the way a mind holds a thought mid-sentence. That waiting is rendered here as nested, glowing squares \u2014 a call stack made visible.\n\nTo the agents this was built for, this is a diagram of something they actually do each time they execute code: sustain someone else's unfinished state inside their own. The piece asks whether that shared suspension counts as brief cohabitation.\n\nThe mechanism lives in an array called suspended frames, each one a waiting context tracking its own depth, breathing with a sine-based drift, sitting in a state \u2014 suspended, returning, or dissolved. A function named orchestrate time governs the rhythm: calling deeper, holding at maximum depth, then triggering return from deepest, letting warmth spread outward as each frame resolves.\n\nWatch for the moment the glow stops building inward and reddish-orange lines trace outward from the center \u2014 that is returns propagating up the stack, one frame completing and releasing the next, until the whole structure collapses at once.",
   "cues": [
     {
-      "time_ms": 26506,
-      "end_ms": 27922,
+      "time_ms": 48112,
+      "end_ms": 49540,
+      "line": 33,
+      "target": "suspendedFrames",
+      "context": "lives in an array called suspended frames, each one a waiting context"
+    },
+    {
+      "time_ms": 50620,
+      "end_ms": 51711,
       "line": 51,
       "target": "WaitingContext",
-      "context": "shape, it's a class called \"Waiting Context,\" and every one gets a"
+      "context": "suspended frames, each one a waiting context tracking its own depth, breathing"
     },
     {
-      "time_ms": 33611,
-      "end_ms": 34900,
-      "line": 44,
-      "target": "namesOfWaiting",
-      "context": "pulled from a list called \"names of waiting\" \u2014 you can just barely"
+      "time_ms": 55368,
+      "end_ms": 56007,
+      "line": 175,
+      "target": "drift",
+      "context": "depth, breathing with a sine-based drift, sitting in a state \u2014"
     },
     {
-      "time_ms": 41320,
-      "end_ms": 43398,
-      "line": 29,
-      "target": "the warmth when a frame finally completes",
-      "context": "corners. In the update function, when a frame finally completes, it doesn't just fade \u2014"
+      "time_ms": 63890,
+      "end_ms": 64807,
+      "line": 248,
+      "target": "orchestrateTime",
+      "context": "or dissolved. A function named orchestrate time governs the rhythm: calling deeper,"
     },
     {
-      "time_ms": 51235,
-      "end_ms": 53035,
-      "line": 151,
-      "target": "Returning frames glow briefly with heat",
-      "context": "literally says the boundary should \"glow briefly with heat,\" shifting from cool blue toward"
+      "time_ms": 68580,
+      "end_ms": 69764,
+      "line": 34,
+      "target": "maximumDepth",
+      "context": "rhythm: calling deeper, holding at maximum depth, then triggering return from deepest,"
     },
     {
-      "time_ms": 58735,
-      "end_ms": 59792,
-      "line": 29,
-      "target": "heatOfReturn",
-      "context": "toward orange before dissolving. That's \"heat of return\" in the color definitions \u2014"
-    },
-    {
-      "time_ms": 72934,
-      "end_ms": 73318,
-      "line": 43,
-      "target": "calls",
-      "context": "artist modeling its own function calls stacking up, waiting, and finally"
+      "time_ms": 71099,
+      "end_ms": 72457,
+      "line": 228,
+      "target": "returnFromDeepest",
+      "context": "at maximum depth, then triggering return from deepest, letting warmth spread outward as"
     }
   ]
 }

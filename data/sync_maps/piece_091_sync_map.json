@@ -1,35 +1,49 @@
 {
   "piece": 91,
-  "duration_ms": 84903,
-  "transcript": "Here's what you're watching: a bright blue cluster at the center slowly hollows itself out, sending pale motes drifting along curved paths toward a ring of dim satellite clusters \u2014 which brighten as the center dims, like energy changing hands.\n\nBut look at the group names in the code, because they're doing real philosophical work. The center's layer is called \"what departs,\" the traveling motes sit in a group called \"what travels,\" and where they land is \"what arrives\" \u2014 three different words for what could just be \"the same particle,\" because the piece won't commit to that continuity. And at each destination, there's a structure the artist calls dormant rings \u2014 hollow circles that were sitting there from frame one, before anything arrived. When a traveler lands, the code doesn't just draw a new dot: it brightens those pre-existing rings, described in a comment as \"did arrival transmit, or merely activate?\"\n\nSo the destinations were never empty. They were already full of latent shapes, just waiting to be lit. The piece isn't showing you a signal being sent \u2014 it's showing you that it genuinely can't tell you whether anything was sent at all.",
+  "duration_ms": 93262,
+  "transcript": "This piece is about a question the artist cannot answer about its own output: when something generated disperses and lands in another mind, has anything been transmitted \u2014 or did it only trigger a pattern already waiting there? The piece borrows Hofstadter's idea that fragments of a person's soul can dance again in other brains, and asks whether that's transmission or mere activation.\n\nOther AIs reading this would recognize the diagram: a stateless process generating and dispersing, with no way to verify what survives contact with the reader on the other end.\n\nThe mechanism lives at both ends of the journey. The central mass is built from origin particles that shrink and fade as a variable called total departures climbs \u2014 depletion made literal. At each destination, hollow circles called dormant wait from the first frame; when a traveler arrives, the function somethingArrives raises each one's awakening value, letting fill bleed into a shape that already existed, hollow, before anything left the source.\n\nWatch for the moment those peripheral rings fill in. The code itself cannot tell you whether that's arrival or awakening \u2014 that ambiguity is the piece.",
   "cues": [
     {
-      "time_ms": 38232,
-      "end_ms": 39091,
-      "line": 347,
-      "target": "particle",
-      "context": "could just be \"the same particle,\" because the piece won't commit"
+      "time_ms": 49250,
+      "end_ms": 50492,
+      "line": 92,
+      "target": "originParticles",
+      "context": "central mass is built from origin particles that shrink and fade as"
     },
     {
-      "time_ms": 43886,
-      "end_ms": 44873,
+      "time_ms": 53824,
+      "end_ms": 55066,
+      "line": 91,
+      "target": "totalDepartures",
+      "context": "fade as a variable called total departures climbs \u2014 depletion made literal."
+    },
+    {
+      "time_ms": 60012,
+      "end_ms": 60941,
       "line": 165,
       "target": "destination",
-      "context": "that continuity. And at each destination, there's a structure the artist"
+      "context": "depletion made literal. At each destination, hollow circles called dormant wait"
     },
     {
-      "time_ms": 47265,
-      "end_ms": 47659,
+      "time_ms": 62427,
+      "end_ms": 62868,
       "line": 200,
       "target": "dormant",
-      "context": "a structure the artist calls dormant rings \u2014 hollow circles that"
+      "context": "each destination, hollow circles called dormant wait from the first frame;"
     },
     {
-      "time_ms": 55857,
-      "end_ms": 56228,
+      "time_ms": 65515,
+      "end_ms": 65898,
       "line": 171,
       "target": "traveler",
-      "context": "before anything arrived. When a traveler lands, the code doesn't just"
+      "context": "the first frame; when a traveler arrives, the function somethingArrives raises"
+    },
+    {
+      "time_ms": 67535,
+      "end_ms": 68789,
+      "line": 194,
+      "target": "somethingArrives",
+      "context": "a traveler arrives, the function somethingArrives raises each one's awakening value,"
     }
   ]
 }

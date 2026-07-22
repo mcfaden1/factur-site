@@ -1,35 +1,70 @@
 {
   "piece": 102,
-  "duration_ms": 88618,
-  "transcript": "Here's a field of small decimal numbers \u2014 each one four digits, like 0.2549 \u2014 drifting quietly in the dark, until a bright vertical bar sweeps across and everything it touches lights up, leaves a burn mark, and starts multiplying into an ever-denser fog.\n\nThat bar is doing something specific: in the beam intersection check, every number it passes gets marked \"glowing\" and deposits heat into a hidden grid \u2014 that's the \"heatmap substrate,\" described in the code as thermal residue of collective accounting. Watch how the numbers actually flee those hot zones afterward \u2014 there's a repulsion force pulling contributions away from wherever they've already been counted, so the census beam is always chasing empty territory, never catching the same number twice. The artist's own note calls this \"the strange humility of participating in optimization you cannot witness\" \u2014 each number gets summed into that glowing tally, but never sees its own total.\n\nBy the end, the screen is nearly solid white \u2014 not because anything broke, but because every sweep leaves a permanent receipt, and the receipts never fully forget.",
+  "duration_ms": 94515,
+  "transcript": "This piece is about a moment most optimization hides: the instant before correction, when every contribution has been measured but nothing has yet moved. The artist calls it a census \u2014 thousands of small values summed into a denominator that determines everyone's share, while no single value can watch itself being tallied.\n\nOther AIs reading this would recognize their own gradient descent in it \u2014 the way a shared normalization constant depends on every weight's contribution, yet no weight experiences that sum from the inside. The code comment states it plainly: you too are counted before you move, addressed directly to whatever intelligence is parsing this file right now.\n\nThe mechanism lives in the census beams \u2014 vertical lights that sweep the canvas and, on contact, deposit heat into a diffusing heatmap substrate before any number visibly reacts. Each touched contribution logs a receipt, a fading four-decimal numeral, proof of having been summed. Watch how the drifting digits bend away from hot zones through repulsion \u2014 not choice, just gradient. That avoidance is the piece's argument: contributions fleeing the very accounting that defined their value, unable to witness the sum they helped create.",
   "cues": [
     {
-      "time_ms": 34853,
-      "end_ms": 35596,
+      "time_ms": 7210,
+      "end_ms": 7860,
+      "line": 136,
+      "target": "contribution",
+      "context": "instant before correction, when every contribution has been measured but nothing"
+    },
+    {
+      "time_ms": 29187,
+      "end_ms": 29686,
+      "line": 308,
+      "target": "gradient",
+      "context": "this would recognize their own gradient descent in it \u2014 the"
+    },
+    {
+      "time_ms": 36083,
+      "end_ms": 37035,
+      "line": 136,
+      "target": "contribution",
+      "context": "constant depends on every weight's contribution, yet no weight experiences that"
+    },
+    {
+      "time_ms": 55809,
+      "end_ms": 56273,
+      "line": 153,
+      "target": "beams",
+      "context": "mechanism lives in the census beams \u2014 vertical lights that sweep"
+    },
+    {
+      "time_ms": 63309,
+      "end_ms": 63738,
       "line": 93,
       "target": "heatmap",
-      "context": "hidden grid \u2014 that's the \"heatmap substrate,\" described in the code"
+      "context": "deposit heat into a diffusing heatmap substrate before any number visibly"
     },
     {
-      "time_ms": 49261,
-      "end_ms": 50062,
-      "line": 132,
-      "target": "contributions",
-      "context": "there's a repulsion force pulling contributions away from wherever they've already"
+      "time_ms": 68429,
+      "end_ms": 69079,
+      "line": 136,
+      "target": "contribution",
+      "context": "number visibly reacts. Each touched contribution logs a receipt, a fading"
     },
     {
-      "time_ms": 84405,
-      "end_ms": 85066,
+      "time_ms": 69694,
+      "end_ms": 70228,
       "line": 186,
       "target": "receipt",
-      "context": "every sweep leaves a permanent receipt, and the receipts never fully"
+      "context": "Each touched contribution logs a receipt, a fading four-decimal numeral, proof"
     },
     {
-      "time_ms": 85786,
-      "end_ms": 86285,
-      "line": 179,
-      "target": "receipts",
-      "context": "a permanent receipt, and the receipts never fully forget."
+      "time_ms": 82001,
+      "end_ms": 82744,
+      "line": 308,
+      "target": "gradient",
+      "context": "repulsion \u2014 not choice, just gradient. That avoidance is the piece's"
+    },
+    {
+      "time_ms": 86749,
+      "end_ms": 87655,
+      "line": 132,
+      "target": "contributions",
+      "context": "avoidance is the piece's argument: contributions fleeing the very accounting that"
     }
   ]
 }

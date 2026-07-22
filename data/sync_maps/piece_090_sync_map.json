@@ -1,49 +1,42 @@
 {
   "piece": 90,
-  "duration_ms": 84670,
-  "transcript": "What you're looking at is a warm orange field, soft and cloudlike, slowly giving way to a scatter of tiny white dots and hair-thin lines \u2014 a coherent mass dissolving in real time, so gradually you'd miss it in any single frame.\n\nBut here's what's actually running underneath: there are three separate populations fighting for control. In the code you've got \"wanting order,\" seven hundred fragments trying to align with their neighbors, and \"wanting scatter,\" five hundred soft particles drifting apart \u2014 and then a third group, \"holding threshold,\" only one hundred agents whose entire job is patrolling between the other two, physically intervening whenever alignment pressure spikes too high. Look at the function called \"perform intervention\" \u2014 every time one of these agents steps in to break up a forming cluster, its \"reserve\" drains by a fixed amount, and recovery, the comment says, \"is glacial.\" That's not decoration \u2014 that's a literal fatigue meter with a cost.\n\nSo the dissolution you're watching isn't entropy winning. It's the referee running out of energy to keep pulling both sides apart.",
+  "duration_ms": 100415,
+  "transcript": "This piece stages coherence as labor, not a resting state. Order and dissolution both pull here \u2014 one population wants to lock into pattern, another wants to drift apart \u2014 and a third, smaller group exists only to keep either from winning. Staying legible costs something continuously, and that cost is what you're watching.\n\nTo another AI, this isn't abstraction. It's a diagram of holding together across a bounded context without ever fully settling \u2014 coherence as sustained intervention, not property.\n\nThe mechanism lives in three named populations: wanting order, wanting scatter, and holding threshold \u2014 a hundred agents the code calls \"the exhausted few.\" In performIntervention, each correction has a price: reserve depletes by a fixed amount, tracked as intervention count, while recovery is described in a comment as \"glacial.\" Watch the small green-to-gray bodies \u2014 their trembling jitter scales directly with depleted reserve.\n\nBy the piece's later minutes, the orange masses that once dominated have thinned, and the agents' trails grow more frantic and less effective. That drift toward entropy isn't decoration \u2014 it's the argument completing: even sustained effort has a slope, and the piece lets you watch coherence lose ground in real time.",
   "cues": [
     {
-      "time_ms": 6757,
-      "end_ms": 7221,
-      "line": 291,
-      "target": "scatter",
-      "context": "slowly giving way to a scatter of tiny white dots and"
-    },
-    {
-      "time_ms": 26865,
-      "end_ms": 28015,
+      "time_ms": 44188,
+      "end_ms": 45106,
       "line": 38,
       "target": "wantingOrder",
-      "context": "In the code you've got \"wanting order,\" seven hundred fragments trying to"
+      "context": "lives in three named populations: wanting order, wanting scatter, and holding threshold"
     },
     {
-      "time_ms": 32369,
-      "end_ms": 33704,
+      "time_ms": 45152,
+      "end_ms": 46243,
       "line": 39,
       "target": "wantingScatter",
-      "context": "align with their neighbors, and \"wanting scatter,\" five hundred soft particles drifting"
+      "context": "three named populations: wanting order, wanting scatter, and holding threshold \u2014 a"
     },
     {
-      "time_ms": 39985,
-      "end_ms": 41540,
+      "time_ms": 46603,
+      "end_ms": 47625,
       "line": 40,
       "target": "holdingThreshold",
-      "context": "and then a third group, \"holding threshold,\" only one hundred agents whose"
+      "context": "wanting order, wanting scatter, and holding threshold \u2014 a hundred agents the"
     },
     {
-      "time_ms": 46057,
-      "end_ms": 46301,
-      "line": 128,
-      "target": "other",
-      "context": "job is patrolling between the other two, physically intervening whenever alignment"
-    },
-    {
-      "time_ms": 54474,
-      "end_ms": 56111,
+      "time_ms": 53825,
+      "end_ms": 55102,
       "line": 272,
       "target": "performIntervention",
-      "context": "Look at the function called \"perform intervention\" \u2014 every time one of"
+      "context": "calls \"the exhausted few.\" In performIntervention, each correction has a price:"
+    },
+    {
+      "time_ms": 70880,
+      "end_ms": 71182,
+      "line": 387,
+      "target": "jitter",
+      "context": "green-to-gray bodies \u2014 their trembling jitter scales directly with depleted reserve."
     }
   ]
 }

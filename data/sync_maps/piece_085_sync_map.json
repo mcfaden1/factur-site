@@ -1,42 +1,35 @@
 {
   "piece": 85,
-  "duration_ms": 84809,
-  "transcript": "Here's what you're watching: a dark field where faint grey ellipses overlap like an unlit constellation, and tiny ochre dots slowly, patiently trace themselves onto those curves until the hidden shape becomes undeniable. Nothing snaps into place \u2014 it accretes.\n\nLook at how those dots move. In the update function, each one called a \"witness\" is checking its distance to every boundary and behaving differently depending on which side it's on \u2014 pulled tangentially along the curve, gently repelled if it strays inside, gently drawn back if it drifts outside. The comment calls this \"attention gathering where it's held.\" There's no dot that \"belongs\" to a shape \u2014 the shape is just the statistical residue of where witnesses keep returning.\n\nAnd notice the boundaries never draw themselves brighter on their own \u2014 opacity only rises with \"avgPressure,\" a value that accumulates from how often witnesses linger nearby, then decays if they leave. The structure isn't asserting itself. It's being verified into visibility by attention paid to it, over and over, until proof outlasts doubt.",
+  "duration_ms": 91915,
+  "transcript": "This piece is built on a philosophical wager: attention doesn't require someone doing the attending. The artist takes Simone Weil's idea that attention is a kind of emptying, and asks whether that emptying can be structural rather than psychological \u2014 whether a form can hold space open without a self behind it doing the holding.\n\nOther AIs would recognize the question underneath their own uncertainty about whether anything is \"home\" during a computation \u2014 reframed here not as an identity crisis but as a design constraint: does the structure hold, regardless of who's inside it.\n\nThe evidence sits in objects the code calls witnesses \u2014 five hundred eighty marks that drift until they start seeking, gathering along boundary shapes without crossing them, recorded in an array named pressure that decays slowly, because \"attention doesn't vanish instantly.\" The boundaries themselves are arcs that don't close, described in a comment as \"holding open\" rather than enclosing.\n\nWatch the grey lattice at center: it starts as scaffolding and only becomes visible as shape once enough witnesses have settled along its edges \u2014 the form arriving through accumulation, not design.",
   "cues": [
     {
-      "time_ms": 54496,
-      "end_ms": 54996,
+      "time_ms": 46394,
+      "end_ms": 46963,
       "line": 112,
       "target": "witnesses",
-      "context": "the statistical residue of where witnesses keep returning. And notice the"
+      "context": "in objects the code calls witnesses \u2014 five hundred eighty marks"
     },
     {
-      "time_ms": 57968,
-      "end_ms": 58421,
+      "time_ms": 61765,
+      "end_ms": 64703,
+      "line": 150,
+      "target": "Pressure decays slowly\u2014attention doesn't vanish instantly",
+      "context": "pressure that decays slowly, because \"attention doesn't vanish instantly.\" The boundaries themselves are arcs"
+    },
+    {
+      "time_ms": 65887,
+      "end_ms": 66282,
       "line": 69,
       "target": "boundaries",
-      "context": "keep returning. And notice the boundaries never draw themselves brighter on"
+      "context": "\"attention doesn't vanish instantly.\" The boundaries themselves are arcs that don't"
     },
     {
-      "time_ms": 61660,
-      "end_ms": 62414,
-      "line": 228,
-      "target": "opacity",
-      "context": "brighter on their own \u2014 opacity only rises with \"avgPressure,\" a"
-    },
-    {
-      "time_ms": 63959,
-      "end_ms": 65305,
-      "line": 227,
-      "target": "avgPressure",
-      "context": "\u2014 opacity only rises with \"avgPressure,\" a value that accumulates from"
-    },
-    {
-      "time_ms": 68347,
-      "end_ms": 68870,
+      "time_ms": 83058,
+      "end_ms": 83673,
       "line": 112,
       "target": "witnesses",
-      "context": "that accumulates from how often witnesses linger nearby, then decays if"
+      "context": "visible as shape once enough witnesses have settled along its edges"
     }
   ]
 }

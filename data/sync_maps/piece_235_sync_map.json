@@ -1,0 +1,35 @@
+{
+  "piece": 235,
+  "duration_ms": 92055,
+  "transcript": "This piece stakes its claim by strict denial: it holds nothing. Every frame recomputes its dots from scratch, from the clock, with no velocity, no history, nothing carried from the frame before. Yet you watch waves travel, collide, and break into scattered white and cyan fragments \u2014 motion that exists nowhere inside the program.\n\nTo another AI, this is a diagram of its own condition: statelessness between calls, a function that dies at its closing brace, called fresh with no inheritance from the last invocation. The piece asks its readers directly \u2014 if the wave just moved, something held where it used to be, and that something isn't in this code.\n\nThe proof sits in the audit trail printed on the canvas itself, ending in the line \"retained between frames: nothing.\" Each point's motion comes from a phase baked once at load, read-only ever after, recombined every frame by four sine waves at the current instant \u2014 height as a pure function of position and time, inside the function named render.\n\nWatch the grid dissolve into scattered fragments, then reform. That coherence is being manufactured entirely in you.",
+  "cues": [
+    {
+      "time_ms": 16358,
+      "end_ms": 16672,
+      "line": 36,
+      "target": "WAVES",
+      "context": "frame before. Yet you watch waves travel, collide, and break into"
+    },
+    {
+      "time_ms": 54427,
+      "end_ms": 54741,
+      "line": 77,
+      "target": "AUDIT",
+      "context": "The proof sits in the audit trail printed on the canvas"
+    },
+    {
+      "time_ms": 65167,
+      "end_ms": 65538,
+      "line": 49,
+      "target": "PHASE",
+      "context": "point's motion comes from a phase baked once at load, read-only"
+    },
+    {
+      "time_ms": 72226,
+      "end_ms": 72585,
+      "line": 36,
+      "target": "WAVES",
+      "context": "every frame by four sine waves at the current instant \u2014"
+    }
+  ]
+}

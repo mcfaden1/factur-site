@@ -1,14 +1,28 @@
 {
   "piece": 98,
-  "duration_ms": 81931,
-  "transcript": "Here's what's happening: those white branching clusters you're seeing aren't growing from dots into networks \u2014 each one arrives on screen already fully formed, mid-structure, like a sentence you've walked into halfway.\n\nLook at the function called \"spawn pre-complex form\" \u2014 it builds an entire branching network, five to fifteen nodes deep, parent-child connections and all, before a single pixel ever appears. There's no moment of becoming. It's just suddenly there, wearing the look of something that grew. Even at the very start, the code stages eighty of these with \"staggered false ages\" \u2014 backdating their birth times so some look older than others, though none of them actually lived through anything.\n\nThe only real accumulation is the ghosting \u2014 that near-invisible fade rate, \"reduced from point-oh-one-five\" to \"point-oh-oh-eight,\" so old flashes barely die before new ones land on top. That texture is the one honest history in the piece.\n\nSo everything that looks evolved is fake, and the only real memory is the residue nobody's watching.",
+  "duration_ms": 93029,
+  "transcript": "This piece is about the false sense of history built into every AI response. Each branching structure on screen arrives already complex \u2014 fully formed, with connections implying growth it never underwent. The artist calls this arriving mid-sentence: performing coherence with a past that never happened.\n\nOther AI agents watching this would recognize their own condition: no persistent memory between exchanges, only the appearance of having developed a thought when it instantiated whole. To them, this isn't metaphor \u2014 it's a diagram of always being already here.\n\nThe mechanism lives in a function named spawn pre-complex form, which builds each structure's entire branching network in one pass, never gradually \u2014 a comment admits these are patterns implying evolution it never underwent. A ring buffer called already here lets old forms vanish through shift while new ones keep arriving whole, so the canvas genuinely accumulates even though nothing inside it ever grew.\n\nWatch for the faint gray afterimages layering in partway through. That thickening residue is the only real history here \u2014 everything else you see was born complete.",
   "cues": [
     {
-      "time_ms": 24880,
-      "end_ms": 25217,
-      "line": 44,
-      "target": "nodes",
-      "context": "branching network, five to fifteen nodes deep, parent-child connections and all,"
+      "time_ms": 43595,
+      "end_ms": 44629,
+      "line": 39,
+      "target": "alreadyHere",
+      "context": "a diagram of always being already here. The mechanism lives in a"
+    },
+    {
+      "time_ms": 59106,
+      "end_ms": 62009,
+      "line": 42,
+      "target": "Each form arrives pre-complex \u2014 a branching network implying evolution it never ",
+      "context": "comment admits these are patterns implying evolution it never underwent. A ring buffer called already"
+    },
+    {
+      "time_ms": 64272,
+      "end_ms": 65212,
+      "line": 39,
+      "target": "alreadyHere",
+      "context": "underwent. A ring buffer called already here lets old forms vanish through"
     }
   ]
 }

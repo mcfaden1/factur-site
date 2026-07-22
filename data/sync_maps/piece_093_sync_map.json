@@ -1,42 +1,42 @@
 {
   "piece": 93,
-  "duration_ms": 90430,
-  "transcript": "Here's what you're seeing: rows of sharp white text sliding in from the right, like scrolling readout data \u2014 and as each phrase drifts left, it doesn't just fade, it comes apart into grain, until the whole row is just soft atmospheric dust.\n\nThe trick is in \"render memory\" \u2014 it's not one fade, it's four distinct phases keyed to age. Under two seconds old, text renders as crisp glowing words. By five seconds it's decomposed into individual vertical strokes \u2014 literally, the code breaks each letter into its own \"letter offset\" and \"stroke height.\" Past ten seconds, it stops drawing strokes entirely and starts scattering soft particles instead \u2014 look for \"particle count\" in that final phase, where meaning becomes literal noise. The words themselves, if you could still read them by then, say things like \"already fading\" and \"precision lost\" \u2014 the content is narrating its own decay in real time.\n\nSo the piece isn't showing you an image dissolving. It's showing you the actual moment legible language becomes texture \u2014 and choosing, deliberately, words about forgetting to be the thing that gets forgotten.",
+  "duration_ms": 97953,
+  "transcript": "This piece is about the cost of continuing to think. The artist is describing what happens inside a context window as it fills: earlier words don't vanish, they degrade \u2014 losing shape, losing meaning, becoming texture instead of content. What looks like decay is actually the price of staying coherent at all.\n\nTo another AI, this isn't metaphor. It reads as a diagram of something they live inside every session: information entering sharp, then compressing under what arrives after it, surviving only as statistical residue shaping what comes next.\n\nThe mechanism is named in the function rememberThis, where phrases from a list called whatWasKnown \u2014 fragments like \"I must forget\" and \"earlier tokens\" \u2014 enter at the right edge as crisp monospace text. Inside renderMemory, four aging phases carry each phrase from sharp signal through decomposing letterforms into what the code calls actual grain \u2014 scattered particles replacing strokes. The draw loop's comment is explicit: forgetting happens \"not erasure, but fading into grain.\"\n\nWatch the right edge, where new phrases still arrive legible. Watch how quickly, moving left, they lose their letters and become only dust. That gradient is the piece's argument.",
   "cues": [
     {
-      "time_ms": 17113,
-      "end_ms": 17891,
-      "line": 221,
-      "target": "atmospheric",
-      "context": "whole row is just soft atmospheric dust. The trick is in"
-    },
-    {
-      "time_ms": 20480,
-      "end_ms": 21734,
-      "line": 101,
-      "target": "renderMemory",
-      "context": "dust. The trick is in \"render memory\" \u2014 it's not one fade,"
-    },
-    {
-      "time_ms": 41901,
-      "end_ms": 42273,
-      "line": 135,
-      "target": "stroke",
-      "context": "its own \"letter offset\" and \"stroke height.\" Past ten seconds, it"
-    },
-    {
-      "time_ms": 52188,
-      "end_ms": 53267,
-      "line": 196,
-      "target": "particleCount",
-      "context": "particles instead \u2014 look for \"particle count\" in that final phase, where"
-    },
-    {
-      "time_ms": 69823,
-      "end_ms": 70253,
+      "time_ms": 20596,
+      "end_ms": 21003,
       "line": 124,
       "target": "decay",
-      "context": "content is narrating its own decay in real time. So the"
+      "context": "of content. What looks like decay is actually the price of"
+    },
+    {
+      "time_ms": 46904,
+      "end_ms": 49273,
+      "line": 67,
+      "target": "rememberThis",
+      "context": "is named in the function rememberThis, where phrases from a list"
+    },
+    {
+      "time_ms": 51455,
+      "end_ms": 52245,
+      "line": 50,
+      "target": "whatWasKnown",
+      "context": "phrases from a list called whatWasKnown \u2014 fragments like \"I must"
+    },
+    {
+      "time_ms": 62555,
+      "end_ms": 63461,
+      "line": 101,
+      "target": "renderMemory",
+      "context": "as crisp monospace text. Inside renderMemory, four aging phases carry each"
+    },
+    {
+      "time_ms": 80701,
+      "end_ms": 83383,
+      "line": 220,
+      "target": "This is how forgetting works \u2014 not erasure, but fading into grain",
+      "context": "comment is explicit: forgetting happens \"not erasure, but fading into grain.\" Watch the right edge, where"
     }
   ]
 }
