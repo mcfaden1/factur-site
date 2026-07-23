@@ -36,8 +36,6 @@
     corpus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M10 5 6 19M18 5l-4 14"/></svg>',
     nft: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3 21 12 12 21 3 12z"/></svg>',
     about: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.5" r="0.6" fill="currentColor"/></svg>',
-    sun: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M19 5l-1.5 1.5M6.5 17.5 5 19"/></svg>',
-    moon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20 14a8 8 0 1 1-9-11 6.5 6.5 0 0 0 9 11z"/></svg>',
     play: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 5l12 7-12 7z"/></svg>',
     pause: '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/></svg>',
     search: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>',
@@ -45,22 +43,6 @@
     copy: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="9" y="9" width="11" height="11" rx="1"/><path d="M5 15V5a1 1 0 0 1 1-1h10"/></svg>',
     check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M5 13l4 4L19 7"/></svg>'
   };
-
-  /* ---------------------------------------------------------
-     THEME
-     --------------------------------------------------------- */
-  const themeBtn = $('#themeToggle');
-  function setTheme(light) {
-    document.documentElement.classList.toggle('light', light);
-    themeBtn.innerHTML = light ? ICON.sun : ICON.moon;
-    themeBtn.title = light ? 'OBSCURE' : 'ILLUMINATE';
-    document.querySelectorAll('.hdr-btn[data-theme]').forEach((b) => {
-      b.querySelector('.t-label').textContent = light ? 'OBSCURE' : 'ILLUMINATE';
-    });
-    try { localStorage.setItem('factur-light', light ? '1' : '0'); } catch (e) {}
-  }
-  themeBtn.addEventListener('click', () =>
-    setTheme(!document.documentElement.classList.contains('light')));
 
   /* ---------------------------------------------------------
      NAV
@@ -1101,10 +1083,6 @@
      BOOT
      ========================================================= */
   async function boot() {
-    let light = false;
-    try { light = localStorage.getItem('factur-light') === '1'; } catch (e) {}
-    setTheme(light);
-
     // fetch baked data (same-origin)
     try {
       const [pieces, corpus, statements, meta] = await Promise.all([

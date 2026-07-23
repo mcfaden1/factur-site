@@ -40,9 +40,6 @@
   transform: translateY(8px);
   transition: opacity 0.25s ease, transform 0.25s ease;
 }
-html.light .cell .overlay {
-  background: linear-gradient(to top, rgba(240,238,233,0.92) 0%, rgba(240,238,233,0.45) 40%, transparent 70%);
-}
 .cell:hover .overlay { opacity: 1; transform: translateY(0); }
 .cell .ov-num { font-size: var(--text-tiny); letter-spacing: 0.16em; color: var(--ink-mid); margin-bottom: 0.2rem; }
 .cell .ov-title { font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 1rem; letter-spacing: -0.02em; color: var(--ink); }
@@ -563,7 +560,6 @@ html[data-motion="off"] .fpill:hover::after { transition-delay: 0s; }
   background: rgba(8,8,8,0.74);
   -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px);
 }
-html.light .stmt-backdrop { background: rgba(240,238,233,0.78); }
 
 .stmt-panel {
   position: relative;

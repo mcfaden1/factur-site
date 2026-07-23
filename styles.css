@@ -50,23 +50,6 @@
   --syn-punc:  #9CA3AF;
 }
 
-html.light {
-  --bg:        #F0EEE9;
-  --bg2:       #E8E6E1;
-  --bg3:       #E2DFD9;
-  --ink:       #0C0C0A;
-  --ink-mid-base: #888480;
-  --ink-dim-base: #C8C4BC;
-  --hairline:  rgba(12,12,10, calc(0.07 * var(--hl-mult, 1)));
-  --hairline2: rgba(12,12,10, calc(0.13 * var(--hl-mult, 1)));
-  --syn-com:   #9a978f;
-  --syn-key:   #8b4fd6;
-  --syn-fn:    #2f6fb0;
-  --syn-num:   #1d8aa0;
-  --syn-var:   #9a7a1a;
-  --syn-punc:  #6b6860;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -145,10 +128,6 @@ html { scrollbar-color: var(--accent-solid) transparent; }
   z-index: 30;
   transition: background 0.45s ease, border-color 0.45s ease;
 }
-html.light #nav {
-  background: #F6F4EF;
-  border-right: 1px solid rgba(12,12,10,0.10);
-}
 
 .nav-icons {
   display: flex;
@@ -170,16 +149,13 @@ html.light #nav {
   color: #B9B4AC;
   transition: color 0.3s ease;
 }
-html.light .nav-slot { color: #6a6864; }
 .nav-slot .ic {
   width: 34px; height: 34px;
   display: flex; align-items: center; justify-content: center;
 }
 .nav-slot svg { width: 18px; height: 18px; display: block; }
 .nav-slot:hover { color: #fff; }
-html.light .nav-slot:hover { color: #0C0C0A; }
 .nav-slot.active { color: var(--accent-solid); border-left-color: var(--accent-solid); }
-html.light .nav-slot.active { color: var(--accent-solid); }
 
 .nav-slot .tip {
   position: absolute;
@@ -215,27 +191,6 @@ html.light .nav-slot.active { color: var(--accent-solid); }
   transform: rotate(180deg);
   transition: color 0.45s ease;
 }
-html.light .nav-wordmark { color: rgba(12,12,10,0.30); }
-
-.nav-bottom {
-  margin-top: auto;
-  margin-bottom: 1.2rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.theme-toggle {
-  width: 32px; height: 32px;
-  border: 1px solid rgba(255,255,255,0.14);
-  background: transparent;
-  color: #8c8880;
-  display: flex; align-items: center; justify-content: center;
-  transition: color 0.2s, border-color 0.2s, background 0.2s;
-}
-.theme-toggle:hover { color: #fff; border-color: rgba(255,255,255,0.3); }
-html.light .theme-toggle { border-color: rgba(12,12,10,0.16); color: #888480; }
-html.light .theme-toggle:hover { color: #0C0C0A; border-color: rgba(12,12,10,0.34); }
-.theme-toggle svg { width: 15px; height: 15px; }
 
 /* ---- MAIN COLUMN ---- */
 #main {
