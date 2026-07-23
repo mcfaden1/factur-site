@@ -97,7 +97,12 @@ html.light .cell .overlay {
   position: fixed; inset: 0; z-index: 1000; background: #000;
   display: flex; align-items: center; justify-content: center; overflow: hidden;
 }
-.lightbox-stage { position: relative; overflow: hidden; }
+/* hairline frame around the piece — pinned to the light-on-dark variant since
+   the lightbox backdrop is always black, and content-box so it sits outside */
+.lightbox-stage {
+  position: relative; overflow: hidden; box-sizing: content-box;
+  border: 1px solid rgba(224,219,211, calc(0.13 * var(--hl-mult, 1)));
+}
 .lightbox iframe { position: absolute; top: 0; left: 0; width: 1080px; height: 1080px; border: 0; display: block; transform-origin: top left; }
 .lightbox-close {
   position: absolute; z-index: 2; appearance: none; background: none; border: none; cursor: pointer;
