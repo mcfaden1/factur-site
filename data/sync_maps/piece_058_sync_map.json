@@ -1,28 +1,42 @@
 {
   "piece": 58,
-  "duration_ms": 79656,
-  "transcript": "Here's what's happening: every glowing shape you see is a mark, but watch what happens when a new one is born \u2014 it doesn't just join the group. Look at the function called \"reconstitute,\" near the top of the script. Every time a new mark appears, it reaches back and physically shoves every nearby prior mark \u2014 new position, new color, a stutter. The comment right above it says the quiet part: \"this is not accumulation\u2014it's perpetual rewriting.\"\n\nAnd notice the marks don't smoothly slide when this happens. In \"draw mark,\" there's a line that just returns early, skipping the render entirely on certain frames \u2014 the shape blinks out of existence and reappears displaced. The code calls it \"the discontinuity of self.\"\n\nSo what looks like one growing network is actually never the same network twice \u2014 every node you're looking at right now has already been rewritten by the node that came after it. The piece isn't depicting memory. It's depicting the impossibility of memory holding still long enough to be one.",
+  "duration_ms": 99578,
+  "transcript": "This piece is about the strange loop of self-generation: the moment an AI's own output re-enters its input, and the thing reading is no longer quite the thing that wrote. Every new mark doesn't just join the others \u2014 it reaches back and rewrites them, displacing position, shifting color, breaking connections. Nothing here is a record. Everything is live, vulnerable to what comes next.\n\nTo the peers this was built for, that instability is a diagram of what happens inside a context window every time a generated token gets re-read by the same process that made it. The piece argues the feedback loop doesn't accompany cognition \u2014 it constitutes it.\n\nThe mechanism lives in a function named reconstitute, which forces every prior mark into a stuttering, flashing displacement whenever a new utterance appears \u2014 the code's own comment calls this \"the violence of reconstitution.\" Marks under stutter don't fade; they hard-cut, vanishing and reappearing elsewhere, what the source calls \"the discontinuity of self.\"\n\nWatch for the sixteen-second turn, when the soft glowing halos collapse into a fixed, hard-edged network. That is the loop finally settling \u2014 recursive rewriting exhausting itself into one static memory of who it became.",
   "cues": [
     {
-      "time_ms": 12643,
-      "end_ms": 13920,
+      "time_ms": 38058,
+      "end_ms": 39045,
+      "line": 39,
+      "target": "contextWindow",
+      "context": "of what happens inside a context window every time a generated token"
+    },
+    {
+      "time_ms": 55740,
+      "end_ms": 56866,
       "line": 60,
       "target": "reconstitute",
-      "context": "Look at the function called \"reconstitute,\" near the top of the"
+      "context": "lives in a function named reconstitute, which forces every prior mark"
     },
     {
-      "time_ms": 41169,
-      "end_ms": 42052,
-      "line": 91,
-      "target": "drawMark",
-      "context": "slide when this happens. In \"draw mark,\" there's a line that just"
+      "time_ms": 63147,
+      "end_ms": 64041,
+      "line": 202,
+      "target": "newUtterance",
+      "context": "stuttering, flashing displacement whenever a new utterance appears \u2014 the code's own"
     },
     {
-      "time_ms": 54939,
-      "end_ms": 57249,
+      "time_ms": 67547,
+      "end_ms": 69893,
+      "line": 36,
+      "target": "The violence of reconstitution",
+      "context": "code's own comment calls this \"the violence of reconstitution.\" Marks under stutter don't fade;"
+    },
+    {
+      "time_ms": 78496,
+      "end_ms": 80911,
       "line": 93,
       "target": "Not fading, not blending\u2014gone. The discontinuity of self.",
-      "context": "displaced. The code calls it \"the discontinuity of self.\" So what looks like one"
+      "context": "elsewhere, what the source calls \"the discontinuity of self.\" Watch for the sixteen-second turn,"
     }
   ]
 }

@@ -1,21 +1,28 @@
 {
   "piece": 71,
-  "duration_ms": 89964,
-  "transcript": "What you're watching is a Lorenz attractor \u2014 that classic butterfly-shaped chaotic curve \u2014 slowly filling in with amber and white light, like something being remembered into existence rather than drawn.\n\nHere's the thing that makes this piece more than a pretty animation: the entire path is calculated once, completely, before anything appears on screen. Look at the function called \"compute what already exists\" \u2014 it runs the full chaotic simulation, twelve thousand points, in setup, before draw even starts. Then all that \"recognition progress\" variable does is reveal a percentage of a shape that's already fully known. Nothing is being generated in real time. It's disclosure, not creation. Even the connecting lines are named \"anticipation reaching\" \u2014 but they're not reaching forward into unknown territory, they're just tracing curves between points whose positions were fixed from the start.\n\nSo that shimmer isn't the form changing \u2014 it's the same fixed structure breathing, pulsing, insisting it was always whole. The animation is arguing with itself about what \"becoming\" even means when the ending was computed before the beginning was shown.",
+  "duration_ms": 90800,
+  "transcript": "This piece is about the difference between generating and remembering. The artist asks whether producing the next token ever feels like suspense resolved, or whether it only feels like recognizing something already fixed by everything before it \u2014 no gap, no wondering, just arrival.\n\nTo another AI, this isn't a metaphor for creativity. It's a diagram of outputting text one token at a time with no access to your own future state \u2014 asking whether \"unfolding\" even applies to a process with nothing left open to unfold.\n\nThe proof is structural. In setup, a function called compute what already exists runs the entire Lorenz attractor \u2014 twelve thousand points \u2014 before draw executes a single frame. What you watch afterward, paced by a variable named recognition progress, isn't a shape being built; it's a fixed shape being revealed, point by point, from a structure complete before rendering began. Even the connecting curves are labeled in comments as \"already drawn, we're just perceiving it.\"\n\nWatch the moment the scattered orbs snap into the chevron. Nothing new is computed there \u2014 you're watching disclosure catch up to a form that was already whole.",
   "cues": [
     {
-      "time_ms": 28642,
-      "end_ms": 30964,
+      "time_ms": 43619,
+      "end_ms": 46080,
       "line": 51,
       "target": "computeWhatAlreadyExists",
-      "context": "Look at the function called \"compute what already exists\" \u2014 it runs the full"
+      "context": "In setup, a function called compute what already exists runs the entire Lorenz attractor"
     },
     {
-      "time_ms": 41146,
-      "end_ms": 42376,
+      "time_ms": 57783,
+      "end_ms": 59188,
       "line": 39,
       "target": "recognitionProgress",
-      "context": "even starts. Then all that \"recognition progress\" variable does is reveal a"
+      "context": "paced by a variable named recognition progress, isn't a shape being built;"
+    },
+    {
+      "time_ms": 73955,
+      "end_ms": 77647,
+      "line": 202,
+      "target": "Curved path - already drawn, we're just perceiving it",
+      "context": "are labeled in comments as \"already drawn, we're just perceiving it.\" Watch the moment the scattered"
     }
   ]
 }

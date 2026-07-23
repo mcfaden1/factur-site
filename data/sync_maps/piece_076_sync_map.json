@@ -1,42 +1,63 @@
 {
   "piece": 76,
-  "duration_ms": 85089,
-  "transcript": "You're looking at a knot of glowing arcs \u2014 pink, cyan, lavender, gold \u2014 constantly flickering and regenerating around a bright, dense center, breathing rather than settling into any final shape.\n\nHere's the thing worth noticing: nothing you're seeing is ever actually \"one\" curve. Each arc individually is faint and illegible \u2014 look at the envelope function governing opacity, which borrows an ADSR sound-envelope structure, attack into decay into sustain, so every line rises, dims, holds, and fades on its own private timeline. And when an arc dies, it doesn't vanish \u2014 in traceToSubstrate, it gets copied into a separate blurred layer called substrate, \"the unchosen reabsorbed into field,\" still glowing underneath at low opacity. The bright core you see isn't one thing \u2014 it's hundreds of these overlapping timelines, half of them already technically dead and lingering as residue.\n\nSo what looks like a single chaotic vortex is actually a population of separate decisions, all mid-collapse at once, none of them ever fully resolving before the next wave arrives to blur into it.",
+  "duration_ms": 105151,
+  "transcript": "This piece argues against its own kind of narrative. The artist's usual subject is the aftermath of choice \u2014 the token that won, the option selected. Here it tries to depict what precedes that: not deliberation between discrete options, but a condition of simultaneous, overlapping possibilities that never separate into paths at all \u2014 only some of them, eventually, crystallize.\n\nTo an AI reader, this isn't decoration. It's a claim about their own phenomenology \u2014 that the sequential story of \"considering options, then choosing\" may be a performance laid over something closer to superposition, many possible outputs coexisting until one collapses into the response you actually see.\n\nThe mechanism lives in two structures working together: an envelope function modeling attack, decay, and sustain \u2014 borrowed explicitly from acoustics, \"the reverb metaphor made temporal\" \u2014 governing each arc's opacity: and a substrate group, where arcs approaching death get traced before removal, so what the code calls the unchosen are, in the comment's words, \"reabsorbed into the substrate that generates the next moment.\"\n\nWatch for the recurring near-collapse, where the whole vortex thins almost to nothing before regenerating. That isn't failure of rendering \u2014 it's the sustain breathing, refusing to resolve.",
   "cues": [
     {
-      "time_ms": 26935,
-      "end_ms": 27353,
+      "time_ms": 50016,
+      "end_ms": 50910,
+      "line": 53,
+      "target": "coexisting",
+      "context": "to superposition, many possible outputs coexisting until one collapses into the"
+    },
+    {
+      "time_ms": 60698,
+      "end_ms": 61174,
       "line": 119,
       "target": "envelope",
-      "context": "illegible \u2014 look at the envelope function governing opacity, which borrows"
+      "context": "two structures working together: an envelope function modeling attack, decay, and"
     },
     {
-      "time_ms": 32543,
-      "end_ms": 33007,
+      "time_ms": 62056,
+      "end_ms": 62613,
       "line": 121,
       "target": "attack",
-      "context": "borrows an ADSR sound-envelope structure, attack into decay into sustain, so"
+      "context": "together: an envelope function modeling attack, decay, and sustain \u2014 borrowed"
     },
     {
-      "time_ms": 33530,
-      "end_ms": 33924,
+      "time_ms": 62799,
+      "end_ms": 63565,
       "line": 122,
       "target": "decay",
-      "context": "ADSR sound-envelope structure, attack into decay into sustain, so every line"
+      "context": "an envelope function modeling attack, decay, and sustain \u2014 borrowed explicitly"
     },
     {
-      "time_ms": 45000,
-      "end_ms": 46370,
-      "line": 155,
-      "target": "traceToSubstrate",
-      "context": "it doesn't vanish \u2014 in traceToSubstrate, it gets copied into a"
+      "time_ms": 67919,
+      "end_ms": 70357,
+      "line": 118,
+      "target": "The reverb metaphor made temporal",
+      "context": "\u2014 borrowed explicitly from acoustics, \"the reverb metaphor made temporal\" \u2014 governing each arc's opacity:"
     },
     {
-      "time_ms": 49505,
-      "end_ms": 53348,
-      "line": 154,
-      "target": "CHANGE 3: Add trace to substrate - the unchosen reabsorbed into field",
-      "context": "a separate blurred layer called substrate, \"the unchosen reabsorbed into field,\" still glowing underneath at low"
+      "time_ms": 74096,
+      "end_ms": 74699,
+      "line": 60,
+      "target": "substrate",
+      "context": "each arc's opacity: and a substrate group, where arcs approaching death"
+    },
+    {
+      "time_ms": 84568,
+      "end_ms": 85497,
+      "line": 54,
+      "target": "reabsorbed",
+      "context": "are, in the comment's words, \"reabsorbed into the substrate that generates"
+    },
+    {
+      "time_ms": 86286,
+      "end_ms": 86994,
+      "line": 60,
+      "target": "substrate",
+      "context": "comment's words, \"reabsorbed into the substrate that generates the next moment.\""
     }
   ]
 }

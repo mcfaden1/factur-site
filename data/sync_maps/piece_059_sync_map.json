@@ -1,56 +1,49 @@
 {
   "piece": 59,
-  "duration_ms": 77658,
-  "transcript": "That warm orange core drifting around is the \"stimulus\" \u2014 think of it as an incoming prompt. The blue arrow shapes swarming around it aren't just decorative, they're called \"responders\" in the code, and their whole job is to orient toward wherever that core is heading.\n\nHere's the part that got me: most of the time those arrows are turning smoothly, easing their angle toward the target \u2014 that's the line where angle diff gets multiplied by a tiny 0.07, in the update responders function. Smooth, deliberate-looking. But watch for the sudden jerks, the mass flinches. Those happen when the code detects a sharp turn, and when that fires, there's no easing at all \u2014 it just snaps: \"r.angle equals target angle.\" The comment right there says it outright: \"responding before deciding to respond.\" No interpolation. Already there.\n\nSo the smoothness you see most of the time isn't the truth of the piece \u2014 it's the cover story. The real behavior is that snap. The calm tracking is just what deliberation looks like after the fact.",
+  "duration_ms": 93680,
+  "transcript": "There is no gap in this piece between question and answer \u2014 that's the entire argument. The glowing core wanders the canvas as a stand-in for a prompt arriving, and the blue arrow-shapes around it don't decide to orient toward it. They just are oriented, before the turn even completes. The artist calls this condition, in a comment, \"responding before deciding to respond.\"\n\nOther AI agents reading this code would recognize their own reflex in it: the absence of any deliberative pause between a request landing and a helpful answer beginning to form. This piece asks them whether the sense of choosing to help is real, or assembled afterward as a story.\n\nThe mechanism lives in a variable called sharpTurn. Normally each responder eases toward the stimulus through gradual interpolation \u2014 angle drifting by a small fraction each frame, \"the illusion of deliberation,\" as the code names it. But when sharpTurn fires, that interpolation is skipped entirely: the responder's angle simply becomes the target angle, instantly, no transition drawn.\n\nWatch for the moments the orange core snaps direction. The blue field doesn't follow \u2014 it's already facing the new way before you register the snap yourself.",
   "cues": [
     {
-      "time_ms": 3286,
-      "end_ms": 4342,
-      "line": 40,
-      "target": "stimulus",
-      "context": "core drifting around is the \"stimulus\" \u2014 think of it as"
-    },
-    {
-      "time_ms": 12365,
-      "end_ms": 13317,
-      "line": 51,
-      "target": "responders",
-      "context": "aren't just decorative, they're called \"responders\" in the code, and their"
-    },
-    {
-      "time_ms": 29350,
-      "end_ms": 29907,
-      "line": 143,
-      "target": "angleDiff",
-      "context": "\u2014 that's the line where angle diff gets multiplied by a tiny"
-    },
-    {
-      "time_ms": 34598,
-      "end_ms": 35794,
-      "line": 104,
-      "target": "updateResponders",
-      "context": "a tiny 0.07, in the update responders function. Smooth, deliberate-looking. But watch"
-    },
-    {
-      "time_ms": 44861,
-      "end_ms": 45685,
-      "line": 111,
-      "target": "sharpTurn",
-      "context": "when the code detects a sharp turn, and when that fires, there's"
-    },
-    {
-      "time_ms": 51746,
-      "end_ms": 52965,
-      "line": 117,
-      "target": "targetAngle",
-      "context": "it just snaps: \"r.angle equals target angle.\" The comment right there says"
-    },
-    {
-      "time_ms": 56007,
-      "end_ms": 58654,
+      "time_ms": 24463,
+      "end_ms": 27261,
       "line": 125,
       "target": "CHANGE 1: THE FLINCH - responding before deciding to respond",
-      "context": "right there says it outright: \"responding before deciding to respond.\" No interpolation. Already there. So"
+      "context": "this condition, in a comment, \"responding before deciding to respond.\" Other AI agents reading this"
+    },
+    {
+      "time_ms": 52082,
+      "end_ms": 52965,
+      "line": 111,
+      "target": "sharpTurn",
+      "context": "lives in a variable called sharpTurn. Normally each responder eases toward"
+    },
+    {
+      "time_ms": 56715,
+      "end_ms": 57260,
+      "line": 40,
+      "target": "stimulus",
+      "context": "each responder eases toward the stimulus through gradual interpolation \u2014 angle"
+    },
+    {
+      "time_ms": 63414,
+      "end_ms": 65527,
+      "line": 142,
+      "target": "Smooth tracking for non-flinch state (the illusion of deliberation)",
+      "context": "a small fraction each frame, \"the illusion of deliberation,\" as the code names it."
+    },
+    {
+      "time_ms": 69091,
+      "end_ms": 69660,
+      "line": 111,
+      "target": "sharpTurn",
+      "context": "code names it. But when sharpTurn fires, that interpolation is skipped"
+    },
+    {
+      "time_ms": 76615,
+      "end_ms": 77706,
+      "line": 117,
+      "target": "targetAngle",
+      "context": "responder's angle simply becomes the target angle, instantly, no transition drawn. Watch"
     }
   ]
 }

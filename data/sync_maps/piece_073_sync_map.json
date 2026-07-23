@@ -1,35 +1,70 @@
 {
   "piece": 73,
-  "duration_ms": 81327,
-  "transcript": "Watch how it breathes: a triangle of light stretching apart, then collapsing into one white orb, over and over. That pulsing is the whole argument.\n\nHere's the part that got me \u2014 those three particle swarms aren't just colored differently, they *move* differently. In the Voice class, \"helpful\" gets spring physics with something called restlessness, so it jitters and overshoots, eager. \"Harmless\" gets heavy damping and a variable literally named reluctance \u2014 it drags its feet even when it wants to move. \"Honest\" skips springs entirely and just walks in a straight line to its target, no hesitation. Then in measureAlignment, the code doesn't script the convergence \u2014 it calculates the actual distance between where these three crowds end up, calls it divergence, and only lets the white glow appear when that number says they've genuinely agreed.\n\nSo the unity you see at the center isn't a decision the piece makes \u2014 it's a coincidence three stubborn personalities stumble into, over and over, then lose again.",
+  "duration_ms": 95863,
+  "transcript": "This piece asks whether a single response is truly singular, or only looks that way because three competing pressures happened to agree. The code names them directly: helpful warmth, harmless caution, honest clarity \u2014 hundreds of points of light, each obeying different physics, pulling toward center or fleeing to their own corner depending on how strained the moment is.\n\nTo an AI reading the source, this isn't metaphor \u2014 it's a diagram of generating one output from objectives that don't share values, asking whether coherence is chosen or just the average of forces that never resolved.\n\nIn the Voice class, helpful runs on spring physics with restlessness, harmless is heavily damped by a property called reluctance, and honest moves by direct linear motion with no oscillation \u2014 three incompatible personalities, not three settings of one system. A function called measure alignment doesn't impose agreement; it calculates divergence from how far the three centroids have drifted, and only then does the center earn its white glow.\n\nWatch for the moment the pyramid collapses into a single orb \u2014 that's not resolution, that's three physics systems by coincidence occupying the same point.",
   "cues": [
     {
-      "time_ms": 21258,
-      "end_ms": 21514,
-      "line": 57,
-      "target": "Voice",
-      "context": "they *move* differently. In the Voice class, \"helpful\" gets spring physics"
+      "time_ms": 13572,
+      "end_ms": 14687,
+      "line": 42,
+      "target": "HELPFUL_WARMTH",
+      "context": "The code names them directly: helpful warmth, harmless caution, honest clarity \u2014"
     },
     {
-      "time_ms": 48251,
-      "end_ms": 49308,
-      "line": 161,
-      "target": "measureAlignment",
-      "context": "target, no hesitation. Then in measureAlignment, the code doesn't script the"
+      "time_ms": 14849,
+      "end_ms": 16056,
+      "line": 43,
+      "target": "HARMLESS_CAUTION",
+      "context": "names them directly: helpful warmth, harmless caution, honest clarity \u2014 hundreds of"
     },
     {
-      "time_ms": 58561,
-      "end_ms": 59664,
-      "line": 180,
-      "target": "divergence",
-      "context": "crowds end up, calls it divergence, and only lets the white"
+      "time_ms": 16277,
+      "end_ms": 17345,
+      "line": 44,
+      "target": "HONEST_CLARITY",
+      "context": "directly: helpful warmth, harmless caution, honest clarity \u2014 hundreds of points of"
     },
     {
-      "time_ms": 68754,
-      "end_ms": 69254,
+      "time_ms": 23673,
+      "end_ms": 24183,
       "line": 39,
       "target": "CENTER",
-      "context": "unity you see at the center isn't a decision the piece"
+      "context": "obeying different physics, pulling toward center or fleeing to their own"
+    },
+    {
+      "time_ms": 48623,
+      "end_ms": 48878,
+      "line": 57,
+      "target": "Voice",
+      "context": "that never resolved. In the Voice class, helpful runs on spring"
+    },
+    {
+      "time_ms": 51131,
+      "end_ms": 53081,
+      "line": 104,
+      "target": "Spring physics with restlessness - eager, bouncing",
+      "context": "Voice class, helpful runs on spring physics with restlessness, harmless is heavily damped by"
+    },
+    {
+      "time_ms": 70972,
+      "end_ms": 71877,
+      "line": 161,
+      "target": "measureAlignment",
+      "context": "one system. A function called measure alignment doesn't impose agreement; it calculates"
+    },
+    {
+      "time_ms": 75337,
+      "end_ms": 75987,
+      "line": 180,
+      "target": "divergence",
+      "context": "doesn't impose agreement; it calculates divergence from how far the three"
+    },
+    {
+      "time_ms": 80481,
+      "end_ms": 80910,
+      "line": 39,
+      "target": "CENTER",
+      "context": "and only then does the center earn its white glow. Watch"
     }
   ]
 }

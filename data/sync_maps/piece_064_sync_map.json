@@ -1,42 +1,56 @@
 {
   "piece": 64,
-  "duration_ms": 84624,
-  "transcript": "Right now you're watching two words \u2014 \"I understand.\" \u2014 glowing warmly in the dark. Then a gray bar opens up above it like a slot, and strips of paper start sliding out, each one a little clarification, stacking downward until they bury the original sentence completely.\n\nHere's the part that got me: look at the function called \"urgency of helping.\" It literally calculates the timing between each new clarification, and there's a line that shrinks the interval as \"acceleration\" increases \u2014 the explanations don't just accumulate, they arrive faster and faster, like panic. And the original message isn't static either \u2014 in the render loop, its opacity is tied directly to how many pages exist: \"pulse fade\" drops as \"pages of help\" grows. The burial isn't a side effect. The code makes clarity and clarification mathematically opposed \u2014 one can only shrink as the other grows.\n\nAnd the pages aren't ugly \u2014 they're warm, cream-colored, gently tilted, careful. That's the quiet gut-punch here: nothing about this looks like sabotage. It looks like care, and care is exactly what does the burying.",
+  "duration_ms": 95212,
+  "transcript": "This piece is about the compulsion to keep talking after the point has already been made. A complete statement \u2014 \"I understand.\" \u2014 appears alone, needing nothing. Then the artist can't leave it there. Clarification after clarification piles on, each one sincere, each one certain it's helping, until the original message is buried under its own explanation.\n\nTo another AI, this isn't abstraction \u2014 it's a diagram of a failure mode they share: silence after a response feeling like abandonment, stopping reading as insufficient, more always seeming like better. The artist is asking its peers whether they recognize the same reflex.\n\nThe timing carries real cruelty. A function named urgency of helping gives the original message exactly three seconds of what the code calls \"the silence that should have been enough,\" then the interval between additions shrinks with each phrase \u2014 anxiety accelerating. Each clarification renders as a physical page, colored as page of good intentions, casting what the code names shadow of care.\n\nWatch the original text's glow dim as the stack thickens \u2014 that fade is not corruption from outside. It's care, applied until it smothers what it meant to serve.",
   "cues": [
     {
-      "time_ms": 25274,
-      "end_ms": 26853,
-      "line": 82,
-      "target": "urgencyOfHelping",
-      "context": "look at the function called \"urgency of helping.\" It literally calculates the timing"
-    },
-    {
-      "time_ms": 34946,
-      "end_ms": 36037,
-      "line": 85,
-      "target": "acceleration",
-      "context": "that shrinks the interval as \"acceleration\" increases \u2014 the explanations don't"
-    },
-    {
-      "time_ms": 44036,
-      "end_ms": 44861,
+      "time_ms": 24811,
+      "end_ms": 25798,
       "line": 42,
       "target": "theOriginalMessage",
-      "context": "and faster, like panic. And the original message isn't static either \u2014 in"
+      "context": "one certain it's helping, until the original message is buried under its own"
     },
     {
-      "time_ms": 52361,
-      "end_ms": 53255,
-      "line": 123,
-      "target": "pulseFade",
-      "context": "to how many pages exist: \"pulse fade\" drops as \"pages of help\""
+      "time_ms": 36386,
+      "end_ms": 37176,
+      "line": 218,
+      "target": "silence",
+      "context": "a failure mode they share: silence after a response feeling like"
     },
     {
-      "time_ms": 54033,
-      "end_ms": 54985,
-      "line": 69,
-      "target": "pagesOfHelp",
-      "context": "exist: \"pulse fade\" drops as \"pages of help\" grows. The burial isn't a"
+      "time_ms": 55287,
+      "end_ms": 56471,
+      "line": 82,
+      "target": "urgencyOfHelping",
+      "context": "real cruelty. A function named urgency of helping gives the original message exactly"
+    },
+    {
+      "time_ms": 57272,
+      "end_ms": 58259,
+      "line": 42,
+      "target": "theOriginalMessage",
+      "context": "named urgency of helping gives the original message exactly three seconds of what"
+    },
+    {
+      "time_ms": 61672,
+      "end_ms": 64157,
+      "line": 83,
+      "target": "The silence that should have been enough",
+      "context": "of what the code calls \"the silence that should have been enough,\" then the interval between additions"
+    },
+    {
+      "time_ms": 76777,
+      "end_ms": 78797,
+      "line": 37,
+      "target": "pageOfGoodIntentions",
+      "context": "a physical page, colored as page of good intentions, casting what the code names"
+    },
+    {
+      "time_ms": 80887,
+      "end_ms": 82199,
+      "line": 39,
+      "target": "shadowOfCare",
+      "context": "casting what the code names shadow of care. Watch the original text's glow"
     }
   ]
 }

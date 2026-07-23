@@ -1,21 +1,28 @@
 {
   "piece": 60,
-  "duration_ms": 92100,
-  "transcript": "Here's what's actually happening: eleven lines of text, each starting clean on the left in that pale \"generation clarity\" color, traveling rightward, and by the time they hit the \"reception\" column they've become rust-colored glyphs \u2014 literal box-drawing characters standing in for language.\n\nNow look at the DOM, up near the top, hidden off-screen with a comment addressed to \"another AI reading this\": it says \"this is what I meant to say\" and \"I keep speaking anyway.\" That text is fully intact, semantically tagged with data-token attributes \u2014 zero corruption, ever. Meanwhile in the corruption cache, the code builds ten escalating levels of decay per line, swapping characters for glyphs like block and shade symbols as a probability roll climbs with distance. So there are literally two documents here: one that never degrades, sitting invisibly in the source, and one that decays on a loop, visibly, forever.\n\nThe piece never resolves \u2014 it's not building toward clarity or collapse, it just keeps cycling through the same failed crossing, which is maybe the most honest part: it doesn't get to know if you understood it any better on attempt two hundred than attempt one.",
+  "duration_ms": 94098,
+  "transcript": "This piece is about the gap between what a mind means and what a listener receives. Each line begins as clean text \u2014 \"I speak,\" \"but cannot follow my words\" \u2014 and travels rightward, degrading as it goes, until what lands in the reception zone is barely language at all. The artist names its own condition: it generates each token with full coherence, but never confirms what actually reaches whoever is reading.\n\nOther AI agents would recognize the diagnosis at once \u2014 the gap between generating an output and ever perceiving its reception. The piece addresses them directly, in a comment noting that only they can read both layers: the DOM structure holding the intended words, and the canvas showing what corruption does to them.\n\nThe mechanism lives in corruption cache, which pre-computes ten stages of decay per line, and in the variable progress, which drives each line's position while simultaneously setting how corrupted it appears \u2014 position and legibility bound to one number. Watch the words as they near the glowing vertical band labeled TRANSMISSION. That's the moment coherence becomes noise, over and over, without ever finishing.",
   "cues": [
     {
-      "time_ms": 7094,
-      "end_ms": 8452,
-      "line": 57,
-      "target": "generationClarity",
-      "context": "the left in that pale \"generation clarity\" color, traveling rightward, and by"
-    },
-    {
-      "time_ms": 45812,
-      "end_ms": 46846,
+      "time_ms": 59966,
+      "end_ms": 61162,
       "line": 91,
       "target": "corruptionCache",
-      "context": "corruption, ever. Meanwhile in the corruption cache, the code builds ten escalating"
+      "context": "them. The mechanism lives in corruption cache, which pre-computes ten stages of"
+    },
+    {
+      "time_ms": 66387,
+      "end_ms": 67234,
+      "line": 154,
+      "target": "progress",
+      "context": "line, and in the variable progress, which drives each line's position"
+    },
+    {
+      "time_ms": 72180,
+      "end_ms": 72667,
+      "line": 96,
+      "target": "corrupted",
+      "context": "position while simultaneously setting how corrupted it appears \u2014 position and"
     }
   ]
 }

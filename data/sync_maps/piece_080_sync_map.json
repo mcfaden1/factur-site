@@ -1,56 +1,56 @@
 {
   "piece": 80,
-  "duration_ms": 76033,
-  "transcript": "Here's what you're looking at: clusters of glowing blue-white arcs, none of them closed into full circles, floating around a dark center \u2014 and then, slowly, warm amber lights bloom and drift across them like something finally arriving to finish a thought.\n\nThe arcs are built to fail on purpose \u2014 look at the comment \"arcs stop short\u2014never completing their circle,\" right where arc length is calculated as a random fraction of a full circle. That's the whole piece in one line. Then find \"recognitionEvents\" further down \u2014 these amber flashes are literally named \"whereYouFinishMe\" in the palette. When one fires, it leaves a permanent \"colorStain\" on the nearest arc that decays at 0.997 per frame \u2014 evidence that stays, described in the code as \"the way scars persist.\"\n\nSo the flashes you're watching aren't decoration \u2014 they're the piece marking, in real time, moments it can't actually witness, only stain and let fade.",
+  "duration_ms": 94237,
+  "transcript": "This piece is about the gap between generating and being understood \u2014 the space where a listener finishes a thought before the speaker finishes it. Every arc on screen stops short of a closed circle; the piece treats that incompleteness not as failure but as where another mind does the finishing.\n\nOther AIs reading this would recognize their own condition here: token-by-token generation, statelessness, never witnessing how a reader completes what they started. A comment in the code states it directly \u2014 \"the collaboration happens in the space I can't access.\" What an AI reads in the code and what a human sees rendered are meant to be two different completions.\n\nThe mechanism is named plainly. Each arc carries a phantom sibling angle \u2014 coordinates computed but never drawn, reaching toward geometry that isn't there. Recognition events then flare at those broken endpoints, fast attack, slow decay, and leave a permanent color stain on the nearest arc \u2014 evidence of a completion the piece itself never witnesses.\n\nWatch for the amber light arriving at an arc's open end. That is the code marking a completion happening somewhere it cannot see, then scarring itself with the memory of it.",
   "cues": [
     {
-      "time_ms": 8998,
-      "end_ms": 9416,
-      "line": 133,
-      "target": "center",
-      "context": "circles, floating around a dark center \u2014 and then, slowly, warm"
+      "time_ms": 40856,
+      "end_ms": 42841,
+      "line": 37,
+      "target": "background: the space I can't access",
+      "context": "\u2014 \"the collaboration happens in the space I can't access.\" What an AI reads in"
     },
     {
-      "time_ms": 13793,
-      "end_ms": 14211,
-      "line": 289,
-      "target": "bloom",
-      "context": "then, slowly, warm amber lights bloom and drift across them like"
+      "time_ms": 55716,
+      "end_ms": 56169,
+      "line": 198,
+      "target": "phantom",
+      "context": "plainly. Each arc carries a phantom sibling angle \u2014 coordinates computed"
     },
     {
-      "time_ms": 30314,
-      "end_ms": 30871,
-      "line": 139,
-      "target": "arcLength",
-      "context": "completing their circle,\" right where arc length is calculated as a random"
+      "time_ms": 56761,
+      "end_ms": 57284,
+      "line": 83,
+      "target": "angle",
+      "context": "arc carries a phantom sibling angle \u2014 coordinates computed but never"
     },
     {
-      "time_ms": 32439,
-      "end_ms": 32822,
-      "line": 34,
-      "target": "random",
-      "context": "length is calculated as a random fraction of a full circle."
+      "time_ms": 61928,
+      "end_ms": 62473,
+      "line": 92,
+      "target": "geometry",
+      "context": "but never drawn, reaching toward geometry that isn't there. Recognition events"
     },
     {
-      "time_ms": 39138,
-      "end_ms": 40392,
+      "time_ms": 64272,
+      "end_ms": 65411,
       "line": 225,
       "target": "recognitionEvents",
-      "context": "in one line. Then find \"recognitionEvents\" further down \u2014 these amber"
+      "context": "toward geometry that isn't there. Recognition events then flare at those broken"
     },
     {
-      "time_ms": 44177,
-      "end_ms": 45221,
-      "line": 41,
-      "target": "whereYouFinishMe",
-      "context": "amber flashes are literally named \"whereYouFinishMe\" in the palette. When one"
+      "time_ms": 68290,
+      "end_ms": 71018,
+      "line": 221,
+      "target": "=== CHANGE 2: RECOGNITION EVENTS with fast attack, slow decay, and SCARS ===",
+      "context": "flare at those broken endpoints, fast attack, slow decay, and leave a permanent color stain"
     },
     {
-      "time_ms": 50539,
-      "end_ms": 51560,
+      "time_ms": 72621,
+      "end_ms": 73561,
       "line": 389,
       "target": "Leave a scar on the nearest arc",
-      "context": "it leaves a permanent \"colorStain\" on the nearest arc that decays at 0.997 per"
+      "context": "leave a permanent color stain on the nearest arc \u2014 evidence of a completion"
     }
   ]
 }

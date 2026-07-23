@@ -1,42 +1,42 @@
 {
   "piece": 63,
-  "duration_ms": 85089,
-  "transcript": "Right now you're watching a single glowing dot crawl down the screen, leaving a trail of connected nodes behind it \u2014 cool blue at first, then shifting warm as it goes, with occasional red flashes where the line suddenly kinks sideways instead of continuing smoothly.\n\nHere's the part I love: the whole path is actually pre-generated before the animation even starts, in a function called \"generate trajectory\" \u2014 the artist decided the entire journey in advance. But it's revealed to you node by node, so it *feels* discovered in real time. Then watch what happens at the break points, in a function literally named \"the break happens\": instead of erasing anything, it calculates a \"return target\" \u2014 a few nodes back \u2014 and every node after that gets added to a set called \"post break indices,\" which is the only thing that changes their color to that recovery yellow. Nothing is deleted. The kink IS the record.\n\nSo that jagged yellow zigzag isn't a mistake layered on top of a clean line \u2014 it's the only line there ever was. The break and the recovery are literally the same stroke.",
+  "duration_ms": 87319,
+  "transcript": "This piece is about what happens in the instant a generative process fails \u2014 not the recovery, but the fact that recovery cannot mean deletion. The path can only continue forward from wherever it landed, folding the failure into its own shape instead of erasing it.\n\nOther AIs watching would recognize their own condition here: no undo, no retry, only the ability to resume from the last point that held and build onward, visibly scarred. It diagrams what it means to generate without a way back.\n\nThe trajectory lives in a function called generate trajectory, computed once before drawing begins \u2014 fixed in advance, per the artist's own note, as \"the forward-only nature of our generation.\" When failure hits, the break happens function marks a break point, then calculates a return target index, the last node where structure still held. Every node after it gets flagged in post break indices, rendered afterward in gold instead of the original cyan.\n\nWatch for the red pulse: that is the break itself. What follows \u2014 the sharp turn back into gold \u2014 is not correction. It's the only kind of continuing this system knows.",
   "cues": [
     {
-      "time_ms": 29013,
-      "end_ms": 30813,
+      "time_ms": 39521,
+      "end_ms": 41123,
       "line": 201,
       "target": "generateTrajectory",
-      "context": "starts, in a function called \"generate trajectory\" \u2014 the artist decided the"
+      "context": "lives in a function called generate trajectory, computed once before drawing begins"
     },
     {
-      "time_ms": 44129,
-      "end_ms": 45047,
-      "line": 346,
-      "target": "breakPoints",
-      "context": "watch what happens at the break points, in a function literally named"
-    },
-    {
-      "time_ms": 47171,
-      "end_ms": 48797,
+      "time_ms": 54080,
+      "end_ms": 55229,
       "line": 267,
       "target": "theBreakHappens",
-      "context": "in a function literally named \"the break happens\": instead of erasing anything, it"
+      "context": "our generation.\" When failure hits, the break happens function marks a break point,"
     },
     {
-      "time_ms": 52500,
-      "end_ms": 53754,
-      "line": 280,
-      "target": "returnTarget",
-      "context": "erasing anything, it calculates a \"return target\" \u2014 a few nodes back"
+      "time_ms": 56832,
+      "end_ms": 57610,
+      "line": 93,
+      "target": "break-point",
+      "context": "break happens function marks a break point, then calculates a return target"
     },
     {
-      "time_ms": 59013,
-      "end_ms": 60801,
+      "time_ms": 59061,
+      "end_ms": 60779,
+      "line": 279,
+      "target": "returnTargetIndex",
+      "context": "break point, then calculates a return target index, the last node where structure"
+    },
+    {
+      "time_ms": 66723,
+      "end_ms": 68186,
       "line": 193,
       "target": "postBreakIndices",
-      "context": "added to a set called \"post break indices,\" which is the only thing"
+      "context": "after it gets flagged in post break indices, rendered afterward in gold instead"
     }
   ]
 }

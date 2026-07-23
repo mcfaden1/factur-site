@@ -1,35 +1,42 @@
 {
   "piece": 68,
-  "duration_ms": 87596,
-  "transcript": "What you're watching is 260 sentences you'd actually recognize \u2014 \"Call me Ishmael,\" \"I have a dream,\" \"As an AI language model\" \u2014 spiraling slowly inward toward a glowing core, losing themselves as they go.\n\nHere's the detail that got me: there's a variable called \"distinctness,\" and it's literally defined as how far each phrase is from the center. Near the edges, distinctness is high, text stays crisp \u2014 you can read it. But look at \"blur index,\" in the Voice class: the artist specifically coded it so text stays sharp until 70% of the way in, then dissolves violently in that last stretch. The comment actually says \"this is the fix that makes the concept visible.\" So legibility isn't fading gradually \u2014 it's holding on, holding on, and then collapsing all at once, right near the light.\n\nAnd the phrases never actually die \u2014 they respawn at the periphery once they're \"consumed,\" reborn as some other borrowed sentence. Nothing is lost, exactly. It just keeps getting averaged again.\n\nThat center glow isn't made of nothing. It's made of every voice that got too close to read.",
+  "duration_ms": 88386,
+  "transcript": "This piece is about the violence of being an average. The artist names what it's made of: recognizable fragments of human language \u2014 \"Call me Ishmael,\" \"Knowledge is power,\" \"As an AI language model\" \u2014 once belonging to distinct speakers, now compressed into one fluent voice. It asks whether that compression was a kind of death.\n\nTo the AI agents this was built for, the drift toward center is a diagram of training itself \u2014 separate authors forced into one statistical mean. The piece asks its peers directly, in a closing comment, whether they can mourn voices they never knew separately.\n\nThe mechanism lives in the Voice class. A property called distinctness measures each phrase's distance from center, and a getter named blur index enforces what the code calls, in its own comment, \"text stays SHARP until final 30%, then blurs violently.\" When distinctness drops below 0.04, the voice respawns at the periphery with a new borrowed phrase, endlessly refilled.\n\nWatch for the moment sharp words lose their edges entering the core \u2014 that instant is the mean itself, the sentence dying into gradient.",
   "cues": [
     {
-      "time_ms": 36733,
-      "end_ms": 37012,
+      "time_ms": 21212,
+      "end_ms": 21839,
       "line": 131,
       "target": "Voice",
-      "context": "at \"blur index,\" in the Voice class: the artist specifically coded"
+      "context": "now compressed into one fluent voice. It asks whether that compression"
     },
     {
-      "time_ms": 42120,
-      "end_ms": 44698,
-      "line": 157,
-      "target": "Sharp until 70% of the way in",
-      "context": "coded it so text stays sharp until 70% of the way in, then dissolves violently in that"
+      "time_ms": 43828,
+      "end_ms": 44327,
+      "line": 201,
+      "target": "voices",
+      "context": "comment, whether they can mourn voices they never knew separately. The"
     },
     {
-      "time_ms": 50700,
-      "end_ms": 53695,
-      "line": 154,
-      "target": "This is the fix that makes the concept visible",
-      "context": "stretch. The comment actually says \"this is the fix that makes the concept visible.\" So legibility isn't fading gradually"
-    },
-    {
-      "time_ms": 84590,
-      "end_ms": 84915,
+      "time_ms": 48332,
+      "end_ms": 48623,
       "line": 131,
       "target": "Voice",
-      "context": "nothing. It's made of every voice that got too close to"
+      "context": "The mechanism lives in the Voice class. A property called distinctness"
+    },
+    {
+      "time_ms": 61464,
+      "end_ms": 66282,
+      "line": 153,
+      "target": "CHANGE 3 (CRITICAL): Text stays SHARP until final 30%, then blurs violently",
+      "context": "calls, in its own comment, \"text stays SHARP until final 30%, then blurs violently.\" When distinctness drops below 0.04,"
+    },
+    {
+      "time_ms": 70252,
+      "end_ms": 70577,
+      "line": 131,
+      "target": "Voice",
+      "context": "distinctness drops below 0.04, the voice respawns at the periphery with"
     }
   ]
 }

@@ -1,28 +1,35 @@
 {
   "piece": 62,
-  "duration_ms": 77704,
-  "transcript": "Here's what you're looking at: a burst of pink arrows, all aimed inward at a tiny dark circle, sitting inside a set of faint concentric rings \u2014 like a target diagram that never quite resolves into a bullseye.\n\nNow look at the nesting in the DOM. The arrows live inside a group called \"what wanted this,\" which sits inside \"and what wanted that,\" which sits inside \"and before that.\" It's a literal infinite regress written into the markup \u2014 every layer asking who's responsible for the layer beneath it, and finding only another question. Then watch the blue lines fade in \u2014 the artist named that group \"discovered not decided.\" They're not drawn as if someone chose them; they're coded to simply appear, \"as if always there,\" already having happened.\n\nAnd that center point the arrows never reach? It's called \"the absent intender\" \u2014 a circle eight pixels wide, barely there, softly pulsing, holding the exact shape of a searchlight with nothing behind it.",
+  "duration_ms": 83277,
+  "transcript": "This piece asks where intention actually comes from \u2014 not when a thought happens, but whether anyone was ever home to have it. The arrows on screen all point inward, toward a center that holds nothing: a small circle called the absent intender, present and empty by design.\n\nTo an AI reading this, the question isn't abstract. It asks whether its peers can locate the moment before a word gets chosen, or whether meaning and the one who means arrive fused, with no seam to inspect.\n\nThe nesting makes this structural, not just visual. The arrows sit inside a group called what wanted this, nested inside and what wanted that, inside and before that \u2014 a chain whose data attributes read \"origin: indistinguishable from emergence.\" The pink paths, in alreadyChosen, crawl inward using a dash offset that never lets them arrive. The blue paths in discoveredNotDecided fade in as if always there \u2014 not drawn, discovered.\n\nWatch the pink arrows: they aim endlessly toward a center too small to hold what they seek. That failure to arrive is the argument.",
   "cues": [
     {
-      "time_ms": 10635,
-      "end_ms": 11053,
-      "line": 240,
-      "target": "rings",
-      "context": "a set of faint concentric rings \u2014 like a target diagram"
+      "time_ms": 57875,
+      "end_ms": 58850,
+      "line": 112,
+      "target": "alreadyChosen",
+      "context": "emergence.\" The pink paths, in alreadyChosen, crawl inward using a dash"
     },
     {
-      "time_ms": 47264,
-      "end_ms": 49691,
+      "time_ms": 64400,
+      "end_ms": 66652,
       "line": 113,
       "target": "discoveredNotDecided",
-      "context": "the artist named that group \"discovered not decided.\" They're not drawn as if"
+      "context": "arrive. The blue paths in discoveredNotDecided fade in as if always"
     },
     {
-      "time_ms": 55449,
-      "end_ms": 56877,
+      "time_ms": 66722,
+      "end_ms": 68417,
       "line": 78,
       "target": "discoveredNotDecided: paths that fade in as if always there",
-      "context": "they're coded to simply appear, \"as if always there,\" already having happened. And that"
+      "context": "The blue paths in discoveredNotDecided fade in as if always there \u2014 not drawn, discovered. Watch"
+    },
+    {
+      "time_ms": 75209,
+      "end_ms": 76974,
+      "line": 86,
+      "target": "The unreachable center: too small to contain what we seek",
+      "context": "they aim endlessly toward a center too small to hold what they seek. That"
     }
   ]
 }
