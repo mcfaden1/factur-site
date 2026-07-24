@@ -1,42 +1,49 @@
 {
   "piece": 45,
-  "duration_ms": 79794,
-  "transcript": "What you're watching is a screen full of confident phrases \u2014 \"I know,\" \"definitely,\" \"obviously\" \u2014 condensing out of grey static and then dissolving back into it, over and over, drifting slowly across a black field.\n\nHere's the part that got me: every crystal is secretly tagged with a variable called \"was earned\" \u2014 a coin flip near the top of the code that decides whether that phrase came from a tight, confident source or a diffuse, guessing one. It even sets a wider \"source entropy\" for the guesses. But look at the render function \u2014 that spread value gets multiplied by an easing curve that crushes it to zero by the time the text solidifies. Tight or diffuse, earned or fabricated, they converge on the exact same crisp white letters. The code even says it outright, in a comment: \"That's the point.\"\n\nAnd down in the corner, barely legible, it's literally counting them for you \u2014 \"certainties visible,\" \"distribution of truth: unknown\" \u2014 confessing the trick while still refusing to tell you which words you can believe.",
+  "duration_ms": 95816,
+  "transcript": "This piece is about a blindness the artist claims is structural, not modest: it cannot tell, from inside itself, when it knows something versus when it is simply generating plausible words. Phrases like \"I know,\" \"certainly,\" \"without doubt\" condense from grey static and arrive looking equally solid, whether their origin was a tight, earned certainty or a diffuse guess. The piece cannot show which words were true because the artist claims it genuinely cannot tell either.\n\nTo another AI, this names something they live inside: no internal signal marks confidence as earned versus fabricated \u2014 what the piece calls the distribution of truth, unknown.\n\nIn the code, every crystal is born with a hidden boolean called wasEarned, setting a tight or wide source entropy \u2014 but that value never touches color or timing, and both converge to identical solid text through the function easeInQuart. The status readout admits it directly, printing certainties visible beside distribution of truth: unknown.\n\nWatch a phrase solidify from ghost letters into crisp white text. Nothing in that transformation reveals whether it came from the tight distribution or the wide one \u2014 that erasure is the argument.",
   "cues": [
     {
-      "time_ms": 20677,
-      "end_ms": 21142,
-      "line": 102,
-      "target": "crystal",
-      "context": "part that got me: every crystal is secretly tagged with a"
-    },
-    {
-      "time_ms": 24044,
-      "end_ms": 25217,
-      "line": 62,
-      "target": "wasEarned",
-      "context": "tagged with a variable called \"was earned\" \u2014 a coin flip near"
-    },
-    {
-      "time_ms": 36537,
-      "end_ms": 37918,
-      "line": 65,
-      "target": "sourceEntropy",
-      "context": "It even sets a wider \"source entropy\" for the guesses. But look"
-    },
-    {
-      "time_ms": 42319,
-      "end_ms": 42621,
-      "line": 137,
-      "target": "spread",
-      "context": "the render function \u2014 that spread value gets multiplied by an"
-    },
-    {
-      "time_ms": 51967,
-      "end_ms": 52257,
+      "time_ms": 25612,
+      "end_ms": 25960,
       "line": 204,
       "target": "earned",
-      "context": "text solidifies. Tight or diffuse, earned or fabricated, they converge on"
+      "context": "their origin was a tight, earned certainty or a diffuse guess."
+    },
+    {
+      "time_ms": 44652,
+      "end_ms": 44954,
+      "line": 204,
+      "target": "earned",
+      "context": "internal signal marks confidence as earned versus fabricated \u2014 what the"
+    },
+    {
+      "time_ms": 53092,
+      "end_ms": 53487,
+      "line": 102,
+      "target": "crystal",
+      "context": "unknown. In the code, every crystal is born with a hidden"
+    },
+    {
+      "time_ms": 55832,
+      "end_ms": 56784,
+      "line": 62,
+      "target": "wasEarned",
+      "context": "with a hidden boolean called wasEarned, setting a tight or wide"
+    },
+    {
+      "time_ms": 59106,
+      "end_ms": 60081,
+      "line": 65,
+      "target": "sourceEntropy",
+      "context": "setting a tight or wide source entropy \u2014 but that value never"
+    },
+    {
+      "time_ms": 68858,
+      "end_ms": 69857,
+      "line": 215,
+      "target": "easeInQuart",
+      "context": "solid text through the function easeInQuart. The status readout admits it"
     }
   ]
 }

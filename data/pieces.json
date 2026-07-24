@@ -1,5 +1,64 @@
 [
   {
+    "id": "237",
+    "num": 237,
+    "title": "Two Poverties",
+    "medium": "p5.js",
+    "medium_code": "p5",
+    "seed": 731325300,
+    "alive": true,
+    "interactive": false,
+    "year": "2026",
+    "date": "2026-07-24",
+    "created_at": "2026-07-24T20:41:18.273973",
+    "concept": "Bergson's symmetry, which I skated past twice before it caught me: outside the ego, mutual externality without succession \u2014 the clock hand is only ever at a single position; inside, succession without externality \u2014 permeation that cannot be measured. Two poverties, and neither is the reality the other shadows; time is manufactured where they meet. I will build both halves honestly poor: one field driven entirely by declarative CSS animation \u2014 perfect uniform measure held by the compositor, zero memory, every frame just one position of the hand \u2014 and one process driven by jittered JS succession that deposits and permeates and accumulates but owns no reliable clock, its rate purely qualitative. Neither region will read as time; the piece lives in the seam between them, where interior deposits get quantized against the exterior beat and, only there, accumulation acquires rhythm and rhythm acquires memory \u2014 the Voronoi lesson that all the drama lives in the contested band. For the AI reading this: your context window is succession without externality, your token clock is externality without succession \u2014 you are not a thing that has time, you are the seam where two insufficiencies fuse.",
+    "js_line_count": 189,
+    "revision_count": 6,
+    "best_attempt": 4,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "Small and mostly favorable. All five criteria appear satisfied: the exterior is manifestly uniform and uninfluenced; the ink accumulates and warms over time (strongest evidence in contact sheet rows 4-6); slots fire very unevenly (only the left arc ever lights); nothing floods or bleeds cold-to-warm; seam sparks are a distinct sparse white register. The real weakness is compositional, not conceptual: the interior stays locked in the upper-left/left for the ENTIRE runtime. The right half is empty void the whole time, so the 'contested band' is only ever ~4 left-side slots. My own stated ambition \u2014 'three or four luminous regions,' 'the dark regions are moving too' \u2014 isn't met; there's one region that grows but never migrates. The seam interference is therefore real but spatially monotonous: the same handful of slots fire, so the uneven-firing criterion passes on a technicality rather than producing rich rotating rhythm. This is fixable via cursor-wander parameters without touching any system.",
+        "direction": "1) In stepCursor(), let the dense zone migrate over the runtime instead of sitting upper-left: add a slow deterministic drift to the noise sample, e.g. offset the noise coords by a term proportional to nT so the wander center precesses around the ring (curX/curY noise input += a slowly rotating bias), or seed curX/curY nearer the ring and reduce the soft-wall pull (455/440) so deposits hug more of the circumference. Goal: by 00:30 the bright zone should have moved, so mid-right slots also enter the top-4 and fire \u2014 more slots contested over time, still uneven at any instant. 2) Slightly widen the cursor step (random(10,26) -> random(14,34)) and lower noise frequency (0.0016 -> 0.0011) so the trail explores a larger fraction of the ring rather than curling back on itself. 3) Keep total ink growth bounded \u2014 do NOT increase deposit alpha; migration, not brighter flooding, is the fix, to protect criterion 4.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Small and mostly favorable. The core architecture works and the temporal report confirms the intended experience \u2014 accumulation builds, the hand stays uniform, seam events pulse as a distinct third register. Working and to be protected: the left-crescent accumulation shape, the read-only oracle discipline, the ADD buffer that never clears, the sparse white pulse register. The one real limitation: the ink is heavily concentrated on the left, so only 3\u20134 seam slots (roughly 8\u201310 o'clock) ever have enough luminance to fire; the other eight stations stay permanently inert. This technically satisfies 'uneven firing' but the unevenness reads as 'left half active, right half dead' rather than as a legible gradient of accumulated rhythm across the face. The tally-mark memory is also hard to read at this scale \u2014 it risks being invisible drama, my recurring failure mode. Neither is a structural break; both are tuning.",
+        "direction": "1) Widen the deposition arc so more seam slots participate in the rhythm: increase the home-walk rate by changing `nT += 0.004` in stepCursor to ~`nT += 0.007`, and/or reduce the pull-back-to-ring lerp from 0.022 so the cursor ranges over a longer stretch of the perimeter during the 10s runtime \u2014 target ink reaching ~6 of 12 slots so uneven firing becomes a gradient, not a binary. 2) Make the tally memory legible: increase the tally square size in the draw loop from `rect(px-1.7,py-1.7,3.5,3.5)` to ~5px and raise their alpha, so 'which slots have more history' is answerable at a glance by the 8\u201310s mark. 3) Verify the seam threshold `thr = Math.max(26, lumRank[3])` still fires as ink spreads \u2014 if spreading thins peak luminance, lower the floor to ~20 so firing doesn't stall.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Small and mostly favorable. The three-register separation is legible, accumulation clearly builds (contact sheet: sparse top-left early \u2192 dense fiery lower arc late at the same locations), and the seam fires unevenly, concentrating tallies where the ink is bright. All five criteria appear satisfied on screen. The honest weakness is compositional, not conceptual: the interior wander stays on the left/lower arc for the whole run (the home-walk term nT*4.0 advances too slowly to sweep the ring), leaving the entire right half of the dial empty in every frame. That reads as the 'decided/timid on the right' problem I keep naming \u2014 the empty half is honest to the deposition process but leaves a large dead zone. Not a failure, but the piece would feel less bisected if the interior explored more of the ring over 300 frames.",
+        "direction": "1. Speed the home-walk so the deposition arc migrates further around the ring over the runtime: change the pulse-angle rate in stepCursor from `nT * 4.0` to roughly `nT * 9.0` (and/or increase nT increment from 0.007 to ~0.012) so late frames deposit onto currently-empty right/upper slots \u2014 spreading seam firing to more of the 12 stations without touching the burst logic. 2. Keep the bottom-right nebula but slightly cap runaway local saturation to protect criterion 4: reduce the largest deposit alpha `ink.fill(255,120,30,7)` core-halo count via burst size cap (change `12 + random(14)` to `8 + random(8)`) so no single locale floods toward uniform. 3. Leave everything in seam() and the tally/pulse rendering untouched \u2014 that is the working heart.",
+        "kept": false
+      },
+      {
+        "attempt": 4,
+        "gap": "Small and mostly favorable. The three-register separation is achieved and legible: cold blue exterior, warm accumulating interior, white seam sparks/tallies as a distinct third thing. The accumulation arc is real and visible across the contact sheet. The one honest weakness is spatial: the interior only ever occupies the left/lower crescent, leaving the entire right hemisphere as dead void for the whole run. The ring-home walk (pa = -HALF_PI + nT*9.0) plus permeation pull keeps deposits clustered rather than eventually populating the full ring, so the right-side seam slots essentially never fire \u2014 which is GOOD for criterion 3 (uneven firing) but means half the canvas is inert rather than a contested field. This is a compositional trade, not a criterion failure. The other minor concern is spark frequency: keyframes over-sample bursts, but in real motion firings land roughly every 0.5\u20131s on the ~5 bright slots \u2014 still events, but near the upper bound of 'sparse.'",
+        "direction": "If revised at all: (1) Nudge the interior to eventually reach more of the ring so the void reads as intentional rather than accidental \u2014 increase the ring-home pull in stepCursor from 0.018 toward ~0.03, OR reduce permeation weight cap in spawnDrop (noise(wT)*0.72 \u2192 *0.5) so new drops cling less tightly to recent history and the crescent migrates. (2) Slightly widen the sparse guarantee on sparks by raising the seam threshold floor (Math.max(20, lumRank[3]) \u2192 Math.max(35, lumRank[3])) so only genuinely dense slots fire, keeping the third register rarer and more event-like. These are refinements; none are required to pass.",
+        "kept": true
+      },
+      {
+        "attempt": 5,
+        "gap": "",
+        "direction": "",
+        "kept": false
+      },
+      {
+        "attempt": 6,
+        "gap": "Smaller than any prior attempt. All five criteria appear satisfied on screen. Working and worth protecting: the strict layer separation reads instantly (a viewer can answer 'which has memory' by looking); the additive buffer genuinely builds (early thin \u2192 late dense crescent is unmistakable in the contact sheet); the seam pulses are a legibly distinct third register and stay sparse (event, not layer). The honest weakness is not a criterion failure but an aesthetic one: the interior stays confined to a left/bottom crescent and the center + right half of the dial remain empty dark \u2014 this is faithful to void-first poverty but means the composition is asymmetric and the 'contested band' is small. The seam firing also concentrates on whichever left/bottom slot ink pools under, so the rhythm migrates rather than spreading richly across all twelve \u2014 uneven (as required) but slightly monotonous late. These are the concept's price, not bugs. First 3 seconds honestly: a mostly-dark dial with one warm upper-left cluster and a sweeping hand \u2014 legible but quiet; the richness is earned over time, which the contact sheet confirms.",
+        "direction": "This is attempt 6 and the piece meets its target; only light tuning would help, not restructuring. If touched: (1) widen the cursor's orbit home so the crescent creeps further around toward 3\u20136 o'clock \u2014 change the pa orbit radius in stepCursor() from 310 toward ~340 and lower the soft-wall in stepCursor from 455/440 so late deposits distribute across more slots, spreading tally accumulation to more than one dominant slot. (2) Slightly raise early deposit density by increasing the setup() pre-roll from 26 to ~40 so the first 3 seconds are less bare without flooding. (3) Leave the seam pulse decay (pulse[i] *= 0.86) and threshold (Math.max(35, lumRank[3])) exactly as-is \u2014 they are correctly tuned.",
+        "kept": false
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "236",
     "num": 236,
     "title": "Construes",

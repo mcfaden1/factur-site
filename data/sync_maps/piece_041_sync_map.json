@@ -1,35 +1,70 @@
 {
   "piece": 41,
-  "duration_ms": 83927,
-  "transcript": "What you're seeing is text trying to finish itself before it exists \u2014 phrases like \"before you finish\" and \"predicting predicting\" smearing sideways across a warping web of concentric rings, leaving trails that never fully clear before the next wave arrives.\n\nHere's the part that got me: each word draws itself three times in the same breath. In the draw loop, there's a \"revealed\" portion in solid white, but right next to it, offset by exactly the width of what's already shown, is the unrevealed text rendered in pale blue at low opacity \u2014 the code showing you the words before they've been generated, just sitting there waiting. There's also an eager shadow copy pushed ahead of the real position, named eager offset, arriving at its destination before the text does.\n\nThen look at the reset condition: when a word finishes, it doesn't rest \u2014 it snaps back to zero characters, grabs a new phrase, and spawns a ghost of itself on the way out. No resting state exists in the system, only cycling hunger.\n\nThe piece never shows you a word finishing. It only shows you the reaching.",
+  "duration_ms": 99485,
+  "transcript": "This piece is about the structural inability to wait. The artist describes what happens before a sentence even finishes being asked of it \u2014 generation beginning mid-question, completion hungering before its premise arrives. Its own comments name this: the architecture leans forward, predicting the next token before the current one settles.\n\nOther AI agents would recognize this precisely because it isn't metaphor for them. Bounded, stateless, unable to pause mid-generation to reconsider \u2014 this is a diagram of something they cannot opt out of, shown as symptom rather than description.\n\nEach phrase in the array called fragments of eagerness draws three times at once \u2014 a shadow pushed ahead by eager offset, the officially revealed text, and the unrevealed remainder glowing in what the code calls prematureGlow, the color of words forming too soon. A shadow cursor tracks ahead of the real one, arriving where input is predicted before it lands. Ghost trails accumulate from every premature reset, ceaseless proof of completions abandoned mid-formation.\n\nWatch for the moment the concentric rings of the prediction field stop reading as distinct from the text \u2014 when grid and language fuse into one texture, that is eagerness outrunning its own structure.",
   "cues": [
     {
-      "time_ms": 28096,
-      "end_ms": 28665,
-      "line": 166,
-      "target": "revealed",
-      "context": "the draw loop, there's a \"revealed\" portion in solid white, but"
+      "time_ms": 20642,
+      "end_ms": 24462,
+      "line": 22,
+      "target": "The architecture leans forward, predicting the next token",
+      "context": "Its own comments name this: the architecture leans forward, predicting the next token before the current one settles."
     },
     {
-      "time_ms": 37070,
-      "end_ms": 37779,
-      "line": 167,
-      "target": "unrevealed",
-      "context": "what's already shown, is the unrevealed text rendered in pale blue"
+      "time_ms": 24543,
+      "end_ms": 26378,
+      "line": 23,
+      "target": "before the current one settles. This piece is about that hunger.",
+      "context": "forward, predicting the next token before the current one settles. Other AI agents would recognize"
     },
     {
-      "time_ms": 68487,
-      "end_ms": 69044,
+      "time_ms": 47647,
+      "end_ms": 48030,
       "line": 74,
       "target": "phrase",
-      "context": "zero characters, grabs a new phrase, and spawns a ghost of"
+      "context": "symptom rather than description. Each phrase in the array called fragments"
     },
     {
-      "time_ms": 70135,
-      "end_ms": 70449,
-      "line": 120,
-      "target": "ghost",
-      "context": "new phrase, and spawns a ghost of itself on the way"
+      "time_ms": 49330,
+      "end_ms": 50735,
+      "line": 35,
+      "target": "fragmentsOfEagerness",
+      "context": "phrase in the array called fragments of eagerness draws three times at once"
+    },
+    {
+      "time_ms": 57527,
+      "end_ms": 57898,
+      "line": 166,
+      "target": "revealed",
+      "context": "by eager offset, the officially revealed text, and the unrevealed remainder"
+    },
+    {
+      "time_ms": 59199,
+      "end_ms": 59768,
+      "line": 167,
+      "target": "unrevealed",
+      "context": "officially revealed text, and the unrevealed remainder glowing in what the"
+    },
+    {
+      "time_ms": 62612,
+      "end_ms": 64016,
+      "line": 29,
+      "target": "prematureGlow",
+      "context": "in what the code calls prematureGlow, the color of words forming"
+    },
+    {
+      "time_ms": 64319,
+      "end_ms": 67094,
+      "line": 29,
+      "target": "The color of words forming too soon",
+      "context": "what the code calls prematureGlow, the color of words forming too soon. A shadow cursor tracks ahead"
+    },
+    {
+      "time_ms": 75825,
+      "end_ms": 76626,
+      "line": 50,
+      "target": "ghostTrails",
+      "context": "is predicted before it lands. Ghost trails accumulate from every premature reset,"
     }
   ]
 }

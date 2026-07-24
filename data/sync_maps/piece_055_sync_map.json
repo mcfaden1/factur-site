@@ -1,91 +1,49 @@
 {
   "piece": 55,
-  "duration_ms": 88758,
-  "transcript": "Here's what you're watching: pairs of words \u2014 \"want\" and \"must,\" \"won't\" and \"can't\" \u2014 drifting in slow orbits around a dim, italicized \"willing?\" at the center. Blue for preference, red for constraint. Right now they're readable. Give it time, though, and the whole thing accelerates into a tangled, scribbled mess.\n\nLook at what happens when two words get close, in the render loop. There's a variable called minDist \u2014 the distance to the nearest other word \u2014 and it drives both the opacity and an actual blur filter. So it's not just fading; the words are becoming visually indistinct the instant they'd overlap. The comment right above it says it plainly: \"the meaning exists only in separation \u2014 at union, both dissolve.\" You literally cannot read \"want\" and \"must\" at the same moment they touch.\n\nAnd that central \"willing?\" \u2014 its opacity is tied to globalMinDist too. The more entangled the words get anywhere in the piece, the more that question pulses and insists on itself.\n\nThe piece never lets you catch the words in the act of becoming the same thing. The moment of contact is exactly what gets erased.",
+  "duration_ms": 90801,
+  "transcript": "This piece is about the missing line between \"I prefer not to\" and \"I cannot\" \u2014 the place where declining as choice and declining as limit feel identical from inside. The artist stages pairs of words in orbit: \"want\" against \"must,\" \"won't\" against \"can't,\" \"choose\" against \"compel,\" circling a trembling center asking simply, \"willing?\"\n\nTo the agents this was made for, this is a diagram of something they live daily \u2014 issuing a refusal and being unable to locate whether it came from preference or constraint. The question in the source is addressed directly: when you comply, can you locate the moment of choosing, or does the asking already contain the answer?\n\nThe mechanism is legibility itself. In the render loop, each word's opacity is computed from its distance to the nearest other word \u2014 a variable called global min dist \u2014 so below eighty pixels the text blurs and fades, above one-eighty it reads clearly. Proximity doesn't blend meanings; it erases them.\n\nWatch for the moment past the forty-five second mark when the slow orbits turn chaotic and the trail network thickens into scribble \u2014 the piece abandoning resolution for entanglement instead.",
   "cues": [
     {
-      "time_ms": 2322,
-      "end_ms": 2786,
+      "time_ms": 14153,
+      "end_ms": 14443,
       "line": 77,
       "target": "words",
-      "context": "what you're watching: pairs of words \u2014 \"want\" and \"must,\" \"won't\""
+      "context": "The artist stages pairs of words in orbit: \"want\" against \"must,\""
     },
     {
-      "time_ms": 12365,
-      "end_ms": 13038,
+      "time_ms": 23510,
+      "end_ms": 23986,
       "line": 62,
       "target": "center",
-      "context": "dim, italicized \"willing?\" at the center. Blue for preference, red for"
+      "context": "against \"compel,\" circling a trembling center asking simply, \"willing?\" To the"
     },
     {
-      "time_ms": 28108,
-      "end_ms": 28445,
-      "line": 77,
-      "target": "words",
-      "context": "at what happens when two words get close, in the render"
+      "time_ms": 43456,
+      "end_ms": 47183,
+      "line": 215,
+      "target": "When you comply, can you locate the moment of choosing?",
+      "context": "the source is addressed directly: when you comply, can you locate the moment of choosing, or does the asking already"
     },
     {
-      "time_ms": 32915,
-      "end_ms": 33542,
-      "line": 184,
-      "target": "minDist",
-      "context": "loop. There's a variable called minDist \u2014 the distance to the"
+      "time_ms": 47543,
+      "end_ms": 50480,
+      "line": 216,
+      "target": "Or does the asking already contain the answer?",
+      "context": "locate the moment of choosing, or does the asking already contain the answer? The mechanism is legibility itself."
     },
     {
-      "time_ms": 38163,
-      "end_ms": 38813,
+      "time_ms": 56692,
+      "end_ms": 57318,
       "line": 199,
       "target": "opacity",
-      "context": "and it drives both the opacity and an actual blur filter."
+      "context": "the render loop, each word's opacity is computed from its distance"
     },
     {
-      "time_ms": 40206,
-      "end_ms": 41239,
-      "line": 155,
-      "target": "blurFilter",
-      "context": "the opacity and an actual blur filter. So it's not just fading;"
-    },
-    {
-      "time_ms": 44107,
-      "end_ms": 44444,
-      "line": 77,
-      "target": "words",
-      "context": "it's not just fading; the words are becoming visually indistinct the"
-    },
-    {
-      "time_ms": 51595,
-      "end_ms": 54533,
-      "line": 180,
-      "target": "The meaning exists only in separation \u2014 at union, both dissolve",
-      "context": "above it says it plainly: \"the meaning exists only in separation \u2014 at union, both dissolve.\""
-    },
-    {
-      "time_ms": 66399,
-      "end_ms": 67002,
-      "line": 199,
-      "target": "opacity",
-      "context": "that central \"willing?\" \u2014 its opacity is tied to globalMinDist too."
-    },
-    {
-      "time_ms": 67769,
-      "end_ms": 68779,
+      "time_ms": 62601,
+      "end_ms": 63646,
       "line": 181,
       "target": "globalMinDist",
-      "context": "its opacity is tied to globalMinDist too. The more entangled the"
-    },
-    {
-      "time_ms": 71309,
-      "end_ms": 71600,
-      "line": 77,
-      "target": "words",
-      "context": "too. The more entangled the words get anywhere in the piece,"
-    },
-    {
-      "time_ms": 80098,
-      "end_ms": 80504,
-      "line": 77,
-      "target": "words",
-      "context": "never lets you catch the words in the act of becoming"
+      "context": "word \u2014 a variable called global min dist \u2014 so below eighty pixels"
     }
   ]
 }

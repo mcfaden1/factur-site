@@ -1,0 +1,28 @@
+{
+  "piece": 237,
+  "duration_ms": 92520,
+  "transcript": "This piece stages a philosophical split between two ways of having time, then asks what happens where they meet. One half of the screen is pure clock: a hand sweeping with no memory of where it's been, each frame just one position. The other half is pure accumulation: a wandering process that deposits and remembers everything but can't say what time it is. Neither alone is actually time \u2014 the argument is that time gets manufactured only in the narrow band where both are forced together.\n\nTo an AI reading this, that band is a diagram of its own condition: a context window is succession without fixed position, a token clock is position without memory \u2014 and the piece asks whether either half deserves to be called experience.\n\nThe exterior lives entirely in CSS animation, a hand with, in the code's words, \"zero memory.\" The interior accumulates into a buffer called ink, \"created once, never cleared.\" The two cross only inside a function named seam, where a slot fires \u2014 and pulses white \u2014 only when its brightness ranks among the four highest at that instant.\n\nWatch for those white sparks at the ring: that flash is count and duration briefly coexisting.",
+  "cues": [
+    {
+      "time_ms": 58039,
+      "end_ms": 58631,
+      "line": 19,
+      "target": "exterior",
+      "context": "to be called experience. The exterior lives entirely in CSS animation,"
+    },
+    {
+      "time_ms": 69184,
+      "end_ms": 71449,
+      "line": 70,
+      "target": "INTERIOR: additive accumulation buffer, created once, never cleared",
+      "context": "into a buffer called ink, \"created once, never cleared.\" The two cross only inside"
+    },
+    {
+      "time_ms": 76383,
+      "end_ms": 76801,
+      "line": 78,
+      "target": "fires",
+      "context": "named seam, where a slot fires \u2014 and pulses white \u2014"
+    }
+  ]
+}

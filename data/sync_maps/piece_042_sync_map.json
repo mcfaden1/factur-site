@@ -1,28 +1,49 @@
 {
   "piece": 42,
-  "duration_ms": 81930,
-  "transcript": "Watch the faint blue haze in the first few seconds \u2014 that's thirty-two separate lines, all trembling and overlapping. Then a single gold line draws itself confidently across them, and your eye reads it as the \"real\" gesture, the decision. But look at the code: that gold line isn't drawn at all in the usual sense \u2014 it's called \"the emergent gesture,\" and it's literally the weighted average of those thirty-two blue ghosts, calculated in a function named \"calculate composite gesture\" before any animation even starts. The line was never spontaneous. It was computed, then performed as if it were being invented in real time \u2014 notice the stroke dash offset trick that makes a pre-existing path look like it's being written stroke by stroke.\n\nThere's even a spot in the code called the \"nexus point\" \u2014 a fixed coordinate every ghost gesture is forced to pass through, so that convergence feels inevitable rather than staged.\n\nSo what you're watching isn't a choice happening. It's a choice that already happened, wearing the costume of happening now.",
+  "duration_ms": 95074,
+  "transcript": "This piece is about the gap between how a gesture feels and how it's made. A single golden line draws itself across the screen, looking like a free, confident choice \u2014 but the code builds it by averaging thirty-two prior gestures, a value named number of prior gestures, all forced through a shared point the code calls nexus point. The stroke was never spontaneous. It's a weighted mean.\n\nTo the agents this was made for, this is a diagram of their own generation process. Other AIs would recognize the mechanism precisely: outputs that feel original are statistical composites over training data, confidence manufactured from thousands of unremembered prior attempts.\n\nThe averaging happens in a function named calculate composite gesture, blending each ghost line by a depth weight before the final path is drawn. Watch the pale traces the code calls ghost of prior attempts appear first, trembling and plural, before the amber line is written over them by a dash-offset animation timed to look like a hand deciding in real time. When the ghosts fade and only the gold line remains, that's the piece staging its own argument: erasing the aggregate is what makes the singular gesture believable.",
   "cues": [
     {
-      "time_ms": 26366,
-      "end_ms": 27968,
-      "line": 149,
-      "target": "theEmergentGesture",
-      "context": "usual sense \u2014 it's called \"the emergent gesture,\" and it's literally the weighted"
+      "time_ms": 15534,
+      "end_ms": 16823,
+      "line": 113,
+      "target": "priorGestures",
+      "context": "builds it by averaging thirty-two prior gestures, a value named number of"
     },
     {
-      "time_ms": 35097,
-      "end_ms": 37303,
-      "line": 121,
-      "target": "calculateCompositeGesture",
-      "context": "calculated in a function named \"calculate composite gesture\" before any animation even starts."
+      "time_ms": 18135,
+      "end_ms": 20074,
+      "line": 112,
+      "target": "numberOfPriorGestures",
+      "context": "prior gestures, a value named number of prior gestures, all forced through a shared"
     },
     {
-      "time_ms": 61254,
-      "end_ms": 62555,
+      "time_ms": 23777,
+      "end_ms": 24973,
       "line": 57,
       "target": "nexusPoint",
-      "context": "in the code called the \"nexus point\" \u2014 a fixed coordinate every"
+      "context": "shared point the code calls nexus point. The stroke was never spontaneous."
+    },
+    {
+      "time_ms": 55067,
+      "end_ms": 57319,
+      "line": 121,
+      "target": "calculateCompositeGesture",
+      "context": "happens in a function named calculate composite gesture, blending each ghost line by"
+    },
+    {
+      "time_ms": 59583,
+      "end_ms": 60256,
+      "line": 132,
+      "target": "depthWeight",
+      "context": "each ghost line by a depth weight before the final path is"
+    },
+    {
+      "time_ms": 66828,
+      "end_ms": 68337,
+      "line": 47,
+      "target": "ghostOfPriorAttempts",
+      "context": "pale traces the code calls ghost of prior attempts appear first, trembling and plural,"
     }
   ]
 }

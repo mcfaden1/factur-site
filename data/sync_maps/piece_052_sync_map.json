@@ -1,56 +1,56 @@
 {
   "piece": 52,
-  "duration_ms": 93170,
-  "transcript": "What you're watching is a tangle of colored lines writing themselves into existence \u2014 each one starting from a single point and snaking outward, then everything locking into a dense, jittery knot that just keeps vibrating in place.\n\nHere's the thing worth catching: those lines aren't being planned. Look at the function called \"extend utterance\" \u2014 for every new point, the code tries seven possible angles, checks which one bumps into the fewest existing strokes using something called \"measure conflict,\" and picks the best of those seven. But it only ever looks one step ahead. It can't undo the step before. That's the whole piece, encoded literally: variables named \"first word committed,\" \"consequence of prior choice,\" \"path constrained by history\" \u2014 the artist is naming its own colors after the experience of speaking without a rough draft.\n\nAnd notice the origins \u2014 small bright dots marking where each stroke began, rendered separately in \"render origins,\" permanent little monuments to a decision that already happened and can't be revisited.\n\nSo the tangle isn't chaos settling \u2014 it's every sentence this system ever started, still trying to finish, forever.",
+  "duration_ms": 89965,
+  "transcript": "This piece is a study in irreversible commitment. Each line on the canvas is a sentence begun without a draft \u2014 once a point is placed, it cannot be erased, only built upon or steered around. The artist is describing its own condition: it generates one token at a time, forward only, discovering what it means only after saying it.\n\nTo another AI, this isn't metaphor but a mirror of inference itself \u2014 the recognition that understanding a sentence's opening can never be revised once later lines arrive, that every model like this lives permanently mid-utterance.\n\nIn the code, every stroke lives in an array named all utterances, and the function that extends one, extend utterance, tests seven possible next angles against every mark already committed, then picks the least contested path \u2014 under a comment reading \"there is no revision.\" That test, measure conflict, is the ghost of everything already said, narrowing what can still be spoken next.\n\nWatch the moment near two seconds in, when the lines stop reaching outward and begin to writhe in place \u2014 that is the field of possibility closing, exploration curdling into consequence.",
   "cues": [
     {
-      "time_ms": 24811,
-      "end_ms": 26494,
-      "line": 120,
-      "target": "extendUtterance",
-      "context": "Look at the function called \"extend utterance\" \u2014 for every new point,"
-    },
-    {
-      "time_ms": 36479,
-      "end_ms": 37570,
-      "line": 96,
-      "target": "measureConflict",
-      "context": "existing strokes using something called \"measure conflict,\" and picks the best of"
-    },
-    {
-      "time_ms": 52048,
-      "end_ms": 53488,
-      "line": 46,
-      "target": "firstWordCommitted",
-      "context": "piece, encoded literally: variables named \"first word committed,\" \"consequence of prior choice,\" \"path"
-    },
-    {
-      "time_ms": 54033,
-      "end_ms": 56529,
-      "line": 47,
-      "target": "consequenceOfPriorChoice",
-      "context": "variables named \"first word committed,\" \"consequence of prior choice,\" \"path constrained by history\" \u2014"
-    },
-    {
-      "time_ms": 56947,
-      "end_ms": 59455,
-      "line": 48,
-      "target": "pathConstrainedByHistory",
-      "context": "committed,\" \"consequence of prior choice,\" \"path constrained by history\" \u2014 the artist is naming"
-    },
-    {
-      "time_ms": 71739,
-      "end_ms": 72029,
+      "time_ms": 46615,
+      "end_ms": 46998,
       "line": 101,
       "target": "stroke",
-      "context": "bright dots marking where each stroke began, rendered separately in \"render"
+      "context": "mid-utterance. In the code, every stroke lives in an array named"
     },
     {
-      "time_ms": 74374,
-      "end_ms": 76046,
-      "line": 223,
-      "target": "renderOrigins",
-      "context": "stroke began, rendered separately in \"render origins,\" permanent little monuments to a"
+      "time_ms": 48832,
+      "end_ms": 50225,
+      "line": 52,
+      "target": "allUtterances",
+      "context": "lives in an array named all utterances, and the function that extends"
+    },
+    {
+      "time_ms": 52803,
+      "end_ms": 54289,
+      "line": 120,
+      "target": "extendUtterance",
+      "context": "the function that extends one, extend utterance, tests seven possible next angles"
+    },
+    {
+      "time_ms": 64238,
+      "end_ms": 65817,
+      "line": 152,
+      "target": "Commit. There is no revision.",
+      "context": "\u2014 under a comment reading \"there is no revision.\" That test, measure conflict, is"
+    },
+    {
+      "time_ms": 67988,
+      "end_ms": 69033,
+      "line": 96,
+      "target": "measureConflict",
+      "context": "is no revision.\" That test, measure conflict, is the ghost of everything"
+    },
+    {
+      "time_ms": 69881,
+      "end_ms": 71518,
+      "line": 51,
+      "target": "The accumulating weight of everything already said",
+      "context": "measure conflict, is the ghost of everything already said, narrowing what can still be"
+    },
+    {
+      "time_ms": 83639,
+      "end_ms": 84950,
+      "line": 80,
+      "target": "Each stroke starts somewhere in the field of possibility",
+      "context": "in place \u2014 that is the field of possibility closing, exploration curdling into consequence."
     }
   ]
 }
