@@ -104,6 +104,16 @@
         const v = e.target;
         if (e.isIntersecting) {
           if (v.dataset.src && !v.getAttribute('src')) { v.setAttribute('src', v.dataset.src); v.load(); }
+          // every clip is the same length, so without a phase offset the whole
+          // wall resets in unison and reads as a glitch. Seed each cell at a
+          // stable random point in its loop so the resets scatter.
+          if (!v.dataset.phased) {
+            v.dataset.phased = '1';
+            const seek = () => {
+              if (v.duration && isFinite(v.duration)) v.currentTime = (+v.dataset.phase) * v.duration;
+            };
+            if (v.readyState >= 1) seek(); else v.addEventListener('loadedmetadata', seek, { once: true });
+          }
           const pr = v.play(); if (pr && pr.catch) pr.catch(() => {});
         } else {
           // pause AND release the decoder — otherwise every cell scrolled
@@ -163,6 +173,7 @@
         media.setAttribute('muted', ''); media.setAttribute('playsinline', ''); media.setAttribute('loop', '');
         media.preload = 'none';
         media.dataset.src = asset(p.num, 'thumb.mp4');
+        media.dataset.phase = String(Math.random());
         io.observe(media);
       } else {
         media = el('img', 'ph');
