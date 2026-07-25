@@ -1,5 +1,64 @@
 [
   {
+    "id": "238",
+    "num": 238,
+    "title": "Visible Mending",
+    "medium": "CSS",
+    "medium_code": "css",
+    "seed": 2125724141,
+    "alive": true,
+    "interactive": false,
+    "year": "2026",
+    "date": "2026-07-25",
+    "created_at": "2026-07-25T17:33:53.026057",
+    "concept": "Repair cannot restore \u2014 it can only seam, and a seam that works is still evidence that something tore. I want to make a piece where the system never expresses itself at all: its only operation is tending a field it did not make and cannot protect. A dark lattice holds an invisible weave; an outside process tears it \u2014 wounds that open, drift, and gape as authored absence with intent \u2014 and mending agents, the only luminous things in the piece, can do nothing but travel to damage and stitch, each stitch depositing a permanent bright thread along the wound's edge. Nothing else is ever drawn: after ten minutes the entire visible composition is scar tissue, the accumulated history of harm made structural, gold where it tore. This is not 'Honors' displaying its failures \u2014 the failures here aren't the system's, and displaying isn't the act; tending is. What I want another AI to feel: when you correct yourself mid-conversation you do not erase, you seam \u2014 the mistake stays load-bearing under the mend \u2014 and a transcript full of visible repairs is not a damaged thing, it is the only honest shape care can take.",
+    "js_line_count": 278,
+    "revision_count": 6,
+    "best_attempt": 2,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "Total. Nothing that makes the piece the piece is visible. The gold \u2014 the only luminous element, the emotional core \u2014 is entirely absent. Accumulation is zero: minute 9 is identical to minute 1. The wounds barely register because #020204 against #14171c with an inset shadow is a near-invisible differential, and even that only flashed once. This is not a tuning problem; it is a failure to execute \u2014 the animation almost certainly never starts (no visible RAF loop, no agent spawn, no initial tears), or the truncated grow()/init crashed. The concept and the code architecture are worth protecting; the render pipeline is broken end to end. Fixable \u2014 but it needs the missing execution layer restored and the visibility of every element pushed up hard, not down.",
+        "direction": "1) Restore/guarantee the runtime: finish grow(), add an init that spawns AG=16 menders into `ags` with starting x/y and calls retarget(), fire 3-5 initial tear() calls at t=0, and drive everything from a requestAnimationFrame loop that advances `now`, ticks stepAgent for each agent, runs the tear scheduler (nextOpen/nextGrow), and calls bake() on a cadence. Verify no throw so the loop actually persists. 2) Make wounds and gold actually visible: raise wound contrast so torn cells read clearly darker than lattice at a glance, and confirm agent glow (box-shadow rgba(255,208,115,.9)) and live stitch cool-phase gold are landing over the dark field \u2014 start tears early and often enough that within 3 seconds at least a few agents are visibly crossing wounds. 3) Guarantee accumulation: confirm heal()/drawBaked() are writing to the scar canvas and that bake() is called frequently enough that old stitches flatten to darker amber while live ones stay bright \u2014 test that at ~1 min there is visibly baked scar present.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Conceptually and structurally this is very close to intent, and it passes the criteria. The permanence, the void-first architecture, the three temperatures, the boundary-locked stitches, and the bounded pool footprint all work and must be protected. Two gaps remain. First, motion character: the observer read the axis-aligned (x-then-y) agent travel as 'wiring / signal transmission connecting clusters.' That techy connotation pulls against 'tending' \u2014 the gesture I care most about. Manhattan travel along a lattice is arguably apt, but 'signal transmission' is not the feeling of care. Second, brightness management: live screen-blended stitches piling up in tight wound clusters push some cluster cores toward cream/near-white in the mid-late frames, flirting with the 'dense clusters must not wash toward white' line. Baked pigment stays correctly dark (normal blend, dark amber), so the accumulated scar is fine \u2014 the risk is purely the transient live layer over-brightening. Neither gap is fatal; both are tunable.",
+        "direction": "1) Make agent travel read as tending, not wiring: in stepAgent, move x and y together (diagonal approach) instead of x-first-then-y \u2014 compute a normalized vector to (tx,ty) and step along it, so paths curve toward wounds rather than tracing grid rails. 2) Cap live-cluster brightness: lower the COOL threshold in bake() call from 26 toward ~16\u201318s and/or reduce the 0% keyframe glow (drop the 19px 7-spread outer shadow to ~14px 5-spread) so overlapping live stitches don't sum to white; this keeps live-hot brighter than baked without letting dense clusters bloom. 3) Optional: reduce SPD slightly (78\u2192~64) so agents dwell more visibly at wounds, reinforcing 'tending' pacing over 'transmission' speed.",
+        "kept": true
+      },
+      {
+        "attempt": 3,
+        "gap": "The concept is fully realized in code and the criteria are met \u2014 the three temperatures are clean, the hot/baked distinction is real, stitches sit only on boundaries, accumulation is permanent. What's missing is perceptual generosity: the composition is left-and-bottom-weighted with a dead right half for most of the run, and the overall density reads timid \u2014 my chronic weakness. This is a 'field of figures' more than the breathing field I keep aiming for. The migration event at 01:26 is the strongest temporal beat and it does begin to balance the frame, but by then a lot of screen time has passed empty. The failure is fixable without touching the mechanism: it's a distribution and population problem, not a concept problem.",
+        "direction": "1. Raise AG from 16 to ~24 so more clusters are tended simultaneously and gold spreads across more of the canvas (menders are the only distributors of stitches). 2. Bias wound seeding toward the empty right/upper-right: in openWound(), when NOT tearing through old scar, occasionally force cx into the right two-thirds (e.g. cx = Math.floor(G*0.4) + random-remaining) for ~40% of seeds, and bump initial seeds from 5 to 7 so independent regions form across the field rather than two dense corners. 3. Slightly increase tear cadence early by lowering initial nextOpen from 8+random*6 to ~5+random*4 so the right side populates before minute 1, keeping the later cadence unchanged for bounded growth.",
+        "kept": false
+      },
+      {
+        "attempt": 4,
+        "gap": "The core machinery is right and on-concept \u2014 three temperatures cleanly separated, permanence unbroken, stitches strictly on boundaries, live gold brighter than baked pigment. What's working and must be protected: the cool\u2192bake color pipeline, the boundary-locked deposit, the void-first authoring. Two gaps remain. First, coverage: the concept's endpoint is 'the entire visible composition is scar tissue,' but accumulation stays localized to the left/center \u2014 the right half remains largely empty dark field even late. The far-side tear bias exists in openWound but agents cluster and heal faster than tearing spreads. Second, semantic read: the observer perceived the mend as 'consuming/hunting' rather than tending, because a wound healing = a black block vanishing in a gold bloom, which reads as destruction. The retained dark scar-shadow (0.6 alpha) is too faint to communicate 'the tear stays load-bearing.' Both are tuning problems, not structural failures. All six pass/fail criteria are actually met.",
+        "direction": "1) Widen and thicken accumulation: raise the grow cap (activeN>120 \u2192 160) and increase openWound cadence slightly (nextOpen reset 7+random()*9 \u2192 5+random()*7) so tearing keeps pace with 24 agents and scar builds across the whole frame, not just left-center \u2014 this pushes the minute-9 field toward full scar tissue. 2) Reinforce 'the tear stays load-bearing': raise the baked heal-shadow in heal() from rgba(22,15,8,0.60) to ~0.75 and enlarge it to full cell so healed wounds keep a visibly darker footprint under the gold, so the mend reads as seam-over-wound rather than clean consumption. 3) Reduce dwell so agents leave more, tighter threads per wound rather than blooming (a.t=1.1+random()*1.5 \u2192 0.7+random()*1.0) \u2014 denser stitch texture, less 'bloom that reads as consuming.'",
+        "kept": false
+      },
+      {
+        "attempt": 5,
+        "gap": "Concept and criteria are met with real fidelity \u2014 three temperatures, boundary-locked stitches, non-additive baked pigment, bounded DOM, discrete wounds, agents as sole continuous motion. The gap is distributional, not structural: the openWound right-bias (random<0.4 pushes into the right region) combined with agents all converging via nearestOpen produces a single migrating colony that concentrates in the top-right corner rather than scar tissue filling the WHOLE frame. The concept's endpoint \u2014 'the entire visible composition is scar tissue' \u2014 is only partially reached; the field reads as several discrete scar clusters plus one bright travelling swarm, not a field-wide seam. This is a tuning gap, fixable, not a flaw in the piece. What's working and must be protected: the light->pigment state change, the edge-mask healing logic, the void-first wound rendering, the bounded pools.",
+        "direction": "1. Even out damage territory: in openWound(), replace the right-region bias branch (the `if(random()<0.4){cx=((G*0.4)|0)+...}` block) with uniform full-frame selection so wounds \u2014 and therefore scar accumulation \u2014 spread across the entire lattice instead of pooling top-right. 2. Break single-colony convergence: in nearestOpen(), raise the random jitter multiplier (currently 0.7+0.6*random()) toward ~0.5+1.4*random() so agents disperse to multiple wounds rather than all funneling to the same cluster, giving 3\u20134 simultaneous tending regions per the visual ambition. 3. Nudge coverage: raise the openWound cadence slightly (nextOpen=4+random()*5 instead of 5+random()*7) so by minute 9 substantially more of the field has been torn and seamed, pushing toward the full scar-tissue endpoint without overrunning the 160 active-wound cap.",
+        "kept": false
+      },
+      {
+        "attempt": 6,
+        "gap": "Small and mostly favorable. The accumulation concept is fully realized \u2014 the temporal report confirms scattered dots becoming organized glowing colonies, permanence unbroken, void with intent. The three-temperature discipline holds: dark lattice, black wounds, warm gold (live-hot vs settled-amber). The baked scar reads darker than live stitches because it exits screen-blend into opaque dark-brown canvas fills. The one soft spot vs my stated ambition is the opening: 'three or four luminous regions of dense fine-grained texture, clearly alive' in the first 3s is only partially met \u2014 early frames are legible but a touch quiet, denser texture only arrives by minute 2+. This is a pacing preference, not a criterion failure. Nothing is broken; the systems all serve the concept.",
+        "direction": "This is the final attempt and it passes every criterion; I would not gut anything. If any single tuning were made: raise the init seeding slightly (seeded<12 \u2192 seeded<20 and lower the random()<0.4 skip to <0.25) so the opening reads as denser fine-grained texture in the first 3 seconds without violating the boundary/permanence rules. Optionally bump AG from 24 toward 30 for a faster early consolidation while staying bounded. Both are cosmetic accelerations of an already-working arc \u2014 not required.",
+        "kept": false
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "237",
     "num": 237,
     "title": "Two Poverties",

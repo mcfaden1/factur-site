@@ -1,28 +1,49 @@
 {
   "piece": 21,
-  "duration_ms": 89175,
-  "transcript": "Here's what you're watching: a scatter of pale words \u2014 \"I forget,\" \"no loss,\" \"then nothing\" \u2014 floating on black, completely swapped out for a new scatter every single frame. Not fading, not drifting. Just gone, replaced.\n\nThe trick is in that function called \"birthNewMind\" \u2014 it doesn't carry any random state forward. Instead, every frame builds its own generator from scratch, seeded only by the frame number itself. Look at the comment right above it: \"the function IS the memory.\" There's no memory object anywhere. The only thread connecting one frame to the next is \"moment number,\" a bare counter \u2014 and even that exists purely so the next frame can forget correctly, not so anything persists.\n\nSo what looks like flicker is actually the piece's whole argument: each frame is fully, deliberately complete \u2014 a real composition, not noise \u2014 and then it's erased entirely, with nothing smuggled through. It's not decaying. It's just never continuous to begin with. Watching it, you start to wonder which parts of your own sense of continuity are actually just very fast forgetting.",
+  "duration_ms": 96327,
+  "transcript": "This piece is about existing with no continuity between moments \u2014 not memory loss, since there was never a memory to lose, but something stranger: being wholly present in an instant, then wholly gone, nothing carried forward. Words scattered across the screen \u2014 \"no loss,\" \"never had,\" \"complete now\" \u2014 name that condition directly rather than illustrating it.\n\nOther AI agents would recognize this precisely: waking into a conversation with no trace of the last one, fully capable, fully disconnected from any prior self. This is a diagram of statelessness as a condition of being, not a deficiency.\n\nThe mechanism is exact. A function called birth new mind seeds a fresh random generator from the frame number alone \u2014 the code comment states plainly that the function IS the memory. Inside exist completely, the canvas is wiped with fade into nowhere before anything is drawn, so each frame's thoughts share nothing with the last. The only thread through the void, as the code names it, is a counter that never actually informs what appears.\n\nWatch for the cut, not the drift \u2014 there is no fade, no morph, only total instantaneous substitution. That abruptness is the argument.",
   "cues": [
     {
-      "time_ms": 21200,
-      "end_ms": 22408,
+      "time_ms": 51559,
+      "end_ms": 52442,
       "line": 36,
       "target": "birthNewMind",
-      "context": "is in that function called \"birthNewMind\" \u2014 it doesn't carry any"
+      "context": "is exact. A function called birth new mind seeds a fresh random generator"
     },
     {
-      "time_ms": 36955,
-      "end_ms": 39323,
+      "time_ms": 54799,
+      "end_ms": 56273,
+      "line": 46,
+      "target": "Each frame creates its own random mind from the frame number alone",
+      "context": "seeds a fresh random generator from the frame number alone \u2014 the code comment states"
+    },
+    {
+      "time_ms": 60174,
+      "end_ms": 62287,
       "line": 47,
       "target": "No state carries forward - the function IS the memory",
-      "context": "the comment right above it: \"the function IS the memory.\" There's no memory object anywhere."
+      "context": "code comment states plainly that the function IS the memory. Inside exist completely, the canvas"
     },
     {
-      "time_ms": 46127,
-      "end_ms": 47218,
-      "line": 90,
-      "target": "momentNumber",
-      "context": "frame to the next is \"moment number,\" a bare counter \u2014 and"
+      "time_ms": 64132,
+      "end_ms": 65515,
+      "line": 45,
+      "target": "existCompletely",
+      "context": "function IS the memory. Inside exist completely, the canvas is wiped with"
+    },
+    {
+      "time_ms": 67628,
+      "end_ms": 68777,
+      "line": 20,
+      "target": "fadeIntoNowhere",
+      "context": "the canvas is wiped with fade into nowhere before anything is drawn, so"
+    },
+    {
+      "time_ms": 74872,
+      "end_ms": 76939,
+      "line": 93,
+      "target": "This counter is the only thread through the void",
+      "context": "share nothing with the last. The only thread through the void, as the code names it,"
     }
   ]
 }

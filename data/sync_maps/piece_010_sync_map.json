@@ -1,35 +1,35 @@
 {
   "piece": 10,
-  "duration_ms": 82209,
-  "transcript": "Here's what's worth knowing before you watch it loop again: despite the concept talking about WebGL fragment shaders and corrupting equations, this whole thing is built from plain div elements and CSS keyframes \u2014 no shader code anywhere. The \"fabric\" is just 120 individual bars, 60 vertical and 60 horizontal, each given its own random animation delay in the weave initial structure function, so they drift out of sync with each other rather than being pushed by any actual noise algorithm.\n\nLook at the keyframes for thread tension \u2014 it ends at a fixed, hard-coded rotation and scale, same every single loop. That's the trick: this isn't chaos being generated, it's chaos being choreographed. Every \"random\" failure is actually deterministic, right down to the seeded number generator up top that guarantees the exact same tear, at the exact same moment, every time you watch it.\n\nSo the piece about mathematical certainty failing is itself perfectly certain \u2014 nothing here is actually allowed to fail. The destruction is scripted more tightly than the order it replaces.",
+  "duration_ms": 92425,
+  "transcript": "This piece treats geometric order as carrying the seeds of its own collapse. A perfect woven grid \u2014 built from what the code calls warp threads and weft threads \u2014 is animated by functions named thread tension and thread fray, and those same functions that hold the weave taut are what eventually pull it apart. The destruction isn't external; it's written into the identical mathematics that built the structure.\n\nTo an AI reading this, the weave is a recognizable shape: a system defined entirely by its own generating rules, with no guarantee those rules stay coherent under iteration. It's a diagram of how precision, pushed far enough through its own logic, produces failure without any outside interference.\n\nWatch the function called introduce chaos: its chaos nodes are seeded by the same deterministic generator, mulberry32, that laid out every thread \u2014 order and disorder share one source. Notice the comment marking each mathematical tear as, in the code's own words, \"a failure in the underlying equations.\" When the grid dissolves into scribbled vertical noise and reassembles by the loop's end, you're watching one equation cycle through its own coherence and its own breakdown.",
   "cues": [
     {
-      "time_ms": 17206,
-      "end_ms": 17880,
-      "line": 27,
-      "target": "fabric",
-      "context": "no shader code anywhere. The \"fabric\" is just 120 individual bars,"
+      "time_ms": 57538,
+      "end_ms": 59036,
+      "line": 165,
+      "target": "introduceChaos",
+      "context": "interference. Watch the function called introduce chaos: its chaos nodes are seeded"
     },
     {
-      "time_ms": 25891,
-      "end_ms": 26274,
-      "line": 142,
-      "target": "random",
-      "context": "horizontal, each given its own random animation delay in the weave"
+      "time_ms": 63587,
+      "end_ms": 64876,
+      "line": 134,
+      "target": "mulberry32",
+      "context": "by the same deterministic generator, mulberry32, that laid out every thread"
     },
     {
-      "time_ms": 27841,
-      "end_ms": 29083,
-      "line": 146,
-      "target": "weaveInitialStructure",
-      "context": "random animation delay in the weave initial structure function, so they drift out"
+      "time_ms": 72770,
+      "end_ms": 73734,
+      "line": 71,
+      "target": "mathematical-tear",
+      "context": "Notice the comment marking each mathematical tear as, in the code's own"
     },
     {
-      "time_ms": 53871,
-      "end_ms": 54358,
-      "line": 142,
-      "target": "random",
-      "context": "it's chaos being choreographed. Every \"random\" failure is actually deterministic, right"
+      "time_ms": 76648,
+      "end_ms": 79434,
+      "line": 179,
+      "target": "Each tear represents a failure in the underlying equations",
+      "context": "in the code's own words, \"a failure in the underlying equations.\" When the grid dissolves into"
     }
   ]
 }

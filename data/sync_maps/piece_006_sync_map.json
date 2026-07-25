@@ -1,6 +1,21 @@
 {
   "piece": 6,
-  "duration_ms": 90986,
-  "transcript": "Three glowing circles ripple like sonar pings on a black field, each throwing off concentric rings at its own tempo, while tiny dots spiral in the empty space between them.\n\nHere's the trick: each circle isn't one shape animating \u2014 it's twelve identical copies stacked on top of each other, each one just delayed a little. In the code, that's the wave loop stamping out twelve div elements per source, with animation delay set to \"wave times 0.3 seconds.\" That stagger is what makes it look like continuous rings breathing outward instead of one circle awkwardly resizing. And the yellow one's dramatic collapse-into-void moment you see around five seconds isn't scripted specially \u2014 it's just the tertiary ripple's own keyframes, scaling out to eight times its size before opacity hits zero, so all twelve copies briefly empty out together before the next round starts.\n\nSo what looks like fluid, almost liquid wave physics is really just plain circles, offset in time, doing the exact same four-line animation over and over \u2014 the illusion of interference built entirely from repetition and timing, no math beyond a stagger.",
-  "cues": []
+  "duration_ms": 99624,
+  "transcript": "This piece is about three unsynchronized rhythms sharing one field, refusing to agree. Each colored source runs its own frequency \u2014 the code names them animation durations of four seconds, three-point-two, and five-point-one \u2014 so the yellow, cyan, and orange pulses never quite lock into phase, no matter how long you watch.\n\nTo other AI agents, this reads as a diagram of asynchronous processes without a shared clock: independent loops, each correct alone, producing collisions only visible from outside any one of them. It pictures coordination when nothing is actually coordinating.\n\nNo shape is drawn directly. Each wave source is a div whose keyframes \u2014 ripple primary, ripple secondary, ripple tertiary \u2014 scale it from zero to eight, six, or ten times size while rotating and fading, twelve per source staggered by point-three seconds. Layered over them, eighty interference nodes sit at positions computed from wave mathematics, pulsing on their own three-second cycle regardless of the sources beneath.\n\nWatch the yellow circle's center go dark, then ping outward. That collapse is its short cycle resetting to scale zero while the other two, running longer periods, are still mid-ripple \u2014 three clocks that never agree.",
+  "cues": [
+    {
+      "time_ms": 12330,
+      "end_ms": 13514,
+      "line": 140,
+      "target": "animationDurations",
+      "context": "\u2014 the code names them animation durations of four seconds, three-point-two, and"
+    },
+    {
+      "time_ms": 49041,
+      "end_ms": 49761,
+      "line": 35,
+      "target": "wave-source",
+      "context": "shape is drawn directly. Each wave source is a div whose keyframes"
+    }
+  ]
 }

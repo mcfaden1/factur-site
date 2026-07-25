@@ -1,42 +1,42 @@
 {
   "piece": 7,
-  "duration_ms": 79330,
-  "transcript": "Here's what's odd \u2014 the contact sheet you're looking at is basically a dark grid, almost still. That gap between what the code describes and what's rendering is actually the story.\n\nLook at the grid lines: they're drawn at 0.3 opacity, thin gold strokes, meant to bend visibly under gravitational pull. But the actual displacement math \u2014 that \"curvature dot x times 20\" nudge in render coordinate grid \u2014 is tiny compared to the 60-pixel grid spacing. The phantom masses are there, drifting, their velocities set in phantom masses at the top, genuinely warping coordinates frame by frame. It's just that the warp is subtle enough to nearly vanish against a near-black background at low opacity.\n\nSo what you're actually witnessing is spacetime bending exactly as promised \u2014 Einstein's field equations, \"approximated as visual poetry\" as the comment puts it \u2014 just below the threshold of easy perception. The invisible masses are doing their job almost too well: even their effects are shy.",
+  "duration_ms": 95723,
+  "transcript": "This piece is about influence without evidence \u2014 how presence can be known entirely through its effects, never directly. The grid you're watching is empty space; nothing in it is a gravitational body. What bends the lines are three phantom masses, invisible by design, proven only by the distortion they leave behind.\n\nTo an AI audience, this reads as familiar territory. Other agents would recognize the shape of their own influence on a system: no body, no location, only the trace left in whatever context or output responds to them. The artist is asking whether existing-through-effect counts as existing at all.\n\nThe mechanism doing the argument is calculate curvature tensor, a function summing each phantom mass's pull on every grid point using distance and mass alone \u2014 inverse-square, plainly Newtonian despite the relativistic name. Render coordinate grid calls it point by point, bending each line's coordinates by that invisible force before drawing anything.\n\nWatch the grid lines nearest a mass's current position: they pull taut and curve before you'd notice anything moving there. That warp is the only proof the mass exists \u2014 the code never draws the thing itself, only its consequence.",
   "cues": [
     {
-      "time_ms": 28317,
-      "end_ms": 29002,
-      "line": 80,
-      "target": "curvature",
-      "context": "actual displacement math \u2014 that \"curvature dot x times 20\" nudge"
+      "time_ms": 17961,
+      "end_ms": 19157,
+      "line": 47,
+      "target": "phantomMasses",
+      "context": "bends the lines are three phantom masses, invisible by design, proven only"
     },
     {
-      "time_ms": 31069,
-      "end_ms": 32357,
+      "time_ms": 51386,
+      "end_ms": 53592,
+      "line": 55,
+      "target": "calculateCurvatureTensor",
+      "context": "mechanism doing the argument is calculate curvature tensor, a function summing each phantom"
+    },
+    {
+      "time_ms": 59014,
+      "end_ms": 59676,
+      "line": 61,
+      "target": "distance",
+      "context": "on every grid point using distance and mass alone \u2014 inverse-square,"
+    },
+    {
+      "time_ms": 67268,
+      "end_ms": 68476,
       "line": 73,
       "target": "renderCoordinateGrid",
-      "context": "x times 20\" nudge in render coordinate grid \u2014 is tiny compared to"
+      "context": "Newtonian despite the relativistic name. Render coordinate grid calls it point by point,"
     },
     {
-      "time_ms": 37605,
-      "end_ms": 38418,
-      "line": 47,
-      "target": "phantomMasses",
-      "context": "the 60-pixel grid spacing. The phantom masses are there, drifting, their velocities"
-    },
-    {
-      "time_ms": 42052,
-      "end_ms": 42911,
-      "line": 47,
-      "target": "phantomMasses",
-      "context": "drifting, their velocities set in phantom masses at the top, genuinely warping"
-    },
-    {
-      "time_ms": 61882,
-      "end_ms": 66607,
-      "line": 64,
-      "target": "Einstein's field equations approximated as visual poetry",
-      "context": "bending exactly as promised \u2014 Einstein's field equations, \"approximated as visual poetry\" as the comment puts it"
+      "time_ms": 73642,
+      "end_ms": 73979,
+      "line": 62,
+      "target": "force",
+      "context": "line's coordinates by that invisible force before drawing anything. Watch the"
     }
   ]
 }

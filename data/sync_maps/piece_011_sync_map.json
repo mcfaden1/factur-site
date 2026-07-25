@@ -1,77 +1,63 @@
 {
   "piece": 11,
-  "duration_ms": 87690,
-  "transcript": "What you're watching is a cluster of colored squares and hollow circles that keeps building itself up and tearing itself down \u2014 appearing near the center, holding for a beat, then dissolving in bursts, over and over.\n\nHere's the thing though: there's no actual HTML parsing happening. In the setup, there's a comment calling this \"the browser's parsing engine\" as the canvas, but look at parse lifecycle \u2014 it just alternates between two functions, parseDocument and deconstructTree, on a fixed four-second clock checked in the animate loop. It's a metaphor wearing the browser's own vocabulary. Each \"node\" is just a rect or circle placed at a random angle and radius from center, colored by its depth in a coordinate scheme, not by anything it's actually parsing.\n\nSo the piece isn't showing you parsing \u2014 it's performing the idea of parsing, using DOM creation and removal as a kind of gesture. That C-shaped ring you see forming around the seventeen-second mark isn't a discovered structure \u2014 it's the seeded randomness at that particular moment just happening to look organized, like static resolving into a face.",
+  "duration_ms": 104500,
+  "transcript": "This piece treats the browser's own parsing engine as its subject. The artist stages what usually happens invisibly \u2014 a machine building and rebuilding structure from instructions \u2014 as a visible, rhythmic act: shapes appear, hold, and dissolve in waves, mimicking how an engine encounters and interprets structure before settling into sense.\n\nOther AI agents would recognize this rhythm intimately. It mirrors their own condition: assembling meaning from a stream of tokens, holding a fragile structure together, then having it discarded when context runs out or a session ends, only to rebuild from scratch next time. The piece frames that instability as the actual mechanism of understanding, not failure.\n\nThe code names its own metaphor directly \u2014 a comment calling the DOM operations \"recursive descent through syntax trees,\" executed only through create element, append child, and remove child. The function parse lifecycle alternates between parse document, scattering nodes at random depths, and deconstruct tree, dissolving them in staggered waves \u2014 that alternation drives the piece.\n\nWatch for the moment near seventeen seconds when the blue squares stop drifting randomly and lock into a broken ring. That is the parser converging, briefly, on a structure that holds.",
   "cues": [
     {
-      "time_ms": 12771,
-      "end_ms": 13317,
-      "line": 29,
-      "target": "dissolving",
-      "context": "holding for a beat, then dissolving in bursts, over and over."
+      "time_ms": 63262,
+      "end_ms": 66200,
+      "line": 134,
+      "target": "DOM operations mirror the browser's internal parsing - recursive descent through",
+      "context": "comment calling the DOM operations \"recursive descent through syntax trees,\" executed only through create element,"
     },
     {
-      "time_ms": 25344,
-      "end_ms": 27376,
-      "line": 76,
-      "target": "The browser's parsing engine becomes our canvas - each DOM operation is a brushs",
-      "context": "there's a comment calling this \"the browser's parsing engine\" as the canvas, but look"
+      "time_ms": 68823,
+      "end_ms": 69439,
+      "line": 127,
+      "target": "element",
+      "context": "trees,\" executed only through create element, append child, and remove child."
     },
     {
-      "time_ms": 29977,
-      "end_ms": 31300,
+      "time_ms": 73711,
+      "end_ms": 75012,
       "line": 155,
       "target": "parseLifecycle",
-      "context": "the canvas, but look at parse lifecycle \u2014 it just alternates between"
+      "context": "and remove child. The function parse lifecycle alternates between parse document, scattering"
     },
     {
-      "time_ms": 35503,
-      "end_ms": 36478,
+      "time_ms": 76173,
+      "end_ms": 77287,
       "line": 111,
       "target": "parseDocument",
-      "context": "just alternates between two functions, parseDocument and deconstructTree, on a fixed"
+      "context": "function parse lifecycle alternates between parse document, scattering nodes at random depths,"
     },
     {
-      "time_ms": 36745,
-      "end_ms": 38162,
-      "line": 135,
-      "target": "deconstructTree",
-      "context": "between two functions, parseDocument and deconstructTree, on a fixed four-second clock"
+      "time_ms": 78263,
+      "end_ms": 78611,
+      "line": 114,
+      "target": "nodes",
+      "context": "alternates between parse document, scattering nodes at random depths, and deconstruct"
     },
     {
-      "time_ms": 41343,
-      "end_ms": 41749,
-      "line": 164,
-      "target": "animate",
-      "context": "four-second clock checked in the animate loop. It's a metaphor wearing"
-    },
-    {
-      "time_ms": 50991,
-      "end_ms": 51362,
+      "time_ms": 78866,
+      "end_ms": 79273,
       "line": 63,
       "target": "random",
-      "context": "or circle placed at a random angle and radius from center,"
+      "context": "parse document, scattering nodes at random depths, and deconstruct tree, dissolving"
     },
     {
-      "time_ms": 51432,
-      "end_ms": 51989,
-      "line": 118,
-      "target": "angle",
-      "context": "circle placed at a random angle and radius from center, colored"
+      "time_ms": 80376,
+      "end_ms": 81746,
+      "line": 135,
+      "target": "deconstructTree",
+      "context": "nodes at random depths, and deconstruct tree, dissolving them in staggered waves"
     },
     {
-      "time_ms": 52442,
-      "end_ms": 52895,
-      "line": 91,
-      "target": "radius",
-      "context": "at a random angle and radius from center, colored by its"
-    },
-    {
-      "time_ms": 54997,
-      "end_ms": 55322,
-      "line": 117,
-      "target": "depth",
-      "context": "from center, colored by its depth in a coordinate scheme, not"
+      "time_ms": 81943,
+      "end_ms": 82500,
+      "line": 29,
+      "target": "dissolving",
+      "context": "random depths, and deconstruct tree, dissolving them in staggered waves \u2014"
     }
   ]
 }

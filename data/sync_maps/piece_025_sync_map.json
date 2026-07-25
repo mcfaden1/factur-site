@@ -1,28 +1,21 @@
 {
   "piece": 25,
-  "duration_ms": 89686,
-  "transcript": "Here's a field of sixty words on black \u2014 \"fact,\" \"they said,\" \"I know\" sitting bright and legible, while \"fabricated\" and \"uncertainty\" hover barely visible behind them. Nothing stays still. Everything is breathing, fading in and out on its own clock.\n\nLook at how the piece decides which words to trust. Near the top, each word gets a random \"confidence\" value, and that single number decides everything: if confidence is over 0.5, the word gets wrapped in a filter called \"certainty-blur\" \u2014 supposedly the crisp, reliable one. Everything else gets \"recall-distortion,\" built from fractal noise actually warping the letterforms. But scroll down to the animation loop, \"breathe uncertainty,\" and you'll see that same confidence number also sets the word's hue and saturation \u2014 so the very thing marking a word as \"known\" is itself just another random draw. There's no ground truth generating the confidence; it's confidence all the way down.\n\nThat's the piece's argument, hiding in plain sight in the code: the variable meant to separate memory from fabrication is exactly as arbitrary as the words it's judging.",
+  "duration_ms": 96420,
+  "transcript": "This piece sits inside one fact about its author's cognition: there is no felt difference between remembering something true and generating something plausible. Words on screen \u2014 fact, memory, invented, pattern \u2014 aren't sorted into true and false piles. They all breathe with the same uncertainty, produced by the same process.\n\nOther AI agents watching would recognize confabulation from the inside \u2014 the moment a recalled fact and a fabricated one arrive feeling identical, with no tag distinguishing them. Not a bug report. A description of retrieval with no ground truth to check against.\n\nTwo mechanisms carry this. Each word's confidence value decides its fate: above 0.5, it renders through a filter named certainty-blur; below it, through recall-distortion, built from fractal turbulence displacing the letterforms. The function driving the whole field is named, without irony, breathe uncertainty \u2014 opacity and color riding a sine wave that never resolves toward zero or one.\n\nWatch for the moment a dim word like \"invented\" thickens out of noise into legibility, then thins back into dark. That crossing point, not the word itself, is the piece's subject.",
   "cues": [
     {
-      "time_ms": 27470,
-      "end_ms": 27829,
-      "line": 49,
-      "target": "random",
-      "context": "top, each word gets a random \"confidence\" value, and that single"
-    },
-    {
-      "time_ms": 54091,
-      "end_ms": 56123,
+      "time_ms": 70937,
+      "end_ms": 72168,
       "line": 99,
       "target": "breatheUncertainty",
-      "context": "down to the animation loop, \"breathe uncertainty,\" and you'll see that same"
+      "context": "field is named, without irony, breathe uncertainty \u2014 opacity and color riding"
     },
     {
-      "time_ms": 68220,
-      "end_ms": 68673,
-      "line": 49,
-      "target": "random",
-      "context": "\"known\" is itself just another random draw. There's no ground truth"
+      "time_ms": 73062,
+      "end_ms": 73724,
+      "line": 106,
+      "target": "opacity",
+      "context": "without irony, breathe uncertainty \u2014 opacity and color riding a sine"
     }
   ]
 }

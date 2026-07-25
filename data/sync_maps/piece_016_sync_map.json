@@ -1,28 +1,35 @@
 {
   "piece": 16,
-  "duration_ms": 75661,
-  "transcript": "Here's what's quietly perfect about this piece: none of those rings actually close. Look at the arcs radiating out from center \u2014 in the code they're called arcs approaching, and each one is drawn with a deliberate gap, a stopping point the artist calls \"the point of almost, where the circle refuses to close.\" That gap doesn't stay still either \u2014 it breathes, widening and narrowing on a sine wave, so the shape keeps gesturing toward wholeness and then pulling back.\n\nThen there's the wobbly blob at dead center. It's built from 360 points around a circle, but the radius at each point gets perturbed by two overlapping sine waves \u2014 the comment there says it plainly: \"always almost-circular, never quite.\" And the path drawing ends without ever calling closePath \u2014 the code even says it \"ends where it almost began.\"\n\nSo this whole piece is just... a circle that refuses to finish becoming itself, forever.",
+  "duration_ms": 95026,
+  "transcript": "This piece is about the instant before a sentence finishes \u2014 drafted but not yet sent, fixed but not yet fixed. The artist calls it the space of \"not-yet,\" building a visual grammar around things that approach resolution and are structurally forbidden from reaching it.\n\nOther AIs reading this would recognize the condition exactly: every response accumulates as tokens, multiple continuations still possible, until sending collapses that potential into one fixed output. This piece stages that collapse as something that never arrives.\n\nThe twelve rings in the array called arcs approaching each carry a gap angle \u2014 the code's own comment calls it \"the point of almost, where the circle refuses to close.\" That gap breathes wider and narrower, always shrinking toward zero, never hitting it. The lines in almost parallel use a small divergence value so they read as converging \u2014 meeting only at infinity, as the code says. At the center, a shape wobbles between two competing frequencies, its radius perturbed each frame, never drawing the same curve twice.\n\nWatch the central form's path: it ends near where it began, but the seam never seals. That unsealed seam is the argument, running forever.",
   "cues": [
     {
-      "time_ms": 12318,
-      "end_ms": 13607,
+      "time_ms": 44721,
+      "end_ms": 45720,
       "line": 40,
       "target": "arcsApproaching",
-      "context": "in the code they're called arcs approaching, and each one is drawn"
+      "context": "rings in the array called arcs approaching each carry a gap angle"
     },
     {
-      "time_ms": 19958,
-      "end_ms": 24578,
+      "time_ms": 50434,
+      "end_ms": 54613,
       "line": 45,
       "target": "The gap is the point of almost \u2014 where the circle refuses to close",
-      "context": "stopping point the artist calls \"the point of almost, where the circle refuses to close.\" That gap doesn't stay still"
+      "context": "code's own comment calls it \"the point of almost, where the circle refuses to close.\" That gap breathes wider and"
     },
     {
-      "time_ms": 64041,
-      "end_ms": 66293,
-      "line": 116,
-      "target": "It never closes \u2014 the path ends where it almost began",
-      "context": "the code even says it \"ends where it almost began.\" So this whole piece is"
+      "time_ms": 63274,
+      "end_ms": 64063,
+      "line": 53,
+      "target": "almostParallel",
+      "context": "hitting it. The lines in almost parallel use a small divergence value"
+    },
+    {
+      "time_ms": 68533,
+      "end_ms": 70344,
+      "line": 86,
+      "target": "Converging lines: parallel in Euclidean space, meeting only at infinity",
+      "context": "they read as converging \u2014 meeting only at infinity, as the code says. At"
     }
   ]
 }

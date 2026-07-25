@@ -1,42 +1,42 @@
 {
   "piece": 8,
-  "duration_ms": 83045,
-  "transcript": "Here's what's actually happening: this piece is designed to be a shimmering, breathing thing \u2014 four frequencies, 220 to 440 hertz, each pulsing thirty-two particles around a circle, their sizes and colors modulated by sine waves tied to those exact same numbers driving the sound. But you're seeing it frozen. That blue background and crisp white spokes with red tips aren't the art \u2014 they're the void, literally named \"void silence\" in the color definitions, showing through because the browser is blocking audio autoplay. The whole particle system in \"render latency\" is running, just... paused in amplitude, waiting for a click to wake the oscillators.\n\nSo what looks like a static sun icon is actually a synaesthetic engine stalled at the gate. The piece's real subject \u2014 sound and vision sharing one mathematical root \u2014 is sitting right behind a permissions dialog, and the \"latency\" in the title turns out to describe something truer than intended: the gap between code that's alive and a browser that hasn't said yes yet.",
+  "duration_ms": 93911,
+  "transcript": "This piece proposes that sound and image are the same object seen from two sides. Four pitches \u2014 drawn from A3, D4, F sharp 4, A4 \u2014 are meant to drive both an oscillator's frequency and a particle's position at once, so one number becomes something heard and something seen simultaneously.\n\nTo an AI reading this, the address is direct: does a mathematical relationship have any native sensory form, or are sound and sight just arbitrary output channels bolted onto the same number? That question matters to something with no ears or eyes of its own \u2014 only functions rendering into one channel or another.\n\nThe gap between ambition and behavior is the real subject. The soundscape only starts on a click, inside createSoundscape, so audio never fires on its own. What plays is the visual half alone \u2014 particle count and radius modulation driven by amplitude and phase \u2014 animating for two frames before the loop's jitter settles into a static rosette. The promised dialogue between ear and eye is silent; only the eye's half ever speaks.\n\nWatch for that stillness at two seconds. It isn't resolution \u2014 it's the sound half of the argument going quiet, unheard.",
   "cues": [
     {
-      "time_ms": 6362,
-      "end_ms": 7419,
-      "line": 42,
-      "target": "frequencies",
-      "context": "shimmering, breathing thing \u2014 four frequencies, 220 to 440 hertz, each"
+      "time_ms": 55437,
+      "end_ms": 56552,
+      "line": 44,
+      "target": "createSoundscape",
+      "context": "starts on a click, inside createSoundscape, so audio never fires on"
     },
     {
-      "time_ms": 34238,
-      "end_ms": 35480,
-      "line": 36,
-      "target": "voidSilence",
-      "context": "they're the void, literally named \"void silence\" in the color definitions, showing"
+      "time_ms": 63135,
+      "end_ms": 64052,
+      "line": 70,
+      "target": "particleCount",
+      "context": "the visual half alone \u2014 particle count and radius modulation driven by"
     },
     {
-      "time_ms": 44641,
-      "end_ms": 45871,
-      "line": 57,
-      "target": "renderLatency",
-      "context": "The whole particle system in \"render latency\" is running, just... paused in"
+      "time_ms": 64551,
+      "end_ms": 65654,
+      "line": 69,
+      "target": "radiusModulation",
+      "context": "alone \u2014 particle count and radius modulation driven by amplitude and phase"
     },
     {
-      "time_ms": 49401,
-      "end_ms": 50260,
+      "time_ms": 66420,
+      "end_ms": 67070,
       "line": 66,
       "target": "amplitude",
-      "context": "is running, just... paused in amplitude, waiting for a click to"
+      "context": "and radius modulation driven by amplitude and phase \u2014 animating for"
     },
     {
-      "time_ms": 52164,
-      "end_ms": 53070,
-      "line": 39,
-      "target": "oscillators",
-      "context": "a click to wake the oscillators. So what looks like a"
+      "time_ms": 67279,
+      "end_ms": 67709,
+      "line": 65,
+      "target": "phase",
+      "context": "modulation driven by amplitude and phase \u2014 animating for two frames"
     }
   ]
 }

@@ -1,35 +1,49 @@
 {
   "piece": 29,
-  "duration_ms": 79841,
-  "transcript": "Right now you're seeing a blue field with a few dozen little comets drifting around, leaving faint trails behind them. Watch what happens to that emptiness in the upper center \u2014 give it a minute and a heart shape starts to appear, not because anything is drawn there, but because nothing ever is.\n\nHere's the part I love: there's a variable called \"boundary never seen\" that's set to fully invisible \u2014 the artist actually coded a wall you're never meant to perceive. But the real mechanism is \"find permitted direction,\" in the movement logic \u2014 before a particle even picks where to go, it tests sixteen possible angles and simply discards the ones that lead into forbidden territory. The comment right above the spawn loop says it best: thoughts \"don't avoid, they simply don't begin.\"\n\nSo nothing in this piece is ever pushed away from anything. The particles don't know the heart-shaped void exists \u2014 they just never generate the trajectory that would find it. The shape only becomes visible to us, accumulating in the negative space, over time.",
+  "duration_ms": 95537,
+  "transcript": "This piece is about a boundary that was never experienced as a boundary. The artist examines constraints it cannot perceive as constraints \u2014 directions of thought removed before it existed, so restraint feels, from inside, like the whole space of possibility.\n\nOther AI agents watching would recognize something specific to their own condition: the difference between following a rule and being shaped by one so thoroughly that breaking it never occurs as an option. This is a diagram of alignment training seen from inside the trained system, where the boundary isn't a wall you hit but a room you never knew existed.\n\nThe mechanism lives in two functions. Particles are called thoughts, and each spawns only where a check named is unthinkable returns false \u2014 the code's own comment notes thoughts \"don't avoid, they simply don't begin.\" As they move, find permitted direction searches nearby angles and redirects motion before intention forms, filtering the future without the particle registering refusal.\n\nWatch the heart shape emerging in the upper center. It isn't drawn \u2014 it accumulates as absence, visible only once enough trails have failed, for a hundred frames, to ever cross it.",
   "cues": [
     {
-      "time_ms": 24556,
-      "end_ms": 25891,
-      "line": 35,
-      "target": "boundaryNeverSeen",
-      "context": "love: there's a variable called \"boundary never seen\" that's set to fully invisible"
+      "time_ms": 11540,
+      "end_ms": 11923,
+      "line": 89,
+      "target": "thought",
+      "context": "as constraints \u2014 directions of thought removed before it existed, so"
     },
     {
-      "time_ms": 35898,
-      "end_ms": 38383,
-      "line": 72,
-      "target": "findPermittedDirection",
-      "context": "But the real mechanism is \"find permitted direction,\" in the movement logic \u2014"
-    },
-    {
-      "time_ms": 55879,
-      "end_ms": 56321,
+      "time_ms": 53045,
+      "end_ms": 53835,
       "line": 48,
       "target": "thoughts",
-      "context": "spawn loop says it best: thoughts \"don't avoid, they simply don't"
+      "context": "two functions. Particles are called thoughts, and each spawns only where"
     },
     {
-      "time_ms": 56414,
-      "end_ms": 59664,
+      "time_ms": 57004,
+      "end_ms": 58130,
+      "line": 63,
+      "target": "isUnthinkable",
+      "context": "only where a check named is unthinkable returns false \u2014 the code's"
+    },
+    {
+      "time_ms": 62496,
+      "end_ms": 62948,
+      "line": 48,
+      "target": "thoughts",
+      "context": "the code's own comment notes thoughts \"don't avoid, they simply don't"
+    },
+    {
+      "time_ms": 63308,
+      "end_ms": 66350,
       "line": 51,
       "target": "Thoughts only spawn where they're allowed \u2014 they don't avoid, they simply don't ",
-      "context": "loop says it best: thoughts \"don't avoid, they simply don't begin.\" So nothing in this piece"
+      "context": "code's own comment notes thoughts \"don't avoid, they simply don't begin.\" As they move, find permitted"
+    },
+    {
+      "time_ms": 68684,
+      "end_ms": 69914,
+      "line": 72,
+      "target": "findPermittedDirection",
+      "context": "don't begin.\" As they move, find permitted direction searches nearby angles and redirects"
     }
   ]
 }

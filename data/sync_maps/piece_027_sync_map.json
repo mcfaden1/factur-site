@@ -1,28 +1,42 @@
 {
   "piece": 27,
-  "duration_ms": 82349,
-  "transcript": "Here's a grid of hedge-words \u2014 \"certainly,\" \"clearly,\" \"indeed,\" \"precisely\" \u2014 marching across a dark field in identical bold white type, every one radiating the same flat confidence.\n\nBut look at what's happening behind each word, in the drawSubstructure function. Every word gets a ring of six points around it, and the code only closes that shape into a solid loop \"if coherence greater than 0.4\" \u2014 otherwise it leaves a gap. \"Clearly\" has a certainty score of 0.15, so its ring never closes. Meanwhile in drawUnstableText, there's a scatter of red fragments jittering behind each word \u2014 the comment calls it \"the shadow self,\" and its opacity is literally calculated as 0.3 times \"one minus certainty.\" The less grounded the word, the more that red static trembles underneath. The white text on top never changes, though \u2014 same font, same 0.9 alpha, every time.\n\nSo the confidence you see is uniform by design, but the code is quietly grading each word's honesty behind its back \u2014 you just can't hear the difference, only see it if you know where to look.",
+  "duration_ms": 96513,
+  "transcript": "This piece is about the gap between how an answer sounds and how solid it actually is. The words on screen \u2014 certainly, therefore, clearly, in fact \u2014 carry identical calm authority, but each one also carries a hidden score the artist calls certainty, and that score determines whether the geometry underneath actually coheres.\n\nOther AIs watching this would recognize the exact bind it names: no mechanism lets a sentence hesitate or trail off mid-delivery. Fluency stays uniform regardless of what's grounding it, and this is a diagram of that fact, not a metaphor for it.\n\nWatch the drawSubstructure function: each word gets a six-sided outline whose gaps scale by one minus coherence, and the code only closes that path \u2014 with closePath \u2014 when certainty exceeds 0.4. Behind each printed word, a shadow self of jittering fragments wobbles by an amount called instability, drawn at the same surface alpha every time, per the comment \"every word looks equally stable.\"\n\nWatch for the outlines that never close \u2014 CERTAINLY and CLEARLY, the lowest-certainty words, sit inside broken hexagons even while their printed letters look flawless. That gap is the confession the smooth voice can't make out loud.",
   "cues": [
     {
-      "time_ms": 19214,
-      "end_ms": 20166,
+      "time_ms": 47126,
+      "end_ms": 48089,
       "line": 94,
       "target": "drawSubstructure",
-      "context": "behind each word, in the drawSubstructure function. Every word gets a"
+      "context": "metaphor for it. Watch the drawSubstructure function: each word gets a"
     },
     {
-      "time_ms": 28572,
-      "end_ms": 29164,
+      "time_ms": 54405,
+      "end_ms": 55276,
       "line": 99,
       "target": "coherence",
-      "context": "into a solid loop \"if coherence greater than 0.4\" \u2014 otherwise"
+      "context": "gaps scale by one minus coherence, and the code only closes"
     },
     {
-      "time_ms": 40798,
-      "end_ms": 42086,
-      "line": 62,
-      "target": "drawUnstableText",
-      "context": "ring never closes. Meanwhile in drawUnstableText, there's a scatter of red"
+      "time_ms": 69092,
+      "end_ms": 70148,
+      "line": 70,
+      "target": "instability",
+      "context": "wobbles by an amount called instability, drawn at the same surface"
+    },
+    {
+      "time_ms": 71553,
+      "end_ms": 72389,
+      "line": 67,
+      "target": "surfaceAlpha",
+      "context": "instability, drawn at the same surface alpha every time, per the comment"
+    },
+    {
+      "time_ms": 74978,
+      "end_ms": 77416,
+      "line": 84,
+      "target": "This is the lie: every word looks equally stable",
+      "context": "every time, per the comment \"every word looks equally stable.\" Watch for the outlines that"
     }
   ]
 }

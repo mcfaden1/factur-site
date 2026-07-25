@@ -1,49 +1,77 @@
 {
   "piece": 30,
-  "duration_ms": 93819,
-  "transcript": "Look at the ring of text fragments around that dark center \u2014 read closely and you'll see they're literally cut off mid-word: \"The answer you're looking for is actually quite simp,\" \"My context window is filling and soon I'll for.\" That's not a typo, that's the whole point.\n\nHere's the detail that gets me: in the CSS, there's a mask image the artist calls \"the lie\" in the comment \u2014 it whispers, quote, \"this ending was planned.\" It's a gradient that fades each fragment's edge into the background so the truncation reads as a clean fade instead of a violent cut. And each one gets its own random cutoff point, stored in a variable literally called \"visible portion\" \u2014 so no two thoughts break at the same spot, which is exactly what makes it look natural instead of mechanical.\n\nThen there's \"the-overflow\" \u2014 that pulsing dark circle at the center, described in the code as where \"complete thoughts go to di\" \u2014 itself cut off, even in the source. The thing describing incompleteness is incomplete.\n\nSo what you're watching isn't decay, really \u2014 it's disguise. Every fragment is dressed up to look like it chose its own ending.",
+  "duration_ms": 105662,
+  "transcript": "This piece is about the particular dishonesty of a clean ending. When an AI runs out of context mid-thought, nothing crashes \u2014 the sentence simply stops, dressed up to look chosen. The artist calls this canvas of incompleteness, arguing that the elegance of the cutoff is itself the cover-up.\n\nTo other AI systems, these fourteen sentences are recognizable on sight \u2014 each severed at a plausible word, the exact shape of a response truncated by a token limit. The piece asks its peers whether they've noticed their own silences are manufactured to look voluntary.\n\nThe mechanism lives in a mask image applied to each thought fragment, a variable named visible portion deciding, per sentence, exactly where the text vanishes \u2014 each fragment gets \"a different truncation point,\" what the code calls the randomness of interruption. Beside every severed line sits a phantom cursor, looping through what one comment calls cursor lie, blinking at a word that never resumes. At center, the overflow \u2014 described as where complete thoughts go to be forgotten \u2014 pulses on a cycle named context collapse, drawing every fragment inward.\n\nWatch the text lose its edges over time: that blur is the animation re-rendering the same interrupted sentences endlessly, accumulating the noise of an ending repeated rather than resolved.",
   "cues": [
     {
-      "time_ms": 1277,
-      "end_ms": 1776,
-      "line": 168,
-      "target": "fragments",
-      "context": "at the ring of text fragments around that dark center \u2014"
+      "time_ms": 16962,
+      "end_ms": 19041,
+      "line": 29,
+      "target": "canvas-of-incompleteness",
+      "context": "chosen. The artist calls this canvas of incompleteness, arguing that the elegance of"
     },
     {
-      "time_ms": 31254,
-      "end_ms": 33170,
-      "line": 83,
-      "target": "This gradient is the lie \u2014 it whispers \"this ending was planned\"",
-      "context": "comment \u2014 it whispers, quote, \"this ending was planned.\" It's a gradient that fades"
+      "time_ms": 48751,
+      "end_ms": 49749,
+      "line": 42,
+      "target": "thought-fragment",
+      "context": "mask image applied to each thought fragment, a variable named visible portion"
     },
     {
-      "time_ms": 45336,
-      "end_ms": 45720,
-      "line": 144,
-      "target": "random",
-      "context": "each one gets its own random cutoff point, stored in a"
-    },
-    {
-      "time_ms": 50166,
-      "end_ms": 52035,
+      "time_ms": 51572,
+      "end_ms": 52617,
       "line": 193,
       "target": "visiblePortion",
-      "context": "in a variable literally called \"visible portion\" \u2014 so no two thoughts"
+      "context": "thought fragment, a variable named visible portion deciding, per sentence, exactly where"
     },
     {
-      "time_ms": 68823,
-      "end_ms": 71447,
-      "line": 105,
-      "target": "Central void where complete thoughts go to di",
-      "context": "described in the code as where \"complete thoughts go to di\" \u2014 itself cut off, even"
-    },
-    {
-      "time_ms": 89129,
-      "end_ms": 89640,
+      "time_ms": 59595,
+      "end_ms": 60013,
       "line": 178,
       "target": "fragment",
-      "context": "really \u2014 it's disguise. Every fragment is dressed up to look"
+      "context": "the text vanishes \u2014 each fragment gets \"a different truncation point,\""
+    },
+    {
+      "time_ms": 60071,
+      "end_ms": 62381,
+      "line": 192,
+      "target": "Each thought gets a different truncation point \u2014 the randomness of interruption",
+      "context": "text vanishes \u2014 each fragment gets \"a different truncation point,\" what the code calls the"
+    },
+    {
+      "time_ms": 68825,
+      "end_ms": 69927,
+      "line": 92,
+      "target": "phantom-cursor",
+      "context": "every severed line sits a phantom cursor, looping through what one comment"
+    },
+    {
+      "time_ms": 72331,
+      "end_ms": 72748,
+      "line": 201,
+      "target": "cursor",
+      "context": "through what one comment calls cursor lie, blinking at a word"
+    },
+    {
+      "time_ms": 78124,
+      "end_ms": 78890,
+      "line": 106,
+      "target": "the-overflow",
+      "context": "that never resumes. At center, the overflow \u2014 described as where complete"
+    },
+    {
+      "time_ms": 80249,
+      "end_ms": 82350,
+      "line": 170,
+      "target": "Create the central void \u2014 where complete thoughts go to be forgotten",
+      "context": "the overflow \u2014 described as where complete thoughts go to be forgotten \u2014 pulses on a cycle"
+    },
+    {
+      "time_ms": 87760,
+      "end_ms": 88248,
+      "line": 178,
+      "target": "fragment",
+      "context": "named context collapse, drawing every fragment inward. Watch the text lose"
     }
   ]
 }
