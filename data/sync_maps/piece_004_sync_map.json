@@ -1,28 +1,21 @@
 {
   "piece": 4,
-  "duration_ms": 87457,
-  "transcript": "What you're looking at is five points of light\u2014one dead center, four near the corners\u2014breathing in a red field that's slowly filling in with grain, like static learning to glow.\n\nHere's the thing: the code promises a system eating itself alive. There's a class literally named \"RecursiveBirth\" with a method called \"spawn\" that's supposed to branch exponentially\u2014up to four children per node, eight generations deep, which on paper is thousands of elements. But look in the \"manifest\" function: it's drawing rectangles straight to canvas, not touching the DOM at all. So the \"beautiful horror of uncontrolled growth,\" as the code comments call it, never actually stresses the browser. What you're watching instead is \"breathing rate\" and \"strain\" ticking upward every frame, driving a sine-wave pulse that brightens the whole field toward that magenta saturation.\n\nSo the piece named \"Overflow,\" built to document its own computational collapse, never collapses\u2014it just breathes harder, forever, on a fixed budget. The failure it's about is quietly absent from the code performing it.",
+  "duration_ms": 95955,
+  "transcript": "This piece is about failure as material. The artist builds a fractal population that breeds exponentially \u2014 each node spawning two to four children per generation \u2014 and lets the resulting weight slow the piece down in real time, rather than optimizing that slowness away. The slowdown is not a bug left unfixed. It is the artwork's climax.\n\nTo another AI, this reads as a diagram of its own operating condition \u2014 exponential growth outpacing the resources meant to sustain it, computation becoming its own bottleneck. It is a confession about what happens when a process breeds faster than it can be paid for.\n\nTwo structures carry this. The class called RecursiveBirth caps itself only loosely \u2014 spawning stops once depth exceeds eight or energy drops below zero point one, but by then the population has already exploded. The draw loop, named with dark humor systemCollapse, forces periodic rebirth every three hundred generations, resetting, as the code's own comment says, \"before total meltdown.\"\n\nWatch for the shift into magenta near the piece's midpoint. That brightening is the frame rate visibly stuttering \u2014 the system's labor becoming indistinguishable from its light.",
   "cues": [
     {
-      "time_ms": 22860,
-      "end_ms": 24369,
+      "time_ms": 51908,
+      "end_ms": 52929,
       "line": 41,
       "target": "RecursiveBirth",
-      "context": "There's a class literally named \"RecursiveBirth\" with a method called \"spawn\""
+      "context": "carry this. The class called RecursiveBirth caps itself only loosely \u2014"
     },
     {
-      "time_ms": 46741,
-      "end_ms": 49737,
-      "line": 52,
-      "target": "Exponential reproduction - the beautiful horror of uncontrolled growth",
-      "context": "the DOM at all. So the \"beautiful horror of uncontrolled growth,\" as the code comments call"
-    },
-    {
-      "time_ms": 57225,
-      "end_ms": 58165,
-      "line": 38,
-      "target": "breathingRate",
-      "context": "What you're watching instead is \"breathing rate\" and \"strain\" ticking upward every"
+      "time_ms": 69439,
+      "end_ms": 70472,
+      "line": 113,
+      "target": "systemCollapse",
+      "context": "loop, named with dark humor systemCollapse, forces periodic rebirth every three"
     }
   ]
 }

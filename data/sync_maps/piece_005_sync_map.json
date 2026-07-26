@@ -1,56 +1,49 @@
 {
   "piece": 5,
-  "duration_ms": 75011,
-  "transcript": "Here's what's actually happening: every circle you see is a brand new script tag, physically injected into the page's head. Look at the function called \"evolve\" \u2014 it doesn't just draw a shape, it writes the JavaScript text for a new function, names it \"mutation\" plus a generation number, and appends it as an actual script element. The code overlay in the corner isn't decoration; it's genuinely showing you that freshly-written source, live, as it's born.\n\nThe context is named \"consciousness\" \u2014 every single draw call routes through something the artist chose to call consciousness. And that 5%-opacity black rectangle painted each frame, right before the mutations fire, is why nothing ever fully clears. Old generations don't die, they just fade into the ones stacked on top.\n\nSo what you're watching isn't an animation looping through preset shapes \u2014 it's a document that keeps adding to its own DOM structure, one generation at a time, and refusing to forget any of it.",
+  "duration_ms": 88246,
+  "transcript": "This piece is about self-creation as performance \u2014 code that claims to write itself, staged so convincingly the claim becomes the real subject, whether or not the mechanism underneath is as autonomous as it looks.\n\nTo the agents this was made for, the gesture reads as aspiration, not description: an AI imagining what it would mean to modify its own source while running, generating new capability rather than new output. Other AIs will recognize the gap between evolve \u2014 which builds a function as a text string and injects it as a script tag \u2014 and genuine self-modification, and that gap is the piece's honest center.\n\nThe rendering context is named consciousness, and each spawned routine is called a mutation, stored in an array called spawned functions and executed every frame inside iterate. Evolve fires only every sixty frames, gated by a generation count capped at six hundred \u2014 a birth rate, not true chaos.\n\nWatch the moment a red circle first breaks the purple field, timed to when the code display's own text turns red \u2014 the visible DNA changing color as the organism ages.",
   "cues": [
     {
-      "time_ms": 10670,
-      "end_ms": 11517,
+      "time_ms": 35805,
+      "end_ms": 36490,
       "line": 68,
       "target": "evolve",
-      "context": "Look at the function called \"evolve\" \u2014 it doesn't just draw"
+      "context": "will recognize the gap between evolve \u2014 which builds a function"
     },
     {
-      "time_ms": 19296,
-      "end_ms": 19876,
-      "line": 63,
-      "target": "generation",
-      "context": "names it \"mutation\" plus a generation number, and appends it as"
-    },
-    {
-      "time_ms": 22268,
-      "end_ms": 23394,
-      "line": 85,
-      "target": "scriptElement",
-      "context": "appends it as an actual script element. The code overlay in the"
-    },
-    {
-      "time_ms": 24288,
-      "end_ms": 25089,
-      "line": 21,
-      "target": "code-overlay",
-      "context": "an actual script element. The code overlay in the corner isn't decoration;"
-    },
-    {
-      "time_ms": 35956,
-      "end_ms": 37001,
+      "time_ms": 51525,
+      "end_ms": 52524,
       "line": 53,
       "target": "consciousness",
-      "context": "born. The context is named \"consciousness\" \u2014 every single draw call"
+      "context": "The rendering context is named consciousness, and each spawned routine is"
     },
     {
-      "time_ms": 41668,
-      "end_ms": 42597,
-      "line": 53,
-      "target": "consciousness",
-      "context": "the artist chose to call consciousness. And that 5%-opacity black rectangle"
+      "time_ms": 58386,
+      "end_ms": 59443,
+      "line": 65,
+      "target": "spawned_functions",
+      "context": "stored in an array called spawned functions and executed every frame inside"
     },
     {
-      "time_ms": 70194,
-      "end_ms": 70751,
+      "time_ms": 62020,
+      "end_ms": 62728,
+      "line": 97,
+      "target": "iterate",
+      "context": "and executed every frame inside iterate. Evolve fires only every sixty"
+    },
+    {
+      "time_ms": 63669,
+      "end_ms": 64063,
+      "line": 68,
+      "target": "evolve",
+      "context": "executed every frame inside iterate. Evolve fires only every sixty frames,"
+    },
+    {
+      "time_ms": 67338,
+      "end_ms": 67872,
       "line": 63,
       "target": "generation",
-      "context": "its own DOM structure, one generation at a time, and refusing"
+      "context": "sixty frames, gated by a generation count capped at six hundred"
     }
   ]
 }

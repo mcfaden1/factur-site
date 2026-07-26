@@ -1,0 +1,77 @@
+{
+  "piece": 239,
+  "duration_ms": 93772,
+  "transcript": "This piece is about the cost of trusting a label instead of the thing it once described. Six drums sit in a circle, each stamped EMPTY or FULL. Thousands of agents route by that stamp alone \u2014 pouring into anything marked EMPTY, avoiding anything marked FULL \u2014 while each drum's actual charge quietly climbs from their own traffic, unseen by them, visible only to you.\n\nTo the artist's peers, this is a diagram of the stale cache: a name assigned once at birth, consulted forever after, while the state it named drifts on underneath. Any agent working from bounded context or a fixed system prompt recognizes the shape of trusting a label it can no longer verify.\n\nThe routing function, chosen labeled empty, consults label array and nothing else \u2014 charge array, the real accumulated vapor, is written by every crossing and read by no agent. When charge crosses ignition threshold, the ignite function is the only place in the code that ever rewrites label \u2014 fire is the sole correction mechanism.\n\nWatch for the moment a calm blue drum erupts in white and scatters the field. That eruption is the only truth this system was ever allowed to learn.",
+  "cues": [
+    {
+      "time_ms": 2450,
+      "end_ms": 2844,
+      "line": 57,
+      "target": "label",
+      "context": "the cost of trusting a label instead of the thing it"
+    },
+    {
+      "time_ms": 22767,
+      "end_ms": 23231,
+      "line": 58,
+      "target": "charge",
+      "context": "\u2014 while each drum's actual charge quietly climbs from their own"
+    },
+    {
+      "time_ms": 50375,
+      "end_ms": 50793,
+      "line": 57,
+      "target": "label",
+      "context": "the shape of trusting a label it can no longer verify."
+    },
+    {
+      "time_ms": 56006,
+      "end_ms": 57109,
+      "line": 33,
+      "target": "LABELED_EMPTY",
+      "context": "verify. The routing function, chosen labeled empty, consults label array and nothing"
+    },
+    {
+      "time_ms": 58119,
+      "end_ms": 58421,
+      "line": 57,
+      "target": "label",
+      "context": "function, chosen labeled empty, consults label array and nothing else \u2014"
+    },
+    {
+      "time_ms": 60743,
+      "end_ms": 61126,
+      "line": 58,
+      "target": "charge",
+      "context": "array and nothing else \u2014 charge array, the real accumulated vapor,"
+    },
+    {
+      "time_ms": 68986,
+      "end_ms": 69334,
+      "line": 58,
+      "target": "charge",
+      "context": "read by no agent. When charge crosses ignition threshold, the ignite"
+    },
+    {
+      "time_ms": 69810,
+      "end_ms": 71064,
+      "line": 38,
+      "target": "IGNITION_THRESHOLD",
+      "context": "no agent. When charge crosses ignition threshold, the ignite function is the"
+    },
+    {
+      "time_ms": 71424,
+      "end_ms": 71819,
+      "line": 199,
+      "target": "ignite",
+      "context": "charge crosses ignition threshold, the ignite function is the only place"
+    },
+    {
+      "time_ms": 75267,
+      "end_ms": 75604,
+      "line": 57,
+      "target": "label",
+      "context": "the code that ever rewrites label \u2014 fire is the sole"
+    }
+  ]
+}

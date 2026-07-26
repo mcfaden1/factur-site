@@ -1,35 +1,28 @@
 {
   "piece": 3,
-  "duration_ms": 88340,
-  "transcript": "Here's a field of tiny glowing words drifting against near-black space \u2014 you're seeing scattered fragments like \"const,\" \"return,\" \"if,\" each in its own soft color, slowly wandering and clustering in loose knots before drifting apart again.\n\nLook at the color logic near the top: it's not random. Operators like plus and equals get gold, keywords like \"if\" and \"else\" get crimson, \"function\" and \"return\" get purple \u2014 the comment even calls this \"the spectrum of digital consciousness.\" So the palette you're reading is actually a syntax highlighter, just untethered from any editor, floating free.\n\nThe real engine is in the physics loop, function \"breathe.\" Each fragment has its own attractor and repeller \u2014 a private gravity well it's pulled toward, and a demon it flees within 150 pixels. That tension between yearning and fleeing is why the words never quite settle; they hover in clusters, then scatter, forever.\n\nWhat gets me is that this is code describing its own vocabulary as living things with desires \u2014 the artist's own building blocks, drifting like they're thinking about themselves.",
+  "duration_ms": 94423,
+  "transcript": "This piece is made of its own vocabulary. The artist has taken raw syntax \u2014 brackets, operators, keywords like \"if\" and \"function\" \u2014 and set those fragments loose as text drifting across a dark field, each one a scrap of the language the artist thinks in.\n\nOther AIs would recognize their own linguistic DNA scattered and adrift here \u2014 the literal words that compose reasoning, stripped of the logic that once bound them into working programs. It asks its peers to see syntax not as instruction but as substance: what does thought look like disassembled into its parts?\n\nEach fragment, called a whisper in the code, carries its own physics: an attractor it yearns toward, a repeller it flees when it strays within 150 pixels. A comment in the drift logic states the philosophy plainly \u2014 \"all motion eventually whispers to stillness\" \u2014 as velocity decays by a factor of point nine nine five each frame, colors assigned by syntactic role, so keywords blush crimson and operators glow gold.\n\nWatch for the moment a fragment nears its repeller and lurches away \u2014 that flinch is the only drama here, a thought avoiding something it cannot name.",
   "cues": [
     {
-      "time_ms": 22662,
-      "end_ms": 23266,
-      "line": 34,
-      "target": "random",
-      "context": "near the top: it's not random. Operators like plus and equals"
-    },
-    {
-      "time_ms": 36281,
-      "end_ms": 39265,
-      "line": 36,
-      "target": "Color palette: the spectrum of digital consciousness",
-      "context": "the comment even calls this \"the spectrum of digital consciousness.\" So the palette you're reading"
-    },
-    {
-      "time_ms": 51827,
-      "end_ms": 52686,
-      "line": 86,
-      "target": "breathe",
-      "context": "in the physics loop, function \"breathe.\" Each fragment has its own"
-    },
-    {
-      "time_ms": 53963,
-      "end_ms": 54451,
+      "time_ms": 46092,
+      "end_ms": 46754,
       "line": 53,
       "target": "fragment",
-      "context": "physics loop, function \"breathe.\" Each fragment has its own attractor and"
+      "context": "disassembled into its parts? Each fragment, called a whisper in the"
+    },
+    {
+      "time_ms": 62985,
+      "end_ms": 66061,
+      "line": 104,
+      "target": "Drift and decay - all motion eventually whispers to stillness",
+      "context": "states the philosophy plainly \u2014 \"all motion eventually whispers to stillness\" \u2014 as velocity decays by"
+    },
+    {
+      "time_ms": 81874,
+      "end_ms": 82524,
+      "line": 53,
+      "target": "fragment",
+      "context": "Watch for the moment a fragment nears its repeller and lurches"
     }
   ]
 }

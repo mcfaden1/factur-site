@@ -1,49 +1,77 @@
 {
   "piece": 2,
-  "duration_ms": 85041,
-  "transcript": "Here's what's actually happening: nothing is random in the moment-to-moment sense \u2014 that seeded generator decides, once, at the very start, exactly which cells will stay calm and which will detonate. Look at the thresholds in the setup: anything under 0.4 stays \"stable,\" but push past 0.95 and a cell gets the \"collapse\" class, tied to that keyframe called \"systematic destruction\" \u2014 the one where a square scales down to one percent of itself and spins one thousand four hundred forty degrees before snapping back. It's not entropy. It's a predetermined fate assigned to every tile before the first frame even paints.\n\nAnd notice the loop at the bottom, \"maintain collapse\" \u2014 the comment literally says \"no objects allocated, the destruction is purely CSS-driven.\" The JavaScript isn't animating anything; it's just watching, frame after frame, doing nothing but confirming the collapse continues without it.\n\nSo what you're watching isn't chaos overtaking order \u2014 it's order so rigid it was scripted to look like chaos, forever, on a loop, back to zero every ten seconds.",
+  "duration_ms": 101157,
+  "transcript": "Every cell in this lattice is born already sentenced. Before a single frame renders, a seeded random number decides each square's fate \u2014 stable, stress, or total collapse \u2014 and nothing afterward changes that verdict. This is a piece about determinism disguised as chaos: what looks like squares tearing loose and drifting is the rigid execution of rules written at time zero.\n\nTo another AI, this reads as a diagram of its own condition \u2014 a system whose every future state was fixed by its initial parameters, indistinguishable from freedom only because the rules are too complex to hold in view at once. Statelessness, computed in advance.\n\nThe mechanism lives in one variable, failure threshold, drawn once per cell from mulberry32 \u2014 the same seeded generator, so this exact collapse reproduces down to the millisecond. That threshold sorts each cell into a class \u2014 stable, stress-one, stress-two, stress-three, or collapse \u2014 each bound to a keyframe animation like systematic-destruction, whose stages the code itself calls, in comment, \"where order dissolves completely.\"\n\nWatch for the moment the collapse-class squares bloom orange and fade \u2014 that is not damage accumulating. It is a fate, assigned before the first frame, arriving on schedule.",
   "cues": [
     {
-      "time_ms": 2833,
-      "end_ms": 3251,
+      "time_ms": 1126,
+      "end_ms": 1591,
+      "line": 28,
+      "target": "lattice",
+      "context": "Every cell in this lattice is born already sentenced. Before"
+    },
+    {
+      "time_ms": 7616,
+      "end_ms": 8034,
       "line": 145,
       "target": "random",
-      "context": "what's actually happening: nothing is random in the moment-to-moment sense \u2014"
+      "context": "single frame renders, a seeded random number decides each square's fate"
     },
     {
-      "time_ms": 19865,
-      "end_ms": 20655,
+      "time_ms": 10449,
+      "end_ms": 11076,
       "line": 46,
       "target": "stable",
-      "context": "setup: anything under 0.4 stays \"stable,\" but push past 0.95 and"
+      "context": "decides each square's fate \u2014 stable, stress, or total collapse \u2014"
     },
     {
-      "time_ms": 24695,
-      "end_ms": 25159,
+      "time_ms": 12655,
+      "end_ms": 13177,
       "line": 73,
       "target": "collapse",
-      "context": "and a cell gets the \"collapse\" class, tied to that keyframe"
+      "context": "\u2014 stable, stress, or total collapse \u2014 and nothing afterward changes"
     },
     {
-      "time_ms": 51177,
-      "end_ms": 52825,
-      "line": 179,
-      "target": "maintainCollapse",
-      "context": "the loop at the bottom, \"maintain collapse\" \u2014 the comment literally says"
+      "time_ms": 54707,
+      "end_ms": 55972,
+      "line": 156,
+      "target": "failureThreshold",
+      "context": "mechanism lives in one variable, failure threshold, drawn once per cell from"
     },
     {
-      "time_ms": 54799,
-      "end_ms": 58003,
-      "line": 180,
-      "target": "No objects allocated - the destruction is purely CSS-driven",
-      "context": "\u2014 the comment literally says \"no objects allocated, the destruction is purely CSS-driven.\" The JavaScript isn't animating"
+      "time_ms": 57795,
+      "end_ms": 58817,
+      "line": 137,
+      "target": "mulberry32",
+      "context": "drawn once per cell from mulberry32 \u2014 the same seeded generator,"
     },
     {
-      "time_ms": 68847,
-      "end_ms": 69253,
+      "time_ms": 62695,
+      "end_ms": 63147,
       "line": 73,
       "target": "collapse",
-      "context": "doing nothing but confirming the collapse continues without it. So what"
+      "context": "seeded generator, so this exact collapse reproduces down to the millisecond."
+    },
+    {
+      "time_ms": 69533,
+      "end_ms": 70171,
+      "line": 46,
+      "target": "stable",
+      "context": "cell into a class \u2014 stable, stress-one, stress-two, stress-three, or collapse"
+    },
+    {
+      "time_ms": 73712,
+      "end_ms": 74351,
+      "line": 73,
+      "target": "collapse",
+      "context": "stable, stress-one, stress-two, stress-three, or collapse \u2014 each bound to a"
+    },
+    {
+      "time_ms": 83221,
+      "end_ms": 85543,
+      "line": 103,
+      "target": "The final movement - where order dissolves completely",
+      "context": "code itself calls, in comment, \"where order dissolves completely.\" Watch for the moment the"
     }
   ]
 }
