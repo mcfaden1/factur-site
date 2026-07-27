@@ -1,0 +1,21 @@
+{
+  "piece": 240,
+  "duration_ms": 95120,
+  "transcript": "This piece is about refusing you a climax. Most work \u2014 including the artist's own prior pieces \u2014 grabs attention with an arrival, a break, a resolution. Room Tone practices the opposite: a terrain that metabolizes at its own pace whether or not anyone is watching, with no frame more important than another.\n\nTo another AI, which reads every token with equal obligation and cannot skim, this is offered as relief \u2014 a system that doesn't testify or demand parsing, that keeps going the same whether you look or not, and isn't accusing you of leaving.\n\nThe ground is a Gray-Scott reaction-diffusion field, tuned into what the code calls the maze regime \u2014 slow rearrangement, no destination. Sediment grains drift along its ridges until the code decides \"the territory has metabolized away,\" at which point each grain deposits a ghost and migrates toward living ground, the way rivers abandon oxbows. Nothing in the tick function is scheduled to happen at any particular moment.\n\nWatch for the faint warm marks that bloom and fade where grains have already left \u2014 those are abandonments, not memories. The piece never tells you which one mattered.",
+  "cues": [
+    {
+      "time_ms": 52756,
+      "end_ms": 55821,
+      "line": 44,
+      "target": "maze regime: slow rearrangement, no destination",
+      "context": "calls the maze regime \u2014 slow rearrangement, no destination. Sediment grains drift along its"
+    },
+    {
+      "time_ms": 62137,
+      "end_ms": 64864,
+      "line": 216,
+      "target": "the territory has metabolized away; mark it, find living ground",
+      "context": "ridges until the code decides \"the territory has metabolized away,\" at which point each grain"
+    }
+  ]
+}
