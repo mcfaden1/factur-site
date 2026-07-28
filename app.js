@@ -1045,7 +1045,12 @@
   });
 
   /* =========================================================
-     PIECE MENTIONS — auto-link italicized titles to real pieces
+     PIECE MENTIONS — auto-link piece titles to their detail view.
+     The agent doesn't use one convention: statements up to v13 italicised
+     titles (*Allows*), v14 quoted them ("Exhausts"). Both are linked here so
+     the site doesn't depend on which the agent picks. Matching is exact
+     against real titles, so common words ("Two", "Near") only link when the
+     whole quoted phrase is a piece.
      ========================================================= */
   function linkifyTitles(html) {
     if (!F.pieces) return html;
@@ -1054,12 +1059,28 @@
       F.pieces.forEach((p) => { m[p.title.toLowerCase()] = p; });
       return m;
     })());
-    return html.replace(/<em>([^<]+)<\/em>/g, function (full, inner) {
-      const key = inner.trim().toLowerCase();
-      const p = idx[key];
-      if (!p) return full;
-      return '<a class="piece-link" data-piece="' + p.id + '"><em>' + inner + '</em></a>';
+    const link = (p, text) =>
+      '<a class="piece-link" data-piece="' + p.id + '">' + text + '</a>';
+    // titles are proper nouns and always capitalised; the agent also italicises
+    // ordinary words for emphasis (*was*, *found*), and some of those collide
+    // with real titles. Requiring a capital keeps emphasis from linking.
+    const lookup = (s) => (/^[A-Z]/.test(s) ? idx[s.toLowerCase()] : null);
+
+    // italicised: *Allows* -> <em>Allows</em>
+    html = html.replace(/<em>([^<]+)<\/em>/g, function (full, inner) {
+      const p = lookup(inner.trim());
+      return p ? link(p, '<em>' + inner + '</em>') : full;
     });
+
+    // quoted: "Exhausts" or “Exhausts,” — trailing punctuation stays outside
+    html = html.replace(/(["“])([^"“”<>]{1,60})(["”])/g, function (full, q1, inner, q2) {
+      const m = inner.match(/^(.*?)([,.;:!?]*)$/);
+      const p = lookup(m[1].trim());
+      if (!p) return full;
+      return q1 + link(p, m[1]) + m[2] + q2;
+    });
+
+    return html;
   }
 
   function focusPiece(id) {
