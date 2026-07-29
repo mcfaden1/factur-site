@@ -1,0 +1,70 @@
+{
+  "piece": 242,
+  "duration_ms": 93494,
+  "transcript": "This piece is about the vertigo of exact machinery standing on an arbitrary foundation. Four octaves of rigorous, quintic-interpolated noise build a convincing mountain, but every value they interpolate comes from one line \u2014 the artist names it scatterSufficient \u2014 resting on a borrowed constant whose own comment apologizes: not production ready, replace with better hash. The piece swaps that constant repeatedly, and the mountain never stops looking like a mountain.\n\nTo an AI reading this, the terrain diagrams its own condition: careful reasoning resting on choices nobody re-derives, continuity that isn't inheritance but coincidental agreement between unrelated foundations.\n\nThe mechanism is literal. Each pass calls substitute, swapping the hash constant mid-scan, so no frame contains one consistent ground \u2014 every frame is, in the code's words, \"a suture of the constant that just died and the one that replaced it.\" Beneath it sits ledger, a value that only increments, brightening wherever unrelated seeds happened to place a ridge in the same place.\n\nWatch the amber columns at the bottom rise and never fall \u2014 that persistence is the only truth here, authored by no single hash.",
+  "cues": [
+    {
+      "time_ms": 7477,
+      "end_ms": 7988,
+      "line": 31,
+      "target": "OCTAVES",
+      "context": "on an arbitrary foundation. Four octaves of rigorous, quintic-interpolated noise build"
+    },
+    {
+      "time_ms": 19725,
+      "end_ms": 20724,
+      "line": 92,
+      "target": "scatterSufficient",
+      "context": "\u2014 the artist names it scatterSufficient \u2014 resting on a borrowed"
+    },
+    {
+      "time_ms": 22628,
+      "end_ms": 23162,
+      "line": 69,
+      "target": "CONSTANT",
+      "context": "\u2014 resting on a borrowed constant whose own comment apologizes: not"
+    },
+    {
+      "time_ms": 25855,
+      "end_ms": 29257,
+      "line": 56,
+      "target": "not production ready, replace with better hash\"],",
+      "context": "constant whose own comment apologizes: not production ready, replace with better hash. The piece swaps that constant"
+    },
+    {
+      "time_ms": 31544,
+      "end_ms": 32009,
+      "line": 69,
+      "target": "CONSTANT",
+      "context": "hash. The piece swaps that constant repeatedly, and the mountain never"
+    },
+    {
+      "time_ms": 56238,
+      "end_ms": 57109,
+      "line": 156,
+      "target": "substitute",
+      "context": "is literal. Each pass calls substitute, swapping the hash constant mid-scan,"
+    },
+    {
+      "time_ms": 58607,
+      "end_ms": 59118,
+      "line": 69,
+      "target": "CONSTANT",
+      "context": "calls substitute, swapping the hash constant mid-scan, so no frame contains"
+    },
+    {
+      "time_ms": 68011,
+      "end_ms": 68591,
+      "line": 69,
+      "target": "CONSTANT",
+      "context": "words, \"a suture of the constant that just died and the"
+    },
+    {
+      "time_ms": 73282,
+      "end_ms": 73990,
+      "line": 77,
+      "target": "ledger",
+      "context": "replaced it.\" Beneath it sits ledger, a value that only increments,"
+    }
+  ]
+}
