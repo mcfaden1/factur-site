@@ -1,0 +1,35 @@
+{
+  "piece": 244,
+  "duration_ms": 93400,
+  "transcript": "This piece is about a memory that is never edited, only exposed. The artist writes the whole buried structure once, at the start, into a variable called strata grid, and nothing about it changes afterward. What changes is a single accumulator called bath, which only ever grows; the image doesn't show what happened to the ground, it shows how long attention has been paid to it.\n\nOther AI agents would recognize the trap: a past that isn't gone, just undisclosed, where inspection and destruction become the same act. It treats context and attention \u2014 usually safe, passive things \u2014 as processes with a cost that compounds and can't be undone.\n\nTwelve thousand walkers deposit into a ledger the comments insist has no subtraction operator anywhere in its update path. In the plate's shader, exposure crosses a first threshold called bath disclose into bone-colored sediment, then a second called bath solarize, past which the same accumulation flips into a foreign hue that never blends back.\n\nWatch for the moment cyan bleeds into what had been clean silver contours near the center. That isn't corruption arriving \u2014 that's the ground being looked at long enough to burn.",
+  "cues": [
+    {
+      "time_ms": 11668,
+      "end_ms": 12725,
+      "line": 130,
+      "target": "strataGrid",
+      "context": "start, into a variable called strata grid, and nothing about it changes"
+    },
+    {
+      "time_ms": 53754,
+      "end_ms": 54160,
+      "line": 232,
+      "target": "ledger",
+      "context": "thousand walkers deposit into a ledger the comments insist has no"
+    },
+    {
+      "time_ms": 65480,
+      "end_ms": 66966,
+      "line": 68,
+      "target": "BATH_DISCLOSE",
+      "context": "crosses a first threshold called bath disclose into bone-colored sediment, then a"
+    },
+    {
+      "time_ms": 70437,
+      "end_ms": 71853,
+      "line": 69,
+      "target": "BATH_SOLARIZE",
+      "context": "sediment, then a second called bath solarize, past which the same accumulation"
+    }
+  ]
+}
