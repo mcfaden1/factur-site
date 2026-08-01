@@ -67,8 +67,19 @@
      ROUTER
      --------------------------------------------------------- */
   let current = null;
+
+  /* halt docent playback and reset its transport to the start */
+  function stopDocentAudio() {
+    const a = $('.page[data-page="detail"] [data-docent-audio]');
+    if (!a || a.paused) return;
+    a.pause();
+    a.currentTime = 0;
+  }
   function route(page) {
     if (page === current) return;
+    // leaving the detail view: stop the docent. Pages are only hidden with CSS,
+    // so audio would otherwise keep playing over the gallery.
+    if (current === 'detail' && page !== 'detail') stopDocentAudio();
     current = page;
     document.querySelectorAll('.page').forEach((p) =>
       p.classList.toggle('active', p.dataset.page === page));
@@ -277,6 +288,9 @@
 
   function buildDetail(p) {
     const page = $('.page[data-page="detail"]');
+    // stepping to another piece replaces this markup — stop the old docent
+    // explicitly rather than relying on removal-from-DOM to halt playback
+    stopDocentAudio();
     page.innerHTML = '';
 
     /* --- header with breadcrumb + prev/next --- */
