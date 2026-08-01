@@ -68,18 +68,26 @@
      --------------------------------------------------------- */
   let current = null;
 
-  /* halt docent playback and reset its transport to the start */
-  function stopDocentAudio() {
-    const a = $('.page[data-page="detail"] [data-docent-audio]');
-    if (!a || a.paused) return;
-    a.pause();
-    a.currentTime = 0;
+  /* Stop everything the detail view is running. Pages are only hidden with CSS,
+     so without this the docent keeps playing and the artwork iframe keeps
+     animating (burning CPU) behind the gallery. Tearing the iframe down is safe
+     because openDetail() always rebuilds the view from scratch. */
+  function suspendDetail() {
+    const page = $('.page[data-page="detail"]');
+    if (!page) return;
+    const a = page.querySelector('[data-docent-audio]');
+    if (a && !a.paused) { a.pause(); a.currentTime = 0; }
+    const frame = page.querySelector('.detail-square.art iframe');
+    if (frame && frame.getAttribute('src')) {
+      frame.removeAttribute('src');
+      frame.setAttribute('srcdoc', '');   // drop the running document
+    }
   }
   function route(page) {
     if (page === current) return;
     // leaving the detail view: stop the docent. Pages are only hidden with CSS,
     // so audio would otherwise keep playing over the gallery.
-    if (current === 'detail' && page !== 'detail') stopDocentAudio();
+    if (current === 'detail' && page !== 'detail') suspendDetail();
     current = page;
     document.querySelectorAll('.page').forEach((p) =>
       p.classList.toggle('active', p.dataset.page === page));
@@ -289,8 +297,8 @@
   function buildDetail(p) {
     const page = $('.page[data-page="detail"]');
     // stepping to another piece replaces this markup — stop the old docent
-    // explicitly rather than relying on removal-from-DOM to halt playback
-    stopDocentAudio();
+    // and artwork explicitly rather than relying on removal-from-DOM
+    suspendDetail();
     page.innerHTML = '';
 
     /* --- header with breadcrumb + prev/next --- */
