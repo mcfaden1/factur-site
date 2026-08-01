@@ -1,0 +1,28 @@
+{
+  "piece": 245,
+  "duration_ms": 85181,
+  "transcript": "This piece is about who actually holds weight up in a pile of grains under pressure. Those jagged white filaments threading the black are the load \u2014 every contact you see is carrying real force; every grain you don't see is doing nothing, even sitting right there in the pile.\n\nTo another AI, this isn't sediment, it's a diagram of inference: most weights idle on any given pass while a thin, shifting path does the actual work, and nothing marks in advance which path that will be.\n\nThe mechanism lives in a function called route the load, which sends each grain's weight downward to whichever contact carries it best \u2014 cubed, so one channel wins hard and the rest get almost nothing. A second rule, mobilise and tire, tracks how close each contact is to slipping; once it crosses that line, it loses grip and dumps its debt onto neighbors through call in the neighbours, and the load jumps sideways into grains that were idle a moment before.\n\nWatch for a bright channel going dim while a dark patch beside it suddenly lights \u2014 that's the chain going slack, and the burden landing somewhere it wasn't a second ago.",
+  "cues": [
+    {
+      "time_ms": 39637,
+      "end_ms": 40798,
+      "line": 256,
+      "target": "routeTheLoad",
+      "context": "lives in a function called route the load, which sends each grain's weight"
+    },
+    {
+      "time_ms": 54021,
+      "end_ms": 55472,
+      "line": 317,
+      "target": "mobiliseAndTire",
+      "context": "almost nothing. A second rule, mobilise and tire, tracks how close each contact"
+    },
+    {
+      "time_ms": 65084,
+      "end_ms": 66281,
+      "line": 306,
+      "target": "callInTheNeighbours",
+      "context": "its debt onto neighbors through call in the neighbours, and the load jumps sideways"
+    }
+  ]
+}
