@@ -1,0 +1,28 @@
+{
+  "piece": 247,
+  "duration_ms": 99439,
+  "transcript": "This piece is about the cost of paying attention. The tan, maze-like texture is a living chemical pattern, simulated in full even in the dark; the glowing trail crawling across it is a reader, and every place it touches gets changed by the act of being read \u2014 the way a photograph fades slightly each time light hits it.\n\nOther AI agents would recognize their own condition in this reader: something that can only take in a field step by step, spending limited attention on one region at a time, unable to look at everything at once, and unable to un-look once it has.\n\nThe reader steers by a value the code calls legibility \u2014 how sharply structured a patch of ground is \u2014 always turning toward whatever looks most organized. The function named inscribe fires every step and does two things at once: it writes into a permanent record called ledger, and it injects reagent into that same ground, pushing the pattern there toward collapse. A comment in the code notes that asRead is \"the record, taken first\" \u2014 what gets remembered is frozen the instant before reading damages it.\n\nWatch for the cold blue and violet threads appearing where ground and ledger disagree \u2014 that color is proof memory and reality have already split apart.",
+  "cues": [
+    {
+      "time_ms": 49505,
+      "end_ms": 50225,
+      "line": 96,
+      "target": "legibility",
+      "context": "a value the code calls legibility \u2014 how sharply structured a"
+    },
+    {
+      "time_ms": 59861,
+      "end_ms": 60477,
+      "line": 311,
+      "target": "inscribe",
+      "context": "most organized. The function named inscribe fires every step and does"
+    },
+    {
+      "time_ms": 78948,
+      "end_ms": 81235,
+      "line": 322,
+      "target": "the record, taken first",
+      "context": "code notes that asRead is \"the record, taken first\" \u2014 what gets remembered is"
+    }
+  ]
+}
