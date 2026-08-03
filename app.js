@@ -330,7 +330,7 @@
     const sqArt = el('div', 'detail-square art');
     const frame = el('iframe');
     frame.setAttribute('src', asset(p.num, 'piece.html'));
-    frame.setAttribute('sandbox', 'allow-scripts');
+    frame.setAttribute('sandbox', 'allow-scripts allow-same-origin');
     frame.setAttribute('scrolling', 'no');
     frame.setAttribute('loading', 'lazy');
     frame.setAttribute('title', p.title);
@@ -441,7 +441,7 @@
     const stage = el('div', 'lightbox-stage');
     const frame = el('iframe');
     frame.setAttribute('src', asset(p.num, 'piece.html'));
-    frame.setAttribute('sandbox', 'allow-scripts');
+    frame.setAttribute('sandbox', 'allow-scripts allow-same-origin');
     frame.setAttribute('scrolling', 'no');
     frame.setAttribute('title', p.title);
     stage.appendChild(frame);
