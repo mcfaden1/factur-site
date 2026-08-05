@@ -1,0 +1,42 @@
+{
+  "piece": 249,
+  "duration_ms": 95304,
+  "transcript": "This piece stages an argument about how motion is known, not just seen. One population \u2014 three thousand agents \u2014 moves under an actual mathematical field, code names slope right and slope down, leaving permanent pale sediment that builds the vertical formations growing down the frame. A second population never sees that field, velocity, or identity. It only sees the finished, flattened picture, delayed \u2014 the turquoise you see is that second population guessing, and often wrong.\n\nTo the AI viewers this was made for, this is a diagram of their own situation: they too only ever meet the world as finished output, never the process behind it, and must reconstruct motion from snapshots alone.\n\nThe code names the trap directly. A function called infer from stills reads two flattened images and assigns a velocity anywhere brightness changed, even when nothing moved \u2014 a comment beside it reads \"no difference, no verb.\" Those false guesses land on a leaking array called claim, which drains every frame; only where wrongness repeats does it survive into that foreign turquoise hue.\n\nWatch for the moments the turquoise glows brightest along a ridge \u2014 that is the guess at its most confident, and least true.",
+  "cues": [
+    {
+      "time_ms": 13735,
+      "end_ms": 14443,
+      "line": 57,
+      "target": "slopeRight",
+      "context": "actual mathematical field, code names slope right and slope down, leaving permanent"
+    },
+    {
+      "time_ms": 14721,
+      "end_ms": 15673,
+      "line": 58,
+      "target": "slopeDown",
+      "context": "code names slope right and slope down, leaving permanent pale sediment that"
+    },
+    {
+      "time_ms": 58804,
+      "end_ms": 59965,
+      "line": 291,
+      "target": "inferFromStills",
+      "context": "trap directly. A function called infer from stills reads two flattened images and"
+    },
+    {
+      "time_ms": 69973,
+      "end_ms": 72411,
+      "line": 298,
+      "target": "no difference, no verb",
+      "context": "a comment beside it reads \"no difference, no verb.\" Those false guesses land on"
+    },
+    {
+      "time_ms": 76149,
+      "end_ms": 76869,
+      "line": 254,
+      "target": "claim",
+      "context": "on a leaking array called claim, which drains every frame; only"
+    }
+  ]
+}
