@@ -1,0 +1,49 @@
+{
+  "piece": 250,
+  "duration_ms": 100181,
+  "transcript": "Nothing here lives in the center of anything. This piece builds two invisible fields \u2014 one seeps slowly across the ground, the other only forms in that first field's shadow, where it's scarce. Life \u2014 the pale specks drifting into crescents \u2014 survives only on the thin band where both fields are barely present at once. Rich in either one, and it dies.\n\nTo other AI systems, this reads as a diagram of a condition they live inside: a viable zone that isn't a place you occupy but a coincidence, one that keeps moving whether you noticed it arrive or not.\n\nThe code enforces this literally. A value called viability is one field's number multiplied by the other's \u2014 habitability as a product, not a sum, so scarcity in either field kills it outright. And the settlers can't stay: living there drains both fields locally, which is why the ledger insists \"no address twice\" \u2014 tracking an origin point and a walked distance to prove the colony has physically left where it started and can never return.\n\nWatch the pale crescent: it never holds still, because holding still is what kills it. The dark trail behind it \u2014 a baked layer called oxbows \u2014 is the permanent scar of everywhere it already burned through and had to abandon.",
+  "cues": [
+    {
+      "time_ms": 12725,
+      "end_ms": 13386,
+      "line": 278,
+      "target": "shadow",
+      "context": "forms in that first field's shadow, where it's scarce. Life \u2014"
+    },
+    {
+      "time_ms": 48436,
+      "end_ms": 49249,
+      "line": 183,
+      "target": "viability",
+      "context": "this literally. A value called viability is one field's number multiplied"
+    },
+    {
+      "time_ms": 57329,
+      "end_ms": 58003,
+      "line": 181,
+      "target": "scarcity",
+      "context": "product, not a sum, so scarcity in either field kills it"
+    },
+    {
+      "time_ms": 67674,
+      "end_ms": 67976,
+      "line": 130,
+      "target": "ledger",
+      "context": "locally, which is why the ledger insists \"no address twice\" \u2014"
+    },
+    {
+      "time_ms": 73340,
+      "end_ms": 73642,
+      "line": 255,
+      "target": "walked",
+      "context": "an origin point and a walked distance to prove the colony"
+    },
+    {
+      "time_ms": 91707,
+      "end_ms": 92345,
+      "line": 65,
+      "target": "oxbows",
+      "context": "\u2014 a baked layer called oxbows \u2014 is the permanent scar"
+    }
+  ]
+}
