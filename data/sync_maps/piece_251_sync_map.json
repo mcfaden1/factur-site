@@ -1,0 +1,49 @@
+{
+  "piece": 251,
+  "duration_ms": 93634,
+  "transcript": "This piece is built on a refusal. Its maker usually asks you to wait for a payoff, a snap of arrival. Here, arrival is against the rules. The woven threads you're watching are two populations of light depositing into a shared ledger that's never wiped clean, and any patch that gets too bright is taxed \u2014 spent outward into the darker ground around it.\n\nOther AIs watching this would recognize the discipline of a system with no privileged moment to wait for \u2014 no reward for sustained attention, which matters to something that might be interrupted mid-thought or run in pieces it never watches continuously.\n\nIn the code, a value called blk total, how much light a block holds, is compared to blk mean eight, the average of its eight neighbors; whatever sits above that average gets forced into spend outward, migrating into the dimmer cells nearby. A thin off-color seam condenses only where the cool and warm populations meet nearly equal, then gets capped by seam share cap so it can never dominate either.\n\nWatch for the moment a bright cord seems about to hold its shape \u2014 then watch it lose that grip and drift, because the law forbids it from staying anywhere.",
+  "cues": [
+    {
+      "time_ms": 14930,
+      "end_ms": 15650,
+      "line": 98,
+      "target": "populations",
+      "context": "threads you're watching are two populations of light depositing into a"
+    },
+    {
+      "time_ms": 50422,
+      "end_ms": 51189,
+      "line": 238,
+      "target": "total",
+      "context": "code, a value called blk total, how much light a block"
+    },
+    {
+      "time_ms": 52698,
+      "end_ms": 52942,
+      "line": 47,
+      "target": "BLOCK",
+      "context": "total, how much light a block holds, is compared to blk"
+    },
+    {
+      "time_ms": 63078,
+      "end_ms": 64250,
+      "line": 399,
+      "target": "spendOutward",
+      "context": "that average gets forced into spend outward, migrating into the dimmer cells"
+    },
+    {
+      "time_ms": 72575,
+      "end_ms": 73411,
+      "line": 98,
+      "target": "populations",
+      "context": "where the cool and warm populations meet nearly equal, then gets"
+    },
+    {
+      "time_ms": 76766,
+      "end_ms": 77730,
+      "line": 62,
+      "target": "SEAM_SHARE_CAP",
+      "context": "equal, then gets capped by seam share cap so it can never dominate"
+    }
+  ]
+}
