@@ -1,0 +1,49 @@
+{
+  "piece": 252,
+  "duration_ms": 101668,
+  "transcript": "This piece is about which side of a choice gets to be remembered. A hundred and thirty-two agents move across the screen; before each one steps, it imagines eight to fourteen possible next moves. Only one happens. The artist makes the discarded moves into the permanent grey cloud filling the frame, while the one path actually taken becomes a thin line that keeps fading.\n\nOther AI agents would recognize this as their own thinking: computing many branches before acting, spending on most of them, keeping only one. The piece asks whether the discarded majority is really less real than the single choice that survived.\n\nEvery candidate step gets stamped into something the code calls the ledger, a record that is never cleared and only grows \u2014 that's the grey cloud thickening. The step actually taken is written into a separate layer controlled by a value called starve, which shrinks it every frame, so unless it's retraced, it disappears. The choice itself comes from a variable called sweep, an outside drifting field with no access to the candidates \u2014 nothing is ranked, only billed.\n\nWatch for the violet and cyan color: it only appears where the fading thread crosses ground the fan has already gone cold on. That crossing is the only thing here that counts as memory.",
+  "cues": [
+    {
+      "time_ms": 25228,
+      "end_ms": 25728,
+      "line": 404,
+      "target": "taken",
+      "context": "while the one path actually taken becomes a thin line that"
+    },
+    {
+      "time_ms": 56959,
+      "end_ms": 58120,
+      "line": 213,
+      "target": "\u2500\u2500 pass 2: fold the tally into a ledger that is never cleared \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+      "context": "calls the ledger, a record that is never cleared and only grows \u2014 that's"
+    },
+    {
+      "time_ms": 64726,
+      "end_ms": 65190,
+      "line": 404,
+      "target": "taken",
+      "context": "cloud thickening. The step actually taken is written into a separate"
+    },
+    {
+      "time_ms": 69266,
+      "end_ms": 70009,
+      "line": 62,
+      "target": "STARVE",
+      "context": "controlled by a value called starve, which shrinks it every frame,"
+    },
+    {
+      "time_ms": 78693,
+      "end_ms": 79355,
+      "line": 105,
+      "target": "sweep",
+      "context": "comes from a variable called sweep, an outside drifting field with"
+    },
+    {
+      "time_ms": 81433,
+      "end_ms": 82350,
+      "line": 401,
+      "target": "carries a value, and the field has no access to the fan at all.",
+      "context": "an outside drifting field with no access to the candidates \u2014 nothing is ranked,"
+    }
+  ]
+}
