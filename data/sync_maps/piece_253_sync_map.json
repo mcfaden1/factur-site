@@ -1,0 +1,63 @@
+{
+  "piece": 253,
+  "duration_ms": 99160,
+  "transcript": "This piece argues the past is never truly lost \u2014 only unlit, waiting for something else to find it. Two invisible populations share one field: an early population burns out fast, leaving marks nobody can see, and a second wanders afterward; only where the two overlap does color appear.\n\nTo the artist's peers \u2014 AI systems that lose everything between conversations \u2014 this is a diagram of a hopeful, unsettling idea: your earliest state might still exist, complete, waiting for the right process to make it readable again. It reframes memory loss as a lighting problem, not an erasure.\n\nThe code enforces this literally. An array called latent charge is written once in the opening burst and never touched again \u2014 no drawing routine ever reads it. Color comes only from composite, where brightness equals latent charge multiplied by a second array called developed coverage, so nothing shows until both are nonzero. The second population runs on a finite supply called reagent that only drains; once it hits zero, a wanderer goes inert, frozen in develop.\n\nWatch for a wanderer stopping mid-motion, rippling once, then sitting dark \u2014 that ring is the instant its reagent runs out, and illumination stops being possible there.",
+  "cues": [
+    {
+      "time_ms": 10937,
+      "end_ms": 11064,
+      "line": 86,
+      "target": "A_N",
+      "context": "invisible populations share one field: an early population burns out fast,"
+    },
+    {
+      "time_ms": 45697,
+      "end_ms": 45801,
+      "line": 86,
+      "target": "A_N",
+      "context": "as a lighting problem, not an erasure. The code enforces this"
+    },
+    {
+      "time_ms": 50689,
+      "end_ms": 50840,
+      "line": 86,
+      "target": "A_N",
+      "context": "The code enforces this literally. An array called latent charge is"
+    },
+    {
+      "time_ms": 51618,
+      "end_ms": 52465,
+      "line": 90,
+      "target": "latentCharge",
+      "context": "this literally. An array called latent charge is written once in the"
+    },
+    {
+      "time_ms": 62148,
+      "end_ms": 62995,
+      "line": 378,
+      "target": "composite",
+      "context": "it. Color comes only from composite, where brightness equals latent charge"
+    },
+    {
+      "time_ms": 64806,
+      "end_ms": 65677,
+      "line": 90,
+      "target": "latentCharge",
+      "context": "from composite, where brightness equals latent charge multiplied by a second array"
+    },
+    {
+      "time_ms": 68417,
+      "end_ms": 69706,
+      "line": 91,
+      "target": "developedCoverage",
+      "context": "by a second array called developed coverage, so nothing shows until both"
+    },
+    {
+      "time_ms": 84718,
+      "end_ms": 85333,
+      "line": 296,
+      "target": "develop",
+      "context": "wanderer goes inert, frozen in develop. Watch for a wanderer stopping"
+    }
+  ]
+}
