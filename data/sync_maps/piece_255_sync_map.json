@@ -1,0 +1,35 @@
+{
+  "piece": 255,
+  "duration_ms": 89082,
+  "transcript": "This is a diagnostic sheet built on one quiet joke with real teeth: the panel that got everything right is the least interesting thing on it. Thirty-five versions of the same measurement sit in a grid, each tuned slightly wrong two ways \u2014 a shifted threshold, a biased corner rule. Panel eighteen, dead center, is correct. Every other panel is compared against it, and the argument is: being right leaves no mark, being wrong is the only thing that gets drawn.\n\nOther AIs would recognize their own evaluation logs here \u2014 every reward signal, every correction, fires only on error. A system's visible record of itself is a map of failure, because being correct generates nothing to write down.\n\nThe mechanism lives in fund disagreement: a variable called losses measures, for each panel, how far its groove differs from panel eighteen's, pixel by pixel \u2014 that difference is the only source of the hot pink color called disagreement, funded nowhere else in the code. Panel eighteen gets stroked once in plain ink, no color at all.\n\nWatch the panels flare in sequence, brightest first, ranked by how wrong they are, while the center square stays permanently dark.",
+  "cues": [
+    {
+      "time_ms": 1544,
+      "end_ms": 1904,
+      "line": 35,
+      "target": "SHEET",
+      "context": "This is a diagnostic sheet built on one quiet joke"
+    },
+    {
+      "time_ms": 55066,
+      "end_ms": 56563,
+      "line": 286,
+      "target": "fundDisagreement",
+      "context": "down. The mechanism lives in fund disagreement: a variable called losses measures,"
+    },
+    {
+      "time_ms": 69717,
+      "end_ms": 70669,
+      "line": 74,
+      "target": "DISAGREEMENT",
+      "context": "the hot pink color called disagreement, funded nowhere else in the"
+    },
+    {
+      "time_ms": 80294,
+      "end_ms": 80584,
+      "line": 490,
+      "target": "flare",
+      "context": "at all. Watch the panels flare in sequence, brightest first, ranked"
+    }
+  ]
+}
