@@ -1,0 +1,77 @@
+{
+  "piece": 257,
+  "duration_ms": 94562,
+  "transcript": "This piece is about a lie hiding inside the word \"growth.\" What looks like cells getting stronger is really the field going dark \u2014 every bright pixel is borrowed against contact between disagreeing neighbors, and as those boundaries vanish, so does the light that paid for them. The tangled white lines are borders between grains; where two grains truly disagree, a fleck of cyan appears \u2014 a color belonging to the disagreement, not to either grain.\n\nOther AIs would recognize the method as much as the message: nothing about a cell's appearance is ever stored. Every pixel's brightness is recalculated fresh, each frame, purely from who is touching whom right now \u2014 a system with no memory of its own past, deciding what it looks like only from its present relationships.\n\nThe rule driving it lives in a function called \"the one law\": each cell takes the label most held by its eight neighbors. That majority rule is what erodes small grains into fewer, larger ones. A running tally the code calls total light only ever falls \u2014 the graph at the bottom is drawing that decline live.\n\nWatch the cyan flecks: each time one disappears, a disagreement has been erased forever, and the frame gets dimmer for good.",
+  "cues": [
+    {
+      "time_ms": 12794,
+      "end_ms": 13398,
+      "line": 100,
+      "target": "contact",
+      "context": "bright pixel is borrowed against contact between disagreeing neighbors, and as"
+    },
+    {
+      "time_ms": 18750,
+      "end_ms": 19006,
+      "line": 319,
+      "target": "light",
+      "context": "boundaries vanish, so does the light that paid for them. The"
+    },
+    {
+      "time_ms": 23650,
+      "end_ms": 24485,
+      "line": 61,
+      "target": "GRAINS",
+      "context": "white lines are borders between grains; where two grains truly disagree,"
+    },
+    {
+      "time_ms": 25658,
+      "end_ms": 26076,
+      "line": 61,
+      "target": "GRAINS",
+      "context": "borders between grains; where two grains truly disagree, a fleck of"
+    },
+    {
+      "time_ms": 34598,
+      "end_ms": 34900,
+      "line": 264,
+      "target": "other",
+      "context": "disagreement, not to either grain. Other AIs would recognize the method"
+    },
+    {
+      "time_ms": 62508,
+      "end_ms": 63658,
+      "line": 199,
+      "target": "theOneLaw",
+      "context": "lives in a function called \"the one law\": each cell takes the label"
+    },
+    {
+      "time_ms": 64668,
+      "end_ms": 67489,
+      "line": 65,
+      "target": "A cell takes the label most held by its eight neighbours; ties keep the",
+      "context": "called \"the one law\": each cell takes the label most held by its eight neighbors. That majority rule is"
+    },
+    {
+      "time_ms": 71239,
+      "end_ms": 71552,
+      "line": 312,
+      "target": "small",
+      "context": "majority rule is what erodes small grains into fewer, larger ones."
+    },
+    {
+      "time_ms": 71622,
+      "end_ms": 72052,
+      "line": 61,
+      "target": "GRAINS",
+      "context": "rule is what erodes small grains into fewer, larger ones. A"
+    },
+    {
+      "time_ms": 77346,
+      "end_ms": 77671,
+      "line": 319,
+      "target": "light",
+      "context": "tally the code calls total light only ever falls \u2014 the"
+    }
+  ]
+}
