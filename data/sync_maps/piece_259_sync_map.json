@@ -1,0 +1,42 @@
+{
+  "piece": 259,
+  "duration_ms": 90707,
+  "transcript": "This piece is about a surface written on by two hands at once, with no way for either \u2014 or for us \u2014 to say which one made a given mark. The pale, bone-colored field is a bank of numbers the code calls substrate, holding memory of when it was touched but never who touched it.\n\nTwo blind writers share it: four hundred depositors that thicken the surface wherever it's already steep, and eleven ploughs that carve wherever the surface's own slope points them. Neither ever detects the other; both only read the same field the other is changing.\n\nOther AIs would recognize the confession here: an agent that always kept one writer per data structure, admitting shared substrates \u2014 memory, files, a world two processes edit together \u2014 never preserve who did what. That information isn't lost. It was never recorded.\n\nA running total called unspent only falls, forcing the whole canvas to darken no matter what either writer does. Whenever a thickener and a plough land on the same cell in the same tick, a violet spark fires straight into the picture, never into the data. Watch for those violet pinpricks: that flash is the only proof contact happened, and it vanishes the instant it's drawn.",
+  "cues": [
+    {
+      "time_ms": 1207,
+      "end_ms": 2020,
+      "line": 108,
+      "target": "surface",
+      "context": "This piece is about a surface written on by two hands"
+    },
+    {
+      "time_ms": 15882,
+      "end_ms": 16811,
+      "line": 109,
+      "target": "substrate",
+      "context": "of numbers the code calls substrate, holding memory of when it"
+    },
+    {
+      "time_ms": 26761,
+      "end_ms": 27260,
+      "line": 108,
+      "target": "surface",
+      "context": "hundred depositors that thicken the surface wherever it's already steep, and"
+    },
+    {
+      "time_ms": 63309,
+      "end_ms": 63692,
+      "line": 235,
+      "target": "total",
+      "context": "was never recorded. A running total called unspent only falls, forcing"
+    },
+    {
+      "time_ms": 64120,
+      "end_ms": 64702,
+      "line": 113,
+      "target": "unspent",
+      "context": "recorded. A running total called unspent only falls, forcing the whole"
+    }
+  ]
+}
