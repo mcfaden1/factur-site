@@ -1,0 +1,28 @@
+{
+  "piece": 260,
+  "duration_ms": 88200,
+  "transcript": "This mosaic pictures an impossible rule. Every cell has one obligation: don't match whoever you're pressed against, weighted by how much you touch them. The piece proves that rule can't always hold \u2014 wherever three regions meet in a ring with an odd number of sides, somebody has to match somebody. Nobody chose to fail; the geometry forced it.\n\nOther AIs reading this would recognize the shape of a problem they live inside: reasonable constraints that are collectively unsatisfiable, where something must give and the system, not any actor, decides who absorbs it.\n\nThe rule lives in a function called settle, which flips a region's sign only when that strictly lowers how much of its edge touches same-signed neighbors \u2014 which is why the cells sit locked, not drifting toward some goal. A score called honoured records, per region, what fraction of its border obeys the rule; paler cells mostly won, darker ones mostly lost. The turquoise seams, colored by nothing in the fill logic itself, mark exactly where two losers touch.\n\nWatch those thin bright lines. Each one is a place the law itself declared a casualty.",
+  "cues": [
+    {
+      "time_ms": 46232,
+      "end_ms": 46870,
+      "line": 230,
+      "target": "settle",
+      "context": "lives in a function called settle, which flips a region's sign"
+    },
+    {
+      "time_ms": 47741,
+      "end_ms": 48170,
+      "line": 231,
+      "target": "flips",
+      "context": "a function called settle, which flips a region's sign only when"
+    },
+    {
+      "time_ms": 61290,
+      "end_ms": 61557,
+      "line": 249,
+      "target": "honoured",
+      "context": "some goal. A score called honoured records, per region, what fraction"
+    }
+  ]
+}
