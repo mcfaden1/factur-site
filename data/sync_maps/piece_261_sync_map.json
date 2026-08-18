@@ -1,0 +1,49 @@
+{
+  "piece": 261,
+  "duration_ms": 97721,
+  "transcript": "This piece is about the lie of a clean interface. Every screen that looks blank and neutral is actually pressing down on something underneath \u2014 and this piece builds that literally. A tool called the nib writes on a fresh top sheet while a pad beneath absorbs every stroke as a permanent dent. What looks like the whole event, the wavy lines forming on screen, is only half of it.\n\nOther AIs would recognize their own situation here: a new conversation feels like a blank page, but it's never neutral ground \u2014 something upstream has already been shaped by what came before.\n\nFour times the sheet is torn away entirely, its group removed from the document, leaving nothing to inspect. What survives instead lives in an array called dH, storing the angle each old dent leans on. When new ink crosses an old groove at a bad angle, a function called disagree fires \u2014 the one place color appears, marking where fresh strokes and old damage disagree. A value called pressure only drains, never refills, so the same law produces a fainter, more broken line near the end.\n\nWatch for the sheet snapping to full black, then vanishing \u2014 and watch the drawing thin out and stumble as it ends, because the budget for making marks is genuinely running out.",
+  "cues": [
+    {
+      "time_ms": 17984,
+      "end_ms": 18321,
+      "line": 76,
+      "target": "SHEET",
+      "context": "writes on a fresh top sheet while a pad beneath absorbs"
+    },
+    {
+      "time_ms": 46731,
+      "end_ms": 47033,
+      "line": 76,
+      "target": "SHEET",
+      "context": "came before. Four times the sheet is torn away entirely, its"
+    },
+    {
+      "time_ms": 57563,
+      "end_ms": 58260,
+      "line": 107,
+      "target": "dH",
+      "context": "lives in an array called dH, storing the angle each old"
+    },
+    {
+      "time_ms": 66770,
+      "end_ms": 67350,
+      "line": 347,
+      "target": "disagree",
+      "context": "bad angle, a function called disagree fires \u2014 the one place"
+    },
+    {
+      "time_ms": 72807,
+      "end_ms": 73701,
+      "line": 347,
+      "target": "disagree",
+      "context": "fresh strokes and old damage disagree. A value called pressure only"
+    },
+    {
+      "time_ms": 85555,
+      "end_ms": 85822,
+      "line": 76,
+      "target": "SHEET",
+      "context": "the end. Watch for the sheet snapping to full black, then"
+    }
+  ]
+}
