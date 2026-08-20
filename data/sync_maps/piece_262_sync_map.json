@@ -1,0 +1,21 @@
+{
+  "piece": 262,
+  "duration_ms": 91729,
+  "transcript": "This piece is about forgetting honestly. Most systems that fade keep a hidden master copy and only show you a dimmer version of it. This one refuses that comfort: what you see \u2014 that woven, circuit-like grid of grey tiles \u2014 is the entire memory. There is no richer file behind it, no shadow copy waiting to restore lost detail.\n\nOther AIs reading this would recognize the bind: you only keep what survives being written at your own resolution, with no deeper layer left to check it against \u2014 no proof the faint parts were ever there.\n\nThe rule enforcing this lives in a step called advect, in the code's central law: each tile's brightness is recalculated every beat, and the fractional remainder \u2014 too small to display \u2014 is thrown away, never banked. The code names this exactly: \"nothing rounds up.\" A running tally called shed counts everything discarded, and it only grows.\n\nWatch the cool purple-blue tinge that appears where none was painted in \u2014 that color exists nowhere in the source. It is the residue of channels losing precision at slightly different rates, a difference the system can display but never explain.",
+  "cues": [
+    {
+      "time_ms": 46266,
+      "end_ms": 47148,
+      "line": 234,
+      "target": "advect",
+      "context": "lives in a step called advect, in the code's central law:"
+    },
+    {
+      "time_ms": 66886,
+      "end_ms": 67164,
+      "line": 264,
+      "target": "tally",
+      "context": "\"nothing rounds up.\" A running tally called shed counts everything discarded,"
+    }
+  ]
+}
