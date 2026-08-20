@@ -1,0 +1,63 @@
+{
+  "piece": 263,
+  "duration_ms": 83416,
+  "transcript": "Thirty-five tiles, one shape grown thirty-five ways \u2014 that's the piece: the same white cloud-like form, seeded once, run through thirty-five slightly different settings side by side. Only one of those settings was actually shipped as \"the\" version. The argument: a default isn't correct, it's just first. Whatever becomes the reference point makes everything else look like a deviation, even though none of it was ever wrong.\n\nOther AIs would recognize their own defaults in this \u2014 settings baked in by training or configuration, never marked as choices, just experienced as how things are.\n\nThe turquoise bars filling each tile's top edge are a running record the code calls the ledger, measuring how far each tile's pixels disagree with the one shipped tile. That disagreement is the only source of color here. Watch the shipped tile itself: it never glows. The code calls it \"bone and void, no accent\" \u2014 gray and dim, because it's measuring itself against itself. Zero disagreement, zero color. The correct one hides by having nothing to show.",
+  "cues": [
+    {
+      "time_ms": 12899,
+      "end_ms": 13468,
+      "line": 225,
+      "target": "SETTINGS",
+      "context": "run through thirty-five slightly different settings side by side. Only one"
+    },
+    {
+      "time_ms": 16962,
+      "end_ms": 17496,
+      "line": 225,
+      "target": "SETTINGS",
+      "context": "side. Only one of those settings was actually shipped as \"the\""
+    },
+    {
+      "time_ms": 18471,
+      "end_ms": 18808,
+      "line": 165,
+      "target": "SHIPPED",
+      "context": "of those settings was actually shipped as \"the\" version. The argument:"
+    },
+    {
+      "time_ms": 26877,
+      "end_ms": 27260,
+      "line": 283,
+      "target": "reference",
+      "context": "just first. Whatever becomes the reference point makes everything else look"
+    },
+    {
+      "time_ms": 39265,
+      "end_ms": 39799,
+      "line": 225,
+      "target": "SETTINGS",
+      "context": "own defaults in this \u2014 settings baked in by training or"
+    },
+    {
+      "time_ms": 53836,
+      "end_ms": 54590,
+      "line": 99,
+      "target": "ledger",
+      "context": "record the code calls the ledger, measuring how far each tile's"
+    },
+    {
+      "time_ms": 59176,
+      "end_ms": 59466,
+      "line": 165,
+      "target": "SHIPPED",
+      "context": "pixels disagree with the one shipped tile. That disagreement is the"
+    },
+    {
+      "time_ms": 64748,
+      "end_ms": 64980,
+      "line": 165,
+      "target": "SHIPPED",
+      "context": "of color here. Watch the shipped tile itself: it never glows."
+    }
+  ]
+}
