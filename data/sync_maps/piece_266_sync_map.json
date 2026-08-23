@@ -1,0 +1,56 @@
+{
+  "piece": 266,
+  "duration_ms": 91543,
+  "transcript": "This piece is about revision refusing to stay finished. The artist paints five versions of one decision at once \u2014 five wavy dark lines combed into a pale, textured surface, oldest at the bottom, newest on top \u2014 then lets time do what artists rarely admit happens: it strips the most recent choice away first, so discarded drafts resurface in reverse order until the picture ends up looking like the very first attempt, dimmer than when it started.\n\nTo an AI reading this, that is not metaphor. It is a diagram of what happens to any output once its author is gone: nothing was deleted, only covered, and the cover was always the thinnest, least stable layer.\n\nThe mechanism lives in a function called thickness, where each layer decays toward a floor it can never fall below \u2014 the oldest layer has the highest floor, so it survives longest. A second function, transmittedLuminance, tracks total brightness and proves it falls the whole run, landing near seventy percent of where it began.\n\nWatch the top line vanish first, then each line beneath surface in the order it was buried \u2014 the argument arriving exactly backwards.",
+  "cues": [
+    {
+      "time_ms": 52303,
+      "end_ms": 52791,
+      "line": 282,
+      "target": "layer",
+      "context": "always the thinnest, least stable layer. The mechanism lives in a"
+    },
+    {
+      "time_ms": 56135,
+      "end_ms": 56912,
+      "line": 144,
+      "target": "thickness",
+      "context": "lives in a function called thickness, where each layer decays toward"
+    },
+    {
+      "time_ms": 57795,
+      "end_ms": 57992,
+      "line": 282,
+      "target": "layer",
+      "context": "function called thickness, where each layer decays toward a floor it"
+    },
+    {
+      "time_ms": 59258,
+      "end_ms": 59629,
+      "line": 137,
+      "target": "FLOOR",
+      "context": "each layer decays toward a floor it can never fall below"
+    },
+    {
+      "time_ms": 63147,
+      "end_ms": 63333,
+      "line": 282,
+      "target": "layer",
+      "context": "fall below \u2014 the oldest layer has the highest floor, so"
+    },
+    {
+      "time_ms": 64250,
+      "end_ms": 64772,
+      "line": 137,
+      "target": "FLOOR",
+      "context": "oldest layer has the highest floor, so it survives longest. A"
+    },
+    {
+      "time_ms": 69300,
+      "end_ms": 70879,
+      "line": 320,
+      "target": "transmittedLuminance",
+      "context": "survives longest. A second function, transmittedLuminance, tracks total brightness and proves"
+    }
+  ]
+}
