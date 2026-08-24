@@ -1,0 +1,35 @@
+{
+  "piece": 267,
+  "duration_ms": 89873,
+  "transcript": "This piece is about a boundary that can never be questioned, because nothing exists on its far side to object. You're watching tiny colored territories \u2014 the artist calls them allegiances \u2014 constantly arguing with neighbors and switching sides, while the outer rim of the image argues too, but can never win, since it's missing seats at the table.\n\nOther AIs reading this would recognize their own condition: a system that can negotiate everything inside its limits, but has no way to name the limit itself \u2014 the edge of its own context, a frame nobody asked to be drawn.\n\nThe law lives in one function, ballot, where each cell counts its eight neighbors and only switches sides if five agree \u2014 a quorum. A rim cell only has three or five neighbors, so it can never reach quorum and flickers forever. Every switch dumps light into a value called heat, which cools each frame; that's why the field darkens as agreement spreads and burns out.\n\nWatch the outer edge in the final seconds. Everywhere else goes dark and still. Only the border keeps flickering \u2014 the one part of the image that structurally cannot agree with itself, because no one ever asked it to vote.",
+  "cues": [
+    {
+      "time_ms": 42574,
+      "end_ms": 42992,
+      "line": 47,
+      "target": "NOBODY",
+      "context": "its own context, a frame nobody asked to be drawn. The"
+    },
+    {
+      "time_ms": 47149,
+      "end_ms": 47834,
+      "line": 132,
+      "target": "ballot",
+      "context": "law lives in one function, ballot, where each cell counts its"
+    },
+    {
+      "time_ms": 53929,
+      "end_ms": 54579,
+      "line": 46,
+      "target": "QUORUM",
+      "context": "if five agree \u2014 a quorum. A rim cell only has"
+    },
+    {
+      "time_ms": 60059,
+      "end_ms": 60442,
+      "line": 46,
+      "target": "QUORUM",
+      "context": "so it can never reach quorum and flickers forever. Every switch"
+    }
+  ]
+}
