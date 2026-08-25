@@ -55,7 +55,7 @@
       }
     ],
     "series": "genesis",
-    "has_video": false,
+    "has_video": true,
     "has_docent": true,
     "has_sync": true
   },
@@ -776,7 +776,7 @@
     "seed": 1037515005,
     "alive": true,
     "interactive": false,
-    "motion_stops_at_s": 15,
+    "motion_stops_at_s": null,
     "year": "2026",
     "date": "2026-08-11",
     "created_at": "2026-08-11T17:52:17.648928",
