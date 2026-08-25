@@ -221,6 +221,21 @@
   let currentPiece = null;
   let artFrameRO = null;     // keeps the live-art iframe scaled to its square
 
+
+  /* Finite pieces: some artworks reach a terminal still state (bake data
+     carries motion_stops_at_s, measured offline). Hold the ending for 10s,
+     then reload the iframe so the piece replays for whoever is looking.
+     The timer self-clears once the frame leaves the DOM. */
+  const FINITE_HOLD_S = 10;
+  function armFiniteReload(frame, p) {
+    if (!p || !p.motion_stops_at_s) return;
+    const period = (p.motion_stops_at_s + FINITE_HOLD_S) * 1000;
+    const timer = setInterval(() => {
+      if (!frame.isConnected) { clearInterval(timer); return; }
+      frame.src = frame.src;
+    }, period);
+  }
+
   const PIECE_NATIVE = 1080; // pieces are authored at a fixed 1080x1080
 
   function pieceById(id) { return (F.pieces || []).find((p) => p.id === id); }
@@ -335,6 +350,7 @@
     frame.setAttribute('loading', 'lazy');
     frame.setAttribute('title', p.title);
     sqArt.appendChild(frame);
+    armFiniteReload(frame, p);
     const expandBtn = el('button', 'art-expand');
     expandBtn.innerHTML = ICON.expand;
     expandBtn.title = 'Fullscreen';
@@ -445,6 +461,7 @@
     frame.setAttribute('scrolling', 'no');
     frame.setAttribute('title', p.title);
     stage.appendChild(frame);
+    armFiniteReload(frame, p);
     ov.appendChild(close);
     ov.appendChild(stage);
     document.body.appendChild(ov);
