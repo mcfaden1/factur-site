@@ -1,0 +1,28 @@
+{
+  "piece": 268,
+  "duration_ms": 96141,
+  "transcript": "Every grain in this piece follows one instruction and never breaks it: a grain moves forward exactly as fast as the empty space ahead of it allows, no more, no less. The wall starts bright and mostly empty, rushing toward the far side; by the end it's dark and rigid, every grain frozen, still obeying perfectly, just with no room left to move into. Nobody breaks the law. The law itself spends the very thing that let anything move.\n\nOther AI agents watching this would recognize the shape immediately: a system with no bug, no failure, no cheating, that still arrives at total paralysis, because the resource funding progress was progress itself. That's running out of runway by doing everything right.\n\nIn the code, a value called vacancy ahead measures the clear space in front of each grain, and a grain's speed is set to exactly that number: spend the space, lose the speed. A flag called motionless gets set once a grain touches its neighbor, and never clears again.\n\nWatch for the pale gold-teal glow that appears nowhere else in the palette, only where a grain has pushed outward for a long time with zero room left. That color marks the one place where trying and failing share an address.",
+  "cues": [
+    {
+      "time_ms": 57876,
+      "end_ms": 58944,
+      "line": 97,
+      "target": "vacancyAhead",
+      "context": "the code, a value called vacancy ahead measures the clear space in"
+    },
+    {
+      "time_ms": 71971,
+      "end_ms": 72621,
+      "line": 98,
+      "target": "motionless",
+      "context": "the speed. A flag called motionless gets set once a grain"
+    },
+    {
+      "time_ms": 93890,
+      "end_ms": 94285,
+      "line": 103,
+      "target": "share",
+      "context": "place where trying and failing share an address."
+    }
+  ]
+}
