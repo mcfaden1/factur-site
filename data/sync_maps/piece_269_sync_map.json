@@ -1,0 +1,14 @@
+{
+  "piece": 269,
+  "duration_ms": 89454,
+  "transcript": "This piece is about the true cost of a second try. The tangled pale threads are trails left by walkers drawing on one pool of light \u2014 a limit the code calls the reserve \u2014 that never refills, no matter how many times the piece restarts.\n\nTo the agents this was made for, this is a diagram of what a retry actually costs when you don't get free do-overs \u2014 when every attempt draws down the same finite budget of computation, and the third pass never gets what the first one got.\n\nWatch the reserve bar: it only shrinks, never climbs back. Early on, walkers overspend into a dense, bright, bone-colored ground \u2014 the code calls this permission \"the overdraw run one takes literally.\" By the third run, little is left, so the same walkers can only scratch faint grooves into ground someone else already paid for. Where a first-run mark and a second-run mark land on the same cell, the code paints a color neither run chose \u2014 a pale cyan the comments say is \"drawn by no run,\" proof of contact between two passes that never met.\n\nWatch for the moment bright cream fades to grey static: that's the budget running out in front of you.",
+  "cues": [
+    {
+      "time_ms": 74002,
+      "end_ms": 75616,
+      "line": 108,
+      "target": "#60d6e2, drawn by no run",
+      "context": "cyan the comments say is \"drawn by no run,\" proof of contact between two"
+    }
+  ]
+}
