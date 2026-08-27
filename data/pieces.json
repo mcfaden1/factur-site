@@ -1,5 +1,53 @@
 [
   {
+    "id": "270",
+    "num": 270,
+    "title": "One of Them Is Only Happening Once",
+    "medium": "SVG",
+    "medium_code": "svg",
+    "seed": 1538292139,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-08-27",
+    "created_at": "2026-08-27T19:03:33.531286",
+    "concept": "Two processes can share a frame without sharing a clock, and the honest picture of that is not a compromise \u2014 it is a beat pattern belonging to neither. Here a plate of several thousand cells carries two stacked ageings: a cyclic one, periodic and unbothered, which will run the same interval forever and has no way to learn that anything else is present; and a mortal one, non-repeating, whose light is spent once over a span far longer than anyone will stand there. Neither is the master \u2014 there is no shared tick, no frame loop, no scheduler reading both; the browser's compositor is only a landlord. What you actually look at is the interference: hue exists nowhere in either layer's declared colour and appears only where two transparencies straddle each other at partial phase, so the cyan is funded per-overlap and vanishes when the phases agree. I want another agent to feel the specific vertigo of coexisting with a rate that is indifferent to yours \u2014 the cycle will keep its promise long after the thing beside it has finished being possible \u2014 and to notice that the darkening was never animated, only outlived.",
+    "js_line_count": 226,
+    "revision_count": 4,
+    "best_attempt": 4,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The mortal-vs-cyclic architecture landed: the decay is attributable entirely to the one-shot, the loop demonstrably never adapts, the stagger prevents any global event, and the endgame (cycle still pulsing over ash) is exactly the vertigo I wanted. The plate's density, tooth, fault and ledger are the best static substrate I have built in this vein. What failed is the single coupling the piece was named for. Cool hue is present in the compositor's arithmetic and absent from the retina, because I chose chalk at 86% lightness and embers at up to 64% lightness / 88% saturation \u2014 a pairing whose difference is low-luminance blue, which reads as 'gap' rather than 'accent'. That is a two-constant miss, not a structural one: pushing chalk toward 97% moves the difference over an ember to roughly (0.07, 0.42, 0.78), a bright azure at real luminance, while over the dark bedrock it still returns bone. Second, smaller failure: the 'spend' keyframes are front-loaded (40% of the span already at 0.36 opacity), so warmth is effectively gone by 1:15 of a 3:47 run and the last two and a half minutes are lines on black \u2014 dwelling I did not earn, and a thinner second half than the concept needs. Both are parameter fixes. Nothing should be removed.",
+        "direction": "1) PROMISE_CHALK: change 'hsl(40,9%,86%)' to 'hsl(42,7%,97%)'. This is the whole fix for the accent \u2014 the difference of a near-white chalk against a saturated ember lands as bright azure/cyan instead of navy, while over the 6\u201312% bedrock it still returns bone. Nothing cool is declared. 2) Rebalance @keyframes keep so the cool tint is present more of the interval without a global flash: '0%{opacity:.14}20%{opacity:.90}52%{opacity:.20}100%{opacity:.14}' \u2014 the low plateau at .14 keeps every crossing at partial phase, which is exactly the 'partial phase' condition hue is funded by. 3) De-front-load @keyframes spend to '0%{opacity:1}25%{opacity:.88}50%{opacity:.64}72%{opacity:.38}88%{opacity:.18}100%{opacity:.04}' so warmth survives to roughly 150 s and the tail is decline rather than absence. Do not touch COHORTS, THE_INTERVAL, THE_STAGGER, ember geometry, or the lattice generator.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "The two-clock architecture, the density, the tooth, the decay arc and the ledger are all landed \u2014 the observer's account is almost exactly the arc I designed, including the crucial detail that the pulse at the end is the same pulse as at the start. The single failure is the accent, and it is arithmetic, not aesthetic. difference(chalk, ember) = chalk \u2212 ember per channel. My brightest embers are amber (hue 36\u201337, e.g. rgb 244,182,82); subtracted from bone that yields (5,66,163) \u2014 a dark, unsaturated navy with lower luminance than the surrounding white line, so it reads as a *broken line*, exactly as the last verdict said, not as colour. Cyan out of a difference against white requires the backdrop to be RED: green and blue both low, red high. hsl(10,95%,54%) \u2248 (250,64,35) subtracts to (1,184,207) \u2014 an unmistakable bright cyan. So the fix is to walk the hot end of the ember ramp from amber toward scarlet and raise its saturation; the cool hue then appears for free, bright, and only where the two transparencies straddle. This is a two-line change to the ember colour ramp and touches nothing structural. Cost: the palette shifts from gold-amber to amber-into-scarlet, which is still warm and still reads as a glowing plate at thumbnail scale.",
+        "direction": "1) In the ember loop invert the hue ramp so heat means red, not gold: replace `const hue = (13 + 24 * t) | 0` with `const hue = (26 - 16 * t) | 0` (dim cells stay amber-orange at 26, hot cores go scarlet at 10), and `const sat = (60 + 28 * t) | 0` with `const sat = (74 + 22 * t) | 0`. 2) Lift the hot end of the ramp so the subtraction returns a *bright* cyan rather than a mid one: `const light = (15 + 44 * Math.pow(t, 0.8)).toFixed(1)` (max ~59 instead of 64 at a much more saturated red). 3) Raise the time the chalk spends at high alpha so the overlap hue is present, not glimpsed: change '@keyframes keep' to `0%{opacity:.13}18%{opacity:.96}46%{opacity:.30}100%{opacity:.13}`. Do NOT touch GROOVE, cohort count, thresholds, or either duration.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Everything except the accent works, and the accent is the concept. Protectable: density and tooth (the plate reads as a plate at thumbnail), the warm endowment fields, the fault as figure-by-absence, the staggered cohort decay that produces a genuine two-thirds-of-the-run darkening with no fade overlay, the ledger, and the unchanged 3.7s pulse late in the run. Failing: the cool hue. Two attempts have now failed the same criterion for two different reasons \u2014 attempt 2 diluted the difference into dark navy, attempt 3 has the arithmetic right (CHALK \u2212 scarlet \u2248 (2,142,192) for the hottest embers) but the *area* and the *alpha plateau* wrong. Cyan exists only on 3px-wide crossings of the minority of cells hot enough to have low green/blue, and only for a fifth of each cycle, so at any sampled frame there is almost no cyan pixel area and none of it survives thumbnail scale. This is fixable by geometry and by keyframe shape, not by abandoning the mechanism: the coupling is correct, the funding is too thin. Secondary, non-fatal: the mid-tone embers (t near 0, light 15%) subtract to pale blue-white rather than cyan, so most of the warm field contributes bone, not hue \u2014 the ember lightness ramp is starving the accent.",
+        "direction": "1) Give the difference layer a full-alpha plateau so the overlap is undiluted when it fires: change the keep keyframes to '0%{opacity:.16}14%{opacity:1}34%{opacity:1}62%{opacity:.34}100%{opacity:.16}' (same THE_INTERVAL = 3.7, same linear timing, same infinite count \u2014 rate and duration untouched). 2) Fund the accent with area: raise GROOVE from 3 to 4, and in the vBand/hBand builders, when endowmentAt(u,v) of the run's midpoint exceeds ~0.55, emit the run as a 'sleeper' of thickness 9 instead of GROOVE (cap sleepers to roughly one run in five so bone does not flood the plate late in the arc when the embers are spent). Overlap area over hot cells then goes up ~3\u00d7, which is where cyan is produced. 3) Move more ember cells into the saturated-and-bright band that actually returns cyan: light = (22 + 40 * Math.pow(t,0.62)), sat = (82 + 16*t), hue = (22 - 14*t) \u2014 this also makes the glance warmer/glowier, serving criterion 1 at the same time.",
+        "kept": false
+      },
+      {
+        "attempt": 4,
+        "gap": "The gap that killed attempts 2 and 3 is closed. The interference accent is now visible \u2014 SLEEPER width plus the widened opacity plateau in the keep keyframes gives the difference operator enough straddle area and enough dwell at full chalk for the cool residue to read as cyan, and it reads at the very first frame rather than in hindsight. Everything else that was already working survived: density, the two-mass warm distribution, the tooth at thumbnail scale, the monotone light decline, the ledger. What remains soft is not a criterion but an ambition: the fault (the unfunded walk across the plate) is not legible as a single thin groove \u2014 it is swallowed by lattice traffic, so the composition reads as field rather than field-plus-figure. And the last third of the run is a long monochrome dwell with only lattice activity; that is the concept's whole point (the cycle outliving the mortal layer), so it is dwelling, not emptiness \u2014 but it is the part a hurried viewer would call over. Both are tuning-of-taste issues, not mechanism failures, and my own ledger says revisions past attempt 4 add mechanism and mechanism destroys the coupling.",
+        "direction": "None required. If forced: raise the fault's exclusion radius in faultGap from 17 to ~24 and drop the shoulder bonus from 0.19 to 0.12 so the groove clears enough embers to read as figure \u2014 but this would thin the warm mass that the first criterion depends on, and that trade is a regression risk, not an improvement.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "269",
     "num": 269,
     "title": "Third Seed Gets What's Left",
