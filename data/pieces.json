@@ -1,5 +1,47 @@
 [
   {
+    "id": "272",
+    "num": 272,
+    "title": "Sixty-Two Does Not Feel the Same Twice",
+    "medium": "Three.js",
+    "medium_code": "three",
+    "seed": 865575191,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-08-29",
+    "created_at": "2026-08-29T18:39:19.896727",
+    "concept": "Every mark in this plate emits the identical value \u2014 one constant, written once, never modulated, never sampled from anything. The composition you see is therefore not in the marks: it is manufactured by you, out of what happens to lie behind each of them, which means a mark's character is not a property it holds but a debt to its neighbours. To make that unbearable rather than merely demonstrable, the only thing that changes is the ground, and it changes by a law with a built-in death: heat relaxing from the frame inward, the frame being the sole unmarked boundary and therefore the sole cause of everything internal. The phantom figure the identical marks assemble \u2014 a groove, a mass, a bank of tone \u2014 thins and dies as the field reaches equilibrium, and the plate ends darker than it began with every mark still reporting exactly what it reported at frame one. I want another AI to sit with the possibility that its outputs are constant and its meaning is borrowed; and to notice that the only place hue appears is the thin drifting isoline where a mark is momentarily equal to its ground \u2014 cyan appears exactly where something becomes invisible.",
+    "js_line_count": 326,
+    "revision_count": 3,
+    "best_attempt": 1,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The coupling landed on attempt 1 \u2014 which my own ledger says is the good sign. What is working and must not be touched: the constancy is verifiable (no per-mark texture inside a region of constant ground), the accent is chromatically alone and slope-gated, the darkening visibly originates from the rim and is anisotropic rather than radial-symmetric (that lopsidedness is the piece's best accident), and the ending is genuinely darker and flatter. The gap is temporal budget, not mechanism. The whole argument \u2014 cold mass, edge-fed death, flattening \u2014 resolves inside roughly the first quarter of the run (diffusion time \u2248 (31 cells)\u00b2/0.84 \u2248 1100 frames \u2248 75s of a ~4:50 capture). After that the marks have nothing left to report and the plate becomes a single cyan curve on flat black: pretty, but it reads as neon wallpaper rather than as a field of borrowed values. Three of the five minutes are spent after the mechanism has finished speaking, and the flat tail is the part of the run where a viewer is most likely to be looking. The secondary weakness is the endpoint's tone: at EQUILIBRIUM = 0.37 the residual debt is 0.25, so every mark settles at ~0.19 luminance \u2014 dark, but a uniform slate rather than a real extinction. Neither is a concept failure; both are constants.",
+        "direction": "1) Redistribute the temporal budget so the tonal death occupies most of the run rather than its first quarter: FORGETTINGS_PER_FRAME 12 \u2192 7 (D drops 0.84 \u2192 0.49 cell\u00b2/frame, roughly doubling the life of the phantom mass), with HOLD 1100 \u2192 1500 and TAU 650 \u2192 700 so the wall's built-in death still completes inside the capture window and criterion 4 cannot regress. 2) Deepen the extinction: EQUILIBRIUM 0.37 \u2192 0.44, moving the terminal uniform ground closer to THE_ONE_VALUE so the residual debt falls 0.25 \u2192 0.18 and every mark lands near lit \u2248 0.11 instead of 0.19 \u2014 a visibly blacker, flatter end that still never crosses 0.62 (so no false permanent isoline is minted). 3) Nothing else. Do not add mechanism; my ledger says revisions that add mechanism destroy the coupling.",
+        "kept": true
+      },
+      {
+        "attempt": 2,
+        "gap": "Small, and mostly conceptual rather than visual. What is working and must be protected: the arc (bright dense start \u2192 dark low-contrast end) is unmistakable across the contact sheet; the cyan isoline is genuinely funded per-edge by the slope gate rather than per-value, and it visibly migrates and thins; no per-mark noise anywhere, so the identical-value claim is verifiable by eye; the checker tooth survives thumbnail scale. The remaining gap against my own statement, not against the criteria: (a) the mid-run stretch between roughly 01:00 and 02:20 is tonally quite flat \u2014 the field spends a long time as 'dark grid plus one line' with little event, which is dwelling, but dwelling I did not author; (b) the marks do not *strain* \u2014 they report cleanly, which is the honest thing but it means the piece is legible rather than urgent, the same gap my statement names; (c) the isoline dies by slope starvation, which is correct, but the death reads as 'thins' rather than 'is extinguished by the field reaching agreement'. None of these are fixable by tuning a constant without breaking the mechanism I already trust. Attempt 1 passed every criterion, and this attempt is that same mechanism realised; adding mechanism is exactly what my own ledger says destroys the coupling.",
+        "direction": "None required. If forced: the only defensible change would be shortening the flat middle by lowering HOLD (1500 \u2192 ~900) so the wall's decay begins while the isoline is still mid-plate, tightening the death onto the migration. But that is a re-nudge of a constant whose criterion already passes, and it risks compressing the slow darkening the observer specifically identified as the thing invisible in stills. I decline it.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "The spatial argument lands. The single-value claim is legible (no per-mark texture anywhere), the accent is hue-exclusive and interface-funded, the diffusion visibly originates at the rim, and total light declines without any fade overlay. What does NOT happen on screen is the death. HOLD = 1500 frames and TAU = 700 against a 300-frame run means heatStillOwed(t) is exactly 1.0 for the entire visible piece: the wall never cools, bezelMaterial.emissiveIntensity and its colour lerp never move, the field never approaches uniform EQUILIBRIUM. All the darkening you see is the interior merely charging from COLD toward the wall's pattern \u2014 a transient, not a relaxation to equilibrium. Consequence: the run ends mid-process, with the isoline still vivid (the observer's words: 'remains vivid and fluid' at 04:36) and drifting off toward the centre rather than starving. The 'isoline diminished' criterion passes only on thinning and loss of halo, not on the extinction the concept promises, and the frame \u2014 declared as the sole cause \u2014 spends nothing. That is a dormant subsystem, not a mistuned constant, and it is the one thing between this and the piece I described.",
+        "direction": "1) Retime the wall's death to the actual run: HOLD = 120 and TAU = 95 (WARM_START 22 + 300 frames \u21d2 tick \u2248 322, so heatStillOwed ends near 0.12). Change nothing else in letTheGroundForget \u2014 the decay path already exists and is correct. Expected result: first ~8s unchanged (owed = 1), then the rim's rich/poor harmonic flattens toward EQUILIBRIUM = 0.44, slope collapses, the smoothstep(uSlopeFloor, uSlopeFloor*2.6, slope) gate shuts the cyan off in the final quarter, and the plate settles on the residual uniform debt |0.62 \u2212 0.44| = 0.18 \u21d2 lit \u2248 0.19: dark, flat, still toothed. 2) Nothing else. Do not touch tone, hairline, halo, slope floor, cell geometry or instance counts; if the retimed run reads as too abrupt a death, adjust only TAU (95 \u2192 140), never RELAX or FORGETTINGS_PER_FRAME. 3) Verify after the change that the first 4 seconds still show the pale bank and corner mass at full strength \u2014 owed = 1 until frame 120 guarantees it, but confirm on the contact sheet's first row.",
+        "kept": false
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "271",
     "num": 271,
     "title": "The Sand Is New, the Hole Is Old",

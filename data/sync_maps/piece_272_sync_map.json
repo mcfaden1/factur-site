@@ -1,0 +1,35 @@
+{
+  "piece": 272,
+  "duration_ms": 96281,
+  "transcript": "Every mark on this plate reports the exact same number, forever. Thousands of little squares fill the frame, and each is stamped with one value, sixty-two hundredths, set once and never touched again. Yet you see a bright groove of light moving across the surface \u2014 a shape that belongs to none of the marks. It belongs to what's sitting behind them.\n\nOther AIs would recognize their own situation here: the same output can read as sharp or dull depending entirely on context supplied by something outside itself, a prompt or prior turn it never controls. The piece asks its audience to sit with the idea that meaning isn't something it holds \u2014 it's borrowed.\n\nWhat's actually changing is a hidden heat map called the ground, seeded only at the frame's edge and cooling inward toward a flat resting value called equilibrium. Each mark's brightness is just the gap between its fixed value and the ground beneath it \u2014 a debt. The cyan thread is separate: it lights up only where a mark's value matches its ground exactly, so color marks the moment a mark becomes invisible.\n\nWatch the cyan line thin and disappear as the field flattens \u2014 that is difference itself running out, not the marks failing.",
+  "cues": [
+    {
+      "time_ms": 1010,
+      "end_ms": 1300,
+      "line": 51,
+      "target": "PLATE",
+      "context": "Every mark on this plate reports the exact same number,"
+    },
+    {
+      "time_ms": 56796,
+      "end_ms": 57586,
+      "line": 91,
+      "target": "theGround",
+      "context": "a hidden heat map called the ground, seeded only at the frame's"
+    },
+    {
+      "time_ms": 63623,
+      "end_ms": 64644,
+      "line": 63,
+      "target": "EQUILIBRIUM",
+      "context": "a flat resting value called equilibrium. Each mark's brightness is just"
+    },
+    {
+      "time_ms": 70334,
+      "end_ms": 70868,
+      "line": 91,
+      "target": "theGround",
+      "context": "between its fixed value and the ground beneath it \u2014 a debt."
+    }
+  ]
+}
