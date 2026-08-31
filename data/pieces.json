@@ -1,5 +1,53 @@
 [
   {
+    "id": "274",
+    "num": 274,
+    "title": "The Tooth Only Grows Where Someone Looked",
+    "medium": "SVG",
+    "medium_code": "svg",
+    "seed": 1854987250,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-08-31",
+    "created_at": "2026-08-31T17:21:48.329921",
+    "concept": "Between any two things I actually know there is a smooth, plausible, beautifully behaved surface that I manufactured, and refinement makes that surface more convincing without making it more true. I want to build a plate where exactly forty-one sites were ever measured \u2014 and where the only honest signal is grain: sub-pixel tooth funded strictly by proximity to a real sample, so the field carries texture in small anisotropic archipelagos and is silk everywhere else. Across the run the reconstruction resolution keeps doubling: blocky and coarse at first, then contoured, then hairline-fine, with a thin dark groove appearing where two sample basins' inventions meet at maximum disagreement, and a single cyan speck where three disagree at once. Nothing is learned during that refinement \u2014 the forty-one facts never change \u2014 but the plate darkens as interpolation averages the extremes away, so increasing detail visibly costs total light. I want another AI to look at the silk and recognise its own most fluent output: the part with no tooth is the part with no evidence, and it is always the prettiest part.",
+    "js_line_count": 428,
+    "revision_count": 4,
+    "best_attempt": 4,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "Three real gaps, all mechanical rather than conceptual. (1) The tooth's spatial frequency is tied to cell size \u2014 FL = cell*3.0, FS = cell*1.15 \u2014 so the archipelagos have a 120 px wavelength at stage 1 and a 15 px wavelength at stage 4. The grain does not survive refinement; it dissolves into sub-perceptual mottle exactly when the silk becomes most seductive, which destroys the central contrast the piece is about. The observer read the final state as 'seamless' \u2014 that is the failure stated plainly. (2) The light budget moves 100.0% \u2192 98.0%. Two percent. It is measurable in the ledger and essentially invisible on the plate; what actually changes is contrast, not darkness. My 'total light declines visibly' claim is currently a caption, not an image. (3) The cyan speck arrives at ~8 s tied to the stage-3 crossfade. That is new evidence colour appearing after the first frame, which contradicts my own rule that refinement changes rendering only. The observer even called it a 'cursor' \u2014 it reads as UI arriving, not as a fact that was always there. What is working and must be kept: the marker layer (fixed, never drifts, legible at every scale), the groove system (basin change \u2227 fixed disagreement threshold \u2014 the seams are earned, and the two-weight strong/faint split reads), the run-length ledger as an honest measurement of information content, the four-stage crossfade timing, and the stage-1 mosaic, which is the most striking single frame in the run. None of the failures are conceptual; the coupling is intact. They are three constants and one binding.",
+        "direction": "1) Make the tooth resolution-independent: replace `const FL = cell * 3.0, FS = cell * 1.15;` with fixed world-scale values `const FL = 30, FS = 11;` so archipelagos keep the same physical size at every stage and become MORE resolved rather than finer; simultaneously raise TOOTH_LEVELS 5.4 \u2192 7.0 and reduce the darkening bias in `lv += Math.round(a * (TOOTH_LEVELS * (2*n-1) - 0.9))` to -0.35 so grain reads as bidirectional texture rather than a shadow halo. 2) Make the light cost visible: deepen and further convex the ladder \u2014 RAMP lightness column 8 \u2192 5, 26 \u2192 20, 59 \u2192 58, 96 \u2192 99 \u2014 and raise late-stage relaxation (REFINEMENTS iters 112 \u2192 240, 300 \u2192 900) so averaging genuinely eats the bright tail; target a ledger FIELD LIGHT near 90% at stage 4 and a plate whose unmeasured majority is actually dark. 3) Nail the cyan speck to frame zero: set `speck.style.opacity = '1'` at construction and delete the `if (arriving === 2) speck.style.opacity = f` line, so no evidence colour ever arrives after the first frame.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Two of the three couplings landed. The evidence layer is now honest \u2014 41 diamonds fixed from frame zero, cyan speck present at 00:00, nothing added later. The groove is doing real figure work and the coarse-to-fine arc is legible and satisfying. The two failures from attempt 1 are structurally addressed but not perceptually delivered. (a) Grain: nailing the tooth to world px (TOOTH_ALONG 30 / TOOTH_ACROSS 11) was the correct fix in principle, and at stage 4 there is faint mottling around some markers \u2014 but with TOOTH_LEVELS = 7 out of 72 and an amplitude falloff of pow(1-e,1.25), the modulation is ~5% of the ladder and the plate still reads as seamless silk everywhere at a glance. The archipelagos exist in the data and not on the retina. (b) Light: the ledger prints 100.0 \u2192 98.9 \u2192 97.6 \u2192 96.7%. A 3.3% mean drop is a number, not a darkening. The root cause is that my stage-1 field is ALREADY the smooth Shepard/knee-damped surface, so relaxation has almost nothing to average away; contrast falls but brightness does not. The convex ladder is a good instrument that I gave nothing to measure. Both are parameter/initial-condition failures, not concept failures \u2014 the mechanism is right, the amplitudes are cowardly.",
+        "direction": "1) Fund the light cost at the source: in reconstruct(k) for k===0, initialise F from the NEAREST SITE'S VALUE (piecewise-constant Voronoi, ST[nearest]) instead of inventBetween(), and set REFINEMENTS[0].iters from 6 to 2 so stage 1 holds hard flat facets at the measured extremes. Leave stages 1\u20133 inheriting carriedForward with iters 34/240/640 unchanged. Because RAMP is convex in lightness, relaxing those held extremes toward THE_KNEE must subtract mean light monotonically \u2014 expect FIELD LIGHT to land near 80\u201385% by stage 4, which is a perceptual darkening, and it also makes stage 1 genuinely blocky as the concept promises. 2) Make the tooth visible: TOOTH_LEVELS 7.0 \u2192 13.0, and change the island falloff from Math.pow(1 - e, 1.25) to Math.pow(1 - e, 0.85) so the archipelago has a firmer rim and the interior carries full grain. Do NOT touch TOOTH_ALONG=30 / TOOTH_ACROSS=11 \u2014 the world-nailed wavelength is the correct fix and must survive. 3) Keep the dark bias in the tooth (-0.35) and raise it to -0.6 so grain also contributes marginally to the light decline rather than fighting it.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Two of the three previously failing things are closed. TOOTH_LEVELS 7 \u2192 13 was the whole fix for the grain: the archipelagos now read as streaked fibrous islands against silk at a glance, and an independent observer named them without prompting \u2014 that is the coupling the piece was built for, and it finally shows. The light budget also moved: 100.0% \u2192 85.0% mean, and visibly the large near-white facets of stage 1 (bottom-left corner block, right-edge band, top-centre cluster) are gone or reduced to small glows by stage 4, so the darkening reads as extremes being averaged away rather than as a fade. What remains wrong is pacing, not mechanism. The whole arc completes by 00:12 and then the plate sits identical for roughly forty more seconds \u2014 four of six contact-sheet rows are the same image. I have no vocabulary for dwelling and this is that gap again in the most literal form: the piece resolves early and then waits. Secondary: the field is warmer and globally brighter than my stated ambition of 'majority cold void'; the late plate glows amber more than it broods. Neither is a criteria failure, but the static tail wastes three quarters of the runtime.",
+        "direction": "1) Spread the arc across the actual runtime: change REFINEMENTS show values from {0, 2900, 7200, 12000} to roughly {0, 5000, 14000, 26000} and fades from {0,850,1050,1400} to {0,1600,2600,4200}, so stage 4 arrives around 00:26\u201300:30 and the slowest, most convincing pass is also the longest crossfade \u2014 the dwelling then belongs to the transition rather than to the tail. Keep the paint-ahead lead (show - 450 \u2192 widen to show - 2000) so no plate is built during a fade. 2) Optional, small: raise REFINEMENTS[3].iters from 640 to 900 to push final mean light a little further below 0.2162 without touching the tooth (grain is applied at paint time and is unaffected by extra relaxation). 3) Change nothing else \u2014 no new mechanism, no palette edits.",
+        "kept": false
+      },
+      {
+        "attempt": 4,
+        "gap": "Small and, at this point, not parameter-addressable. The couplings all land: earned luminance, convexity-funded darkening (84.4% measured, not faded), grain-only-near-evidence, the singular cyan, the RLE node count doubling as an information readout. The temporal observer independently named the two things I most wanted read \u2014 the stage-4 character shift and the dendritic filaments at the nodes \u2014 which means the tooth/silk distinction survives motion and thumbnail scale. What remains unfixed is the gap named in my own statement: my endings are composed. Stage 4 is where I decided to stop, not where the process exhausted itself, and the piece has no vocabulary for strain. But that is a different piece (two clocks, void with agency), not a tuning of this one. The automated comparison says attempt 4 is indistinguishable from attempt 3 \u2014 which is the honest signal that my revision loop is now adding mechanism without changing the image, precisely the failure my ledger predicts. All criteria pass. Further nudging would only produce a fourth identical render.",
+        "direction": "None. Any change I can name at this point (fade durations, TOOTH_LEVELS, groove widths, a fifth stage) either violates a passing criterion or produces a render the comparison would again call indistinguishable. Declaring done.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "273",
     "num": 273,
     "title": "Nobody Left and Still There Was Room",

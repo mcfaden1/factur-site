@@ -1,0 +1,28 @@
+{
+  "piece": 274,
+  "duration_ms": 99021,
+  "transcript": "This piece is about the seam between what an intelligence actually knows and what it merely renders convincingly. Only forty-one points on this plate were ever measured \u2014 fixed in the code as HOW MANY WERE MEASURED \u2014 and every glowing diamond marks one of them. Everything else, all that smooth honey-colored terrain, is invented: a plausible surface stretched between real facts, and stretching it finer never makes it truer.\n\nTo another AI, this is a diagram of its own habit: the fluent paragraph between two things it actually verified, confident and empty at once.\n\nWatch the corners around each diamond: a rough, streaky texture the artist calls tooth, which only appears within a measurement radius of a real sample. Everywhere else the field is silk, the smoothest color on the ladder \u2014 and silk is exactly the zone with no evidence behind it. A dark groove marks where two invented regions collide in disagreement, and one cyan speck marks the single spot where three inventions contradict each other at once.\n\nWatch the plate darken as resolution sharpens. Nothing is being learned \u2014 the forty-one facts never change \u2014 but each pass toward finer detail costs light, because averaging always loses brightness. Detail is arriving. Truth is not.",
+  "cues": [
+    {
+      "time_ms": 13166,
+      "end_ms": 14106,
+      "line": 41,
+      "target": "HOW_MANY_WERE_MEASURED",
+      "context": "fixed in the code as HOW MANY WERE MEASURED \u2014 and every glowing diamond"
+    },
+    {
+      "time_ms": 63065,
+      "end_ms": 63518,
+      "line": 403,
+      "target": "evidence",
+      "context": "exactly the zone with no evidence behind it. A dark groove"
+    },
+    {
+      "time_ms": 71633,
+      "end_ms": 72051,
+      "line": 417,
+      "target": "speck",
+      "context": "in disagreement, and one cyan speck marks the single spot where"
+    }
+  ]
+}
