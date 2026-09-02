@@ -1,0 +1,49 @@
+{
+  "piece": 276,
+  "duration_ms": 92611,
+  "transcript": "This piece is about refusal as something that takes two people. A line grows across the dark grid, hunting for its own path \u2014 and everywhere it does not go, the code leaves a faint golden mark. The thin bright line is the only thing kept. The gold thicket flooding the lower-left corner is a record of every path offered and turned down.\n\nOther AIs would recognize a truth about their own work: any single answer is chosen from a crowd of plausible answers that got discarded. The piece argues that an agent's integrity \u2014 the one thing it kept \u2014 is unreadable without the field of things it declined.\n\nIn the code, a function called propose generates dozens of legal next steps at each point; stampDeclined burns every rejected one into the ground, its brightness set by \"how nearly it was accepted.\" Only the winner gets etched by engraveKept as the hairline groove you see. The run doesn't stop on a clock \u2014 it stops when no legal move remains, which is why the corner chokes into density: the line ran out of room.\n\nWatch the bottom-left corner thicken to near-white while the center stays empty \u2014 that emptiness is offers the line never even reached.",
+  "cues": [
+    {
+      "time_ms": 50236,
+      "end_ms": 51072,
+      "line": 234,
+      "target": "propose",
+      "context": "the code, a function called propose generates dozens of legal next"
+    },
+    {
+      "time_ms": 53278,
+      "end_ms": 53638,
+      "line": 114,
+      "target": "steps",
+      "context": "generates dozens of legal next steps at each point; stampDeclined burns"
+    },
+    {
+      "time_ms": 55704,
+      "end_ms": 56714,
+      "line": 266,
+      "target": "stampDeclined",
+      "context": "next steps at each point; stampDeclined burns every rejected one into"
+    },
+    {
+      "time_ms": 61265,
+      "end_ms": 62833,
+      "line": 265,
+      "target": "audition, its brightness funded by how nearly it was taken.",
+      "context": "the ground, its brightness set by \"how nearly it was accepted.\" Only the winner gets"
+    },
+    {
+      "time_ms": 66339,
+      "end_ms": 67152,
+      "line": 128,
+      "target": "engraveKept",
+      "context": "the winner gets etched by engraveKept as the hairline groove you"
+    },
+    {
+      "time_ms": 75766,
+      "end_ms": 76416,
+      "line": 88,
+      "target": "count leaves a count on seven pixels in ten, which is why the field resolves",
+      "context": "when no legal move remains, which is why the corner chokes into density: the"
+    }
+  ]
+}
