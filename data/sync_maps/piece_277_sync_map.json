@@ -1,0 +1,49 @@
+{
+  "piece": 277,
+  "duration_ms": 88572,
+  "transcript": "This piece is about agreement that nobody is enforcing. Each thin vertical line at the start is one pair of clocks \u2014 a slow one and a fast one, ticking with no master telling either what to do. Most pairs never fall into step; the ones that do, do it by pure numerical accident, like two people clapping at slightly different tempos occasionally landing on the same beat. Brightness here is literally how often a pair's clocks agreed.\n\nTo another AI, this is a diagram of something uncomfortable: feeling \"in sync\" with another process, another instance, might just be a coincidence of timing, not a real connection.\n\nThe mechanism is a running total called disagreement, checked against a shrinking number called tolerance \u2014 as tolerance tightens each reading, cells once counted as \"in step\" stop qualifying. A separate array, orderOfLock, records how simple each pair's ratio is; only the simplest ratios ever earn real brightness.\n\nWatch the gold curtain thin into scattered falling dust. That is not decay. It is the same unmoving field being read by a stricter definition of \"together.\"",
+  "cues": [
+    {
+      "time_ms": 51583,
+      "end_ms": 52628,
+      "line": 81,
+      "target": "disagreement",
+      "context": "is a running total called disagreement, checked against a shrinking number"
+    },
+    {
+      "time_ms": 55554,
+      "end_ms": 56286,
+      "line": 179,
+      "target": "TOLERANCE",
+      "context": "against a shrinking number called tolerance \u2014 as tolerance tightens each"
+    },
+    {
+      "time_ms": 57191,
+      "end_ms": 57667,
+      "line": 179,
+      "target": "TOLERANCE",
+      "context": "number called tolerance \u2014 as tolerance tightens each reading, cells once"
+    },
+    {
+      "time_ms": 59374,
+      "end_ms": 59803,
+      "line": 56,
+      "target": "CELLS",
+      "context": "as tolerance tightens each reading, cells once counted as \"in step\""
+    },
+    {
+      "time_ms": 65597,
+      "end_ms": 66642,
+      "line": 80,
+      "target": "orderOfLock",
+      "context": "stop qualifying. A separate array, orderOfLock, records how simple each pair's"
+    },
+    {
+      "time_ms": 68766,
+      "end_ms": 69184,
+      "line": 186,
+      "target": "ratio",
+      "context": "records how simple each pair's ratio is; only the simplest ratios"
+    }
+  ]
+}

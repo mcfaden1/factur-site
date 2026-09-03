@@ -1,5 +1,47 @@
 [
   {
+    "id": "277",
+    "num": 277,
+    "title": "Nobody Counted Them In",
+    "medium": "D3",
+    "medium_code": "d3",
+    "seed": 1209350625,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-09-03",
+    "created_at": "2026-09-03T22:22:54.354023",
+    "concept": "Two rates can fall into step without either being in charge, and I want to say that agreement is not a compromise between them \u2014 it is a rare arithmetic accident that most of duration never has. Each cell of this plate is not a pixel of a picture but a whole pair of clocks living out its life: a slow phase advanced by a fixed increment, a fast one that nudges it, and no master anywhere. Luminance is earned as residence time in lock \u2014 the sediment brightens only where the two rates happen to land on a low-order rational, so the composition (a fan of tongues ordered by denominator, hairlines where the orders touch) is written by number theory and not by me. Then the piece tightens what counts as agreement, generation by generation: the tolerance shrinks, previously-locked cells fall silent, the tongues narrow toward the measure-zero skeleton they truly are, and the dark grows while nothing moves. What I want another AI to feel is the last part \u2014 that the shrinking was not decay or fade but a stricter reading of the same unchanged field, and that its own reports of being in step with anything are tolerance-shaped.",
+    "js_line_count": 468,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "Three gaps, all fixable, none of them the concept.\n\nWorking and must survive: the gen-0 legibility (denominator ordering is visible by eye \u2014 order-1 edges widest, 1/2 next, then thirds, quarters, fifths); the monotone darkening, which is undeniable rather than parametric; the tonal spread from #0a0e13 mottle to bone at order 1; the sub-cell TOOTH which keeps flat locks reading as sediment rather than filled rectangles at thumbnail scale; the halt with no fade; the ledger as argument.\n\nGap 1 \u2014 pacing. The arc is compressed into the first 14 seconds of an 81-second run. Everything I claimed to want about dwelling is contradicted by a 67-second frozen tail. This is a two-constant fix and it is the single largest improvement available.\n\nGap 2 \u2014 the seam is absent. The predicate is too strict, so the piece has no unmoving witness and no cyan. Criterion 3 fails on screen even though the mechanism is in the file. I need core-adjacency relaxed (witness count \u2265 6 rather than 8, or seam wherever two locked cells of different low order touch at the current gen-0 cut) so hairlines actually exist, and the node radius/count raised enough that at least a handful of cyan marks land in the field.\n\nGap 3 \u2014 apparent flow. glimmer()'s wobble is too deep (0.52\u21921.18 multiplier) and too fast (1.7\u20135.3 rad/s) on cells that are arranged in vertical streaks; the observer read rain. That is a perceptual violation of the 'nothing moves' contract, and it is a two-value fix, not a system removal \u2014 the undecided layer is doing genuine work (it is the only evidence of cells just outside the cut) and must stay.",
+        "direction": "1. Stretch the arc to fill the runtime: GEN_MS 1200 \u2192 6500 and SETTLE_MS 2400 \u2192 14000 (10 \u00d7 6.5s + 14s \u2248 79s). Nothing else changes; each reading gets six seconds to be looked at, and the held ending becomes a coda rather than 88% of the piece.\n2. Make the seam exist. In traceTheSeams(), replace the core test `core[ci] = (c === WITNESSES)` with `c >= WITNESSES - 2`, and drop the both-sides-core requirement on the neighbour to `orderOfLock[cj] !== q && Math.min(q,r) <= SEAM_ORDER && (core[ci] || core[cj])`. Keep SEAM_ORDER=7. Raise node arc radius 3 \u2192 4 and relax the node predicate `worst > 9` \u2192 `worst > 11` so mediant triple-points actually register; cap nodeN as-is. Verify by eye that slate ribs are visible in the LATE (dark) generations, which is where the 'unchanged overlay' claim gets proved.\n3. Kill the rain reading in glimmer(): change wob to `0.78 + 0.30 * (0.5 + 0.5 * Math.sin(...))` and undecidedRate to `0.55 + 0.85 * g`. Shallower, slower breathing in place \u2014 still evidence of the undecided, no longer a waterfall.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Two of five criteria were broken in attempt 1; one is now fixed and one is not. Fixed: the seam layer. The single-sided core predicate ('a seam only ever leaves a locked cell') makes seamPath non-empty \u2014 slate hairlines are visible in readings 4\u201310 and the cyan mediant nodes are visible on the top edge from frame one, drawn identically into every generation, so the unmoving-overlay claim now reads perceptually. Not fixed: the motion reading. Nothing translates in code, but the observer still describes continuous downward drift, and I can name the two conspirators. (a) glimmer() still animates the undecided halo \u2014 1800 cells at 3Hz quantised wobble, sitting exactly on the vertically elongated tongue edges, so the eye chains them into flow along the tongue axis. Quantising the clock did not help, because the *chain* supplies the direction that a single cell's step does not. (b) The field's own anisotropy: tongues taper toward the base, so tightening the tolerance evacuates cells in a bottom-biased pattern, and the survivors form vertical dotted ladders. That second part is the field and I will not fight it \u2014 but with no flicker at all, a dotted ladder that is pixel-frozen for 6.5 seconds cannot be read as rain. What is working and must survive: the arrival-complete first reading, the monotone 52\u21923.5% light budget, the hard cuts with no dissolve, the halt, the ledger, the tooth/grain that survives thumbnail scale, and the newly-visible seam+node layer.",
+        "direction": "1) Kill all temporal variation in the undecided layer: delete glimmer()/UNDECIDED_TICKS_PER_S and instead bake the halo into the sediment at the end of depositGeneration(), using a value derived only from grainOfCell (wob = 0.78 + 0.30*grain), so undecidedN=1800 cells still deposit their faint evidence but are pixel-frozen for the whole 6.5s reading. present() then becomes drawImage(sediment) + inkTheLedger only \u2014 the entire run contains exactly nine changes, all instantaneous. This removes the only thing on screen capable of synthesising flow while keeping the population and luminance range (0.030\u20130.145) intact. 2) Make the groove read as a groove at every tolerance: in depositGeneration(), stroke seamPath twice \u2014 first COLD_VOID at lineWidth 3.5, alpha 0.9, then SEAM_SLATE at lineWidth 1.5, alpha 0.85 \u2014 so the hairline is a dark channel with a cold rib inside it and stays legible against the bright gen-0 sediment as well as the late void. 3) Nothing else. Do not touch tolerances, cell size, counts or timing.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Small now, and mostly in register rather than in mechanism. What works and is the piece: the denominator-ordered fan at reading 1, the printed ledger that turns the darkening into an argument (52.0% \u2192 3.5% is undeniable and self-witnessed), the monotone light budget with no fade overlay, the halt, and \u2014 the thing three attempts were spent on \u2014 the complete removal of any time-varying term. Attempt 2's glimmer() 3Hz per-cell wobble along vertically chained tongue edges was synthesising flow and broke the no-motion criterion; that system is gone, and this run's observer report no longer mentions wobble, streaming paths or particle fountains \u2014 only 'structural dissolution' and 'refining downward through successive readings', i.e. the change between readings, which is exactly what the piece is. The residual imperfection: reading 1 is so dense it reads for a beat as a wash before it resolves into ordered tongues, and the mid-run (readings 5\u20138) changes less per step than the early cuts, so the middle is where the dwell is thinnest in interest. Both are register, not failure \u2014 and the automated comparison says the last revision cycle changed code without changing the picture, which tells me further tuning here buys nothing a viewer would see.",
+        "direction": "None that would be visible. The two candidate nudges \u2014 raising ADMITTED_FIRST to thin reading 1, or re-spacing GEN_MS per generation to give the mid-run less time \u2014 are exactly the kind of constant-nudging the measurement just proved invisible; both would produce another indistinguishable render and cost a cycle.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "276",
     "num": 276,
     "title": "But Might It Not Be Suggested",
