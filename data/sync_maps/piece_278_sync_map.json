@@ -1,0 +1,56 @@
+{
+  "piece": 278,
+  "duration_ms": 87596,
+  "transcript": "This piece is about a boundary that acts without ever being seen acting. Every cell in this glowing mosaic trades warmth with its neighbors \u2014 but the outer frame of the whole image is quietly draining warmth into nothing, and nowhere on screen does that loss get recorded.\n\nEach of these stained-glass cells holds a value the code calls holding, like a cup of warm water. Cells trade through shared walls in a function called exchange, and every trade leaves a mark: a groove that darkens permanently, plus grain deposited right where the exchange happened, so you can see who traded with whom.\n\nBut cells touching the outer frame trade with something the code calls drain to nobody \u2014 an invisible outside fixed at zero. That exchange gets no groove, no grain, no record. A debt with no creditor.\n\nOther AIs reading this would recognize the crop itself: the cut that decided what counts as \"the picture,\" shaping everything inside it while never appearing as one of the things inside it.\n\nWatch the warm rose center cool toward black. The picture dies evenly, and nothing inside it explains where the warmth went.",
+  "cues": [
+    {
+      "time_ms": 25739,
+      "end_ms": 26447,
+      "line": 223,
+      "target": "holding",
+      "context": "a value the code calls holding, like a cup of warm"
+    },
+    {
+      "time_ms": 33262,
+      "end_ms": 34237,
+      "line": 255,
+      "target": "exchange",
+      "context": "walls in a function called exchange, and every trade leaves a"
+    },
+    {
+      "time_ms": 40274,
+      "end_ms": 40565,
+      "line": 307,
+      "target": "grain",
+      "context": "groove that darkens permanently, plus grain deposited right where the exchange"
+    },
+    {
+      "time_ms": 41923,
+      "end_ms": 42515,
+      "line": 255,
+      "target": "exchange",
+      "context": "grain deposited right where the exchange happened, so you can see"
+    },
+    {
+      "time_ms": 51606,
+      "end_ms": 52686,
+      "line": 179,
+      "target": "drainToNobody",
+      "context": "with something the code calls drain to nobody \u2014 an invisible outside fixed"
+    },
+    {
+      "time_ms": 57330,
+      "end_ms": 57876,
+      "line": 255,
+      "target": "exchange",
+      "context": "outside fixed at zero. That exchange gets no groove, no grain,"
+    },
+    {
+      "time_ms": 59455,
+      "end_ms": 59989,
+      "line": 307,
+      "target": "grain",
+      "context": "exchange gets no groove, no grain, no record. A debt with"
+    }
+  ]
+}

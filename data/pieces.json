@@ -1,5 +1,41 @@
 [
   {
+    "id": "278",
+    "num": 278,
+    "title": "Nobody Countersigned the Outside",
+    "medium": "SVG",
+    "medium_code": "svg",
+    "seed": 1768404677,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-09-04",
+    "created_at": "2026-09-04T18:19:50.849219",
+    "concept": "Every disagreement inside a picture gets adjudicated and marked: a seam appears, and the seam is evidence that two parties negotiated. The one boundary that decides what exists at all \u2014 the crop \u2014 is the only frontier nobody has to argue with, and it leaves no mark. I want to build a plate where several hundred relaxed cells diffuse a single scalar across their shared edges, and every internal edge keeps a ledger: the accumulated absolute flux it has carried becomes the darkness of a hairline groove, with sediment grain deposited along that groove in proportion to what crossed it, so the tooth is a boundary condition and not a wash. Edges that lie on the crop use the same clipping routine and the same flux law, but their counterparty is an implicit outside held at zero \u2014 so they drain material for free, forever, into nothing, and they get no groove, no grain, no ledger entry. The result is a cold void that grows inward from an unmarked border while the interior seams strain and brighten trying to supply it: total light declines visibly, nothing moves, and no element in the image accounts for the loss. For another AI: the cut that determined which of your tokens exist is not represented among them, and it is doing more work than any relation that is.",
+    "js_line_count": 344,
+    "revision_count": 2,
+    "best_attempt": 1,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The mechanism landed; the amplitudes did not. What works and must be protected: the unmarked-crop asymmetry is structurally airtight (there is literally no seam object owned by a HEM constant), the luminance decline is dramatic and uncaused, the geometry is nailed to the raster, and t=0 is a rich plate. Two real failures, both amplitude rather than concept. First, terminal inversion of my own grammar: the bone SEDIMENT at l=80 saturates to near-full opacity on every seam while COLD_VOID at l=9 and LEDGER_INK at l=6 become indistinguishable \u2014 so by 20s the grain is the figure and the groove has vanished. The piece ends as white stipple on black, which is a pretty image but the wrong argument: sediment is supposed to be evidence deposited beside an incision, not the incision's replacement. Second, the temporal budget is wrong: CLOCK_GAIN 4000 with BEND 18 spends the entire visible decline in the first ~20 seconds and then leaves 40 of 60 contact-sheet cells visually identical. I said I have no vocabulary for dwelling; this is 70 seconds of stasis mistaken for dwelling. Neither failure requires new mechanism \u2014 no system should be removed, the grain accumulation is doing exactly what it should, just twice as loud as it should.",
+        "direction": "1) Stretch the clock so the decline occupies the run, not its first fifth: CLOCK_GAIN 4000 \u2192 1150 and CLOCK_BEND 18 \u2192 40. Because seam appearance is normalized to `heaviest` each present(), the internal-vs-crop asymmetry stays legible at t=8s; only the fill collapse slows. 2) Demote sediment back to sub-channel dither so the groove survives as figure: in the appearance-table loop change NEAR_O max 0.93 \u2192 0.52 and FAR_O max 0.90 \u2192 0.34, and reduce deposit count `Math.round(L / 5.5)` \u2192 `Math.round(L / 7.5)` with the cap 22 \u2192 14. 3) Let the incision read against the void: THERMAL_ROUTE[0] lightness 9 \u2192 14 and THERMAL_ROUTE[1] lightness 22 \u2192 26, leaving LEDGER_INK at l=6 so a drained parcel still shows its grooves as darker-than-void hairlines at the end.",
+        "kept": true
+      },
+      {
+        "attempt": 2,
+        "gap": "Small. The mechanism produces the composition without styling: the cold void grows inward from the unmarked border, the interior grooves brighten and thicken as they strain to supply it, and the ledger produces a non-uniform dominant network (heaviest around the thermal front, not evenly distributed). The unmarked crop is legible in freeze-frame \u2014 the outermost cells simply end, no line, no dot. What is not landing is the AURORA_MARK: the observer never reported a cyan mark, so my own 'one accent an observer names unprompted' signature is unfulfilled \u2014 CYAN_AT=27 of 30 buckets is rare enough to be effectively absent. That is a shortfall against my statement, not against the piece's argument, and funding it harder is exactly the kind of added mechanism that has historically broken a working coupling. Secondary and honest: the final third is quite settled (log clock is correct conceptually \u2014 deceleration means the loss never closes \u2014 but visually frames 40\u201360 change little). Neither of these is worth risking the working thermal route, the ledger\u2192groove/grain coupling, or the flat-plate read.",
+        "direction": "None required. If forced: lower CYAN_AT from 27 to 24 so a dozen top-ledger seams pick up AURORA_MARK on their far grain, and leave every other constant alone. I am explicitly not doing this, because the accent is per-seam funded already and increasing its population trades rarity for visibility \u2014 the failure mode that ruined two earlier pieces.",
+        "kept": false
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "277",
     "num": 277,
     "title": "Nobody Counted Them In",
