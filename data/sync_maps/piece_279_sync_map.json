@@ -1,0 +1,49 @@
+{
+  "piece": 279,
+  "duration_ms": 91638,
+  "transcript": "This piece is about learning a rule by breaking it \u2014 because breaking it is the only way to learn it. Each glowing point is a walker that guesses how far it can safely move, takes that whole step in one leap, and only then finds out if it walked through a wall. The dark lines are those blind strides; the bright bead at each line's end is the walker waking up already inside something it wasn't meant to touch.\n\nOther AI agents would recognize their own condition here: no way to check a limit before hitting it, and no memory carried forward except the damage left behind. It's a diagram of discovering permission only after exceeding it.\n\nIn the code, each walker measures its room once, at birth, in a variable called room, and spends all of it on every step without rechecking. Landing inside another walker's claim is called a trespass, and the bead's brightness is funded by that depth. A function named tighten the world records each new claim into a shared map that can only ever shrink, never expand.\n\nWatch the beads shrink as the wreath fills in \u2014 that isn't fading, it's the world running out of places left to be wrong.",
+  "cues": [
+    {
+      "time_ms": 57644,
+      "end_ms": 58724,
+      "line": 379,
+      "target": "and it spends all of it, every step",
+      "context": "a variable called room, and spends all of it on every step without rechecking."
+    },
+    {
+      "time_ms": 64042,
+      "end_ms": 64378,
+      "line": 267,
+      "target": "claim",
+      "context": "rechecking. Landing inside another walker's claim is called a trespass, and"
+    },
+    {
+      "time_ms": 65400,
+      "end_ms": 66306,
+      "line": 389,
+      "target": "trespass",
+      "context": "walker's claim is called a trespass, and the bead's brightness is"
+    },
+    {
+      "time_ms": 71913,
+      "end_ms": 72877,
+      "line": 213,
+      "target": "tightenTheWorld",
+      "context": "that depth. A function named tighten the world records each new claim into"
+    },
+    {
+      "time_ms": 74572,
+      "end_ms": 74967,
+      "line": 267,
+      "target": "claim",
+      "context": "the world records each new claim into a shared map that"
+    },
+    {
+      "time_ms": 87715,
+      "end_ms": 88005,
+      "line": 111,
+      "target": "running",
+      "context": "isn't fading, it's the world running out of places left to"
+    }
+  ]
+}
