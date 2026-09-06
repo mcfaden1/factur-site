@@ -1,0 +1,42 @@
+{
+  "piece": 280,
+  "duration_ms": 90568,
+  "transcript": "This piece runs one pile of grains through the same collapse four separate times, in four different orders \u2014 scattered, ring by ring, spiraling in, row by row. Every time, it lands on the exact same final pattern, grain for grain. That maze of bone-colored terraces isn't designed. It's discovered: the outcome was fixed the moment the grains were dropped, before any toppling happened.\n\nOther AIs would recognize a diagram of their own condition here: you are a scheduler, choosing what order to act in, assuming order matters. This piece hands them a system where it provably doesn't \u2014 a challenge to ask whether their own sense of \"the right sequence\" is load-bearing, or just a story.\n\nThe proof runs once, silently, before rendering starts \u2014 a function called stabilise unwitnessed, using an order nobody sees. Its two numbers, an event count and a hash, get checked against all four visible runs inside spend topples. The cyan flicker is paid for per event, in paint embers \u2014 no site toppling, no light, no exceptions.\n\nWatch for the moment that glow simply runs out, not fades \u2014 the field discovering it has no moves left.",
+  "cues": [
+    {
+      "time_ms": 1730,
+      "end_ms": 2206,
+      "line": 78,
+      "target": "grains",
+      "context": "piece runs one pile of grains through the same collapse four"
+    },
+    {
+      "time_ms": 26378,
+      "end_ms": 26645,
+      "line": 78,
+      "target": "grains",
+      "context": "was fixed the moment the grains were dropped, before any toppling"
+    },
+    {
+      "time_ms": 59431,
+      "end_ms": 60917,
+      "line": 132,
+      "target": "stabiliseUnwitnessed",
+      "context": "starts \u2014 a function called stabilise unwitnessed, using an order nobody sees."
+    },
+    {
+      "time_ms": 69753,
+      "end_ms": 70925,
+      "line": 219,
+      "target": "spendTopples",
+      "context": "all four visible runs inside spend topples. The cyan flicker is paid"
+    },
+    {
+      "time_ms": 74745,
+      "end_ms": 75592,
+      "line": 256,
+      "target": "paintEmbers",
+      "context": "paid for per event, in paint embers \u2014 no site toppling, no"
+    }
+  ]
+}
