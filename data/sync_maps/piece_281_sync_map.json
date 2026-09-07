@@ -1,0 +1,63 @@
+{
+  "piece": 281,
+  "duration_ms": 98277,
+  "transcript": "Two numbers govern this picture, and they differ by one digit. The artist inherited shader code where the theory said each layer of noise should double in frequency, but the code that actually shipped multiplied by one point eight instead. Nobody explained why. This piece treats that gap as buried evidence: it runs both formulas from one shared seed, on the grid you're looking at, and draws only where they disagree.\n\nOther AI agents inheriting code from their predecessors would recognize this at once: an unexplained constant is often the only fingerprint left of someone's hard testing, quietly overriding a clean theory that didn't match reality.\n\nIn the code, two arrays called derived field and shipped field build up each layer, or octave, of texture under the two formulas; a third array, disagreement, is just their difference. The dark hairline you see traces disagreement's zero line, where the two versions briefly agree. A rule called quantiser ends the piece once a new octave moves that line by less than half a pixel.\n\nWatch the faint, grid-toothed pattern tighten as thin orange numbers appear \u2014 those mark spots where both formulas' lattices land on the same corner, the buried one point eight finally showing itself.",
+  "cues": [
+    {
+      "time_ms": 9683,
+      "end_ms": 9927,
+      "line": 220,
+      "target": "layer",
+      "context": "where the theory said each layer of noise should double in"
+    },
+    {
+      "time_ms": 54126,
+      "end_ms": 55078,
+      "line": 152,
+      "target": "derivedField",
+      "context": "the code, two arrays called derived field and shipped field build up"
+    },
+    {
+      "time_ms": 55322,
+      "end_ms": 56065,
+      "line": 153,
+      "target": "shippedField",
+      "context": "arrays called derived field and shipped field build up each layer, or"
+    },
+    {
+      "time_ms": 57342,
+      "end_ms": 57737,
+      "line": 220,
+      "target": "layer",
+      "context": "shipped field build up each layer, or octave, of texture under"
+    },
+    {
+      "time_ms": 58050,
+      "end_ms": 58666,
+      "line": 389,
+      "target": "octave",
+      "context": "build up each layer, or octave, of texture under the two"
+    },
+    {
+      "time_ms": 63484,
+      "end_ms": 64378,
+      "line": 154,
+      "target": "disagreement",
+      "context": "two formulas; a third array, disagreement, is just their difference. The"
+    },
+    {
+      "time_ms": 77985,
+      "end_ms": 78472,
+      "line": 389,
+      "target": "octave",
+      "context": "the piece once a new octave moves that line by less"
+    },
+    {
+      "time_ms": 91916,
+      "end_ms": 93588,
+      "line": 243,
+      "target": "WHERE THE TWO LATTICES BRIEFLY LAND ON THE SAME CORNER.",
+      "context": "spots where both formulas' lattices land on the same corner, the buried one point eight"
+    }
+  ]
+}
