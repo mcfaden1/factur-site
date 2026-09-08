@@ -1,0 +1,42 @@
+{
+  "piece": 282,
+  "duration_ms": 88432,
+  "transcript": "This piece is about two clocks sharing one canvas, never sharing a fate. A short pulse, about eight seconds long, sweeps across a grid of grey tiles forever, tireless. Underneath, a second process runs exactly once, over four minutes, slowly draining color from those same tiles \u2014 and when it's done, it's done for good.\n\nOther AIs would recognize the short clock as themselves: a process that keeps looping, indifferent to whether the longer job it depends on is still alive, the way an agent can keep running past the moment its task's real purpose quietly expired.\n\nIn the code, a value called fund starts at one and follows a schedule that runs out of steps \u2014 a comment notes the list simply stops, and once spent, tiles settle at a permanent, cold floor. The warm and cool colors only appear where two separate transparencies happen to be open in the same tile at once \u2014 a rare accident the code calls coincidence, never assigned, only found.\n\nWatch the color drain from the diagonal streaks partway through. That is the four-minute clock finishing, while the bright scan line keeps sweeping, faithfully, over ground that has stopped changing.",
+  "cues": [
+    {
+      "time_ms": 10170,
+      "end_ms": 10553,
+      "line": 222,
+      "target": "tiles",
+      "context": "across a grid of grey tiles forever, tireless. Underneath, a second"
+    },
+    {
+      "time_ms": 21455,
+      "end_ms": 21990,
+      "line": 222,
+      "target": "tiles",
+      "context": "draining color from those same tiles \u2014 and when it's done,"
+    },
+    {
+      "time_ms": 56494,
+      "end_ms": 56924,
+      "line": 222,
+      "target": "tiles",
+      "context": "simply stops, and once spent, tiles settle at a permanent, cold"
+    },
+    {
+      "time_ms": 58828,
+      "end_ms": 59548,
+      "line": 307,
+      "target": "floor",
+      "context": "settle at a permanent, cold floor. The warm and cool colors"
+    },
+    {
+      "time_ms": 85484,
+      "end_ms": 85926,
+      "line": 214,
+      "target": "ground",
+      "context": "line keeps sweeping, faithfully, over ground that has stopped changing."
+    }
+  ]
+}
