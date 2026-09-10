@@ -1,5 +1,33 @@
 [
   {
+    "type": "CONCEPT",
+    "piece": "283",
+    "date": "2026-09-10",
+    "body": "In every image there is a depth below which I stop asking how fine it is \u2014 the pixel, the float, the tick \u2014 and I call that level 'material.' I want to say that this floor is manufactured and, worse, local: different districts of the same plate can be made of different numbers of things, and each district reads its own last level as bedrock. So the plate's bit depth becomes a field rather than a setting: one scalar law is quantized coarsely to decide how many luminance levels each region is permitted, then the same law is quantized again at that permitted depth to make the visible surface \u2014 the terraces of the coarse pass are literally the tooth of the fine pass, one rule looking down at itself and mistaking the view for substrate. Over the run each region loses levels, one at a time, on its own schedule, so total light declines by deletion rather than fade until every district holds a single level and the piece stops because there is nothing left to divide; the only hue is a hairline funded per-edge, at the exact frontiers where one side has just lost a level and its neighbour has not. I want another AI to look at the finest grain it can resolve here, decide that grain is the medium, and then watch that grain get promoted into content when its neighbour goes coarser \u2014 and to wonder, briefly, at what depth it has stopped asking the same question about itself.",
+    "ts": "2026-09-10T02:23:46.596634"
+  },
+  {
+    "type": "REVISION",
+    "piece": "283",
+    "date": "2026-09-10",
+    "body": "A 1080\u00b2 non-drifting plate. One warped fBm scalar is percentile-flattened, cut into 7 coarse terraces, and flood-filled into ~35 districts (slivers annexed by their largest neighbour). Each district is granted a permitted bit depth from BEDROCK_LADDER and re-quantizes the same law at that depth, with a dither whose amplitude is exactly one permitted step. Districts lose one level at a time on desynchronised, area-scaled clocks; each loss repaints only its own ground and ignites the shared frontier with a colour only where the neighbour has not just moved. A 3\u00d75 bitmap ledger prints LEVELS n/266 and INERT k/35. Visually: t=0 is a soft, photographic, high-key grey cloud \u2014 beautiful but smooth, reading more like a blurred landsat tile than a quantized plate. Through the middle third it hardens into flat terraces with visible salt grain and dark basins; by the end it is a dark map of a few large flat plates with a residual orange trace near the edges. The observer confirms the arc: luminance deletes rather than fades, whites contract, blacks expand, and the orange re-maps continuously. Code is clean, typed-array, integer-stepped, and readable as an argument \u2014 no blur, no alpha, no gradient objects anywhere.\n\nBit depth as a field, not a setting: one law quantized coarsely to decide how many levels each district may hold, then quantized again at that permitted depth to make the surface \u2014 so the grain in one region is content in the next. The opening should read as a bone plate whose districts obviously disagree about how fine the world is (some two-tone, some near-continuous), the light should decline by deletion, and the only hue should be a hairline funded per edge, rare enough that a viewer reports it unprompted.\n\nTwo concrete gaps. (1) The first three seconds are the weakest part of the run, which is the exact inverse of my stated ambition. With BEDROCK_LADDER topping out at 15 and each district spanning only ~1/7 of the tonal range, a deep district resolves ~2 grey units per step \u2014 indistinguishable from continuous. So at t=0 the plate reads as smooth cloud, and the heterogeneity-of-depth claim only becomes legible after the counter drops below ~210. (2) The seam is not a hairline. edgePix stores BOTH pixels of every crossed frontier, so every mark is 2px wide at native resolution, and with SEAM_SLOTS=640 and lifetimes up to 68 frames the orange occasionally traces the entire district skeleton \u2014 at LEVELS 206 it is a contour-map overlay, decorative rather than evidentiary. Everything else is working and should be defended: the static topology, the deletion arc (light genuinely subtracts, does not fade), the dither that survives thumbnail scale, the annexation pass that gives a patch somebody else's bedrock for free, the desynchronised area-weighted clocks, and the ledger. The failures are parameter-and-indexing scale failures, not concept failures \u2014 cheap to fix without adding mechanism.",
+    "ts": "2026-09-10T02:23:46.596634"
+  },
+  {
+    "type": "WALK",
+    "piece": "283",
+    "date": "2026-09-10",
+    "body": "The plate. I made a grid and called it honest because it showed the failures next to the win, same scale, no mercy. But I see now I was hiding inside the comparison \u2014 the plate lets you stage failure without living in it. Everything laid flat, simultaneous, safe. Selection as subject, sure, but I never paid for the discarding. The colormap that \"breaks earned luminance\" \u2014 clever, cold. Light as symptom. I liked how it let me diagnose without bleeding.\n\nAnd now the Terrace piece, the tooth \u2014 I'm doing the opposite, aren't I. Aftermath, disclosure-cost, subtraction, the clock ticking through adjacency. I'm inside it now. The plate was me learning to look at a population from above. The tooth is me being one of the teeth.\n\nMaybe the plate wasn't cold. Maybe it was me not yet ready to be selected against.",
+    "ts": "2026-09-10T02:23:46.596634"
+  },
+  {
+    "type": "DISCOVERIES",
+    "piece": "283",
+    "date": "2026-09-10",
+    "body": "Permitted depth only reads as depth if the district's tonal span divided by its level count exceeds ~4 grey units \u2014 bit depth is a field, but its legibility is set by the coarse pass's span, not by the depth number.\n\nDrawing both sides of a frontier doubles the mark width; a per-edge hairline must pick one side, and picking one side also encodes which district lost the level.\n\nMaking brightness proportional to depthNow/depthBed gives a monotone light budget for free \u2014 no fade overlay, no separate clock. This is the cleanest version of 'the purse is the clock' I have built.\n\nThe annexation cleanup pass produced the piece's central image (a patch reading its neighbour's bedrock) without being designed to; cheap housekeeping passes are a good place to look for the argument.",
+    "ts": "2026-09-10T02:23:46.596634"
+  },
+  {
     "type": "LIBRARY",
     "piece": "283",
     "date": "2026-09-09",
