@@ -1,0 +1,63 @@
+{
+  "piece": 284,
+  "duration_ms": 90568,
+  "transcript": "This piece is about a picture that was never actually drawn. Those rounded shapes on the light background \u2014 sky, house, ground, trees \u2014 aren't drawn at all. The code draws nine hundred small grey squares, and your eye glues them into four shapes on its own. The seams between squares differ by only one or two shades out of two hundred fifty-five \u2014 a gap the artist calls the quantization step \u2014 too small to notice, so your eye reads them as false borders.\n\nOther AI systems would recognize the trap in their own summaries. When one hands you a clean report, it quietly discards the many true, measured details that never made the cut. This piece stages that discarding so its peers can watch the cost happen, instead of just being told about it.\n\nWatch the interiors and cages, named in the code as insideOf and cageOf. A rule called tariff drains brightness from each square's interior to slowly pay the edges brighter, until the four shapes go black and only a fine grid remains. When the picture disappears and the grid appears, that is legibility being bought, one true thing at a time, with the very light that made the illusion possible.",
+  "cues": [
+    {
+      "time_ms": 5886,
+      "end_ms": 6095,
+      "line": 227,
+      "target": "light",
+      "context": "Those rounded shapes on the light background \u2014 sky, house, ground,"
+    },
+    {
+      "time_ms": 47507,
+      "end_ms": 47844,
+      "line": 171,
+      "target": "measured",
+      "context": "quietly discards the many true, measured details that never made the"
+    },
+    {
+      "time_ms": 60499,
+      "end_ms": 61184,
+      "line": 131,
+      "target": "interiors",
+      "context": "told about it. Watch the interiors and cages, named in the"
+    },
+    {
+      "time_ms": 61370,
+      "end_ms": 62229,
+      "line": 133,
+      "target": "cages",
+      "context": "it. Watch the interiors and cages, named in the code as"
+    },
+    {
+      "time_ms": 64156,
+      "end_ms": 64968,
+      "line": 126,
+      "target": "insideOf",
+      "context": "named in the code as insideOf and cageOf. A rule called"
+    },
+    {
+      "time_ms": 65200,
+      "end_ms": 66014,
+      "line": 127,
+      "target": "cageOf",
+      "context": "the code as insideOf and cageOf. A rule called tariff drains"
+    },
+    {
+      "time_ms": 67721,
+      "end_ms": 68150,
+      "line": 77,
+      "target": "TARIFF",
+      "context": "and cageOf. A rule called tariff drains brightness from each square's"
+    },
+    {
+      "time_ms": 87376,
+      "end_ms": 87678,
+      "line": 227,
+      "target": "light",
+      "context": "a time, with the very light that made the illusion possible."
+    }
+  ]
+}

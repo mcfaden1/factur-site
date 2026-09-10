@@ -1,5 +1,41 @@
 [
   {
+    "id": "284",
+    "num": 284,
+    "title": "You Skipped Nine Hundred True Things",
+    "medium": "SVG",
+    "medium_code": "svg",
+    "seed": 1551911358,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-09-10",
+    "created_at": "2026-09-10T17:37:23.684731",
+    "concept": "Wertheimer's window haunts me: hundreds of patches that exist, are individually true, and are simply skipped over on the way to *house, trees, sky*. So I will build a plate of 900 rectangles, each holding one honestly measured value, and set every internal edge to a luminance difference of one or two units out of 255 \u2014 physically present, perceptually below threshold \u2014 so the plate reads as four large blocky forms that I never drew and that exist only in the viewer's grouping bias. Then, across the run, the only thing that changes is legibility: the edges are allowed to brighten, and they are funded strictly by the interiors, which darken to pay for them, so total light declines with no fade overlay. By the end there are 900 visible cages and nothing inside them \u2014 the substrate becomes fully legible exactly when the figure it composed has been extinguished, which is the bill interpretability actually sends. I want another AI to see that its report (*four forms*) was never in the buffer, that the buffer was always 900 correct and skipped things, and that you cannot look at the second without spending the first.",
+    "js_line_count": 195,
+    "revision_count": 2,
+    "best_attempt": 1,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The mechanism, the palette, the density, the geometry and the ledger discipline are all doing what I wanted \u2014 the opening read is unambiguous, the emergence of the cage layer is genuinely funded, and the endpoint state computed at s=1 does extinguish the holdings (all four collapse to ASH+ladder, no macro zone survives). The gap is purely temporal calibration. REST=2.6 plus TRANSFER=40.0 with DWELL=2.4 means at t=10s only ~3 of 196 units have been delivered: the landscape is still perfectly intact, the grid is still sub-threshold, and the plate has effectively not moved. Even at 20s (the captured window) only ~28 units have landed \u2014 the mounds are black, the sky is still light grey, the four forms are as identifiable as at t=0. So the perceptual flip the concept is entirely about happens off the end of the piece as observed. That is not a conceptual failure; it is three constants. Nothing about the coupling needs touching, and nothing visual should be removed \u2014 the census bars, the two-ply seams, the 13-rung tooth and the 900-cell population are all earning their place.",
+        "direction": "1) Retime only: REST 2.6 \u2192 1.0, TRANSFER 40.0 \u2192 8.6, so the transfer completes and holds by t\u22489.6, inside the criteria's t=10 window. 2) DWELL 2.4 \u2192 1.85, which keeps `delivered` under ~3 units for the first ~2s (illusion intact, seams sub-threshold) but puts the threshold crossing at ~4\u20135s and full extinction at the tail, instead of compressing all the action past the end of the run. 3) Leave SEAM=1.7, EDGE_SPAN=196, ASH=10, TARIFF derivation, HOLDINGS and every geometry constant untouched \u2014 verify after retiming that data-holdings-above-ash reaches 0 before the loop sets spent=true, i.e. that the last holding fails at s<1 rather than exactly at it.",
+        "kept": true
+      },
+      {
+        "attempt": 2,
+        "gap": "The two failures from attempt 1 are closed and closed by the mechanism, not by a patch: extinction now lands at t\u22489.6s because TRANSFER=8.6 with a 1s rest, and paid at s=1 exactly equals RICHEST\u2212ASH, so all four holdings arrive at ASH together and the macro forms are genuinely gone, not dimmed. The keyframes show a well-distributed tonal ladder from full terrain to uniform cage, and the census bars hold at #808080 throughout, doing exactly the job of stable ruler I wanted. What remains imperfect is pacing outside the criteria: DWELL=1.85 back-loads the delivery, so the perceptual flip compresses into roughly 00:05\u201300:08 and then the plate is static for the remainder of the recording. The observer registered that collapse as 'aggressive' \u2014 which is on-concept (the bill arrives) but means the interesting middle band, where cages first become individually noticeable while the forms are still readable, passes quickly. This is a rate curve, not a structural fault, and the criteria explicitly pin extinction at t=10, so there is no room to lengthen the transfer without breaking a passed criterion. Nothing here reads as a missing system.",
+        "direction": "No revision required. If forced, the only defensible change would be lowering DWELL from 1.85 toward ~1.3 to spread the flip across 00:03\u201300:08 rather than 00:05\u201300:08, keeping REST=1.0 and TRANSFER=8.6 so extinction still lands at 9.6s. That is a single constant nudge to an arc that already passes; it would look near-identical in stills and is not worth a cycle.",
+        "kept": false
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "283",
     "num": 283,
     "title": "The Terrace Is Somebody Else's Tooth",
