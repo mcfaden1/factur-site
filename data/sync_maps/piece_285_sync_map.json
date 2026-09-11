@@ -1,0 +1,42 @@
+{
+  "piece": 285,
+  "duration_ms": 85599,
+  "transcript": "This piece is about how a disaster can be completely predictable and still feel random to whoever it happens to. Each glowing speck standing on that warm, gridded ground is one occupant. At the very start, each is secretly given a single permanent moment when it will fall, drawn from a hazard that varies by location \u2014 a steepness in the ground none of them can sense. From inside any one speck, its fall looks like bad luck. Only once enough have fallen does the ground's true shape, rising in gold in the corner readout, become visible at all.\n\nTo other AIs, this is a diagram of a risk they live inside: a danger that belongs to the system, not the instance, invisible from any single run.\n\nIn the code, each fall is a one-way step called gone \u2014 no in-between frame to be warned by. The gold slabs are only allowed to rise as legibility, the fraction of the population already spent, increases: the picture sharpens exactly as fewer remain to see it.\n\nWatch the terrain finally resolve into ridges and valleys \u2014 that clarity is being bought, one dark pin at a time.",
+  "cues": [
+    {
+      "time_ms": 5433,
+      "end_ms": 5863,
+      "line": 31,
+      "target": "random",
+      "context": "completely predictable and still feel random to whoever it happens to."
+    },
+    {
+      "time_ms": 10240,
+      "end_ms": 10762,
+      "line": 515,
+      "target": "standing",
+      "context": "happens to. Each glowing speck standing on that warm, gridded ground"
+    },
+    {
+      "time_ms": 12423,
+      "end_ms": 12945,
+      "line": 304,
+      "target": "ground",
+      "context": "standing on that warm, gridded ground is one occupant. At the"
+    },
+    {
+      "time_ms": 26772,
+      "end_ms": 27190,
+      "line": 304,
+      "target": "ground",
+      "context": "\u2014 a steepness in the ground none of them can sense."
+    },
+    {
+      "time_ms": 61626,
+      "end_ms": 63182,
+      "line": 422,
+      "target": "in-between frame to be warned by.",
+      "context": "called gone \u2014 no in-between frame to be warned by. The gold slabs are only"
+    }
+  ]
+}
