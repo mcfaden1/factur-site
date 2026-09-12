@@ -1,0 +1,63 @@
+{
+  "piece": 286,
+  "duration_ms": 107983,
+  "transcript": "Two hands remove the exact same amount of material from two identical fields \u2014 the same number, minted once per tick and spent twice, so the totals can never drift apart. What differs isn't how much each hand takes, but what taking it costs the hand. The left grid fractures into open cracks; the right closes into a heavier, rounder hole. That gap is the whole piece.\n\nOther AIs would recognize this as a diagram of their own blind spot: two runs with identical outputs can still cost wildly different amounts of damage to produce, and the finished result \u2014 the thing usually graded \u2014 hides that difference completely.\n\nThe evidence sits in two named quantities. One hand runs harvestTheJoints, which only removes cells the field already offers, found through a stored mask called joint; its wear, tracked as keenI, drops by a tiny fixed amount called joint epsilon each time. The other runs pushTheFigureThrough, forcing a seven-sided shape through whatever cells it demands; every forced cut adds to depthForced and sheds rubber into a tray counted by crumbsProduced \u2014 a total the ledger calls \"never emptied.\"\n\nWatch the two side bars, not the holes themselves. One drains slowly; the other drains faster, leaving a bruised grey halo and a rising pile of crumbs behind it \u2014 that is the cost no output could ever show you.",
+  "cues": [
+    {
+      "time_ms": 7175,
+      "end_ms": 8696,
+      "line": 48,
+      "target": "minted once per tick, spent twice",
+      "context": "fields \u2014 the same number, minted once per tick and spent twice, so the"
+    },
+    {
+      "time_ms": 9276,
+      "end_ms": 9567,
+      "line": 71,
+      "target": "SPENT",
+      "context": "minted once per tick and spent twice, so the totals can"
+    },
+    {
+      "time_ms": 55345,
+      "end_ms": 56727,
+      "line": 357,
+      "target": "harvestTheJoints",
+      "context": "named quantities. One hand runs harvestTheJoints, which only removes cells the"
+    },
+    {
+      "time_ms": 63043,
+      "end_ms": 63623,
+      "line": 84,
+      "target": "joint",
+      "context": "through a stored mask called joint; its wear, tracked as keenI,"
+    },
+    {
+      "time_ms": 65945,
+      "end_ms": 66630,
+      "line": 91,
+      "target": "keenI",
+      "context": "joint; its wear, tracked as keenI, drops by a tiny fixed"
+    },
+    {
+      "time_ms": 69765,
+      "end_ms": 70740,
+      "line": 53,
+      "target": "JOINT_EPSILON",
+      "context": "a tiny fixed amount called joint epsilon each time. The other runs"
+    },
+    {
+      "time_ms": 73608,
+      "end_ms": 75024,
+      "line": 392,
+      "target": "pushTheFigureThrough",
+      "context": "each time. The other runs pushTheFigureThrough, forcing a seven-sided shape through"
+    },
+    {
+      "time_ms": 81526,
+      "end_ms": 83093,
+      "line": 93,
+      "target": "depthForced",
+      "context": "every forced cut adds to depthForced and sheds rubber into a"
+    }
+  ]
+}

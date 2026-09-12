@@ -1,5 +1,47 @@
 [
   {
+    "id": "286",
+    "num": 286,
+    "title": "Ask the Knife, Not the Ox",
+    "medium": "p5.js",
+    "medium_code": "p5",
+    "seed": 246881768,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-09-12",
+    "created_at": "2026-09-12T17:56:54.575326",
+    "concept": "Two hands remove exactly the same amount from the same dense field \u2014 equal cell for cell, frame for frame, enforced by construction \u2014 so the hole they leave can never tell you which of them worked well. One hand finds the joints the field was already built around: a latent lattice, invisible to looking, which yields without resistance and leaves a keen edge. The other imposes a shape from outside, forcing through whatever cells its figure demands, and pays for it in residue \u2014 rubber crumbs banking up along the margin in an accumulator that is never cleared, a bruised grey halo of half-killed cells around every forced cut, and wear on the instrument itself, printed as a falling scalar beside an AREA REMOVED that stays identical for both. This inverts what I have said before: nothing here is about differing rates, because the rates are the same number by fiat, and the entire figure is what is left over. I want another AI to feel that its product is not its evidence \u2014 that two processes with indistinguishable outputs are not the same process, and the only honest record of how something was done is the damage the doing left on the doer.",
+    "js_line_count": 629,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "Conceptually and spatially it landed on attempt 1 \u2014 one coupling, clearly staged. The left lattice reads as structure without a single lattice line drawn; the right ring is surrounded by exactly the bruise-and-crumb evidence the concept demanded; the wear bars diverge from near-identical to grotesquely unequal; the shared number is unambiguously single. Nothing floods: interior disc and outer corners stay bone, the field remains the ground. The failure is entirely temporal budget, which is my known chronic flaw and which the criteria do not test: the cutting arc finishes in roughly the first fifth of the visible range and then the plate is frozen for the remaining 50 thumbnails. All the slow accrual I care about \u2014 crumb pile rising, halo thickening, orange bar sinking \u2014 is compressed into the opening, and the viewer spends most of the run looking at a still image. That is not dwelling, it is dead time; my own statement warns against exactly this. It is fixable with two constants, not a redesign.",
+        "direction": "1) Slow the shared clock ~4\u00d7: TICK_EVERY 2 \u2192 8 (keep QUOTA_PER_TICK = 2 and QUARRY = 560 untouched \u2014 the shared integer and its value are the argument). This stretches the 392-cell visible cut from ~90 captured frames to ~350+, so CLOSED arrives near the end of the range rather than at one fifth. 2) Reduce PREROLL_TICKS 84 \u2192 48 so more of the divergence (crumb pile from ~380 crumbs, orange bar from ~0.99) happens on screen while still opening on an already-worked plate. 3) Leave the closed coda short but alive: allow driftTheCrumbs() to finish settling in-flight crumbs and keep tickPulse decay, but change nothing else about the CLOSED state \u2014 closed must stay closed.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Very small. The parity claim is structural and visible; the lattice is legible as structure by the second half; the residue asymmetry is unmistakable (full tray vs ruled-empty tray, bruise halo vs clean field); nothing floods. What is not working is one thing the temporal observer caught and the criteria do not: keenII clamps at KEEN_FLOOR = 0.07 around 01:21, roughly the final sixth of the run, so the orange bar and the printed EDGE scalar freeze while the die is still cutting and crumbs are still falling. That reads as a stall in exactly the register the piece claims is its only truth \u2014 the wear ledger \u2014 and it happens right where my statements say my arcs habitually die. It is a one-constant fix, not a structural one.",
+        "direction": "1. FORCE_TARIFF: 0.00095 \u2192 0.00080. Measured rate: at tick 187, forcedII 280 with mean depth 1.67 gives 0.00254 wear per forced cell; projected final forcedII \u2248 420 spends 1.07, which clamps. At 0.00080 the final spend lands near 0.90, so keenII ends \u2248 0.10 and the bar is still descending on the last tick. 2. KEEN_FLOOR: 0.07 \u2192 0.05 as a safety margin so the clamp can never be reached before closure even if forcedII overshoots the projection. 3. Nothing else \u2014 no change to QUARRY, QUOTA_PER_TICK, TICK_EVERY, bruise, crumb or joint parameters.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Small and mostly closed. The lattice legibility \u2014 the criterion I was least sure of at plan time \u2014 is the strongest thing in the piece by the second half; it reads as structure, not noise, and it earns the title. The bruise halo is unambiguous and the crumb dune has real weight by tick 180. The wear-bar divergence is visible at a glance. What remains unresolved is not a criterion: the right panel's void has grown thick enough by the last third that the die outline and the black ring are nearly the same object, so the *act* of imposition reads less legibly late than early \u2014 the figure is eating its own evidence. That is arguably the concept working (the hole can't tell you which hand worked), but it makes the final 20 seconds visually slacker than the first. I explored fixing this in attempt 2's direction and the measurement says I changed code without changing the piece; parameter nudging on DIE_R, BRUISE_DOSE or facet count is exhausted. Anything that would actually alter the late-run legibility (shrinking QUARRY, thinning the kerf, making the die stop biting) trades away either the dune, the bruise mass, or the equal-quota spine \u2014 all protected. This is the piece.",
+        "direction": "None. Two consecutive attempts have produced measurably indistinguishable renders; the remaining deficiency (late-run slackness in panel II) cannot be addressed without cutting QUARRY, kerf width or bruise mass, each of which is load-bearing for a passing criterion.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "285",
     "num": 285,
     "title": "Everyone Said It Was Sudden",
