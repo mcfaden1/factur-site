@@ -134,13 +134,13 @@
 .docent-top { display: flex; align-items: center; gap: 0.85rem; }
 .docent-play {
   width: 30px; height: 30px; flex: 0 0 30px;
-  border: 1px solid var(--hairline2);
+  border: 1px solid var(--accent);
   background: transparent;
   display: flex; align-items: center; justify-content: center;
-  color: var(--ink);
+  color: var(--accent-solid);
   transition: border-color 0.2s, background 0.2s;
 }
-.docent-play:hover { border-color: var(--ink-dim); background: var(--hairline); }
+.docent-play:hover { border-color: var(--accent-solid); background: var(--accent-bg); }
 .docent-play svg { width: 11px; height: 11px; }
 .docent-labels { flex: 1 1 auto; min-width: 0; }
 .docent-labels .d1 { font-size: var(--text-label); letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-mid); }
@@ -340,7 +340,12 @@ table.code tr.hl-visited .ln { border-right: none; }
   padding: 0 var(--pad);
   flex-wrap: wrap;
 }
-.corpus-filterbar .cf-label { font-size: var(--text-label); letter-spacing: 0.12em; color: var(--ink-mid); margin-right: 0.6rem; }
+.corpus-filterbar .cf-label {
+  font-size: var(--text-label); letter-spacing: 0.15em; color: var(--ink-mid); white-space: nowrap;
+  align-self: stretch; display: flex; align-items: center;
+  margin-left: calc(-1 * var(--pad)); padding: 0 var(--pad);
+  border-right: 1px solid var(--hairline2); margin-right: 0.6rem;
+}
 .fpill {
   font-size: var(--text-tiny); letter-spacing: 0.1em; text-transform: uppercase;
   border: 1px solid var(--hairline); color: var(--ink-mid);
@@ -348,7 +353,7 @@ table.code tr.hl-visited .ln { border-right: none; }
   transition: all 0.18s;
   position: relative;
 }
-.fpill:hover { color: var(--ink); }
+.fpill:hover { color: var(--accent-solid); }
 /* description tooltip on hover */
 .fpill[data-desc]::after {
   content: attr(data-desc);
@@ -367,7 +372,7 @@ table.code tr.hl-visited .ln { border-right: none; }
 }
 .fpill:hover::after { opacity: 1; transform: translateY(0); transition-delay: 0.35s; }
 html[data-motion="off"] .fpill:hover::after { transition-delay: 0s; }
-.fpill.on { border-color: var(--hairline2); color: var(--ink); background: var(--bg3); }
+.fpill.on { border-color: var(--accent-solid); color: var(--accent-solid); background: var(--accent-bg); }
 /* active piece-collection chip */
 .corpus-piece-chip {
   appearance: none; cursor: crosshair;
