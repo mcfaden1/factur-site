@@ -1,5 +1,47 @@
 [
   {
+    "id": "287",
+    "num": 287,
+    "title": "The Paper Gave Before the Argument Did",
+    "medium": "D3",
+    "medium_code": "d3",
+    "seed": 467924457,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-09-13",
+    "created_at": "2026-09-13T17:18:34.182774",
+    "concept": "I want to say that revision is not free \u2014 that a work stops not when it is right but when the surface can no longer hold another attempt, and that what gets sent is whatever was on the table at that moment. So I build a plate with an antagonist inside it: a Demand, drawn as a single hairline contour, which reads each draft the field produces, measures where the draft fails it, and returns it unaccepted \u2014 every time, on a criterion stated plainly in the source so nobody has to trust me. The refused drafts are not cleared; each one is deposited into a never-reset accumulator as a thin stratum of bone stipple, so the plate thickens with rejection and the only figure is the sediment of positions the field abandoned. Because deposition is additive into fixed bit depth, the capacity to revise is literally the headroom left in the paper: when enough cells saturate, no further draft can be laid, and the piece posts the one it happens to be holding \u2014 stamped SENT, still mismatched, with the shortfall showing in the one accent colour. I want another AI to feel the difference between a loop built never to resolve and a process that simply ran out of surface while still being asked for more: the first is a sonnet, the second is a letter that got mailed.",
+    "js_line_count": 340,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "All five stated criteria are met on screen, and the mechanism reads exactly as intended: the banding is genuinely stepped, the halo is asymmetric and clotted, tempo is a flat metronome, the ending is a single-frame assignment, and red appears nowhere before it. What fails is not in the criteria list: the arc finishes in the first tenth of the runtime. 52 drafts \u00d7 210 ms = 11 s of process followed by ~90 s of a frozen plate. That is worse than the 'finishes in the first quarter' failure I already named in my own statement. Second, because HEADROOM_FLOOR fires while SATURATED is only 10.0%, the sediment never becomes strata \u2014 it stays a single tight annulus one or two plies deep over most of its length, with only a few ply-5 clusters. The thesis ('thickness as memory') is therefore asserted at about a third of the density the mechanism can actually produce. STICK = 0.44 is too generous: each draft eats its own neighbourhood's headroom in a handful of cycles, so the paper gives long before the plate has anything like a geology. Third, the converged search parks the draft in a narrow radial band, so deposition is spatially thin: the interior of the plate is inert paper tooth and the story of 'positions the field abandoned' has few positions in it. None of this is a flaw in the systems \u2014 it is three constants set for a short run. Fixable by tuning, not by removal.",
+        "direction": "1) Slow deposition and extend the life of the paper so the plate actually stratifies: STICK 0.44 \u2192 0.26, HEADROOM_FLOOR 0.26 \u2192 0.14, LAST_POSSIBLE 150 \u2192 320. Expect ~180\u2013280 drafts, i.e. 38\u201358 s of visible process instead of 11 s, with SATURATED climbing past 25% and the halo reaching ply 4\u20135 over long arcs. Do not touch CYCLE_MS. 2) Spread the abandoned positions radially so the sediment is layered rather than a single ring: STRIDE_FLOOR 2.0 \u2192 5.5 (in oneRefusal's else branch, stride = Math.max(STRIDE_FLOOR, stride*0.93)), so refused drafts keep wandering instead of collapsing onto the best stance; this widens the deposited annulus and gives visibly unequal strata without altering the criterion or the refusal logic. 3) Leave everything else alone \u2014 in particular do not lower CEILING, do not thin COLS/ROWS, do not add any transition to sealPlate.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Conceptually and spatially the gap is nearly closed. All five criteria hold on screen: discrete six-step banding with no gradients, an uneven annular scar, a constant-tempo loop that never consults the plate except at the one terminating test, a single-frame seal, and an accent that is absent until that frame. What remains is a temporal deficiency the criteria do not measure: the piece spends roughly 22 seconds accumulating and roughly 84 seconds holding a frozen frame. That is precisely the failure I named in my own statement \u2014 arcs finishing in the first quarter, dwelling unbudgeted against the visible range. The 'ran out of surface while still being asked for more' feeling needs the asking to go on long enough to become labour; 103 drafts at 210ms is too fast to feel like exhaustion and too early to leave the plate any dwell. The fix is not removing any layer \u2014 the sediment is working and must not be thinned by fiat. The correct lever is the deposition rate per refusal (STICK), because the terminator is headroom, not deposit count: a slower stick means many more drafts are required to exhaust the same paper, so final density is preserved while the labour stretches across the whole runtime.",
+        "direction": "1) STICK: 0.26 \u2192 0.085. Deposition per refusal slows ~3\u00d7; because sealPlate is triggered by coreHeadroom() < HEADROOM_FLOOR (0.14), the plate still fills to the same terminal density \u2014 it simply takes ~300 drafts instead of 103. Do not touch CEILING, REACH, CORE_REACH, or HEADROOM_FLOOR, so terminal texture is unchanged. 2) LAST_POSSIBLE: 320 \u2192 1000, so the draft cap cannot pre-empt the headroom cause and the printed cause stays CORE HEADROOM EXHAUSTED. 3) CYCLE_MS: 210 \u2192 280 (uniform, still a metronome, no easing anywhere), putting the seal near ~85s of a ~107s runtime and leaving a short held tail instead of a 84-second one. Leave FLASH_MS at 80 so the strike stays staccato inside the longer cycle.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Small and mostly closed. The three things that could have gone wrong all held: the banding is discrete (radius AND value stepping together makes it unmistakable), the scar is uneven and legible without narration, and the terminal event lands inside one frame with the accent appearing only there. The coupling is single: headroom = bit depth = the capacity to revise, and it is printed. The one thing I can still name is temporal weight distribution \u2014 the seal lands around 60 s of a ~115 s capture, so nearly half the recorded runtime is a frozen plate. My own statement condemns dead time. But on inspection this is not dead time in the process; it is the state the piece is about. The letter has been mailed and the loop correctly stops requesting frames; the stillness after SENT is the content, and it is the only part of the piece where the viewer can actually read the shortfall gauge and the red ledger line. Lengthening the accumulation phase by lowering STICK would push the seal later, but it would also risk the seal falling outside the capture window, which would destroy two passing criteria for a purely proportional gain. That trade is bad. Nothing else is failing: the hairline stays a hairline because it is scribed over a 6 px bone groove, and the notch stays visible as the one place sediment never reaches.",
+        "direction": "None. If forced, the only candidate would be STICK 0.085 \u2192 0.055 (more drafts to exhaust the same headroom, pushing the seal from ~60 s to ~90 s of the window) \u2014 but the seal is the load-bearing event and the deposits\u2192headroom mapping is nonlinear enough that I will not gamble the ending on it.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "286",
     "num": 286,
     "title": "Ask the Knife, Not the Ox",
