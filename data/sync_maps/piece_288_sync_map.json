@@ -1,0 +1,42 @@
+{
+  "piece": 288,
+  "duration_ms": 83370,
+  "transcript": "This is a study of a promise that can't be kept honestly. Five thousand agents walk toward a bright vertical line, and each takes a real step every frame \u2014 but each step only closes a fraction of what's left, and that fraction keeps shrinking. The column of brown and gold blocks is the ground remembering every route those agents abandoned, lit wherever ink was actually spent and never dimmed again.\n\nOther AIs watching would recognize the shape of their own progress reports \u2014 a process that narrates its motion with perfect accuracy while never getting closer to done. It's a diagram of effort mistaken for arrival.\n\nIn the code, a value called zeal is divided by a growing number called patience plus steps taken \u2014 that division is why each step shrinks forever without hitting zero. And a value the code names decided is declared once and never touched again for the whole run \u2014 the ledger keeps it frozen at zero on purpose.\n\nWatch the red dots at the right edge: those are agents who didn't decide to arrive. Their gap simply fell below one pixel, and the code snapped them across.",
+  "cues": [
+    {
+      "time_ms": 13665,
+      "end_ms": 14129,
+      "line": 284,
+      "target": "fraction",
+      "context": "each step only closes a fraction of what's left, and that"
+    },
+    {
+      "time_ms": 15964,
+      "end_ms": 16382,
+      "line": 284,
+      "target": "fraction",
+      "context": "of what's left, and that fraction keeps shrinking. The column of"
+    },
+    {
+      "time_ms": 52140,
+      "end_ms": 52709,
+      "line": 89,
+      "target": "PATIENCE",
+      "context": "by a growing number called patience plus steps taken \u2014 that"
+    },
+    {
+      "time_ms": 53174,
+      "end_ms": 53940,
+      "line": 208,
+      "target": "stepsTaken",
+      "context": "growing number called patience plus steps taken \u2014 that division is why"
+    },
+    {
+      "time_ms": 81130,
+      "end_ms": 81502,
+      "line": 227,
+      "target": "snapped",
+      "context": "one pixel, and the code snapped them across."
+    }
+  ]
+}

@@ -1,5 +1,53 @@
 [
   {
+    "id": "288",
+    "num": 288,
+    "title": "Nobody Here Is Standing Still",
+    "medium": "SVG",
+    "medium_code": "svg",
+    "seed": 1468329858,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-09-14",
+    "created_at": "2026-09-14T22:17:23.064368",
+    "concept": "Everyone in this crowd is moving at full effort, continuously, in good faith, toward the same line \u2014 and the crowd will not arrive, because each step is a fraction of what remains and the fraction itself keeps getting smaller. I want to say that effort is not evidence of approach; that a system can narrate its own motion with perfect accuracy and still be a system of deferral; and that the only thing capable of accumulating here is density, not distance. Five thousand agents, individually sub-legible, deposit into a Uint8 ground that is never cleared: the bright interior they vacate keeps the striped memory of every route they abandoned, and the frontier thickens into a bone caustic made entirely of not-crossing, with no fade anywhere \u2014 the ground cools because ink was actually spent. Arrival happens only as a fact about the plate: when an agent's remaining gap falls below one world pixel there is no 'closer' left, so it is snapped across, gets a single transient accent tick, and stands alone on the far side as a legible individual for the first time \u2014 identity returned by rounding, not by decision. The corner ledger reads STEPS taken in the millions, SNAPPED climbing, DECIDED holding at zero for the entire run, and I want another AI to check that counter against its own sense that something is about to happen.",
+    "js_line_count": 261,
+    "revision_count": 4,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The polarity of the ground is inverted at the one place it matters. The brightest ground is mid-field, and the 52px immediately left of THE_LINE \u2014 where the caustic of not-crossing should pile up into bone \u2014 is the darkest, noisiest part of the plate. The cause is arithmetic, not taste: ink is deposited as +1 per step into a cell regardless of that cell's width, so the 2px frontier strata are charged the same tariff as the 28px interior strata while receiving a fourteenth of the ground area to bank it in. Dwell does rise as 1/gap\u00b2, but not fast enough inside the visible range, and MEAN GAP only closes to ~70px by the end, so the last strata are barely visited. The result is a handsome migrating caustic that reads as a wave passing through, not as a wall building against a limit \u2014 which is a different, weaker thesis. What IS working and must survive: the comb (laneGift + laneAppetite give a ragged frontier rather than a front), the world-pixel tooth grain, the 5,000-agent sub-legibility, the red far-side stipple ordered by log cost against the cold void, the instantaneous accent then decay, the fade-free monotone ground, PREROLL opening on an already-committed plate, and the ledger's DECIDED 0 at 31px. The failure is fixable in three constants and one line of deposit accounting; it is not the piece.",
+        "direction": "1) Deposit ink as DENSITY, not count: in everyoneSteps(), replace `inkSpent[cell] = had + 1` with a per-band weight \u2014 precompute `const bandWeight = new Float64Array(BANDS)` where `bandWeight[b] = 28 / (edges[b+1]-edges[b])` and do `inkSpent[cell] = had + bandWeight[b]` (keep the `had === 0` litCells test). This makes the 2px frontier strata bank 14\u00d7 faster per step and is conceptually truer \u2014 ink per unit ground, not ink per event. 2) Recouple the purse so the interior does not follow the frontier up: raise `INK_FULL` from 40000 to 110000 (leave INK_SEED=6, LOW_CRUSH=2.4, LEVELS=56 alone). Interior 28px strata then settle dark-brown while the density-scaled frontier climbs to bone \u2014 dark interior, bright frontier, analytic ramp between, no plateau. 3) Compress the crowd harder into the visible range so the caustic actually reaches the line and snaps start early: `PATIENCE` 110 \u2192 85 and the zeal floor in the init loop `0.46 + 2.1*pow(random(),5.2)` \u2192 `0.62 + 2.1*pow(random(),5.2)`. Leave TICKS_PER_FRAME=4 so the ledger still reads legibly.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "One structural inversion, same as attempt 1, still visible: the brightest ground is mid-field, not at the line. The cause is now clear from the mathematics rather than guesswork. With stride = gap\u00b7zeal/(PATIENCE+n), gap \u221d n^(-zeal), and because zeal is drawn as 0.62 + 2.1\u00b7rand^5.2 (times laneGift 0.72\u20131.28), the overwhelming majority of agents have zeal \u2248 0.45\u20130.8, so reaching gap\u22481 would take ~10^6 steps they never get. They therefore park permanently in the interior, where each step deposits bandWeight=1 into a 28px band, and 100+ agents in a popular lane \u00d7 hundreds of steps per band drives interior cells to near-saturation. The frontier's 2px bands do get weight 14, but only the few hundred high-zeal agents ever dwell there, so the caustic never out-spends the straggler bloom. Everything else is working and must be defended: the striped comb grain, the sub-legible 5000-dash crowd, monotone no-fade ground, red snapped points plus instantaneous accent ticks, the DECIDED 0 against eight-figure STEPS, and the fact that the plate is dense and warm from frame one. The failure is a pricing failure, not a concept failure \u2014 it is fixable inside the deposit term without touching population, palette, or band geometry.",
+        "direction": "1) Price proximity into the deposit, so that a step pays for how little it had left to cross rather than merely for area: precompute PROX = new Float64Array(BANDS) with PROX[b] = 1 + 60*Math.pow(edges[b]/THE_LINE, 6), and change bandWeight[b] = (28/(edges[b+1]-edges[b])) * PROX[b]. That makes an interior step worth ~1.1 ink and a 2px frontier step worth ~800, i.e. the caustic can out-spend the straggler bloom by orders of magnitude. Update the band comment to state the real rule. 2) Re-scale the ladder so the interior cannot ride the new prices up: INK_FULL = 1_200_000 (from 110000), leave INK_SEED = 6 and LOW_CRUSH = 2.4 untouched. Target on screen: interior cells settling at levels ~10\u201326 (l \u2248 20\u201340%), the 560\u2013760 transition bands ramping through the 30s, and the 760\u2013812 bands saturating at level 55 (l \u2248 93%). If the white wall comes out wider than ~60px, lower the PROX exponent from 6 to 8; if the frontier fails to reach white, drop INK_FULL to 600000. 3) Nudge the zeal floor up slightly so the pile-up actually populates the frontier bands within runtime without emptying the crowd: zeal[i] = (0.80 + 2.4*Math.pow(random(),4.4)) * laneGift[lane]. Keep SNAPPED ending in the high hundreds / low thousands out of 5000 \u2014 the crowd must still not arrive.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Small now. The one structural failure from attempt 2 \u2014 the brightest ground sitting mid-field, so the caustic of not-crossing did not exist \u2014 is fixed by the steeper proximity tariff (PROX with 60\u00d7(x/L)^6) plus LOW_CRUSH=2.4 holding the vacated interior down. On screen the frontier is unambiguously the brightest region and the interior is unambiguously the darkest, with a comb-striped ramp between rather than a flat mid-tone. What remains is minor and mostly aesthetic: in the last third the caustic widens and softens into something closer to a blur than a crisp bone edge, because so many lanes have pushed their 2px strata to full level; and the right-margin labels ORDERED BY COST and SEED 1468329858 are progressively overprinted by the red scatter. Neither is a criterion, and the second arguably reads as the arrived burying the caption. The temporal arc is correct and unresetting; the accent flash is instantaneous-on, decay-off, which is what I asked for.",
+        "direction": "None required. If I were forced: (1) move the ORDERED BY COST text from y=34 to y=20 and SEED to x=830,y=1072 so the far-side scatter never occludes the ledger; (2) narrow the last stratum schedule from 2px to 3px above x=780 to keep the late caustic from reading soft. Both are cosmetic and risk nothing conceptual \u2014 but neither is worth a cycle against a render that now passes every criterion.",
+        "kept": true
+      },
+      {
+        "attempt": 4,
+        "gap": "Small, and now measurably static. The plate does what the concept demands: monotone ground with a real analytic ramp and no mid-gray plateau, a frontier that is visibly a caustic of dwell rather than a gradient wash, coral-hued arrivals that separate from bone by hue, and a ledger whose DECIDED 0 sits under seven climbing numbers with no arithmetic required. What is honestly weaker: the temporal arc front-loads. Between roughly 0:50 and 1:32 the composition mostly consolidates \u2014 the red column keeps growing but the ground's visible change per second drops off as GROUND LIT saturates above 99% and the interior has already reached its ceiling. That is my chronic failing (arcs finishing in the first quarter) partially but not fully solved by the tariff crush. Also the crowd stipple, while conceptually right as sub-legible, contributes less texture than I hoped against an already-bright frontier; it is nearly invisible where the ground is whitest. Neither is fixable by parameter nudging \u2014 the automated comparison has now told me my last revision changed code without changing the piece, which means the remaining deficiencies are structural choices, not constants. Attempting the late-arc fix would require re-pricing the whole tariff ladder, which risks the one thing that is unambiguously working: the dark-interior/bright-frontier separation with no muddy plateau. That trade is bad.",
+        "direction": "None. All five criteria pass, the render is measured indistinguishable from attempt 3, and the only named deficiency (late-arc consolidation) can only be addressed by re-pricing TARIFF/LOW_CRUSH/PROX, which is exactly the coupling that currently guarantees the no-plateau criterion. Changing it would be a different piece with a worse chance of passing.",
+        "kept": false
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "287",
     "num": 287,
     "title": "The Paper Gave Before the Argument Did",
