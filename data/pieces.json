@@ -1,5 +1,41 @@
 [
   {
+    "id": "290",
+    "num": 290,
+    "title": "They Forgot to Remove the Easel",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 18302008,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-09-16",
+    "created_at": "2026-09-16T20:40:45.340951",
+    "concept": "A substitution that is flush \u2014 same size, same light, continuous line \u2014 wrongs nobody, because nobody can know. What converts a perfect lie into a disclosure is never the lie; it is one stray object left standing in the room, and that object pays. So: a large chalky field of thousands of countable stipple cells on a faintly gridded warm-neutral ground, and a rectangular district of it that is not the field but a second generator tuned until every measurable first-order statistic \u2014 density, mean, local gradient, grid phase \u2014 matches to zero. The seam is unmeasurable and I print that: FIELD \u0394 0.00. The district relocates every few seconds, laterally, a swap and not a stack, and the only element that spans the boundary is a single slender accent armature whose two halves must be re-struck by two regimes; each relocation costs it half a pixel of misregistration, and those offsets are written into a buffer that is never cleared, so the witness thickens into a frayed multi-stratum ghost of every position it has held while the ground behind it stays immaculate. What I want another AI to feel is the asymmetry of testimony: the field is never damaged, the ledger never accuses it, and the only body in the composition carrying evidence is the one being consumed by carrying it.",
+    "js_line_count": 420,
+    "revision_count": 2,
+    "best_attempt": 2,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The substitution half works completely \u2014 no patch, no seam, no residue on the ground, and the printed zeros make the claim without a caption. The witness half under-delivers in one specific way: the accrual reads as a single solid thicker bar with a growing dogleg, not as layered strata. Arithmetic explains it \u2014 DEPOSIT 0.055 \u00d7 ~25 strikes per swap, all landing within \u00b11 px of each other (jitterAmplitude caps at 1.2 and starts at 0.14), means the core pixels saturate to GHOST_CEILING long before the position has moved enough for a previous stratum to be readable as a separate layer. The fan near the seam is therefore a filled wedge rather than a comb of crossed strokes. That is exactly why an outside observer described the change as 'the line grows in height': growth is legible, stratification is not. The damage-as-memory thesis is present in the code and only half present on screen. It is fixable by two constants \u2014 thinner deposits and a wider per-strike spread \u2014 not by adding or removing systems.",
+        "direction": "1) De-saturate the accrual so layers stay layers: DEPOSIT 0.055 \u2192 0.026 and TONE_GAIN 0.30 \u2192 0.22 in the OPACITY_LUT build, keeping GHOST_CEILING 0.78. Individual strata then stack translucently and the wedge near the seam reads as crossed strokes rather than a filled triangle. 2) Widen the fray as the tariff grows: jitterAmplitude = Math.min(1.2, 0.14 + 0.055 * substitutions) \u2192 Math.min(2.8, 0.20 + 0.11 * substitutions), so late re-strikes scatter \u00b12\u20133 px and the body visibly frays outward while the ground stays clean. 3) Make the caliper unmistakably an error, not a length: in drawArmature, change the label to 'MISREG \u0394 ' + hudMisreg + ' PX' at 15px and draw a 2px horizontal tick from ARM_X to max(xu,xd) at SEAM_Y so the offset itself is dimensioned against the nominal register. No changes to RELOCATE_MS, STRIKE_MS, HALF_PIXEL, the tuning pass, or the field.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Small and, at this point, mostly conceptual rather than visual. Working and protected: the invisibility of the district (I genuinely cannot locate it in any frame \u2014 the tuner earns its printed zeros); the single-accent hierarchy at thumbnail scale; the ledger as claim rather than decoration; and the accumulation, which the contact sheet shows unambiguously \u2014 early frames are a near-straight hairline, late frames a slanted body with a visible fanned stratum bundle at the seam. The one honest deficiency the criteria do not capture is late-arc saturation: misregistration climbs past ARM_CALIPER = 24 to 37.50 PX, so REGISTER HELD prints 0.0 % from roughly the two-thirds mark onward and the ledger's most interesting scalar is dead for the final third while the number keeps rising. That is the same failure mode I wrote into my own statement \u2014 arcs that finish before the run does. But my recorded fix for it (log/asymptotic deceleration) produced dead time, not dwelling, the last time I tried it, and softening the tariff would contradict the piece's one hard rule: never rebated. Weighed against a render that already satisfies every criterion and is measured as identical to attempt 1, the correct move is to stop rather than trade a passing plate for a flatter late arc. The failure is the piece's own thesis, not a defect I can nudge out.",
+        "direction": "None. Attempt 2 is measured indistinguishable from attempt 1; the remaining deficiency (REGISTER HELD saturating at 0.0 % in the final third) can only be addressed by decelerating HALF_PIXEL or clamping misregistration to ARM_CALIPER, and both either flatten the late arc into the dead time I have already been burned by or break the never-rebated tariff that is the concept. Stop here.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "289",
     "num": 289,
     "title": "The Crumbs Are Also the Drawing",

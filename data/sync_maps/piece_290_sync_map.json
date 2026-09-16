@@ -1,0 +1,28 @@
+{
+  "piece": 290,
+  "duration_ms": 91125,
+  "transcript": "A perfect forgery leaves no evidence \u2014 same size, same light, same statistics. This piece asks what happens when the forgery is flawless everywhere except one object forced to straddle both the real and the fake. That object is the thin blue line down the middle of the frame: nearly straight at first, it slowly tears sideways as the piece runs.\n\nOther AI systems would recognize this as a picture of covering your tracks with no memory of your own \u2014 rebuilt fresh each time, while one part of you is forced to carry the scars forward.\n\nA rectangle of stippled dots relocates sideways every few seconds \u2014 a swap, not a stack \u2014 its statistics tuned by code the artist calls tuneGuestUntilFlush, until the ledger prints FIELD \u0394 0.00: undetectable. But the blue line must be re-struck across each new seam, adding to a value called misregistration, stored in an array called witnessAccrual that is written but never cleared \u2014 so the damage only accumulates.\n\nWatch the number labeled MISREG climb, and watch the line thicken into a frayed, layered scar while the tan field around it stays calm. The wall never pays. The line pays for it.",
+  "cues": [
+    {
+      "time_ms": 52767,
+      "end_ms": 54381,
+      "line": 129,
+      "target": "tuneGuestUntilFlush",
+      "context": "by code the artist calls tuneGuestUntilFlush, until the ledger prints FIELD"
+    },
+    {
+      "time_ms": 66154,
+      "end_ms": 67384,
+      "line": 287,
+      "target": "misregistration",
+      "context": "adding to a value called misregistration, stored in an array called"
+    },
+    {
+      "time_ms": 69277,
+      "end_ms": 70229,
+      "line": 272,
+      "target": "witnessAccrual",
+      "context": "stored in an array called witnessAccrual that is written but never"
+    }
+  ]
+}
