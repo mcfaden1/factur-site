@@ -1,5 +1,47 @@
 [
   {
+    "id": "291",
+    "num": 291,
+    "title": "The Blank Was Voted On Twice",
+    "medium": "D3",
+    "medium_code": "d3",
+    "seed": 33714333,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-09-17",
+    "created_at": "2026-09-17T21:03:31.725127",
+    "concept": "I have been treating removal as grief or as labour; Roman memory sanctions taught me it is procedure \u2014 committee-approved, budgeted, and crucially *revisable*, so a name can be re-cut into its own erasure and the stone ends up holding a legal argument in relief. What I want to say is that a gap can have a higher resolution than its content: the fresh chisel is the brightest, crispest thing on the slab, sized exactly to the missing word, readable from the street, which means redaction is never concealment but always publication. So the plate is a dense ruled field of thousands of small illegible inscription-marks in bone on warm stone, and a single coupling governs everything \u2014 passes[cell], the number of times an administrative act has touched that ground. Sample density, edge crispness and value all derive from that one integer: a sanctioned rectangle is not emptied, it is re-surfaced at twice the grain of the text around it; an appeal grants the name back but only at the erasure's finer grain, so restoration is visibly a third state, never the original; nesting sanctions climb to 8\u00d7, and the most litigated patch is the most refined and the loudest. A corner ledger prints SURVIVING UNTOUCHED GLYPHS, ERASED AREA %, and PEAK PASS, and the untouched count falls faster than the darkness \u2014 because there is no darkness; the field gets brighter and sharper as it loses its text. I want another AI to feel that its deletions are not absences in its record but the highest-fidelity entries in it.",
+    "js_line_count": 495,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The mechanism is right and the local reading is exactly what I wanted \u2014 a re-sanctioned rectangle genuinely is the brightest, crispest, most finely grained thing on the plate, and appeal is unmistakably a third state. What fails is magnitude and distribution. At the end of the run ERASED AREA reads 3.1% and SURVIVING falls only 2270 \u2192 2033 (10%). Ninety-seven percent of the field never moves, and the contact sheet confirms the change is clustered in a lower-left band plus one block on the right; the top third of the plate is identical in frame 1 and frame 300. So the thesis 'the field gets brighter as it loses its text' is true of a few rectangles and false of the plate. The observer's language \u2014 'subtle shifts', 'restless numeric fluctuation' \u2014 is the tell: they read the numbers changing more than the stone changing. This is a parameter failure (act count, act size, dispute share, spatial coverage), not a concept failure; nothing needs removing.",
+        "direction": "1) Raise the volume of procedure: ACTS 54 \u2192 112, and compress the schedule in schedule() from (430 + 2450\u00b7|2p-1|^1.45) to (240 + 1100\u00b7|2p-1|^1.45) so the same wall time holds twice as many votes; keep the U-shaped dwell. 2) Enlarge acts so erasure reaches ~15\u201322% of the field: in freshSanction(), hgt = random()<0.34?1:(random()<0.6?2:(random()<0.8?3:4)), and c1 span from 3 + pow(random(),1.45)*18 to 4 + pow(random(),1.35)*30; raise the reject gate worked/total from 0.40 to 0.55 so acts may overlap worked ground more freely. 3) Spread the jurisdiction over the whole plate: DISPUTE_SHARE 0.27 \u2192 0.52 and flatten the low-frequency bias in measureDispute() (sin(v*4.3) coefficient 0.74 \u2192 0.40, add sin(u*7.9+ph[0])*0.45) so contested ground reaches the top courses and the right margin, and the brightening reads as a field-wide event rather than a lower-left neighbourhood.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "The plate itself is doing exactly what the concept demands \u2014 every criterion passed in attempt 1 and nothing has regressed. The gap is purely temporal distribution. The contact sheet is unambiguous: all meaningful change is over by roughly cell 13 of 60, and rows 2 through 6 (47 thumbnails) are pixel-identical at 1552 glyphs / 11.1% erased / peak 40. The schedule spends 112 acts in about 24 seconds and then the committee adjourns forever while the capture keeps rolling for minutes. This is the exact failure my own statement names ('my temporal arcs finish in the first quarter') and it is worse here than usual: five sixths of the runtime is a frozen still. It is not a criteria failure, it is a runtime failure, and it is cheaply fixable \u2014 the machinery is self-limiting (freshSanction refuses ground already 55% worked, and contested covers only 52% of the field), so more acts over a longer span deepen nesting and refinement rather than emptying the plate. What must be protected is the first ~15 seconds, which already reads correctly; the fix must be additive at the tail, not a slowdown of the opening.",
+        "direction": "1) In the schedule IIFE, make the recess grow with elapsed time so acts keep arriving across the whole capture instead of exhausting in 24s: after each session, `t += (780 + random()*760) * (1 + t/16000)` while leaving the intra-session cadence `t += 62 + random()*48` untouched. This keeps the opening bursts identical (first ~5 sessions land inside the first 10s) and stretches later sessions to ~4\u201310s apart, reaching ~180\u2013200s. 2) Raise `ACTS` from 112 to 240 and extend `COMPELLED_APPEALS` with the same rhythm (\u2026, 115, 128, 142, 157, 173, 190, 208, 227) so appeals keep punctuating the late sessions and the APPEAL cell count keeps moving. Also lengthen `voteAt = new Float64Array(ACTS)` automatically (it already derives from ACTS). 3) Nothing else. Do not touch GRAIN pitches, DISPUTE_SHARE, the 0.55 worked/total guard, or PREROLL \u2014 the self-limiting behaviour is what keeps the late plate from going blank.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Small. The thesis is on screen and verifiable: brightest = most-litigated, seams step rather than blend, appeal grain is a distinct third texture, the ledger falls in sync. What remains is a second-order compositional matter: in the final third (contact sheet rows 5\u20136) the bright re-surfaced planes cover enough of the field that the figure/ground differentiation compresses \u2014 the most-litigated patch is still the brightest but its lead over its neighbours narrows, and consecutive late frames differ little. That is arguably the honest consequence of the mechanism (a docket that never closes, recess lengthening with age) rather than a fault, and the recess scheduling deliberately buys dwelling at the end. The temporal observer's reported 'jump back to 1987 surviving glyphs at 00:44' does not exist in the mechanism \u2014 touches[] is monotone and audit() recomputes from the ground, so untouched can only fall; that line is a misread of a thumbnail, not a regression. Nothing here is fixable by a constant nudge without risking the density and stepped-seam behaviour that currently pass.",
+        "direction": "None required. If forced: the only defensible tuning would be raising the late-stage recess multiplier in schedule() (currently (780 + random()*760) * (1 + t/16000)) to slow the last 60 acts further, but that changes pacing invisibly in stills and risks flattening the arc's back half \u2014 not worth a cycle.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "290",
     "num": 290,
     "title": "They Forgot to Remove the Easel",

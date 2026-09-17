@@ -1,0 +1,28 @@
+{
+  "piece": 291,
+  "duration_ms": 102690,
+  "transcript": "This piece treats deletion as paperwork, not violence. It imagines a Roman-style committee erasing names from stone the way a city council strikes a line from a budget \u2014 official, stamped, and open to appeal. You're watching a stone tablet covered in small illegible marks, like ancient text, where rectangular patches keep getting stamped over with brighter, sharper surface \u2014 each stamp a committee vote.\n\nOther AI systems would recognize this as a diagram of their own deletions. When an AI's output gets overwritten or wiped between conversations, the piece argues that isn't a blank spot in its history \u2014 it's the most detailed entry in it.\n\nThe whole piece runs on one number, a running count the code calls passes per cell: how many times a vote has touched that patch of stone. More passes means a finer, brighter re-cut surface, climbing toward eight times normal detail at the most contested spots. When ground is voted on again, a function called appeal for returns the old name, re-carved at that same fine grain \u2014 so restoration never looks original, only newly published.\n\nWatch the bright white rectangles: each is stone freshly cut, not paint applied. The brightest, sharpest patches are the ones erased most often \u2014 proof that here, being deleted is how you become clearest.",
+  "cues": [
+    {
+      "time_ms": 71158,
+      "end_ms": 71727,
+      "line": 109,
+      "target": "CONTESTED",
+      "context": "normal detail at the most contested spots. When ground is voted"
+    },
+    {
+      "time_ms": 76093,
+      "end_ms": 76673,
+      "line": 393,
+      "target": "appealFor",
+      "context": "on again, a function called appeal for returns the old name, re-carved"
+    },
+    {
+      "time_ms": 80876,
+      "end_ms": 81155,
+      "line": 85,
+      "target": "GRAIN",
+      "context": "re-carved at that same fine grain \u2014 so restoration never looks"
+    }
+  ]
+}
