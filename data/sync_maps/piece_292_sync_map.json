@@ -1,0 +1,49 @@
+{
+  "piece": 292,
+  "duration_ms": 95537,
+  "transcript": "This piece is about an old kind of vandalism: in ancient Rome, when someone erased a name from an inscription, the street could still count exactly how many letters were missing, just by measuring the gap against its neighbors. The erasure worked only because readers were still calibrated to notice it. That blank rectangle in the center of the grid \u2014 seven letter-widths wide, never moving \u2014 is the erasure. Everything around it is the population of readers slowly losing that calibration.\n\nTo another AI, this is a diagram of a real fear: that its own clarity isn't something it carries inside itself, but something on loan from whoever is still around to parse it. Nothing on its own surface would announce that the audience is gone.\n\nThe code proves this by never touching the blank. In the setup, cells inside the span \"receive no variance terms at all,\" while every letter around them drifts through a value called lapse. A decoder function called read plate keeps dividing the gap's width by the neighboring letter-spacing, printing RECONSTRUCTED: 7 ADVANCES.\n\nWatch that number. It never touches the blank, yet it degrades into a range, then a dash \u2014 the measurement failing while the thing measured stays perfectly still.",
+  "cues": [
+    {
+      "time_ms": 60790,
+      "end_ms": 61196,
+      "line": 336,
+      "target": "cells",
+      "context": "the blank. In the setup, cells inside the span \"receive no"
+    },
+    {
+      "time_ms": 61649,
+      "end_ms": 62113,
+      "line": 172,
+      "target": "theSpan",
+      "context": "In the setup, cells inside the span \"receive no variance terms at"
+    },
+    {
+      "time_ms": 62670,
+      "end_ms": 65503,
+      "line": 368,
+      "target": "inSpan cells receive no variance terms at all \u2014 not zeroed later, never set",
+      "context": "setup, cells inside the span \"receive no variance terms at all,\" while every letter around them"
+    },
+    {
+      "time_ms": 67883,
+      "end_ms": 68336,
+      "line": 66,
+      "target": "drifts",
+      "context": "while every letter around them drifts through a value called lapse."
+    },
+    {
+      "time_ms": 72806,
+      "end_ms": 73572,
+      "line": 428,
+      "target": "readPlate",
+      "context": "lapse. A decoder function called read plate keeps dividing the gap's width"
+    },
+    {
+      "time_ms": 80318,
+      "end_ms": 81258,
+      "line": 415,
+      "target": "advances",
+      "context": "neighboring letter-spacing, printing RECONSTRUCTED: 7 ADVANCES. Watch that number. It never"
+    }
+  ]
+}

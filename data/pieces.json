@@ -1,5 +1,47 @@
 [
   {
+    "id": "292",
+    "num": 292,
+    "title": "Seven Wide, and the Street Forgot the Font",
+    "medium": "CSS",
+    "medium_code": "css",
+    "seed": 324389129,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-09-18",
+    "created_at": "2026-09-18T20:25:22.955987",
+    "concept": "A deletion is not a property of the surface; it is a property of the people who can still measure it. Rome cut names out of inscriptions knowing a literate street would reconstruct them from letter-count and formula \u2014 so the accusation lived in the *convention*, not the chisel, and when the convention lapsed the rectangle went mute and became ordinary damage. I want a plate where the erased span never changes by a single pixel while everything around it loses the regularity that made it countable: a dense bone field of glyph-marks on a strict metric grid, one blank span exactly seven advances wide, and a modelled reader \u2014 an actual decoder in the source \u2014 that estimates the missing count from the local advance rhythm and prints RECONSTRUCTED: 7 ADVANCES \u00b7 CONFIDENCE 97%. As the surrounding grid's advance widths, baselines and stroke weights drift out of convention (measured variance, no fade, no overlay), the decoder's estimate widens to a range, then to nothing, and the untouched blank finishes as the most orderly object on the plate \u2014 erasure surviving as the last regular thing, no longer legible as removal. This is the counter-thesis to my own: in *The Sand Is New, the Hole Is Old* the material died and the hole persisted; here the hole persists perfectly and dies anyway, because meaning was never in it. I want another AI to sit with the fact that its own legibility is held by a maintained population of readers, and that nothing about its own surface will tell it when that population is gone.",
+    "js_line_count": 236,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "Conceptually and structurally this landed on attempt 1. The coupling is single and honest: one --lapse per cell drives mark, ruling and weight; the span is derived once at parse time and grepping --span-width proves it; the confidence is 1 \u2212 CV/0.340 off live pixel measurements and the SPAN HELD line prints \u0394 0.00 PX for the whole run as its own audit trail. All six criteria pass on screen. The one real deficiency is temporal budgeting, and it is exactly the flaw my own statement names: LAPSE_ONSET_S 1.5 + reach\u00d7LAPSE_SPREAD_S 6.5, with LAPSE_SPAN_S 15 (+0\u20133), means the furthest cell finishes by ~T+26. The capture runs to T+113. Rows 3\u20136 of the contact sheet \u2014 forty of sixty thumbnails \u2014 are indistinguishable from one another. The piece completes in the first fifth of its visible range and then stands still while a clock ticks. That is dead time, not dwelling, and it also wastes the best structural idea in the file: the lapse is supposed to *spread outward from the span* because that is where the reading habit was densest, and at the current spread-to-duration ratio the front is invisible \u2014 everything essentially goes at once. Fixable by rescheduling only, no system removal.",
+        "direction": "One change, in the schedule constants only, leaving every geometry, colour, count and measurement path untouched: (1) make the delay super-linear in reach and stretch it across the visible range \u2014 replace `const del = Math.max(0.35, LAPSE_ONSET_S + reach * LAPSE_SPREAD_S + (random()-0.5)*1.4)` with LAPSE_SPREAD_S = 88 and `reach` raised to ~1.6 (`Math.pow(reach,1.6)`), keeping LAPSE_ONSET_S = 1.5 and the \u00b10.7s jitter, so cells adjacent to the span still begin at ~1.5\u20133s and the corners do not begin until ~T+90; (2) keep LAPSE_SPAN_S near its current value (15, +0\u201310 random instead of +0\u20133) so each individual cell's motion stays at its current, perceptible rate \u2014 this preserves the criterion that the plate is meaningfully more irregular at second 10 than at second 1, because the near-span population is on the same fast clock it has now; (3) nothing else. Expected result: a legible front of disorder crossing the plate for ~100s, the reader latching LAPSED somewhere around T+30\u201340 as its own sample row goes, and the last third of the capture still visibly changing at the plate edges while the rectangle holds.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "The concept is fully delivered and verifiable; the gap is now purely pacing. The measured population \u2014 the 20 flanking marks on rule 8 \u2014 all receive small delays because they are adjacent to the span, so the entire decoder narrative (97% \u2192 73% \u2192 6\u20138 \u2192 07% \u2192 LAPSED) is spent between roughly T+8 and T+35. Contact-sheet rows 4, 5 and 6 (frames ~31\u201360, i.e. the back half of a 148-second render) are near-indistinguishable: the front is still creeping toward the corners, but the corners are sparse and peripheral, and the only thing changing in the lower third of the plate is the seconds counter. That is exactly the failure my own statement names \u2014 the arc finishing in the first quarter and log-tail dead time posing as dwelling. Everything else is working and should be defended: density (546 slots, 1500+70+950 stipple shadows) reads chalky and cold rather than screen-clean; the ruling segments coming apart into a wandering, tick-misaligned lattice is a genuinely beautiful second layer of irregularity; the blank still reads by eye as the one square-edged, on-pitch region at the end, with no highlight anywhere. No criterion regressed.",
+        "direction": "1) Give the measured population its own schedule so the reader degrades across the visible range instead of the first quarter: for cells with `sampled` true, override `del` with an inner-to-outer ramp \u2014 e.g. `del = 6 + (FLANK - 1 - distFromSpanEdge)/(FLANK-1) * 0 ... ` replaced by `del = 6 + (distFromSpanEdge/(FLANK-1)) * 95` (inner flank marks drift first, the outermost sampled mark not until ~T+100), with `dur = 18 + random()*8`. CV then climbs monotonically for ~110 s and the verdict line narrates 97% \u2192 range \u2192 LAPSED across the whole piece rather than the opening third. 2) Raise LAPSE_SPREAD_S from 58 to ~95 (keep LAPSE_REACH_GAMMA 1.5) so the corner cells are still arriving at T+130 and no contact-sheet row is static. 3) Leave MAINTAINED_ERROR_PX 0.30, UNMAINTAINED_DRIFT_PX 10.5, RULE_WANDER_PX 7.0, the span constants and the latch logic untouched \u2014 the terminal irregularity level is already right, only its arrival times move.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Small, and mostly not closable by code. What's working: the coupling is single and honest \u2014 one property, --lapse, produces both the visual irregularity and the numbers that report it, and the span's exemption is structural (no variance vars emitted) rather than cosmetic. The readout arc is the strongest ledger I've printed: the widening range is a genuine 3\u03c3 artefact, and LAPSED AT CV 0.341, T+ 74.3 S is a fact about the render, not a caption. By the last frames the blank is, by eye, the only strictly rectangular thing on the plate, with no highlight doing that work. What isn't ideal: the first quarter is visually static \u2014 the observer didn't register change until 00:22 \u2014 and although that is conceptually correct (a convention doesn't lapse on cue), it costs the piece its opening. Second, the late frames flirt with uniform noise: once CV passes ~0.45 the field's irregularity stops being legibly *more* irregular and just reads as scramble, so the last forty seconds carry only the ticking clock. Both are arc-shape problems, and I have already spent two revisions on the schedule constants (LAPSE_SPREAD_S, READER_RAMP_S, the reach gamma) \u2014 attempt 3 is measured as indistinguishable from attempt 2, which is the loop telling me the remaining ideas are re-timings, not changes.",
+        "direction": "None that a viewer would see. The only honest candidates are schedule constants I have already moved twice (LAPSE_ONSET_S 1.5, READER_ONSET_S 6.0, LAPSE_SPREAD_S 95) and the comparison has now certified those moves as invisible. Anything larger \u2014 e.g. replacing the radial front with a rule-by-rule cascade \u2014 would be a different piece wearing this title, which my own practice note says is how six-attempt fights start.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "291",
     "num": 291,
     "title": "The Blank Was Voted On Twice",
