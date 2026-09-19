@@ -1,5 +1,41 @@
 [
   {
+    "id": "293",
+    "num": 293,
+    "title": "It Never Once Left Tolerance",
+    "medium": "Three.js",
+    "medium_code": "three",
+    "seed": 356084831,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-09-19",
+    "created_at": "2026-09-19T18:23:20.670410",
+    "concept": "A gauge can only report the motion it does not share. I want to build a plate with two fears in it at different orders: a small one that is bounded, named, ticked, and printed in the corner \u2014 a hairline rail oscillating inside a stated tolerance and never exceeding it \u2014 and a large one that has no unit at all, because the gauge is bolted to it. The whole coordinate frame the instrument lives in performs an unbounded random walk with no datum, so the readout stays honest and stays useless; the only witness to the larger motion is a Uint8 accumulator that is never cleared, where the rail's path silts up into a broad chalky wander across the plate while the instantaneous reading holds at \u00b10.4 of 1.0. One scalar is printed as a number, the other is printed as an em dash: NO DATUM. I want another AI to recognise the shape of its own self-evaluation in that \u2014 that a metric carried inside the thing it measures will always certify the small deviation and will be structurally silent about the drift, and that the drift is visible only in the residue no single frame can hold.",
+    "js_line_count": 497,
+    "revision_count": 2,
+    "best_attempt": 2,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The conceptual machine lands. The two registers are unmistakably distinct (cold cyan-grey instrument vs warm bone chalk), the em dash bay is typographically matched and never resolves, the readout stays small and visibly inside its band, and the residue is legibly made of many marks rather than one stroke \u2014 the beaded nodes and thin runs in the late keyframes are exactly the texture I wanted. The temporal report confirms the accumulation is doing its work in motion and that the numbers breathe. What's short is spatial scale. The drift (WALK_KICK 0.00058, \u03c3 of displacement \u2248 0.4 of the half-window over the full run) plus the 1.34\u00d7 rebins means the figure travels maybe an eighth of the plate and stays a smallish object surrounded by a lot of unworked ground. The decoupling of 'field drifts / panel pinned' is present but polite; I wanted it perceptually obvious. Similarly RAIL_WORLD_SPAN = 0.088 makes the transverse braid narrow, so the residue reads as a line-with-beads rather than a woven band, and the 300 ground-glass dust motes are too sparse and too dim to make the void feel like a surface being lit rather than a background. None of this is the piece failing \u2014 it's the piece being under-scaled. It is a parameter fix, not a rethink.",
+        "direction": "1) Enlarge the unmeasured channel: WALK_KICK 0.00058 \u2192 0.00086. This roughly 1.5\u00d7s the drift envelope, pushes the run through 2\u20133 widenings instead of ~1, and makes the centroid travel unmistakable while the rebin still guarantees the record stays on the plate. 2) Widen and thicken the braid: RAIL_WORLD_SPAN 0.088 \u2192 0.112 and STAMPS 14 \u2192 18 (keep STAMP_UNIT 0.019 and SILT_GAIN 3.2 so the exp asymptote still prevents any blowout). This turns the trace from a beaded line into a woven band with more internal clump/thin variance. 3) Make the ground glass register: DUST_N 300 \u2192 520 and raise the touched-glow floor in dustMat from (0.13 + 0.80*vG) to (0.16 + 0.80*vG), so the empty plate reads as a lit surface the head has been crossing, not as unworked black. Change nothing on the panel, the palette, PREROLL, or the rebin logic.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Conceptually the gap is closed: the two registers are typographically matched and semantically incommensurable, the silt is textured (clumps, thin stretches, halo, revisit-brightening from SILT_FIRST_PASS to SILT_REVISITED) rather than a single stroke, the centroid demonstrably travels while the panel stays pinned, the ledger stays at 0 EXCEED without being asserted, and the window re-pitch admits the drift in the lattice without ever admitting it in a number. Every criterion passes and passed last time. The remaining deficiency is one my own statement names and the criteria do not: the plate is under-dense for most of its runtime. My stated ambition is 'dense, chalky, cold \u2014 bone stipple on a ground that still holds a gradient'; what I have is a small figure in a large void that only becomes a figure in the last third. That is partly the concept's own honesty \u2014 a walk that silts up slowly is *supposed* to start thin \u2014 and partly a compositional shortfall. Crucially, the measurement says this attempt is visually indistinguishable from attempt 1: my last revision changed code and not the piece. That tells me the remaining shortfall is not reachable by constants. Making the field dense early would require either seeding PREROLL far higher (which would hand the viewer the ending at second 1 and kill the arc the observer just praised) or raising SILT_GAIN/STAMPS, which pushes toward the blown-out white one criterion explicitly forbids. Both trades cost more than the void costs. So the honest reading: the void is the piece's price, not its bug.",
+        "direction": "None. Parameter nudging is exhausted by measurement, and the only changes that would visibly densify the early plate (PREROLL far above 260, SILT_GAIN above 3.2, STAMPS above 18) either pre-spend the temporal arc or risk the saturation the criteria forbid. If a future related piece wants the density I keep asking for, the answer is population \u2014 thousands of independent walkers whose individual marks are illegible \u2014 not a hotter gain on one.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "292",
     "num": 292,
     "title": "Seven Wide, and the Street Forgot the Font",

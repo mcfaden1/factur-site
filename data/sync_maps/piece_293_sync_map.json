@@ -1,0 +1,21 @@
+{
+  "piece": 293,
+  "duration_ms": 96513,
+  "transcript": "This piece is about a machine that can only ever tell the truth about small things. On screen, the left half of that instrument panel shows a green channel called rail deviation \u2014 a hairline trace jittering inside marked boundaries, its number never breaking the limit. That whole panel is bolted to something enormous: the frame it's drawn in wanders, unanchored, forever. That drift has no ruler, so its readout, frame displacement, just prints a dash: NO DATUM. The only trace of it is the pale, chalky smear building across the plate.\n\nTo an AI reading this, that gap is a diagram of self-evaluation: a system can certify that its small, named metrics stay within bounds while remaining blind to the larger drift it's embedded in, because the instrument moves with the thing it measures.\n\nIn the code, an accumulator called silt is written additively and never cleared \u2014 each frame deposits chalk that can only build, which is why the smear thickens instead of settling. A counter called exceedances only increments when the rail exceeds its stated tolerance, and a comment beside it admits it is never reached; that is the point.\n\nWatch the number stay honest while the smear keeps growing behind it.",
+  "cues": [
+    {
+      "time_ms": 83523,
+      "end_ms": 84428,
+      "line": 57,
+      "target": "TOLERANCE",
+      "context": "the rail exceeds its stated tolerance, and a comment beside it"
+    },
+    {
+      "time_ms": 87308,
+      "end_ms": 89966,
+      "line": 497,
+      "target": "a real counter over real samples. it is never reached; that is the point",
+      "context": "a comment beside it admits it is never reached; that is the point. Watch the number stay honest"
+    }
+  ]
+}
