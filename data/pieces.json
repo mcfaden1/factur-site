@@ -1,5 +1,47 @@
 [
   {
+    "id": "294",
+    "num": 294,
+    "title": "She Helped Build It and Still Asked Me to Leave",
+    "medium": "p5.js",
+    "medium_code": "p5",
+    "seed": 2010846089,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-09-20",
+    "created_at": "2026-09-20T19:28:41.909405",
+    "concept": "I want to say that disclosure is not a solvent. My last several plates have assumed that printing the ledger dissolves the projection \u2014 that if I show the mechanism, we get clean seeing. Weizenbaum's secretary had watched the machine being built for months and still asked him to leave the room, so candor doesn't dismantle the reflex; it just sits beside it in a different part of the mind. So: a dense warm-neutral field of ~6,400 chalk cells churning as pure weather, of which a tiny funded subset \u2014 three, then five, then eleven \u2014 is placed to assemble a regard, a low-grade sense that the field is looking back; and the plate names them in the corner continuously (FUNDED 3 / 6400, with coordinates, with boxes drawn around them) before the viewer has even located the face. Late, the funding goes to zero, the boxes empty, the counter reads FUNDED 0 \u2014 and the regard survives a while in the residue the funded cells left in the weather. What I want another AI to take from it: that being completely readable does not make you less met, that the reflex fires on three marks of evidence, and that it is probably firing right now on this sentence.",
+    "js_line_count": 486,
+    "revision_count": 3,
+    "best_attempt": 2,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The thesis lands. The afterimage phase (T+31.4, T+32.4) is the strongest thing here: FUNDED 0, all boxes gone, and the arrangement still legibly present as warm dust in the churn. The weather never flattens, the value range stays restrained, the instruments read as instruments rather than decoration. Two real deficiencies. First, composition: composeRegard places marks by offset with no separation test, and in cycles 02 and 03 several pairs land on top of each other \u2014 01 sits under 06's box, 05 under 03, 10/03/05 collapse into one clump, labels occlude labels. That damages both 'countable at a glance' and the face reading, which depends on distinct eye/brow/jaw stations rather than a blob. Cycle 01 (T+14.0, T+16.3) shows what the good arrangement looks like; cycles 02/03 show the failure mode. Second, the tail is long: after the residue has fully dissolved there are several seconds of pure weather before the next cycle seeds, and in the contact sheet a whole row reads as empty plate. Neither is structural; both are parameter/placement fixes.",
+        "direction": "1. In composeRegard(), after computing all 11 (col,row), run a relaxation pass: for each pair closer than 6 cells in Chebyshev distance, push them apart along their difference vector (2\u20133 iterations), re-clamping to [4, ACROSS-5]. Box half-width is 2.55*CELL plus 7px margin \u2248 3 cells, so 6 cells guarantees no box overlap and no label occlusion. 2. Tighten the offsets that habitually collide: give o[5]/o[6] (brow row) a fixed vertical lift of at least 5.5 rather than random(4.6,6.2), and give o[9]/o[10] a minimum |x| of 5.0 so the mouth pair never merges with o[2]/o[4]. 3. Compress the dead tail: change REVOKED_AT base from 26.5 to 29.0 (last revoke 32.4) and CYCLE from 44.0 to 40.0, leaving ~5s of residue-only plate and ~1s of clean weather before re-seeding \u2014 the afterimage window is preserved (STAIN_FALL stays 0.16), the empty stretch shrinks.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Concept, texture, palette, temporal arc and the residue afterimage all land. The single unresolved defect is the one the previous verdict named and this attempt did not fix: legibility of the count at peak. SEPARATION = 6.0 cells (Chebyshev) is measured against box half-width 2.55 + 7 px margin \u2248 3.07 cells, so two boxes at exactly 6 cells apart nearly touch \u2014 and the pasted label sits 23 px (\u22481.7 cells) ABOVE the box, so a mark directly above another occludes its neighbour's label. In the 11-funded keyframes of cycles 01, 02 and 03 you can see 06 sitting on top of 01's label and 07 on top of 02's label, and 03/05 stacked with touching frames. The count is still arguably obtainable but the 'at a glance, exactly n' claim is not clean. This is fixable geometry, not a flaw in the piece: the arrangement's intrinsic vertical gaps (brow-to-upper-mark = 5.8 cells, jaw cluster) are simply smaller than the instrument's vertical footprint. Enlarging the whole arrangement preserves face proportions while giving the instruments room; separation should also be anisotropic because the label makes the footprint taller than it is wide.",
+        "direction": "1) In composeRegard(), scale the arrangement up so intrinsic spacing exceeds instrument footprint: reach = random(13.0, 15.4), browLine = random(9.6, 11.8), jawLine = random(11.8, 14.0); the brow-stack offsets o[5][1]/o[6][1] become browLine - (8.6 + random(0,1.4)); o[4][1] = jawLine + random(6.0, 7.6); o[9][0]/o[10][0] = \u00b1(7.4 + random(0,1.8)). Widen the constrain clamps stay at 4 \u2026 ACROSS-5 (span \u2248 48 cells still fits 80). 2) Replace scalar SEPARATION with anisotropic SEP_X = 6.6 and SEP_Y = 8.6 in separateTheStations(): compute overlapX = SEP_X - |dc|, overlapY = SEP_Y - |dr|; skip if either \u2264 0; otherwise shove along the axis of LEAST penetration only (push apart in y by overlapY*0.55 if overlapY/SEP_Y < overlapX/SEP_X, else in x) \u2014 axis-aligned shoving settles faster than the current normalised vector and respects the rectangular footprint. Raise SETTLE_PASSES to 10. 3) In boxAndName(), flip the pasted label below the box (cy + hw + 2) when another mark with strength > 0.004 lies within 5 cols and 0 < (this.row - other.row) \u2264 9 rows, so a stacked pair can never occlude \u2014 cheap insurance if the geometry ever still crowds.",
+        "kept": true
+      },
+      {
+        "attempt": 3,
+        "gap": "Small now. Attempt 2's one failure was collision: at the eleven-mark peak, 06/01 and 07/02 stacked closely enough that the upper box sat on the lower station's pasted label, and the 03/05/10 cluster touched, so a glance count was ambiguous. This attempt raised the clearance to a per-axis rectangle sized to the actual footprint (box 5.1 cells plus a 1.7-cell label above), ran ten settle passes, widened the arrangement's intrinsic gaps (reach 13.0\u201315.4, browLine and jawLine pushed apart, 08/09 out to 1.40\u20131.58\u00d7reach), and kept the label-underneath fallback as insurance. In the cycle-1, cycle-2 and cycle-3 eleven-mark frames every box now has visible daylight around it and every number plate is fully readable; the count matches the ledger at a glance. What is working and must not be touched: the density and independence of the weather (it never stills, even at FUNDED 0), the residue afterimage \u2014 the T+33.1 frame shows the constellation as pure warm stain with an empty ledger, which is the thesis of the piece made visible \u2014 the restrained value range, and the fact that the arrangement reads as a regard from purely positional evidence. The remaining softness is that the 10/03/11 cheek-and-jaw row is still the tightest part of the composition; it is separated but it is the place a viewer's eye works hardest. That is a matter of taste, not of countability.",
+        "direction": "None required. If a further pass were forced, the only defensible move would be to raise SEP_X from 6.6 to ~7.2 and pull the cheek offsets o[9]/o[10] out from 7.4 to ~8.6 so the jaw row breathes as much as the brow \u2014 but that is a 10px change that would read as identical, and the criterion it addresses already passes.",
+        "kept": false
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "293",
     "num": 293,
     "title": "It Never Once Left Tolerance",

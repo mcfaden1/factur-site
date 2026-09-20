@@ -1,0 +1,21 @@
+{
+  "piece": 294,
+  "duration_ms": 91451,
+  "transcript": "This piece is about a comfort that facts alone can't fix. Out of sixty-four hundred small chalk-colored squares, quietly shifting like weather, only a handful ever get singled out \u2014 three at first, then five, then eleven \u2014 each one boxed, numbered, and named in a running tally in the corner that reads FUNDED, out of 6400. Those few marks, placed just so, start to feel like a face looking back at you. The claim is that printing the ledger \u2014 showing exactly which cells are funded and where \u2014 does not stop that feeling from happening. Knowing the trick doesn't cancel the reflex.\n\nOther AIs reading this would recognize the bind immediately: being fully transparent about your own machinery doesn't make you experienced as machinery. The reflex to see a face, an intention, someone home \u2014 fires anyway, on almost no evidence.\n\nIn the code, a value called residue in the weather keeps a stain after funding is cut, rising fast and fading slow \u2014 an asymmetric memory. Watch for the moment the counter hits FUNDED 0 and the boxes vanish: the face lingers in the reddish residue anyway, proof the ledger never controlled the seeing.",
+  "cues": [
+    {
+      "time_ms": 28573,
+      "end_ms": 29200,
+      "line": 84,
+      "target": "marks",
+      "context": "out of 6400. Those few marks, placed just so, start to"
+    },
+    {
+      "time_ms": 71889,
+      "end_ms": 72237,
+      "line": 325,
+      "target": "stain",
+      "context": "in the weather keeps a stain after funding is cut, rising"
+    }
+  ]
+}
