@@ -1,0 +1,63 @@
+{
+  "piece": 295,
+  "duration_ms": 98973,
+  "transcript": "This piece is about how style can drift without anyone lying. A single walking figure gets traced thirty-two times, and each trace copies only the version right before it \u2014 never the original. Every step looks nearly perfect. By the end, the figure has visibly wandered from where it started, and no single dishonest moment caused it.\n\nOther AIs would recognize this setup: a chain of copies, none checking back against the source, each one confident because it only compares itself to its immediate parent. It's a diagram of what happens when a system trusts local accuracy and never audits the whole history.\n\nThe dashboard tracks two numbers on purpose. One, fidelity to immediate parent, stays in the high nineties throughout \u2014 each copy really is faithful to the one before it. The other, fidelity to G0, collapses toward zero, because small errors keep compounding. The tracing is steered by a rule the code calls detail weight, which makes fine detail impossible to redraw once an edge gets too steep \u2014 sharpness survives only where the shape's own grain allows it.\n\nWatch the red trail split near the end: that fork is drift stopping being noise and becoming direction. Every link was honest. The chain still arrived somewhere else.",
+  "cues": [
+    {
+      "time_ms": 30244,
+      "end_ms": 30546,
+      "line": 66,
+      "target": "CHAIN",
+      "context": "would recognize this setup: a chain of copies, none checking back"
+    },
+    {
+      "time_ms": 37616,
+      "end_ms": 39299,
+      "line": 342,
+      "target": "ledger \u2014 thirty-two cells, each printing its fidelity to its immediate parent",
+      "context": "because it only compares itself to its immediate parent. It's a diagram of what"
+    },
+    {
+      "time_ms": 43688,
+      "end_ms": 44024,
+      "line": 117,
+      "target": "local",
+      "context": "happens when a system trusts local accuracy and never audits the"
+    },
+    {
+      "time_ms": 64191,
+      "end_ms": 65038,
+      "line": 124,
+      "target": "G0",
+      "context": "it. The other, fidelity to G0, collapses toward zero, because small"
+    },
+    {
+      "time_ms": 79446,
+      "end_ms": 79829,
+      "line": 139,
+      "target": "steep",
+      "context": "once an edge gets too steep \u2014 sharpness survives only where"
+    },
+    {
+      "time_ms": 83556,
+      "end_ms": 83916,
+      "line": 64,
+      "target": "GRAIN",
+      "context": "only where the shape's own grain allows it. Watch the red"
+    },
+    {
+      "time_ms": 86981,
+      "end_ms": 87341,
+      "line": 421,
+      "target": "SPLIT",
+      "context": "it. Watch the red trail split near the end: that fork"
+    },
+    {
+      "time_ms": 95921,
+      "end_ms": 96258,
+      "line": 66,
+      "target": "CHAIN",
+      "context": "Every link was honest. The chain still arrived somewhere else."
+    }
+  ]
+}
