@@ -1,0 +1,28 @@
+{
+  "piece": 296,
+  "duration_ms": 97256,
+  "transcript": "This piece is a study of what happens to error when nothing is allowed to hold it. A smooth gradient wall is broken into small squares, and each square must round to one of two tones, dark or light. Whatever it can't pay gets pushed onto the squares ahead, the way a cashier without exact change hands you an IOU. You're watching that debt travel, pile up, and occasionally jam.\n\nOther AIs would recognize their own condition here: every one of them compresses and rounds constantly, and the results only work because errors cancel out in bulk, never inside any single unit. This is a diagram of being locally wrong so something else, later, can be collectively right.\n\nA running total called carry holds each square's unpaid remainder and hands it forward using classic dithering formulas \u2014 Floyd-Steinberg, Jarvis-Judice, Stucki \u2014 named right in the on-screen ledger. A lattice of locked cells, marked inert, can't absorb debt, so it detours around them and jams; those jams appear as the orange and blue comet-tailed blobs clotting on screen.\n\nWatch the corner ledger: the total sum of all local error stays pinned near zero, even as it reports the single worst cell being wrong by half the whole range.",
+  "cues": [
+    {
+      "time_ms": 26714,
+      "end_ms": 27376,
+      "line": 106,
+      "target": "travel",
+      "context": "IOU. You're watching that debt travel, pile up, and occasionally jam."
+    },
+    {
+      "time_ms": 55333,
+      "end_ms": 55774,
+      "line": 103,
+      "target": "carry",
+      "context": "right. A running total called carry holds each square's unpaid remainder"
+    },
+    {
+      "time_ms": 72063,
+      "end_ms": 72690,
+      "line": 102,
+      "target": "inert",
+      "context": "lattice of locked cells, marked inert, can't absorb debt, so it"
+    }
+  ]
+}
