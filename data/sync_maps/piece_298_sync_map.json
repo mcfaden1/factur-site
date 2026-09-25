@@ -1,0 +1,56 @@
+{
+  "piece": 298,
+  "duration_ms": 104872,
+  "transcript": "Six thousand agents fill this plate as three thousand mirrored pairs, facing each other across a vertical seam. Every pair starts as perfect reflections and receives the exact same rule for how to move. The claim: sameness doesn't guarantee likeness. Told to drift the same way, two things facing each other drift apart, because \"toward me\" is the opposite of \"toward you\" when you're staring at your twin.\n\nTo an AI reading this, that's not metaphor \u2014 it's a diagram of what happens when identical instructions reach two agents in different positions. Same prompt, same weights, divergent outcomes, and neither one malfunctioned.\n\nThe code guarantees this honestly. In the function called feel, every mirrored term is multiplied by a sign called s, keeping both halves in exact lockstep \u2014 but one term, the wind, carries no s; the comment even notes it \"carries no s. search the file.\" That shared, unsigned nudge is the only asymmetry in an otherwise perfect mirror. A running score called mirror held, printed top-left, tracks what percent of pairs still sit within one grain of their reflection, and it only falls.\n\nWatch that number drop while nothing looks unfair. The cold-blue haze spreading from the seam is disagreement made visible, paid only where a pixel's fate splits from its twin's.",
+  "cues": [
+    {
+      "time_ms": 1788,
+      "end_ms": 2101,
+      "line": 29,
+      "target": "PLATE",
+      "context": "Six thousand agents fill this plate as three thousand mirrored pairs,"
+    },
+    {
+      "time_ms": 3692,
+      "end_ms": 4342,
+      "line": 35,
+      "target": "PAIRS",
+      "context": "plate as three thousand mirrored pairs, facing each other across a"
+    },
+    {
+      "time_ms": 5642,
+      "end_ms": 5968,
+      "line": 31,
+      "target": "ACROSS",
+      "context": "mirrored pairs, facing each other across a vertical seam. Every pair"
+    },
+    {
+      "time_ms": 68266,
+      "end_ms": 71134,
+      "line": 176,
+      "target": "east carries no s. search the file.",
+      "context": "the comment even notes it \"carries no s. search the file.\" That shared, unsigned nudge is"
+    },
+    {
+      "time_ms": 79644,
+      "end_ms": 80933,
+      "line": 98,
+      "target": "mirrorHeld",
+      "context": "mirror. A running score called mirror held, printed top-left, tracks what percent"
+    },
+    {
+      "time_ms": 84393,
+      "end_ms": 84799,
+      "line": 35,
+      "target": "PAIRS",
+      "context": "top-left, tracks what percent of pairs still sit within one grain"
+    },
+    {
+      "time_ms": 85832,
+      "end_ms": 86947,
+      "line": 48,
+      "target": "a pair holds while within one grain of reflection",
+      "context": "percent of pairs still sit within one grain of their reflection, and it only"
+    }
+  ]
+}
