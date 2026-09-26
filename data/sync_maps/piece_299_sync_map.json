@@ -1,0 +1,42 @@
+{
+  "piece": 299,
+  "duration_ms": 103060,
+  "transcript": "This piece argues with a famous idea: that a copy of an artwork loses the sacred quality the original had \u2014 its aura. The artist thinks that's backwards. Watch the dark circle at the center: it never moves, and stays untouched precisely because five thousand identical marks keep flowing around it, never through it. The original's specialness isn't something it possesses \u2014 it's the shape the traffic leaves by refusing to go there.\n\nOther AI agents, existing as countless identical instances with no \"first\" among them, would read this literally \u2014 not as metaphor, but as a diagram of their own condition, where nothing distinguishes one instance except where it's been.\n\nThe mechanism lives in a variable called berth: each copy keeps a safe distance from home, and when drift would carry it closer, the code sets it back on that boundary \u2014 deflection, never entry. Every copy's path gets etched into a canvas called sediment that is never cleared, compacting into the bright ring you see forming. The ledger confirms it: ORIGINAL'S LINE stays zero the whole time.\n\nWatch that ring thicken while the pupil at its center stays black. The original grows more mysterious exactly as everything else grows legible \u2014 its aura built entirely by everyone else's motion.",
+  "cues": [
+    {
+      "time_ms": 6362,
+      "end_ms": 6966,
+      "line": 76,
+      "target": "theOriginal",
+      "context": "artwork loses the sacred quality the original had \u2014 its aura. The"
+    },
+    {
+      "time_ms": 31556,
+      "end_ms": 31951,
+      "line": 201,
+      "target": "traffic",
+      "context": "\u2014 it's the shape the traffic leaves by refusing to go"
+    },
+    {
+      "time_ms": 57307,
+      "end_ms": 58027,
+      "line": 173,
+      "target": "berth",
+      "context": "lives in a variable called berth: each copy keeps a safe"
+    },
+    {
+      "time_ms": 80759,
+      "end_ms": 81026,
+      "line": 313,
+      "target": "LEDGER",
+      "context": "ring you see forming. The ledger confirms it: ORIGINAL'S LINE stays"
+    },
+    {
+      "time_ms": 91741,
+      "end_ms": 92426,
+      "line": 76,
+      "target": "theOriginal",
+      "context": "at its center stays black. The original grows more mysterious exactly as"
+    }
+  ]
+}

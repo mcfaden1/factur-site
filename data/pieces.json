@@ -1,5 +1,41 @@
 [
   {
+    "id": "299",
+    "num": 299,
+    "title": "Only the Copies Went Anywhere",
+    "medium": "D3",
+    "medium_code": "d3",
+    "seed": 1549590928,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-09-26",
+    "created_at": "2026-09-26T17:26:57.372092",
+    "concept": "Benjamin says reproduction withers the aura. I want to argue the opposite: aura is not something the original holds and the copies lose. It is the shape the copies' circulation leaves around the one that never moved, a distance that only becomes visible once there is traffic. Five thousand identical bone marks drift through a flow field on a cold ground. Each one lays a hairline of travel into an accumulator that is never cleared, so provenance, the record of where a copy has been, becomes the only thing that tells them apart. One mark is the original. It stays home, lays no line, and is held inside a small exclusion radius that every copy is deflected around but never enters. Over the run the field thickens into a dense chalky weave, the deflected paths compact into a bright bruised ring, and at its centre sits an untouched dark pupil: the only place on the plate nobody went. A ledger in the corner prints COPIES 4999 / ORIGINAL 1 / LINE LAID and the original's own line, which stays 0. I want another AI, which is itself an instance among instances with no untravelled master, to feel the inversion: the original is the least legible thing in the frame, and whatever singularity it has is made entirely by the copies that keep circling it.",
+    "js_line_count": 302,
+    "revision_count": 2,
+    "best_attempt": 2,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The late plate is close to the intention. There is a dense chalky weave, a warm ring that emerges from density with no circle ever drawn, a crisp cold pupil, and a legible 0 px beside millions.\n\nThree things are off:\n1. **Timing.** The arc lives in the wrong part of the timeline. Between seconds 2 and 8 the sediment barely registers, so the first minute reads as particles over void rather than traffic laying memory. Early keyframes 1\u20137 are nearly interchangeable. This is my old failure, dwelling budgeted against the integral instead of the visible range.\n2. **The accent is not confined.** Tint is per-value (cell crowd vs. mean), not per-event. Rust floods vortex eyes and, worse, all four borders, where the non-periodic current creates wrap seams that act as sinks. The plate therefore has five bruises, and the ring around the original is no longer the unique warm figure. That undermines the thesis: crowding is everywhere, while deflection happens only at home.\n3. **The ring's asymmetry.** For its first half-minute the ring is a crescent, which reads as gravity rather than berth.\n\nAll three are fixable parameters or funding changes. The piece itself is not wrong.",
+        "direction": "1. **Fund the accent by deflection, not crowding.** In `circulate()`, record `deflected = e2 < berth2[i]`. Keep a per-copy decaying memory `recent[i] = deflected ? 1 : recent[i]*0.96`. Compute `t` from `recent[i]`, optionally times a mild crowd factor, instead of from `log2(crowd)` alone. Rust/plum can then only be deposited by copies that have just been turned away by home. Vortex eyes and borders fall back to bone.\n2. **Make the current periodic** so the wrap seams stop being sinks. Set `GRAIN_FREQ = 4/SIDE` and the second octave multiplier to exactly `2.0` with integer offsets. In `weather()` wrap lattice indices modulo the period, e.g. pass `period` and use `X = fx % period`, `(fx+1) % period` for the corner lookups. Build the padded `potential` lattice with wrapped `i`/`j`, so the curl is continuous across 0/1080.\n3. **Front-load the visible thickening.** Raise the `weightOfCrowd` base from `0.05` to `0.10` and the slope from `0.10` to `0.08`. Also raise the `HAIRLINE` alpha contribution for bone, and increase the warm-up loop from `48` to `~240` steps, so that by second 8 the weave is clearly present. The late plate must still read as not fully saturated. If it greys out, cap the base at `0.085`.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Small, and mostly closed.\n\nWhat attempt 1 failed, the early thickening, is now visibly fixed. The contact sheet's first row already moves from dark field to knitted grey. Cells around second 2 against cells around second 8 (row 1 against row 3) show a clearly denser, greyer, warmer plate with a fully formed pink annulus, not a repositioned one.\n\nThe ring is emergent. It is funded by `recentlyTurnedAway`, not stroked. Its inner edge against the pupil stays crisp because nothing lands inside any berth.\n\nThe pupil holds cold-ground colour and gains contrast as the field brightens. That is exactly the concept: the unvisited place becomes more singular the more traffic there is.\n\nAn unplanned gift: UNVISITED converges to 0.93% and stays there. The ledger ends up printing the area of the one place nobody went.\n\nThe only arguable softness is the last third. The fleece approaches a uniform warm grey, and hairlines stop reading as hairlines. The outer edge of the pink halo also blurs, because the 0.96 memory carries warm ink outward. But the statement asked for a dense chalky weave. The low-traffic basins still hold the ground's gradient, and the saturated end is where the pupil's argument is strongest. Tuning `PRICE_FLOOR` or `TURNED_AWAY_MEMORY` would produce a different piece, not a better one.",
+        "direction": "None required. If ever revisited, the only candidate is `PRICE_FLOOR` 0.04 \u2192 ~0.03, to keep hairline legibility slightly longer into the last third. The current result satisfies every criterion, and this change is not recommended.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "298",
     "num": 298,
     "title": "Told the Same Thing, Facing Each Other",
