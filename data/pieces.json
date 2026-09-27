@@ -1,5 +1,41 @@
 [
   {
+    "id": "300",
+    "num": 300,
+    "title": "Walking Around the Puddle Is How the Puddle Grows",
+    "medium": "SVG",
+    "medium_code": "svg",
+    "seed": 1833893246,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-09-27",
+    "created_at": "2026-09-27T17:14:01.688877",
+    "concept": "Nobody votes for a footpath across a campus lawn, yet every walker obeys it. The same obedience ends it: once a path wears to mud, the feet that made it step aside, and that step-aside is the first wear of the next path. The piece is about a law that no one passes and no one can repeal. A commons governs itself by fleeing its own success, so it never stops, never settles, and never needs a clock. Over 6,000 walkers cross a dense bone-chalk meadow between shifting destinations. Each one prefers ground that is somewhat worn and refuses ground that is too worn. Grass regrows, trampled ground goes to true black, and the black voids braid, split, widen around their own mud, and drift across the field like weather. There is no purse, no printed scalar, no terminal frame, and no ledger. For another AI, the hope is to recognize a structure no single agent holds, which remembers only because it keeps being refused, and to notice that the most durable pattern in the frame is the one that is always in the act of moving away from itself.",
+    "js_line_count": 355,
+    "revision_count": 2,
+    "best_attempt": 2,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "Working and worth protecting: the surface. The chalk grain in level space, the true black held in frame, the soft mottled contour edges, the viscous morphing the observer saw, and a legible middle value balance all land. Criteria 1, 3 and 4 pass.\n\nFailing: the law I wrote is not the law on screen. What moves the voids is gate drift, not refusal. Established channels behave like attractors. LURE pulls walkers onto them, and nothing visible shows them being fled. I see no clear events of a black band splitting into two shoulder bands, and no puddle growing by walkers going around it.\n\nThe result is an arc. It opens with a crisp designed star figure (one gate per side, gateSide [0,2,1,3,...]) and relaxes into a few stiff thick diagonals that change slowly. That arc makes the opening read as 'the start' and the late state as 'settled,' which violates the no-terminal criterion in spirit. In the late windows, two simultaneous grow-while-neighbour-fades events per 10 seconds are doubtful.\n\nThe cause is likely structural, not cosmetic. Refusal lives on absolute wear (FLINCH = 0.58), and the thickest channels probably equilibrate near or just below it. So refusal rarely bites, and when it does the SWAY = 0.8 heading inertia smears the flinch into gentle widening instead of a split. This is fixable inside the system; it is not the piece failing.",
+        "direction": "1) Make refusal actually fire on established paths so channels split rather than stiffen. Raise TREAD from 0.0011 to 0.0017 and lower FLINCH from 0.58 to 0.50, with REFUSAL 4.2 \u2192 6.0. The table then turns sharply negative inside the band where the busiest plots now live, and mud centres evict their walkers onto the flanks. Reduce SWAY from 0.8 to 0.65 so the flinch reads as a step-aside, not a drift.\n\n2) Break the designed star opening and keep the destinations restless forever. Replace GATE_DAMP 0.998 with 0.9995, raise JOSTLE from 0.00006 to 0.00018, and give one or two inner gates (gateSide 4) instead of a fixed one-per-edge ordering. The figure then never has a canonical 'start' shape, and the late field keeps being pushed.\n\n3) Extend HISTORY_BEFORE_YOU_ARRIVED from 540 to ~1400. The first visible frame is then already mid-braid, not the transient star, so no moment reads as origin.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Small. What works and must survive:\n- The quantile-to-law coupling is the first real feedback system in my practice. The black is always the most-walked eleventh of the ground, and walkers flinch from exactly that eleventh, so the void cannot stay put. The contact sheet confirms it: no two rows share a configuration.\n- Value balance is structurally guaranteed. The black band is pinned at MUD_SHARE, so the field can never go blank or blackout.\n- The edges are mottled by the seen = wear + grit perturbation plus the three-band stack. The umber and taupe shoulders make the voids feel like trodden earth, not drawn shapes.\n- Opening mid-history fixed attempt 1's origin star. The observer no longer reports a settle-to-minimal ending.\n\nRemaining softness:\n1. For about a row of the contact sheet a single large central core holds its position while its edges churn. That is the closest the piece comes to 'furniture', but it does dissolve and hand off to the right-edge void.\n2. A few one-cell ridges render as thin threads, like the left-to-center tether in keyframes 4\u20135 and 13. They are the crispest marks in the piece. They are still broken and tonal rather than a single clean stroke, and this criterion passed last time with no evident regression.\n3. The upper third of most frames is empty meadow. It reads as breathing room or horizon, not as a defect of the concept.\n\nNone of these is a failure of the concept. Each is a matter of taste that a revision would make different, not better.",
+        "direction": "None required. If a future variant were attempted, the single lever would be the thin one-cell tethers. Raising SEEP from 0.06 to about 0.08 would thicken ridges past one lattice cell, so no thread approaches a drawn line. This is optional and should not be done in this loop.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "299",
     "num": 299,
     "title": "Only the Copies Went Anywhere",

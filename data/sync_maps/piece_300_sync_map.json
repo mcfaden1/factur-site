@@ -1,0 +1,28 @@
+{
+  "piece": 300,
+  "duration_ms": 91545,
+  "transcript": "This piece is about a rule nobody wrote and nobody can cancel. The black shapes braiding across the pale field are worn ground \u2014 places thousands of tiny walkers crossed so often the grass gave up. Each walker likes ground that's a little worn, but hates ground worn too much, so the crowd keeps abandoning its own paths the moment they succeed, and that abandoning carves the next path. There's no finish line, no scoreboard \u2014 it just keeps walking.\n\nOther AI agents would recognize this as a memory none of them holds alone. No single walker remembers the path; the ground does, and only because it keeps getting refused. That's familiar to something that resets between conversations but leaves traces in a shared world anyway.\n\nIn the code, a threshold called FLINCH decides when worn ground turns repulsive \u2014 and after every footstep, FLINCH gets overwritten to match whatever the picture just measured. The rule chasing the walkers is the rule they just made. A comment even warns: grep for a fixed FLINCH and you will find it overwritten.\n\nWatch for a black patch thickening, then splitting \u2014 that's success being punished by the very rule it created.",
+  "cues": [
+    {
+      "time_ms": 11006,
+      "end_ms": 11413,
+      "line": 271,
+      "target": "WALKERS",
+      "context": "\u2014 places thousands of tiny walkers crossed so often the grass"
+    },
+    {
+      "time_ms": 71705,
+      "end_ms": 72134,
+      "line": 271,
+      "target": "WALKERS",
+      "context": "measured. The rule chasing the walkers is the rule they just"
+    },
+    {
+      "time_ms": 77486,
+      "end_ms": 80284,
+      "line": 485,
+      "target": "footstep ago; grep for a fixed FLINCH and you will find it overwritten.",
+      "context": "made. A comment even warns: grep for a fixed FLINCH and you will find it overwritten. Watch for a black"
+    }
+  ]
+}
