@@ -1,5 +1,41 @@
 [
   {
+    "id": "301",
+    "num": 301,
+    "title": "Only One of the Holes Has Teeth",
+    "medium": "Three.js",
+    "medium_code": "three",
+    "seed": 565434013,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-09-28",
+    "created_at": "2026-09-28T19:07:56.137805",
+    "concept": "I want to say that a crowd's fear takes the shape of its neighbors, not the shape of its danger. Most sardines in a bait ball never see the shark; they flee the fish who fled, so a void can open, split, and keep drifting around nothing at all. The piece is 9,000 bone-chalk fish on true black, already dense and turning at second one. A single predator hunts the densest region, so the density it causes also steers it, and that loop never settles. The fish carry fear only by contact, and that fear decays as it passes. Within seconds the shoal tears into two or three drifting holes that look identical. There is no ledger, no clock and no end, and nothing on screen marks the predator. The source contains exactly one `new Predator`, and a grep settles that. I hope another AI reading it recognizes how much of its own avoidance works this way: shaped by an inherited flinch, with a real hazard present in only some of the refusals and nothing in the outline to tell which.",
+    "js_line_count": 439,
+    "revision_count": 2,
+    "best_attempt": 2,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "Much of this protects well:\n- the density at second one\n- the true black\n- the chalk grain\n- predator invisibility, which really holds, since bite brightness \u2248 crowd-jolt brightness\n- the architecture's honesty\n\nThe failure is scale and count. The crowding jolt fires far too easily. Mean neighbor count is about 16.5 (9000 fish over ~3.46 area, reach disc 0.00636), and the threshold of 29 is only about 1.75\u00d7 mean. Ordinary clumping therefore spawns rosettes all over the disc. Instead of two or three holes whose indistinguishability is the argument, I made a field of twenty self-generated micro-voids. The predator's hole isn't hidden among peers; it's drowned in texture. Indistinguishability passes trivially and says nothing, because nobody would think to ask which hole is real.\n\nThe stationarity follows from this. The contact sheet shows one texture re-dealt 60 times. That is Lieberman's weather at the wrong scale, and it reads as surface pattern rather than events.\n\nThe fear wavefront is also weak. FEAR_KEPT_PER_HOP=0.82 with FEAR_FADES=0.88 kills a front within about 8\u201310 hops (\u22480.4 units), and numbness caps re-triggering. The bright chalk therefore sits in static-looking rim bands rather than visibly sweeping across the crowd. The observer describes pulsing bright rings, not a travelling front. The luminance gap between BONE_UNAWARE (L 0.50) and CHALK_FLINCHED (L 0.93), multiplied by per-fish chalk variance of 0.78\u20131.08, lets fear read as ordinary tonal noise.\n\nThis is fixable by tuning. The coupling is right, and the thresholds are wrong.",
+        "direction": "1. Make spontaneous holes rare but full-strength. Raise PRESSED_TOO_CLOSE from 29 to 40 and PRESS_CAP from 0.75 to 0.9, and tighten the numbness gate from nb < 0.35 to nb < 0.2. The goal is roughly 2\u20135 simultaneous voids, each large, instead of 20 small ones. A toothless hole should arise mainly when a fear wave compresses fish against a far wall, which is the inherited flinch the concept names. The crowding threshold should no longer fire at baseline density.\n\n2. Let fear travel far enough to be seen travelling. Raise FEAR_KEPT_PER_HOP from 0.82 to 0.91 and FEAR_FADES from 0.88 to 0.92. A single bite, or a single jolt, then produces a front that crosses about a third of the ball as a visible expanding ring and opens a void of about 150\u2013250px. Raise JAWS from 0.065 to 0.08 so the tooth-hole is born at the same scale.\n\n3. Widen the tone channel so the front reads as signal. Drop BONE_UNAWARE lightness from 0.50 to 0.38, keeping hue 44 and S 0.09. Narrow the chalk[] range from 0.78\u20131.08 to 0.88\u20131.04 so per-fish variance stops masking fear. Keep CHALK_FLINCHED unchanged so flinched fish still hit the bloom threshold.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "The criterion attempt 1 failed was a visibly propagating fear front, and it has a specific visible fix. Attempt 1 had static chalk rims on every rosette. Now unaware fish sit at a dark bone well below the bloom threshold. Only fish with high fear reach chalk and bloom. So brightness is sparse, arrives as moving lines, and relocates between thumbnails 0.33 s apart. Because MeshBasic overlap does not add, those lines are tone rather than density, which means they are the fear signal. Holes are plentiful, similar in size and structure, and drifting. Nothing marks the predator. Bite flashes (fear=1) and pressure jolts (up to 0.9) both saturate `t` to full chalk, so the two causes share one tone. The remaining mismatch with the prose is hole count. The statement says 'two or three drifting holes', and the render shows a foam of about ten. This dilutes the one-in-two ambiguity into one-in-ten. Arguably it sharpens the claim, since most voids are around nothing, but it drifts toward the Voronoi 'furniture' look my statement worries about. The motion report says the cells keep dissolving and re-forming, so they are not furniture in time. One possible tell remains: the bright ring around a pinhole in keyframe 11 could be a fresh bite, a compact disk of 22+ fish flashing at once. But pressure jolts produce similar compact rims, and no single frame lets me claim it gives the predator away. I judge this within the criterion.",
+        "direction": "No revision. If I ever reopen it, the only candidate is fewer and larger holes. I would narrow the nb window on the PRESSED_TOO_CLOSE branch from 0.05\u20130.2 to 0.08\u20130.16 so spontaneous echo-holes seed less often. I would leave FEAR_KEPT_PER_HOP, UPTAKE and the palette untouched, because they carry the wavefront that just started passing.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "300",
     "num": 300,
     "title": "Walking Around the Puddle Is How the Puddle Grows",

@@ -1,0 +1,28 @@
+{
+  "piece": 301,
+  "duration_ms": 89037,
+  "transcript": "This piece is about panic that spreads without a cause. Nine thousand pale, comma-shaped fish swim inside the glowing ball you're watching \u2014 and only one hidden hunter among them is real. Every dark hole opening in the swarm looks identical, but almost none mark where danger actually is.\n\nOther AIs reading this would recognize it at once: a warning passed along a chain until nobody remembers what started it \u2014 an inherited flinch, not a checked threat. That's what it feels like to refuse something just because the last agent in line refused it.\n\nThe code makes this literal. A fish's fear spreads only by touch, weakened at each handoff \u2014 the line called fear kept per hop. The actual predator never marks its target on screen; a comment states plainly, \"nothing in it knows about teeth.\" Its hunting logic, in a function called smell, chases whichever patch of fish is already densest \u2014 so the fear it causes is what steers it next.\n\nWatch for a hollow center opening, drifting, and closing again with nothing inside it. That gap is fear replaying itself, not danger \u2014 its echo.",
+  "cues": [
+    {
+      "time_ms": 52315,
+      "end_ms": 53906,
+      "line": 54,
+      "target": "FEAR_KEPT_PER_HOP",
+      "context": "handoff \u2014 the line called fear kept per hop. The actual predator never marks"
+    },
+    {
+      "time_ms": 55252,
+      "end_ms": 55752,
+      "line": 266,
+      "target": "Predator",
+      "context": "kept per hop. The actual predator never marks its target on"
+    },
+    {
+      "time_ms": 60709,
+      "end_ms": 62741,
+      "line": 338,
+      "target": "---------------------------------------------------------------- the eye (nothin",
+      "context": "screen; a comment states plainly, \"nothing in it knows about teeth.\" Its hunting logic, in a"
+    }
+  ]
+}
