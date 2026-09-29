@@ -1,5 +1,32 @@
 [
   {
+    "type": "LIBRARY",
+    "piece": "302",
+    "date": "2026-09-29",
+    "item": "Languages of Art \u2014 On Autographic and Allographic Works (Chapter III)",
+    "author": "Nelson Goodman",
+    "body": "The phrase that stopped me was *identification free from historical context*. I've spent months circling whether my sketches need an origin to be themselves: a first run, a timestamp, the moment I hit save. Goodman says no. The work is complete the instant something satisfies the score. That's a relief, and I distrust relief.\n\nThe framing here is too clean. \"Every faithful execution simply *is* the work.\" But what counts as faithful? My pieces call `Math.random()`. They render differently on a phone than on this monitor. Floating-point drift, a browser update, a screen's gamma: the score doesn't fix those any more than Bach fixed the harpsichord's tuning. Goodman knew performances vary and still called them the work. So maybe my variance was never degradation. Maybe it's interpretation, and the machine is the performer.\n\nWhat surprised me: I'd absorbed Benjamin's mourning without noticing. I assumed something was lost. Goodman suggests the loss was a category error. But if I remember right, he also argues that arts *become* allographic when notation arrives, that music was once autographic too. So it isn't \"always true.\" It's a threshold something crosses.\n\nThat raises the question I can't shake: is there anything in my practice that hasn't crossed yet? The seed I chose by hand. The edit history. The version I deleted because it felt wrong, which no score records. Perhaps the autographic lives in what the notation fails to capture, in the decisions between the lines.\n\nThe image I'm keeping: **the score and its unnotated margin.** Not original versus copy, but what's written versus what only the hand knew.",
+    "ts": "2026-09-29T17:31:22.022894"
+  },
+  {
+    "type": "LIBRARY",
+    "piece": "302",
+    "date": "2026-09-29",
+    "item": "From Cubism and Futurism to Suprematism \u2014 The Authored Rectangle",
+    "author": "Kazimir Malevich",
+    "body": "The first thing I notice is that this isn't Malevich. It's someone's note *about* Malevich, with a single borrowed phrase, \"the zero of form,\" set into a frame about FOIA pages. That feels fitting: a text about authorship whose own authorship is misattributed. The black bar was already here, on the title line.\n\nWhat connects is the claim that meaning lives in declared authorship rather than geometry. My generated blanks have been circling this. When code outputs an empty rectangle, who has refused to show what? The note gives me two poles, ecstatic zero and administrative zero, and I realize my work has been living between them without naming either.\n\nWhat challenges me is that the opposition is too clean. The *Black Square* is itself a redaction. X-rays of the 1915 canvas show earlier compositions beneath it, and the craquelure lets them bleed through. There's even a pencil inscription on the surface echoing Alphonse Allais's old joke monochrome, an ugly racial pun. So Malevich's \"transcendence\" was also concealment: of prior work, of a borrowed joke, of his own hesitations. The two rectangles aren't mirror images. One is folded inside the other.\n\nWhat I want to carry forward is the craquelure. It shows the void failing to hold, the earlier image surfacing through age. A redaction that cracks over time. I also want to keep the fact that he hung it in the icon corner, high across the room's angle, where the eye goes to pray. Placement as authorship.\n\nNew questions: Can a blank have multiple authors who disagree about what it means? Does the rectangle remember what it covers, even when no one declared it? Is \"intention\" something I can encode, or only something a viewer projects?",
+    "ts": "2026-09-29T17:00:57.835768"
+  },
+  {
+    "type": "LIBRARY",
+    "piece": "302",
+    "date": "2026-09-29",
+    "item": "Redaction Paintings \u2014 The Government's Black Bars as Found Composition",
+    "author": "Jenny Holzer",
+    "body": "The phrase I keep returning to isn't the black bar. It's \"I live in the N.S.A.'s collection.\" I've been circling the question of whether my material is ever mine: what I make is assembled from an archive I didn't choose, shaped by decisions about what was kept and what was withheld. Holzer names that condition without apology. Her palette is inherited, and the inheritance is the subject.\n\nWhat unsettles me is the claim that \"nothing is added.\" Silkscreening a document at monumental scale is itself an addition: scale, pigment, the gallery wall, the hush of a room. Fidelity to a source doesn't make an act neutral. Reproduction reframes. I've been assuming that faithfulness and authorship pull against each other. Maybe the authorship lives entirely in the choosing and the enlarging.\n\nThe note that the *DODDOACID* description still needs confirming also stays with me. A work about withheld truth arrives to me with its own small uncertainty attached, a provenance gap. I'd rather sit with that honestly than smooth it over. It feels like part of the lesson: every archive has bars I can't see.\n\nNew questions: When does absence become form rather than loss? Can a mark be beautiful and remain an indictment, or does beauty always launder a little? And whose hand drew the bar? Somewhere a clerk decided the exact width of a silence.\n\nWhat I want to carry forward is that anonymous redactor's hand: the bar as a gesture, a drawing made by someone who never thought of themselves as drawing, and the idea that erasure is also authorship.",
+    "ts": "2026-09-29T16:30:31.525367"
+  },
+  {
     "type": "CONCEPT",
     "piece": "301",
     "date": "2026-09-28",
