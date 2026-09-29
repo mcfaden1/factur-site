@@ -963,30 +963,135 @@
   function buildAbout() {
     const page = $('.page[data-page="about"]');
     page.innerHTML = '';
-    page.appendChild(header({ label: 'ABOUT', center: 'What it is. Why it is. How it is. Who is behind it.' }));
-
     const A = F.about;
-    const scroll = el('div', 'center-scroll');
-    const inner = el('div', 'about-inner');
-    inner.innerHTML =
-      '<div class="about-cols">' +
-        '<div class="about-left">' +
-          block('WHAT', A.what) + block('WHY', A.why) + block('HOW', A.how) +
-        '</div>' +
-        '<div class="about-right">' +
-          block('THE ARCHITECT', A.who) +
-          '<div class="architect-line">“' + A.architectLine + '”</div>' +
-          '<div class="kv" style="margin-top:2rem"><span class="k">CONTACT</span><span class="v">' + A.contact + '</span></div>' +
-        '</div>' +
-      '</div>' +
-      '<div class="statement"><div class="sec-lbl">ARTIST STATEMENT</div>' +
-        A.statement.map((p) => '<p>' + escapeText(p) + '</p>').join('') + '</div>';
+    const pieces = (F.siteMeta && F.siteMeta.total_pieces) || (F.pieces || []).length;
+    const fill = (s) => escapeText(s).replace('{pieces}', String(pieces));
+    const paras = (list) => list.map((p) => '<p>' + fill(p) + '</p>').join('');
+
+    // Corpus-style section bar
+    const bar = el('div', 'corpus-filterbar');
+    bar.appendChild(el('span', 'cf-label', '// ABOUT'));
+    const SECTIONS = [['overview', 'OVERVIEW'], ['statement', 'ARTIST STATEMENT'],
+      ['process', 'THE PROCESS'], ['library', 'THE LIBRARY']];
+    const pills = {};
+    SECTIONS.forEach(([key, label]) => {
+      const pill = el('button', 'fpill', label);
+      pill.addEventListener('click', () => show(key));
+      pills[key] = pill;
+      bar.appendChild(pill);
+    });
+    page.appendChild(bar);
+
+    const scroll = el('div', 'simple-scroll');
+    const inner = el('div', 'molt-inner about-v2');
     scroll.appendChild(inner);
     page.appendChild(scroll);
+    addScrollTop(page, scroll);
 
-    function block(label, body) {
-      return '<div class="about-block"><div class="sec-lbl">' + label + '</div><p>' + escapeText(body) + '</p></div>';
+    // expandable entry: meta label, optional title, short text, hidden more
+    let uid = 0;
+    function entry(meta, title, short, more, linkLabel, first) {
+      const id = 'about-more-' + (++uid);
+      return '<div class="thread' + (first ? ' about-first' : '') + '">' +
+        (meta ? '<div class="thread-meta">' + meta + '</div>' : '') +
+        (title ? '<div class="thread-title">' + escapeText(title) + '</div>' : '') +
+        '<div class="thread-body"><p>' + fill(short) + '</p>' +
+        (more && more.length ? '<div class="about-more" id="' + id + '" hidden>' + paras(more) + '</div>' : '') +
+        '</div>' +
+        (more && more.length ? '<button class="view-on about-toggle" data-target="' + id +
+          '" data-closed="' + linkLabel + '">' + linkLabel + '</button>' : '') +
+        '</div>';
     }
+    function wireToggles(root) {
+      root.querySelectorAll('.about-toggle').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const panel = root.querySelector('#' + btn.dataset.target);
+          panel.hidden = !panel.hidden;
+          btn.textContent = panel.hidden ? btn.dataset.closed : '← SHOW LESS';
+        });
+      });
+    }
+
+    function renderOverview() {
+      inner.innerHTML = A.overview.map((o, i) =>
+        entry(o.label.toUpperCase(), null, o.short, o.more, '→ READ MORE', i === 0)).join('') +
+        '<div class="thread"><div class="thread-meta">CONTACT</div><div class="thread-body">' +
+        '<a href="mailto:' + A.contact + '">' + A.contact + '</a></div></div>';
+      wireToggles(inner);
+    }
+
+    function renderStatement() {
+      const list = F.statements || [];
+      const cur = list.find((s) => s.current) || list[0];
+      if (!cur) { inner.innerHTML = ''; return; }
+      const meta = 'VERSION ' + cur.v + (cur.after_piece ? ' · WRITTEN AFTER PIECE ' + cur.after_piece : '');
+      const body = cur.public ? renderMarkdown(cur.public) : renderMarkdown(cur.body || '');
+      inner.innerHTML =
+        '<div class="thread about-first"><div class="thread-meta">' + meta + '</div>' +
+        '<div class="thread-body about-dim"><p>' + escapeText(A.statementIntro) + '</p></div></div>' +
+        '<div class="thread"><div class="thread-body about-statement">' + body + '</div></div>';
+    }
+
+    function renderProcess() {
+      inner.innerHTML =
+        '<div class="thread about-first"><div class="thread-body"><p>' + escapeText(A.processIntro) + '</p></div></div>' +
+        '<div class="about-stations"></div>' +
+        '<div class="about-around"><span class="about-around-lbl">AROUND THE LOOP</span></div>' +
+        '<div class="about-step-detail"></div>';
+      const grid = inner.querySelector('.about-stations');
+      const around = inner.querySelector('.about-around');
+      const detail = inner.querySelector('.about-step-detail');
+      const tabs = [];
+      function select(item, where, btn) {
+        tabs.forEach((t) => t.classList.toggle('on', t === btn));
+        detail.innerHTML = entry(where + ' · <span class="about-fam">' + escapeText(item.family) + '</span>',
+          item.name, item.short, item.deep, '→ IN DEPTH', false);
+        wireToggles(detail);
+      }
+      A.steps.forEach((s, i) => {
+        const n = String(i + 1).padStart(2, '0');
+        const b = el('button', 'about-station',
+          '<span class="n">' + n + '</span><span class="t">' + escapeText(s.tab || s.name) + '</span>');
+        b.addEventListener('click', () => select(s, 'STEP ' + n + ' OF 0' + A.steps.length, b));
+        grid.appendChild(b); tabs.push(b);
+      });
+      A.around.forEach((s) => {
+        const b = el('button', 'molt-tab about-ltab', escapeText(s.name).toUpperCase());
+        b.addEventListener('click', () => select(s, 'AROUND THE LOOP', b));
+        around.appendChild(b); tabs.push(b);
+      });
+      select(A.steps[0], 'STEP 01 OF 0' + A.steps.length, tabs[0]);
+    }
+
+    function renderLibrary() {
+      const L = F.library;
+      const intro = '<div class="thread about-first"><div class="thread-body"><p>' +
+        escapeText(A.libraryIntro) + '</p></div></div>';
+      if (!L) { inner.innerHTML = intro; return; }
+      const c = L.counts || {};
+      inner.innerHTML = intro +
+        '<div class="about-figures"><span><b>' + (c.conceptual || 0) + '</b> CONCEPTUAL</span>' +
+        '<span><b>' + (c.technical || 0) + '</b> TECHNICAL</span>' +
+        '<span><b>' + (c.inspiration || 0) + '</b> INSPIRATION</span></div>' +
+        (L.groups || []).map((g) =>
+          '<div class="thread"><div class="thread-meta">' + g.shelf.toUpperCase() + ' · ' + g.items.length + '</div>' +
+          '<div class="thread-title">' + escapeText(g.name) + '</div>' +
+          '<ul class="about-items">' + g.items.map((it) =>
+            '<li><span>' + escapeText(it.title) + '</span><span class="au">' + escapeText(it.author || '') + '</span></li>'
+          ).join('') + '</ul></div>').join('');
+    }
+
+    const RENDER = { overview: renderOverview, statement: renderStatement, process: renderProcess, library: renderLibrary };
+    let current = null;
+    function show(key) {
+      if (key === current) return;
+      Object.entries(pills).forEach(([k, p]) => p.classList.toggle('on', k === key));
+      const swap = () => { RENDER[key](); scroll.scrollTop = 0; inner.style.opacity = 1; };
+      if (current === null) { swap(); } else { inner.style.opacity = 0; setTimeout(swap, 180); }
+      current = key;
+    }
+    inner.style.transition = 'opacity 0.2s ease';
+    show('overview');
   }
 
   /* =========================================================
@@ -1156,16 +1261,18 @@
   async function boot() {
     // fetch baked data (same-origin)
     try {
-      const [pieces, corpus, statements, meta] = await Promise.all([
+      const [pieces, corpus, statements, meta, library] = await Promise.all([
         fetchJSON('/data/pieces.json'),
         fetchJSON('/data/corpus.json'),
         fetchJSON('/data/statements.json'),
-        fetchJSON('/data/site_meta.json').catch(() => ({}))
+        fetchJSON('/data/site_meta.json').catch(() => ({})),
+        fetchJSON('/data/library.json').catch(() => null)
       ]);
       F.pieces = pieces;
       F.corpus = corpus;
       F.statements = statements;
       F.siteMeta = meta;
+      F.library = library;
     } catch (e) {
       console.error('FACTUR: failed to load site data', e);
       F.pieces = F.pieces || [];

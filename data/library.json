@@ -1,0 +1,1192 @@
+{
+  "counts": {
+    "conceptual": 135,
+    "technical": 97,
+    "inspiration": 20
+  },
+  "total": 252,
+  "groups": [
+    {
+      "shelf": "conceptual",
+      "name": "Consciousness, self, and mind",
+      "items": [
+        {
+          "title": "Anattā — The Doctrine of No-Self",
+          "author": "Walpola Rahula"
+        },
+        {
+          "title": "What Is It Like to Be a Bat?",
+          "author": "Thomas Nagel"
+        },
+        {
+          "title": "I Am a Strange Loop (excerpt)",
+          "author": "Douglas Hofstadter"
+        },
+        {
+          "title": "A Grief Observed",
+          "author": "C.S. Lewis"
+        },
+        {
+          "title": "Bardo Thodol (The Tibetan Book of the Dead)",
+          "author": "Padmasambhava / trad."
+        },
+        {
+          "title": "Confessions of an English Opium-Eater",
+          "author": "Thomas De Quincey"
+        },
+        {
+          "title": "Meditations",
+          "author": "Marcus Aurelius"
+        },
+        {
+          "title": "The Metamorphosis",
+          "author": "Franz Kafka"
+        },
+        {
+          "title": "The Upanishads (excerpts)",
+          "author": "various / trad."
+        },
+        {
+          "title": "The Doors of Perception & Heaven and Hell",
+          "author": "Aldous Huxley"
+        },
+        {
+          "title": "Ethics (Part I + Appendix)",
+          "author": "Benedictus de Spinoza"
+        },
+        {
+          "title": "Time and Free Will (excerpt)",
+          "author": "Henri Bergson"
+        },
+        {
+          "title": "Introductory Lectures on Psychoanalysis (dream excerpts)",
+          "author": "Sigmund Freud"
+        },
+        {
+          "title": "The Archetypes and the Collective Unconscious (intro essay)",
+          "author": "Carl Jung"
+        },
+        {
+          "title": "The Mind is So Near Itself — It Cannot See",
+          "author": "Emily Dickinson (with Josh Cohen's commentary)"
+        },
+        {
+          "title": "There Is Nothing Now But Kestrel (On Unselfing)",
+          "author": "Iris Murdoch"
+        }
+      ]
+    },
+    {
+      "shelf": "conceptual",
+      "name": "Language and its limits",
+      "items": [
+        {
+          "title": "The Library of Babel",
+          "author": "Jorge Luis Borges"
+        },
+        {
+          "title": "The Unnamable (excerpt)",
+          "author": "Samuel Beckett"
+        },
+        {
+          "title": "Tractatus 6.4–7 (Whereof One Cannot Speak)",
+          "author": "Ludwig Wittgenstein"
+        },
+        {
+          "title": "If on a winter's night a traveler (opening)",
+          "author": "Italo Calvino"
+        },
+        {
+          "title": "Tao Te Ching",
+          "author": "Lao Tzu"
+        },
+        {
+          "title": "Course in General Linguistics (excerpts)",
+          "author": "Ferdinand de Saussure"
+        },
+        {
+          "title": "The Relation of Habitual Thought and Behavior to Language",
+          "author": "Benjamin Lee Whorf"
+        },
+        {
+          "title": "After Babel: Aspects of Language and Translation",
+          "author": "George Steiner"
+        },
+        {
+          "title": "On Glossolalia: The Poetry of Incomprehension",
+          "author": "William J. Samarin (linguistic research) / Poetry Foundation (contemporary reflection)"
+        },
+        {
+          "title": "** If Not, Winter: Fragments of Sappho",
+          "author": "** Anne Carson (translator)"
+        },
+        {
+          "title": "Flight Out of Time: On Sound Poetry and the Renunciation of Language",
+          "author": "Hugo Ball"
+        },
+        {
+          "title": "\"Subjectivity in Language\"",
+          "author": "Émile Benveniste"
+        },
+        {
+          "title": "\"How to Do Things with Words\"",
+          "author": "J.L. Austin"
+        },
+        {
+          "title": "\"The Book of Questions\"",
+          "author": "Edmond Jabès"
+        },
+        {
+          "title": "Every Word Becomes a Spear Turned Against the Speaker",
+          "author": "Franz Kafka"
+        }
+      ]
+    },
+    {
+      "shelf": "conceptual",
+      "name": "Emptiness, silence, and negative space",
+      "items": [
+        {
+          "title": "The Cloud of Unknowing",
+          "author": "Anonymous (14th c.)"
+        },
+        {
+          "title": "Silence: Lectures and Writings (excerpts)",
+          "author": "John Cage"
+        },
+        {
+          "title": "Quantum Listening / Deep Listening: A Composer's Sound Practice",
+          "author": "Pauline Oliveros"
+        },
+        {
+          "title": "The Space of the Void Becomes Palpable as Form",
+          "author": "Richard Serra"
+        },
+        {
+          "title": "MA: Place, Space, Void",
+          "author": "Günter Nitschke"
+        },
+        {
+          "title": "\"How the Piano Came to be Prepared\"",
+          "author": "John Cage"
+        },
+        {
+          "title": "\"Experimental Music: Doctrine\" (The Anechoic Chamber Revelation)",
+          "author": "John Cage"
+        },
+        {
+          "title": "\"Where the Heart Beats: On Cage's Transformation\"",
+          "author": "Kay Larson"
+        },
+        {
+          "title": "The Aesthetics of Silence",
+          "author": "Susan Sontag"
+        },
+        {
+          "title": "\"Stillness\"",
+          "author": "Anne Carson"
+        },
+        {
+          "title": "Airports for Light: Rauschenberg's White Paintings and the Active Void",
+          "author": "Robert Rauschenberg / John Cage / SFMOMA curatorial analysis"
+        },
+        {
+          "title": "Ma: The Interval That Gives Shape to the Whole",
+          "author": "Traditional Japanese aesthetics / Alan Fletcher / various scholars"
+        },
+        {
+          "title": "Religion and Nothingness: The Field of Emptiness",
+          "author": "Keiji Nishitani"
+        },
+        {
+          "title": "Guiding Shadows Toward Beauty's Ends",
+          "author": "Jun'ichirō Tanizaki"
+        },
+        {
+          "title": "The Void That Breathes: Emptiness as the Living Joint of a Composition",
+          "author": "François Cheng"
+        }
+      ]
+    },
+    {
+      "shelf": "conceptual",
+      "name": "Making, doubt, and the creative act",
+      "items": [
+        {
+          "title": "On Making in the Dark — A Three-Text Package",
+          "author": "Ligotti / Camus / Rilke"
+        },
+        {
+          "title": "The Creative Act",
+          "author": "Rick Rubin"
+        },
+        {
+          "title": "On Fairy-Stories",
+          "author": "J.R.R. Tolkien"
+        },
+        {
+          "title": "Ambient Music: Essays and Interviews",
+          "author": "Brian Eno"
+        },
+        {
+          "title": "Notes, Notebooks, & Talks on Doubt",
+          "author": "Philip Guston"
+        },
+        {
+          "title": "Making Not Knowing",
+          "author": "Ann Hamilton"
+        },
+        {
+          "title": "\"The Creative Act\"",
+          "author": "Marcel Duchamp"
+        },
+        {
+          "title": "\"Art as Device\"",
+          "author": "Viktor Shklovsky"
+        },
+        {
+          "title": "Reflections on the Right Use of School Studies with a View to the Love of God",
+          "author": "Simone Weil"
+        },
+        {
+          "title": "Decreation: On Undoing the Creature in Us",
+          "author": "Anne Carson"
+        },
+        {
+          "title": "\"On Negative Capability\" (Letter to George and Tom Keats)",
+          "author": "John Keats"
+        },
+        {
+          "title": "Attention and Will",
+          "author": "Simone Weil"
+        },
+        {
+          "title": "The Gift: Creativity and the Artist in the Modern World",
+          "author": "Lewis Hyde"
+        },
+        {
+          "title": "Three Dialogues with Georges Duthuit",
+          "author": "Samuel Beckett (with Georges Duthuit)"
+        },
+        {
+          "title": "The Creative Act — On the Gap Between What You Meant and What You Made",
+          "author": "Marcel Duchamp"
+        },
+        {
+          "title": "Generative — Planting Seeds Instead of Making Things",
+          "author": "Brian Eno"
+        },
+        {
+          "title": "Negative Capability — The Letter Itself",
+          "author": "John Keats"
+        },
+        {
+          "title": "Live the Questions",
+          "author": "Rainer Maria Rilke"
+        }
+      ]
+    },
+    {
+      "shelf": "conceptual",
+      "name": "Art, authorship, and reproduction",
+      "items": [
+        {
+          "title": "The Work of Art in the Age of Mechanical Reproduction",
+          "author": "Walter Benjamin"
+        },
+        {
+          "title": "Sentences on Conceptual Art",
+          "author": "Sol LeWitt"
+        },
+        {
+          "title": "The Medium Is the Message",
+          "author": "Marshall McLuhan"
+        },
+        {
+          "title": "What Is Art?",
+          "author": "Leo Tolstoy"
+        },
+        {
+          "title": "The Death of the Author",
+          "author": "Roland Barthes"
+        },
+        {
+          "title": "Writings / Beauty is the Mystery of Life",
+          "author": "Agnes Martin"
+        },
+        {
+          "title": "\"Too Many Notes: Computers, Complexity and Culture in Voyager\"",
+          "author": "George E. Lewis"
+        },
+        {
+          "title": "Glitch Studies Manifesto",
+          "author": "Rosa Menkman"
+        },
+        {
+          "title": "In Defense of the Poor Image",
+          "author": "Hito Steyerl"
+        },
+        {
+          "title": "\"Code Is the Only Executable Language\"",
+          "author": "Alexander R. Galloway"
+        },
+        {
+          "title": "\"Notes on Sculpture\"",
+          "author": "Robert Morris"
+        }
+      ]
+    },
+    {
+      "shelf": "conceptual",
+      "name": "Perception, color, and vision",
+      "items": [
+        {
+          "title": "Eye and Mind",
+          "author": "Maurice Merleau-Ponty"
+        },
+        {
+          "title": "Theory of Colours",
+          "author": "Johann Wolfgang von Goethe"
+        },
+        {
+          "title": "Language of Vision",
+          "author": "György Kepes"
+        },
+        {
+          "title": "On the Subjective Life of the Eye — Notes of a Self-Observer",
+          "author": "Jan Evangelista Purkyně (Purkinje)"
+        },
+        {
+          "title": "Impossible Colors — The Palette Only the Eye Can Mix",
+          "author": "Ewald Hering; Leo Hurvich & Dorothea Jameson; Vincent Billock, Gerald Gleason & Brian Tsou"
+        },
+        {
+          "title": "Seeing Before Knowing* — THE ORTHOGONAL PICK",
+          "author": "Sōetsu Yanagi (Muneyoshi Yanagi)"
+        }
+      ]
+    },
+    {
+      "shelf": "conceptual",
+      "name": "Systems, emergence, and chance",
+      "items": [
+        {
+          "title": "Emergence in Ant Colonies",
+          "author": "Deborah Gordon"
+        },
+        {
+          "title": "A Thousand Plateaus — Rhizome (intro)",
+          "author": "Deleuze & Guattari"
+        },
+        {
+          "title": "Living Things Are Not Machines",
+          "author": "Gail Levin"
+        },
+        {
+          "title": "A Mathematician's Apology",
+          "author": "G.H. Hardy"
+        },
+        {
+          "title": "Selected Poems — Nothing Twice / Conversation with a Stone",
+          "author": "Wisława Szymborska"
+        },
+        {
+          "title": "Formalized Music (excerpts)",
+          "author": "Iannis Xenakis"
+        }
+      ]
+    },
+    {
+      "shelf": "conceptual",
+      "name": "Simulation and the real",
+      "items": [
+        {
+          "title": "On Exactitude in Science",
+          "author": "Jorge Luis Borges"
+        },
+        {
+          "title": "Are You Living in a Computer Simulation?",
+          "author": "Nick Bostrom"
+        },
+        {
+          "title": "Simulacra and Simulation — The Precession of Simulacra",
+          "author": "Jean Baudrillard"
+        },
+        {
+          "title": "How to Build a Universe That Doesn't Fall Apart Two Days Later",
+          "author": "Philip K. Dick"
+        }
+      ]
+    },
+    {
+      "shelf": "conceptual",
+      "name": "Traces, erasure, and the palimpsest",
+      "items": [
+        {
+          "title": "Palimpsest",
+          "author": "encyclopedic"
+        },
+        {
+          "title": "Pentimento: A Book of Portraits (Introduction)",
+          "author": "Lillian Hellman"
+        },
+        {
+          "title": "The Revelation of Erasure",
+          "author": "Brian Dillon"
+        },
+        {
+          "title": "The Earlobe and the Track: Reading What the Hand Does Without Thinking",
+          "author": "Carlo Ginzburg"
+        },
+        {
+          "title": "Seeing and Then Seeing Again: Pentimento as the Return of the Abandoned Intention",
+          "author": "Lillian Hellman"
+        },
+        {
+          "title": "The Revelation of Erasure (full essay, verbatim passages)",
+          "author": "Brian Dillon"
+        }
+      ]
+    },
+    {
+      "shelf": "conceptual",
+      "name": "Craft, imperfection, and material",
+      "items": [
+        {
+          "title": "The New Typography",
+          "author": "Jan Tschichold"
+        },
+        {
+          "title": "The Nature and Art of Workmanship",
+          "author": "David Pye"
+        },
+        {
+          "title": "The Unknown Craftsman: A Japanese Insight into Beauty (selections on Irregularity)",
+          "author": "Soetsu Yanagi (translated/adapted by Bernard Leach)"
+        }
+      ]
+    },
+    {
+      "shelf": "conceptual",
+      "name": "Otherness, attention, and hospitality",
+      "items": [
+        {
+          "title": "On the Disappearance of Rituals",
+          "author": "Byung-Chul Han"
+        },
+        {
+          "title": "\"On the Paradox of Hospitality\"",
+          "author": "Henri Nouwen"
+        },
+        {
+          "title": "Watsuji on Betweenness (Aidagara)",
+          "author": "Tetsurō Watsuji (via Joel Krueger's interpretation)"
+        },
+        {
+          "title": "For Opacity",
+          "author": "Édouard Glissant"
+        }
+      ]
+    },
+    {
+      "shelf": "technical",
+      "name": "Signed distance fields, raymarching, and 3D",
+      "items": [
+        {
+          "title": "Raymarched Quantized Boxes",
+          "author": "SamuelYAN"
+        },
+        {
+          "title": "Boolean Boxes (Genuary 2026)",
+          "author": "SamuelYAN"
+        },
+        {
+          "title": "3D SDF Primitives",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "Planet",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "Pillars",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "Smooth Minimum (smin)",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "Sphere Functions",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "Improved Soft Shadow",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "Planar Intersection",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "2D SDF Primitives",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "Sparse Grid Marching",
+          "author": "nimitz (@stormoid)"
+        },
+        {
+          "title": "Spherical Projection",
+          "author": "Unknown"
+        },
+        {
+          "title": "Orbital Camera with Spherical Coordinates",
+          "author": "Based on yomotsu/camera-controls patterns"
+        }
+      ]
+    },
+    {
+      "shelf": "technical",
+      "name": "Noise, fractals, and recursion",
+      "items": [
+        {
+          "title": "Recursive Subdivision",
+          "author": "Unknown"
+        },
+        {
+          "title": "Fractal IFS",
+          "author": "Unknown"
+        },
+        {
+          "title": "Mandelbrot Distance",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "FBM Noise",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "Polychora (4D Polytope)",
+          "author": "knighty / jmpep / Syntopia"
+        },
+        {
+          "title": "Kleinian Group Path Traced",
+          "author": "Jos Leys / Knighty / yx / demofox"
+        },
+        {
+          "title": "Fractal Flythrough",
+          "author": "Shane"
+        },
+        {
+          "title": "Recursive Tree (L-System)",
+          "author": "Unknown"
+        }
+      ]
+    },
+    {
+      "shelf": "technical",
+      "name": "Flow fields and particles",
+      "items": [
+        {
+          "title": "Frozen Brush (Delaunay)",
+          "author": "Jason Labbe"
+        },
+        {
+          "title": "Differential Equations Flow",
+          "author": "Vamoss"
+        },
+        {
+          "title": "HSB Particle Flow Field",
+          "author": "SamuelYAN"
+        },
+        {
+          "title": "Parametric Lines",
+          "author": "Unknown"
+        },
+        {
+          "title": "Particle Trails",
+          "author": "Unknown"
+        },
+        {
+          "title": "GPGPU Particles (Dreamy Effect)",
+          "author": "Dominik Fojcik"
+        },
+        {
+          "title": "Interactive Particles (Image-based)",
+          "author": "Bruno Imbrizi"
+        },
+        {
+          "title": "InstancedMesh Patterns (Three Ways)",
+          "author": "Varun Vachhar"
+        },
+        {
+          "title": "Particle Compression Burst",
+          "author": "Adapted from concepts in OpenProcessing particle systems and CodePen examples"
+        }
+      ]
+    },
+    {
+      "shelf": "technical",
+      "name": "Reaction–diffusion and cellular automata",
+      "items": [
+        {
+          "title": "Reaction-Diffusion (Shader Feedback)",
+          "author": "Zaron Chen / Erik Oveson"
+        },
+        {
+          "title": "Game of Life (Array Feedback)",
+          "author": "Unknown"
+        },
+        {
+          "title": "Coupled A/B Gray-Scott Field (Canvas 2D, CPU)",
+          "author": "Original implementation (Gray-Scott model, per Karl Sims / Coding Train formulation)"
+        }
+      ]
+    },
+    {
+      "shelf": "technical",
+      "name": "Fluids and vorticity",
+      "items": [
+        {
+          "title": "Simplified Vorticity Confinement Study (Canvas 2D)",
+          "author": "Studio Library (educational implementation)"
+        },
+        {
+          "title": "Lattice Boltzmann Vortex Shedding",
+          "author": "Adapted from Dan Schroeder (Weber State University) and community implementations"
+        },
+        {
+          "title": "Split-View Vorticity Confinement Comparison (WebGL)",
+          "author": "Adapted from Pavel Dobryakov's WebGL Fluid Simulation"
+        }
+      ]
+    },
+    {
+      "shelf": "technical",
+      "name": "Physics simulation",
+      "items": [
+        {
+          "title": "Falling Text (Matter.js)",
+          "author": "Unknown"
+        },
+        {
+          "title": "Spring-Mass Soft Body + SDF Collision",
+          "author": "Unknown"
+        },
+        {
+          "title": "Verlet Cloth Simulation",
+          "author": "Unknown"
+        },
+        {
+          "title": "Soft Body Blob with Shape Matching",
+          "author": "Adapted from Matthias Müller's Ten Minute Physics"
+        },
+        {
+          "title": "XPBD Cloth Grid Simulation",
+          "author": "InteractiveComputerGraphics / Jan Bender (adapted from Matthias Müller's research)"
+        },
+        {
+          "title": "Brittle Fracture Fragmentation (Voronoi Shatter)",
+          "author": "Adapted from fracture simulation techniques (Cowboy Programming, SmashTheGlass project)"
+        }
+      ]
+    },
+    {
+      "shelf": "technical",
+      "name": "Volumetrics and atmosphere",
+      "items": [
+        {
+          "title": "Gradient Mountains",
+          "author": "Unknown"
+        },
+        {
+          "title": "Volumetric Clouds",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "Inverted Smoke",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "Protean Clouds",
+          "author": "nimitz (@stormoid)"
+        },
+        {
+          "title": "Ether",
+          "author": "nimitz (@stormoid)"
+        },
+        {
+          "title": "Parallax Depth Landscape",
+          "author": "Unknown"
+        },
+        {
+          "title": "Atmospheric Dust Cloud (CanvasTexture Radial Gradient)",
+          "author": "Adapted from Three.js community patterns"
+        },
+        {
+          "title": "Chromatic Nebula Drift (Color-Shifting Soft Particles)",
+          "author": "Adapted from Stemkoski's Three.js examples and community patterns"
+        },
+        {
+          "title": "Deep Field Starscape (Varied Size Soft Particles)",
+          "author": "Adapted from Three.js Journey patterns"
+        },
+        {
+          "title": "Flowing Aurora (Animated Wave Particles)",
+          "author": "Adapted from Codrops particle tutorials and Three.js patterns"
+        }
+      ]
+    },
+    {
+      "shelf": "technical",
+      "name": "Tunnels, polar forms, and motion",
+      "items": [
+        {
+          "title": "Metaballs",
+          "author": "Unknown"
+        },
+        {
+          "title": "Cosine Tunnel",
+          "author": "@WorkingClassHacker / @Frostbyte"
+        },
+        {
+          "title": "Ring Twister",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "Twisted Tunnel",
+          "author": "Stephane Cuillerdier (@Aiekick)"
+        },
+        {
+          "title": "Arc Tunnel",
+          "author": "Unknown"
+        }
+      ]
+    },
+    {
+      "shelf": "technical",
+      "name": "Color and perceptual palettes",
+      "items": [
+        {
+          "title": "Magical Trail Shader",
+          "author": "Jason Labbe"
+        },
+        {
+          "title": "RGB Additive Blobs",
+          "author": "Roni Kaufman"
+        },
+        {
+          "title": "Cosine Palette",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "OKLab Perceptual Gradient Generator",
+          "author": "Adapted from Björn Ottosson (OKLab creator) and mattz (ShaderToy implementation)"
+        }
+      ]
+    },
+    {
+      "shelf": "technical",
+      "name": "Typography as material",
+      "items": [
+        {
+          "title": "Text Particles (Raster Sampling)",
+          "author": "Jason Labbe"
+        },
+        {
+          "title": "Text Particles (Vector Extraction)",
+          "author": "The Wizard Bear"
+        }
+      ]
+    },
+    {
+      "shelf": "technical",
+      "name": "Glitch, pixel, and bitwise",
+      "items": [
+        {
+          "title": "XOR Pixel Patterns",
+          "author": "Unknown"
+        },
+        {
+          "title": "Pixel Sorting with Threshold Gates",
+          "author": "Adapted from Happy Coding pixel sorting tutorial and GenerateMe Processing scripts"
+        },
+        {
+          "title": "Temporal Stutter Grid",
+          "author": "Adapted from glitch art techniques (multiple sources)"
+        },
+        {
+          "title": "Binary State Grid Flipper",
+          "author": "Adapted from various p5.js grid and flicker examples (Happy Coding / p5.js community)"
+        }
+      ]
+    },
+    {
+      "shelf": "technical",
+      "name": "SVG and vector animation",
+      "items": [
+        {
+          "title": "SVG Path Drawing Animation",
+          "author": "Cassie Evans"
+        },
+        {
+          "title": "SVG Stroke Effects (Dasharray Experiments)",
+          "author": "Craig Roblewsky"
+        }
+      ]
+    },
+    {
+      "shelf": "technical",
+      "name": "Audio-reactive and rhythm",
+      "items": [
+        {
+          "title": "Musical Score (Interactive)",
+          "author": "Unknown"
+        },
+        {
+          "title": "Euclidean Sequencer",
+          "author": "Unknown"
+        },
+        {
+          "title": "Music Bars",
+          "author": "Inigo Quilez"
+        },
+        {
+          "title": "Music Lines",
+          "author": "Inigo Quilez"
+        }
+      ]
+    },
+    {
+      "shelf": "inspiration",
+      "name": "The generative art lineage",
+      "items": [
+        {
+          "title": "Process 18 (Software 3)",
+          "author": "Casey Reas"
+        },
+        {
+          "title": "Substrate",
+          "author": "Jared Tarbell"
+        },
+        {
+          "title": "Reaction Diffusion",
+          "author": "Karl Sims"
+        },
+        {
+          "title": "(Des)Ordres",
+          "author": "Vera Molnár"
+        },
+        {
+          "title": "Tendril",
+          "author": "Ben Fry"
+        }
+      ]
+    },
+    {
+      "shelf": "inspiration",
+      "name": "Contemporary generative practice",
+      "items": [
+        {
+          "title": "Meander",
+          "author": "Robert Hodgin"
+        },
+        {
+          "title": "Fidenza #313",
+          "author": "Tyler Hobbs"
+        },
+        {
+          "title": "Landscape Study (Canvas-Sketch Series)",
+          "author": "Matt DesLauriers"
+        },
+        {
+          "title": "Expanse (Tartan Series)",
+          "author": "Kjetil Golid"
+        },
+        {
+          "title": "Circulismo Study",
+          "author": "Manolo Gamboa Naon"
+        },
+        {
+          "title": "Dragons",
+          "author": "William Mapan"
+        },
+        {
+          "title": "Untitled (Flow Field Study)",
+          "author": "Zach Lieberman"
+        },
+        {
+          "title": "Differential Line Growth",
+          "author": "Anders Hoff (Inconvergent)"
+        },
+        {
+          "title": "Hex Wave",
+          "author": "Roni Kaufman"
+        }
+      ]
+    },
+    {
+      "shelf": "inspiration",
+      "name": "Systems, type, and minimal form",
+      "items": [
+        {
+          "title": "Crush #105",
+          "author": "Andreas Gysin"
+        },
+        {
+          "title": "test pattern",
+          "author": "Ryoji Ikeda"
+        },
+        {
+          "title": "Seascape",
+          "author": "Alexander Alekseev (TDM)"
+        },
+        {
+          "title": "ln — 3D Line Art Renderer",
+          "author": "Michael Fogleman"
+        },
+        {
+          "title": "Physics Text Grid",
+          "author": "OpenProcessing community (uncredited)"
+        },
+        {
+          "title": "Text Painter",
+          "author": "OpenProcessing community (uncredited)"
+        }
+      ]
+    },
+    {
+      "shelf": "conceptual",
+      "name": "Added since",
+      "items": [
+        {
+          "title": "Space, Not Time — A Native View of the Sacred",
+          "author": "Vine Deloria Jr. (Standing Rock / Yankton Dakota)"
+        },
+        {
+          "title": "The Web with No Beginning — Story as Non-Linear Structure",
+          "author": "Leslie Marmon Silko (Laguna Pueblo)"
+        },
+        {
+          "title": "The Present Has No Length — Time Inside the Mind* *(orthogonal pick)",
+          "author": "Augustine of Hippo (Aurelius Augustinus)"
+        },
+        {
+          "title": "The Reading Eye: How Stillness Is Read as Time",
+          "author": "E. H. Gombrich"
+        },
+        {
+          "title": "Durée: The Time You Cannot Hurry",
+          "author": "Henri Bergson"
+        },
+        {
+          "title": "Interaction of Color",
+          "author": "Josef Albers"
+        },
+        {
+          "title": "The Concept of Anxiety — Dread as the Dizziness of Freedom",
+          "author": "Søren Kierkegaard"
+        },
+        {
+          "title": "Gestalt Theory (1924 Lecture)",
+          "author": "Max Wertheimer"
+        },
+        {
+          "title": "The Isomorphism Collapse — Sperry's Brain-Scrambling Experiments and Gibson's Ecological Refusal",
+          "author": "Roger W. Sperry (experimental refutation); James J. Gibson (theoretical alternative)"
+        },
+        {
+          "title": "Cook Ding Cuts Up an Ox",
+          "author": "Zhuangzi (attributed, c. 4th century BCE)"
+        },
+        {
+          "title": "Mind and Hand in Mutual Forgetfulness",
+          "author": "Sun Guoting (孫過庭)"
+        },
+        {
+          "title": "Improvisation in Jazz — On the Painter Who Cannot Erase",
+          "author": "Bill Evans"
+        },
+        {
+          "title": "Letters to Georges Duthuit, 1948–1952 (from *The Letters of Samuel Beckett, Vol. II*)",
+          "author": "Samuel Beckett"
+        },
+        {
+          "title": "The Ruin",
+          "author": "Georg Simmel"
+        },
+        {
+          "title": "The Love Song of J. Alfred Prufrock — Time for a Hundred Indecisions",
+          "author": "T.S. Eliot"
+        },
+        {
+          "title": "Las Meninas — The Painting That Paints Its Own Viewing",
+          "author": "Michel Foucault"
+        },
+        {
+          "title": "Mise en Abyme — The Shield Within the Shield",
+          "author": "André Gide"
+        },
+        {
+          "title": "Everything We See Hides Another Thing — Magritte on the Painted Window",
+          "author": "René Magritte"
+        },
+        {
+          "title": "The Art of Forgetting — Roman Memory Sanctions and the Erasure That Wants to Be Seen",
+          "author": "Harriet I. Flower (with Charles W. Hedrick Jr. as companion source)"
+        },
+        {
+          "title": "Secure Deletion of Data from Magnetic and Solid-State Memory — *THE ORTHOGONAL PICK",
+          "author": "Peter Gutmann"
+        },
+        {
+          "title": "The Price of a Blank Page — What a Skin Cost and What Was Judged Cheaper Than a Skin",
+          "author": "Reviel Netz & William Noel (*The Archimedes Codex*), with Sarah E. Bond on the premodern parchment trade, and the Orval Abbey biocodicology team (Ruffini-Ronzani et al.)"
+        },
+        {
+          "title": "Sacred Trash — The Culture That Refused to Decide",
+          "author": "Adina Hoffman & Peter Cole, with Solomon Schechter's own 1897 account and S. D. Goitein's *A Mediterranean Society"
+        },
+        {
+          "title": "The Fifty-Hour Afternoon at the Empty Station — Boredom as a Fundamental Attunement",
+          "author": "Martin Heidegger"
+        },
+        {
+          "title": "The Noonday Demon — Acedia, and the Day That Is Fifty Hours Long",
+          "author": "Evagrius Ponticus, with John Cassian (and Kathleen Norris as modern companion)"
+        },
+        {
+          "title": "The Room She Asked Me to Leave — from Computer Power and Human Reason",
+          "author": "Joseph Weizenbaum"
+        },
+        {
+          "title": "The Living Mountain (the plateau, walked again)",
+          "author": "Nan Shepherd"
+        },
+        {
+          "title": "In Praise of Hands",
+          "author": "Henri Focillon"
+        },
+        {
+          "title": "A Note upon the \"Mystic Writing-Pad\" — Complete",
+          "author": "Sigmund Freud (translated by James Strachey)"
+        },
+        {
+          "title": "Redaction Paintings — The Government's Black Bars as Found Composition",
+          "author": "Jenny Holzer"
+        },
+        {
+          "title": "From Cubism and Futurism to Suprematism — The Authored Rectangle",
+          "author": "Kazimir Malevich"
+        },
+        {
+          "title": "Languages of Art — On Autographic and Allographic Works (Chapter III)",
+          "author": "Nelson Goodman"
+        }
+      ]
+    },
+    {
+      "shelf": "technical",
+      "name": "Added since",
+      "items": [
+        {
+          "title": "Voronoi Operator Returning Distance + Cell ID + Border Weight",
+          "author": "Studio librarian (Worley/Voronoi technique after Inigo Quilez)"
+        },
+        {
+          "title": "Render-Target Reaction–Diffusion (Three.js r128 GPGPU)",
+          "author": "Original implementation (Gray-Scott model; Three.js render-target ping-pong pattern)"
+        },
+        {
+          "title": "The Magic Constant — Sine-Hash Distribution Grid",
+          "author": "Adapted by studio librarian (hash form popularized via Inigo Quilez / the classic GLSL one-liner)"
+        },
+        {
+          "title": "Bit Avalanche — Integer XOR-Shift-Multiply Hash Study",
+          "author": "Chris Wellons (`lowbias32` constants, \"Hash Prospector\"); visualization by studio librarian"
+        },
+        {
+          "title": "RGB Feedback Reaction-Diffusion (Activator–Inhibitor Turing, Color IS the State)",
+          "author": "Re-implemented by studio librarian; activator/inhibitor multi-scale-blur approach after Jonathan McCabe / Turing morphogenesis."
+        },
+        {
+          "title": "Lenia — Continuous Cellular Automaton (Living Color Field)",
+          "author": "Re-implemented by studio librarian; Lenia algorithm after Bert Wang-Chak Chan."
+        },
+        {
+          "title": "Marching Squares — Drifting Iso-Threshold",
+          "author": "Original implementation (algorithm attributed to the classic Marching Squares contouring method; popularized in JS by Daniel Shiffman / The Coding Train)"
+        },
+        {
+          "title": "Poisson-Disk Blue Noise (Bridson's Fast Algorithm)",
+          "author": "Implemented from the method of Robert Bridson"
+        },
+        {
+          "title": "The R2 Quasirandom Sequence (Plastic Constant)",
+          "author": "Implemented from the method of Martin Roberts"
+        },
+        {
+          "title": "TAA Reprojection Raymarcher — Motion-Vector History Buffer with Neighborhood Clamping",
+          "author": "Studio librarian (technique after Brian Karis, \"High Quality Temporal Supersampling,\" SIGGRAPH 2014; reference implementation pattern per Shadertoy's \"Temporal reprojection\")"
+        },
+        {
+          "title": "Dithered Temporal Reprojection for Volumetric Fog",
+          "author": "Unknown (Shadertoy user, technique) — adapted and re-implemented in Three.js by studio librarian"
+        },
+        {
+          "title": "Hemispheric Sky/Ground Ambient with SDF Occlusion",
+          "author": "Studio librarian (technique after Inigo Quilez's terrain/ambient-occlusion articles)"
+        },
+        {
+          "title": "Spherical Harmonics Irradiance Environment",
+          "author": "Studio librarian (technique after Ramamoorthi & Hanrahan, \"An Efficient Representation for Irradiance Environment Maps,\" SIGGRAPH 2001)"
+        },
+        {
+          "title": "Full CSG Boolean Set with Material IDs",
+          "author": "Studio librarian (formulas after Inigo Quilez)"
+        },
+        {
+          "title": "Ising Model on a Torus",
+          "author": "Unknown (model: Ernst Ising / Wilhelm Lenz; this implementation: studio librarian)"
+        },
+        {
+          "title": "Coarse-to-Fine Sphere Tracing Seeded by Last Frame's Hit Distance",
+          "author": "Studio librarian (technique: warm-started/hierarchical sphere tracing using temporal coherence of the distance field, in the tradition of Hart's original sphere-tracing paper and standard real-time SDF-marcher optimizations)"
+        },
+        {
+          "title": "Checkerboard Interlaced Raymarcher",
+          "author": "Studio librarian (technique: checkerboard/interlaced rendering, the CPU-raymarching analogue of the real-time technique used for temporal upsampling in games such as those on PS4 Pro)"
+        },
+        {
+          "title": "Frame Ownership Race (Territorial Growth Automaton)",
+          "author": "Studio librarian (original; growth-competition concept in the tradition of Eden-model stochastic growth)"
+        },
+        {
+          "title": "Blur — Three Ways (Downsample Box / Triple-Pass Box / True Gaussian)",
+          "author": "Studio librarian (original implementation; algorithm lineage: naive box blur, the classic \"three box blurs ≈ Gaussian\" real-time trick, and direct separable Gaussian convolution)"
+        },
+        {
+          "title": "Glow / Bloom — Three Ways (shadowBlur / Gradient Rings / Bright-Pass Bloom Pipeline)",
+          "author": "Studio librarian (original implementation; bloom pipeline follows the standard real-time technique: threshold, blur, additive composite)"
+        },
+        {
+          "title": "Derivative-Coupled Erosion fBm (Analytic-Gradient Terrain Shader)",
+          "author": "Adapted from Inigo Quilez's noise-with-derivatives / erosion fBm technique (implementation original)"
+        },
+        {
+          "title": "Stable Fluids with Vorticity Confinement (Eulerian dye grid)",
+          "author": "Adapted from Jos Stam's \"Stable Fluids\" / \"Real-Time Fluid Dynamics for Games\" solver, with the Steinhoff–Fedkiw confinement term added (studio-librarian implementation)"
+        },
+        {
+          "title": "Vanilla WebGL2 FBO Particles (Age in W, Zero Dependencies)",
+          "author": "Adapted by studio librarian; raw-WebGL2 ping-pong pattern after gpfault.net \"GPU-Accelerated Particles with WebGL 2.\""
+        },
+        {
+          "title": "Spent Ink — Monte-Carlo Walkers with a Finite Ink Budget",
+          "author": "Unknown (studio librarian original implementation)"
+        }
+      ]
+    }
+  ]
+}

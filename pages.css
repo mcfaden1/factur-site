@@ -510,6 +510,46 @@ html[data-motion="off"] .fpill:hover::after { transition-delay: 0s; }
 /* ============================================================
    ABOUT
    ============================================================ */
+/* About v2: Corpus pill bar + Discourse entries (.thread*) inside .molt-inner */
+.about-v2 .about-first { border-top: none; padding-top: 0; }
+.about-v2 .thread-body p { max-width: 64ch; }
+.about-v2 .thread-body a { color: var(--ink); }
+.about-more { color: var(--ink-mid); margin-top: 0.9rem; }
+.about-toggle { appearance: none; background: none; border: none; padding: 0; cursor: pointer;
+  font-family: var(--font-mono), monospace; }
+.about-dim p { color: var(--ink-mid); }
+.about-statement em { font-style: italic; }
+.about-fam { color: var(--accent-solid); }
+.about-stations { display: grid; grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid var(--hairline2); border-left: 1px solid var(--hairline2); }
+.about-station { appearance: none; background: transparent; border: 0; cursor: pointer; text-align: left;
+  border-right: 1px solid var(--hairline2); border-bottom: 1px solid var(--hairline2);
+  padding: 0.9rem 0.6rem 0.8rem; display: flex; flex-direction: column; align-items: flex-start; gap: 0.35rem;
+  color: var(--ink-mid); position: relative; font-family: var(--font-mono), monospace;
+  transition: color 0.2s, background 0.2s; }
+.about-station:hover { color: var(--ink); background: rgba(224,219,211,0.025); }
+.about-station .n { font-size: var(--text-tiny); letter-spacing: 0.1em; color: var(--ink-dim); font-variant-numeric: tabular-nums; }
+.about-station .t { font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 0.72rem; letter-spacing: -0.01em; }
+.about-station.on { color: var(--ink); }
+.about-station.on .n { color: var(--accent-solid); }
+.about-station.on::after { content: ""; position: absolute; left: -1px; right: -1px; bottom: -1px; height: 2px; background: var(--accent-solid); }
+.about-around { display: flex; align-items: baseline; gap: 1.5rem; flex-wrap: wrap; margin-top: 1.1rem; }
+.about-around-lbl { font-size: var(--text-tiny); letter-spacing: 0.1em; color: var(--ink-dim); }
+.about-ltab.on { color: var(--ink); border-bottom-color: var(--accent-solid); }
+.about-step-detail { margin-top: 1.6rem; }
+.about-figures { display: flex; flex-wrap: wrap; gap: 0.35rem 1.4rem; font-size: var(--text-tiny);
+  letter-spacing: 0.1em; color: var(--ink-mid); margin-bottom: 1.5rem; }
+.about-figures b { color: var(--ink); font-weight: 400; font-variant-numeric: tabular-nums; }
+.about-items { list-style: none; margin: 0; padding: 0; font-size: var(--text-body); line-height: 1.7; }
+.about-items li { display: flex; justify-content: space-between; gap: 1rem; padding: 0.3rem 0;
+  border-bottom: 1px solid var(--hairline); }
+.about-items li:last-child { border-bottom: 0; }
+.about-items .au { color: var(--ink-mid); text-align: right; }
+@media (max-width: 640px) {
+  .about-stations { grid-template-columns: repeat(2, 1fr); }
+  .about-items li { flex-direction: column; gap: 0; }
+  .about-items .au { text-align: left; }
+}
 .about-inner { max-width: 1000px; margin: 0 auto; padding: 4rem var(--pad) 5rem; }
 .about-cols { display: grid; grid-template-columns: 60% 40%; gap: 0; }
 .about-left { padding-right: 3rem; border-right: 1px solid var(--hairline); }
