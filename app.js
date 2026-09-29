@@ -693,9 +693,9 @@
   };
   let corpusSetPiece = null; // assigned by buildCorpus; (pieceId|null) => void
 
-  function openCorpusForPiece(pieceId) {
+  function openCorpusForPiece(pieceId, type) {
     route('corpus');
-    if (corpusSetPiece) corpusSetPiece(pieceId);
+    if (corpusSetPiece) corpusSetPiece(pieceId, type);
   }
 
   /* floating back-to-top button, shown once a scroll container is scrolled down */
@@ -720,8 +720,10 @@
     let sortAsc = false;
     let originalOrder = [];
     const activeTypes = new Set();
+    const typePills = {};
     CORPUS_TYPES.forEach((t) => {
       const pill = el('button', 'fpill', t);
+      typePills[t] = pill;
       pill.setAttribute('data-desc', CORPUS_DESC[t] || '');
       pill.addEventListener('click', () => {
         pill.classList.toggle('on');
@@ -814,8 +816,13 @@
       }
     }
 
-    corpusSetPiece = function (pid) {
+    corpusSetPiece = function (pid, type) {
       pieceFilter = pid || null;
+      if (type) {
+        activeTypes.clear();
+        activeTypes.add(type);
+        Object.entries(typePills).forEach(([t, p]) => p.classList.toggle('on', t === type));
+      }
       updateChip();
       applyFilters();
       const s = page.querySelector('.corpus-stream');
@@ -965,7 +972,11 @@
     page.innerHTML = '';
     const A = F.about;
     const pieces = (F.siteMeta && F.siteMeta.total_pieces) || (F.pieces || []).length;
-    const fill = (s) => escapeText(s).replace('{pieces}', String(pieces));
+    const fill = (s) => linkifyTitles(escapeText(s)
+      .replace('{pieces}', String(pieces))
+      .replace(/\{\{(\w+):(\d+)\|([^}]+)\}\}/g, (m, type, piece, text) =>
+        '<a class="corpus-link" data-piece="' + piece + '" data-type="' + type.toUpperCase() + '">' + text + '</a>')
+      .replace(/\*([^*]+)\*/g, '<em>$1</em>'));
     const paras = (list) => list.map((p) => '<p>' + fill(p) + '</p>').join('');
 
     // Corpus-style section bar
@@ -1240,6 +1251,15 @@
       setTimeout(function () { cell.classList.remove('pulse'); }, 2400);
     });
   }
+
+  document.addEventListener('click', function (e) {
+    const c = e.target.closest && e.target.closest('.corpus-link');
+    if (c) {
+      e.preventDefault();
+      openCorpusForPiece(c.dataset.piece, c.dataset.type);
+      return;
+    }
+  });
 
   document.addEventListener('click', function (e) {
     const a = e.target.closest && e.target.closest('.piece-link');

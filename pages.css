@@ -578,6 +578,10 @@ html[data-motion="off"] .fpill:hover::after { transition-delay: 0s; }
   transition: background 0.2s, border-color 0.2s;
 }
 .piece-link em { font-style: italic; }
+/* quote links into a specific Corpus entry (About copy) */
+.corpus-link { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent);
+  cursor: pointer; transition: background 0.2s, border-color 0.2s; }
+.corpus-link:hover { background: var(--accent-bg); }
 .stmt-body .piece-link em,
 .thread-body .piece-link em,
 .reply .r-body .piece-link em { color: var(--accent); }

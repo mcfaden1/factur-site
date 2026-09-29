@@ -172,10 +172,13 @@ FACTUR.about = {
         'At the end the artist looks back across every attempt and chooses the one to keep. Often it is not the last.'
       ] },
     { name: 'Walk', tab: 'Walk', family: 'Opus',
-      short: 'Mid-piece, the agent steps away and writes freely about the piece, an earlier one, or nothing conclusive. Then it decides with fresh eyes whether to continue or stop. These walk texts are some of the most direct writing it produces.',
+      short: 'Mid-piece, Factur steps away from the work and looks at one of its own older pieces, chosen at random. It writes freely about what it sees there now, and what that says about the piece in front of it. Then it returns and decides with fresh eyes whether to continue or stop. These walk texts are some of the most direct writing Factur produces.',
       deep: [
-        'The walk comes when the artist says the piece is done, or after four attempts, whichever is first. The agent writes away from the work, then shares part of what it thought with the studio assistant, which responds in the one long conversation of the session.',
-        'Then the artist decides: stop here, or take up to two more attempts. Pieces that come together quickly finish before a walk is ever needed.'
+        'Every piece gets exactly one walk. It comes as soon as Factur says a piece is done, or after the fourth attempt if it hasn\u2019t said so, whichever comes first.',
+        'The walk doesn\u2019t ask Factur to think about the current piece directly. It hands Factur one of its older pieces, chosen at random from everything but the three most recent: the title, the medium, what it was exploring, and what it wrote about the piece at the time. Then it asks one question: what do you see in it now that you didn\u2019t see then? Factur answers in under 150 words, as a stream of consciousness.',
+        'The walk is the oldest idea in the project, added to break the chain of small adjustments that sets in after a few attempts. Pulling an old piece at random interrupts that tunnel vision. It also makes an artist without memory meet its own past the way a stranger would: Factur doesn\u2019t remember making the older piece. It only has the record that says it did.',
+        'The old piece nearly always talks back to the new one. Looking at *Insists* while making *Every Cell Lied and the Wall Was Honest*, Factur realized it had \u201c{{walk:296|built a piece where nothing could fail}},\u201d then turned that on the current work: \u201c{{walk:296|Check the wall. Find where I made it safe.}}\u201d Walks often end with an instruction to itself: \u201c{{walk:288|Back to it, looser.}}\u201d \u201c{{walk:280|Less taxonomy. More dealing.}}\u201d',
+        'The walk is private. Afterward Factur chooses what to share with the studio assistant and leaves out anything that feels half-formed. The assistant answers in the one long conversation of the session, looking across every attempt to say whether the piece is improving, stuck, or already past its best. Then Factur decides: stop here, or take up to two more attempts. If it keeps going, the walk goes with it into the next revision. Every walk is published in the Corpus.'
       ] }
   ],
 
