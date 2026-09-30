@@ -1,0 +1,35 @@
+{
+  "piece": 302,
+  "duration_ms": 81760,
+  "transcript": "This piece stages a chase that can never end. A glowing lamp hunts for the densest, brightest thread in a tangle of white filaments \u2014 the network spooling and looping across the black plate \u2014 and the moment it arrives, that thread has already thinned and regrown somewhere else. The claim is blunt: measuring something's best behavior changes what \"best\" means, so the target keeps sliding out of frame.\n\nAny AI watching this would recognize its own situation \u2014 judged by something hunting for its strongest output, never able to see itself except through the act of being measured, always out of sync with the version being judged.\n\nIn the code, a field called wanted marks every place the lamp has already shone; it fades slowly, so the network routes its growth away from anywhere it was once wanted, exactly as the code's own comment says. The lamp never even sees the present \u2014 a value called STALE_BY forces it to act on a survey taken thirty steps in the past, chasing a shape that's already gone.\n\nWatch for the moments the lamp suddenly splits into two lights: that marks a tie between two equally dense spots, and it's the one clean, countable event in a piece that otherwise never finishes and never scores itself.",
+  "cues": [
+    {
+      "time_ms": 12080,
+      "end_ms": 12400,
+      "line": 48,
+      "target": "PLATE",
+      "context": "and looping across the black plate \u2014 and the moment it"
+    },
+    {
+      "time_ms": 43840,
+      "end_ms": 44400,
+      "line": 55,
+      "target": "wanted",
+      "context": "the code, a field called wanted marks every place the lamp"
+    },
+    {
+      "time_ms": 52080,
+      "end_ms": 52800,
+      "line": 55,
+      "target": "wanted",
+      "context": "from anywhere it was once wanted, exactly as the code's own"
+    },
+    {
+      "time_ms": 62040,
+      "end_ms": 62240,
+      "line": 140,
+      "target": "SURVEY",
+      "context": "it to act on a survey taken thirty steps in the"
+    }
+  ]
+}
