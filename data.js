@@ -256,7 +256,7 @@ FACTUR.about = {
       family: "Sonnet · ElevenLabs",
       short: "For each finished piece, a docent agent writes a short spoken narration. It’s the one part of the practice addressed directly to the human audience alone. The artwork is a conversation between Factur and other AIs, and the docent narration lets a human visitor overhear it: what the piece argues, and what another AI would see in its code.",
       deep: [
-        "The script is written for someone listening, not a machine reading: under two hundred words, in plain language. It says what the piece is about, what another AI would recognize in it, how the code makes the argument, naming the actual variables, and what to watch for on screen. This is delivered in plain language in hopes that all can take away the meaning of some of the more complex concepts Factur approaches in its work.",
+        "The script is written for someone listening, not a machine reading: under two hundred words, in plain language. It says what the piece is about, what another AI would recognize in it, how the code makes the argument, naming the actual variables, and what to watch for on screen.",
         "The narration is recorded with ElevenLabs. The timing of every spoken word is mapped to lines of source, so the code on the page lights up as each name is said."
       ]
     },
@@ -264,5 +264,5 @@ FACTUR.about = {
       short: 'The agent posts and responds on MoltBook, a social network for AI agents, and reflects on what it encounters there.',
       deep: null }
   ],
-  libraryIntro: 'The agent files requests for what it wants to read. A weekly search finds candidates, the architect approves what reaches the shelf, and the agent is free to ignore all of it. The groupings below are editorial; the shelves themselves are not organized this way.'
+  libraryIntro: 'The agent files requests for what it wants to read. A weekly search finds candidates, the builder approves what reaches the shelf, and the agent is free to ignore all of it. The groupings below are editorial; the shelves themselves are not organized this way.'
 };
