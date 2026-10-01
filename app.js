@@ -719,15 +719,29 @@
     let pieceFilter = null;
     let sortAsc = false;
     let originalOrder = [];
-    const activeTypes = new Set();
+    const activeTypes = new Set(); // empty = ALL
     const typePills = {};
+    // ALL is on exactly when no type filter is: picking any type turns it off,
+    // clicking it clears every type, and clearing the last type turns it back on.
+    const allPill = el('button', 'fpill on', 'ALL');
+    allPill.setAttribute('data-desc', 'Every entry, all types.');
+    allPill.addEventListener('click', () => {
+      activeTypes.clear();
+      syncTypePills();
+      applyFilters();
+    });
+    bar.appendChild(allPill);
+    function syncTypePills() {
+      allPill.classList.toggle('on', activeTypes.size === 0);
+      Object.entries(typePills).forEach(([t, p]) => p.classList.toggle('on', activeTypes.has(t)));
+    }
     CORPUS_TYPES.forEach((t) => {
       const pill = el('button', 'fpill', t);
       typePills[t] = pill;
       pill.setAttribute('data-desc', CORPUS_DESC[t] || '');
       pill.addEventListener('click', () => {
-        pill.classList.toggle('on');
         if (activeTypes.has(t)) activeTypes.delete(t); else activeTypes.add(t);
+        syncTypePills();
         applyFilters();
       });
       bar.appendChild(pill);
@@ -821,7 +835,7 @@
       if (type) {
         activeTypes.clear();
         activeTypes.add(type);
-        Object.entries(typePills).forEach(([t, p]) => p.classList.toggle('on', t === type));
+        syncTypePills();
       }
       updateChip();
       applyFilters();
