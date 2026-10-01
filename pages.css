@@ -515,6 +515,8 @@ html[data-motion="off"] .fpill:hover::after { transition-delay: 0s; }
 .about-v2 .thread-body p { max-width: 64ch; }
 .about-v2 .thread-body a { color: var(--ink); }
 .about-more { color: var(--ink-mid); margin-top: 0.9rem; }
+.about-v2 .about-list { max-width: 64ch; margin: 0 0 0.9rem; padding-left: 1.2em; }
+.about-v2 .about-list li { margin: 0.3em 0; }
 .about-toggle { appearance: none; background: none; border: none; padding: 0; cursor: pointer;
   font-family: var(--font-mono), monospace; }
 .about-dim p { color: var(--ink-mid); }

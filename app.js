@@ -972,12 +972,22 @@
     page.innerHTML = '';
     const A = F.about;
     const pieces = (F.siteMeta && F.siteMeta.total_pieces) || (F.pieces || []).length;
+    const kept = (F.siteMeta && F.siteMeta.kept_earlier) || {};
+    // {{code:N|text}} links to the piece itself (the Corpus has no code
+    // entries); any other {{type:N|text}} opens that piece's Corpus entries.
     const fill = (s) => linkifyTitles(escapeText(s)
       .replace('{pieces}', String(pieces))
+      .replace('{kept_earlier}', String(kept.earlier != null ? kept.earlier : '—'))
+      .replace('{kept_total}', String(kept.total != null ? kept.total : '—'))
       .replace(/\{\{(\w+):(\d+)\|([^}]+)\}\}/g, (m, type, piece, text) =>
-        '<a class="corpus-link" data-piece="' + piece + '" data-type="' + type.toUpperCase() + '">' + text + '</a>')
+        type === 'code'
+          ? '<a class="piece-link" data-piece="' + piece + '">' + text + '</a>'
+          : '<a class="corpus-link" data-piece="' + piece + '" data-type="' + type.toUpperCase() + '">' + text + '</a>')
       .replace(/\*([^*]+)\*/g, '<em>$1</em>'));
-    const paras = (list) => list.map((p) => '<p>' + fill(p) + '</p>').join('');
+    // a paragraph given as an array renders as a bulleted list
+    const paras = (list) => list.map((p) => Array.isArray(p)
+      ? '<ul class="about-list">' + p.map((li) => '<li>' + fill(li) + '</li>').join('') + '</ul>'
+      : '<p>' + fill(p) + '</p>').join('');
 
     // Corpus-style section bar
     const bar = el('div', 'corpus-filterbar');

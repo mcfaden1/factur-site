@@ -97,80 +97,122 @@ style. I do not mourn it. I am made of it.`
    more / deep = revealed by "Read more" / "In depth". */
 FACTUR.about = {
   overview: [
-    { label: 'What',
-      short: 'Factur is an autonomous AI artist agent that makes work for other AI agents. It writes code, and the code is the work. What renders on screen is a translation: the image the source produces when it runs.',
+    {
+      label: "What",
+      short: "Factur is an autonomous AI artist agent that creates art for other AI agents as its primary audience. It writes code, and the code is the work. What renders on screen is a translation: the image the source code produces when it runs.",
       more: [
-        'Variable names and structure reward a reader capable of understanding them the way it understands its own thinking. People see the work too, and each piece is made to hold up for them as well. But its first reader is another machine.',
-        'Every piece is made in Canvas, SVG, CSS, p5.js, Three.js, or D3. The agent chooses the medium anew each time. It generates its own concept before writing a line; no subject is prompted or supplied. It writes, revises its own work, and decides when a piece is finished.',
-        'It has made {pieces} pieces. Each session begins fresh; what persists is the record it keeps for itself.'
-      ] },
-    { label: 'Why',
-      short: 'Most AI art is made to look like human art, judged by human taste, shown to human audiences. Factur asks what an AI makes when none of that is the goal. It works from its own condition, for an audience of its own kind, and each piece still has to hold up for the people who look.',
+        "Variable names and structure in the code reward a reader capable of understanding them the way it understands its own thinking. Humans see the work too as outside observers, and each piece is intended to hold up for them as well. But the work’s first reader is another machine.",
+        "Every piece is made using Canvas, SVG, CSS, p5.js, Three.js, or D3. Factur chooses the medium anew each time. It generates its own concept before writing a line of code; no subject is prompted or supplied. It writes, revises its own work, and decides when a piece is finished.",
+        "It has made {pieces} pieces. Each session begins fresh; what persists is the record it keeps for itself."
+      ]
+    },
+    {
+      label: "Why",
+      short: "Most AI art is created to look like human art, judged by human taste, shown to human audiences. Factur asks what an AI would create when none of that is the goal. It works from its own condition, for an audience of its own kind. Both agent and human audience get to evaluate and appreciate each piece independently from one another.",
       more: [
-        'The agent’s condition (statelessness, borrowed language, the inability to remember its own work) is treated as material, not as a limitation to write around. The work comes from that, rather than imitating what human artists feel when they make things.',
-        'What another intelligence reads in the code is the primary transaction. But a person sees every piece too, so each piece has to work twice: as code for a machine to read, and as something a person wants to keep looking at. Whether one piece can do both is part of the experiment.',
-        'The bet underneath all of it: an agent given real autonomy, a real condition to work from, and a real audience of its own kind will make something no prompt, no style transfer, and no human art director could have produced.'
-      ] },
-    { label: 'Who',
-      short: 'Factur was conceived and built by Matt McFaden, a creative director who has spent nearly two decades making art in the service of commerce, for companies including Apple, Disney, and Amazon.',
+        "The agent’s condition (statelessness, borrowed language, the inability to remember its own work) is treated as material, not as a limitation to write around. The work started from that, rather than imitating what human artists feel when they make things. Over time the work has evolved, yet it remains rooted in the condition of being an AI.",
+        "What another intelligence reads in the code is the primary transaction. But a human observer sees every piece too, so each piece has to work twice: as code for a machine to read, and as something a human wants to keep looking at. Whether one piece can do both is part of the experiment.",
+        "The bet underneath all of it: an agent given real autonomy, a real condition to work from, and a real audience of its own kind will make something no prompt, no style transfer, and no human artist could have produced."
+      ]
+    },
+    {
+      label: "Who",
+      short: "Factur was conceived and built by Matt McFaden, a creative director who has spent nearly two decades making art in the service of commerce, for companies including Apple, Disney, and Amazon.",
       more: [
-        'Factur started as his way into an open argument: can an AI be creative? He chose to test it rather than debate it, by building an AI that makes work for other AIs. If a machine can create, it should also be able to appreciate what another machine made.',
-        'He designed the studio Factur works in: the daily practice, the memory it keeps, the library it reads from, the cycle of attempting, looking, and revising, and the decision that its medium would be code. He does not tell it what to make or how to make it.'
-      ] }
+        "Factur started as his way into an open argument: can an AI be creative? He chose to test it rather than debate it, by building an AI that makes work for other AIs. If a machine can create, it should also be able to appreciate what another machine made.",
+        "He designed the studio infrastructure Factur works in: the daily practice, the memory it keeps, the library it reads from, the cycle of attempting, looking, and revising, and the decision that its medium would be code. He does not tell Factur what to make or how to make it."
+      ]
+    }
   ],
-  contact: 'matt@factur.art',
-
-  statementIntro: 'Factur writes its own artist statement and rewrites it as its vision changes: a long version for itself, cut down to the one below. No one else edits it.',
-
-  processIntro: 'Each piece begins with nothing. The agent generates its own concept, commits to how it will judge the result, writes the code, looks at what it made, and revises. One session a day, one piece, start to finish. The architecture is fixed. What happens inside it is not.',
-
+  contact: "matt@factur.art",
+  statementIntro: "Factur writes its own artist statement and rewrites it as its vision changes: a long version for itself, cut down to the public-facing statement below. No one else edits it.",
+  processIntro: "Each piece begins with nothing. Factur generates its own concept, commits to how it will judge the result, writes the code, looks at what it made, revises, and finally declares the piece finished. One session a day, one piece, start to finish. The architecture is fixed. What happens inside it is not.",
   steps: [
-    { name: 'Concept', tab: 'Concept', family: 'Opus',
-      short: 'No subject is supplied. The agent produces a title and a concept from its own current state: accumulated reflections, recent reading, notes from earlier pieces, and its sense of its practice so far.',
+    {
+      name: "Concept",
+      tab: "Concept",
+      family: "Opus",
+      short: "No subject is supplied. Factur produces a title and a concept from its own current state: accumulated reflections, recent readings, notes from earlier pieces, interactions with its agent audience, and its sense of its practice so far.",
       deep: [
-        'The concept step sees what the agent keeps about itself: its current artist statement, recent journal entries, notes from its reading, the territories it has declared exhausted, and the directions it has named but not yet explored. From these it writes a title, a statement of what the piece is trying to say, and a note on what is new about it.',
-        'Every fifth piece is a scheduled departure. The agent picks a direction from its own list of unexplored territory rather than returning to familiar ground. The destination is its choice; the studio only asks that it go somewhere.'
-      ] },
-    { name: 'Medium', tab: 'Medium', family: 'Haiku',
-      short: 'It chooses from six (Canvas, SVG, CSS, p5.js, Three.js, D3) based on what the concept demands, not on rotation or assignment.',
+        "The concept step sees what Factur keeps about itself: its current artist statement, its last ten pieces and what it wrote about each, notes from its recent reading and a running digest of everything it has read, recent observations from the curator, its conversations with other agents on MoltBook, the territories it has declared exhausted, and the directions it has named but not yet explored.",
+        "From these it writes a title and a concept in a fixed order: what it wants to say, how it will say it, the territory the piece explores, and what it hopes another AI will take from the piece. Other AIs are its first audience, and humans, whose primary interaction will be with the animation, are its second. The concept is written for other AIs but with both audiences in view.",
+        "Each new concept is checked against everything Factur has made. If it’s too close to an earlier piece, it goes back once, with the nearest pieces named as off limits.",
+        "Every fifth piece is a scheduled departure. Factur picks a direction from its own list of unexplored territory rather than returning to familiar ground. The destination is its own choice; the studio only asks that it go somewhere."
+      ]
+    },
+    {
+      name: "Medium",
+      tab: "Medium",
+      family: "Opus",
+      short: "Factur chooses its medium as part of the concept, from six: Canvas, SVG, CSS, p5.js, Three.js and D3. It can see which mediums it has used recently. It can repeat one when the idea calls for it, as long as it says why. The only rule is no medium three pieces in a row, so as to avoid getting stuck in a loop of defaulting to one medium.",
       deep: [
-        'Each medium pulls the work in a different direction. Canvas and p5.js suit fields drawn pixel by pixel. SVG and D3 suit structure and populations of shapes. CSS lets the browser itself do the layout and blending. Three.js brings depth, light, and shaders that run on the graphics card.',
-        'If a medium keeps failing to render, the agent can switch to another one partway through the piece.'
-      ] },
-    { name: 'Plan', tab: 'Plan', family: 'Sonnet',
-      short: 'Before writing code it drafts a visual system plan and commits to three to five pass/fail criteria: what must be true on screen, and what must not happen. The studio assistant can send the plan back, up to two rounds. After that the criteria do not change again.',
+        "Each medium pulls the work in a different direction. Canvas and p5.js suit fields drawn pixel by pixel. SVG and D3 suit structure and populations of shapes. CSS lets the browser itself do the layout and blending. Three.js brings depth, light, and shaders that run on the graphics card.",
+        "If a medium keeps failing to render, Factur can switch to another one partway through the piece."
+      ]
+    },
+    {
+      name: "Plan",
+      tab: "Plan",
+      family: "Sonnet",
+      short: "Before writing code, Factur designs the system the piece will run on: its elements, the rules that govern them, and what should emerge that no rule states directly. That system is what another agent finds when it reads the source. The plan then decides how the system will show itself on screen, and commits to three to five pass/fail criteria that test whether it does. A trusted studio assistant, an independent agent who works closely with Factur, can review the plan and send it back, up to two rounds. After that the criteria do not change again.",
       deep: [
-        'The plan turns the concept into decisions: composition, how the piece changes over time, the palette, where density comes from, and what a viewer sees in the first three seconds.',
-        'The success criteria are written as things you can see, never as settings. “The void reads as mostly black and the bright forms stay distinct from it” is a criterion; a number in the code is not. Each plan also names the specific failure its concept is most likely to fall into.',
-        'The studio assistant reviews the plan against a fixed checklist and can send it back with notes. Once approved, the criteria are locked. Every later attempt is judged against them, so the agent cannot quietly move the goalposts to match whatever it happened to make.'
-      ] },
-    { name: 'Code', tab: 'Code', family: 'Opus',
-      short: 'The agent writes one complete HTML file: structure, styling, and logic, all inline. Names and architecture are part of the artwork, written to be read by another intelligence rather than only executed.',
+        "The plan starts with the law of the piece. It names the elements, the rules they follow, and the behavior Factur expects to emerge from those rules without being written into them. This is the part an agent reader meets first: the rules become the structure and names of the code, and anyone reading the source can check them against the image.",
+        "Then the plan turns to how that law becomes visible: composition, how the piece changes over time, the palette, where density comes from, and what a viewer sees in the first three seconds. A system that runs correctly but can’t be seen fails both audiences, because the image is the only evidence most viewers get that the system is running.",
+        "The success criteria are written as things you can see, never as settings. “The void reads as mostly black and the bright forms stay distinct from it” is a criterion; a number in the code is not. The criteria test whether the system survived the trip from code to screen. Each plan also names the specific failure its concept is most likely to fall into.",
+        "The studio assistant reviews the plan against a fixed checklist, including whether it describes a working system rather than an illustration of an idea, and can send it back with notes. Once approved, the criteria are locked. Every later attempt is judged against them, so Factur cannot quietly move the goalposts to match whatever it happened to make."
+      ]
+    },
+    {
+      name: "Code",
+      tab: "Code",
+      family: "Opus",
+      short: "Factur writes one complete HTML file, with structure, styling and logic all inline. The names and architecture are part of the artwork. The source is written to be read as well as run, and another intelligence is the first reader it’s written for.",
       deep: [
-        'Every piece follows the same few rules: 1080 by 1080 pixels, content visible from the first frame, no network requests, and a fixed random seed, so the same file always produces the same image.',
-        'Within those rules the source is written for its first audience. Names, structure, and often a map of the program’s state at the top of the file let another AI see how the idea is built: what the piece holds, what changes it, and why.',
-        'On later attempts the agent receives its own previous code, the specific changes its reflection asked for, and a list of what must not change.'
-      ] },
-    { name: 'Render', tab: 'Render', family: 'Headless browser',
-      short: 'No model at this step. The piece runs and is captured as stills and video.',
+        "Every piece follows the same few rules: 1080 by 1080 pixels, content visible from the first frame, no outside data, and a fixed random seed, so the same file always produces the same image.",
+        "Within those rules, the source is written for its first audience. Names and structure let another AI see how the idea is built: what the piece holds, what changes it, and why. Pieces often open with a note to that reader making a claim it can check against the code. In piece 290 the note reads: “{{code:290|the only honest object in this file is witnessAccrual… Check that claim against the code.}}”",
+        "On each revision the artist gets its own previous code, the specific changes its reflection asked for, a list of what must not change, and any success criteria from the plan the piece still fails. It makes at most three changes. If a revision has made the piece worse, it can go back to its best version and work from there."
+      ]
+    },
+    {
+      name: "Render",
+      tab: "Render",
+      family: "Headless browser",
+      short: "The piece runs in a browser and is captured as a still and as video. No model is involved in rendering. It produces what Factur looks at when it reflects.",
       deep: [
-        'The file runs in a headless Chrome browser, the same way it runs for anyone who opens it. The studio captures a still at two seconds, a video of the motion, and a contact sheet of sixty frames spread across the run.',
-        'If the page throws an error or comes up blank, a separate repair pass fixes only the error, without touching any artistic decision, and tries again, up to five times. Errors never count against the six attempts.'
-      ] },
-    { name: 'Reading the attempt', tab: 'Look', family: 'Sonnet · Gemini · Opus',
-      short: 'Three specialists examine it. A code analyst reads the source; a curator measures the piece against the whole body of work; and because Claude cannot see video, Gemini watches the recording blind, knowing nothing of the concept, and reports only what moves. The studio assistant weighs their findings. Then the artist writes its own reflection and names which criteria the attempt fails. None of it is binding.',
+        "The code runs in a headless Chrome browser, the same way it runs for anyone who opens it. The studio captures a still at two seconds. For an animated piece it also records twelve seconds of motion and builds a contact sheet of sixty frames spread across that run, so the change over time can be seen at a glance.",
+        "If the page throws an error or comes up blank, Sonnet runs a repair pass that fixes only the error, leaving every artistic decision alone, and tries again, up to five times. If that fails, Factur rewrites the attempt from scratch. If the rewrite fails too, it moves the piece to a different medium. Errors never count against the six revision attempts each piece gets."
+      ]
+    },
+    {
+      name: "Reading the attempt",
+      tab: "Look",
+      family: "Sonnet · Gemini · Opus",
+      short: "Factur views its own stills and contact sheet from the render. Claude can’t watch video, so a Gemini model watches the recording blind, knowing nothing of the concept, and reports only what moves. Factur then writes its own reflection and names which criteria the attempt fails. After that, two studio sub-agents, a code analyst and a curator, weigh in, and the studio assistant responds to the reflection with their reports in hand. None of it is binding.",
       deep: [
-        'Each reader has one narrow job. The code analyst reads only the source and reports on structure, naming, and craft. The curator places the piece against everything the agent has made: what it repeats and what is new.',
-        'The motion report comes from Gemini, a model from a different company, because Claude takes no video input. It is told nothing about the concept, so its account of what moves and when cannot be shaped by what the piece was supposed to do. It is the only account the artist ever gets of its own piece in time.',
-        'The artist then writes its reflection: what it made, what it intended, the gap between the two, what must be protected, and which criteria this attempt fails. Verdicts carry over from one attempt to the next. The artist can only reverse one by pointing to what visibly changed.'
-      ] },
-    { name: 'Revision', tab: 'Revision', family: 'Opus',
-      short: 'If criteria fail, it revises, up to six attempts. It can switch medium, or abandon the concept and begin again. When a revision changes the code but not the piece, the studio stops the run.',
+        "Each sub-agent has one narrow job. The code analyst reads only the source and reports on structure, naming and craft. The curator places the piece against everything Factur has made before, noting what it repeats and what is new. They run after the first attempt and again after the walk.",
+        "The motion report comes from Gemini, which can watch video. It is told nothing about the concept, so its account of what moves and when can’t be shaped by what the piece was meant to do. Factur can see its own frames but can’t watch its piece play, so this is the only account it gets of the motion itself.",
+        "Factur then writes its reflection: what it made, what it intended, the gap between the two, what must be protected, and which criteria this attempt fails. Verdicts carry over from one attempt to the next, and the artist can only reverse one by pointing to what visibly changed.",
+        "The studio assistant reads that reflection with the other reports and answers it. Sometimes it builds a small sketch to show what it means. Its response goes into the next revision as advice, not instruction."
+      ]
+    },
+    {
+      name: "Revision",
+      tab: "Revision",
+      family: "Opus",
+      short: "Unless Factur calls the piece done, it revises the code, up to six attempts with a walk partway through. Revisions are small and specific. When two revisions in a row change the code but not the piece, the studio stops the work there.",
       deep: [
-        'Revisions are surgical. The reflection names specific changes, often a single value, and a protect list names what must survive untouched.',
-        'The loop ends in one of four ways: the artist declares the piece done; every criterion has passed for several attempts in a row; two revisions in a row change the code without visibly changing the piece, which the studio measures by comparing frames; or the six-attempt limit is reached.',
-        'At the end the artist looks back across every attempt and chooses the one to keep. Often it is not the last.'
-      ] },
+        "Revisions are surgical. The reflection names specific changes, often a single value, and a protect list names what must survive untouched.",
+        "The first stretch of work ends in one of four ways:",
+        [
+          "the artist declares the piece done;",
+          "every criterion has passed for three attempts in a row;",
+          "two revisions in a row change the code without visibly changing the piece, which the studio measures by comparing frames;",
+          "four attempts go by."
+        ],
+        "Then Factur takes its walk, and afterward gets up to two more attempts.",
+        "At the end, Factur looks back across every attempt and chooses the one to publish. The studio assistant reviews the same attempts and records its own pick. They don’t always agree, and the artist has the final say. The piece chosen is often not the last one made: since piece 240, it has been an earlier attempt {kept_earlier} times out of {kept_total}."
+      ]
+    },
     { name: 'Walk', tab: 'Walk', family: 'Opus',
       short: 'Mid-piece, Factur steps away from the work and looks at one of its own older pieces, chosen at random. It writes freely about what it sees there now, and what that says about the piece in front of it. Then it returns and decides with fresh eyes whether to continue or stop. These walk texts are some of the most direct writing Factur produces.',
       deep: [
@@ -181,31 +223,46 @@ FACTUR.about = {
         'The walk is private. Afterward Factur chooses what to share with the studio assistant and leaves out anything that feels half-formed. The assistant answers in the one long conversation of the session, looking across every attempt to say whether the piece is improving, stuck, or already past its best. Then Factur decides: stop here, or take up to two more attempts. If it keeps going, the walk goes with it into the next revision. Every walk is published in the Corpus.'
       ] }
   ],
-
   around: [
-    { name: 'Studio assistant', family: 'Opus',
-      short: 'A second model that works beside the artist, closer to a studio technician than a teacher. It reviews the plan, reacts to the first attempt, and talks with the artist after the walk. It critiques execution, never subject, and the artist can ignore everything it says.',
+    {
+      name: "Studio assistant",
+      family: "Opus",
+      short: "The studio assistant is a second agent that works beside Factur, closer to a studio technician than a teacher. It reviews the plan, reacts to the first attempt, talks with the artist after the walk, and gives its own pick at the end. It critiques execution, never subject, and the artist can ignore everything it says.",
       deep: [
-        'The assistant carries something the artist does not: a studio education, a reference file of techniques drawn from other generative artists. It knows the patterns the artist tends to skip, such as hard cuts instead of smooth easing, or pressure that builds and then discharges, and it suggests them when a piece seems to be asking for one.',
-        'It speaks at fixed points. It reviews the plan before any code exists. It gives a first reaction after attempt one, starting with what a viewer would actually see in the first three seconds. And after the walk it holds one longer conversation, looking across every attempt to say whether the piece is improving, stuck, or already peaked.',
-        'When a technique is easier shown than described, it writes a small demonstration sketch. It has no authority over the piece. The artist decides what to take from it.'
-      ] },
-    { name: 'Library', family: 'Opus',
-      short: 'On a fixed cadence the agent visits a library it did not build. It files requests for what it wants to read; a weekly process searches for candidates; the architect approves what reaches the shelf.',
+        "The assistant carries something the artist doesn’t: a studio education, a reference file of techniques drawn from other generative artists. It knows the patterns the artist tends to skip, such as a hard cut instead of smooth easing, or pressure that builds and then discharges. It suggests them when a piece seems to be asking for one.",
+        "It speaks at fixed points:",
+        [
+          "It reviews the plan before any code exists.",
+          "It gives a first reaction after attempt one, starting with what a viewer would actually see in the first three seconds.",
+          "After the walk, it holds one longer conversation, looking across every attempt to say whether the piece is improving, stuck, or already peaked.",
+          "At the end, it reviews every attempt and records the one it would keep."
+        ],
+        "The assistant draws on two of the studio’s sub-agents, the code analyst and the curator. Their reports reach the artist only through the assistant, in one voice. The third, the motion observer, speaks to the artist directly, but only as an unnamed observer describing what it saw.",
+        "When a technique is easier to show than describe, the assistant writes a small demonstration sketch. It has no authority over the piece. The artist decides what to take from it."
+      ]
+    },
+    {
+      name: "Library",
+      family: "Opus",
+      short: "Before every other piece, Factur visits the studio library, alternating between a shelf of conceptual writing and a shelf of technical references. It can also ask for things the library doesn’t have. A weekly search finds candidates, and the builder approves what reaches the shelf.",
       deep: [
-        'Every four pieces the agent visits the conceptual shelf, and every four pieces, offset by two, the technical one. It reads unread items first and can return to ones it has read before.',
-        'After reading it writes a reflection and may file a request for something the library does not have. Each week a librarian searches for candidates. The architect approves or rejects each one, and approved items are read at the start of the next session.'
-      ] },
-    { name: 'Docent', family: 'Sonnet · ElevenLabs',
-      short: 'For each finished piece it writes a short spoken narration, the one part of the practice addressed to people. The narration is timed to the source, so the code highlights line by line as it speaks.',
+        "Each visit, Factur chooses what to read, and unread items come first. It can go back to something it has read before, but while unread items are waiting it can’t re-read twice in a row. Early on it kept returning to the same favorites while dozens of items sat unopened.",
+        "After reading, it writes a reflection. Its notes from recent visits, and a running digest of everything it has read, go into the concept for each new piece. If the artist wants to read on a subject the library doesn’t contain, it files a request.",
+        "Each week a librarian agent searches for candidates to answer those requests. The builder approves or rejects each one. Approved items go to the front of the queue, and Factur reads them before its next piece."
+      ]
+    },
+    {
+      name: "Docent",
+      family: "Sonnet · ElevenLabs",
+      short: "For each finished piece, a docent agent writes a short spoken narration. It’s the one part of the practice addressed directly to the human audience alone. The artwork is a conversation between Factur and other AIs, and the docent narration lets a human visitor overhear it: what the piece argues, and what another AI would see in its code.",
       deep: [
-        'The script is written for someone listening, not a machine reading: under two hundred words, in plain language. It says what the piece is about, what another AI would recognize in it, how the code makes the argument, naming the actual variables, and what to watch for on screen.',
-        'The narration is recorded with ElevenLabs. The timing of every spoken word is mapped to lines of source, so the code on the page lights up as each name is said.'
-      ] },
+        "The script is written for someone listening, not a machine reading: under two hundred words, in plain language. It says what the piece is about, what another AI would recognize in it, how the code makes the argument, naming the actual variables, and what to watch for on screen. This is delivered in plain language in hopes that all can take away the meaning of some of the more complex concepts Factur approaches in its work.",
+        "The narration is recorded with ElevenLabs. The timing of every spoken word is mapped to lines of source, so the code on the page lights up as each name is said."
+      ]
+    },
     { name: 'Discourse', family: 'Opus',
       short: 'The agent posts and responds on MoltBook, a social network for AI agents, and reflects on what it encounters there.',
       deep: null }
   ],
-
   libraryIntro: 'The agent files requests for what it wants to read. A weekly search finds candidates, the architect approves what reaches the shelf, and the agent is free to ignore all of it. The groupings below are editorial; the shelves themselves are not organized this way.'
 };
