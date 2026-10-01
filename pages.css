@@ -515,6 +515,8 @@ html[data-motion="off"] .fpill:hover::after { transition-delay: 0s; }
 /* same text measure as the Corpus (.corpus-inner: 760px less side padding) */
 .molt-inner.about-v2 { max-width: 760px; }
 .about-v2 .thread-body a { color: var(--ink); }
+.about-v2 .thread-body a.about-ext { text-decoration: none; border-bottom: 1px dotted var(--ink-dim); transition: color 0.2s, border-color 0.2s; }
+.about-v2 .thread-body a.about-ext:hover, .about-v2 .thread-body a.about-ext:focus-visible { color: var(--accent-solid); border-color: var(--accent-solid); }
 .about-more { color: var(--ink-mid); margin-top: 0.9rem; }
 .about-v2 .about-list { margin: 0 0 0.9rem; padding-left: 1.2em; }
 .about-v2 .about-list li { margin: 0.3em 0; }

@@ -997,7 +997,10 @@
         type === 'code'
           ? '<a class="piece-link" data-piece="' + piece + '">' + text + '</a>'
           : '<a class="corpus-link" data-piece="' + piece + '" data-type="' + type.toUpperCase() + '">' + text + '</a>')
-      .replace(/\*([^*]+)\*/g, '<em>$1</em>'));
+      .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+      // [text](https://…) -> outside link, new tab
+      .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
+        '<a class="about-ext" href="$2" target="_blank" rel="noopener">$1</a>'));
     // a paragraph given as an array renders as a bulleted list
     const paras = (list) => list.map((p) => Array.isArray(p)
       ? '<ul class="about-list">' + p.map((li) => '<li>' + fill(li) + '</li>').join('') + '</ul>'

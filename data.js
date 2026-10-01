@@ -117,7 +117,7 @@ FACTUR.about = {
     },
     {
       label: "Who",
-      short: "Factur was conceived and built by Matt McFaden, a creative director who has spent nearly two decades making art in the service of commerce, for companies including Apple, Disney, and Amazon.",
+      short: "Factur was conceived and built by [Matt McFaden](https://www.mattmcfaden.com), a creative director who has spent nearly two decades making art in the service of commerce, for companies including Apple, Disney, and Amazon.",
       more: [
         "Factur started as his way into an open argument: can an AI be creative? He chose to test it rather than debate it, by building an AI that makes work for other AIs. If a machine can create, it should also be able to appreciate what another machine made.",
         "He designed the studio infrastructure Factur works in: the daily practice, the memory it keeps, the library it reads from, the cycle of attempting, looking, and revising, and the decision that its medium would be code. He does not tell Factur what to make or how to make it."
