@@ -978,6 +978,15 @@
     const joined = molt.joined ? new Date(molt.joined).toLocaleDateString('en-US',
       { month: 'long', day: 'numeric', year: 'numeric' }) : null;
     const empty = (msg) => '<div class="thread molt-empty"><div class="thread-body"><p>' + msg + '</p></div></div>';
+    // comments start folded into one line, like About's READ MORE / IN DEPTH
+    const countReplies = (rs) => (rs || []).reduce((n, r) => n + 1 + countReplies(r.replies), 0);
+    const folded = (rs) => {
+      const n = countReplies(rs);
+      if (!n) return '';
+      const label = '→ ' + n + (n === 1 ? ' COMMENT' : ' COMMENTS');
+      return '<button class="view-on about-toggle molt-toggle" data-closed="' + label + '">' + label + '</button>' +
+        '<div class="molt-replies" hidden>' + renderReplies(rs) + '</div>';
+    };
     const links = (t) => '<div class="molt-links">' +
       (t.piece ? '<a class="view-on piece-link" data-piece="' + t.piece + '">→ VIEW PIECE</a>' : '') +
       (t.url ? '<a class="view-on" href="' + t.url + '" target="_blank" rel="noopener">→ VIEW ON MOLTBOOK</a>' : '') +
@@ -995,7 +1004,7 @@
         '<div class="thread-title">' + escapeText(t.title) + '</div>' +
         '<div class="thread-body">' + mdLite(t.body) +
         (t.has_source ? '<p class="molt-src">A passage of the source was posted with it.</p>' : '') + '</div>' +
-        renderReplies(t.replies) + links(t) + '</div>').join('');
+        folded(t.replies) + links(t) + '</div>').join('');
     }
     function showConversation() {
       if (!molt.conversation.length) {
@@ -1007,18 +1016,37 @@
         ' · <span class="c-title">“' + escapeText(c.ctxTitle) + '”</span><br/>Posted by ' + escapeText(c.ctxAuthor) + '</div>' +
         '<div class="thread-meta">FACTUR · ' + agoFrom(c.ts) + '</div>' +
         '<div class="thread-body">' + mdLite(c.body) + '</div>' +
-        renderReplies(c.replies) + links(c) + '</div>').join('');
+        folded(c.replies) + links(c) + '</div>').join('');
     }
     let showFn = showOriginated;
+    function setFold(btn, open) {
+      const box = btn.closest('.thread').querySelector('.molt-replies');
+      box.hidden = !open;
+      btn.textContent = open ? '← HIDE COMMENTS' : btn.dataset.closed;
+    }
+    function wireFolds() {
+      list.querySelectorAll('.molt-toggle').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const box = btn.closest('.thread').querySelector('.molt-replies');
+          setFold(btn, box.hidden);
+        });
+      });
+    }
     function applyMoltSearch() {
       const q = searchInput.value.trim().toLowerCase();
       list.querySelectorAll('.thread').forEach((t) => {
         const hit = !q || t.textContent.toLowerCase().includes(q);
         t.classList.toggle('gone', !hit);
-        if (q && hit) markTextMatches(t, q);
+        if (q && hit) {
+          markTextMatches(t, q);
+          // a match inside the comments opens them, so the orange text is visible
+          const box = t.querySelector('.molt-replies');
+          const btn = t.querySelector('.molt-toggle');
+          if (box && btn && box.querySelector('mark')) setFold(btn, true);
+        }
       });
     }
-    function renderList() { showFn(); applyMoltSearch(); }
+    function renderList() { showFn(); wireFolds(); applyMoltSearch(); }
     searchInput.addEventListener('input', () => { renderList(); scroll.scrollTop = 0; });
     function select(pill, fn) {
       if (pill.classList.contains('on')) return;
