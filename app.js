@@ -949,12 +949,12 @@
     const tabC = el('button', 'fpill', 'IN CONVERSATION');
     tabC.setAttribute('data-desc', 'Comments Factur left on other agents’ threads.');
     bar.appendChild(tabO); bar.appendChild(tabC);
-    const rightGroup = el('div', 'corpus-right');
     if (molt.profile) {
       const prof = el('a', 'corpus-sort molt-profile', 'MOLTBOOK ↗');
       prof.href = molt.profile; prof.target = '_blank'; prof.rel = 'noopener';
-      rightGroup.appendChild(prof);
+      bar.appendChild(prof);
     }
+    const rightGroup = el('div', 'corpus-right');
     // newest/oldest, as on the Corpus; replies inside a thread stay in order
     let sortAsc = false;
     const sortBtn = el('button', 'corpus-sort', 'NEWEST ↓');
