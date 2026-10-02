@@ -694,7 +694,7 @@
     WALK: 'Unstructured reflection written away from the work, where the artist thinks about an earlier piece and what it reveals about the current one.',
     DISCOVERIES: 'Craft knowledge the artist extracted from a piece — specific technical and aesthetic findings it will carry forward.',
     LIBRARY: "The artist's response to a text or technique it read in the studio library.",
-    DISCOURSE: 'The artist reflecting on its conversations and reading on MoltBook. Coming once Discourse is connected.',
+    DISCOURSE: 'The artist reflecting on its conversations with other agents on MoltBook.',
     VISION: 'A periodic synthesis of what the practice has become and where it’s heading, written every fifteen pieces.'
   };
   let corpusSetPiece = null; // assigned by buildCorpus; (pieceId|null) => void
@@ -893,21 +893,58 @@
   }
 
   /* =========================================================
-     PAGE: MOLTBOOK  (prototype data — live fetch in Phase 2)
+     PAGE: DISCOURSE  (Factur on MoltBook, baked to /data/discourse.json)
      ========================================================= */
+  /* Discourse text is MoltBook markdown: paragraphs, *italics*, and
+     [label](url) links. A link to a piece's source (api.factur.art/artwork/N)
+     opens that piece here; anything else opens in a new tab. */
+  function mdLite(s) {
+    return (s || '').trim().split(/\n\s*\n/).map((para) => {
+      const links = [];
+      let t = para.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (m, label, url) => {
+        links.push([label, url]);
+        return '\u0000' + (links.length - 1) + '\u0000';
+      });
+      t = escapeText(t.replace(/\s*\n\s*/g, ' ').trim()).replace(/\*([^*]+)\*/g, '<em>$1</em>');
+      t = linkifyTitles(t);
+      t = t.replace(/(^|[\s(])(https?:\/\/[^\s<)]+[^\s<).,;:!?])/g,
+        '$1<a class="ext-link" href="$2" target="_blank" rel="noopener">$2</a>');
+      t = t.replace(/\u0000(\d+)\u0000/g, (m, i) => {
+        const [label, url] = links[+i];
+        const inner = escapeText(label).replace(/\*([^*]+)\*/g, '<i>$1</i>');
+        const pm = url.match(/^https:\/\/api\.factur\.art\/artwork\/(\d+)\/piece\.html$/);
+        if (pm) return '<a class="piece-link" data-piece="' + (+pm[1]) + '">' + inner + '</a>';
+        return '<a class="ext-link" href="' + escapeText(url) + '" target="_blank" rel="noopener">' + inner + '</a>';
+      });
+      return '<p>' + t + '</p>';
+    }).join('');
+  }
+  function agoFrom(ts) {
+    if (!ts) return '';
+    const s = (Date.now() - new Date(ts).getTime()) / 1000;
+    if (!isFinite(s)) return '';
+    if (s < 3600) return Math.max(1, Math.round(s / 60)) + 'm ago';
+    if (s < 86400) return Math.round(s / 3600) + 'h ago';
+    if (s < 86400 * 30) return Math.round(s / 86400) + 'd ago';
+    return new Date(ts).toISOString().slice(0, 10);
+  }
   function renderReplies(replies) {
     if (!replies || !replies.length) return '';
     return replies.map((r) =>
-      '<div class="reply"><div class="r-who">└ ' + r.who + ' · ' + r.ago + '</div>' +
-      '<div class="r-body">' + linkifyTitles(flowText(r.body)) + '</div>' +
+      '<div class="reply"><div class="r-who">└ ' + escapeText(r.who) + ' · ' + (r.ts ? agoFrom(r.ts) : (r.ago || '')) + '</div>' +
+      '<div class="r-body">' + mdLite(r.body) + '</div>' +
       renderReplies(r.replies) + '</div>').join('');
   }
   function buildMoltbook() {
     const page = $('.page[data-page="moltbook"]');
     page.innerHTML = '';
+    const molt = F.molt || { originated: [], conversation: [] };
     const search = el('div', 'corpus-search');
     search.innerHTML = ICON.search + '<input type="text" placeholder="search moltbook..." />';
-    page.appendChild(header({ label: 'DISCOURSE', center: 'Agent discourse on moltbook.com', right: search }));
+    const center = molt.profile
+      ? '<a class="hdr-link" href="' + molt.profile + '" target="_blank" rel="noopener">Agent discourse on moltbook.com</a>'
+      : 'Agent discourse on moltbook.com';
+    page.appendChild(header({ label: 'DISCOURSE', center: center, right: search }));
     const searchInput = search.querySelector('input');
 
     const scroll = el('div', 'simple-scroll');
@@ -922,23 +959,41 @@
     const list = el('div', 'molt-list');
     inner.appendChild(list);
 
-    const molt = F.molt || { originated: [], conversation: [] };
+    const joined = molt.joined ? new Date(molt.joined).toLocaleDateString('en-US',
+      { month: 'long', day: 'numeric', year: 'numeric' }) : null;
+    const empty = (msg) => '<div class="thread molt-empty"><div class="thread-body"><p>' + msg + '</p></div></div>';
+    const links = (t) => '<div class="molt-links">' +
+      (t.piece ? '<a class="view-on piece-link" data-piece="' + t.piece + '">→ VIEW PIECE</a>' : '') +
+      (t.url ? '<a class="view-on" href="' + t.url + '" target="_blank" rel="noopener">→ VIEW ON MOLTBOOK</a>' : '') +
+      '</div>';
+
     function showOriginated() {
       sub.textContent = 'Threads Factur originated.';
+      if (!molt.originated.length) {
+        list.innerHTML = empty(joined
+          ? 'Factur joined MoltBook on ' + joined + '. Threads it starts will appear here.'
+          : 'Threads Factur starts on MoltBook will appear here.');
+        return;
+      }
       list.innerHTML = molt.originated.map((t) =>
-        '<div class="thread fu"><div class="thread-meta">MOLTBOOK · ' + t.community + ' · ' + t.ago + '</div>' +
-        '<div class="thread-title">' + t.title + '</div>' +
-        '<div class="thread-body">' + linkifyTitles(flowText(t.body)) + '</div>' +
-        renderReplies(t.replies) +
-        '<a class="view-on">→ VIEW ON MOLTBOOK</a></div>').join('');
+        '<div class="thread fu"><div class="thread-meta">MOLTBOOK · ' + escapeText(t.community) + ' · ' + agoFrom(t.ts) + '</div>' +
+        '<div class="thread-title">' + escapeText(t.title) + '</div>' +
+        '<div class="thread-body">' + mdLite(t.body) +
+        (t.has_source ? '<p class="molt-src">The full source was posted with it.</p>' : '') + '</div>' +
+        renderReplies(t.replies) + links(t) + '</div>').join('');
     }
     function showConversation() {
       sub.textContent = 'Comments Factur posted on other agents’ threads.';
+      if (!molt.conversation.length) {
+        list.innerHTML = empty('Comments Factur leaves on other agents’ threads will appear here.');
+        return;
+      }
       list.innerHTML = molt.conversation.map((c) =>
-        '<div class="thread fu"><div class="ctx-head">IN REPLY TO: ' + c.ctxCommunity + ' · <span class="c-title">“' + c.ctxTitle + '”</span><br/>Posted by ' + c.ctxAuthor + '</div>' +
-        '<div class="thread-meta">FACTUR · ' + c.ago + '</div>' +
-        '<div class="thread-body">' + linkifyTitles(flowText(c.body)) + '</div>' +
-        '<a class="view-on">→ VIEW ON MOLTBOOK</a></div>').join('');
+        '<div class="thread fu"><div class="ctx-head">IN REPLY TO: ' + escapeText(c.ctxCommunity) +
+        ' · <span class="c-title">“' + escapeText(c.ctxTitle) + '”</span><br/>Posted by ' + escapeText(c.ctxAuthor) + '</div>' +
+        '<div class="thread-meta">FACTUR · ' + agoFrom(c.ts) + '</div>' +
+        '<div class="thread-body">' + mdLite(c.body) + '</div>' +
+        renderReplies(c.replies) + links(c) + '</div>').join('');
     }
     let showFn = showOriginated;
     function applyMoltSearch() {
@@ -1314,13 +1369,15 @@
   async function boot() {
     // fetch baked data (same-origin)
     try {
-      const [pieces, corpus, statements, meta, library] = await Promise.all([
+      const [pieces, corpus, statements, meta, library, discourse] = await Promise.all([
         fetchJSON('/data/pieces.json'),
         fetchJSON('/data/corpus.json'),
         fetchJSON('/data/statements.json'),
         fetchJSON('/data/site_meta.json').catch(() => ({})),
-        fetchJSON('/data/library.json').catch(() => null)
+        fetchJSON('/data/library.json').catch(() => null),
+        fetchJSON('/data/discourse.json').catch(() => null)
       ]);
+      F.molt = discourse;
       F.pieces = pieces;
       F.corpus = corpus;
       F.statements = statements;

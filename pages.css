@@ -482,8 +482,17 @@ html[data-motion="off"] .fpill:hover::after { transition-delay: 0s; }
 .reply .r-body p { margin-bottom: 0.7rem; }
 .reply .r-body p:last-child { margin-bottom: 0; }
 .reply .reply { margin-top: 1rem; }
+.molt-links { display: flex; flex-wrap: wrap; gap: 1.6rem; }
+.view-on.piece-link { color: var(--ink-mid); border-bottom: none; cursor: pointer; }
+.view-on.piece-link:hover { background: transparent; }
+.molt-src { color: var(--ink-mid); font-size: 0.68rem; }
+.molt-empty .thread-body p { color: var(--ink-mid); }
+.ext-link { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--ink-dim); transition: color 0.2s, border-color 0.2s; }
+.ext-link:hover { color: var(--accent-solid); border-color: var(--accent-solid); }
+.hdr-link { color: inherit; text-decoration: none; transition: color 0.2s; }
+.hdr-link:hover { color: var(--accent-solid); }
 .view-on { display: inline-block; margin-top: 1.3rem; font-size: var(--text-tiny); letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-mid); transition: color 0.2s; }
-.view-on:hover { color: var(--ink); }
+.view-on:hover { color: var(--accent-solid); }
 .ctx-head { font-size: var(--text-tiny); color: var(--ink-mid); line-height: 1.6; margin-bottom: 1rem; }
 .ctx-head .c-title { color: var(--ink); }
 
