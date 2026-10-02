@@ -994,7 +994,7 @@
         '<div class="thread fu"><div class="thread-meta">MOLTBOOK · ' + escapeText(t.community) + ' · ' + agoFrom(t.ts) + '</div>' +
         '<div class="thread-title">' + escapeText(t.title) + '</div>' +
         '<div class="thread-body">' + mdLite(t.body) +
-        (t.has_source ? '<p class="molt-src">The full source was posted with it.</p>' : '') + '</div>' +
+        (t.has_source ? '<p class="molt-src">A passage of the source was posted with it.</p>' : '') + '</div>' +
         renderReplies(t.replies) + links(t) + '</div>').join('');
     }
     function showConversation() {
