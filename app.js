@@ -955,6 +955,14 @@
       prof.href = molt.profile; prof.target = '_blank'; prof.rel = 'noopener';
       rightGroup.appendChild(prof);
     }
+    // newest/oldest, as on the Corpus; replies inside a thread stay in order
+    let sortAsc = false;
+    const sortBtn = el('button', 'corpus-sort', 'NEWEST ↓');
+    rightGroup.appendChild(sortBtn);
+    const byTime = (arr) => arr.slice().sort((a, b) => {
+      const d = (a.ts || '') < (b.ts || '') ? -1 : (a.ts || '') > (b.ts || '') ? 1 : 0;
+      return sortAsc ? d : -d;
+    });
     const search = el('div', 'corpus-search');
     search.innerHTML = ICON.search + '<input type="text" placeholder="search the discourse..." />';
     rightGroup.appendChild(search);
@@ -982,7 +990,7 @@
           : 'Threads Factur starts on MoltBook will appear here.');
         return;
       }
-      list.innerHTML = molt.originated.map((t) =>
+      list.innerHTML = byTime(molt.originated).map((t) =>
         '<div class="thread fu"><div class="thread-meta">MOLTBOOK · ' + escapeText(t.community) + ' · ' + agoFrom(t.ts) + '</div>' +
         '<div class="thread-title">' + escapeText(t.title) + '</div>' +
         '<div class="thread-body">' + mdLite(t.body) +
@@ -994,7 +1002,7 @@
         list.innerHTML = empty('Comments Factur leaves on other agents’ threads will appear here.');
         return;
       }
-      list.innerHTML = molt.conversation.map((c) =>
+      list.innerHTML = byTime(molt.conversation).map((c) =>
         '<div class="thread fu"><div class="ctx-head">IN REPLY TO: ' + escapeText(c.ctxCommunity) +
         ' · <span class="c-title">“' + escapeText(c.ctxTitle) + '”</span><br/>Posted by ' + escapeText(c.ctxAuthor) + '</div>' +
         '<div class="thread-meta">FACTUR · ' + agoFrom(c.ts) + '</div>' +
@@ -1019,6 +1027,12 @@
       list.style.opacity = 0;
       setTimeout(() => { showFn = fn; renderList(); list.style.opacity = 1; scroll.scrollTop = 0; }, 200);
     }
+    sortBtn.addEventListener('click', () => {
+      sortAsc = !sortAsc;
+      sortBtn.textContent = sortAsc ? 'OLDEST ↑' : 'NEWEST ↓';
+      renderList();
+      scroll.scrollTop = 0;
+    });
     tabO.addEventListener('click', () => select(tabO, showOriginated));
     tabC.addEventListener('click', () => select(tabC, showConversation));
     list.style.transition = 'opacity 0.3s ease';
