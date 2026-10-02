@@ -487,6 +487,12 @@ a.corpus-sort { text-decoration: none; }
 .reply .r-body p:last-child { margin-bottom: 0; }
 .reply .reply { margin-top: 1rem; }
 .molt-links { display: flex; flex-wrap: wrap; gap: 1.6rem; }
+.molt-ctx-toggle { margin-top: 0; margin-bottom: 0.9rem; }
+.molt-ctx { border-left: 1px solid var(--hairline2); padding-left: 1rem; margin: 0 0 1.2rem 0.3rem; }
+.molt-ctx .r-who { font-size: var(--text-tiny); color: var(--ink-mid); letter-spacing: 0.06em; margin-bottom: 0.35rem; }
+.molt-ctx .r-body { font-size: 0.68rem; line-height: 1.65; color: var(--ink-mid); text-wrap: pretty; }
+.molt-ctx .r-body p { margin-bottom: 0.7rem; }
+.molt-ctx .r-body p:last-child { margin-bottom: 0; }
 .view-on.piece-link { color: var(--ink-mid); border-bottom: none; cursor: pointer; }
 .view-on.piece-link:hover { background: transparent; }
 .molt-src { color: var(--ink-mid); font-size: 0.68rem; }

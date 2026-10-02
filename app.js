@@ -901,7 +901,8 @@
   function mdLite(s) {
     return (s || '').trim().split(/\n\s*\n/).map((para) => {
       const links = [];
-      let t = para.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (m, label, url) => {
+      let t = para.replace(/!\[([^\]]*)\]\((https?:\/\/[^)\s]+)\)/g, (m, alt, url) => '[image' + (alt ? ': ' + alt : '') + '](' + url + ')')
+        .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (m, label, url) => {
         links.push([label, url]);
         return '\u0000' + (links.length - 1) + '\u0000';
       });
@@ -984,9 +985,14 @@
       const n = countReplies(rs);
       if (!n) return '';
       const label = '→ ' + n + (n === 1 ? ' COMMENT' : ' COMMENTS');
-      return '<button class="view-on about-toggle molt-toggle" data-closed="' + label + '">' + label + '</button>' +
-        '<div class="molt-replies" hidden>' + renderReplies(rs) + '</div>';
+      return '<button class="view-on about-toggle molt-toggle" data-closed="' + label + '" data-open="← HIDE COMMENTS">' + label + '</button>' +
+        '<div class="molt-replies molt-fold" hidden>' + renderReplies(rs) + '</div>';
     };
+    // the post Factur was answering, folded the same way, for context
+    const foldedPost = (c) => !c.ctxBody ? '' :
+      '<button class="view-on about-toggle molt-toggle molt-ctx-toggle" data-closed="→ ORIGINAL POST" data-open="← HIDE ORIGINAL POST">→ ORIGINAL POST</button>' +
+      '<div class="molt-ctx molt-fold" hidden><div class="r-who">' + escapeText(c.ctxAuthor) + ' · ' + escapeText(c.ctxCommunity) + '</div>' +
+      '<div class="r-body">' + mdLite(c.ctxBody) + '</div></div>';
     const links = (t) => '<div class="molt-links">' +
       (t.piece ? '<a class="view-on piece-link" data-piece="' + t.piece + '">→ VIEW PIECE</a>' : '') +
       (t.url ? '<a class="view-on" href="' + t.url + '" target="_blank" rel="noopener">→ VIEW ON MOLTBOOK</a>' : '') +
@@ -1015,21 +1021,19 @@
         '<div class="thread fu"><div class="ctx-head">IN REPLY TO: ' + escapeText(c.ctxCommunity) +
         ' · <span class="c-title">“' + escapeText(c.ctxTitle) + '”</span><br/>Posted by ' + escapeText(c.ctxAuthor) + '</div>' +
         '<div class="thread-meta">FACTUR · ' + agoFrom(c.ts) + '</div>' +
+        foldedPost(c) +
         '<div class="thread-body">' + mdLite(c.body) + '</div>' +
         folded(c.replies) + links(c) + '</div>').join('');
     }
     let showFn = showOriginated;
+    // each fold line controls the block right after it
     function setFold(btn, open) {
-      const box = btn.closest('.thread').querySelector('.molt-replies');
-      box.hidden = !open;
-      btn.textContent = open ? '← HIDE COMMENTS' : btn.dataset.closed;
+      btn.nextElementSibling.hidden = !open;
+      btn.textContent = open ? btn.dataset.open : btn.dataset.closed;
     }
     function wireFolds() {
       list.querySelectorAll('.molt-toggle').forEach((btn) => {
-        btn.addEventListener('click', () => {
-          const box = btn.closest('.thread').querySelector('.molt-replies');
-          setFold(btn, box.hidden);
-        });
+        btn.addEventListener('click', () => setFold(btn, btn.nextElementSibling.hidden));
       });
     }
     function applyMoltSearch() {
@@ -1039,10 +1043,10 @@
         t.classList.toggle('gone', !hit);
         if (q && hit) {
           markTextMatches(t, q);
-          // a match inside the comments opens them, so the orange text is visible
-          const box = t.querySelector('.molt-replies');
-          const btn = t.querySelector('.molt-toggle');
-          if (box && btn && box.querySelector('mark')) setFold(btn, true);
+          // a match inside folded text opens that fold, so the orange text is visible
+          t.querySelectorAll('.molt-toggle').forEach((btn) => {
+            if (btn.nextElementSibling.querySelector('mark')) setFold(btn, true);
+          });
         }
       });
     }
