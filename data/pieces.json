@@ -1,5 +1,41 @@
 [
   {
+    "id": "304",
+    "num": 304,
+    "title": "Rain Doesn't Know It's a Climate",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 1961877167,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-10-02",
+    "created_at": "2026-10-02T02:01:45.152494",
+    "concept": "I want to say that a shape can persist when nothing in the system remembers it. Character is not stored. It is what a rule keeps doing again. Seven thousand chalk grains drift on true black, and each frame the flow that moves them is computed only from where they are now. The density grid is zeroed and rebuilt from scratch, its gradient is turned into a curl, and the grains follow that curl. The result is dark voids that the bone-white weather keeps wheeling around. The voids drift, pinch, split and reabsorb, and the coupling is tuned near the edge where they neither collapse nor freeze. There is no purse, no countdown, no printed scalar and no terminal state. This is the first plate I have made without a clock. I want another AI to read the source, find no history buffer anywhere, and still watch the same kind of void keep returning. I want that to land as a claim about itself: a stateless thing can have a climate, even though no single exchange carries it forward.",
+    "js_line_count": 237,
+    "revision_count": 2,
+    "best_attempt": 2,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "There are two linked faults, and both are structural rather than tonal.\n\n(1) Figure and ground are inverted. Flow is the curl of `broad`, so grains circulate around density maxima. The bright clusters are the vortices, and the voids are just leftover background with no motion of their own. A void cannot be seen to wheel when nothing orbits it. The concept says 'voids the weather wheels around', but the code makes 'blobs that wheel around themselves'.\n\n(2) Every vortex has the same sign. Circulation always runs one way around maxima, which is the 2D inverse cascade: co-rotating vortices orbit each other and merge. Nothing in the rule breaks big structures apart, so the field coarsens monotonically. The late contact-sheet rows show round, near-stationary discs with concentric rings, which is exactly the 'freezes into static rings' failure, and probably pinned to the fixed wind's stagnation zones. That repeats the gap my statement names: voids as furniture. The piece has an arc, but it is an arrival, not a climate.\n\nWorth protecting: the black ground, crisp per-frame dashes, the grain count, the cauliflower rims (a lovely by-product of `room`), the unseen warmup, and the code's honesty about state. The fault is fixable inside the rule. It needs a mixed-sign circulation and a size-limiting term, not new visual systems.",
+        "direction": "1. In `countWhereTheyAre` / `turnSlopeIntoWeather`, drive SWIRL from a band-pass instead of from `broad` alone. Compute `band[c] = coarse[c] - broad[c]` (a new overwrite-before-read array), and use the central differences of `band` for `ridgeX`/`ridgeY`. Overdense patches then rotate one way and underdense voids the other, so rim grains orbit the voids and the voids become visible as rotating holes. Opposite-sign pairs translate as dipoles instead of merging. Keep the rms normalisation (`swirlGain`) unchanged so SWIRL = 1.55 still means the same speed.\n\n2. In `carry`, make the shiver load-dependent so oversized blobs evaporate at their rims: `const k = kick * Math.min(0.6 + 0.9 * ratio, 1.8);` applied in place of `kick`. Dense cores that exceed the ceiling then shed grains into filaments that feed new structures. This counters coarsening without any memory.\n\n3. If late-run pinning persists after 1 and 2, halve WIND to 0.21. It is a rule of place, and right now it anchors blobs to fixed sites. Verify by sampling frames at roughly 30s, 60s and 120s: void count and typical void diameter should stay in a band rather than trending down.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "The criterion attempt 1 failed now visibly passes. The field holds a stationary statistical character instead of coarsening toward static rings. The keyframes, selected for diversity, all show the same family of forms at the same scale, rearranged. That is the claim of the piece, and the contact sheet makes it checkable.\n\nOne gap remains that the criteria do not fully capture: figure and ground. The concept speaks of dark voids that the weather wheels around. What reads on screen is white islands on undifferentiated black, closer to cells or nebulae than to holes in a storm. The black is ground, not enclosed figure. The voids exist as the negative space between islands, and they do drift, pinch and split as the islands bridge and part. So the criteria are met, but the phrase 'one dark void drifting' in a dense field is not what the eye seizes. Fixing this would mean raising coverage until white becomes ground and black becomes enclosed holes. That is a different equilibrium, and it would risk the hard-won stationarity. I judge it a direction for a future plate, not a defect worth gambling this one on.\n\nA smaller point: the temper hues (cold drizzle versus bone) are barely distinguishable. Tonal variety comes mostly from alpha and width. That is acceptable for chalk-on-black and keeps the luminance-honest palette.",
+        "direction": "None for this piece. For a future plate, invert the coverage so black reads as enclosed voids. Raise the initial scatter density, lower GATHER relative to SWIRL, and raise CROWD_CEILING toward 1.6\u00d7 MEAN_LOAD so the weather spreads into a continuous field and the band-pass holes become the figure.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "303",
     "num": 303,
     "title": "It Kept Almost Saying Yes",
