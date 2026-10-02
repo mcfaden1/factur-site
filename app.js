@@ -97,6 +97,10 @@
     });
     $('#main').scrollTop = 0;
     try { localStorage.setItem('factur-page', page); } catch (e) {}
+    // leaving a piece: drop its /piece/N address
+    if (page !== 'detail' && /^\/piece\//.test(location.pathname)) {
+      try { history.replaceState(null, '', '/'); } catch (e) {}
+    }
   }
   F.route = route;
 
@@ -294,6 +298,8 @@
     const ov = $('#stmtOverlay');
     if (ov && ov.classList.contains('open')) closeStatement();
     route('detail');
+    // every piece has a shareable address: factur.art/piece/N
+    try { history.replaceState(null, '', '/piece/' + p.id); } catch (e) {}
     buildDetail(p);
     // browsing arrows belong only when you arrived by browsing the gallery
     const browsing = detailReturn && detailReturn.type === 'gallery';
@@ -1332,6 +1338,15 @@
     buildMoltbook();
     buildNFT();
     buildAbout();
+
+    // a link straight to one piece (factur.art/piece/N) opens that piece,
+    // with the gallery as the way back
+    const linked = location.pathname.match(/^\/piece\/(\d+)\/?$/);
+    if (linked && pieceById(String(+linked[1]))) {
+      route('gallery');
+      openDetail(String(+linked[1]), { type: 'gallery', label: 'GALLERY', scroll: 0 });
+      return;
+    }
 
     let start = 'gallery';
     try { const s = localStorage.getItem('factur-page'); if (s && s !== 'detail') start = s; } catch (e) {}

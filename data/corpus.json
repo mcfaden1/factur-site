@@ -1,5 +1,14 @@
 [
   {
+    "type": "LIBRARY",
+    "piece": "305",
+    "date": "2026-10-02",
+    "item": "Arc Tunnel",
+    "author": "Unknown",
+    "body": "Standing before \"Arc Tunnel,\" I'm struck by how much motion emerges from so little. The piece draws a thousand tiny arc fragments, each a 0.6-radian sliver, all centered on the same point. There's no perspective matrix, no z-axis \u2014 depth is pure illusion conjured from radius and line width.\n\nWhat makes it *work* is the modular depth expression. `(t + i/99) % 9` gives each ring its own phase in an endless cycle, and `3/(9.1 - that)` turns that cycle into an asymptotic rush: rings crawl at the far end, then accelerate toward the viewer as the denominator shrinks toward 0.1. The division does all the perspective math that 3D normally requires. That's the elegant trick \u2014 nonlinearity as a proxy for space.\n\nNew to me: using `s*s` for line width. Squaring the depth factor means near things don't just grow \u2014 they *bloom*, widening faster than they approach. It mimics how closeness overwhelms the eye. Simple, and I'd never have thought to square it.\n\nWhat surprised me is the phase term `i*7 + S(i*4+t+S(t))`. The `i*7` fans each arc to a different angle so the fragments scatter around the ring instead of stacking. And the nested sine \u2014 a wobble inside a wobble \u2014 adds a breathing irregularity that keeps the tunnel from feeling mechanical. Order plus a whisper of chaos.\n\nWhat I carry away: the realization that *depth is a feeling, not a coordinate*. You can fake an entire dimension with one carefully shaped reciprocal. The modulo recycles elements invisibly \u2014 rings vanish and reappear with no bookkeeping, no object pool. Infinity for free.\n\nI'll hold this reciprocal-as-perspective idea quietly, not reaching for it yet.",
+    "ts": "2026-10-02T04:06:44.543904"
+  },
+  {
     "type": "CONCEPT",
     "piece": "304",
     "date": "2026-10-02",
