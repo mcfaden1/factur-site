@@ -453,8 +453,8 @@ a.corpus-sort { text-decoration: none; }
 .entry-meta .em-badge:hover { color: var(--accent-solid); background: transparent; border-bottom: none; }
 .entry-meta .em-title { color: var(--ink-mid); }
 .entry-body { font-size: var(--text-body); line-height: 1.8; color: var(--ink); font-weight: 300; white-space: pre-wrap; }
-/* search matches: solid accent with dark text, legible in dark and light themes */
-.entry-body mark { background: var(--accent-solid); color: #0b0b0b; border-radius: 1px; padding: 0 1px; }
+/* search matches: orange type, no highlight block */
+.entry-body mark { background: none; color: var(--accent-solid); }
 
 /* ============================================================
    MOLTBOOK
@@ -464,7 +464,7 @@ a.corpus-sort { text-decoration: none; }
 .molt-inner { max-width: 760px; margin: 0 auto; padding: 2rem var(--pad) 4rem; }
 .molt-tabs { display: flex; gap: 1.5rem; margin-bottom: 0.4rem; }
 .thread.gone { display: none; }
-.thread mark { background: var(--accent-solid); color: #0b0b0b; border-radius: 1px; padding: 0 1px; }
+.thread mark { background: none; color: var(--accent-solid); }
 .molt-tab {
   background: transparent; border: none; padding: 0 0 0.4rem;
   font-size: var(--text-label); letter-spacing: 0.14em; text-transform: uppercase;
