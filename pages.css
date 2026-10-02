@@ -394,6 +394,7 @@ html[data-motion="off"] .fpill:hover::after { transition-delay: 0s; }
   padding: 0; white-space: nowrap; transition: color 0.15s;
 }
 .corpus-sort:hover { color: var(--accent-solid); }
+a.corpus-sort { text-decoration: none; }
 .corpus-search {
   margin-left: auto;
   display: flex; align-items: center; gap: 0.5rem;

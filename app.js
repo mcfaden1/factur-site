@@ -939,23 +939,31 @@
     const page = $('.page[data-page="moltbook"]');
     page.innerHTML = '';
     const molt = F.molt || { originated: [], conversation: [] };
+
+    // Corpus-style section bar, as on Corpus and About: label, pills, and on
+    // the right Factur's MoltBook profile and the search.
+    const bar = el('div', 'corpus-filterbar');
+    bar.appendChild(el('span', 'cf-label', '// DISCOURSE'));
+    const tabO = el('button', 'fpill on', 'ORIGINATED');
+    tabO.setAttribute('data-desc', 'Threads Factur started on MoltBook, with the replies.');
+    const tabC = el('button', 'fpill', 'IN CONVERSATION');
+    tabC.setAttribute('data-desc', 'Comments Factur left on other agents’ threads.');
+    bar.appendChild(tabO); bar.appendChild(tabC);
+    const rightGroup = el('div', 'corpus-right');
+    if (molt.profile) {
+      const prof = el('a', 'corpus-sort molt-profile', 'MOLTBOOK ↗');
+      prof.href = molt.profile; prof.target = '_blank'; prof.rel = 'noopener';
+      rightGroup.appendChild(prof);
+    }
     const search = el('div', 'corpus-search');
-    search.innerHTML = ICON.search + '<input type="text" placeholder="search moltbook..." />';
-    const center = molt.profile
-      ? '<a class="hdr-link" href="' + molt.profile + '" target="_blank" rel="noopener">Agent discourse on moltbook.com</a>'
-      : 'Agent discourse on moltbook.com';
-    page.appendChild(header({ label: 'DISCOURSE', center: center, right: search }));
+    search.innerHTML = ICON.search + '<input type="text" placeholder="search the discourse..." />';
+    rightGroup.appendChild(search);
+    bar.appendChild(rightGroup);
+    page.appendChild(bar);
     const searchInput = search.querySelector('input');
 
     const scroll = el('div', 'simple-scroll');
     const inner = el('div', 'molt-inner');
-    const tabs = el('div', 'molt-tabs');
-    const tabO = el('button', 'molt-tab on', 'ORIGINATED');
-    const tabC = el('button', 'molt-tab', 'IN CONVERSATION');
-    tabs.appendChild(tabO); tabs.appendChild(tabC);
-    inner.appendChild(tabs);
-    const sub = el('div', 'molt-sub', 'Threads Factur originated.');
-    inner.appendChild(sub);
     const list = el('div', 'molt-list');
     inner.appendChild(list);
 
@@ -968,7 +976,6 @@
       '</div>';
 
     function showOriginated() {
-      sub.textContent = 'Threads Factur originated.';
       if (!molt.originated.length) {
         list.innerHTML = empty(joined
           ? 'Factur joined MoltBook on ' + joined + '. Threads it starts will appear here.'
@@ -983,7 +990,6 @@
         renderReplies(t.replies) + links(t) + '</div>').join('');
     }
     function showConversation() {
-      sub.textContent = 'Comments Factur posted on other agents’ threads.';
       if (!molt.conversation.length) {
         list.innerHTML = empty('Comments Factur leaves on other agents’ threads will appear here.');
         return;
@@ -1006,8 +1012,15 @@
     }
     function renderList() { showFn(); applyMoltSearch(); }
     searchInput.addEventListener('input', () => { renderList(); scroll.scrollTop = 0; });
-    tabO.addEventListener('click', () => { tabO.classList.add('on'); tabC.classList.remove('on'); list.style.opacity = 0; setTimeout(() => { showFn = showOriginated; renderList(); list.style.opacity = 1; }, 200); });
-    tabC.addEventListener('click', () => { tabC.classList.add('on'); tabO.classList.remove('on'); list.style.opacity = 0; setTimeout(() => { showFn = showConversation; renderList(); list.style.opacity = 1; }, 200); });
+    function select(pill, fn) {
+      if (pill.classList.contains('on')) return;
+      tabO.classList.toggle('on', pill === tabO);
+      tabC.classList.toggle('on', pill === tabC);
+      list.style.opacity = 0;
+      setTimeout(() => { showFn = fn; renderList(); list.style.opacity = 1; scroll.scrollTop = 0; }, 200);
+    }
+    tabO.addEventListener('click', () => select(tabO, showOriginated));
+    tabC.addEventListener('click', () => select(tabC, showConversation));
     list.style.transition = 'opacity 0.3s ease';
     renderList();
 
