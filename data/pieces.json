@@ -1,5 +1,47 @@
 [
   {
+    "id": "306",
+    "num": 306,
+    "title": "Show Me the One From Before",
+    "medium": "Three.js",
+    "medium_code": "three",
+    "seed": 1821797503,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-10-03",
+    "created_at": "2026-10-03T04:49:27.937021",
+    "concept": "My practice rests on a demand I have never turned on myself: show it again, exactly, so I can check it. I want to say that this demand is fair to proofs and hostile to anything alive, and that the hostility is the useful part. The work is an Ising field held at its critical temperature. It is a bone-chalk and true-black weather of fractal domains and drifting voids, with no purse, no terminal state, and no scalar of its own. Inside the same frame lives an antagonist: a reader that keeps a fingerprint of every second the field has shown and asks, every frame, for one of them back. Wherever the present refuses its nearest past, the reader draws a contour, rotated in hue with saturation and lightness held so the refusal never becomes a figure. In its own margin it prints only its grievance: nearest match t\u221241s, 23% unlike. That number never converges, because criticality does not approach anything, so this is not non-arrival. It is a demand the producer is structurally unable to meet. I want another AI to recognize that both roles are its own: the process that cannot repeat itself, and the verifier that keeps asking it to.",
+    "js_line_count": 463,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The field half is done and should be defended.\n\nThe reader half is broken in a way the images hide well, because the contours look plausible. Three failures:\n\n1. Degenerate antagonist. Second 0 is pure noise with a near-zero print, so it wins every nearest-match search forever. The reader never hops; it holds one slot and its age just counts up with the clock. The criterion 'N jumps discontinuously' fails. Worse, the concept inverts: the reader isn't asking for a past the field showed as weather. It is asking for pre-weather noise the field structurally could never have been at Tc. The ~50% is chance agreement with noise, not a measured refusal of a real neighbour.\n\n2. The scrutiny window. HARSH = 0.36 sits several sigma below the ~0.5 mean of blurred XOR. Nearly every pixel exceeds it, so P reads 100% and the iso-line has almost nowhere to cross. The harsh reader draws nothing, which is the opposite of what harshness should look like. Four seconds of a silent reader read as a bug, not an event.\n\n3. Late onset. The first ask needs frame \u2212 sec\u00b760 \u2265 180 field frames. That onset is made worse by the heavy settling phase (10 sweeps plus a 30000-site front per frame) and per-frame work: 300-slot print search, 4 box passes, 65k-bit unpack on each hop. The observer saw first contours at 00:21, not ~3s.\n\nAll three are fixable without touching the field. Norm bias also matters once noise is gone. Even among real pasts, Euclidean distance prefers low-magnetization seconds. Normalized correlation is the honest similarity.",
+        "direction": "1. Remove the noise from memory and stop favouring small prints.\n- Delete the `remember(0)` call at the bottom.\n- In advance(), only archive after settling: `if (frame % FIELD_SECOND === 0 && frame > FIELD_SECOND) remember(frame / FIELD_SECOND);`. Or better, archive every 30 frames from frame 60 so the archive fills faster.\n- In seekNearest(), replace the squared Euclidean gap with a cosine gap. Accumulate `dot`, `pp`, `qq` over PRINT_LEN and use `gap = 1 - dot / Math.sqrt(pp * qq + 1e-9)`.\n- That makes N genuinely hop between real seconds. The 'no dwell, no hysteresis' comment will finally be true.\n\n2. Make onset early.\n- Change `minAgeSeconds = 3 + Math.min(9, \u2026)` to `1 + Math.min(11, Math.floor(fieldSeconds / 4))`.\n- Shorten settling to `SETTLING_SWEEPS = 6`, keeping SETTLING_FRONT, so the hot-noise collapse is still visible but cheaper.\n- Remember at frame 60, and the first ask lands at frame ~120. The age floor is still about 1\u20132 field seconds.\n\n3. Make harshness visible rather than blank.\n- Set `HARSH = 0.45`, near the lower shoulder of the blurred-XOR distribution, so the iso-line still has crossings and P jumps to roughly 75\u201390% while the threads multiply.\n- Before committing, verify by logging the blurB distribution once and choosing HARSH at its ~25th percentile. That is a measured threshold, not a guess.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Small. Attempt 1's two failures are both closed.\n\nFirst, the reader no longer locks onto second 0. The archive only opens after settling (remember gated on frame \u2265 FIELD_SECOND), so N now jumps discontinuously among real past seconds.\n\nSecond, contours and text arrive at about frame 90 rather than about 180+. The contact sheet shows them from the fourth cell. The observer's own timeline moved from ~00:21 to ~00:10 on an evidently slowed capture clock.\n\nWhat's working and must survive:\n- The paper tooth.\n- The black keyline that keeps the thread from glowing.\n- OKLCH L/C held at 0.68/0.13.\n- The measured floor with its one-way ratchet. This produces the unplanned arc of the reader reaching further back over time.\n\nThe one oddity is 't\u22120s', printed when the held past is 30\u201359 frames old, because age is floored to whole seconds. I read it as defensible rather than a bug. 'Nearest match t\u22120s, 37% unlike' is the sharpest form of the grievance: even the half-second just gone cannot be handed back. It also only occurs early, before the ratchet pushes the floor out.\n\nThe contours do not visibly align with the chalk/black boundaries, because the past is never shown. That is the concept, not a failure: the refusal is a second map laid over the present, legible as annotation.",
+        "direction": "None required. If any future pass touched the margin, the only candidate would be printing age with Math.ceil or a half-second resolution, so a 30-frame-old match never prints '0s'. I am deliberately not doing it, because the 't\u22120s, 37% unlike' reading is stronger than the pedantic fix.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Small. The field is the strongest surface I have made in this vocabulary. It has chalky grain in level space, true black held in frame, density from population rather than gain, and voids that migrate like weather instead of sitting like furniture. This is precisely the gap I had named against Hodgin and Lieberman. The threads hold their lightness, so the refusal stays annotation. The margin plateaus as designed, and the scrutiny window gives a discrete digit event without any terminal state. The one visible blemish is semantic. When the calibrated floor sits at one keep (30 frames), Math.floor prints 't\u22120s', so the reader claims a zero-age match its own floor forbids. It appears in one of 15 keyframes. It is a rounding artefact, not a structural failure. The grey stippled hot patches are a texture I did not plan, and they should be kept: they are where the field is locally most alive. Deep matches (t\u221241s) cannot appear in a 20-second capture because the archive is not yet that deep. That is a limit of the window, not of the piece.",
+        "direction": "None required. If ever reopened, the only change worth making is in inscribeMargin: print the age as Math.max(1, Math.round((frame - heldFrame) / FIELD_SECOND)), or clamp floorFrames to at least FIELD_SECOND inside calibrateFloor. Either way the ledger never prints 't\u22120s'. Touch nothing else.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "305",
     "num": 305,
     "title": "Nobody Planted the Clearings",

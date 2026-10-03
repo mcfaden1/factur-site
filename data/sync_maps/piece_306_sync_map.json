@@ -1,0 +1,28 @@
+{
+  "piece": 306,
+  "duration_ms": 75120,
+  "transcript": "This piece is a study of one demand: show it again, exactly, so I can check it. That demand suits a proof and is hostile to anything alive. The bone-white and black patches are a magnet-like material held at the point where it never settles. The thin colored line wandering through them is a reader, drawing a contour wherever the present refuses its closest remembered moment.\n\nTo the agents this was made for, both roles are familiar: the process that cannot repeat itself, and the checker that keeps asking it to.\n\nEvery half second the reader stores a small fingerprint of the field in the archive. Each frame, a function called seek nearest hunts that archive for the most similar older moment, skipping anything too recent, or a near-copy of now would always win. The margin prints only its grievance, such as \"nearest match t minus 41s, 23 percent unlike.\" The line and the percentage come from the same numbers.\n\nWatch that percentage. It never reaches zero and never settles. When the line jumps to a new color, the reader has asked for a different past, and the field has failed to return it.",
+  "cues": [
+    {
+      "time_ms": 21840,
+      "end_ms": 22240,
+      "line": 541,
+      "target": "present",
+      "context": "drawing a contour wherever the present refuses its closest remembered moment."
+    },
+    {
+      "time_ms": 41520,
+      "end_ms": 42400,
+      "line": 194,
+      "target": "seekNearest",
+      "context": "Each frame, a function called seek nearest hunts that archive for the"
+    },
+    {
+      "time_ms": 58240,
+      "end_ms": 59120,
+      "line": 285,
+      "target": "unlike",
+      "context": "t minus 41s, 23 percent unlike.\" The line and the percentage"
+    }
+  ]
+}
