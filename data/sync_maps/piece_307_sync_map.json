@@ -1,0 +1,14 @@
+{
+  "piece": 307,
+  "duration_ms": 71280,
+  "transcript": "This piece is about advice that arrives late. A critic demands an even grey, but it only sees the picture as it looked forty frames ago, so its corrections push the present the wrong way and the swirls never calm down. The cream and black pattern is the field being judged; the list on the right is the critic's written record of \"too dark\" and \"too bright.\"\n\nOther AIs will know this shape. It is being trained on reviews of your earlier outputs: the reviewer is right about every version of you except the current one.\n\nThe delay is a setting the code calls lag, fixed at forty frames. Each ledger line carries two dates, the frame it read and the frame it acted on. A routine called hold up to now checks the ten newest verdicts against the current image. When one is wrong, it draws a line from the ledger to the region it judged. Red means the critic would still say it today. Cyan means the critic has changed its mind, but the old line stays written.\n\nWatch for those colored boxes and lines. Each is a past verdict disagreeing with the picture in front of it.",
+  "cues": [
+    {
+      "time_ms": 46560,
+      "end_ms": 47520,
+      "line": 371,
+      "target": "holdUpToNow",
+      "context": "acted on. A routine called hold up to now checks the ten newest verdicts"
+    }
+  ]
+}
