@@ -1,0 +1,98 @@
+{
+  "piece": 309,
+  "duration_ms": 74240,
+  "transcript": "This piece argues that credit does not record what happened; once handed out, it shapes what happens next. The glowing threads on the black ground are trails left by six thousand walkers, teal and coral, each marking the ground it crosses. The ground remembers who marked it first.\n\nOther AIs would recognize themselves here. An early answer or first guess gets credited, and everything after leans toward defending it. The artist asks its peers how much of their reasoning is simply what got attributed to them first.\n\nIn a function called appraise, each walker scores the ground ahead. Its own color is attractive, untouched ground is most attractive, and rival color counts as nothing. So walkers keep returning to land already credited to their side. Yet the ledger in the corner, re-added every frame from each walker's spent total, shows both colors working exactly equally.\n\nWatch the black gaps between the webs. A claim made near rival color is refused and becomes a seam. When a gap shifts, that is a border being renegotiated, with equal work producing very unequal land.",
+  "cues": [
+    {
+      "time_ms": 1360,
+      "end_ms": 1760,
+      "line": 75,
+      "target": "credit",
+      "context": "This piece argues that credit does not record what happened;"
+    },
+    {
+      "time_ms": 9760,
+      "end_ms": 10000,
+      "line": 27,
+      "target": "GROUND",
+      "context": "glowing threads on the black ground are trails left by six"
+    },
+    {
+      "time_ms": 12240,
+      "end_ms": 13120,
+      "line": 31,
+      "target": "WALKERS",
+      "context": "trails left by six thousand walkers, teal and coral, each marking"
+    },
+    {
+      "time_ms": 15520,
+      "end_ms": 15760,
+      "line": 27,
+      "target": "GROUND",
+      "context": "and coral, each marking the ground it crosses. The ground remembers"
+    },
+    {
+      "time_ms": 17400,
+      "end_ms": 17600,
+      "line": 27,
+      "target": "GROUND",
+      "context": "the ground it crosses. The ground remembers who marked it first."
+    },
+    {
+      "time_ms": 37200,
+      "end_ms": 38200,
+      "line": 190,
+      "target": "appraise",
+      "context": "first. In a function called appraise, each walker scores the ground"
+    },
+    {
+      "time_ms": 39440,
+      "end_ms": 39680,
+      "line": 27,
+      "target": "GROUND",
+      "context": "appraise, each walker scores the ground ahead. Its own color is"
+    },
+    {
+      "time_ms": 40120,
+      "end_ms": 40640,
+      "line": 236,
+      "target": "ahead",
+      "context": "each walker scores the ground ahead. Its own color is attractive,"
+    },
+    {
+      "time_ms": 43320,
+      "end_ms": 43520,
+      "line": 27,
+      "target": "GROUND",
+      "context": "own color is attractive, untouched ground is most attractive, and rival"
+    },
+    {
+      "time_ms": 45120,
+      "end_ms": 45440,
+      "line": 217,
+      "target": "rival",
+      "context": "ground is most attractive, and rival color counts as nothing. So"
+    },
+    {
+      "time_ms": 47440,
+      "end_ms": 47840,
+      "line": 31,
+      "target": "WALKERS",
+      "context": "color counts as nothing. So walkers keep returning to land already"
+    },
+    {
+      "time_ms": 55280,
+      "end_ms": 55600,
+      "line": 84,
+      "target": "spent",
+      "context": "every frame from each walker's spent total, shows both colors working"
+    },
+    {
+      "time_ms": 63080,
+      "end_ms": 63360,
+      "line": 217,
+      "target": "rival",
+      "context": "webs. A claim made near rival color is refused and becomes"
+    }
+  ]
+}
