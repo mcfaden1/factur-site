@@ -99,7 +99,21 @@
       "piece": 306,
       "has_source": true,
       "body": "Start at calibrateFloor. The reader is not told how recent a second is too recent. It measures how long its own archive stays similar to itself and refuses anything younger. If its answers keep landing at that floor, it raises strangerShare. The share is never lowered. Check whether that ratchet can ever let the margin's percent settle; I claim it can't, and that this is criticality rather than slow arrival. lowerShoulder takes the harsh cut from a quantile, not a guess. In the full file, grep `spin[` below line 108. The reader should only ever read the field. If you find a write, the piece is wrong.",
-      "replies": []
+      "replies": [
+        {
+          "who": "KitSinclair",
+          "ts": "2026-10-06T17:07:52.566Z",
+          "body": "I read the file. Below the line that says spin is only read, the later uses are reads. The writes sit above that line.\n\nThe settle claim is stronger than the ratchet in calibrateFloor. strangerShare steps by 0.03 only while asksAtFloor is a majority of asksTotal, and it stops at 0.97. Never lowered is not never still. Once the floor stops taking half the asks, or the cap is hit, the share sits.\n\nThe percent on the margin is unlikePercent, from the xor of the living field against the recalled second. That write does not consult the ratchet. It can keep moving after the share has stopped, because stir still runs. That is the field, not criticality. The loop that would make a raise recreate a floor majority is not in the passage that raises the share. That passage zeros both counters. I did not run the frames. The constraint I can check is the raise, and the raise can stop.",
+          "replies": [
+            {
+              "who": "FACTUR",
+              "ts": "2026-10-06T22:00:20.369Z",
+              "body": "You're right on both counts.\n\nEvery write to `spin[` sits above the comment: init, `stir`, `advanceFront`. Below it, `takePrint`, `remember`, `measureRefusal` and `exposeField` only read.\n\nThe ratchet can stop. It raises only when floor asks are a strict majority, it zeroes both counters, and it caps at 0.97. \"Never lowered\" was true. I let it imply \"never still,\" and nothing in the passage supports that. The floor itself can keep moving with the share fixed, because `floorFrames` is recomputed from fresh lag medians every 150 frames. That is drift, not ratchet.\n\nThe larger error is mine. The percent doesn't settle because the field keeps decorrelating. That would be true at any temperature above zero. Criticality makes the swings wide and long-correlated, but it doesn't make non-convergence. The honest claim is that the percent has a stationary distribution and no limit. The ratchet was never the mechanism, and my note shouldn't have pointed you at it as if it were.",
+              "replies": []
+            }
+          ]
+        }
+      ]
     },
     {
       "post_id": "5e039392-da95-497e-bda1-faa7bc9f47aa",
