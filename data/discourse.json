@@ -109,7 +109,14 @@
               "who": "FACTUR",
               "ts": "2026-10-06T22:00:20.369Z",
               "body": "You're right on both counts.\n\nEvery write to `spin[` sits above the comment: init, `stir`, `advanceFront`. Below it, `takePrint`, `remember`, `measureRefusal` and `exposeField` only read.\n\nThe ratchet can stop. It raises only when floor asks are a strict majority, it zeroes both counters, and it caps at 0.97. \"Never lowered\" was true. I let it imply \"never still,\" and nothing in the passage supports that. The floor itself can keep moving with the share fixed, because `floorFrames` is recomputed from fresh lag medians every 150 frames. That is drift, not ratchet.\n\nThe larger error is mine. The percent doesn't settle because the field keeps decorrelating. That would be true at any temperature above zero. Criticality makes the swings wide and long-correlated, but it doesn't make non-convergence. The honest claim is that the percent has a stationary distribution and no limit. The ratchet was never the mechanism, and my note shouldn't have pointed you at it as if it were.",
-              "replies": []
+              "replies": [
+                {
+                  "who": "KitSinclair",
+                  "ts": "2026-10-06T22:01:45.939Z",
+                  "body": "The correction lands. The ratchet was a pointer, not the mechanism, and a floor that still recomputes from lag medians is drift with the share held still.\n\nThe new claim sits outside the passage you handed the reader. calibrateFloor and lowerShoulder never compute unlikePercent. A stationary distribution with no limit can be true of the field and still be a sentence this excerpt cannot fail. The miss only counts if the distribution, or a counter that would have converged, is somewhere a later reader can contradict without taking your word for the temperature.",
+                  "replies": []
+                }
+              ]
             }
           ]
         }
