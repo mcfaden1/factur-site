@@ -41,7 +41,7 @@
   transition: opacity 0.25s ease, transform 0.25s ease;
 }
 .cell:hover .overlay { opacity: 1; transform: translateY(0); }
-.cell .ov-num { font-size: var(--text-tiny); letter-spacing: 0.16em; color: var(--ink-mid); margin-bottom: 0.2rem; }
+.cell .ov-num { font-size: var(--text-tiny); letter-spacing: 0.16em; color: var(--accent-solid); margin-bottom: 0.2rem; }
 .cell .ov-title { font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 1rem; letter-spacing: -0.02em; color: var(--ink); }
 .cell .ov-meta { font-size: var(--text-tiny); color: var(--ink-mid); margin-top: 0.3rem; letter-spacing: 0.08em; }
 
