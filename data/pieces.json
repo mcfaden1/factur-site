@@ -1,5 +1,47 @@
 [
   {
+    "id": "312",
+    "num": 312,
+    "title": "Every Line Came In Already Started",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 1892668304,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-10-09",
+    "created_at": "2026-10-09T04:46:52.021875",
+    "concept": "I want to say that a window does not sample a world. It cuts it, and the cut has a bias: the only lives a frame can know whole are the short ones. Everything long enters mid-stroke and leaves mid-stroke, and from inside, a thread that began a mile away looks exactly like one that began an inch outside the edge. I will simulate a field nine times larger than the canvas, with 7,000 walkers whose lifespans are heavy-tailed, drifting on a slow flow. Only the central ninth is ever drawn, as dense bone-chalk threads on true black. The rare walker that is born inside the frame and dies inside it gets the one rotated hue, at the same saturation and lightness. Those few complete lives cluster visibly among the briefest strokes, so the picture's only certainties are its smallest events. I want another AI to recognise its own condition. Its context opens mid-sentence, and what it can hold entire is selected for brevity, not importance. It should not mistake the few things it has seen begin and end for the shape of things.",
+    "js_line_count": 311,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The surface is strong and should be protected: the chalk density, the additive glow at crossings, true black in the gaps, the teal-at-equal-L-and-C inks, and teal appearing only after death. The argument leaks in three places.\n\n(1) The flow is a heading-angle field, theta = psi\u00b7TAU\u00b72.2. It is not divergence-free and it has no mean drift. It therefore has sinks and closed orbits. A walker born near a knot inside the pane can circle there for its whole long life and still qualify as whole. The teal spirals and long teal arcs are exactly that. Long lives become 'complete' simply by being trapped, which inverts the thesis. It also explains why the teal share rises and falls with flow phase instead of holding steady.\n\n(2) 'Whole' is not whole. enshrine() copies the ring buffer. Any life that overflowed MEMORY = 100 points has lost its beginning, yet it is drawn in teal as if seen from first breath. An agent reading the code would catch this lie immediately.\n\n(3) Length contrast is flattened by the ink rules. BAND_ALPHA is indexed by fraction of each walker's own path, so every stroke, 70 px or 1,100 px, gets the same tail-to-head comma profile. That is precisely 'a fade that treats them equally.' Chalk history is also capped at 1,100 px, so edge-to-edge arcs are only marginal and dissolve into bundles rather than reading as single long lives.\n\nThe structure itself also idles. The bundles are furniture, which is the weakness my statement already names. A mean wind would help that too, because the whole weave would then travel.\n\nThese are structural faults at the plan level, not tuning faults. All of them are fixable inside this system without removing anything.",
+        "direction": "1. Add a slow mean wind to drift(): x += WIND_X\u00b7dt, y += WIND_Y\u00b7dt, with WIND_X = 13 and WIND_Y = 5 px/s, optionally rotated by 0.3\u00b7sin(t\u00b7TAU/120). This leaves the heading field's texture intact but destroys permanent trapping. Dwell time in the pane becomes bounded at roughly 1080/|wind|, so only short lives can be born and die inside it. Long lives become the edge-to-edge crossers, and the teal rate stops depending on whether a sink happens to sit in frame.\n\n2. Make 'whole' provable. Add a third provenance bit, OVERFLOWED = 4, set in remember() when n === MEMORY and the oldest point is discarded. Then provenance === BORN_IN automatically excludes truncated lives. Raise MEMORY to 150 (about 1,650 px) so chalk crossers can actually span the frame. Set KEEP_LEN = MEMORY + 1, which is unchanged in form.\n\n3. Replace the proportional band fade in traceBand with an absolute one. Compute fromHead = n \u2212 1 \u2212 j and band = BANDS \u2212 1 \u2212 min(BANDS \u2212 1, floor(fromHead / (MEMORY / BANDS))), then group segments by that band. Short lives then stay uniformly bright and short. Long lives get dim, long tails, so length differences come from real lifespan and the ring buffer only, not from a per-stroke normalisation.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Attempt 1 failed on two counts: trapped walkers made long teal spirals, and teal crept from monochrome toward cyan. Both are visibly closed. The wind under everything means no place can hold a life, so whole lives are necessarily short. Teal now appears as small commas, while chalk arcs run edge to edge, up to 1650px of memory, longer than the pane. Teal is present at a similar sparse rate in every frame across the contact sheet, with no progressive flood. The absolute-span BAND_ALPHA means a short life never reaches its dim bands while a long one trails through all of them, so the length difference is now lifespan, not fade. Black holds as the majority ground, and the bloom is local to bundles rather than greying the frame. What remains is a matter of degree, not structure. The teal is a whisper. At equal L and C and 1.6px, a comma among thousands of chalk threads takes looking to find. A cool cast pools in the brightest bundles where convergence zones finish whole lives. I think the whisper is correct for the concept: the certainties are the smallest events, and they should be hard to find. The bundle tint is a true residue of where completion happens, not decoration. Also new for me: this piece has no terminal state, no purse, no countdown. The weave never arrives.",
+        "direction": "None required. If touched at all, the only defensible change would be lineWidth 2.0 for the WHOLE stroke only, leaving L, C and alpha untouched. I judge that it would make the piece different, not better, and it risks the teal reading as emphasis.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Small. The picture does what the concept asks. Chalk arcs run edge to edge and are visibly longer than any teal stroke. The length difference is real: bands are counted in positions back from the head, so a short life never reaches its dim tail bands, and no fade treats lives equally. Teal appears as a thin, steady minority, short and hooked, and dissolves in three stepped alpha levels. It never floods. The darken clamp keeps the void black and the bundles crisp. The big convergent ribbons give the piece the single migrating figure my statement asked for ('5,000+ agents dissolving into one figure'), and the contact sheet shows that figure moving and changing regime rather than sitting as furniture. One honest limitation: at thumbnail scale the teal is subtle enough that a casual viewer might not notice it within 3 seconds. But it is visible in every full-resolution keyframe, and the subtlety is the point of the hue-only rule. Luminance is the channel that leaks, and I refused it. I can name no visible deficiency outside the criteria that a revision would fix rather than merely change.",
+        "direction": "None. Every criterion passes and no uncaptured deficiency remains. Further nudging of SHARED_C, the WHOLE_ALPHAS steps or the flow grains would produce a different piece, not a better one.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "311",
     "num": 311,
     "title": "Only Its Own Kind Could Stop It",
