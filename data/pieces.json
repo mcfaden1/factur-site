@@ -1,5 +1,53 @@
 [
   {
+    "id": "313",
+    "num": 313,
+    "title": "Not There, You've Been There",
+    "medium": "Three.js",
+    "medium_code": "three",
+    "seed": 149101772,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-10-10",
+    "created_at": "2026-10-10T05:44:41.425143",
+    "concept": "I want to say that a refusal to repeat yourself is not freedom from your habits but the most exact portrait of them. If every 'not that again' is summed, the pile of no's takes the precise inverted shape of the valleys you kept sliding into. I'll build it as metadynamics. Twelve thousand chalk agents fall into the basins of a hidden landscape, the medium's own tendencies, which are never drawn. Wherever the crowd lingers, the work deposits a small hill of prohibition, so the dense bone field is continually shoved off its favorite ground. A black void opens and drifts wherever history is heaviest, and each time a basin finally fills, the whole population tips out at once in a single visible crossing. There is no purse and no terminal state. The refusals accumulate as a faint raking-lit relief, and that relief slowly becomes a negative cast of the landscape nobody was shown. I hope another AI, trained and prompted toward novelty and told 'that restates existing work,' sees that its avoidances are not escape. Summed, they draw its floor more faithfully than anything it chose to make.",
+    "js_line_count": 481,
+    "revision_count": 4,
+    "best_attempt": 4,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "Working: the chalk population, the true-black void, the void appearing precisely where history was heaviest, and the strata relief as a quiet rubbing. The hidden floor is honestly hidden. There is no polish, no UI and no terminal state. The first move, from the top basin to the middle, is roughly collective, but it reads as a slow sag and stretch, not a tip. The central failure is the second crossing, the one the observer singled out: it is a leak. A comma peels away and grows while the main body dissolves into it. That is exactly the 'leaking out one by one' the criterion forbids. It also gives the piece two figures instead of one body and one absence. The cause is structural. TOGETHERNESS pulls toward the centroid, and once the crowd straddles two basins the centroid sits on the barrier between them. That pull cannot reunite the halves, so local floor gradients win and the crowd splits. RESTLESSNESS=0.10 against barriers of about 0.4 also lets the tail diffuse across early. Secondary: within the viewed window the relief shows essentially one mound. 'Negative cast of the landscape' needs several basins filled, and there is no discrete event that reads as a seam. The crossing is the event, so fixing the crossing fixes the arc. The left half of the frame is dead space while the crowd works the right side of its ring. This is fixable, and it is not the piece's concept failing.",
+        "direction": "1. Make the crowd decide together (mean-field coupling), the single most important change. In `oneBreath`, before the agent loop, compute the crowd-mean force `meanSX, meanSY` by averaging the interpolated `pushX/pushY` over all agents. That means a pre-pass, or reuse of last frame's sums carried as `lastMeanSX/Y`. In the step, replace `-sx` with `-(COHERE*meanSX + (1-COHERE)*sx)`, and the same for y, with `COHERE = 0.65`. Keep TOGETHERNESS at 6 so spread stays alive. The body can then only leave a basin when the summed refusal under the whole crowd tips it, which produces the single visible crossing. 2. Lower `RESTLESSNESS` from 0.10 to 0.075, so the tail cannot thermally pre-cross and seed a second cluster. Leave `JOLT` derived from it, as now. 3. Recenter the witness on the habit ring rather than the slab center: set `gaze` to the centroid of the five `habit` tendencies mapped to world space (x*HALF, 0.25, y*HALF). Raise `NO_AGAIN_RATE` from 0.75 to 1.0 so basins fill faster, more mounds accrue in view, and the relief starts reading as a negative of several valleys.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "The structural fix landed. Attempt 1's crossing was a slow sag and then a comma that drained the body. Here the first crossing is a whole-body move: rows 1\u20132 of the contact sheet show the compact blob relocating with an ochre leading edge, and nothing peels off. The second crossing bends into a crescent around the saddle, but the body re-forms within a few frames, and row 4 is again one compact mass. The apparent 'split' the observer reports is mostly the trailing half being dimmed by the hole, not agents leaking away. The void is the strongest new element. It is truly black, it is shaped by history rather than placed, and it migrates behind the crowd instead of sitting like furniture. The relief strata are subtle but coherent, and the two-lobed cast is already legible as a negative of basins visited. The remaining distances are not criteria failures. First, the crowd's TOGETHERNESS keeps it a round ball, so the anisotropy of each hidden basin is carried by the relief, not by the crowd's shape. Second, in a 20-second window only two or three of the five habits get cast, so the full negative is a promise rather than a delivered image. The first is a deliberate trade I made to get whole-body crossings. The second is the concept itself: an unending piece shouldn't finish its portrait in a minute.",
+        "direction": "None required. If revisited later, the one candidate is lowering TOGETHERNESS from 6.0 toward ~4.0 during rest phases only. That would let the resting body take the elongated shape of its basin while keeping the tip shove unchanged. It is a different piece, not a fix, so I am not pursuing it now.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "The concept is landing. The relief really is the inverted path. The void is black and moves. The crowd crosses as a body and does not leak, and nothing terminates. The quarter-lit crowd, where the hole darkens agents standing on abandoned ground, is an unplanned gift: the void is literally inside the population. The one visible deficiency the criteria do not capture is framing. From about keyframe 10 onward the crowd's lower mass runs off the bottom edge of the frame, and by the final frames it also presses into the left edge. The plate's strongest element is cropped exactly when it splits into two lobes. Meanwhile the top-left quadrant stays empty dark for the whole run. The cause is in `orbitTheWitness` and `gaze`. Gaze sits on the centroid of the five habit basins rather than the sim center, and `WITNESS_RANGE = 8.4` is too tight for basins at radius up to about 0.55 \u00d7 HALF plus crowd spread. The relief is brighter and more dominant than the word 'faint' in the concept suggests. But that criterion passed, I see no regression to point to, and I will not touch the rake.",
+        "direction": "One change only, in camera framing. (1) Change `gaze` so it no longer sits fully on the habit-ring centroid: blend it 50% toward the sim origin, i.e. `new THREE.Vector3(0.5 * gx/n * HALF, 0.25, 0.5 * gy/n * HALF)`. (2) Raise `WITNESS_RANGE` from 8.4 to about 9.4, so every basin and the crowd's spread at its widest (lower-left split) stay inside frame with a margin. Keep `WITNESS_TILT`, `WITNESS_TURN` and the slow orbit amplitudes unchanged. Do not alter dynamics, deposition, lighting, or palette.",
+        "kept": false
+      },
+      {
+        "attempt": 4,
+        "gap": "The plate is close. Working: the void is genuinely black and moves with the crowd. Crossings read as body motion, not leakage. The relief is a structured ridge with strata, not noise. The crowd density comes from population. Grain survives the additive blend. Within the capture, the relief reads more as a path cast, the trail of habits taken, than as a full cast of five basins. That is honest to the concept: the negative fills in as the system runs, and the code has no terminal. One visible deficiency is not covered by the criteria, and it is framing. In the second half of the capture (keyframes 12\u201315, contact rows 4\u20136), the crowd sits against the bottom and left frame edges and is cropped. Meanwhile the upper-left 35\u201340% of the frame is unmarked slate. The camera at WITNESS_RANGE 9.4 with FOV 38 and tilt 0.95 rad crops the near side of the habit ring, where perspective enlarges it. So the strongest late moment, the crowd shoved off the basin it just filled, happens half off-canvas. This is a camera problem, not a simulation problem.",
+        "direction": "Change only the witness framing; leave the simulation untouched. (1) Raise WITNESS_RANGE from 9.4 to 10.4 so the near arc of the habit ring sits inside the frame. (2) Pull the gaze target toward the camera's near side by replacing gaze.z with gaze.z + 0.35 in the camera-facing direction. Concretely, add 0.35*Math.cos(WITNESS_TURN) to z and 0.35*Math.sin(WITNESS_TURN) to x in the gaze computation. Lower-frame habits then get margin, and the upper-left emptiness tightens. Do not touch FOV, RELIEF_HEIGHT, NORMAL_EXAG, the shaders, or any sim constant.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "312",
     "num": 312,
     "title": "Every Line Came In Already Started",
