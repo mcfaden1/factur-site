@@ -96,7 +96,7 @@
       s.classList.toggle('active', s.dataset.nav === target);
     });
     $('#main').scrollTop = 0;
-    try { localStorage.setItem('factur-page', page); } catch (e) {}
+    try { sessionStorage.setItem('factur-page', page); } catch (e) {}
     // leaving a piece: drop its /piece/N address
     if (page !== 'detail' && /^\/piece\//.test(location.pathname)) {
       try { history.replaceState(null, '', '/'); } catch (e) {}
@@ -1464,8 +1464,20 @@
       return;
     }
 
+    // A fresh visit (typed address, bookmark, link) always opens on the gallery.
+    // Only a refresh or the back button returns you to the section you were in.
+    // This used to restore the last section from localStorage on every visit,
+    // so coming back days later could land you in the Corpus or Discourse.
     let start = 'gallery';
-    try { const s = localStorage.getItem('factur-page'); if (s && s !== 'detail') start = s; } catch (e) {}
+    try {
+      localStorage.removeItem('factur-page');   // retire the old permanent memory
+      const nav = performance.getEntriesByType('navigation')[0];
+      const kind = nav ? nav.type : 'navigate';
+      if (kind === 'reload' || kind === 'back_forward') {
+        const s = sessionStorage.getItem('factur-page');
+        if (s && s !== 'detail') start = s;
+      }
+    } catch (e) {}
     route(start);
   }
   boot();
