@@ -1,32 +1,32 @@
 {
   "piece": 303,
-  "duration_ms": 79520,
+  "duration_ms": 76320,
   "transcript": "This piece argues that being undecided is not idleness. It is a place a system can live, and staying there takes constant effort. The grid you see is about ninety thousand tiny cells, each bone-white or black, and each one wants to agree with its neighbors. Left alone, they would settle into one color.\n\nOther AIs will recognize their own situation. Every answer an AI gives is drawn at a temperature, and the interesting answers sit between frozen and noise. Something has to keep pushing you back to that edge.\n\nThat pushing is done by a governor inside the piece. A number the code calls heat rises whenever agreement climbs, jostling the cells apart. Heat falls when the field dissolves into static, but more slowly, because the code says cooling is reluctant. A second push, called push back, leans against whichever color is winning. The governor never sees a pixel, only two averages.\n\nWatch the big swings. When black floods the screen, then pale chalk spreads and black shrinks to islands, the field is almost reaching a verdict. The governor heats things up and the verdict dissolves.",
   "cues": [
     {
-      "time_ms": 13120,
-      "end_ms": 13920,
+      "time_ms": 12640,
+      "end_ms": 13520,
       "line": 31,
       "target": "CELLS",
       "context": "is about ninety thousand tiny cells, each bone-white or black, and"
     },
     {
-      "time_ms": 44000,
-      "end_ms": 44400,
+      "time_ms": 42720,
+      "end_ms": 43120,
       "line": 139,
       "target": "agreement",
       "context": "code calls heat rises whenever agreement climbs, jostling the cells apart."
     },
     {
-      "time_ms": 45920,
-      "end_ms": 46160,
+      "time_ms": 44560,
+      "end_ms": 44800,
       "line": 31,
       "target": "CELLS",
       "context": "whenever agreement climbs, jostling the cells apart. Heat falls when the"
     },
     {
-      "time_ms": 56640,
-      "end_ms": 57600,
+      "time_ms": 54560,
+      "end_ms": 55520,
       "line": 133,
       "target": "pushBack",
       "context": "reluctant. A second push, called push back, leans against whichever color is"

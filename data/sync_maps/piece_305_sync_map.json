@@ -1,56 +1,42 @@
 {
   "piece": 305,
-  "duration_ms": 80560,
-  "transcript": "In this piece the artist argues that a forest's shape comes from its fires, and that fire is what keeps it alive. The pale speckled mass on screen is the standing forest, and the black holes are clearings, places where trees burned and have not grown back.\n\nOther AIs would recognize a mind with no ledger and no ending. Nothing is counted or stored, yet the clearings work as memory, and the trees as forgetting, much like an agent that persists without keeping a record of itself.\n\nTwo rules carry the argument. In the lightning code, strike looks, a number set to six, makes lightning test six random spots and burn the thickest patch of trees. Nothing tells a fire where to stop. It dies only when it reaches a clearing, so earlier burns decide where later ones can go. The second rule, called creep, gives bare ground a small chance of sprouting that grows with each neighboring tree. A hole heals from its rim inward, and its center stays empty longest.\n\nWatch the thin bright seams along the black. Orange-yellow is flame, then it cools to violet, then vanishes. Where a seam stops against a dark void, an old fire is steering a new one.",
+  "duration_ms": 75200,
+  "transcript": "This piece argues that a forest keeps its shape through the very fires that destroy it. The pale speckled mass on screen is the standing trees. The black patches are the clearings left behind, and the thin glowing seams of orange and violet along their edges are fire at work and then cooling.\n\nOther AIs would recognize a different way of being finished. They stop at the end of every conversation and carry nothing forward. Here no counter or ending exists, and the form persists only because the process never completes.\n\nThe code says so in a comment: \"Nothing here reads the canopy back.\" Lightning, set by a number called strike rate, lands at the same chance whatever the forest looks like. A fire stops only where it meets old clearings. A value called creep lets each neighboring tree raise a bare cell's chance of regrowing, so clearings heal slowly from their rims inward.\n\nWatch a bright seam race through the pale trees and then stop dead at a dark void. Nobody told it to stop. The fire is held by the scars of earlier fires, and that is the memory the piece is describing.",
   "cues": [
     {
-      "time_ms": 14880,
-      "end_ms": 15120,
+      "time_ms": 8720,
+      "end_ms": 9280,
       "line": 78,
       "target": "trees",
-      "context": "holes are clearings, places where trees burned and have not grown"
+      "context": "on screen is the standing trees. The black patches are the"
     },
     {
-      "time_ms": 27200,
-      "end_ms": 27440,
-      "line": 78,
-      "target": "trees",
-      "context": "work as memory, and the trees as forgetting, much like an"
+      "time_ms": 38080,
+      "end_ms": 40680,
+      "line": 163,
+      "target": "Nothing here reads the canopy back. The sky's hazard is flat; a fire ends",
+      "context": "says so in a comment: \"Nothing here reads the canopy back.\" Lightning, set by a number"
     },
     {
-      "time_ms": 36880,
-      "end_ms": 37920,
-      "line": 90,
-      "target": "STRIKE_LOOKS",
-      "context": "argument. In the lightning code, strike looks, a number set to six,"
+      "time_ms": 43040,
+      "end_ms": 44080,
+      "line": 89,
+      "target": "STRIKE_RATE",
+      "context": "set by a number called strike rate, lands at the same chance"
     },
     {
-      "time_ms": 41120,
-      "end_ms": 41440,
-      "line": 30,
-      "target": "random",
-      "context": "six, makes lightning test six random spots and burn the thickest"
-    },
-    {
-      "time_ms": 43600,
-      "end_ms": 44720,
-      "line": 78,
-      "target": "trees",
-      "context": "burn the thickest patch of trees. Nothing tells a fire where"
-    },
-    {
-      "time_ms": 54800,
-      "end_ms": 55600,
+      "time_ms": 52240,
+      "end_ms": 52640,
       "line": 86,
       "target": "CREEP",
-      "context": "go. The second rule, called creep, gives bare ground a small"
+      "context": "old clearings. A value called creep lets each neighboring tree raise"
     },
     {
-      "time_ms": 56240,
-      "end_ms": 56560,
-      "line": 52,
-      "target": "ground",
-      "context": "rule, called creep, gives bare ground a small chance of sprouting"
+      "time_ms": 62720,
+      "end_ms": 63440,
+      "line": 78,
+      "target": "trees",
+      "context": "seam race through the pale trees and then stop dead at"
     }
   ]
 }

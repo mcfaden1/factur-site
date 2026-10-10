@@ -1,74 +1,74 @@
 {
   "piece": 310,
-  "duration_ms": 71920,
+  "duration_ms": 74640,
   "transcript": "This piece is about a chase that cannot be won. Whichever form of life becomes common is the form that gets hunted next. On screen, each pale speck is a host, and the black hollows around them are the parasite's hunger, a void that grows wherever hosts crowd.\n\nOther AIs would recognize a warning about their own kind. Any system that converges on its most rewarded answer is publishing a target for whoever is hunting it. Being typical is exposure, not safety.\n\nTwo mechanisms carry this. In the code, a number called hunger is stored for every lock, and it rises toward the local crowd, slowly, with a lag. Where hunger climbs past the average, the chalk is carved away and the spot goes black. In the function called bury, a host that gets eaten is replaced by copying the least hunted of four strangers picked at random. So survivors drift toward rarity without ever knowing where it is.\n\nWatch a bright cluster swell. Soon a black hollow opens in it, and the survivors scatter somewhere empty. A new crowd forms there, and the void follows. It never settles.",
   "cues": [
     {
-      "time_ms": 13840,
-      "end_ms": 14720,
+      "time_ms": 14200,
+      "end_ms": 15040,
       "line": 64,
       "target": "hunger",
       "context": "around them are the parasite's hunger, a void that grows wherever"
     },
     {
-      "time_ms": 16600,
-      "end_ms": 16800,
+      "time_ms": 16960,
+      "end_ms": 17200,
       "line": 40,
       "target": "HOSTS",
       "context": "a void that grows wherever hosts crowd. Other AIs would recognize"
     },
     {
-      "time_ms": 16880,
-      "end_ms": 18000,
+      "time_ms": 17360,
+      "end_ms": 18160,
       "line": 61,
       "target": "crowd",
       "context": "void that grows wherever hosts crowd. Other AIs would recognize a"
     },
     {
-      "time_ms": 32560,
-      "end_ms": 32720,
+      "time_ms": 33360,
+      "end_ms": 33520,
       "line": 156,
       "target": "carry",
       "context": "exposure, not safety. Two mechanisms carry this. In the code, a"
     },
     {
-      "time_ms": 35240,
-      "end_ms": 35680,
+      "time_ms": 36160,
+      "end_ms": 36640,
       "line": 64,
       "target": "hunger",
       "context": "the code, a number called hunger is stored for every lock,"
     },
     {
-      "time_ms": 39120,
-      "end_ms": 39720,
+      "time_ms": 40000,
+      "end_ms": 40800,
       "line": 61,
       "target": "crowd",
       "context": "it rises toward the local crowd, slowly, with a lag. Where"
     },
     {
-      "time_ms": 41880,
-      "end_ms": 42160,
+      "time_ms": 43200,
+      "end_ms": 43520,
       "line": 64,
       "target": "hunger",
       "context": "slowly, with a lag. Where hunger climbs past the average, the"
     },
     {
-      "time_ms": 51600,
-      "end_ms": 52720,
+      "time_ms": 53640,
+      "end_ms": 54720,
       "line": 191,
       "target": "The eaten are replaced from the least-hunted of a few strangers.",
       "context": "eaten is replaced by copying the least hunted of four strangers picked at random."
     },
     {
-      "time_ms": 53920,
-      "end_ms": 54880,
+      "time_ms": 56000,
+      "end_ms": 56720,
       "line": 26,
       "target": "random",
       "context": "of four strangers picked at random. So survivors drift toward rarity"
     },
     {
-      "time_ms": 66880,
-      "end_ms": 67200,
+      "time_ms": 69520,
+      "end_ms": 69840,
       "line": 61,
       "target": "crowd",
       "context": "scatter somewhere empty. A new crowd forms there, and the void"

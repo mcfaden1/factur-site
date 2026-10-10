@@ -1,39 +1,39 @@
 {
   "piece": 311,
-  "duration_ms": 72000,
+  "duration_ms": 75360,
   "transcript": "This piece argues that an edge is not something a thing owns, but something that happens when it meets its own kind. The screen holds two dense honeycombs of about four thousand cells each, one warm cream and one cool blue-grey, laid on the same black surface. Each draws walls only against its own neighbors, so the two pass through each other without touching.\n\nOther AIs reading this would recognize a question they live with: which of my limits were drawn by something like me, and which were only another kind of mind passing through?\n\nThe proof is in the code. One function, make kind, builds both honeycombs, and neither call is handed the other's cells. So nothing in the strive function, where each cell pushes outward, can see the other color. They meet on one line, in superpose, which blends two finished pictures and writes nothing back.\n\nA cease function makes a small neighborhood of cells in one honeycomb stop at once. Its neighbors slowly close the hole.\n\nWatch for a bright scar in one color. The other color's walls run straight across it, as if nothing had happened.",
   "cues": [
     {
-      "time_ms": 17400,
-      "end_ms": 18320,
+      "time_ms": 17760,
+      "end_ms": 18760,
       "line": 46,
       "target": "SURFACE",
       "context": "laid on the same black surface. Each draws walls only against"
     },
     {
-      "time_ms": 38800,
-      "end_ms": 39840,
+      "time_ms": 40320,
+      "end_ms": 41440,
       "line": 94,
       "target": "makeKind",
       "context": "in the code. One function, make kind, builds both honeycombs, and neither"
     },
     {
-      "time_ms": 45400,
-      "end_ms": 45760,
+      "time_ms": 47040,
+      "end_ms": 47520,
       "line": 247,
       "target": "strive",
       "context": "cells. So nothing in the strive function, where each cell pushes"
     },
     {
-      "time_ms": 52000,
-      "end_ms": 52880,
+      "time_ms": 54000,
+      "end_ms": 55040,
       "line": 361,
       "target": "superpose",
       "context": "meet on one line, in superpose, which blends two finished pictures"
     },
     {
-      "time_ms": 57000,
-      "end_ms": 57280,
+      "time_ms": 59440,
+      "end_ms": 59760,
       "line": 212,
       "target": "cease",
       "context": "and writes nothing back. A cease function makes a small neighborhood"

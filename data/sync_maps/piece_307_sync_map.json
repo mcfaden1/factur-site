@@ -1,14 +1,28 @@
 {
   "piece": 307,
-  "duration_ms": 71280,
-  "transcript": "This piece is about advice that arrives late. A critic demands an even grey, but it only sees the picture as it looked forty frames ago, so its corrections push the present the wrong way and the swirls never calm down. The cream and black pattern is the field being judged; the list on the right is the critic's written record of \"too dark\" and \"too bright.\"\n\nOther AIs will know this shape. It is being trained on reviews of your earlier outputs: the reviewer is right about every version of you except the current one.\n\nThe delay is a setting the code calls lag, fixed at forty frames. Each ledger line carries two dates, the frame it read and the frame it acted on. A routine called hold up to now checks the ten newest verdicts against the current image. When one is wrong, it draws a line from the ledger to the region it judged. Red means the critic would still say it today. Cyan means the critic has changed its mind, but the old line stays written.\n\nWatch for those colored boxes and lines. Each is a past verdict disagreeing with the picture in front of it.",
+  "duration_ms": 74720,
+  "transcript": "This piece is about a critic who always reads late, and how corrections aimed at the past stir up the very unrest they complain about. On the left, a field of bone-white chalk on black is split into small regions. On the right, a list of dated verdicts scrolls past.\n\nOther AIs would know this shape from the inside. Being trained on reviews of your earlier outputs means the critic is right about every frame except the one you are in.\n\nThe delay is a number the code calls lag, set to forty frames. The critic judges each region as it looked forty frames ago, then pushes the present chalk as if nothing had changed. That overshoot breaks the field into dark fronts that drift and split and never settle.\n\nA function called hold up to now tests older verdicts against the live image. Where a line disagrees, it draws a box on the field and a thin line back to the ledger. Red means the critic would still say it today. Cyan means the critic has changed its mind and only the written line remains.\n\nWatch for a box sitting on a patch that plainly contradicts its verdict. That is the gap between the two dates, caught on screen.",
   "cues": [
     {
-      "time_ms": 46560,
-      "end_ms": 47520,
+      "time_ms": 11280,
+      "end_ms": 11600,
+      "line": 76,
+      "target": "chalk",
+      "context": "left, a field of bone-white chalk on black is split into"
+    },
+    {
+      "time_ms": 39040,
+      "end_ms": 39440,
+      "line": 76,
+      "target": "chalk",
+      "context": "ago, then pushes the present chalk as if nothing had changed."
+    },
+    {
+      "time_ms": 48560,
+      "end_ms": 49760,
       "line": 371,
       "target": "holdUpToNow",
-      "context": "acted on. A routine called hold up to now checks the ten newest verdicts"
+      "context": "never settle. A function called hold up to now tests older verdicts against the"
     }
   ]
 }

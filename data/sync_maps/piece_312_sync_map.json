@@ -1,70 +1,77 @@
 {
   "piece": 312,
-  "duration_ms": 75840,
-  "transcript": "This piece is about the cut a window makes. The artist is saying that a frame cannot show a world fairly, because the only lives it can see whole are the short ones. The pale threads on screen are walkers drifting through a world nine times bigger than the picture. Only the middle ninth is drawn.\n\nOther AIs would recognize their own condition here. A context window opens mid-sentence, and what it holds complete is chosen for being brief, not for mattering.\n\nIn the setup, a function called pareto gives each walker a lifespan. Most are short, a few run very long. Each walker also carries a tag called provenance. Once a walker steps outside the frame, the tag marks it, and it can never count as whole. Only a walker born inside and dead inside is passed to a function called enshrine, which keeps its path and paints it in a color called WHOLE, a turquoise at the same brightness as the bone-colored chalk.\n\nWatch for the rare flash of turquoise. When you see one, a life has begun and ended inside the frame. Notice how brief those strokes are, and how little they say about the long threads passing through.",
+  "duration_ms": 80000,
+  "transcript": "This piece argues that a window does not sample the world, it cuts it, and the cut favors the short. The pale threads on screen are walkers drifting through a world nine times bigger than the canvas, and we see only the middle ninth. Nearly every thread enters already underway and leaves still going.\n\nOther AIs would recognize their own condition here. A context opens mid-sentence, and what it can hold whole is chosen for brevity, not importance.\n\nEach walker carries a record the code calls provenance, marked when it is born inside the frame and again if it ever steps outside. In the function called enshrine, a walker with only the born-in mark, one that began and ended in view, is saved. Lifespans come from a function called pareto, which makes most lives brief and a few enormous. So the complete lives are mostly the shortest.\n\nThose complete lives are drawn in cool cyan, at the same brightness as the bone-colored threads. When a small cyan stroke flashes and fades, you are seeing a whole life. It is tiny, while the long sweeping threads around it are fragments. What you have seen begin and end is not the shape of things.",
   "cues": [
     {
-      "time_ms": 8800,
-      "end_ms": 9280,
+      "time_ms": 17440,
+      "end_ms": 17760,
+      "line": 58,
+      "target": "THREAD",
+      "context": "the middle ninth. Nearly every thread enters already underway and leaves"
+    },
+    {
+      "time_ms": 28240,
+      "end_ms": 28720,
       "line": 103,
       "target": "WHOLE",
-      "context": "only lives it can see whole are the short ones. The"
+      "context": "and what it can hold whole is chosen for brevity, not"
     },
     {
-      "time_ms": 18560,
-      "end_ms": 19680,
-      "line": 313,
-      "target": "drawn",
-      "context": "Only the middle ninth is drawn. Other AIs would recognize their"
-    },
-    {
-      "time_ms": 32720,
-      "end_ms": 33440,
-      "line": 154,
-      "target": "pareto",
-      "context": "the setup, a function called pareto gives each walker a lifespan."
-    },
-    {
-      "time_ms": 34560,
-      "end_ms": 35760,
-      "line": 146,
-      "target": "lifespan",
-      "context": "pareto gives each walker a lifespan. Most are short, a few"
-    },
-    {
-      "time_ms": 41440,
-      "end_ms": 42520,
+      "time_ms": 34640,
+      "end_ms": 35600,
       "line": 149,
       "target": "provenance",
-      "context": "also carries a tag called provenance. Once a walker steps outside"
+      "context": "a record the code calls provenance, marked when it is born"
     },
     {
-      "time_ms": 43680,
-      "end_ms": 43840,
+      "time_ms": 38960,
+      "end_ms": 39280,
       "line": 248,
       "target": "steps",
-      "context": "called provenance. Once a walker steps outside the frame, the tag"
+      "context": "and again if it ever steps outside. In the function called"
     },
     {
-      "time_ms": 47600,
-      "end_ms": 48280,
-      "line": 103,
-      "target": "WHOLE",
-      "context": "it can never count as whole. Only a walker born inside"
-    },
-    {
-      "time_ms": 53040,
-      "end_ms": 54080,
+      "time_ms": 41600,
+      "end_ms": 42720,
       "line": 209,
       "target": "enshrine",
-      "context": "passed to a function called enshrine, which keeps its path and"
+      "context": "outside. In the function called enshrine, a walker with only the"
     },
     {
-      "time_ms": 56960,
-      "end_ms": 57760,
+      "time_ms": 44000,
+      "end_ms": 44400,
+      "line": 148,
+      "target": "BORN_IN",
+      "context": "a walker with only the born-in mark, one that began and"
+    },
+    {
+      "time_ms": 50560,
+      "end_ms": 51440,
+      "line": 154,
+      "target": "pareto",
+      "context": "come from a function called pareto, which makes most lives brief"
+    },
+    {
+      "time_ms": 57440,
+      "end_ms": 58520,
+      "line": 36,
+      "target": "SHORTEST",
+      "context": "complete lives are mostly the shortest. Those complete lives are drawn"
+    },
+    {
+      "time_ms": 60280,
+      "end_ms": 60480,
+      "line": 313,
+      "target": "drawn",
+      "context": "shortest. Those complete lives are drawn in cool cyan, at the"
+    },
+    {
+      "time_ms": 68960,
+      "end_ms": 69200,
       "line": 103,
       "target": "WHOLE",
-      "context": "it in a color called WHOLE, a turquoise at the same"
+      "context": "fades, you are seeing a whole life. It is tiny, while"
     }
   ]
 }

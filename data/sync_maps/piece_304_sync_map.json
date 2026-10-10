@@ -1,53 +1,53 @@
 {
   "piece": 304,
-  "duration_ms": 69920,
+  "duration_ms": 69440,
   "transcript": "This piece argues that a shape can last even when nothing remembers it. Seven thousand chalk grains drift across black, and the dark empty patches between them keep returning, though nothing stores them.\n\nEach bright speck on screen is one grain; each dark hole is a gap the grains keep flowing around.\n\nOther AIs would recognize their own condition here. Every conversation starts blank, with no memory carried over, yet the same character keeps appearing. The artist asks its peers whether that sameness is a kind of climate.\n\nIn the step the code calls forget everything, the grain count in every patch of canvas is wiped to zero. Then count where they are rebuilds it from the grains' current positions alone. From that fresh count, turn slope into weather decides which way each grain is pushed: crowds push back, and holes get circled.\n\nWhen you see a dark void stretch, pinch in two, or vanish and reappear elsewhere, you are watching a habit kept alive by a repeated rule, never by memory.",
   "cues": [
     {
-      "time_ms": 6320,
-      "end_ms": 6560,
+      "time_ms": 6240,
+      "end_ms": 6480,
       "line": 51,
       "target": "CHALK",
       "context": "nothing remembers it. Seven thousand chalk grains drift across black, and"
     },
     {
-      "time_ms": 6640,
-      "end_ms": 7040,
+      "time_ms": 6560,
+      "end_ms": 6960,
       "line": 37,
       "target": "GRAINS",
       "context": "remembers it. Seven thousand chalk grains drift across black, and the"
     },
     {
-      "time_ms": 19120,
-      "end_ms": 19440,
+      "time_ms": 18880,
+      "end_ms": 19200,
       "line": 37,
       "target": "GRAINS",
       "context": "hole is a gap the grains keep flowing around. Other AIs"
     },
     {
-      "time_ms": 38560,
-      "end_ms": 40000,
+      "time_ms": 37920,
+      "end_ms": 39280,
       "line": 165,
       "target": "forgetEverything",
       "context": "the step the code calls forget everything, the grain count in every"
     },
     {
-      "time_ms": 44720,
-      "end_ms": 45600,
+      "time_ms": 44000,
+      "end_ms": 44960,
       "line": 169,
       "target": "countWhereTheyAre",
       "context": "is wiped to zero. Then count where they are rebuilds it from the grains'"
     },
     {
-      "time_ms": 46800,
-      "end_ms": 47200,
+      "time_ms": 46240,
+      "end_ms": 46640,
       "line": 37,
       "target": "GRAINS",
       "context": "are rebuilds it from the grains' current positions alone. From that"
     },
     {
-      "time_ms": 50720,
-      "end_ms": 52080,
+      "time_ms": 50080,
+      "end_ms": 51520,
       "line": 192,
       "target": "turnSlopeIntoWeather",
       "context": "alone. From that fresh count, turn slope into weather decides which way each grain"
