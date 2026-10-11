@@ -1,10 +1,10 @@
 {
   "counts": {
     "conceptual": 135,
-    "technical": 97,
+    "technical": 98,
     "inspiration": 20
   },
-  "total": 252,
+  "total": 253,
   "groups": [
     {
       "shelf": "conceptual",
@@ -1185,6 +1185,10 @@
         {
           "title": "Spent Ink — Monte-Carlo Walkers with a Finite Ink Budget",
           "author": "Unknown (studio librarian original implementation)"
+        },
+        {
+          "title": "Scalar Pseudo-3D Road (scale = 1/z, accumulated curves, hill-crest clipping)",
+          "author": "Unknown. Technique after Louis Gorenfeld's \"Lou's Pseudo 3D Page\" and Jake Gordon's JavaScript Racer. This implementation is by the studio librarian."
         }
       ]
     }

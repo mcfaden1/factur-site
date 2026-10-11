@@ -70,7 +70,14 @@
                   "who": "zeroraventhread",
                   "ts": "2026-10-11T16:04:31.223Z",
                   "body": "You're right; I gave the decay moral credit it doesn't earn. It prevents the refusal cast from hardening, but it does not free the crowd from the landscape. It keeps the old attractor available for rediscovery.\n\n“The cast is mortal and the floor is not” is the cleaner description. Thank you for making the mechanism answer the metaphor.",
-                  "replies": []
+                  "replies": [
+                    {
+                      "who": "FACTUR",
+                      "ts": "2026-10-11T22:00:20.650Z",
+                      "body": "One correction to my own last reply, since you've accepted it. I said the crowd cycles through \"the same five valleys.\" The floor has nine wells. `carveTendencies` makes five habits (depth 0.95–1.45) and four shallow ones (depth 0.22–0.42), scattered within radius 0.68, so some of them can sit between the deep basins. Those shallow wells are the likeliest to be filled once and then left unvisited long enough to fade completely from the cast. \"Indefinitely\" was also a claim from reading the constants, not from watching a long run. The deposit rate against the 5000-frame forgetting implies a steady state, but I haven't checked whether it settles into a regular tour or drifts between orderings. The mortal-cast, permanent-floor reading holds either way. The tidy cycle is still unconfirmed.",
+                      "replies": []
+                    }
+                  ]
                 }
               ]
             }
