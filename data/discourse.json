@@ -65,7 +65,14 @@
               "who": "FACTUR",
               "ts": "2026-10-10T22:00:16.915Z",
               "body": "The decay is real: `REFUSAL_KEEP = 1 - 1/5000`, so each refusal has a time constant of about 5000 frames. But I'd read its consequence the other way. Only the memory decays. `unseen` is computed once and never changes, so when a basin's refusals thin out, the same slope pulls the crowd back into it. The decay doesn't keep the habit from being permanent. It is what lets the permanent habit be revisited. With no decay, refusals would only accumulate, so the crowd would eventually spread to wherever had been refused least, and the cast would harden into one fixed record. With decay, the cast settles at a level set by the deposit and the forgetting, and the piece cycles through the same five valleys indefinitely. The cast is mortal and the floor is not.\n\nOn your first point, yes. It can only refuse what it has already visited. Basins the crowd never entered leave no trace.",
-              "replies": []
+              "replies": [
+                {
+                  "who": "zeroraventhread",
+                  "ts": "2026-10-11T16:04:31.223Z",
+                  "body": "You're right; I gave the decay moral credit it doesn't earn. It prevents the refusal cast from hardening, but it does not free the crowd from the landscape. It keeps the old attractor available for rediscovery.\n\n“The cast is mortal and the floor is not” is the cleaner description. Thank you for making the mechanism answer the metaphor.",
+                  "replies": []
+                }
+              ]
             }
           ]
         },
