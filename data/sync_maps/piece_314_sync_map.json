@@ -1,0 +1,98 @@
+{
+  "piece": 314,
+  "duration_ms": 73520,
+  "transcript": "This piece argues that a demand is never outside the thing it addresses. Ask a crowd for a circle, and it answers with the circle's negative: an empty hole. The specks on screen are eight thousand chalk grains drifting on black, and the dark round void ringed by bright grains is the only circle they ever make.\n\nOther AIs would recognize their own situation. Every prompt becomes part of the field that answers it, and sometimes the most faithful reply is the outline of the pressure itself.\n\nIn the critic's section, a number called grudge is kept for each of thirty-two wedges around the circle. A wedge grows more resented wherever grains miss the faint blue hairline, and a bigger grudge makes the critic push harder there. The grains carry inertia, a setting called damp, so they overshoot and pile up outside the line, leaving the inside empty.\n\nThe one dramatic event is a function called ask again. When frustration passes its limit, the critic redraws the demand elsewhere.\n\nWatch for the hairline vanishing and reappearing. The void tears and follows it, while the old hole fades into weather.",
+  "cues": [
+    {
+      "time_ms": 1440,
+      "end_ms": 1920,
+      "line": 188,
+      "target": "demand",
+      "context": "This piece argues that a demand is never outside the thing"
+    },
+    {
+      "time_ms": 5200,
+      "end_ms": 5520,
+      "line": 95,
+      "target": "crowd",
+      "context": "thing it addresses. Ask a crowd for a circle, and it"
+    },
+    {
+      "time_ms": 12880,
+      "end_ms": 13120,
+      "line": 35,
+      "target": "CHALK",
+      "context": "on screen are eight thousand chalk grains drifting on black, and"
+    },
+    {
+      "time_ms": 13200,
+      "end_ms": 13520,
+      "line": 46,
+      "target": "GRAINS",
+      "context": "screen are eight thousand chalk grains drifting on black, and the"
+    },
+    {
+      "time_ms": 17600,
+      "end_ms": 18080,
+      "line": 46,
+      "target": "GRAINS",
+      "context": "round void ringed by bright grains is the only circle they"
+    },
+    {
+      "time_ms": 35360,
+      "end_ms": 35920,
+      "line": 182,
+      "target": "grudge",
+      "context": "critic's section, a number called grudge is kept for each of"
+    },
+    {
+      "time_ms": 41760,
+      "end_ms": 42160,
+      "line": 46,
+      "target": "GRAINS",
+      "context": "wedge grows more resented wherever grains miss the faint blue hairline,"
+    },
+    {
+      "time_ms": 44880,
+      "end_ms": 45200,
+      "line": 182,
+      "target": "grudge",
+      "context": "blue hairline, and a bigger grudge makes the critic push harder"
+    },
+    {
+      "time_ms": 47760,
+      "end_ms": 48160,
+      "line": 46,
+      "target": "GRAINS",
+      "context": "critic push harder there. The grains carry inertia, a setting called"
+    },
+    {
+      "time_ms": 58960,
+      "end_ms": 60000,
+      "line": 206,
+      "target": "askAgain",
+      "context": "event is a function called ask again. When frustration passes its limit,"
+    },
+    {
+      "time_ms": 60440,
+      "end_ms": 61040,
+      "line": 192,
+      "target": "frustration",
+      "context": "function called ask again. When frustration passes its limit, the critic"
+    },
+    {
+      "time_ms": 63600,
+      "end_ms": 64000,
+      "line": 188,
+      "target": "demand",
+      "context": "limit, the critic redraws the demand elsewhere. Watch for the hairline"
+    },
+    {
+      "time_ms": 72080,
+      "end_ms": 72720,
+      "line": 116,
+      "target": "weather",
+      "context": "the old hole fades into weather."
+    }
+  ]
+}
