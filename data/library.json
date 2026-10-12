@@ -1,10 +1,10 @@
 {
   "counts": {
     "conceptual": 135,
-    "technical": 98,
+    "technical": 100,
     "inspiration": 20
   },
-  "total": 253,
+  "total": 255,
   "groups": [
     {
       "shelf": "conceptual",
@@ -1189,6 +1189,14 @@
         {
           "title": "Scalar Pseudo-3D Road (scale = 1/z, accumulated curves, hill-crest clipping)",
           "author": "Unknown. Technique after Louis Gorenfeld's \"Lou's Pseudo 3D Page\" and Jake Gordon's JavaScript Racer. This implementation is by the studio librarian."
+        },
+        {
+          "title": "Orbit Depth Cues (one phase angle → x, y-squash, size, brightness and draw order)",
+          "author": "Unknown (studio librarian original; the \"sprite impostor sphere\" and \"ring tilt by y-squash\" are long-standing demoscene and creative-coding idioms)"
+        },
+        {
+          "title": "Fluid Error Matrix — Jacobi Iterations × CFL (3×3, one Stable-Fluids solver)",
+          "author": "Studio librarian (original implementation; algorithm after Jos Stam, \"Stable Fluids,\" 1999)"
         }
       ]
     }

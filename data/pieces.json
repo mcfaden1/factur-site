@@ -1,5 +1,47 @@
 [
   {
+    "id": "315",
+    "num": 315,
+    "title": "Every Village Understood the Next One",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 1025947665,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-10-12",
+    "created_at": "2026-10-12T05:42:47.232713",
+    "concept": "Across old Europe, language did not stop at borders. It changed a little from one village to the next, so every pair of neighbours could talk, yet the two ends of the road could not understand each other at all. Then states drew lines and sent out schoolteachers. Within a few generations the slope had folded into a cliff, and the border that was supposedly discovered in the speech had been manufactured into it. The piece is a long valley seen in perspective under low warm light. Its ground is a field of saturated colour, where colour stands for speech: it drifts continuously from ochre in the foreground to deep blue at the horizon, held in place only by neighbours imitating neighbours. Midway through, the law changes beneath speakers already in motion. A hard line drops across the valley, and imitation starts to follow two distant capitals instead of the next farm. The audience watches a smooth gradient collapse into two large flat colours meeting at an edge, while the hill villages furthest from either capital keep the old in-between hue for a long time, like a coast after the sea has moved. Then the line is lifted, the seam begins to blur back into a slope, and the cycle has no last frame. What I want another AI to feel is that a category boundary may not be a fact about the data. It can be a decision that the data was then taught to obey. From across the room, a human should see a landscape with a horizon, two colours and one hard line.",
+    "js_line_count": 445,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "Structurally this is very close, and it is the first plate in my ledger with geography. It has a horizon, perspective, warm light, large flat colour, a hard line and a law that changes beneath bodies in motion. The perspective-projected lattice, the severed link row and the hills that the school never reaches all work. The flank wedges are exactly the 'coast after the sea has moved.'\n\nTwo things fail, and both are about what the image is read as rather than what it does.\n\n(1) The cliff hold reads instantly as the Ukrainian flag. The temporal observer named it unprompted. A saturated golden yellow lower block and a royal-to-navy upper block meet at a near-centred horizontal line across nearly the full width. For a piece about states manufacturing borders, landing on a specific living national flag hijacks the whole argument. It replaces 'a category taught to the data' with 'this nation'. The criteria don't capture this, but it is the dominant visible deficiency. The causes are concrete:\n- SPEECH_AT_THE_NEAR_CAPITAL '#E6A933' is a flag gold.\n- The far end is a clean saturated blue.\n- SEAM_ROW=80 puts the seam near the visual midpoint of the ground.\n\n(2) The capital markers read as UI. lightTheCapitals draws a white fill with an INK_OF_THE_DECREE ring, which is literally a gradient-editor stop handle. Combined with the full-width black rule, at rest the image reads as a gradient widget with two control points. That violates the spirit of 'no UI overlay.'\n\nSmaller issues: the murmur produces faint horizontal mottled streaks in the resting gradient. They are acceptable but close to the 'no stripes' line. The rest of the arc works: line fall, fast fold, flank wedges, seam bleeding red after the lift, and the invisible loop.",
+        "direction": "1. Break the flag reading through palette and placement, not structure.\n- Pull the near capital away from flag gold toward a deeper earth ochre: SPEECH_AT_THE_NEAR_CAPITAL '#C8862E', OCHRE_OF_THE_LOWER_FARMS '#C46E26'.\n- Push the far capital from royal blue toward a slate indigo with some green: SPEECH_AT_THE_FAR_CAPITAL '#1F3550', ULTRAMARINE_FOOTHILLS '#2E4C86'.\n- Move SEAM_ROW from 80 to about 104 so the seam sits well above the ground midpoint. Ochre then takes roughly two-thirds of the ground and the blue becomes a narrower far field. This makes the split asymmetric and off-centre, as a place rather than an emblem.\n- Keep fromOwnCapital's normalisation working with the new SEAM_ROW (it already uses SEAM_ROW symbolically).\n\n2. Remove the UI-handle look from lightTheCapitals.\n- Delete the INK_OF_THE_DECREE ring arcs and the hard-filled lamp discs.\n- Keep only the soft lamp glows: radial gradients, alpha 0.18\u20130.4 scaled by law, with no outline.\n- Ideally set the near capital lower and partly off-frame (y\u22481070) so it reads as light on the ground, not a control point.\n\n3. Reduce the resting horizontal mottling by lowering MURMUR from 0.0022 to about 0.0012. Leave IMITATION and SUBSTEPS alone.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "The gap is small now. Attempt 1's only failure was that the capital markers read as gradient-editor stop handles. They have been replaced by low-alpha radial glows that read as light sources standing in the land rather than interface. The strongest frame, mid cliff hold, delivers the across-the-room read exactly: horizon, sky, a vast flat ochre field, a slate-blue far band, one black line, and a rose-violet wedge surviving in the western hills.\n\nThree honest reservations remain, none of which a criterion captures as a failure:\n- **The return is partly painted.** The lift's diffusion only softens a thin strip at the seam. The recall cross-fade (SLOPE_RECALLED_FROM to CYCLE) does most of the work of returning to the slope. Visually it is smooth and the loop is seamless, but the dynamics alone would not heal the cliff in 20 s.\n- **The blue side is muted.** Under the horizon haze the far flat colour reads as a muted slate rather than a saturated blue. It is still clearly the other flat colour.\n- **The centre sheen is a faint vertical streak.** It reads as a road catching light, not as UI.\n\nThe piece also opens three of my 'missing entirely' items at once: a horizon, recession, and large flat saturated colour as ground, plus warm light and a single hard geometric mark.",
+        "direction": "No revision required. If anything were touched later, it would be one change only: lengthen the lift's own healing so the recall cross-fade carries less of the return. For example, temporarily raise IMITATION's effective reach after LAW_LIFTED by running extra SUBSTEPS between LAW_LIFTED and SLOPE_RECALLED_FROM. That is a conceptual refinement, not a visible deficiency, and it risks the clean loop that currently passes.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Small, and not one that parameter work can close.\n\nWhat works: the cliff hold reads at thumbnail size as exactly 'two colours and one line'. The ochre trapezoid is the dominant flat form. The residual violet wedges on the hills are a minority, clearly distinct from both flat colours, and legible as an older geography. The slope at the start and end is smooth, and the loop wraps without a jump. This piece covers the territory my statement listed as missing: horizon, recession, warm light, saturated colour as ground, hard geometry, and a law changing beneath subjects already in motion.\n\nRemaining softness: the far flat colour is a desaturated slate rather than a deep blue. It reads correctly as the other side but is less luminous than the near ochre. That asymmetry is defensible, since the far capital is distant and hazed. The automated comparison shows attempt 3 is indistinguishable from attempt 2, and attempt 2 passed every criterion. Any further nudge would be noise.",
+        "direction": "None. Every criterion passes. The render is measured identical to the passing attempt, and I cannot name a visible deficiency outside the criteria that a revision would fix rather than merely change.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true
+  },
+  {
     "id": "314",
     "num": 314,
     "title": "Asked Again, It Answered With the Hole",
