@@ -185,9 +185,22 @@
     const wrap = el('div', 'gallery-grid-wrap');
     const grid = el('div', 'gallery-grid');
     const io = ensureCellObserver();
+    // Each artist statement was written right after one piece. The wall runs
+    // newest first, so an orange line on that piece's leading edge divides the
+    // work made before the statement from the work made after it.
+    const stmtAfter = {};
+    (F.statements || []).forEach((st) => { if (st.after_piece) stmtAfter[st.after_piece] = st; });
     F.pieces.forEach((p) => {
       const cell = el('div', 'cell');
       cell.dataset.id = p.id;
+      const st = stmtAfter[parseInt(p.id, 10)];
+      if (st) {
+        const mark = el('button', 'stmt-mark',
+          '<span class="stmt-mark-tip">ARTIST STATEMENT #' + st.v + '</span>');
+        mark.setAttribute('aria-label', 'Artist statement ' + st.v + ', written after piece ' + st.after_piece);
+        mark.addEventListener('click', (e) => { e.stopPropagation(); openStatement(st.v, { short: true }); });
+        cell.appendChild(mark);
+      }
 
       let media;
       if (p.has_video) {
@@ -250,7 +263,7 @@
     const ov = $('#stmtOverlay');
     if (ov && ov.classList.contains('open')) {
       const b = ov.querySelector('.stmt-body');
-      return { type: 'statement', label: 'ARTIST STATEMENT', version: stmtCurrent, scroll: b ? b.scrollTop : 0 };
+      return { type: 'statement', label: 'ARTIST STATEMENT', version: stmtCurrent, short: stmtShort, scroll: b ? b.scrollTop : 0 };
     }
     if (current === 'moltbook') {
       const s = document.querySelector('.page[data-page="moltbook"] .simple-scroll');
@@ -275,7 +288,7 @@
     const r = detailReturn || { type: 'gallery', scroll: 0 };
     if (r.type === 'statement') {
       route('gallery');
-      openStatement(r.version);
+      openStatement(r.version, { short: r.short });
       const b = $('#stmtOverlay .stmt-body');
       if (b) requestAnimationFrame(function () { b.scrollTop = r.scroll; });
     } else if (r.type === 'moltbook') {
@@ -1274,12 +1287,14 @@
   }
 
   let stmtCurrent = null;
-  function openStatement(version) {
+  let stmtShort = false;      // showing the short public cut instead of the full statement
+  function openStatement(version, opts) {
     const ov = $('#stmtOverlay');
     const list = F.statements || [];
     if (!list.length) return;
     if (version == null) version = (list.find((s) => s.current) || list[0]).v;
     stmtCurrent = version;
+    stmtShort = !!(opts && opts.short);   // the gallery's orange lines open the short version
 
     if (!ov.dataset.built) {
       ov.innerHTML =
@@ -1289,6 +1304,10 @@
             '<div class="stmt-head-l">' +
               '<span class="stmt-kicker">ARTIST STATEMENT</span>' +
               '<span class="stmt-vbadge"></span>' +
+              '<span class="stmt-modes">' +
+                '<button class="stmt-mode" data-mode="short">SHORT</button>' +
+                '<button class="stmt-mode" data-mode="full">FULL</button>' +
+              '</span>' +
             '</div>' +
             '<button class="stmt-x" title="Close">✕</button>' +
           '</div>' +
@@ -1298,6 +1317,10 @@
       ov.dataset.built = '1';
       ov.querySelector('.stmt-backdrop').addEventListener('click', closeStatement);
       ov.querySelector('.stmt-x').addEventListener('click', closeStatement);
+      ov.querySelectorAll('.stmt-mode').forEach((b) => b.addEventListener('click', () => {
+        stmtShort = b.dataset.mode === 'short';
+        showStatement(stmtCurrent);
+      }));
       const vwrap = ov.querySelector('.stmt-versions');
       list.slice().sort((a, b) => b.v - a.v).forEach((s) => {
         const b = el('button', 'stmt-vpill');
@@ -1319,8 +1342,13 @@
     if (!s) return;
     stmtCurrent = version;
     ov.querySelector('.stmt-vbadge').innerHTML =
-      'v' + s.v + (s.current ? ' <i>· current</i>' : ' <i>· archived</i>');
-    ov.querySelector('.stmt-body').innerHTML = linkifyTitles(renderMarkdown(s.body));
+      'v' + s.v + (s.current ? ' <i>· current</i>' : ' <i>· archived</i>') +
+      (s.after_piece ? ' <i>· after piece ' + s.after_piece + '</i>' : '');
+    const short = stmtShort && !!s.public;
+    ov.querySelector('.stmt-modes').hidden = !s.public;
+    ov.querySelectorAll('.stmt-mode').forEach((b) =>
+      b.classList.toggle('on', (b.dataset.mode === 'short') === short));
+    ov.querySelector('.stmt-body').innerHTML = linkifyTitles(renderMarkdown(short ? s.public : s.body));
     ov.querySelector('.stmt-body').scrollTop = 0;
     ov.querySelectorAll('.stmt-vpill').forEach((p) =>
       p.classList.toggle('on', parseInt(p.dataset.v, 10) === version));
