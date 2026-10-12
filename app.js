@@ -16,6 +16,13 @@
      --------------------------------------------------------- */
   const API_BASE = 'https://api.factur.art';
   const asset = (n, file) => API_BASE + '/artwork/' + n + '/' + file;
+  // small wall stills, baked into the site itself (bake_site_data.py) so the
+  // wall is complete before any clip arrives, and when the droplet is slow
+  const still = (p) => '/posters/' + p.id + '.jpg';
+  // where in its loop a piece's clip starts (0..1). The still is that same
+  // frame (poster_phase in bake_site_data.py is the same sum), so a tile goes
+  // from still to motion without a jump. The golden ratio scatters the resets.
+  const loopPhase = (n) => (n * 0.61803398875) % 1;
   const fetchJSON = (path) =>
     fetch(path).then((r) => (r.ok ? r.json() : Promise.reject(r.status)));
 
@@ -126,16 +133,15 @@
       for (const e of entries) {
         const v = e.target;
         if (e.isIntersecting) {
-          if (v.dataset.src && !v.getAttribute('src')) { v.setAttribute('src', v.dataset.src); v.load(); }
-          // every clip is the same length, so without a phase offset the whole
-          // wall resets in unison and reads as a glitch. Seed each cell at a
-          // stable random point in its loop so the resets scatter.
-          if (!v.dataset.phased) {
-            v.dataset.phased = '1';
-            const seek = () => {
+          if (v.dataset.src && !v.getAttribute('src')) {
+            // every clip is the same length, so without a phase offset the whole
+            // wall resets in unison and reads as a glitch. Start each one at its
+            // own fixed point in the loop, every time it loads: that point is
+            // the frame the still underneath shows.
+            v.addEventListener('loadedmetadata', () => {
               if (v.duration && isFinite(v.duration)) v.currentTime = (+v.dataset.phase) * v.duration;
-            };
-            if (v.readyState >= 1) seek(); else v.addEventListener('loadedmetadata', seek, { once: true });
+            }, { once: true });
+            v.setAttribute('src', v.dataset.src); v.load();
           }
           const pr = v.play(); if (pr && pr.catch) pr.catch(() => {});
         } else {
@@ -202,22 +208,28 @@
         cell.appendChild(mark);
       }
 
-      let media;
+      // a still under every tile: it shows at once, and the clip (drawn over
+      // it, and see-through until it has a frame) takes over when it arrives
+      const stillImg = el('img', 'ph');
+      stillImg.loading = 'lazy';
+      stillImg.decoding = 'async';
+      stillImg.alt = p.title;
+      stillImg.src = still(p);
+      cell.appendChild(stillImg);
       if (p.has_video) {
-        media = el('video', 'ph');
+        const media = el('video', 'ph');
         media.muted = true; media.loop = true; media.playsInline = true;
         media.setAttribute('muted', ''); media.setAttribute('playsinline', ''); media.setAttribute('loop', '');
         media.preload = 'none';
         media.dataset.src = asset(p.num, 'thumb.mp4');
-        media.dataset.phase = String(Math.random());
+        media.dataset.phase = String(loopPhase(p.num));
         io.observe(media);
+        stillImg.addEventListener('error', () => stillImg.remove(), { once: true });
+        cell.appendChild(media);
       } else {
-        media = el('img', 'ph');
-        media.loading = 'lazy';
-        media.alt = p.title;
-        media.src = asset(p.num, 'thumb.png');
+        // no clip for this piece: if its still is missing, show the full render
+        stillImg.addEventListener('error', () => { stillImg.src = asset(p.num, 'thumb.png'); }, { once: true });
       }
-      cell.appendChild(media);
 
       const ov = el('div', 'overlay',
         '<div class="ov-num">PIECE_' + p.id + '</div>' +
