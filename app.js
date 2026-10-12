@@ -18,7 +18,9 @@
   const asset = (n, file) => API_BASE + '/artwork/' + n + '/' + file;
   // small wall stills, baked into the site itself (bake_site_data.py) so the
   // wall is complete before any clip arrives, and when the droplet is slow
-  const still = (p) => '/posters/' + p.id + '.jpg';
+  // (still_v changes when a still is re-made, so a day-long browser cache
+  // never shows an old one against a new clip)
+  const still = (p) => '/posters/' + p.id + '.jpg' + (p.still_v ? '?v=' + p.still_v : '');
   // where in its loop a piece's clip starts (0..1). The still is that same
   // frame (poster_phase in bake_site_data.py is the same sum), so a tile goes
   // from still to motion without a jump. The golden ratio scatters the resets.
