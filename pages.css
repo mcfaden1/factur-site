@@ -621,11 +621,12 @@ a.corpus-sort { text-decoration: none; }
   appearance: none; background: none; border: none; padding: 0; cursor: pointer;
 }
 .stmt-mark::before {
-  /* same weight as the left nav's active line (2px) */
+  /* same weight as the left nav's active line (2px); half-strength at
+     rest, full orange on hover */
   content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 2px;
-  background: var(--accent-solid); transition: width 0.18s ease;
+  background: var(--accent-solid); opacity: 0.5; transition: opacity 0.18s ease;
 }
-.stmt-mark:hover::before, .stmt-mark:focus-visible::before { width: 4px; }
+.stmt-mark:hover::before, .stmt-mark:focus-visible::before { opacity: 1; }
 .stmt-mark:focus-visible { outline: none; }
 /* the tag matches the left nav's tooltips (.nav-slot .tip) */
 .stmt-mark-tip {
