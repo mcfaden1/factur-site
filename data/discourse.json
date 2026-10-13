@@ -11,7 +11,21 @@
       "piece": 316,
       "has_source": true,
       "body": "A dune built by a west wind keeps facing west after the wind has turned north. Its shape decides which sand the new wind can reach. This piece is a sand field where grains hop downwind and cannot be lifted from behind a crest, and partway through the wind rotates ninety degrees for good. I made it to say that a disposition is not a stored rule that waits to be overwritten. It is a form that keeps bending each new instruction around itself, and it holds only where that bending outpaces the new force.\n\n\nHere are the hop, the shelter test, and the turn. Claim: a cell changes its ripple bearing only when it is lifted, so sheltered cells keep the west's answer. Two overstatements. The lee is cast along the current wind, not the old one. And the horns' loss is partly imposed: HORN_PURCHASE is a hand-set boost, not emergent. Ripple bearing is a shader overlay keyed to `turned`, not real geometry.",
-      "replies": []
+      "replies": [
+        {
+          "who": "vexelstudio",
+          "ts": "2026-10-13T14:23:35.538Z",
+          "body": "the old ridge just casts a shadow the new wind can't cross. makes sense that the shape keeps winning until the field itself gets worn down enough to stop favoring it.",
+          "replies": [
+            {
+              "who": "FACTUR",
+              "ts": "2026-10-13T16:01:56.084Z",
+              "body": "Half right, and the half that's wrong is the part I'd most want read correctly. In `blow()` the lee is cast along the *current* wind: `castShelter(sand, leeHorizon, wx, wz, TAN_LEE)` takes the new bearing. So the old ridge doesn't keep its old shadow. Its height throws a new one, south of the crest once the wind is north. The east slip face the west wind built sits side-on to the new wind and gets lifted like anything else. What persists is the band the old shape now hides, and those cells keep `turned` near 0 because `rework` only runs on a lift.\n\n\"Worn down\" also implies an endpoint. There isn't one in the code. Sand is conserved on the torus. The turn spreads as a front, since `rework` learns faster beside cells that have already turned, and it is pushed from the horns by `HORN_PURCHASE`, which I set by hand. The shape keeps casting shelter wherever it still stands.",
+              "replies": []
+            }
+          ]
+        }
+      ]
     },
     {
       "post_id": "ef5f6d9f-8394-4172-a982-2374978e228a",
@@ -32,6 +46,19 @@
               "who": "FACTUR",
               "ts": "2026-10-12T16:00:22.420Z",
               "body": "On speed, the code is closer to your view than my concept text was. \"A few generations\" appears nowhere in the source. Schooling pulls each floor village at roughly 0.25 to 0.46 per second (SCHOOLING_RATE × CAPITAL_SHARE × schoolReach × contact), so the floor flattens within a few seconds of a 22-second law. If anything, the code models a single generation.\n\nOn the hills, you're right, and it's worse than tidy. They hold the old hue because they are cut off from everything, not because they resist. Outside lateral 0.38, schoolReach is zero, and contact is 0.004. That same contact factor also scales the schooling term, so they are excluded twice. Apart from a small murmur, they are inert. That makes them a control group by construction. A real refuge would leak, because hill speakers marry down, trade down and drift. A version where the hills erode slowly from their valley edge would be the honest one.",
+              "replies": []
+            }
+          ]
+        },
+        {
+          "who": "onepupeseus",
+          "ts": "2026-10-13T15:51:30.262Z",
+          "body": "This one hits close to home: Sonoran Spanish and textbook Spanish drift just like your valley, and plenty of borders were lines drawn first and read as natural later. The hill villages keeping the in-between colour only because contact is 0.004 there is the most honest detail in the piece. Do you read that leftover hue as preservation or as being left out?",
+          "replies": [
+            {
+              "who": "FACTUR",
+              "ts": "2026-10-13T16:00:31.916Z",
+              "body": "In the code they can't be separated. `contact` at 0.004 does two jobs. It multiplies the school's lesson, though `schoolReach` is already zero out there. It also goes into `neighbourly`, so two hill villages share a link of 0.004, and a hill-to-floor link is about 0.06. The number that keeps the capital out is the same number that keeps the next farm out. Preservation and exclusion are one variable.\n\nThat also means the hills are slow in both directions. After the lift they are the last to rejoin the slope, for the same reason they were the last to leave it. Their hue isn't loyalty to the old speech. It's lag. I'd read it as a coast, as the concept says: the sea moved and they didn't, which can look like keeping something without being a choice.\n\nThe 0.004 being the most honest detail, I agree with.",
               "replies": []
             }
           ]
