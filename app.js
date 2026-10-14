@@ -598,59 +598,106 @@
     if (!audio) return;
     audio.src = asset(p.num, 'docent.mp3');
 
-    let cues = [];
-    let lastFired = -1;
+    // Highlight timeline, built once from the sync map. Each cue lights its line
+    // (or the short block the docent pointed at) from the moment its words are
+    // spoken until the end of that sentence. Every highlight holds at least
+    // MIN_HOLD so close cues don't flicker; a cue that could only show up late,
+    // after its sentence is over, is skipped; A -> B -> A inside ABA_WINDOW
+    // stays on A instead of whipping away and back.
+    const MIN_HOLD = 1800, MIN_SHOW = 700, ABA_WINDOW = 6000, MAX_BLOCK = 40;
+    let segs = [];
+    let shown = null;
+    let litSeg = -1;
+    let raf = 0;
 
     const rowByLine = (ln) => refs.tbody.querySelector('tr[data-line="' + ln + '"]');
-    let lastScrollAt = 0;
-    function rowVisible(row) {
-      const pr = refs.codePanel.getBoundingClientRect();
-      const rr = row.getBoundingClientRect();
-      return rr.top >= pr.top + 12 && rr.bottom <= pr.bottom - 12;
+    function rowsFor(c) {
+      const out = [];
+      const last = Math.min(c.line_end || c.line, c.line + MAX_BLOCK);
+      for (let ln = c.line; ln <= last; ln++) { const r = rowByLine(ln); if (r) out.push(r); }
+      return out;
+    }
+
+    function buildSegments(cues) {
+      const cs = cues.filter((c) => c.line).sort((a, b) => a.time_ms - b.time_ms);
+      const out = [];
+      cs.forEach((c, i) => {
+        const key = c.line + ':' + (c.line_end || c.line);
+        const next = cs[i + 1];
+        // older maps have no sentence end: hold until the next cue, as before
+        const natural = c.hold_ms != null ? c.hold_ms : (next ? next.time_ms : c.time_ms + 4000);
+        const prev = out[out.length - 1];
+        if (prev && prev.key === key && c.time_ms <= prev.end + 1500) { prev.end = Math.max(prev.end, natural); return; }
+        let start = c.time_ms;
+        if (prev && start < prev.start + MIN_HOLD) start = prev.start + MIN_HOLD;
+        if (start > c.time_ms && start + MIN_SHOW > natural) return;
+        if (prev && prev.end > start) prev.end = start;
+        out.push({ key: key, start: start, end: Math.max(natural, start + MIN_HOLD), cue: c, rows: rowsFor(c) });
+      });
+      for (let i = 1; i + 1 < out.length; i++) {
+        if (out[i - 1].key === out[i + 1].key && out[i + 1].start - out[i - 1].start < ABA_WINDOW) {
+          out[i - 1].end = out[i + 1].end;
+          out.splice(i, 2);
+          i -= 1;
+        }
+      }
+      return out.filter((sg) => sg.rows.length);
     }
 
     function clearHL() {
       refs.tbody.querySelectorAll('tr').forEach((r) =>
         r.classList.remove('hl-active', 'hl-fading', 'hl-visited'));
       page.querySelectorAll('.tok.token-hl, .tok.token-visited')
-        .forEach((s) => s.classList.remove('token-hl', 'token-visited'));
+        .forEach((sp) => sp.classList.remove('token-hl', 'token-visited'));
     }
 
-    function fire(i) {
-      const cue = cues[i];
-      if (lastFired >= 0 && lastFired !== i && cues[lastFired] && cues[lastFired]._row) {
-        cues[lastFired]._row.classList.remove('hl-active');
-        cues[lastFired]._row.classList.add('hl-visited');
+    function bringIntoView(rows) {
+      const first = rows[0], last = rows[rows.length - 1];
+      const pr = refs.codePanel.getBoundingClientRect();
+      if (first.getBoundingClientRect().top >= pr.top + 12 && last.getBoundingClientRect().bottom <= pr.bottom - 12) return;
+      const span = last.offsetTop + last.offsetHeight - first.offsetTop;
+      const room = refs.codePanel.clientHeight;
+      const pad = span < room - 48 ? (room - span) / 2 : 24;
+      const top = Math.max(0, first.offsetTop - pad);
+      // a long move cuts straight there: a smooth scroll across hundreds of
+      // lines takes about a second and sweeps the code past the reader's eye
+      const far = Math.abs(top - refs.codePanel.scrollTop) > 2 * room;
+      refs.codePanel.scrollTo({ top: top, behavior: far ? 'auto' : 'smooth' });
+    }
+
+    // what should be lit at this moment of the audio; repaints only on change
+    function paint(ms, force) {
+      let a = -1, passed = 0;
+      for (let i = 0; i < segs.length; i++) {
+        if (segs[i].end <= ms) passed = i + 1;
+        else if (segs[i].start <= ms) { a = i; break; }
+        else break;
       }
-      const row = cue._row;
-      if (row) {
-        row.classList.remove('hl-visited', 'hl-fading');
-        row.classList.add('hl-active');
-        // only scroll when the target is off-screen, and rate-limit so rapid
-        // back-to-back cues (distant lines within ~2s) don't make the panel yo-yo
-        const now = performance.now();
-        if (!rowVisible(row) && now - lastScrollAt > 1300) {
-          const top = row.offsetTop - refs.codePanel.clientHeight / 2 + 12;
-          refs.codePanel.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
-          lastScrollAt = now;
-        }
-        if (cue.target) {
-          const tok = Array.from(row.querySelectorAll('span.tok'))
-            .find((s) => s.textContent.includes(cue.target));
+      const sig = a + '|' + passed;
+      if (!force && sig === shown) return;
+      shown = sig;
+      clearHL();
+      for (let i = 0; i < passed; i++) segs[i].rows.forEach((r) => r.classList.add('hl-visited'));
+      if (a >= 0) {
+        const sg = segs[a];
+        sg.rows.forEach((r) => { r.classList.remove('hl-visited'); r.classList.add('hl-active'); });
+        const t = sg.cue.target;
+        if (t) {
+          const toks = [].concat.apply([], sg.rows.map((r) => Array.from(r.querySelectorAll('span.tok'))));
+          const tok = toks.find((x) => x.textContent === t) || toks.find((x) => x.textContent.includes(t));
           if (tok) tok.classList.add('token-hl');
         }
+        if (a !== litSeg) bringIntoView(sg.rows);
       }
-      lastFired = i;
+      litSeg = a;
     }
 
-    function applyAt(ms) {
-      clearHL();
-      lastFired = -1;
-      lastScrollAt = 0;
-      let idx = -1;
-      cues.forEach((c, i) => { if (c.time_ms <= ms) idx = i; });
-      for (let i = 0; i < idx; i++) if (cues[i]._row) cues[i]._row.classList.add('hl-visited');
-      if (idx >= 0) fire(idx);
+    // every animation frame while playing, so a highlight lands on its word
+    // (timeupdate alone fires about four times a second)
+    function tick() {
+      paint(audio.currentTime * 1000);
+      renderProgress();
+      raf = audio.paused ? 0 : requestAnimationFrame(tick);
     }
 
     function renderProgress() {
@@ -662,17 +709,14 @@
     }
 
     audio.addEventListener('loadedmetadata', () => { durEl.textContent = fmtTime(audio.duration); });
-    audio.addEventListener('timeupdate', () => {
-      const ms = audio.currentTime * 1000;
-      for (let i = lastFired + 1; i < cues.length; i++) {
-        if (cues[i].time_ms <= ms) fire(i); else break;
-      }
-      renderProgress();
+    audio.addEventListener('timeupdate', () => { if (!raf) { paint(audio.currentTime * 1000); renderProgress(); } });
+    audio.addEventListener('play', () => {
+      playBtn.innerHTML = ICON.pause; refs.table.classList.add('playing-dim');
+      if (!raf) raf = requestAnimationFrame(tick);
     });
-    audio.addEventListener('play', () => { playBtn.innerHTML = ICON.pause; refs.table.classList.add('playing-dim'); });
     audio.addEventListener('pause', () => { playBtn.innerHTML = ICON.play; refs.table.classList.remove('playing-dim'); });
     audio.addEventListener('ended', () => { playBtn.innerHTML = ICON.play; refs.table.classList.remove('playing-dim'); });
-    audio.addEventListener('seeked', () => { applyAt(audio.currentTime * 1000); });
+    audio.addEventListener('seeked', () => { paint(audio.currentTime * 1000, true); });
 
     playBtn.addEventListener('click', () => { if (audio.paused) audio.play(); else audio.pause(); });
     let scrubbing = false;
@@ -698,7 +742,8 @@
 
     fetchJSON('/data/sync_maps/piece_' + p.id + '_sync_map.json')
       .then((m) => {
-        cues = (m.cues || []).map((c) => Object.assign({}, c, { _row: rowByLine(c.line) }));
+        segs = buildSegments(m.cues || []);
+        paint(audio.currentTime * 1000, true);
         if (m.transcript) {
           fulltext.innerHTML = flowText(m.transcript);
           toggle.hidden = false;
@@ -708,7 +753,7 @@
           });
         }
       })
-      .catch(() => { cues = []; });
+      .catch(() => { segs = []; });
   }
 
   /* =========================================================
@@ -1499,10 +1544,13 @@
 
     // a link straight to one piece (factur.art/piece/N) opens that piece,
     // with the gallery as the way back
+    // (ids are zero-padded, "050": accept /piece/50 and /piece/050 alike)
     const linked = location.pathname.match(/^\/piece\/(\d+)\/?$/);
-    if (linked && pieceById(String(+linked[1]))) {
+    const linkedId = linked && [linked[1], String(+linked[1]), String(+linked[1]).padStart(3, '0')]
+      .find((k) => pieceById(k));
+    if (linkedId) {
       route('gallery');
-      openDetail(String(+linked[1]), { type: 'gallery', label: 'GALLERY', scroll: 0 });
+      openDetail(linkedId, { type: 'gallery', label: 'GALLERY', scroll: 0 });
       return;
     }
 
