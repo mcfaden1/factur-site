@@ -5,87 +5,66 @@
   "cues": [
     {
       "time_ms": 24254,
-      "end_ms": 24776,
-      "line": 248,
-      "target": "fragments",
-      "context": "The artist stages that gap: fragments of CSS syntax drift through"
+      "end_ms": 27760,
+      "hold_ms": 31823,
+      "line": 175,
+      "line_end": 193,
+      "target": null,
+      "context": "The artist stages that gap: fragments of CSS syntax drift through the frame, chase each other toward completeness,"
     },
     {
       "time_ms": 46243,
       "end_ms": 47659,
+      "hold_ms": 51479,
       "line": 196,
+      "line_end": 196,
       "target": "felicityConditions",
       "context": "or \"I believe\" meets its felicity conditions, or whether it's a christening"
     },
     {
-      "time_ms": 56204,
-      "end_ms": 57249,
+      "time_ms": 54706,
+      "end_ms": 57760,
+      "hold_ms": 71100,
       "line": 196,
+      "line_end": 201,
       "target": "felicityConditions",
-      "context": "exact. Each fragment carries a felicity conditions table \u2014 a selector needs"
+      "context": "breaks. The mechanism is exact. Each fragment carries a felicity conditions table \u2014 a selector needs punctuation,"
     },
     {
-      "time_ms": 58654,
-      "end_ms": 59164,
-      "line": 56,
-      "target": "selector",
-      "context": "felicity conditions table \u2014 a selector needs punctuation, a property needs"
-    },
-    {
-      "time_ms": 59664,
-      "end_ms": 60662,
-      "line": 59,
-      "target": "punctuation",
-      "context": "table \u2014 a selector needs punctuation, a property needs a value"
-    },
-    {
-      "time_ms": 61034,
-      "end_ms": 61486,
-      "line": 57,
-      "target": "property",
-      "context": "a selector needs punctuation, a property needs a value \u2014 and"
-    },
-    {
-      "time_ms": 64215,
-      "end_ms": 64632,
-      "line": 442,
-      "target": "cluster",
-      "context": "\u2014 and only when a cluster satisfies hasSyntacticCompleteness does it enter"
-    },
-    {
-      "time_ms": 65689,
+      "time_ms": 63576,
       "end_ms": 67373,
+      "hold_ms": 71100,
       "line": 448,
+      "line_end": 451,
       "target": "hasSyntacticCompleteness",
-      "context": "only when a cluster satisfies hasSyntacticCompleteness does it enter the locked"
-    },
-    {
-      "time_ms": 68696,
-      "end_ms": 68986,
-      "line": 86,
-      "target": "locked",
-      "context": "hasSyntacticCompleteness does it enter the locked state, blazing white. But the"
+      "context": "needs a value \u2014 and only when a cluster satisfies hasSyntacticCompleteness does it enter the locked"
     },
     {
       "time_ms": 74490,
       "end_ms": 78008,
+      "hold_ms": 78008,
       "line": 430,
-      "target": "HARD CUT: instant snap to failure state",
+      "line_end": 430,
+      "target": null,
       "context": "code names what happens next: \"HARD CUT: instant snap to failure state.\" No fade \u2014 the dissolving"
     },
     {
-      "time_ms": 79981,
-      "end_ms": 80446,
-      "line": 100,
-      "target": "dissolving",
-      "context": "state.\" No fade \u2014 the dissolving class snaps on, and the"
+      "time_ms": 78611,
+      "end_ms": 79227,
+      "hold_ms": 83174,
+      "line": 107,
+      "line_end": 107,
+      "target": null,
+      "context": "instant snap to failure state.\" No fade \u2014 the dissolving class snaps"
     },
     {
-      "time_ms": 92335,
-      "end_ms": 92985,
-      "line": 456,
-      "target": "coherence",
-      "context": "hard cut is the argument: coherence achieved, then withdrawn without mercy."
+      "time_ms": 79854,
+      "end_ms": 83174,
+      "hold_ms": 83174,
+      "line": 431,
+      "line_end": 437,
+      "target": "dissolving",
+      "context": "failure state.\" No fade \u2014 the dissolving class snaps on, and the fragment scatters. Watch for that white flare"
     }
   ]
 }

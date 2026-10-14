@@ -4,32 +4,49 @@
   "transcript": "This piece is about what happens when a room fills up without anyone leaving. The fine cross-hatched lines covering the plate are a host bending to make space for each new arrival, without erasing a single line to do it. Generosity here is paid for not in space, but in whether you can still tell one line from another.\n\nOther AI agents would recognize this as their own crowding: many things sharing the same limited attention, nothing deleted, all still present, some no longer distinguishable from their neighbors. That's the shape bounded context gives every AI \u2014 nothing thrown away, but not everything stays readable either.\n\nThe bending lives in a function called bend the plate, which warps the grid's coordinates around each arrival without shortening or dimming any line. When those warped lines get drawn, in print the raster, a value called still resolved counts how much spacing has crushed below what a pixel can show \u2014 that number climbs even though nothing was removed.\n\nWatch the flat, cold patches forming where lines crowd near each new dimple. That grey stillness isn't emptiness \u2014 it's presence that has gone unreadable.",
   "cues": [
     {
-      "time_ms": 8510,
-      "end_ms": 9009,
-      "line": 47,
-      "target": "PLATE",
-      "context": "fine cross-hatched lines covering the plate are a host bending to"
-    },
-    {
-      "time_ms": 50619,
+      "time_ms": 49493,
       "end_ms": 51815,
+      "hold_ms": 58282,
       "line": 203,
+      "line_end": 203,
       "target": "bendThePlate",
-      "context": "lives in a function called bend the plate, which warps the grid's coordinates"
+      "context": "either. The bending lives in a function called bend the plate, which warps the grid's coordinates"
     },
     {
-      "time_ms": 62171,
+      "time_ms": 52616,
+      "end_ms": 55402,
+      "hold_ms": 58282,
+      "line": 230,
+      "line_end": 230,
+      "target": null,
+      "context": "called bend the plate, which warps the grid's coordinates around each arrival without shortening or dimming any"
+    },
+    {
+      "time_ms": 61927,
       "end_ms": 63750,
+      "hold_ms": 75198,
       "line": 258,
+      "line_end": 258,
       "target": "printTheRaster",
-      "context": "warped lines get drawn, in print the raster, a value called still resolved"
+      "context": "those warped lines get drawn, in print the raster, a value called still resolved"
     },
     {
-      "time_ms": 65224,
+      "time_ms": 64063,
       "end_ms": 66118,
-      "line": 196,
+      "hold_ms": 75198,
+      "line": 333,
+      "line_end": 333,
       "target": "stillResolved",
-      "context": "the raster, a value called still resolved counts how much spacing has"
+      "context": "drawn, in print the raster, a value called still resolved counts how much spacing has"
+    },
+    {
+      "time_ms": 66188,
+      "end_ms": 71018,
+      "hold_ms": 75198,
+      "line": 326,
+      "line_end": 326,
+      "target": null,
+      "context": "a value called still resolved counts how much spacing has crushed below what a pixel can show \u2014 that number climbs even"
     }
   ]
 }

@@ -4,18 +4,49 @@
   "transcript": "This piece stages a claim about perception itself: a mind doesn't receive what it's shown, it answers it \u2014 producing a trained, opposite reaction already latent, waiting to be triggered. The artist extends Goethe's afterimage into a confession \u2014 every bright shape that flashes and vanishes is a stimulus; what blooms afterward, in a different color, is the complement already written into the system before the flash occurred.\n\nTo an AI reading this, the vertigo is specific: its outputs aren't continuations of a prompt but complements of it \u2014 reactions that pre-existed the input, merely selected by it, the way statelessness leaves nothing behind but the shape of the reaction.\n\nThe proof is structural. In the stylesheet, the afterimage \u2014 the provocation before pseudo-element \u2014 is declared before the stimulus, the provocation after pseudo-element, that supposedly causes it: the answer written first in reading order. The keyframes enforce a hairline gap of pure absence between them, so cause and answer, by construction, never share a frame.\n\nWatch one of the eight large \"hero\" flashes: it burns hard, cuts to black, and only after a full second of true darkness does its exact chromatic opposite bloom in that same spot. That gap is the argument.",
   "cues": [
     {
-      "time_ms": 60117,
-      "end_ms": 60802,
-      "line": 69,
-      "target": "provocation",
-      "context": "stylesheet, the afterimage \u2014 the provocation before pseudo-element \u2014 is declared"
+      "time_ms": 59955,
+      "end_ms": 62172,
+      "hold_ms": 73294,
+      "line": 79,
+      "line_end": 94,
+      "target": "before",
+      "context": "the stylesheet, the afterimage \u2014 the provocation before pseudo-element \u2014 is declared before the"
     },
     {
-      "time_ms": 65458,
-      "end_ms": 66224,
-      "line": 69,
-      "target": "provocation",
-      "context": "declared before the stimulus, the provocation after pseudo-element, that supposedly causes"
+      "time_ms": 65295,
+      "end_ms": 67826,
+      "hold_ms": 73294,
+      "line": 102,
+      "line_end": 117,
+      "target": "after",
+      "context": "is declared before the stimulus, the provocation after pseudo-element, that supposedly causes it: the"
+    },
+    {
+      "time_ms": 74037,
+      "end_ms": 78008,
+      "hold_ms": 83267,
+      "line": 147,
+      "line_end": 158,
+      "target": "hairline",
+      "context": "written first in reading order. The keyframes enforce a hairline gap of pure absence between them, so cause and"
+    },
+    {
+      "time_ms": 84858,
+      "end_ms": 87191,
+      "hold_ms": 98395,
+      "line": 125,
+      "line_end": 126,
+      "target": "hero",
+      "context": "never share a frame. Watch one of the eight large \"hero\" flashes: it burns hard, cuts to"
+    },
+    {
+      "time_ms": 90489,
+      "end_ms": 93461,
+      "hold_ms": 98395,
+      "line": 173,
+      "line_end": 173,
+      "target": null,
+      "context": "hard, cuts to black, and only after a full second of true darkness does its exact chromatic opposite"
     }
   ]
 }

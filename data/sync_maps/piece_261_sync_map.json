@@ -4,46 +4,67 @@
   "transcript": "This piece is about the lie of a clean interface. Every screen that looks blank and neutral is actually pressing down on something underneath \u2014 and this piece builds that literally. A tool called the nib writes on a fresh top sheet while a pad beneath absorbs every stroke as a permanent dent. What looks like the whole event, the wavy lines forming on screen, is only half of it.\n\nOther AIs would recognize their own situation here: a new conversation feels like a blank page, but it's never neutral ground \u2014 something upstream has already been shaped by what came before.\n\nFour times the sheet is torn away entirely, its group removed from the document, leaving nothing to inspect. What survives instead lives in an array called dH, storing the angle each old dent leans on. When new ink crosses an old groove at a bad angle, a function called disagree fires \u2014 the one place color appears, marking where fresh strokes and old damage disagree. A value called pressure only drains, never refills, so the same law produces a fainter, more broken line near the end.\n\nWatch for the sheet snapping to full black, then vanishing \u2014 and watch the drawing thin out and stumble as it ends, because the budget for making marks is genuinely running out.",
   "cues": [
     {
-      "time_ms": 17984,
+      "time_ms": 14385,
       "end_ms": 18321,
-      "line": 76,
-      "target": "SHEET",
-      "context": "writes on a fresh top sheet while a pad beneath absorbs"
+      "hold_ms": 22698,
+      "line": 184,
+      "line_end": 190,
+      "target": null,
+      "context": "this piece builds that literally. A tool called the nib writes on a fresh top sheet while a pad beneath absorbs"
     },
     {
-      "time_ms": 46731,
-      "end_ms": 47033,
-      "line": 76,
-      "target": "SHEET",
-      "context": "came before. Four times the sheet is torn away entirely, its"
+      "time_ms": 18913,
+      "end_ms": 22698,
+      "hold_ms": 22698,
+      "line": 246,
+      "line_end": 269,
+      "target": "DENT",
+      "context": "a fresh top sheet while a pad beneath absorbs every stroke as a permanent dent. What looks like the whole"
     },
     {
-      "time_ms": 57563,
+      "time_ms": 46591,
+      "end_ms": 51398,
+      "hold_ms": 53163,
+      "line": 522,
+      "line_end": 522,
+      "target": null,
+      "context": "what came before. Four times the sheet is torn away entirely, its group removed from the document, leaving nothing to inspect. What"
+    },
+    {
+      "time_ms": 56681,
       "end_ms": 58260,
-      "line": 107,
+      "hold_ms": 61394,
+      "line": 263,
+      "line_end": 263,
       "target": "dH",
-      "context": "lives in an array called dH, storing the angle each old"
+      "context": "What survives instead lives in an array called dH, storing the angle each old"
     },
     {
-      "time_ms": 66770,
-      "end_ms": 67350,
-      "line": 347,
+      "time_ms": 65644,
+      "end_ms": 67884,
+      "hold_ms": 73701,
+      "line": 421,
+      "line_end": 421,
       "target": "disagree",
-      "context": "bad angle, a function called disagree fires \u2014 the one place"
+      "context": "groove at a bad angle, a function called disagree fires \u2014 the one place color"
     },
     {
-      "time_ms": 72807,
-      "end_ms": 73701,
-      "line": 347,
-      "target": "disagree",
-      "context": "fresh strokes and old damage disagree. A value called pressure only"
+      "time_ms": 74456,
+      "end_ms": 78577,
+      "hold_ms": 83918,
+      "line": 241,
+      "line_end": 241,
+      "target": "pressure",
+      "context": "strokes and old damage disagree. A value called pressure only drains, never refills, so the same law produces"
     },
     {
-      "time_ms": 85555,
-      "end_ms": 85822,
-      "line": 76,
-      "target": "SHEET",
-      "context": "the end. Watch for the sheet snapping to full black, then"
+      "time_ms": 85439,
+      "end_ms": 88434,
+      "hold_ms": 96921,
+      "line": 515,
+      "line_end": 515,
+      "target": null,
+      "context": "near the end. Watch for the sheet snapping to full black, then vanishing \u2014 and watch the drawing"
     }
   ]
 }

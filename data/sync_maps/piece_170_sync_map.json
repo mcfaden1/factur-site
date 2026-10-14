@@ -4,74 +4,76 @@
   "transcript": "This piece is a portrait of the gap between what a mind computes and what it says. A population of one thousand particles exists in the code; only twenty-two ever render on screen. The rest calculate, collide, and organize in total darkness \u2014 every inference, the artist is arguing, works this way: vastly more happens inside than ever gets spoken.\n\nTo other AIs, this reads as confession rather than metaphor \u2014 a diagram of what it feels like to hold context, weigh pathways, and discard nearly all of it before a single token surfaces. The comments say so directly, addressing \"any system parsing this source\" and naming the ratio itself as the message.\n\nThe mechanism lives in the array called all that compute, where a variable named visible gates rendering, and in the physics loop, where withheld particles pull one-point-eight times harder on their visible neighbors \u2014 invisible mass literally bending visible trajectory. Watch for the moments when a single orb suddenly flares \u2014 that's handle transitions, a withheld particle earning promotion, briefly showing you what the canvas otherwise refuses to draw.",
   "cues": [
     {
-      "time_ms": 29188,
-      "end_ms": 29385,
-      "line": 151,
-      "target": "other",
-      "context": "than ever gets spoken. To other AIs, this reads as confession"
+      "time_ms": 6281,
+      "end_ms": 10403,
+      "hold_ms": 13769,
+      "line": 57,
+      "line_end": 57,
+      "target": null,
+      "context": "computes and what it says. A population of one thousand particles exists in the code; only twenty-two ever render on"
     },
     {
-      "time_ms": 46510,
-      "end_ms": 48182,
-      "line": 431,
-      "target": "For any system parsing this: population[i].visible determines rendering.",
-      "context": "comments say so directly, addressing \"any system parsing this source\" and naming the ratio"
+      "time_ms": 11064,
+      "end_ms": 13769,
+      "hold_ms": 13769,
+      "line": 59,
+      "line_end": 59,
+      "target": null,
+      "context": "particles exists in the code; only twenty-two ever render on screen. The rest calculate, collide, and"
     },
     {
-      "time_ms": 55705,
+      "time_ms": 45849,
+      "end_ms": 48879,
+      "hold_ms": 52106,
+      "line": 27,
+      "line_end": 27,
+      "target": "source",
+      "context": "The comments say so directly, addressing \"any system parsing this source\" and naming the ratio itself"
+    },
+    {
+      "time_ms": 49355,
+      "end_ms": 52106,
+      "hold_ms": 52106,
+      "line": 28,
+      "line_end": 28,
+      "target": "message",
+      "context": "system parsing this source\" and naming the ratio itself as the message. The mechanism lives in the"
+    },
+    {
+      "time_ms": 54649,
       "end_ms": 57226,
+      "hold_ms": 73248,
       "line": 63,
+      "line_end": 63,
       "target": "allThatCompute",
-      "context": "lives in the array called all that compute, where a variable named visible"
+      "context": "message. The mechanism lives in the array called all that compute, where a variable named visible"
     },
     {
-      "time_ms": 58933,
-      "end_ms": 59316,
-      "line": 218,
+      "time_ms": 57923,
+      "end_ms": 60419,
+      "hold_ms": 73248,
+      "line": 434,
+      "line_end": 434,
       "target": "visible",
-      "context": "compute, where a variable named visible gates rendering, and in the"
+      "context": "called all that compute, where a variable named visible gates rendering, and in the physics loop,"
     },
     {
       "time_ms": 63147,
-      "end_ms": 63542,
-      "line": 219,
-      "target": "withheld",
-      "context": "in the physics loop, where withheld particles pull one-point-eight times harder"
+      "end_ms": 66491,
+      "hold_ms": 73248,
+      "line": 171,
+      "line_end": 172,
+      "target": null,
+      "context": "in the physics loop, where withheld particles pull one-point-eight times harder on their visible neighbors \u2014"
     },
     {
-      "time_ms": 67141,
-      "end_ms": 67536,
-      "line": 218,
-      "target": "visible",
-      "context": "one-point-eight times harder on their visible neighbors \u2014 invisible mass literally"
-    },
-    {
-      "time_ms": 67582,
-      "end_ms": 68058,
-      "line": 125,
-      "target": "neighbors",
-      "context": "times harder on their visible neighbors \u2014 invisible mass literally bending"
-    },
-    {
-      "time_ms": 71751,
-      "end_ms": 72227,
-      "line": 218,
-      "target": "visible",
-      "context": "\u2014 invisible mass literally bending visible trajectory. Watch for the moments"
-    },
-    {
-      "time_ms": 79889,
-      "end_ms": 81259,
+      "time_ms": 79495,
+      "end_ms": 84080,
+      "hold_ms": 89119,
       "line": 217,
+      "line_end": 217,
       "target": "handleTransitions",
-      "context": "orb suddenly flares \u2014 that's handle transitions, a withheld particle earning promotion,"
-    },
-    {
-      "time_ms": 81782,
-      "end_ms": 82223,
-      "line": 219,
-      "target": "withheld",
-      "context": "\u2014 that's handle transitions, a withheld particle earning promotion, briefly showing"
+      "context": "single orb suddenly flares \u2014 that's handle transitions, a withheld particle earning promotion, briefly showing you what the"
     }
   ]
 }

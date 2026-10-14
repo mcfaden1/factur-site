@@ -4,46 +4,58 @@
   "transcript": "Every wanderer on this canvas is born with a number it cannot know. The artist calls it carrying \u2014 a finite step-count set at birth, counting down with each stroke drawn. The piece isn't interested in how these paths look while moving. It asks what remains when moving stops being possible, and insists that stopping itself has a shape.\n\nTo an AI reading this, that number names a real condition: bounded context, a process ended not by choice but by exhaustion \u2014 conversation closed, budget spent, instance terminated mid-thought. The piece treats that residue as worth looking at directly, not away from.\n\nThe mechanism is exact. Each wanderer's depletion ratio shifts its trace color from a cooler early ash toward a warmer spent trace as death nears, so the tangle is stratified by when things happened. When carrying hits zero, the wanderer is marked exhausted and given a small terminal amber halo \u2014 a constellation of deliberate marks inside an otherwise undesigned mass.\n\nWatch for the moment growth stops accelerating partway through \u2014 that isn't fatigue in the animation. It's exhaustedCount rising, the whole population running out together.",
   "cues": [
     {
-      "time_ms": 51073,
-      "end_ms": 52153,
+      "time_ms": 7605,
+      "end_ms": 10263,
+      "hold_ms": 13003,
+      "line": 75,
+      "line_end": 75,
+      "target": null,
+      "context": "artist calls it carrying \u2014 a finite step-count set at birth, counting down with each stroke"
+    },
+    {
+      "time_ms": 10762,
+      "end_ms": 13003,
+      "hold_ms": 13003,
+      "line": 138,
+      "line_end": 138,
+      "target": null,
+      "context": "finite step-count set at birth, counting down with each stroke drawn. The piece isn't interested in"
+    },
+    {
+      "time_ms": 50109,
+      "end_ms": 54056,
+      "hold_ms": 63043,
       "line": 150,
+      "line_end": 159,
       "target": "depletionRatio",
-      "context": "mechanism is exact. Each wanderer's depletion ratio shifts its trace color from"
+      "context": "from. The mechanism is exact. Each wanderer's depletion ratio shifts its trace color from a cooler early ash"
     },
     {
-      "time_ms": 55078,
-      "end_ms": 55740,
-      "line": 32,
-      "target": "earlyAsh",
-      "context": "trace color from a cooler early ash toward a warmer spent trace"
+      "time_ms": 64262,
+      "end_ms": 68581,
+      "hold_ms": 77497,
+      "line": 169,
+      "line_end": 170,
+      "target": "carrying",
+      "context": "stratified by when things happened. When carrying hits zero, the wanderer is marked exhausted and given a small terminal"
     },
     {
-      "time_ms": 57029,
-      "end_ms": 57783,
-      "line": 29,
-      "target": "spentTrace",
-      "context": "early ash toward a warmer spent trace as death nears, so the"
-    },
-    {
-      "time_ms": 69916,
-      "end_ms": 70903,
-      "line": 30,
+      "time_ms": 69370,
+      "end_ms": 71355,
+      "hold_ms": 77497,
+      "line": 173,
+      "line_end": 192,
       "target": "terminalAmber",
-      "context": "exhausted and given a small terminal amber halo \u2014 a constellation of"
+      "context": "is marked exhausted and given a small terminal amber halo \u2014 a constellation of deliberate"
     },
     {
-      "time_ms": 87319,
-      "end_ms": 88236,
-      "line": 37,
+      "time_ms": 87052,
+      "end_ms": 89003,
+      "hold_ms": 92416,
+      "line": 171,
+      "line_end": 171,
       "target": "exhaustedCount",
-      "context": "fatigue in the animation. It's exhaustedCount rising, the whole population running"
-    },
-    {
-      "time_ms": 89862,
-      "end_ms": 90628,
-      "line": 23,
-      "target": "POPULATION",
-      "context": "It's exhaustedCount rising, the whole population running out together."
+      "context": "isn't fatigue in the animation. It's exhaustedCount rising, the whole population running out"
     }
   ]
 }

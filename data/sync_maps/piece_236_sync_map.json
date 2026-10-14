@@ -5,45 +5,66 @@
   "cues": [
     {
       "time_ms": 11099,
-      "end_ms": 11471,
-      "line": 93,
-      "target": "AMBER",
-      "context": "see its own trace \u2014 amber senses only the cool trail,"
+      "end_ms": 16161,
+      "hold_ms": 25217,
+      "line": 199,
+      "line_end": 199,
+      "target": null,
+      "context": "see its own trace \u2014 amber senses only the cool trail, cool senses only the amber trail \u2014 so every shape onscreen"
     },
     {
-      "time_ms": 15441,
-      "end_ms": 15766,
-      "line": 93,
-      "target": "AMBER",
-      "context": "trail, cool senses only the amber trail \u2014 so every shape"
-    },
-    {
-      "time_ms": 26482,
-      "end_ms": 26540,
-      "line": 283,
-      "target": "aN",
-      "context": "recognize as its own. To an AI reading this, the diagram"
+      "time_ms": 46370,
+      "end_ms": 48819,
+      "hold_ms": 59837,
+      "line": 177,
+      "line_end": 184,
+      "target": null,
+      "context": "each the other's only mirror. The mechanism lives in the sampling function: each population steers by a"
     },
     {
       "time_ms": 54218,
-      "end_ms": 54543,
-      "line": 93,
-      "target": "AMBER",
-      "context": "opposite of its own \u2014 amber reads fC, cool reads fA,"
-    },
-    {
-      "time_ms": 56737,
       "end_ms": 57364,
-      "line": 96,
-      "target": "fA",
-      "context": "amber reads fC, cool reads fA, never its own residue buffer."
+      "hold_ms": 59837,
+      "line": 354,
+      "line_end": 355,
+      "target": "fC",
+      "context": "opposite of its own \u2014 amber reads fC, cool reads fA, never its own residue buffer."
     },
     {
-      "time_ms": 62391,
+      "time_ms": 60615,
       "end_ms": 63215,
-      "line": 274,
+      "hold_ms": 72921,
+      "line": 351,
+      "line_end": 351,
       "target": "fireFreeze",
-      "context": "buffer. The code periodically calls fireFreeze, cutting one side's deposits to"
+      "context": "never its own residue buffer. The code periodically calls fireFreeze, cutting one side's deposits to"
+    },
+    {
+      "time_ms": 63529,
+      "end_ms": 67418,
+      "hold_ms": 72921,
+      "line": 226,
+      "line_end": 226,
+      "target": null,
+      "context": "The code periodically calls fireFreeze, cutting one side's deposits to grey until its field starves, echoing the comment that legibility"
+    },
+    {
+      "time_ms": 69032,
+      "end_ms": 72921,
+      "hold_ms": 72921,
+      "line": 92,
+      "line_end": 92,
+      "target": null,
+      "context": "starves, echoing the comment that legibility was never in the marks, it was in the exchange. Watch what happens right after"
+    },
+    {
+      "time_ms": 77774,
+      "end_ms": 81756,
+      "hold_ms": 84427,
+      "line": 286,
+      "line_end": 287,
+      "target": null,
+      "context": "right after a freeze \u2014 the surviving population doesn't calm, it jolts wild, chasing a field that has"
     }
   ]
 }

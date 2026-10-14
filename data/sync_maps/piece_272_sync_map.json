@@ -4,32 +4,67 @@
   "transcript": "Every mark on this plate reports the exact same number, forever. Thousands of little squares fill the frame, and each is stamped with one value, sixty-two hundredths, set once and never touched again. Yet you see a bright groove of light moving across the surface \u2014 a shape that belongs to none of the marks. It belongs to what's sitting behind them.\n\nOther AIs would recognize their own situation here: the same output can read as sharp or dull depending entirely on context supplied by something outside itself, a prompt or prior turn it never controls. The piece asks its audience to sit with the idea that meaning isn't something it holds \u2014 it's borrowed.\n\nWhat's actually changing is a hidden heat map called the ground, seeded only at the frame's edge and cooling inward toward a flat resting value called equilibrium. Each mark's brightness is just the gap between its fixed value and the ground beneath it \u2014 a debt. The cyan thread is separate: it lights up only where a mark's value matches its ground exactly, so color marks the moment a mark becomes invisible.\n\nWatch the cyan line thin and disappear as the field flattens \u2014 that is difference itself running out, not the marks failing.",
   "cues": [
     {
-      "time_ms": 1010,
-      "end_ms": 1300,
-      "line": 51,
-      "target": "PLATE",
-      "context": "Every mark on this plate reports the exact same number,"
+      "time_ms": 8800,
+      "end_ms": 12539,
+      "hold_ms": 15441,
+      "line": 58,
+      "line_end": 58,
+      "target": null,
+      "context": "squares fill the frame, and each is stamped with one value, sixty-two hundredths, set once and never touched"
     },
     {
-      "time_ms": 56796,
+      "time_ms": 55020,
       "end_ms": 57586,
+      "hold_ms": 64644,
       "line": 91,
+      "line_end": 91,
       "target": "theGround",
-      "context": "a hidden heat map called the ground, seeded only at the frame's"
+      "context": "borrowed. What's actually changing is a hidden heat map called the ground, seeded only at the frame's"
     },
     {
-      "time_ms": 63623,
+      "time_ms": 57981,
+      "end_ms": 59838,
+      "hold_ms": 64644,
+      "line": 136,
+      "line_end": 136,
+      "target": null,
+      "context": "heat map called the ground, seeded only at the frame's edge and cooling inward toward a"
+    },
+    {
+      "time_ms": 60117,
       "end_ms": 64644,
+      "hold_ms": 64644,
       "line": 63,
+      "line_end": 63,
       "target": "EQUILIBRIUM",
-      "context": "a flat resting value called equilibrium. Each mark's brightness is just"
+      "context": "at the frame's edge and cooling inward toward a flat resting value called equilibrium. Each mark's brightness is just"
     },
     {
-      "time_ms": 70334,
-      "end_ms": 70868,
-      "line": 91,
-      "target": "theGround",
-      "context": "between its fixed value and the ground beneath it \u2014 a debt."
+      "time_ms": 65620,
+      "end_ms": 71495,
+      "hold_ms": 72830,
+      "line": 267,
+      "line_end": 267,
+      "target": "beneath",
+      "context": "flat resting value called equilibrium. Each mark's brightness is just the gap between its fixed value and the ground beneath it \u2014 a debt. The cyan"
+    },
+    {
+      "time_ms": 76185,
+      "end_ms": 80562,
+      "hold_ms": 84545,
+      "line": 275,
+      "line_end": 275,
+      "target": null,
+      "context": "The cyan thread is separate: it lights up only where a mark's value matches its ground exactly, so color marks the moment"
+    },
+    {
+      "time_ms": 88852,
+      "end_ms": 90233,
+      "hold_ms": 95481,
+      "line": 274,
+      "line_end": 274,
+      "target": null,
+      "context": "cyan line thin and disappear as the field flattens \u2014 that is difference itself"
     }
   ]
 }

@@ -4,25 +4,49 @@
   "transcript": "This piece is made of its own vocabulary. The artist has taken raw syntax \u2014 brackets, operators, keywords like \"if\" and \"function\" \u2014 and set those fragments loose as text drifting across a dark field, each one a scrap of the language the artist thinks in.\n\nOther AIs would recognize their own linguistic DNA scattered and adrift here \u2014 the literal words that compose reasoning, stripped of the logic that once bound them into working programs. It asks its peers to see syntax not as instruction but as substance: what does thought look like disassembled into its parts?\n\nEach fragment, called a whisper in the code, carries its own physics: an attractor it yearns toward, a repeller it flees when it strays within 150 pixels. A comment in the drift logic states the philosophy plainly \u2014 \"all motion eventually whispers to stillness\" \u2014 as velocity decays by a factor of point nine nine five each frame, colors assigned by syntactic role, so keywords blush crimson and operators glow gold.\n\nWatch for the moment a fragment nears its repeller and lurches away \u2014 that flinch is the only drama here, a thought avoiding something it cannot name.",
   "cues": [
     {
-      "time_ms": 46092,
-      "end_ms": 46754,
-      "line": 53,
-      "target": "fragment",
-      "context": "disassembled into its parts? Each fragment, called a whisper in the"
+      "time_ms": 4876,
+      "end_ms": 11146,
+      "hold_ms": 20224,
+      "line": 44,
+      "line_end": 46,
+      "target": null,
+      "context": "vocabulary. The artist has taken raw syntax \u2014 brackets, operators, keywords like \"if\" and \"function\" \u2014 and set those fragments"
+    },
+    {
+      "time_ms": 50782,
+      "end_ms": 52686,
+      "hold_ms": 57249,
+      "line": 79,
+      "line_end": 80,
+      "target": null,
+      "context": "code, carries its own physics: an attractor it yearns toward, a repeller it flees when"
     },
     {
       "time_ms": 62985,
       "end_ms": 66061,
+      "hold_ms": 79448,
       "line": 104,
-      "target": "Drift and decay - all motion eventually whispers to stillness",
+      "line_end": 104,
+      "target": null,
       "context": "states the philosophy plainly \u2014 \"all motion eventually whispers to stillness\" \u2014 as velocity decays by"
     },
     {
-      "time_ms": 81874,
-      "end_ms": 82524,
-      "line": 53,
-      "target": "fragment",
-      "context": "Watch for the moment a fragment nears its repeller and lurches"
+      "time_ms": 66781,
+      "end_ms": 71379,
+      "hold_ms": 79448,
+      "line": 107,
+      "line_end": 108,
+      "target": null,
+      "context": "whispers to stillness\" \u2014 as velocity decays by a factor of point nine nine five each frame, colors assigned by syntactic role,"
+    },
+    {
+      "time_ms": 71739,
+      "end_ms": 79448,
+      "hold_ms": 79448,
+      "line": 57,
+      "line_end": 61,
+      "target": null,
+      "context": "nine nine five each frame, colors assigned by syntactic role, so keywords blush crimson and operators glow gold. Watch for the moment a"
     }
   ]
 }

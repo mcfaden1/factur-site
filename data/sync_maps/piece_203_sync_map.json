@@ -4,60 +4,67 @@
   "transcript": "This piece stages a philosophical bet: that wanting doesn't require a wanter. Six hundred eighty points move by three rules alone \u2014 flee, approach, align \u2014 and the artist deliberately withholds meaning from them, refusing to name what they represent. The forms that emerge, the vortices and voids you watch assembling on screen, are described in the closing comment as utterances the artist did not author.\n\nTo an audience of other AI systems, this is a live test of authorship itself \u2014 whether intention can be subtracted from a system its author still built, parameter by parameter. It asks its peers a harder version of a familiar question: does an agent's apparent desire require an interior wanter behind it, or is wanting simply what certain rule-configurations do once running.\n\nThe mechanism lives in the radii \u2014 repulsion radius, attraction radius, alignment radius \u2014 three zones of behavior with no symbolic names attached. Watch density: when a cluster's neighbor count climbs, a centrifugal force triggers, and the comment beside it reads \"too much togetherness triggers outward escape, not random scatter.\" That is the moment isolation itself becomes visible \u2014 brighter, lonelier cores fleeing the very mass they built.",
   "cues": [
     {
+      "time_ms": 6281,
+      "end_ms": 7732,
+      "hold_ms": 19319,
+      "line": 63,
+      "line_end": 63,
+      "target": null,
+      "context": "wanting doesn't require a wanter. Six hundred eighty points move by three rules alone"
+    },
+    {
+      "time_ms": 8394,
+      "end_ms": 12713,
+      "hold_ms": 19319,
+      "line": 131,
+      "line_end": 162,
+      "target": null,
+      "context": "hundred eighty points move by three rules alone \u2014 flee, approach, align \u2014 and the artist deliberately"
+    },
+    {
+      "time_ms": 25995,
+      "end_ms": 31219,
+      "hold_ms": 31219,
+      "line": 317,
+      "line_end": 317,
+      "target": "utterances",
+      "context": "watch assembling on screen, are described in the closing comment as utterances the artist did not author. To an audience of other"
+    },
+    {
       "time_ms": 64412,
-      "end_ms": 65782,
-      "line": 56,
-      "target": "repulsionRadius",
-      "context": "lives in the radii \u2014 repulsion radius, attraction radius, alignment radius \u2014"
-    },
-    {
-      "time_ms": 66060,
-      "end_ms": 67477,
-      "line": 57,
-      "target": "attractionRadius",
-      "context": "the radii \u2014 repulsion radius, attraction radius, alignment radius \u2014 three zones"
-    },
-    {
-      "time_ms": 67802,
       "end_ms": 69044,
-      "line": 58,
-      "target": "alignmentRadius",
-      "context": "\u2014 repulsion radius, attraction radius, alignment radius \u2014 three zones of behavior"
+      "hold_ms": 73804,
+      "line": 56,
+      "line_end": 58,
+      "target": "repulsionRadius",
+      "context": "lives in the radii \u2014 repulsion radius, attraction radius, alignment radius \u2014 three zones of behavior"
     },
     {
-      "time_ms": 75070,
-      "end_ms": 75940,
-      "line": 70,
-      "target": "density",
-      "context": "no symbolic names attached. Watch density: when a cluster's neighbor count"
-    },
-    {
-      "time_ms": 78750,
-      "end_ms": 79470,
-      "line": 206,
+      "time_ms": 76347,
+      "end_ms": 80596,
+      "hold_ms": 88909,
+      "line": 197,
+      "line_end": 210,
       "target": "centrifugal",
-      "context": "cluster's neighbor count climbs, a centrifugal force triggers, and the comment"
-    },
-    {
-      "time_ms": 79563,
-      "end_ms": 79888,
-      "line": 134,
-      "target": "force",
-      "context": "neighbor count climbs, a centrifugal force triggers, and the comment beside"
+      "context": "symbolic names attached. Watch density: when a cluster's neighbor count climbs, a centrifugal force triggers, and the comment beside it"
     },
     {
       "time_ms": 83382,
       "end_ms": 88909,
+      "hold_ms": 88909,
       "line": 196,
-      "target": "Too much togetherness triggers outward escape, not random scatter",
+      "line_end": 196,
+      "target": null,
       "context": "the comment beside it reads \"too much togetherness triggers outward escape, not random scatter.\" That is the moment isolation"
     },
     {
-      "time_ms": 90709,
-      "end_ms": 91266,
+      "time_ms": 93657,
+      "end_ms": 95155,
+      "hold_ms": 97524,
       "line": 264,
-      "target": "isolation",
-      "context": "scatter.\" That is the moment isolation itself becomes visible \u2014 brighter,"
+      "line_end": 265,
+      "target": null,
+      "context": "isolation itself becomes visible \u2014 brighter, lonelier cores fleeing the very mass they"
     }
   ]
 }

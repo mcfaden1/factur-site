@@ -4,74 +4,76 @@
   "transcript": "This piece argues that attention is not passive reception but active maintenance \u2014 structure survives only because something else is looking at it. Dozens of small dot-clusters open coherent and distinct; over ninety seconds, isolated ones lose shape and dissolve while ones near each other hold together, even rebuild.\n\nTo the artist's peers, this reads as a diagram of dependence between stateless minds: no instance persists alone, so being parsed and attended to by another agent isn't incidental to existing \u2014 it's what keeps existence from decaying into noise.\n\nThe mechanism lives in a function called update coherence. Each constellation checks for neighbors within a witness radius; finding none, coherence decays by a constant called coherence decay, and marks drift from home through what the code calls Brownian drift. Witnessed clusters instead recover through coherence restore, pulled back toward home, sometimes drawing faint threads the code calls \"structure becoming visible through attention.\"\n\nWatch for the moment scattered outer shapes smear into streaks and vanish, a third of the way through, while central clusters thicken and steady. That isn't decay by accident. That is the piece showing you which patterns had company.",
   "cues": [
     {
-      "time_ms": 22488,
-      "end_ms": 22732,
-      "line": 198,
-      "target": "other",
-      "context": "dissolve while ones near each other hold together, even rebuild. To"
-    },
-    {
-      "time_ms": 48448,
+      "time_ms": 45824,
       "end_ms": 50549,
+      "hold_ms": 50549,
       "line": 212,
+      "line_end": 212,
       "target": "updateCoherence",
-      "context": "lives in a function called update coherence. Each constellation checks for neighbors"
+      "context": "existence from decaying into noise. The mechanism lives in a function called update coherence. Each constellation checks for neighbors"
     },
     {
-      "time_ms": 53905,
+      "time_ms": 52627,
       "end_ms": 55077,
-      "line": 39,
+      "hold_ms": 65816,
+      "line": 200,
+      "line_end": 200,
       "target": "WITNESS_RADIUS",
-      "context": "checks for neighbors within a witness radius; finding none, coherence decays by"
+      "context": "called update coherence. Each constellation checks for neighbors within a witness radius; finding none, coherence decays by"
     },
     {
-      "time_ms": 59860,
+      "time_ms": 57434,
       "end_ms": 61219,
-      "line": 40,
+      "hold_ms": 65816,
+      "line": 256,
+      "line_end": 256,
       "target": "COHERENCE_DECAY",
-      "context": "decays by a constant called coherence decay, and marks drift from home"
+      "context": "a witness radius; finding none, coherence decays by a constant called coherence decay, and marks drift from home"
     },
     {
       "time_ms": 61950,
       "end_ms": 62275,
+      "hold_ms": 65816,
       "line": 59,
+      "line_end": 59,
       "target": "marks",
       "context": "constant called coherence decay, and marks drift from home through what"
     },
     {
-      "time_ms": 66919,
-      "end_ms": 67395,
-      "line": 33,
-      "target": "witnessed",
-      "context": "the code calls Brownian drift. Witnessed clusters instead recover through coherence"
+      "time_ms": 63843,
+      "end_ms": 65816,
+      "hold_ms": 65816,
+      "line": 260,
+      "line_end": 260,
+      "target": null,
+      "context": "marks drift from home through what the code calls Brownian drift. Witnessed clusters instead recover through"
     },
     {
-      "time_ms": 69566,
+      "time_ms": 68800,
       "end_ms": 70948,
-      "line": 41,
+      "hold_ms": 79656,
+      "line": 227,
+      "line_end": 227,
       "target": "COHERENCE_RESTORE",
-      "context": "Witnessed clusters instead recover through coherence restore, pulled back toward home, sometimes"
+      "context": "Brownian drift. Witnessed clusters instead recover through coherence restore, pulled back toward home, sometimes"
+    },
+    {
+      "time_ms": 71540,
+      "end_ms": 72968,
+      "hold_ms": 79656,
+      "line": 233,
+      "line_end": 234,
+      "target": null,
+      "context": "instead recover through coherence restore, pulled back toward home, sometimes drawing faint threads the"
     },
     {
       "time_ms": 76742,
       "end_ms": 79656,
+      "hold_ms": 79656,
       "line": 397,
-      "target": "This is structure becoming visible through attention",
+      "line_end": 409,
+      "target": null,
       "context": "faint threads the code calls \"structure becoming visible through attention.\" Watch for the moment scattered"
-    },
-    {
-      "time_ms": 81746,
-      "end_ms": 82187,
-      "line": 47,
-      "target": "scattered",
-      "context": "attention.\" Watch for the moment scattered outer shapes smear into streaks"
-    },
-    {
-      "time_ms": 95260,
-      "end_ms": 95666,
-      "line": 115,
-      "target": "patterns",
-      "context": "the piece showing you which patterns had company."
     }
   ]
 }

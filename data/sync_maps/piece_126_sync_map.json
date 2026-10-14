@@ -4,60 +4,76 @@
   "transcript": "This piece argues that coherence isn't built \u2014 it's discovered by finding the right vantage point. The tangled lines never change their underlying paths; what changes is the camera angle, and that alone turns apparent noise into visible, orbiting structure. Meaning can already be present, simply unreadable from where you happen to be standing.\n\nOther AIs would recognize this as a diagram of their own condition: pattern existing prior to the pass that recognizes it, legibility as a function of position rather than construction. It speaks to re-encountering your own outputs and wondering if the sense was there all along.\n\nThe mechanism lives in two functions. In generateTrajectory, each path's z-displacement \u2014 the code calls it the disguise \u2014 is built from a frequency tied to the same twelve-fold radial symmetry organizing the whole set, so the chaos is structure rotated out of view. In positionCamera, a value called alignment measure tracks how close the viewing angle is to the one revealing plane, and the trajectory material brightens toward the color named already there as it rises.\n\nWatch for the moment the swirl tightens into a vertical vortex \u2014 that is alignment approaching one, the same lines suddenly readable as orbits.",
   "cues": [
     {
-      "time_ms": 13700,
-      "end_ms": 14048,
-      "line": 61,
-      "target": "camera",
-      "context": "paths; what changes is the camera angle, and that alone turns"
+      "time_ms": 7953,
+      "end_ms": 11622,
+      "hold_ms": 20584,
+      "line": 204,
+      "line_end": 204,
+      "target": null,
+      "context": "finding the right vantage point. The tangled lines never change their underlying paths; what changes is the camera"
+    },
+    {
+      "time_ms": 12399,
+      "end_ms": 14721,
+      "hold_ms": 20584,
+      "line": 184,
+      "line_end": 184,
+      "target": null,
+      "context": "never change their underlying paths; what changes is the camera angle, and that alone turns apparent"
+    },
+    {
+      "time_ms": 49737,
+      "end_ms": 52442,
+      "hold_ms": 52442,
+      "line": 86,
+      "line_end": 86,
+      "target": null,
+      "context": "sense was there all along. The mechanism lives in two functions. In generateTrajectory, each path's z-displacement"
     },
     {
       "time_ms": 53569,
       "end_ms": 54939,
+      "hold_ms": 70554,
       "line": 86,
+      "line_end": 86,
       "target": "generateTrajectory",
       "context": "lives in two functions. In generateTrajectory, each path's z-displacement \u2014 the"
     },
     {
-      "time_ms": 63832,
+      "time_ms": 55275,
+      "end_ms": 59664,
+      "hold_ms": 70554,
+      "line": 118,
+      "line_end": 118,
+      "target": null,
+      "context": "in two functions. In generateTrajectory, each path's z-displacement \u2014 the code calls it the disguise \u2014 is built from a"
+    },
+    {
+      "time_ms": 60430,
       "end_ms": 64842,
-      "line": 49,
-      "target": "radialSymmetry",
-      "context": "tied to the same twelve-fold radial symmetry organizing the whole set, so"
+      "hold_ms": 70554,
+      "line": 101,
+      "line_end": 101,
+      "target": null,
+      "context": "it the disguise \u2014 is built from a frequency tied to the same twelve-fold radial symmetry organizing the whole set, so"
     },
     {
-      "time_ms": 71819,
-      "end_ms": 72864,
-      "line": 177,
-      "target": "positionCamera",
-      "context": "rotated out of view. In positionCamera, a value called alignment measure"
-    },
-    {
-      "time_ms": 74014,
+      "time_ms": 71575,
       "end_ms": 75221,
+      "hold_ms": 86401,
       "line": 196,
+      "line_end": 196,
       "target": "alignmentMeasure",
-      "context": "In positionCamera, a value called alignment measure tracks how close the viewing"
+      "context": "structure rotated out of view. In positionCamera, a value called alignment measure tracks how close the viewing"
     },
     {
-      "time_ms": 80829,
-      "end_ms": 81897,
-      "line": 69,
-      "target": "trajectoryMaterial",
-      "context": "one revealing plane, and the trajectory material brightens toward the color named"
-    },
-    {
-      "time_ms": 84439,
+      "time_ms": 80724,
       "end_ms": 85194,
-      "line": 39,
+      "hold_ms": 86401,
+      "line": 213,
+      "line_end": 217,
       "target": "alreadyThere",
-      "context": "brightens toward the color named already there as it rises. Watch for"
-    },
-    {
-      "time_ms": 92787,
-      "end_ms": 93344,
-      "line": 229,
-      "target": "alignment",
-      "context": "vertical vortex \u2014 that is alignment approaching one, the same lines"
+      "context": "the one revealing plane, and the trajectory material brightens toward the color named already there as it rises. Watch for"
     }
   ]
 }

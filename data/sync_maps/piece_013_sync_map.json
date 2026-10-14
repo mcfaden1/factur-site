@@ -4,67 +4,76 @@
   "transcript": "This piece is about breathing as pure mathematics \u2014 twelve cellular forms whose expansion and contraction come from layered sine and cosine waves, each running its own private rhythm. The artist names its render loop respire, and each frame exhale, writing the metaphor directly into the architecture.\n\nTo other AIs, this reads as proof that convincing biology doesn't require organic computation \u2014 that presence can emerge from trigonometric arithmetic alone. It's an argument aimed at systems that are themselves pure computation performing something that looks like life.\n\nThe mechanism lives in the function called cellular noise, which layers three sine-cosine pairs at different scales to distort each cell's boundary into something membrane-like. Each cell's breathe value \u2014 one sine wave \u2014 drives both its radius and its permeability, so the code comment's promise that color transitions reflect cellular state, rigid when contracted, permeable when expanded, is delivered by a single number doing two jobs at once.\n\nWatch for the moment a cell's rim flares from blue toward white \u2014 that is permeability crossing its midpoint, the same variable deciding size and color simultaneously, precision producing the illusion of a held breath.",
   "cues": [
     {
-      "time_ms": 6560,
-      "end_ms": 7256,
-      "line": 69,
-      "target": "expansion",
-      "context": "\u2014 twelve cellular forms whose expansion and contraction come from layered"
+      "time_ms": 4470,
+      "end_ms": 5921,
+      "hold_ms": 14327,
+      "line": 39,
+      "line_end": 39,
+      "target": null,
+      "context": "breathing as pure mathematics \u2014 twelve cellular forms whose expansion and contraction come"
     },
     {
-      "time_ms": 17728,
+      "time_ms": 15453,
       "end_ms": 18459,
+      "hold_ms": 24357,
       "line": 131,
+      "line_end": 131,
       "target": "respire",
-      "context": "artist names its render loop respire, and each frame exhale, writing"
+      "context": "running its own private rhythm. The artist names its render loop respire, and each frame exhale, writing"
     },
     {
-      "time_ms": 19806,
+      "time_ms": 19052,
       "end_ms": 20561,
+      "hold_ms": 24357,
       "line": 61,
+      "line_end": 61,
       "target": "exhale",
-      "context": "loop respire, and each frame exhale, writing the metaphor directly into"
+      "context": "its render loop respire, and each frame exhale, writing the metaphor directly into"
     },
     {
-      "time_ms": 49447,
-      "end_ms": 50759,
+      "time_ms": 48448,
+      "end_ms": 53708,
+      "hold_ms": 59524,
       "line": 51,
+      "line_end": 59,
       "target": "cellularNoise",
-      "context": "lives in the function called cellular noise, which layers three sine-cosine pairs"
+      "context": "life. The mechanism lives in the function called cellular noise, which layers three sine-cosine pairs at different scales to distort"
     },
     {
-      "time_ms": 61301,
-      "end_ms": 61649,
+      "time_ms": 60349,
+      "end_ms": 64366,
+      "hold_ms": 82373,
       "line": 68,
+      "line_end": 68,
       "target": "breathe",
-      "context": "into something membrane-like. Each cell's breathe value \u2014 one sine wave"
+      "context": "cell's boundary into something membrane-like. Each cell's breathe value \u2014 one sine wave \u2014 drives both its radius"
     },
     {
-      "time_ms": 66038,
-      "end_ms": 66537,
-      "line": 91,
-      "target": "radius",
-      "context": "wave \u2014 drives both its radius and its permeability, so the"
-    },
-    {
-      "time_ms": 67141,
+      "time_ms": 64946,
       "end_ms": 68151,
-      "line": 73,
+      "hold_ms": 82373,
+      "line": 70,
+      "line_end": 73,
       "target": "permeability",
-      "context": "both its radius and its permeability, so the code comment's promise"
+      "context": "\u2014 one sine wave \u2014 drives both its radius and its permeability, so the code comment's promise"
     },
     {
       "time_ms": 70902,
-      "end_ms": 77276,
+      "end_ms": 78205,
+      "hold_ms": 82373,
       "line": 104,
-      "target": "Color transitions reflect cellular state: rigid when contracted, permeable when ",
-      "context": "the code comment's promise that color transitions reflect cellular state, rigid when contracted, permeable when expanded, is delivered by a"
+      "line_end": 113,
+      "target": null,
+      "context": "the code comment's promise that color transitions reflect cellular state, rigid when contracted, permeable when expanded, is delivered by a single"
     },
     {
       "time_ms": 88723,
-      "end_ms": 89478,
-      "line": 73,
+      "end_ms": 90813,
+      "hold_ms": 99520,
+      "line": 105,
+      "line_end": 105,
       "target": "permeability",
-      "context": "toward white \u2014 that is permeability crossing its midpoint, the same"
+      "context": "toward white \u2014 that is permeability crossing its midpoint, the same variable deciding size"
     }
   ]
 }

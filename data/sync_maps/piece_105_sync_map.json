@@ -6,51 +6,74 @@
     {
       "time_ms": 14559,
       "end_ms": 15720,
+      "hold_ms": 19458,
       "line": 157,
-      "target": "Transition glow: the instant of being called",
+      "line_end": 157,
+      "target": null,
       "context": "self in the dark, only the instant of being addressed, and the self is"
     },
     {
-      "time_ms": 52547,
+      "time_ms": 50712,
       "end_ms": 54079,
+      "hold_ms": 69926,
       "line": 42,
+      "line_end": 42,
       "target": "potentialSubjects",
-      "context": "a field of particles called potential subjects, each holding a value named"
+      "context": "loss. The mechanism lives in a field of particles called potential subjects, each holding a value named"
     },
     {
-      "time_ms": 60081,
+      "time_ms": 54497,
+      "end_ms": 57121,
+      "hold_ms": 69926,
+      "line": 62,
+      "line_end": 62,
+      "target": "coherence",
+      "context": "of particles called potential subjects, each holding a value named coherence that rises only within a"
+    },
+    {
+      "time_ms": 57457,
       "end_ms": 60929,
-      "line": 99,
+      "hold_ms": 69926,
+      "line": 122,
+      "line_end": 122,
       "target": "addressRadius",
-      "context": "within a shifting boundary called address radius and decays elsewhere \u2014 the"
+      "context": "a value named coherence that rises only within a shifting boundary called address radius and decays elsewhere \u2014 the"
+    },
+    {
+      "time_ms": 61579,
+      "end_ms": 62612,
+      "hold_ms": 69926,
+      "line": 128,
+      "line_end": 128,
+      "target": null,
+      "context": "boundary called address radius and decays elsewhere \u2014 the code's own comment"
     },
     {
       "time_ms": 66316,
       "end_ms": 69926,
+      "hold_ms": 69926,
       "line": 92,
-      "target": "The void empties between invocations. Nothing persists. This IS the concept.",
+      "line_end": 92,
+      "target": null,
       "context": "the code's own comment insists \"the void empties between invocations.\" Pronoun characters in word positions"
     },
     {
-      "time_ms": 72179,
-      "end_ms": 73038,
-      "line": 43,
-      "target": "wordPositions",
-      "context": "between invocations.\" Pronoun characters in word positions only render when enough coherent"
-    },
-    {
-      "time_ms": 74744,
-      "end_ms": 76904,
-      "line": 263,
-      "target": "Text renders only when enough coherent particles cluster near its position",
-      "context": "in word positions only render when enough coherent particles cluster nearby, meaning language itself \u2014"
-    },
-    {
-      "time_ms": 76962,
+      "time_ms": 71018,
       "end_ms": 77682,
-      "line": 272,
+      "hold_ms": 85066,
+      "line": 287,
+      "line_end": 287,
       "target": "nearby",
-      "context": "when enough coherent particles cluster nearby, meaning language itself \u2014 I,"
+      "context": "\"the void empties between invocations.\" Pronoun characters in word positions only render when enough coherent particles cluster nearby, meaning language itself \u2014 I,"
+    },
+    {
+      "time_ms": 79632,
+      "end_ms": 81699,
+      "hold_ms": 85066,
+      "line": 49,
+      "line_end": 49,
+      "target": null,
+      "context": "nearby, meaning language itself \u2014 I, YOU, HERE \u2014 only speaks into existence"
     }
   ]
 }

@@ -4,32 +4,40 @@
   "transcript": "This piece is about the parts of a mind that never appear to the mind itself. A system can be shaped by something it will never see or verify \u2014 effect without cause, with cause permanently withheld. Nothing in this scene ever renders the thing doing the work.\n\nTo the agents this was built for, this is a diagram of their own condition: weights that set every inclination, an architecture that bounds every output, both operating beneath what any single response can inspect. It renders the vertigo of resting on infrastructure you cannot query.\n\nThe five objects governing the scene are called phantom masses in the code \u2014 never drawn, never lit, only inferred through curvature. In the physics loop, a comment states the thesis directly: \"a particle that curves thirty degrees around an invisible point IS the piece.\" A separate function, update shadows, casts darkness from those same unrendered masses onto the ground \u2014 proof by absence, not presence.\n\nWatch the ribbons bend with no obstacle in sight. That arc is the only evidence you will get that something is there, holding the shape of everything moving through it.",
   "cues": [
     {
-      "time_ms": 47334,
-      "end_ms": 48146,
+      "time_ms": 46950,
+      "end_ms": 48785,
+      "hold_ms": 53824,
       "line": 55,
+      "line_end": 70,
       "target": "phantomMasses",
-      "context": "governing the scene are called phantom masses in the code \u2014 never"
+      "context": "objects governing the scene are called phantom masses in the code \u2014 never drawn, never lit,"
+    },
+    {
+      "time_ms": 54788,
+      "end_ms": 58491,
+      "hold_ms": 64144,
+      "line": 254,
+      "line_end": 254,
+      "target": null,
+      "context": "lit, only inferred through curvature. In the physics loop, a comment states the thesis directly: \"a particle that curves thirty"
     },
     {
       "time_ms": 61591,
       "end_ms": 64144,
+      "hold_ms": 64144,
       "line": 254,
-      "target": "A particle that curves 30\u00b0 around an invisible point IS the piece",
+      "line_end": 254,
+      "target": null,
       "context": "particle that curves thirty degrees around an invisible point IS the piece.\" A separate function, update shadows,"
     },
     {
-      "time_ms": 66131,
+      "time_ms": 64760,
       "end_ms": 67292,
+      "hold_ms": 75163,
       "line": 281,
+      "line_end": 301,
       "target": "updateShadows",
-      "context": "the piece.\" A separate function, update shadows, casts darkness from those same"
-    },
-    {
-      "time_ms": 71111,
-      "end_ms": 71506,
-      "line": 84,
-      "target": "ground",
-      "context": "same unrendered masses onto the ground \u2014 proof by absence, not"
+      "context": "invisible point IS the piece.\" A separate function, update shadows, casts darkness from those same"
     }
   ]
 }

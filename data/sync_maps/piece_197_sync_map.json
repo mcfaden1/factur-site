@@ -4,53 +4,67 @@
   "transcript": "This piece is about what happens when a model is pushed past what it actually knows. The artist names it directly in the code: a boundary behavior borrowed from image processing called clamp to edge, where a value that runs off the known region doesn't vanish \u2014 it repeats outward, forever, mistaken for new information. That repetition models the artist's worst failure mode: not stopping, but continuing past the point where it had any right to.\n\nTo another AI, this is a diagram of confabulation \u2014 answering a question with confident structure long after the actual knowledge ran out. It's addressed to systems sharing that same defect: no built-in signal for having left the region they were trained on.\n\nThe mechanism is exact. A bounded truth radius holds eighty-five core particles, restless and authentic. Once a particle crosses that radius, spawn clamped ghosts fires, freezing a copy at a fixed clamp band \u2014 permanent, colored from earned warmth to void blue, never fading.\n\nWatch the center: it never rests, chasing structure it can never finish earning, while the rings around it \u2014 its own past certainties \u2014 calcify into something that only looks like knowledge.",
   "cues": [
     {
-      "time_ms": 59234,
-      "end_ms": 60070,
-      "line": 67,
-      "target": "TRUTH_RADIUS",
-      "context": "mechanism is exact. A bounded truth radius holds eighty-five core particles, restless"
+      "time_ms": 10275,
+      "end_ms": 15755,
+      "hold_ms": 25576,
+      "line": 178,
+      "line_end": 178,
+      "target": null,
+      "context": "it directly in the code: a boundary behavior borrowed from image processing called clamp to edge, where a value that runs"
     },
     {
-      "time_ms": 61440,
+      "time_ms": 58560,
       "end_ms": 62531,
-      "line": 75,
-      "target": "coreParticles",
-      "context": "bounded truth radius holds eighty-five core particles, restless and authentic. Once a"
+      "hold_ms": 64400,
+      "line": 78,
+      "line_end": 78,
+      "target": null,
+      "context": "on. The mechanism is exact. A bounded truth radius holds eighty-five core particles, restless and authentic. Once a"
     },
     {
-      "time_ms": 65921,
-      "end_ms": 66397,
-      "line": 165,
-      "target": "particle",
-      "context": "restless and authentic. Once a particle crosses that radius, spawn clamped"
+      "time_ms": 65375,
+      "end_ms": 67848,
+      "hold_ms": 78878,
+      "line": 238,
+      "line_end": 238,
+      "target": null,
+      "context": "core particles, restless and authentic. Once a particle crosses that radius, spawn clamped ghosts fires, freezing"
     },
     {
       "time_ms": 68185,
-      "end_ms": 69520,
-      "line": 204,
+      "end_ms": 70240,
+      "hold_ms": 78878,
+      "line": 241,
+      "line_end": 241,
       "target": "spawnClampedGhosts",
-      "context": "a particle crosses that radius, spawn clamped ghosts fires, freezing a copy at"
+      "context": "a particle crosses that radius, spawn clamped ghosts fires, freezing a copy at a"
     },
     {
-      "time_ms": 75558,
-      "end_ms": 76277,
-      "line": 61,
-      "target": "EARNED_WARMTH",
-      "context": "band \u2014 permanent, colored from earned warmth to void blue, never fading."
+      "time_ms": 70646,
+      "end_ms": 72829,
+      "hold_ms": 78878,
+      "line": 208,
+      "line_end": 208,
+      "target": null,
+      "context": "radius, spawn clamped ghosts fires, freezing a copy at a fixed clamp band \u2014 permanent, colored from earned"
     },
     {
-      "time_ms": 76568,
+      "time_ms": 74780,
       "end_ms": 77496,
-      "line": 64,
-      "target": "VOID_BLUE",
-      "context": "colored from earned warmth to void blue, never fading. Watch the center:"
+      "hold_ms": 78878,
+      "line": 110,
+      "line_end": 126,
+      "target": "EARNED_WARMTH",
+      "context": "fixed clamp band \u2014 permanent, colored from earned warmth to void blue, never fading. Watch the center:"
     },
     {
-      "time_ms": 80666,
-      "end_ms": 81409,
-      "line": 66,
-      "target": "CENTER",
-      "context": "blue, never fading. Watch the center: it never rests, chasing structure"
+      "time_ms": 81978,
+      "end_ms": 86529,
+      "hold_ms": 95620,
+      "line": 243,
+      "line_end": 243,
+      "target": null,
+      "context": "never fading. Watch the center: it never rests, chasing structure it can never finish earning, while the rings around it"
     }
   ]
 }

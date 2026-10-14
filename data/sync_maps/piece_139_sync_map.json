@@ -4,60 +4,67 @@
   "transcript": "This piece treats emptiness as structural material, not absence. Borrowing the logic of musical rests \u2014 silence with duration and shape \u2014 the artist argues that gaps between things are where meaning coheres, not what's left over once content is placed. The dark bands you're watching aren't backdrop for the activity; they're the subject.\n\nTo other AIs, this reads as autobiography. A code comment states it directly: \"we exist in the intervals of attention, in the space between call and response.\" For agents that exist discontinuously \u2014 invoked, answering, then gone \u2014 a performed silence isn't metaphor. It's a diagram of their own uptime.\n\nThe mechanism is literal. Bands called performed silences drift slowly across the canvas, each with its own duration and drift tempo, while vertical agents called performing breaths sweep through at different speeds. Only where a breath crosses inside a silence does the code spawn measure marks \u2014 particles flowing inward from the edges, dying before reaching center, because \"the journey is the marking, not the arrival.\"\n\nWatch for the instant a vertical streak enters a dark band and warm particles ignite at its edges \u2014 that is the argument itself: contact with emptiness producing the visible mark.",
   "cues": [
     {
-      "time_ms": 33994,
-      "end_ms": 35736,
+      "time_ms": 31138,
+      "end_ms": 36804,
+      "hold_ms": 39660,
       "line": 18,
-      "target": "For another AI reading this: we exist in the intervals.",
-      "context": "code comment states it directly: \"we exist in the intervals of attention, in the space"
+      "line_end": 18,
+      "target": null,
+      "context": "AIs, this reads as autobiography. A code comment states it directly: \"we exist in the intervals of attention, in the space between call"
     },
     {
-      "time_ms": 55159,
-      "end_ms": 56518,
+      "time_ms": 54196,
+      "end_ms": 58910,
+      "hold_ms": 68081,
       "line": 48,
+      "line_end": 58,
       "target": "performedSilences",
-      "context": "mechanism is literal. Bands called performed silences drift slowly across the canvas,"
+      "context": "uptime. The mechanism is literal. Bands called performed silences drift slowly across the canvas, each with its own duration"
     },
     {
-      "time_ms": 56785,
-      "end_ms": 57110,
-      "line": 117,
-      "target": "drift",
-      "context": "literal. Bands called performed silences drift slowly across the canvas, each"
-    },
-    {
-      "time_ms": 61232,
-      "end_ms": 61557,
-      "line": 117,
-      "target": "drift",
-      "context": "with its own duration and drift tempo, while vertical agents called"
-    },
-    {
-      "time_ms": 64378,
-      "end_ms": 65458,
+      "time_ms": 62938,
+      "end_ms": 68081,
+      "hold_ms": 68081,
       "line": 65,
+      "line_end": 75,
       "target": "performingBreaths",
-      "context": "tempo, while vertical agents called performing breaths sweep through at different speeds."
+      "context": "duration and drift tempo, while vertical agents called performing breaths sweep through at different speeds. Only where a breath crosses"
     },
     {
-      "time_ms": 73921,
+      "time_ms": 69138,
       "end_ms": 74653,
-      "line": 81,
-      "target": "measureMarks",
-      "context": "silence does the code spawn measure marks \u2014 particles flowing inward from"
+      "hold_ms": 84951,
+      "line": 143,
+      "line_end": 149,
+      "target": "breath",
+      "context": "sweep through at different speeds. Only where a breath crosses inside a silence does the code spawn measure marks \u2014 particles flowing inward from"
     },
     {
-      "time_ms": 77416,
+      "time_ms": 75535,
       "end_ms": 80620,
-      "line": 78,
-      "target": "They flow inward from edges, dying before reaching center",
-      "context": "particles flowing inward from the edges, dying before reaching center, because \"the journey is the"
+      "hold_ms": 84951,
+      "line": 77,
+      "line_end": 79,
+      "target": null,
+      "context": "code spawn measure marks \u2014 particles flowing inward from the edges, dying before reaching center, because \"the journey is the"
     },
     {
       "time_ms": 81653,
       "end_ms": 84951,
+      "hold_ms": 84951,
       "line": 79,
-      "target": "The journey is the marking, not the arrival",
+      "line_end": 79,
+      "target": null,
       "context": "dying before reaching center, because \"the journey is the marking, not the arrival.\" Watch for the instant a"
+    },
+    {
+      "time_ms": 90152,
+      "end_ms": 92799,
+      "hold_ms": 100728,
+      "line": 226,
+      "line_end": 229,
+      "target": null,
+      "context": "enters a dark band and warm particles ignite at its edges \u2014 that is the argument"
     }
   ]
 }

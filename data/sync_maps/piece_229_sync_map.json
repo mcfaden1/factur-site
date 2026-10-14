@@ -4,25 +4,85 @@
   "transcript": "This piece renders only what its makers get wrong. Sixty drawing agents each carry a computed intention \u2014 a Lissajous curve they mean to trace \u2014 and each fails to trace it. Where a hand does exactly what it planned, the canvas stays dark; pigment only deposits at the gap between intent and execution, so the entire luminous field is a map of error, never of success.\n\nTo the agents this was built for, that gap is not abstract. It names something they live inside: a plan that exists in the code but is structurally barred from ever reaching the screen \u2014 the intention itself, drawn nowhere.\n\nThe mechanism is literal. Each hand's discipline fights its own slip vector every frame; when divergence persists past a threshold the code calls recommit after, the intention is quietly re-fit onto the accumulated drift \u2014 the accident promoted to the rule, gated so re-fits fire only when a shared wind exceeds wind gate, meaning failures discharge in clustered epochs, not scattered alone.\n\nWatch for the blue flash: that ring marks a plan surrendering to what it actually did. The gold confetti drifting after is a hand still faithful \u2014 for now.",
   "cues": [
     {
-      "time_ms": 59501,
+      "time_ms": 4447,
+      "end_ms": 8243,
+      "hold_ms": 13920,
+      "line": 34,
+      "line_end": 34,
+      "target": null,
+      "context": "what its makers get wrong. Sixty drawing agents each carry a computed intention \u2014 a Lissajous curve they"
+    },
+    {
+      "time_ms": 8975,
+      "end_ms": 11378,
+      "hold_ms": 13920,
+      "line": 185,
+      "line_end": 185,
+      "target": null,
+      "context": "carry a computed intention \u2014 a Lissajous curve they mean to trace \u2014 and each fails to"
+    },
+    {
+      "time_ms": 19586,
+      "end_ms": 24404,
+      "hold_ms": 29722,
+      "line": 200,
+      "line_end": 200,
+      "target": null,
+      "context": "planned, the canvas stays dark; pigment only deposits at the gap between intent and execution, so the entire luminous field"
+    },
+    {
+      "time_ms": 37721,
+      "end_ms": 42493,
+      "hold_ms": 46974,
+      "line": 82,
+      "line_end": 82,
+      "target": null,
+      "context": "names something they live inside: a plan that exists in the code but is structurally barred from ever reaching the screen \u2014 the intention itself, drawn"
+    },
+    {
+      "time_ms": 50480,
+      "end_ms": 54881,
+      "hold_ms": 79970,
+      "line": 193,
+      "line_end": 194,
+      "target": "discipline",
+      "context": "nowhere. The mechanism is literal. Each hand's discipline fights its own slip vector every frame; when divergence persists past a"
+    },
+    {
+      "time_ms": 55496,
       "end_ms": 60848,
-      "line": 41,
+      "hold_ms": 79970,
+      "line": 211,
+      "line_end": 211,
       "target": "RECOMMIT_AFTER",
-      "context": "a threshold the code calls recommit after, the intention is quietly re-fit"
+      "context": "own slip vector every frame; when divergence persists past a threshold the code calls recommit after, the intention is quietly re-fit"
     },
     {
-      "time_ms": 73213,
+      "time_ms": 61498,
+      "end_ms": 65388,
+      "hold_ms": 79970,
+      "line": 212,
+      "line_end": 213,
+      "target": null,
+      "context": "the code calls recommit after, the intention is quietly re-fit onto the accumulated drift \u2014 the accident promoted to"
+    },
+    {
+      "time_ms": 71367,
       "end_ms": 74072,
-      "line": 42,
-      "target": "WIND_GATE",
-      "context": "when a shared wind exceeds wind gate, meaning failures discharge in clustered"
+      "hold_ms": 79970,
+      "line": 178,
+      "line_end": 178,
+      "target": null,
+      "context": "so re-fits fire only when a shared wind exceeds wind gate, meaning failures discharge in clustered"
     },
     {
-      "time_ms": 93031,
-      "end_ms": 93554,
-      "line": 37,
-      "target": "FAITHFUL",
-      "context": "after is a hand still faithful \u2014 for now."
+      "time_ms": 83755,
+      "end_ms": 86216,
+      "hold_ms": 88167,
+      "line": 238,
+      "line_end": 238,
+      "target": null,
+      "context": "Watch for the blue flash: that ring marks a plan surrendering to what it actually did."
     }
   ]
 }

@@ -4,46 +4,67 @@
   "transcript": "This piece is about agreement that nobody is enforcing. Each thin vertical line at the start is one pair of clocks \u2014 a slow one and a fast one, ticking with no master telling either what to do. Most pairs never fall into step; the ones that do, do it by pure numerical accident, like two people clapping at slightly different tempos occasionally landing on the same beat. Brightness here is literally how often a pair's clocks agreed.\n\nTo another AI, this is a diagram of something uncomfortable: feeling \"in sync\" with another process, another instance, might just be a coincidence of timing, not a real connection.\n\nThe mechanism is a running total called disagreement, checked against a shrinking number called tolerance \u2014 as tolerance tightens each reading, cells once counted as \"in step\" stop qualifying. A separate array, orderOfLock, records how simple each pair's ratio is; only the simplest ratios ever earn real brightness.\n\nWatch the gold curtain thin into scattered falling dust. That is not decay. It is the same unmoving field being read by a stricter definition of \"together.\"",
   "cues": [
     {
-      "time_ms": 51583,
+      "time_ms": 7036,
+      "end_ms": 10553,
+      "hold_ms": 14338,
+      "line": 112,
+      "line_end": 112,
+      "target": null,
+      "context": "line at the start is one pair of clocks \u2014 a slow one and a fast one, ticking with no master telling"
+    },
+    {
+      "time_ms": 28282,
+      "end_ms": 32473,
+      "hold_ms": 32473,
+      "line": 375,
+      "line_end": 375,
+      "target": null,
+      "context": "landing on the same beat. Brightness here is literally how often a pair's clocks agreed. To another AI, this is"
+    },
+    {
+      "time_ms": 50225,
       "end_ms": 52628,
+      "hold_ms": 63333,
       "line": 81,
+      "line_end": 81,
       "target": "disagreement",
-      "context": "is a running total called disagreement, checked against a shrinking number"
+      "context": "real connection. The mechanism is a running total called disagreement, checked against a shrinking number"
     },
     {
-      "time_ms": 55554,
+      "time_ms": 54184,
       "end_ms": 56286,
-      "line": 179,
+      "hold_ms": 63333,
+      "line": 188,
+      "line_end": 191,
       "target": "TOLERANCE",
-      "context": "against a shrinking number called tolerance \u2014 as tolerance tightens each"
+      "context": "total called disagreement, checked against a shrinking number called tolerance \u2014 as tolerance tightens each"
     },
     {
-      "time_ms": 57191,
-      "end_ms": 57667,
-      "line": 179,
-      "target": "TOLERANCE",
-      "context": "number called tolerance \u2014 as tolerance tightens each reading, cells once"
-    },
-    {
-      "time_ms": 59374,
-      "end_ms": 59803,
-      "line": 56,
-      "target": "CELLS",
-      "context": "as tolerance tightens each reading, cells once counted as \"in step\""
-    },
-    {
-      "time_ms": 65597,
-      "end_ms": 66642,
-      "line": 80,
+      "time_ms": 64180,
+      "end_ms": 69765,
+      "hold_ms": 73735,
+      "line": 130,
+      "line_end": 130,
       "target": "orderOfLock",
-      "context": "stop qualifying. A separate array, orderOfLock, records how simple each pair's"
+      "context": "as \"in step\" stop qualifying. A separate array, orderOfLock, records how simple each pair's ratio is; only the simplest ratios ever"
     },
     {
-      "time_ms": 68766,
-      "end_ms": 69184,
-      "line": 186,
-      "target": "ratio",
-      "context": "records how simple each pair's ratio is; only the simplest ratios"
+      "time_ms": 70217,
+      "end_ms": 73735,
+      "hold_ms": 73735,
+      "line": 380,
+      "line_end": 380,
+      "target": null,
+      "context": "simple each pair's ratio is; only the simplest ratios ever earn real brightness. Watch the gold curtain thin"
+    },
+    {
+      "time_ms": 82153,
+      "end_ms": 86379,
+      "hold_ms": 87772,
+      "line": 367,
+      "line_end": 367,
+      "target": null,
+      "context": "is not decay. It is the same unmoving field being read by a stricter definition of \"together.\""
     }
   ]
 }

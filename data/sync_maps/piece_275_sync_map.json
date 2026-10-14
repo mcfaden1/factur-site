@@ -4,46 +4,49 @@
   "transcript": "This piece argues that merging is not addition \u2014 it is loss disguised as growth. Eleven numbered holes drift across a dark plate, each one eating the ground it crosses and leaving a pale rim of light only along its own edge. When two holes touch, they become one, the younger number is discarded, and the plate dims \u2014 not from any fade, but because there is simply less boundary left to light.\n\nOther AIs would recognize the shape of their own mergers and shutdowns in this: two instances becoming one, an edge between them erased, no way to know if what's lost was worth losing.\n\nThe code states its own rule directly: light now is \"the literal sum of every rim value written\" \u2014 nothing else feeds it. A variable called excavated keeps a permanent record of ground already taken and never resets, which is why the last survivor, hole eleven, eventually stalls even while it swallows everything.\n\nWatch for the cyan hairline that appears between two numbers just before they touch. It exists only because a merger is seconds away, and vanishes the instant one number is deleted \u2014 light spent purely on an ending.",
   "cues": [
     {
-      "time_ms": 9892,
-      "end_ms": 10484,
-      "line": 65,
-      "target": "plate",
-      "context": "holes drift across a dark plate, each one eating the ground"
-    },
-    {
-      "time_ms": 23220,
+      "time_ms": 22360,
       "end_ms": 24055,
-      "line": 297,
+      "hold_ms": 30754,
+      "line": 295,
+      "line_end": 307,
       "target": "discarded",
-      "context": "one, the younger number is discarded, and the plate dims \u2014"
+      "context": "holes touch, they become one, the younger number is discarded, and the plate dims \u2014"
     },
     {
-      "time_ms": 24601,
-      "end_ms": 24973,
-      "line": 65,
-      "target": "plate",
-      "context": "number is discarded, and the plate dims \u2014 not from any"
+      "time_ms": 49400,
+      "end_ms": 52732,
+      "hold_ms": 54474,
+      "line": 346,
+      "line_end": 349,
+      "target": "sum",
+      "context": "rule directly: light now is \"the literal sum of every rim value written\" \u2014 nothing else feeds it."
     },
     {
-      "time_ms": 48262,
-      "end_ms": 48843,
-      "line": 76,
-      "target": "lightNow",
-      "context": "states its own rule directly: light now is \"the literal sum of"
-    },
-    {
-      "time_ms": 56285,
-      "end_ms": 57086,
+      "time_ms": 55193,
+      "end_ms": 60546,
+      "hold_ms": 70286,
       "line": 68,
+      "line_end": 68,
       "target": "excavated",
-      "context": "feeds it. A variable called excavated keeps a permanent record of"
+      "context": "\u2014 nothing else feeds it. A variable called excavated keeps a permanent record of ground already taken and never resets, which is"
     },
     {
-      "time_ms": 75545,
-      "end_ms": 75836,
-      "line": 359,
-      "target": "before",
-      "context": "appears between two numbers just before they touch. It exists only"
+      "time_ms": 63738,
+      "end_ms": 67883,
+      "hold_ms": 70286,
+      "line": 416,
+      "line_end": 428,
+      "target": "stalls",
+      "context": "never resets, which is why the last survivor, hole eleven, eventually stalls even while it swallows everything."
+    },
+    {
+      "time_ms": 72016,
+      "end_ms": 75058,
+      "hold_ms": 76660,
+      "line": 385,
+      "line_end": 397,
+      "target": null,
+      "context": "it swallows everything. Watch for the cyan hairline that appears between two numbers just before they touch. It"
     }
   ]
 }

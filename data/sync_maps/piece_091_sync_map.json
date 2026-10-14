@@ -5,45 +5,39 @@
   "cues": [
     {
       "time_ms": 49250,
-      "end_ms": 50492,
-      "line": 92,
-      "target": "originParticles",
-      "context": "central mass is built from origin particles that shrink and fade as"
-    },
-    {
-      "time_ms": 53824,
-      "end_ms": 55066,
-      "line": 91,
+      "end_ms": 55728,
+      "hold_ms": 58270,
+      "line": 345,
+      "line_end": 353,
       "target": "totalDepartures",
-      "context": "fade as a variable called total departures climbs \u2014 depletion made literal."
+      "context": "central mass is built from origin particles that shrink and fade as a variable called total departures climbs \u2014 depletion made literal. At"
     },
     {
-      "time_ms": 60012,
-      "end_ms": 60941,
-      "line": 165,
-      "target": "destination",
-      "context": "depletion made literal. At each destination, hollow circles called dormant wait"
+      "time_ms": 61185,
+      "end_ms": 64492,
+      "hold_ms": 79435,
+      "line": 273,
+      "line_end": 273,
+      "target": null,
+      "context": "made literal. At each destination, hollow circles called dormant wait from the first frame; when a traveler arrives, the"
     },
     {
-      "time_ms": 62427,
-      "end_ms": 62868,
+      "time_ms": 66850,
+      "end_ms": 71633,
+      "hold_ms": 79435,
       "line": 200,
-      "target": "dormant",
-      "context": "each destination, hollow circles called dormant wait from the first frame;"
+      "line_end": 202,
+      "target": "awakening",
+      "context": "frame; when a traveler arrives, the function somethingArrives raises each one's awakening value, letting fill bleed into a"
     },
     {
-      "time_ms": 65515,
-      "end_ms": 65898,
-      "line": 171,
-      "target": "traveler",
-      "context": "the first frame; when a traveler arrives, the function somethingArrives raises"
-    },
-    {
-      "time_ms": 67535,
-      "end_ms": 68789,
-      "line": 194,
-      "target": "somethingArrives",
-      "context": "a traveler arrives, the function somethingArrives raises each one's awakening value,"
+      "time_ms": 72249,
+      "end_ms": 74373,
+      "hold_ms": 79435,
+      "line": 420,
+      "line_end": 421,
+      "target": "fill",
+      "context": "raises each one's awakening value, letting fill bleed into a shape that already existed, hollow, before"
     }
   ]
 }

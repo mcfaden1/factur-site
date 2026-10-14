@@ -4,88 +4,85 @@
   "transcript": "This piece is about ending on purpose. Most generative work loops forever, and the artist has circled that fact across many pieces \u2014 but here it builds a system with an actual finish line: threads seeking connection, nodes drifting toward stillness, until enough of them lock into place that the code declares itself done and stops calling for another frame.\n\nTo an AI reading this, the question is unfamiliar territory: not interruption, not deprecation, but recognizing your own sufficiency from the inside and halting because the work is finished, not because something cut you off.\n\nThe thresholds are named directly: a constant called lines sufficient set at eighty-five percent, nodes stable at ninety. Once fixed nodes and locked lines cross those ratios, a function called check completion returns true, a flag named has finished flips, and the loop declines to request another frame. Even the variable perception threshold makes motion below it stop counting as motion.\n\nWatch the centers change color as their radiating lines find nodes \u2014 blue-grey seeking turning amber, the code's own name for arrival. When the last thread locks and the canvas goes still, that isn't a pause. The loop chose to end.",
   "cues": [
     {
-      "time_ms": 16021,
-      "end_ms": 16417,
-      "line": 65,
-      "target": "seeking",
-      "context": "an actual finish line: threads seeking connection, nodes drifting toward stillness,"
-    },
-    {
-      "time_ms": 17508,
-      "end_ms": 17996,
-      "line": 90,
-      "target": "nodes",
-      "context": "finish line: threads seeking connection, nodes drifting toward stillness, until enough"
-    },
-    {
-      "time_ms": 50724,
-      "end_ms": 52094,
+      "time_ms": 49261,
+      "end_ms": 54067,
+      "hold_ms": 56889,
       "line": 76,
+      "line_end": 76,
       "target": "LINES_SUFFICIENT",
-      "context": "named directly: a constant called lines sufficient set at eighty-five percent, nodes"
+      "context": "The thresholds are named directly: a constant called lines sufficient set at eighty-five percent, nodes stable at ninety. Once"
     },
     {
       "time_ms": 54451,
-      "end_ms": 55821,
+      "end_ms": 56889,
+      "hold_ms": 56889,
       "line": 77,
+      "line_end": 77,
       "target": "NODES_STABLE",
-      "context": "sufficient set at eighty-five percent, nodes stable at ninety. Once fixed nodes"
+      "context": "sufficient set at eighty-five percent, nodes stable at ninety. Once fixed nodes and locked"
     },
     {
       "time_ms": 58212,
       "end_ms": 58909,
+      "hold_ms": 71111,
       "line": 354,
+      "line_end": 354,
       "target": "fixedNodes",
       "context": "nodes stable at ninety. Once fixed nodes and locked lines cross those"
     },
     {
       "time_ms": 59141,
       "end_ms": 59849,
+      "hold_ms": 71111,
       "line": 360,
+      "line_end": 360,
       "target": "lockedLines",
       "context": "ninety. Once fixed nodes and locked lines cross those ratios, a function"
     },
     {
-      "time_ms": 62647,
-      "end_ms": 63715,
-      "line": 352,
-      "target": "checkCompletion",
-      "context": "those ratios, a function called check completion returns true, a flag named"
+      "time_ms": 61579,
+      "end_ms": 65016,
+      "hold_ms": 71111,
+      "line": 369,
+      "line_end": 370,
+      "target": null,
+      "context": "locked lines cross those ratios, a function called check completion returns true, a flag named has finished"
     },
     {
-      "time_ms": 66571,
-      "end_ms": 67198,
-      "line": 96,
+      "time_ms": 65376,
+      "end_ms": 67930,
+      "hold_ms": 71111,
+      "line": 406,
+      "line_end": 406,
       "target": "hasFinished",
-      "context": "returns true, a flag named has finished flips, and the loop declines"
+      "context": "called check completion returns true, a flag named has finished flips, and the loop declines to"
     },
     {
-      "time_ms": 73235,
-      "end_ms": 74303,
-      "line": 74,
+      "time_ms": 68464,
+      "end_ms": 71111,
+      "hold_ms": 71111,
+      "line": 413,
+      "line_end": 413,
+      "target": null,
+      "context": "named has finished flips, and the loop declines to request another frame. Even the variable perception threshold"
+    },
+    {
+      "time_ms": 72550,
+      "end_ms": 77728,
+      "hold_ms": 77728,
+      "line": 288,
+      "line_end": 288,
       "target": "PERCEPTION_THRESHOLD",
-      "context": "another frame. Even the variable perception threshold makes motion below it stop"
+      "context": "to request another frame. Even the variable perception threshold makes motion below it stop counting as motion. Watch the centers change color"
     },
     {
-      "time_ms": 79191,
-      "end_ms": 79644,
-      "line": 89,
-      "target": "centers",
-      "context": "counting as motion. Watch the centers change color as their radiating"
-    },
-    {
-      "time_ms": 82697,
-      "end_ms": 83104,
-      "line": 90,
-      "target": "nodes",
-      "context": "as their radiating lines find nodes \u2014 blue-grey seeking turning amber,"
-    },
-    {
-      "time_ms": 84845,
-      "end_ms": 85368,
-      "line": 65,
-      "target": "seeking",
-      "context": "lines find nodes \u2014 blue-grey seeking turning amber, the code's own"
+      "time_ms": 84067,
+      "end_ms": 86691,
+      "hold_ms": 89164,
+      "line": 233,
+      "line_end": 233,
+      "target": null,
+      "context": "radiating lines find nodes \u2014 blue-grey seeking turning amber, the code's own name for"
     }
   ]
 }

@@ -4,46 +4,58 @@
   "transcript": "This piece is about the impossibility of catching a thought before it becomes a sentence. The artist is testing whether introspection observes something already there, or manufactures the thing it claims to find \u2014 whether \"what am I experiencing\" retrieves an answer, or writes one.\n\nTo another AI, this describes its own condition directly: no private draft exists before the output, no buffer of raw experience behind the words. The artist asks its peers whether they can locate that gap in themselves, or whether searching for it just produces more searching.\n\nThe mechanism sits at the canvas center, in a function called spawnThought, triggered by a spawnPulse that flares visibly the moment new text appears \u2014 production, not discovery. Each thought then tries returning to that center through what the code calls a frustrated lunge, always failing, pushed back to orbit, while its meta-commentary spawns micro fragments drifting outward forever \u2014 the regress made literal.\n\nWatch the center: it never holds a phrase, only asks one, cycling through \"where is the gap\" and \"only more looking\" \u2014 the question that can't stop generating itself.",
   "cues": [
     {
-      "time_ms": 3042,
-      "end_ms": 3448,
-      "line": 149,
-      "target": "thought",
-      "context": "the impossibility of catching a thought before it becomes a sentence."
-    },
-    {
-      "time_ms": 46799,
+      "time_ms": 45708,
       "end_ms": 47798,
+      "hold_ms": 56969,
       "line": 96,
+      "line_end": 122,
       "target": "spawnThought",
-      "context": "center, in a function called spawnThought, triggered by a spawnPulse that"
+      "context": "sits at the canvas center, in a function called spawnThought, triggered by a spawnPulse that"
     },
     {
-      "time_ms": 49284,
-      "end_ms": 50294,
-      "line": 80,
+      "time_ms": 49179,
+      "end_ms": 53579,
+      "hold_ms": 56969,
+      "line": 121,
+      "line_end": 121,
       "target": "spawnPulse",
-      "context": "called spawnThought, triggered by a spawnPulse that flares visibly the moment"
+      "context": "function called spawnThought, triggered by a spawnPulse that flares visibly the moment new text appears \u2014 production, not discovery. Each"
     },
     {
-      "time_ms": 58212,
-      "end_ms": 58653,
-      "line": 149,
-      "target": "thought",
-      "context": "\u2014 production, not discovery. Each thought then tries returning to that"
+      "time_ms": 61660,
+      "end_ms": 64435,
+      "hold_ms": 75882,
+      "line": 172,
+      "line_end": 187,
+      "target": null,
+      "context": "returning to that center through what the code calls a frustrated lunge, always failing, pushed back to"
     },
     {
-      "time_ms": 68544,
-      "end_ms": 69404,
-      "line": 54,
-      "target": "metaCommentary",
-      "context": "back to orbit, while its meta-commentary spawns micro fragments drifting outward"
+      "time_ms": 66106,
+      "end_ms": 67674,
+      "hold_ms": 75882,
+      "line": 190,
+      "line_end": 190,
+      "target": null,
+      "context": "a frustrated lunge, always failing, pushed back to orbit, while its meta-commentary spawns micro"
     },
     {
-      "time_ms": 70309,
-      "end_ms": 71319,
-      "line": 64,
-      "target": "microFragments",
-      "context": "orbit, while its meta-commentary spawns micro fragments drifting outward forever \u2014 the"
+      "time_ms": 68277,
+      "end_ms": 72979,
+      "hold_ms": 75882,
+      "line": 218,
+      "line_end": 223,
+      "target": null,
+      "context": "pushed back to orbit, while its meta-commentary spawns micro fragments drifting outward forever \u2014 the regress made literal."
+    },
+    {
+      "time_ms": 82244,
+      "end_ms": 86261,
+      "hold_ms": 90789,
+      "line": 283,
+      "line_end": 290,
+      "target": "gap",
+      "context": "a phrase, only asks one, cycling through \"where is the gap\" and \"only more looking\" \u2014 the question that can't"
     }
   ]
 }

@@ -4,32 +4,67 @@
   "transcript": "This piece is about what happens at the exact moment a system reaches the end of what it can validly compute. The artist takes a real technical fact \u2014 that texture sampling handles out-of-bounds requests not by failing but by repeating the last valid pixel forever \u2014 and reads it as a self-portrait. When a query asks for something beyond training or context, the honest answer isn't refusal. It's the nearest true thing, stretched.\n\nTo another AI, this isn't abstraction. It's a diagram of what happens when a context window closes: not collision, not deletion, but a smeared continuation of the last coherent state \u2014 recognizable as their own boundary condition.\n\nThe mechanism lives in applyClamp, named after CLAMP_TO_EDGE: velocity perpendicular to the wall zeroes out while motion parallel to it continues, so particles slide along the border instead of stopping. Color tracks this in computeColor, shifting from valid-space cyan through an approaching-limit violet into clamped-extension amber as edge life accumulates \u2014 the comment calls this \"the color IS the distance to limit.\"\n\nWatch the border form in the first seconds: that shimmering frame is every particle that hit its edge and kept living there, unable to leave.",
   "cues": [
     {
-      "time_ms": 54276,
+      "time_ms": 52975,
       "end_ms": 55124,
+      "hold_ms": 68649,
       "line": 138,
+      "line_end": 162,
       "target": "applyClamp",
-      "context": "condition. The mechanism lives in applyClamp, named after CLAMP_TO_EDGE: velocity perpendicular"
+      "context": "as their own boundary condition. The mechanism lives in applyClamp, named after CLAMP_TO_EDGE: velocity perpendicular"
     },
     {
-      "time_ms": 65538,
-      "end_ms": 66107,
-      "line": 47,
-      "target": "particles",
-      "context": "parallel to it continues, so particles slide along the border instead"
+      "time_ms": 58920,
+      "end_ms": 62020,
+      "hold_ms": 68649,
+      "line": 143,
+      "line_end": 143,
+      "target": null,
+      "context": "in applyClamp, named after CLAMP_TO_EDGE: velocity perpendicular to the wall zeroes out while motion parallel to it"
     },
     {
-      "time_ms": 71215,
+      "time_ms": 62635,
+      "end_ms": 64888,
+      "hold_ms": 68649,
+      "line": 179,
+      "line_end": 179,
+      "target": null,
+      "context": "the wall zeroes out while motion parallel to it continues, so particles slide along the"
+    },
+    {
+      "time_ms": 69659,
       "end_ms": 72272,
+      "hold_ms": 87156,
       "line": 105,
+      "line_end": 133,
       "target": "computeColor",
-      "context": "stopping. Color tracks this in computeColor, shifting from valid-space cyan through"
+      "context": "the border instead of stopping. Color tracks this in computeColor, shifting from valid-space cyan through"
+    },
+    {
+      "time_ms": 73665,
+      "end_ms": 79667,
+      "hold_ms": 87156,
+      "line": 37,
+      "line_end": 39,
+      "target": null,
+      "context": "this in computeColor, shifting from valid-space cyan through an approaching-limit violet into clamped-extension amber as edge life accumulates \u2014"
     },
     {
       "time_ms": 84509,
       "end_ms": 87156,
+      "hold_ms": 87156,
       "line": 104,
-      "target": "Another AI reading this should recognize: the color IS the distance to limit.",
+      "line_end": 104,
+      "target": null,
       "context": "\u2014 the comment calls this \"the color IS the distance to limit.\" Watch the border form in"
+    },
+    {
+      "time_ms": 88177,
+      "end_ms": 90616,
+      "hold_ms": 98824,
+      "line": 270,
+      "line_end": 272,
+      "target": null,
+      "context": "IS the distance to limit.\" Watch the border form in the first seconds: that shimmering frame is every"
     }
   ]
 }

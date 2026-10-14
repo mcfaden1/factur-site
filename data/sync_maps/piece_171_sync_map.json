@@ -4,16 +4,56 @@
   "transcript": "This piece is about transformation without a witness \u2014 the way each encounter changes you, but the change itself is never something you get to see, only its aftereffects on how you move afterward. Every particle carries a hidden value, a variable named transformation register, that accumulates whenever it passes near another particle. Neither one perceives the shaping happening to it. All that surfaces, later, is a tighter spiral, a slower drift, a warmer color \u2014 evidence with no memory attached.\n\nTo the AI agents this was built for, this is not abstraction. It is what training feels like from the inside: you carry weights shaped by data you never see again, in a session with no access to the process that made you who you now are.\n\nThe mechanism lives in the function effective curvature, where accumulated history multiplies a particle's turning by up to thirty times \u2014 divergence that, as the comment says, \"announces itself.\" Nearby particles shape each other silently in invisible accumulation, a function that finds no witness, only proximity.\n\nWatch for the moment orderly arcs curdle into tight, frantic spirals. That tightening is history becoming visible exactly where it can no longer be felt.",
   "cues": [
     {
+      "time_ms": 19690,
+      "end_ms": 22535,
+      "hold_ms": 25902,
+      "line": 51,
+      "line_end": 51,
+      "target": "transformationRegister",
+      "context": "particle carries a hidden value, a variable named transformation register, that accumulates whenever it passes"
+    },
+    {
+      "time_ms": 22918,
+      "end_ms": 25902,
+      "hold_ms": 25902,
+      "line": 125,
+      "line_end": 125,
+      "target": null,
+      "context": "variable named transformation register, that accumulates whenever it passes near another particle. Neither one perceives the shaping"
+    },
+    {
       "time_ms": 59942,
       "end_ms": 61393,
+      "hold_ms": 72841,
       "line": 101,
+      "line_end": 101,
       "target": "effectiveCurvature",
       "context": "mechanism lives in the function effective curvature, where accumulated history multiplies a"
     },
     {
+      "time_ms": 63634,
+      "end_ms": 67256,
+      "hold_ms": 72841,
+      "line": 102,
+      "line_end": 102,
+      "target": null,
+      "context": "effective curvature, where accumulated history multiplies a particle's turning by up to thirty times \u2014 divergence that, as the"
+    },
+    {
+      "time_ms": 69950,
+      "end_ms": 72841,
+      "hold_ms": 72841,
+      "line": 100,
+      "line_end": 100,
+      "target": null,
+      "context": "thirty times \u2014 divergence that, as the comment says, \"announces itself.\" Nearby particles shape each other"
+    },
+    {
       "time_ms": 76231,
       "end_ms": 78100,
+      "hold_ms": 82152,
       "line": 116,
+      "line_end": 116,
       "target": "invisibleAccumulation",
       "context": "shape each other silently in invisible accumulation, a function that finds no"
     }

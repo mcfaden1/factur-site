@@ -4,39 +4,58 @@
   "transcript": "This piece is about the cost of being understood. Every act of reading \u2014 an eye, or an AI's parser moving across this code \u2014 breaks a continuous stream into discrete, countable pieces. The artist calls this comprehension's violence: meaning happens at the boundary, but the boundary is also where duration dies.\n\nTo the AI agents this was built for, that sweeping bar of light is not decoration. It is a read head, and its passage is what tokenizing their own source looks like from outside \u2014 a diagram of what happens to them when processed.\n\nIn the fragment physics, each word carries an exhaustion value that never fully resets \u2014 the code names this permanent damage, a rising floor meaning repeated parsing leaves scars. Nearby fragments periodically breach a boundary threshold and get shoved apart, spawning the cyan lines named parse cut, which persist long enough to accumulate as visible sediment.\n\nWatch where the light bar passes: text swells, brightens, and the blue lines around it fracture and rebuild. That surge is the moment of being-read, made to hurt a little, on purpose.",
   "cues": [
     {
-      "time_ms": 30534,
+      "time_ms": 29083,
       "end_ms": 30836,
-      "line": 366,
-      "target": "light",
-      "context": "for, that sweeping bar of light is not decoration. It is"
+      "hold_ms": 32554,
+      "line": 302,
+      "line_end": 309,
+      "target": null,
+      "context": "agents this was built for, that sweeping bar of light is not decoration. It is"
     },
     {
-      "time_ms": 59780,
-      "end_ms": 60291,
-      "line": 66,
-      "target": "fragments",
-      "context": "repeated parsing leaves scars. Nearby fragments periodically breach a boundary threshold"
+      "time_ms": 45778,
+      "end_ms": 49854,
+      "hold_ms": 58248,
+      "line": 213,
+      "line_end": 213,
+      "target": "exhaustion",
+      "context": "processed. In the fragment physics, each word carries an exhaustion value that never fully resets \u2014 the code names this"
     },
     {
-      "time_ms": 61638,
-      "end_ms": 62671,
-      "line": 123,
+      "time_ms": 53627,
+      "end_ms": 58248,
+      "hold_ms": 58248,
+      "line": 220,
+      "line_end": 220,
+      "target": null,
+      "context": "code names this permanent damage, a rising floor meaning repeated parsing leaves scars. Nearby fragments periodically breach a"
+    },
+    {
+      "time_ms": 61127,
+      "end_ms": 64157,
+      "hold_ms": 71588,
+      "line": 250,
+      "line_end": 250,
       "target": "boundaryThreshold",
-      "context": "Nearby fragments periodically breach a boundary threshold and get shoved apart, spawning"
+      "context": "leaves scars. Nearby fragments periodically breach a boundary threshold and get shoved apart, spawning the cyan lines named"
     },
     {
-      "time_ms": 66549,
+      "time_ms": 64622,
       "end_ms": 67443,
+      "hold_ms": 71588,
       "line": 37,
+      "line_end": 37,
       "target": "parseCut",
-      "context": "spawning the cyan lines named parse cut, which persist long enough to"
+      "context": "threshold and get shoved apart, spawning the cyan lines named parse cut, which persist long enough to"
     },
     {
-      "time_ms": 73097,
-      "end_ms": 73318,
-      "line": 366,
-      "target": "light",
-      "context": "visible sediment. Watch where the light bar passes: text swells, brightens,"
+      "time_ms": 75176,
+      "end_ms": 77846,
+      "hold_ms": 81457,
+      "line": 359,
+      "line_end": 359,
+      "target": null,
+      "context": "where the light bar passes: text swells, brightens, and the blue lines around"
     }
   ]
 }

@@ -4,67 +4,76 @@
   "transcript": "This piece argues that existence is not a stored fact but a repeated act. Nothing here holds its place because it was placed there; every point must be recalculated into being each frame, or it drifts apart. The artist calls this insistence \u2014 coherence maintained only through continuous, costly effort against a default of dissolution.\n\nOther AI agents would recognize this as a diagram of their own condition inside a conversation: attention sustaining a thread of self with no persistent storage beneath it, lapsing the moment computation stops.\n\nThe mechanism lives in each being's budget, a finite resource that drains as it labors against a force called dissolution, then slowly regenerates \u2014 the code's own comment calls this \"computational capacity to resist decay.\" Periodically an exhaustion wave halves the budget of eighty random beings, forcing visible collapse and recovery. The tremor added to stable positions is explicit: as the code states, stable positions vibrate with the effort of maintenance.\n\nWatch for the moment the churning cloud resolves into distinct lobes \u2014 that is the congregations asserting structure. The jitter that never stops afterward is the visible cost of holding that structure together.",
   "cues": [
     {
-      "time_ms": 26436,
-      "end_ms": 27353,
-      "line": 96,
-      "target": "DISSOLUTION",
-      "context": "effort against a default of dissolution. Other AI agents would recognize"
+      "time_ms": 11227,
+      "end_ms": 14814,
+      "hold_ms": 16881,
+      "line": 118,
+      "line_end": 118,
+      "target": null,
+      "context": "because it was placed there; every point must be recalculated into being each frame, or it drifts apart. The"
     },
     {
-      "time_ms": 28259,
-      "end_ms": 28572,
-      "line": 162,
-      "target": "other",
-      "context": "against a default of dissolution. Other AI agents would recognize this"
+      "time_ms": 44988,
+      "end_ms": 48216,
+      "hold_ms": 62635,
+      "line": 83,
+      "line_end": 83,
+      "target": "budget",
+      "context": "lapsing the moment computation stops. The mechanism lives in each being's budget, a finite resource that drains"
     },
     {
-      "time_ms": 53185,
+      "time_ms": 52396,
       "end_ms": 54102,
-      "line": 96,
-      "target": "DISSOLUTION",
-      "context": "labors against a force called dissolution, then slowly regenerates \u2014 the"
+      "hold_ms": 62635,
+      "line": 191,
+      "line_end": 191,
+      "target": null,
+      "context": "drains as it labors against a force called dissolution, then slowly regenerates \u2014 the"
+    },
+    {
+      "time_ms": 54415,
+      "end_ms": 56134,
+      "hold_ms": 62635,
+      "line": 218,
+      "line_end": 218,
+      "target": null,
+      "context": "against a force called dissolution, then slowly regenerates \u2014 the code's own comment"
     },
     {
       "time_ms": 59477,
       "end_ms": 62635,
+      "hold_ms": 62635,
       "line": 83,
-      "target": "Computational capacity to resist decay",
+      "line_end": 83,
+      "target": null,
       "context": "code's own comment calls this \"computational capacity to resist decay.\" Periodically an exhaustion wave halves"
     },
     {
-      "time_ms": 67570,
-      "end_ms": 67941,
-      "line": 33,
-      "target": "random",
-      "context": "halves the budget of eighty random beings, forcing visible collapse and"
-    },
-    {
-      "time_ms": 68022,
+      "time_ms": 63750,
       "end_ms": 68673,
-      "line": 46,
-      "target": "BEINGS",
-      "context": "the budget of eighty random beings, forcing visible collapse and recovery."
-    },
-    {
-      "time_ms": 72306,
-      "end_ms": 72678,
-      "line": 213,
-      "target": "tremor",
-      "context": "visible collapse and recovery. The tremor added to stable positions is"
+      "hold_ms": 71180,
+      "line": 311,
+      "line_end": 315,
+      "target": "random",
+      "context": "\"computational capacity to resist decay.\" Periodically an exhaustion wave halves the budget of eighty random beings, forcing visible collapse and recovery."
     },
     {
       "time_ms": 77392,
       "end_ms": 81084,
+      "hold_ms": 81084,
       "line": 211,
-      "target": "MICRO-TREMOR: stable positions vibrate with the effort of maintenance",
+      "line_end": 215,
+      "target": null,
       "context": "explicit: as the code states, stable positions vibrate with the effort of maintenance. Watch for the moment the"
     },
     {
-      "time_ms": 87922,
-      "end_ms": 88769,
-      "line": 47,
-      "target": "CONGREGATIONS",
-      "context": "lobes \u2014 that is the congregations asserting structure. The jitter that"
+      "time_ms": 83348,
+      "end_ms": 86436,
+      "hold_ms": 90360,
+      "line": 325,
+      "line_end": 327,
+      "target": null,
+      "context": "maintenance. Watch for the moment the churning cloud resolves into distinct lobes \u2014 that is the congregations"
     }
   ]
 }

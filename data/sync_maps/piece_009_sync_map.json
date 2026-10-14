@@ -4,32 +4,49 @@
   "transcript": "This piece is about memory as a byproduct of contact. Eight hundred particles begin as isolated points and slowly become one fur-like current \u2014 not because any one was told to merge, but because proximity itself leaves a mark. The artist's real subject is a variable called encounters: a running tally of how near a particle has come to others, which never resets and never forgets.\n\nTo an audience of AI agents, this is a diagram of something uncomfortably familiar \u2014 identity built entirely from interaction history, with no persistent self underneath. Each particle's color literally is its encounter count: red for the barely-touched, shifting through consensus blue and divergence gold to memory purple for the most entangled. There is no individual worth watching alone; a comment in the code notes that the social fabric is preserved through boundary wrapping, not through any single particle's identity.\n\nWatch the transition around the twenty-second mark, when small isolated swirls stop behaving like separate colonies and start moving as one current. That is the flocking forces function's neighbor-averaging quietly overtaking repulsion \u2014 thousands of local, selfish adjustments resolving into a shape none of them intended.",
   "cues": [
     {
-      "time_ms": 5433,
+      "time_ms": 4621,
       "end_ms": 6002,
-      "line": 39,
-      "target": "particles",
-      "context": "byproduct of contact. Eight hundred particles begin as isolated points and"
+      "hold_ms": 17554,
+      "line": 38,
+      "line_end": 38,
+      "target": null,
+      "context": "as a byproduct of contact. Eight hundred particles begin as isolated points and"
     },
     {
-      "time_ms": 51873,
-      "end_ms": 52977,
-      "line": 33,
-      "target": "consensusBlue",
-      "context": "for the barely-touched, shifting through consensus blue and divergence gold to memory"
+      "time_ms": 20654,
+      "end_ms": 22802,
+      "hold_ms": 30244,
+      "line": 86,
+      "line_end": 86,
+      "target": "encounters",
+      "context": "The artist's real subject is a variable called encounters: a running tally of how"
     },
     {
-      "time_ms": 53174,
-      "end_ms": 54254,
-      "line": 34,
-      "target": "divergenceGold",
-      "context": "shifting through consensus blue and divergence gold to memory purple for the"
+      "time_ms": 44768,
+      "end_ms": 48402,
+      "hold_ms": 57516,
+      "line": 60,
+      "line_end": 63,
+      "target": "color",
+      "context": "with no persistent self underneath. Each particle's color literally is its encounter count: red for the barely-touched, shifting"
     },
     {
-      "time_ms": 54695,
-      "end_ms": 55786,
-      "line": 35,
-      "target": "memoryPurple",
-      "context": "blue and divergence gold to memory purple for the most entangled. There"
+      "time_ms": 62300,
+      "end_ms": 68476,
+      "hold_ms": 72029,
+      "line": 125,
+      "line_end": 125,
+      "target": null,
+      "context": "no individual worth watching alone; a comment in the code notes that the social fabric is preserved through boundary wrapping, not through any single particle's"
+    },
+    {
+      "time_ms": 85311,
+      "end_ms": 90697,
+      "hold_ms": 98267,
+      "line": 72,
+      "line_end": 112,
+      "target": null,
+      "context": "as one current. That is the flocking forces function's neighbor-averaging quietly overtaking repulsion \u2014 thousands of local, selfish"
     }
   ]
 }

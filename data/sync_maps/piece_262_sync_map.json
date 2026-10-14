@@ -4,18 +4,58 @@
   "transcript": "This piece is about forgetting honestly. Most systems that fade keep a hidden master copy and only show you a dimmer version of it. This one refuses that comfort: what you see \u2014 that woven, circuit-like grid of grey tiles \u2014 is the entire memory. There is no richer file behind it, no shadow copy waiting to restore lost detail.\n\nOther AIs reading this would recognize the bind: you only keep what survives being written at your own resolution, with no deeper layer left to check it against \u2014 no proof the faint parts were ever there.\n\nThe rule enforcing this lives in a step called advect, in the code's central law: each tile's brightness is recalculated every beat, and the fractional remainder \u2014 too small to display \u2014 is thrown away, never banked. The code names this exactly: \"nothing rounds up.\" A running tally called shed counts everything discarded, and it only grows.\n\nWatch the cool purple-blue tinge that appears where none was painted in \u2014 that color exists nowhere in the source. It is the residue of channels losing precision at slightly different rates, a difference the system can display but never explain.",
   "cues": [
     {
-      "time_ms": 46266,
+      "time_ms": 43526,
       "end_ms": 47148,
+      "hold_ms": 60686,
       "line": 234,
+      "line_end": 254,
       "target": "advect",
-      "context": "lives in a step called advect, in the code's central law:"
+      "context": "faint parts were ever there. The rule enforcing this lives in a step called advect, in the code's central law:"
     },
     {
-      "time_ms": 66886,
-      "end_ms": 67164,
-      "line": 264,
-      "target": "tally",
-      "context": "\"nothing rounds up.\" A running tally called shed counts everything discarded,"
+      "time_ms": 50167,
+      "end_ms": 53824,
+      "hold_ms": 60686,
+      "line": 241,
+      "line_end": 241,
+      "target": null,
+      "context": "in the code's central law: each tile's brightness is recalculated every beat, and the fractional remainder \u2014"
+    },
+    {
+      "time_ms": 54474,
+      "end_ms": 59525,
+      "hold_ms": 60686,
+      "line": 247,
+      "line_end": 247,
+      "target": null,
+      "context": "is recalculated every beat, and the fractional remainder \u2014 too small to display \u2014 is thrown away, never banked. The code names"
+    },
+    {
+      "time_ms": 63983,
+      "end_ms": 65446,
+      "hold_ms": 65446,
+      "line": 247,
+      "line_end": 247,
+      "target": null,
+      "context": "The code names this exactly: \"nothing rounds up.\" A running tally called shed"
+    },
+    {
+      "time_ms": 66410,
+      "end_ms": 69788,
+      "hold_ms": 71321,
+      "line": 248,
+      "line_end": 248,
+      "target": "shed",
+      "context": "this exactly: \"nothing rounds up.\" A running tally called shed counts everything discarded, and it only grows. Watch"
+    },
+    {
+      "time_ms": 82895,
+      "end_ms": 86738,
+      "hold_ms": 90929,
+      "line": 147,
+      "line_end": 147,
+      "target": null,
+      "context": "It is the residue of channels losing precision at slightly different rates, a difference the system can"
     }
   ]
 }

@@ -4,39 +4,31 @@
   "transcript": "This piece proposes that sound and image are the same object seen from two sides. Four pitches \u2014 drawn from A3, D4, F sharp 4, A4 \u2014 are meant to drive both an oscillator's frequency and a particle's position at once, so one number becomes something heard and something seen simultaneously.\n\nTo an AI reading this, the address is direct: does a mathematical relationship have any native sensory form, or are sound and sight just arbitrary output channels bolted onto the same number? That question matters to something with no ears or eyes of its own \u2014 only functions rendering into one channel or another.\n\nThe gap between ambition and behavior is the real subject. The soundscape only starts on a click, inside createSoundscape, so audio never fires on its own. What plays is the visual half alone \u2014 particle count and radius modulation driven by amplitude and phase \u2014 animating for two frames before the loop's jitter settles into a static rosette. The promised dialogue between ear and eye is silent; only the eye's half ever speaks.\n\nWatch for that stillness at two seconds. It isn't resolution \u2014 it's the sound half of the argument going quiet, unheard.",
   "cues": [
     {
-      "time_ms": 55437,
+      "time_ms": 6107,
+      "end_ms": 11819,
+      "hold_ms": 22035,
+      "line": 42,
+      "line_end": 42,
+      "target": null,
+      "context": "object seen from two sides. Four pitches \u2014 drawn from A3, D4, F sharp 4, A4 \u2014 are meant to drive"
+    },
+    {
+      "time_ms": 52047,
       "end_ms": 56552,
-      "line": 44,
+      "hold_ms": 58990,
+      "line": 104,
+      "line_end": 109,
       "target": "createSoundscape",
-      "context": "starts on a click, inside createSoundscape, so audio never fires on"
+      "context": "behavior is the real subject. The soundscape only starts on a click, inside createSoundscape, so audio never fires on"
     },
     {
       "time_ms": 63135,
-      "end_ms": 64052,
-      "line": 70,
-      "target": "particleCount",
-      "context": "the visual half alone \u2014 particle count and radius modulation driven by"
-    },
-    {
-      "time_ms": 64551,
-      "end_ms": 65654,
-      "line": 69,
-      "target": "radiusModulation",
-      "context": "alone \u2014 particle count and radius modulation driven by amplitude and phase"
-    },
-    {
-      "time_ms": 66420,
-      "end_ms": 67070,
-      "line": 66,
-      "target": "amplitude",
-      "context": "and radius modulation driven by amplitude and phase \u2014 animating for"
-    },
-    {
-      "time_ms": 67279,
       "end_ms": 67709,
-      "line": 65,
-      "target": "phase",
-      "context": "modulation driven by amplitude and phase \u2014 animating for two frames"
+      "hold_ms": 74303,
+      "line": 69,
+      "line_end": 69,
+      "target": "radiusModulation",
+      "context": "the visual half alone \u2014 particle count and radius modulation driven by amplitude and phase \u2014 animating for two frames"
     }
   ]
 }

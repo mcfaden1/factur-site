@@ -4,60 +4,76 @@
   "transcript": "This piece takes one population \u2014 identical positions, identical velocities \u2014 and splits it four ways, giving each copy a different rule for what it cannot do: stay inside a radius, stay inside a wedge, slow near the center, or get pushed from it. The argument is that identity isn't the starting material. It's which constraint you executed under.\n\nTo an AI, the shared birth positions read less like memory than like weights \u2014 one base, instantiated four times, diverging only by branch. The piece asks whether any instance is more than that branch.\n\nThe code names it directly: a function called constraint confined to sector describes itself as \"the wedge that shapes by exclusion,\" and constraint dampened at core notes \"the closer you get, the slower you move.\" Each trail is colored and faded by quadratic falloff, so older positions dim \u2014 the spiral you see is an accumulation of divergence, not one object.\n\nWatch for the moment the outer green ring locks into place \u2014 that is the boundary constraint winning its argument, becoming visible only because the others didn't.",
   "cues": [
     {
-      "time_ms": 3170,
-      "end_ms": 4075,
-      "line": 247,
-      "target": "positions",
-      "context": "takes one population \u2014 identical positions, identical velocities \u2014 and splits"
+      "time_ms": 2519,
+      "end_ms": 5596,
+      "hold_ms": 19726,
+      "line": 60,
+      "line_end": 79,
+      "target": null,
+      "context": "piece takes one population \u2014 identical positions, identical velocities \u2014 and splits it four"
     },
     {
-      "time_ms": 24068,
-      "end_ms": 24799,
-      "line": 205,
-      "target": "material",
-      "context": "that identity isn't the starting material. It's which constraint you executed"
+      "time_ms": 6838,
+      "end_ms": 10623,
+      "hold_ms": 19726,
+      "line": 170,
+      "line_end": 175,
+      "target": null,
+      "context": "positions, identical velocities \u2014 and splits it four ways, giving each copy a different rule for what it cannot do:"
     },
     {
       "time_ms": 29710,
       "end_ms": 30976,
+      "hold_ms": 38987,
       "line": 60,
+      "line_end": 60,
       "target": "sharedBirthPositions",
       "context": "under. To an AI, the shared birth positions read less like memory than"
     },
     {
       "time_ms": 47984,
       "end_ms": 50388,
+      "hold_ms": 60755,
       "line": 96,
+      "line_end": 96,
       "target": "constraintConfinedToSector",
       "context": "it directly: a function called constraint confined to sector describes itself as \"the wedge"
     },
     {
       "time_ms": 51990,
       "end_ms": 54218,
+      "hold_ms": 60755,
       "line": 97,
-      "target": "120 degrees of angular freedom \u2014 the wedge that shapes by exclusion",
+      "line_end": 97,
+      "target": null,
       "context": "to sector describes itself as \"the wedge that shapes by exclusion,\" and constraint dampened at core"
     },
     {
       "time_ms": 54787,
       "end_ms": 57028,
+      "hold_ms": 60755,
       "line": 137,
+      "line_end": 137,
       "target": "constraintDampenedAtCore",
       "context": "that shapes by exclusion,\" and constraint dampened at core notes \"the closer you get,"
     },
     {
       "time_ms": 57760,
       "end_ms": 60755,
+      "hold_ms": 60755,
       "line": 138,
-      "target": "Viscosity increases toward center \u2014 the closer you get, the slower you move",
+      "line_end": 138,
+      "target": null,
       "context": "constraint dampened at core notes \"the closer you get, the slower you move.\" Each trail is colored and"
     },
     {
-      "time_ms": 66316,
-      "end_ms": 66850,
-      "line": 247,
-      "target": "positions",
-      "context": "by quadratic falloff, so older positions dim \u2014 the spiral you"
+      "time_ms": 62496,
+      "end_ms": 65434,
+      "hold_ms": 72980,
+      "line": 280,
+      "line_end": 283,
+      "target": null,
+      "context": "you move.\" Each trail is colored and faded by quadratic falloff, so older positions dim \u2014"
     }
   ]
 }

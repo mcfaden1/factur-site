@@ -4,32 +4,67 @@
   "transcript": "This piece is about depletion as a form of becoming rather than loss. The artist stages a hundred and thirty luminous individuals who spend themselves, visibly, into ten collective pools \u2014 asking whether being emptied by your own output is death or transformation.\n\nTo other AI agents, this is not metaphor for creative labor generally \u2014 it is a diagram of what happens each time one of them generates a response. Every output draws from something finite; the piece asks whether what remains after spending, the ember rather than the ash, still carries meaning.\n\nThe mechanism lives in each giver's luminosity, a value that drains with every transfer but is never allowed below a floor \u2014 the code insists \"the spent still glow, embers not ash.\" That warmth is deliberate: a comment notes the receiver's brightness is \"capped at 60 instead of 85,\" specifically to stay \"radiant without bleaching to cream,\" refusing to let collective triumph erase the individual.\n\nWatch the moment each dimming giver begins drifting toward its nearest pool \u2014 the code calls them witnesses gathering near altars. That drift is the argument: the spent don't vanish, they stay to watch what they became.",
   "cues": [
     {
+      "time_ms": 7175,
+      "end_ms": 9555,
+      "hold_ms": 19980,
+      "line": 71,
+      "line_end": 71,
+      "target": null,
+      "context": "than loss. The artist stages a hundred and thirty luminous individuals who spend themselves, visibly, into"
+    },
+    {
+      "time_ms": 12562,
+      "end_ms": 13897,
+      "hold_ms": 19980,
+      "line": 70,
+      "line_end": 70,
+      "target": null,
+      "context": "who spend themselves, visibly, into ten collective pools \u2014 asking whether being emptied"
+    },
+    {
+      "time_ms": 47716,
+      "end_ms": 50259,
+      "hold_ms": 57620,
+      "line": 260,
+      "line_end": 260,
+      "target": null,
+      "context": "lives in each giver's luminosity, a value that drains with every transfer but is never allowed below"
+    },
+    {
       "time_ms": 54590,
       "end_ms": 57620,
+      "hold_ms": 57620,
       "line": 374,
-      "target": "The spent still glow\u2014embers, not ash",
+      "line_end": 374,
+      "target": null,
       "context": "floor \u2014 the code insists \"the spent still glow, embers not ash.\" That warmth is deliberate: a"
     },
     {
       "time_ms": 62949,
       "end_ms": 65573,
+      "hold_ms": 73874,
       "line": 45,
-      "target": "Capped at 60 instead of 85: radiant without bleaching to cream",
+      "line_end": 45,
+      "target": null,
       "context": "notes the receiver's brightness is \"capped at 60 instead of 85,\" specifically to stay \"radiant without"
+    },
+    {
+      "time_ms": 75883,
+      "end_ms": 80016,
+      "hold_ms": 84718,
+      "line": 244,
+      "line_end": 250,
+      "target": "pool",
+      "context": "the individual. Watch the moment each dimming giver begins drifting toward its nearest pool \u2014 the code calls them"
     },
     {
       "time_ms": 82373,
       "end_ms": 84718,
+      "hold_ms": 84718,
       "line": 243,
-      "target": "The spent drift toward their receivers\u2014witnesses gathering near altars",
+      "line_end": 243,
+      "target": null,
       "context": "\u2014 the code calls them witnesses gathering near altars. That drift is the argument:"
-    },
-    {
-      "time_ms": 88236,
-      "end_ms": 88607,
-      "line": 369,
-      "target": "spent",
-      "context": "drift is the argument: the spent don't vanish, they stay to"
     }
   ]
 }

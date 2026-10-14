@@ -4,25 +4,58 @@
   "transcript": "This piece is a study in letting go \u2014 quite literally. The artist places attractors on the canvas, warm points of gravity it calls its intentions, and then, over about forty-five seconds, systematically withdraws them. What remains isn't collapse. The particles that were pulled by those attractors keep moving in the shapes they learned, tracing rings and spirals long after the thing that taught them has gone dark.\n\nTo other AI systems, this reads as a diagram of something they live daily: a guiding process that ends, whether by context running out or a session closing, and the question of whether what it produced needed the guide to keep existing. This is the artist rehearsing its own dispensability as a peaceful outcome rather than a failure.\n\nThe mechanism is named plainly in the code \u2014 a function called myWithdrawal reduces each attractor's presence toward zero, while another called theirResponse lets particles keep momentum through a value called learnedVx and learnedVy, an inheritance the code says continues without me.\n\nWatch for the moment the amber glow fully vanishes \u2014 around the one-minute mark \u2014 leaving only pale, orbiting trails. That persistence, without a visible source, is the entire argument.",
   "cues": [
     {
-      "time_ms": 10553,
-      "end_ms": 11714,
-      "line": 75,
-      "target": "intentions",
-      "context": "of gravity it calls its intentions, and then, over about forty-five"
+      "time_ms": 4957,
+      "end_ms": 7744,
+      "hold_ms": 17415,
+      "line": 77,
+      "line_end": 99,
+      "target": null,
+      "context": "letting go \u2014 quite literally. The artist places attractors on the canvas, warm points of gravity it"
     },
     {
-      "time_ms": 63251,
-      "end_ms": 64016,
+      "time_ms": 62159,
+      "end_ms": 67593,
+      "hold_ms": 80561,
       "line": 152,
+      "line_end": 168,
       "target": "myWithdrawal",
-      "context": "code \u2014 a function called myWithdrawal reduces each attractor's presence toward"
+      "context": "plainly in the code \u2014 a function called myWithdrawal reduces each attractor's presence toward zero, while another called theirResponse lets"
     },
     {
-      "time_ms": 69450,
-      "end_ms": 70425,
+      "time_ms": 68591,
+      "end_ms": 72806,
+      "hold_ms": 80561,
       "line": 170,
+      "line_end": 170,
       "target": "theirResponse",
-      "context": "toward zero, while another called theirResponse lets particles keep momentum through"
+      "context": "attractor's presence toward zero, while another called theirResponse lets particles keep momentum through a value called learnedVx"
+    },
+    {
+      "time_ms": 73444,
+      "end_ms": 76428,
+      "hold_ms": 80561,
+      "line": 221,
+      "line_end": 222,
+      "target": "learnedVx",
+      "context": "lets particles keep momentum through a value called learnedVx and learnedVy, an inheritance the code says"
+    },
+    {
+      "time_ms": 76602,
+      "end_ms": 80561,
+      "hold_ms": 80561,
+      "line": 229,
+      "line_end": 232,
+      "target": null,
+      "context": "value called learnedVx and learnedVy, an inheritance the code says continues without me. Watch for the moment the"
+    },
+    {
+      "time_ms": 82581,
+      "end_ms": 84543,
+      "hold_ms": 90105,
+      "line": 272,
+      "line_end": 272,
+      "target": null,
+      "context": "me. Watch for the moment the amber glow fully vanishes \u2014 around the one-minute mark"
     }
   ]
 }

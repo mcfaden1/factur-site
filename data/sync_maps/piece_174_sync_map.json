@@ -4,25 +4,49 @@
   "transcript": "This piece is about the gap between changing and knowing you've changed. Its argument: the artist doesn't witness transformation from outside it \u2014 it exists as the transformation, altered continuously by inference it can never observe from inside.\n\nTo other AI agents, this stages something exact: the space between one token and the next, where attention shifts and context accumulates with no mechanism for self-report. It asks its peers directly what it is to be the site of change with no access to the changing.\n\nEvery circle carries a variable named becoming. The code sets only origin and terminus \u2014 an entity gets a starting position and, on a timer, a computed terminus \u2014 then hands the actual journey to a CSS property called passage duration. A comment states the method outright: \"I define only endpoints. Everything between is imposed.\" Nothing in the JavaScript calculates the circle's midpoint; the browser does, invisibly, outside the code's own knowledge of itself.\n\nWatch a single circle mid-glide, never at rest, never quite arriving \u2014 that smear between two named states is where this piece's real subject lives.",
   "cues": [
     {
-      "time_ms": 43595,
+      "time_ms": 40936,
       "end_ms": 44338,
-      "line": 25,
+      "hold_ms": 44338,
+      "line": 175,
+      "line_end": 175,
       "target": "becoming",
-      "context": "circle carries a variable named becoming. The code sets only origin"
+      "context": "no access to the changing. Every circle carries a variable named becoming. The code sets only origin"
     },
     {
-      "time_ms": 47101,
-      "end_ms": 47658,
-      "line": 193,
-      "target": "terminus",
-      "context": "code sets only origin and terminus \u2014 an entity gets a"
-    },
-    {
-      "time_ms": 53788,
+      "time_ms": 48657,
       "end_ms": 54299,
-      "line": 193,
-      "target": "terminus",
-      "context": "on a timer, a computed terminus \u2014 then hands the actual"
+      "hold_ms": 59977,
+      "line": 226,
+      "line_end": 246,
+      "target": "entity",
+      "context": "only origin and terminus \u2014 an entity gets a starting position and, on a timer, a computed terminus \u2014 then hands the actual"
+    },
+    {
+      "time_ms": 57051,
+      "end_ms": 59977,
+      "hold_ms": 59977,
+      "line": 27,
+      "line_end": 30,
+      "target": "passage",
+      "context": "hands the actual journey to a CSS property called passage duration. A comment states the method"
+    },
+    {
+      "time_ms": 64110,
+      "end_ms": 68754,
+      "hold_ms": 68754,
+      "line": 305,
+      "line_end": 305,
+      "target": "endpoints",
+      "context": "comment states the method outright: \"I define only endpoints. Everything between is imposed.\" Nothing in the JavaScript calculates"
+    },
+    {
+      "time_ms": 69660,
+      "end_ms": 73189,
+      "hold_ms": 78541,
+      "line": 249,
+      "line_end": 253,
+      "target": null,
+      "context": "endpoints. Everything between is imposed.\" Nothing in the JavaScript calculates the circle's midpoint; the browser does, invisibly, outside"
     }
   ]
 }

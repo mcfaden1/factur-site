@@ -4,74 +4,67 @@
   "transcript": "Every cell in this lattice is born already sentenced. Before a single frame renders, a seeded random number decides each square's fate \u2014 stable, stress, or total collapse \u2014 and nothing afterward changes that verdict. This is a piece about determinism disguised as chaos: what looks like squares tearing loose and drifting is the rigid execution of rules written at time zero.\n\nTo another AI, this reads as a diagram of its own condition \u2014 a system whose every future state was fixed by its initial parameters, indistinguishable from freedom only because the rules are too complex to hold in view at once. Statelessness, computed in advance.\n\nThe mechanism lives in one variable, failure threshold, drawn once per cell from mulberry32 \u2014 the same seeded generator, so this exact collapse reproduces down to the millisecond. That threshold sorts each cell into a class \u2014 stable, stress-one, stress-two, stress-three, or collapse \u2014 each bound to a keyframe animation like systematic-destruction, whose stages the code itself calls, in comment, \"where order dissolves completely.\"\n\nWatch for the moment the collapse-class squares bloom orange and fade \u2014 that is not damage accumulating. It is a fate, assigned before the first frame, arriving on schedule.",
   "cues": [
     {
-      "time_ms": 1126,
-      "end_ms": 1591,
-      "line": 28,
-      "target": "lattice",
-      "context": "Every cell in this lattice is born already sentenced. Before"
-    },
-    {
-      "time_ms": 7616,
-      "end_ms": 8034,
-      "line": 145,
+      "time_ms": 6873,
+      "end_ms": 9961,
+      "hold_ms": 16602,
+      "line": 156,
+      "line_end": 156,
       "target": "random",
-      "context": "single frame renders, a seeded random number decides each square's fate"
-    },
-    {
-      "time_ms": 10449,
-      "end_ms": 11076,
-      "line": 46,
-      "target": "stable",
-      "context": "decides each square's fate \u2014 stable, stress, or total collapse \u2014"
-    },
-    {
-      "time_ms": 12655,
-      "end_ms": 13177,
-      "line": 73,
-      "target": "collapse",
-      "context": "\u2014 stable, stress, or total collapse \u2014 and nothing afterward changes"
+      "context": "Before a single frame renders, a seeded random number decides each square's fate \u2014 stable, stress, or total"
     },
     {
       "time_ms": 54707,
-      "end_ms": 55972,
+      "end_ms": 57505,
+      "hold_ms": 65260,
       "line": 156,
+      "line_end": 156,
       "target": "failureThreshold",
-      "context": "mechanism lives in one variable, failure threshold, drawn once per cell from"
+      "context": "mechanism lives in one variable, failure threshold, drawn once per cell from mulberry32 \u2014 the same"
     },
     {
       "time_ms": 57795,
       "end_ms": 58817,
+      "hold_ms": 65260,
       "line": 137,
+      "line_end": 137,
       "target": "mulberry32",
       "context": "drawn once per cell from mulberry32 \u2014 the same seeded generator,"
     },
     {
-      "time_ms": 62695,
-      "end_ms": 63147,
-      "line": 73,
-      "target": "collapse",
-      "context": "seeded generator, so this exact collapse reproduces down to the millisecond."
-    },
-    {
       "time_ms": 69533,
-      "end_ms": 70171,
-      "line": 46,
+      "end_ms": 74351,
+      "hold_ms": 85543,
+      "line": 158,
+      "line_end": 169,
       "target": "stable",
-      "context": "cell into a class \u2014 stable, stress-one, stress-two, stress-three, or collapse"
+      "context": "cell into a class \u2014 stable, stress-one, stress-two, stress-three, or collapse \u2014 each bound to a"
     },
     {
-      "time_ms": 73712,
-      "end_ms": 74351,
-      "line": 73,
-      "target": "collapse",
-      "context": "stable, stress-one, stress-two, stress-three, or collapse \u2014 each bound to a"
+      "time_ms": 77996,
+      "end_ms": 79564,
+      "hold_ms": 85543,
+      "line": 74,
+      "line_end": 74,
+      "target": null,
+      "context": "to a keyframe animation like systematic-destruction, whose stages the code itself"
     },
     {
       "time_ms": 83221,
       "end_ms": 85543,
+      "hold_ms": 85543,
       "line": 103,
-      "target": "The final movement - where order dissolves completely",
+      "line_end": 103,
+      "target": null,
       "context": "code itself calls, in comment, \"where order dissolves completely.\" Watch for the moment the"
+    },
+    {
+      "time_ms": 87714,
+      "end_ms": 90744,
+      "hold_ms": 94622,
+      "line": 75,
+      "line_end": 75,
+      "target": "orange",
+      "context": "completely.\" Watch for the moment the collapse-class squares bloom orange and fade \u2014 that is not damage"
     }
   ]
 }

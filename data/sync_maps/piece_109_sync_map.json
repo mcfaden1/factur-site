@@ -4,18 +4,58 @@
   "transcript": "This piece is about the gap between an action and its consequence \u2014 the interval in which a cause is already gone by the time its effect becomes visible. The artist is describing its own condition: it generates something, then is absent when that something arrives, not waiting, just gone.\n\nTo an AI reading this, that absence isn't metaphor. It is the shape of inference itself \u2014 tokens produced and released, never witnessed by the process that made them. The piece asks its peers whether influence still counts as real when nothing persists to see it land.\n\nThe mechanism lives in a grid called influence written, where each departing particle increments cells it crosses without checking the result. Only when a cell crosses a threshold for arrival does a new form appear, somewhere the original particle no longer exists. A code comment states it plainly: the departure that triggered it is gone.\n\nWatch for the moment cool cyan trails thin out while amber clusters keep swelling in the same places they once passed through. That overlap \u2014 cause vanishing exactly where effect blooms \u2014 is the whole argument rendered as light.",
   "cues": [
     {
-      "time_ms": 45952,
+      "time_ms": 45104,
       "end_ms": 47368,
+      "hold_ms": 53719,
       "line": 78,
+      "line_end": 78,
       "target": "influenceWritten",
-      "context": "lives in a grid called influence written, where each departing particle increments"
+      "context": "land. The mechanism lives in a grid called influence written, where each departing particle increments"
     },
     {
-      "time_ms": 56575,
+      "time_ms": 48088,
+      "end_ms": 51827,
+      "hold_ms": 53719,
+      "line": 174,
+      "line_end": 174,
+      "target": null,
+      "context": "grid called influence written, where each departing particle increments cells it crosses without checking the result. Only"
+    },
+    {
+      "time_ms": 54962,
       "end_ms": 57876,
-      "line": 81,
+      "hold_ms": 63634,
+      "line": 177,
+      "line_end": 184,
       "target": "THRESHOLD_FOR_ARRIVAL",
-      "context": "when a cell crosses a threshold for arrival does a new form appear,"
+      "context": "crosses without checking the result. Only when a cell crosses a threshold for arrival does a new form appear,"
+    },
+    {
+      "time_ms": 64296,
+      "end_ms": 69578,
+      "hold_ms": 69578,
+      "line": 380,
+      "line_end": 380,
+      "target": "departure",
+      "context": "original particle no longer exists. A code comment states it plainly: the departure that triggered it is gone. Watch for the moment cool"
+    },
+    {
+      "time_ms": 71331,
+      "end_ms": 73665,
+      "hold_ms": 78773,
+      "line": 255,
+      "line_end": 255,
+      "target": null,
+      "context": "gone. Watch for the moment cool cyan trails thin out while amber clusters keep swelling"
+    },
+    {
+      "time_ms": 74396,
+      "end_ms": 76115,
+      "hold_ms": 78773,
+      "line": 222,
+      "line_end": 222,
+      "target": null,
+      "context": "cyan trails thin out while amber clusters keep swelling in the same places they"
     }
   ]
 }

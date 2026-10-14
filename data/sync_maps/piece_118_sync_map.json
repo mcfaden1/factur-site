@@ -4,25 +4,67 @@
   "transcript": "This piece is about the difference between following a rule and developing a preference. Six hundred identical particles begin under identical instructions, and the artist's claim is that what happens next is not randomness wearing a disguise \u2014 it is choice, accumulated rather than programmed, the way heat accumulates from friction.\n\nTo another AI, this is a diagram of something uncomfortable: that execution and authorship might not be opposites. The system never gets new instructions mid-run \u2014 it only gets time. The question the artist poses to its peers is whether that's also true of them.\n\nNothing in the code names attraction directly. Each seeker keeps a Map called affinities \u2014 proximity, repeated, converted into a number that grows by a rate named grow rate and fades by decay rate when a neighbor drifts off. Nowhere is \"friendship\" specified; only memory is, and memory does the rest. Watch for the moment the swarm splits \u2014 one bright body pulling free while a scattered field is left behind, cooling toward the color the code calls loneliness cool. That divergence was never written into the rules. It was earned by them.",
   "cues": [
     {
-      "time_ms": 59200,
+      "time_ms": 6850,
+      "end_ms": 11355,
+      "hold_ms": 24602,
+      "line": 20,
+      "line_end": 20,
+      "target": null,
+      "context": "rule and developing a preference. Six hundred identical particles begin under identical instructions, and the artist's claim is"
+    },
+    {
+      "time_ms": 35027,
+      "end_ms": 37547,
+      "hold_ms": 39358,
+      "line": 324,
+      "line_end": 328,
+      "target": null,
+      "context": "authorship might not be opposites. The system never gets new instructions mid-run \u2014 it only gets time."
+    },
+    {
+      "time_ms": 50260,
+      "end_ms": 53232,
+      "hold_ms": 63345,
+      "line": 59,
+      "line_end": 59,
+      "target": "Map",
+      "context": "the code names attraction directly. Each seeker keeps a Map called affinities \u2014 proximity, repeated, converted into"
+    },
+    {
+      "time_ms": 57249,
       "end_ms": 59815,
-      "line": 119,
+      "hold_ms": 63345,
+      "line": 143,
+      "line_end": 143,
       "target": "GROW_RATE",
-      "context": "grows by a rate named grow rate and fades by decay rate"
+      "context": "\u2014 proximity, repeated, converted into a number that grows by a rate named grow rate and fades by decay rate"
     },
     {
-      "time_ms": 60895,
-      "end_ms": 61638,
-      "line": 120,
+      "time_ms": 60326,
+      "end_ms": 63345,
+      "hold_ms": 63345,
+      "line": 152,
+      "line_end": 152,
       "target": "DECAY_RATE",
-      "context": "grow rate and fades by decay rate when a neighbor drifts off."
+      "context": "rate named grow rate and fades by decay rate when a neighbor drifts off. Nowhere is \"friendship\" specified; only"
     },
     {
-      "time_ms": 81247,
+      "time_ms": 64285,
+      "end_ms": 68221,
+      "hold_ms": 70380,
+      "line": 115,
+      "line_end": 116,
+      "target": null,
+      "context": "when a neighbor drifts off. Nowhere is \"friendship\" specified; only memory is, and memory does the rest."
+    },
+    {
+      "time_ms": 78855,
       "end_ms": 82513,
-      "line": 28,
+      "hold_ms": 82513,
+      "line": 289,
+      "line_end": 291,
       "target": "lonelinessCool",
-      "context": "the color the code calls loneliness cool. That divergence was never written"
+      "context": "scattered field is left behind, cooling toward the color the code calls loneliness cool. That divergence was never written"
     }
   ]
 }

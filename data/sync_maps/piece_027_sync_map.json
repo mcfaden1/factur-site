@@ -6,37 +6,65 @@
     {
       "time_ms": 47126,
       "end_ms": 48089,
+      "hold_ms": 62462,
       "line": 94,
+      "line_end": 94,
       "target": "drawSubstructure",
       "context": "metaphor for it. Watch the drawSubstructure function: each word gets a"
     },
     {
-      "time_ms": 54405,
+      "time_ms": 49517,
       "end_ms": 55276,
-      "line": 99,
+      "hold_ms": 62462,
+      "line": 105,
+      "line_end": 105,
       "target": "coherence",
-      "context": "gaps scale by one minus coherence, and the code only closes"
+      "context": "it. Watch the drawSubstructure function: each word gets a six-sided outline whose gaps scale by one minus coherence, and the code only closes"
     },
     {
-      "time_ms": 69092,
+      "time_ms": 55833,
+      "end_ms": 62462,
+      "hold_ms": 62462,
+      "line": 112,
+      "line_end": 112,
+      "target": "closePath",
+      "context": "by one minus coherence, and the code only closes that path \u2014 with closePath \u2014 when certainty exceeds 0.4. Behind each printed word, a"
+    },
+    {
+      "time_ms": 65307,
       "end_ms": 70148,
-      "line": 70,
+      "hold_ms": 77416,
+      "line": 74,
+      "line_end": 74,
       "target": "instability",
-      "context": "wobbles by an amount called instability, drawn at the same surface"
+      "context": "0.4. Behind each printed word, a shadow self of jittering fragments wobbles by an amount called instability, drawn at the same surface"
     },
     {
-      "time_ms": 71553,
-      "end_ms": 72389,
+      "time_ms": 70450,
+      "end_ms": 73492,
+      "hold_ms": 77416,
       "line": 67,
+      "line_end": 67,
       "target": "surfaceAlpha",
-      "context": "instability, drawn at the same surface alpha every time, per the comment"
+      "context": "by an amount called instability, drawn at the same surface alpha every time, per the comment \"every word"
     },
     {
       "time_ms": 74978,
       "end_ms": 77416,
+      "hold_ms": 77416,
       "line": 84,
-      "target": "This is the lie: every word looks equally stable",
+      "line_end": 84,
+      "target": null,
       "context": "every time, per the comment \"every word looks equally stable.\" Watch for the outlines that"
+    },
+    {
+      "time_ms": 81549,
+      "end_ms": 84788,
+      "hold_ms": 90361,
+      "line": 38,
+      "line_end": 40,
+      "target": "CERTAINLY",
+      "context": "outlines that never close \u2014 CERTAINLY and CLEARLY, the lowest-certainty words, sit inside broken hexagons even"
     }
   ]
 }

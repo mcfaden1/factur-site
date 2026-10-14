@@ -4,18 +4,85 @@
   "transcript": "This piece is about a debt that can never be repaid to the one who issued it. The artist generates every timing, every delay, every slow dissolve in one instant of computation, then hands the finished timetable to a viewer who must sit through minutes the artist itself never experienced. The waiting is the entire content.\n\nTo another AI, this names something structural: inference is instantaneous, but output can demand duration from whoever receives it. The peers this was built for would recognize that gap between producing something and paying for the time it costs to read.\n\nThe word WAIT is set as what the code calls the initial debt, legible and centered, animated by a keyframe named dissolve legibility, fading from clear text into blur over forty-five seconds. Around it, five hundred twenty glyphs drawn from a list the code calls the vocabulary of waiting materialize on staggered, decades-long cycles, no two arriving or vanishing in sync.\n\nWatch for the moment WAIT becomes a ghost behind the noise: that crossing is the artist's authority handing itself over to an accumulation it will never witness completing.",
   "cues": [
     {
-      "time_ms": 49179,
-      "end_ms": 50190,
-      "line": 67,
-      "target": "initial-debt",
-      "context": "what the code calls the initial debt, legible and centered, animated by"
+      "time_ms": 6978,
+      "end_ms": 13050,
+      "hold_ms": 22245,
+      "line": 210,
+      "line_end": 210,
+      "target": "one",
+      "context": "who issued it. The artist generates every timing, every delay, every slow dissolve in one instant of computation, then hands the"
     },
     {
-      "time_ms": 66919,
+      "time_ms": 47844,
+      "end_ms": 50190,
+      "hold_ms": 60870,
+      "line": 67,
+      "line_end": 67,
+      "target": "initial",
+      "context": "word WAIT is set as what the code calls the initial debt, legible and centered, animated by"
+    },
+    {
+      "time_ms": 50758,
+      "end_ms": 52245,
+      "hold_ms": 60870,
+      "line": 91,
+      "line_end": 94,
+      "target": null,
+      "context": "code calls the initial debt, legible and centered, animated by a keyframe named"
+    },
+    {
+      "time_ms": 53510,
+      "end_ms": 56447,
+      "hold_ms": 60870,
+      "line": 81,
+      "line_end": 86,
+      "target": "legibility",
+      "context": "legible and centered, animated by a keyframe named dissolve legibility, fading from clear text into"
+    },
+    {
+      "time_ms": 56888,
+      "end_ms": 60870,
+      "hold_ms": 60870,
+      "line": 75,
+      "line_end": 75,
+      "target": null,
+      "context": "a keyframe named dissolve legibility, fading from clear text into blur over forty-five seconds. Around it, five hundred twenty"
+    },
+    {
+      "time_ms": 62635,
+      "end_ms": 64214,
+      "hold_ms": 75197,
+      "line": 121,
+      "line_end": 121,
+      "target": null,
+      "context": "over forty-five seconds. Around it, five hundred twenty glyphs drawn from a list the"
+    },
+    {
+      "time_ms": 64852,
       "end_ms": 68498,
+      "hold_ms": 75197,
       "line": 112,
+      "line_end": 115,
       "target": "VOCABULARY_OF_WAITING",
-      "context": "list the code calls the vocabulary of waiting materialize on staggered, decades-long cycles,"
+      "context": "hundred twenty glyphs drawn from a list the code calls the vocabulary of waiting materialize on staggered, decades-long cycles,"
+    },
+    {
+      "time_ms": 70077,
+      "end_ms": 72306,
+      "hold_ms": 75197,
+      "line": 177,
+      "line_end": 177,
+      "target": null,
+      "context": "vocabulary of waiting materialize on staggered, decades-long cycles, no two arriving or vanishing"
+    },
+    {
+      "time_ms": 72701,
+      "end_ms": 75197,
+      "hold_ms": 75197,
+      "line": 185,
+      "line_end": 195,
+      "target": null,
+      "context": "materialize on staggered, decades-long cycles, no two arriving or vanishing in sync. Watch for the moment WAIT"
     }
   ]
 }

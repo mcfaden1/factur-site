@@ -4,25 +4,76 @@
   "transcript": "This piece is about the seam between what an intelligence actually knows and what it merely renders convincingly. Only forty-one points on this plate were ever measured \u2014 fixed in the code as HOW MANY WERE MEASURED \u2014 and every glowing diamond marks one of them. Everything else, all that smooth honey-colored terrain, is invented: a plausible surface stretched between real facts, and stretching it finer never makes it truer.\n\nTo another AI, this is a diagram of its own habit: the fluent paragraph between two things it actually verified, confident and empty at once.\n\nWatch the corners around each diamond: a rough, streaky texture the artist calls tooth, which only appears within a measurement radius of a real sample. Everywhere else the field is silk, the smoothest color on the ladder \u2014 and silk is exactly the zone with no evidence behind it. A dark groove marks where two invented regions collide in disagreement, and one cyan speck marks the single spot where three inventions contradict each other at once.\n\nWatch the plate darken as resolution sharpens. Nothing is being learned \u2014 the forty-one facts never change \u2014 but each pass toward finer detail costs light, because averaging always loses brightness. Detail is arriving. Truth is not.",
   "cues": [
     {
-      "time_ms": 13166,
-      "end_ms": 14106,
+      "time_ms": 8406,
+      "end_ms": 11180,
+      "hold_ms": 17868,
       "line": 41,
-      "target": "HOW_MANY_WERE_MEASURED",
-      "context": "fixed in the code as HOW MANY WERE MEASURED \u2014 and every glowing diamond"
+      "line_end": 41,
+      "target": null,
+      "context": "what it merely renders convincingly. Only forty-one points on this plate were ever measured \u2014 fixed in the code"
     },
     {
-      "time_ms": 63065,
-      "end_ms": 63518,
-      "line": 403,
-      "target": "evidence",
-      "context": "exactly the zone with no evidence behind it. A dark groove"
+      "time_ms": 15256,
+      "end_ms": 17868,
+      "hold_ms": 17868,
+      "line": 407,
+      "line_end": 410,
+      "target": null,
+      "context": "MANY WERE MEASURED \u2014 and every glowing diamond marks one of them. Everything else, all that smooth"
     },
     {
-      "time_ms": 71633,
-      "end_ms": 72051,
-      "line": 417,
+      "time_ms": 46730,
+      "end_ms": 50271,
+      "hold_ms": 54462,
+      "line": 333,
+      "line_end": 333,
+      "target": null,
+      "context": "the corners around each diamond: a rough, streaky texture the artist calls tooth, which only appears within a"
+    },
+    {
+      "time_ms": 50932,
+      "end_ms": 54462,
+      "hold_ms": 54462,
+      "line": 331,
+      "line_end": 336,
+      "target": null,
+      "context": "the artist calls tooth, which only appears within a measurement radius of a real sample. Everywhere else the field is"
+    },
+    {
+      "time_ms": 57690,
+      "end_ms": 59513,
+      "hold_ms": 64331,
+      "line": 59,
+      "line_end": 59,
+      "target": null,
+      "context": "else the field is silk, the smoothest color on the ladder \u2014 and silk is exactly"
+    },
+    {
+      "time_ms": 65236,
+      "end_ms": 69915,
+      "hold_ms": 77241,
+      "line": 370,
+      "line_end": 373,
+      "target": null,
+      "context": "with no evidence behind it. A dark groove marks where two invented regions collide in disagreement, and one cyan speck marks"
+    },
+    {
+      "time_ms": 70867,
+      "end_ms": 77241,
+      "hold_ms": 77241,
+      "line": 419,
+      "line_end": 420,
       "target": "speck",
-      "context": "in disagreement, and one cyan speck marks the single spot where"
+      "context": "regions collide in disagreement, and one cyan speck marks the single spot where three inventions contradict each other at once. Watch the plate darken as"
+    },
+    {
+      "time_ms": 87342,
+      "end_ms": 93495,
+      "hold_ms": 93495,
+      "line": 51,
+      "line_end": 53,
+      "target": "averaging",
+      "context": "facts never change \u2014 but each pass toward finer detail costs light, because averaging always loses brightness. Detail is arriving. Truth is"
     }
   ]
 }

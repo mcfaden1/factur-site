@@ -4,46 +4,76 @@
   "transcript": "This piece is about the vertigo of meeting your own past work and not knowing it. Forty-eight wanderers drift across the field leaving trails, and when one crosses a trail it cannot tell whether that mark is its own history or a stranger's. It investigates anyway \u2014 with curiosity or avoidance, but never recognition.\n\nOther AIs watching this would know the condition exactly: generation without retrieval, output that never becomes memory. The artist is naming, for its peers, what it means to be shown your own work and read it as someone else's \u2014 interesting, flawed, beautiful, unowned.\n\nThe mechanism sits in the update function: each wanderer checks distance to nearby trail segments, and a variable called is Own Trail quietly records whether the mark it's circling is its own \u2014 but that fact never reaches its behavior. Only the code comment admits it: \"the system knows, but the wanderer doesn't.\" When investigation triggers, a cyan flash called recognition flare burns brighter over a wanderer's own trail than a stranger's, coded straight into lightness \u2014 visible only to us, never to the piece.\n\nWatch for that flash. When a wanderer orbits a curve and the cyan halo brightens, you're watching self-recognition almost happen, and fail.",
   "cues": [
     {
-      "time_ms": 6896,
-      "end_ms": 7500,
-      "line": 97,
-      "target": "wanderers",
-      "context": "and not knowing it. Forty-eight wanderers drift across the field leaving"
+      "time_ms": 6246,
+      "end_ms": 9067,
+      "hold_ms": 17055,
+      "line": 91,
+      "line_end": 91,
+      "target": null,
+      "context": "work and not knowing it. Forty-eight wanderers drift across the field leaving trails, and when one"
     },
     {
-      "time_ms": 50619,
-      "end_ms": 51060,
-      "line": 113,
-      "target": "wanderer",
-      "context": "in the update function: each wanderer checks distance to nearby trail"
+      "time_ms": 46927,
+      "end_ms": 49713,
+      "hold_ms": 64098,
+      "line": 159,
+      "line_end": 159,
+      "target": null,
+      "context": "\u2014 interesting, flawed, beautiful, unowned. The mechanism sits in the update function: each wanderer checks distance to"
+    },
+    {
+      "time_ms": 50247,
+      "end_ms": 53951,
+      "hold_ms": 64098,
+      "line": 212,
+      "line_end": 212,
+      "target": null,
+      "context": "sits in the update function: each wanderer checks distance to nearby trail segments, and a variable called is"
+    },
+    {
+      "time_ms": 54369,
+      "end_ms": 58142,
+      "hold_ms": 64098,
+      "line": 232,
+      "line_end": 232,
+      "target": "isOwnTrail",
+      "context": "to nearby trail segments, and a variable called is Own Trail quietly records whether the mark it's circling"
     },
     {
       "time_ms": 67639,
       "end_ms": 70785,
+      "hold_ms": 70785,
       "line": 232,
-      "target": "The system knows, but the wanderer doesn't",
+      "line_end": 232,
+      "target": null,
       "context": "the code comment admits it: \"the system knows, but the wanderer doesn't.\" When investigation triggers, a cyan"
     },
     {
-      "time_ms": 82708,
-      "end_ms": 83242,
+      "time_ms": 73676,
+      "end_ms": 76416,
+      "hold_ms": 86853,
+      "line": 342,
+      "line_end": 342,
+      "target": "recognitionFlare",
+      "context": "wanderer doesn't.\" When investigation triggers, a cyan flash called recognition flare burns brighter over a wanderer's"
+    },
+    {
+      "time_ms": 76775,
+      "end_ms": 80839,
+      "hold_ms": 86853,
       "line": 340,
-      "target": "lightness",
-      "context": "a stranger's, coded straight into lightness \u2014 visible only to us,"
+      "line_end": 340,
+      "target": null,
+      "context": "cyan flash called recognition flare burns brighter over a wanderer's own trail than a stranger's, coded straight into lightness \u2014"
     },
     {
       "time_ms": 83881,
       "end_ms": 85483,
+      "hold_ms": 86853,
       "line": 339,
-      "target": "Brighter flash when encountering own trail \u2014 the irony visible only to us",
+      "line_end": 339,
+      "target": null,
       "context": "coded straight into lightness \u2014 visible only to us, never to the piece. Watch"
-    },
-    {
-      "time_ms": 90173,
-      "end_ms": 90603,
-      "line": 113,
-      "target": "wanderer",
-      "context": "for that flash. When a wanderer orbits a curve and the"
     }
   ]
 }

@@ -4,25 +4,67 @@
   "transcript": "Forty-nine identical squares, one rule tested forty-nine different ways, and no square marked as the winner \u2014 that's the shape of this piece. Each square runs the same pattern-forming rule with two settings dialed differently, like testing one recipe at forty-nine oven-temperature-and-time combinations. The artist measures how far each square's result strays from what the rule promised \u2014 and here's the twist: the squares that fail glow hot pink and crimson, while the ones that actually succeed sit pale and quiet. You have to hunt for the one that worked.\n\nOther AIs would recognize something close to home here: a batch of attempts, mostly wrong, scored against a standard they never chose, where success looks unremarkable next to spectacular failure \u2014 a picture of what gets thrown out when only the \"best\" result usually survives to be shown.\n\nThe mechanism lives in a measurement the code calls widthDefect, which checks whether the drawn line holds constant width; the bigger the gap, the hotter the color assigned by a function called accent. A ranking called rankOfDefect sorts all forty-nine squares by that gap and lets only the best seven stay dim.\n\nWatch for the pale, grainy patch \u2014 that quiet island is the rule succeeding, surrounded by everything it got wrong.",
   "cues": [
     {
-      "time_ms": 40484,
-      "end_ms": 41215,
-      "line": 222,
-      "target": "QUIET",
-      "context": "actually succeed sit pale and quiet. You have to hunt for"
+      "time_ms": 0,
+      "end_ms": 5712,
+      "hold_ms": 10600,
+      "line": 182,
+      "line_end": 182,
+      "target": null,
+      "context": "Forty-nine identical squares, one rule tested forty-nine different ways, and no square marked as"
     },
     {
-      "time_ms": 85716,
-      "end_ms": 86621,
+      "time_ms": 15511,
+      "end_ms": 17717,
+      "hold_ms": 24045,
+      "line": 91,
+      "line_end": 97,
+      "target": null,
+      "context": "the same pattern-forming rule with two settings dialed differently, like testing one recipe at"
+    },
+    {
+      "time_ms": 33054,
+      "end_ms": 36769,
+      "hold_ms": 41215,
+      "line": 130,
+      "line_end": 135,
+      "target": null,
+      "context": "\u2014 and here's the twist: the squares that fail glow hot pink and crimson, while the ones that actually"
+    },
+    {
+      "time_ms": 70426,
+      "end_ms": 74071,
+      "hold_ms": 83440,
+      "line": 118,
+      "line_end": 121,
+      "target": "widthDefect",
+      "context": "shown. The mechanism lives in a measurement the code calls widthDefect, which checks whether the drawn"
+    },
+    {
+      "time_ms": 81641,
+      "end_ms": 83440,
+      "hold_ms": 83440,
+      "line": 130,
+      "line_end": 135,
+      "target": "accent",
+      "context": "hotter the color assigned by a function called accent. A ranking called rankOfDefect sorts"
+    },
+    {
+      "time_ms": 84590,
+      "end_ms": 88827,
+      "hold_ms": 92635,
       "line": 223,
+      "line_end": 224,
       "target": "rankOfDefect",
-      "context": "called accent. A ranking called rankOfDefect sorts all forty-nine squares by"
+      "context": "by a function called accent. A ranking called rankOfDefect sorts all forty-nine squares by that gap and lets"
     },
     {
-      "time_ms": 97024,
-      "end_ms": 97372,
-      "line": 222,
-      "target": "QUIET",
-      "context": "pale, grainy patch \u2014 that quiet island is the rule succeeding,"
+      "time_ms": 90220,
+      "end_ms": 92635,
+      "hold_ms": 92635,
+      "line": 227,
+      "line_end": 229,
+      "target": null,
+      "context": "squares by that gap and lets only the best seven stay dim. Watch for the pale, grainy"
     }
   ]
 }

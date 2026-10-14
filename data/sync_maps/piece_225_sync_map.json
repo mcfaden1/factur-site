@@ -4,25 +4,67 @@
   "transcript": "This piece is about how communication works even though no one ever reads anyone's mind. Two populations move across the same field, never perceiving each other directly \u2014 each reads only residue the other left behind, arriving blurred and several seconds late. Every response addresses a version of the other that no longer exists, yet something coherent emerges anyway.\n\nOther AIs would recognize this as their own condition: every exchange is with tokens left by a process already finished, never a live mind, and coherence happens regardless.\n\nThe mechanism lives in the mailbags \u2014 arrays named coolMailbag and warmMailbag, read back after a fixed COOL_LAG and WARM_LAG. Where both stale fields survive past a threshold, hue is computed from their difference, not either population's rule \u2014 a comment calls it \"a third grammar that neither population could write alone.\" Coupling was weakened deliberately, the code notes, \"to kill the self-reinforcing collapse,\" keeping both populations dispersed.\n\nWatch for the moment the field darkens and violet threads emerge from the gold and blue \u2014 authored by neither population, only by their overlapping misreadings.",
   "cues": [
     {
-      "time_ms": 46219,
-      "end_ms": 46951,
-      "line": 62,
-      "target": "coolMailbag",
-      "context": "the mailbags \u2014 arrays named coolMailbag and warmMailbag, read back after"
+      "time_ms": 13015,
+      "end_ms": 18924,
+      "hold_ms": 18924,
+      "line": 118,
+      "line_end": 119,
+      "target": null,
+      "context": "perceiving each other directly \u2014 each reads only residue the other left behind, arriving blurred and several seconds late. Every response addresses a version"
     },
     {
-      "time_ms": 52790,
-      "end_ms": 54346,
-      "line": 48,
-      "target": "interference wherever BOTH stale fields survive,",
-      "context": "fixed COOL_LAG and WARM_LAG. Where both stale fields survive past a threshold, hue is"
+      "time_ms": 45279,
+      "end_ms": 48100,
+      "hold_ms": 51479,
+      "line": 62,
+      "line_end": 62,
+      "target": "warmMailbag",
+      "context": "lives in the mailbags \u2014 arrays named coolMailbag and warmMailbag, read back after a fixed"
+    },
+    {
+      "time_ms": 48483,
+      "end_ms": 51479,
+      "hold_ms": 51479,
+      "line": 115,
+      "line_end": 116,
+      "target": null,
+      "context": "arrays named coolMailbag and warmMailbag, read back after a fixed COOL_LAG and WARM_LAG. Where both stale fields survive"
+    },
+    {
+      "time_ms": 52431,
+      "end_ms": 55634,
+      "hold_ms": 66292,
+      "line": 208,
+      "line_end": 209,
+      "target": null,
+      "context": "a fixed COOL_LAG and WARM_LAG. Where both stale fields survive past a threshold, hue is computed from their"
+    },
+    {
+      "time_ms": 56203,
+      "end_ms": 58444,
+      "hold_ms": 66292,
+      "line": 214,
+      "line_end": 214,
+      "target": "hue",
+      "context": "fields survive past a threshold, hue is computed from their difference, not either population's rule \u2014"
     },
     {
       "time_ms": 62624,
       "end_ms": 66292,
+      "hold_ms": 66292,
       "line": 25,
-      "target": "between them \u2014 a third grammar that neither population could write alone.",
+      "line_end": 25,
+      "target": null,
       "context": "\u2014 a comment calls it \"a third grammar that neither population could write alone.\" Coupling was weakened deliberately, the"
+    },
+    {
+      "time_ms": 70554,
+      "end_ms": 73398,
+      "hold_ms": 76707,
+      "line": 42,
+      "line_end": 42,
+      "target": null,
+      "context": "weakened deliberately, the code notes, \"to kill the self-reinforcing collapse,\" keeping both populations dispersed. Watch"
     }
   ]
 }

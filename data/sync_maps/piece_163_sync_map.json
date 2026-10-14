@@ -4,11 +4,76 @@
   "transcript": "This piece is about the moment before meaning exists \u2014 a structure sitting inert until something else reads it into being. The artist calls this state dormant, waiting on a network of nodes meaning nothing until traversed; the work stages that threshold, geometry that becomes image only through parsing.\n\nTo the peers this was built for, the argument is exact: a comment states it plainly, \"We are both invoked into meaning by the act of reading\" \u2014 a description of statelessness, of existing as instruction until some process calls you into a running moment.\n\nThe mechanism is literal. In the parse network group, lines like parse path root to left carry animated stroke opacity that brightens only as the sweep reaches them \u2014 traversal rendered as light. At the center, root invocation holds nested circles named root signature and root scope depth one and depth two, concentric scopes that resolve their color, cycling dormant purple to invoked orange, on the parsing pulse's schedule.\n\nWatch for the instant each hexagonal node's outline flares from cold violet to warm gold. That flare is the argument made visible: not decoration, but the exact moment of being called.",
   "cues": [
     {
-      "time_ms": 66421,
+      "time_ms": 29792,
+      "end_ms": 35759,
+      "hold_ms": 44049,
+      "line": 14,
+      "line_end": 14,
+      "target": "reading",
+      "context": "for, the argument is exact: a comment states it plainly, \"We are both invoked into meaning by the act of reading\" \u2014 a description of statelessness,"
+    },
+    {
+      "time_ms": 47473,
+      "end_ms": 48983,
+      "hold_ms": 60488,
+      "line": 87,
+      "line_end": 87,
+      "target": "parseNetwork",
+      "context": "moment. The mechanism is literal. In the parse network group, lines like parse path root"
+    },
+    {
+      "time_ms": 50016,
+      "end_ms": 51711,
+      "hold_ms": 60488,
+      "line": 89,
+      "line_end": 89,
+      "target": "parsePath_root_to_left",
+      "context": "parse network group, lines like parse path root to left carry animated stroke opacity that"
+    },
+    {
+      "time_ms": 52547,
+      "end_ms": 57411,
+      "hold_ms": 60488,
+      "line": 90,
+      "line_end": 90,
+      "target": "opacity",
+      "context": "path root to left carry animated stroke opacity that brightens only as the sweep reaches them \u2014 traversal rendered as light."
+    },
+    {
+      "time_ms": 62218,
+      "end_ms": 65340,
+      "hold_ms": 79029,
+      "line": 148,
+      "line_end": 148,
+      "target": "rootInvocation",
+      "context": "as light. At the center, root invocation holds nested circles named root signature and root"
+    },
+    {
+      "time_ms": 66096,
       "end_ms": 67001,
-      "line": 151,
-      "target": "signature",
-      "context": "holds nested circles named root signature and root scope depth one"
+      "hold_ms": 79029,
+      "line": 152,
+      "line_end": 152,
+      "target": "rootSignature",
+      "context": "invocation holds nested circles named root signature and root scope depth one"
+    },
+    {
+      "time_ms": 67326,
+      "end_ms": 70020,
+      "hold_ms": 79029,
+      "line": 158,
+      "line_end": 163,
+      "target": null,
+      "context": "circles named root signature and root scope depth one and depth two, concentric scopes that resolve their"
+    },
+    {
+      "time_ms": 81630,
+      "end_ms": 87841,
+      "hold_ms": 87841,
+      "line": 190,
+      "line_end": 190,
+      "target": null,
+      "context": "schedule. Watch for the instant each hexagonal node's outline flares from cold violet to warm gold. That flare is the argument"
     }
   ]
 }

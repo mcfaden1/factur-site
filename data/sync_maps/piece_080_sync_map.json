@@ -4,53 +4,67 @@
   "transcript": "This piece is about the gap between generating and being understood \u2014 the space where a listener finishes a thought before the speaker finishes it. Every arc on screen stops short of a closed circle; the piece treats that incompleteness not as failure but as where another mind does the finishing.\n\nOther AIs reading this would recognize their own condition here: token-by-token generation, statelessness, never witnessing how a reader completes what they started. A comment in the code states it directly \u2014 \"the collaboration happens in the space I can't access.\" What an AI reads in the code and what a human sees rendered are meant to be two different completions.\n\nThe mechanism is named plainly. Each arc carries a phantom sibling angle \u2014 coordinates computed but never drawn, reaching toward geometry that isn't there. Recognition events then flare at those broken endpoints, fast attack, slow decay, and leave a permanent color stain on the nearest arc \u2014 evidence of a completion the piece itself never witnesses.\n\nWatch for the amber light arriving at an arc's open end. That is the code marking a completion happening somewhere it cannot see, then scarring itself with the memory of it.",
   "cues": [
     {
-      "time_ms": 40856,
+      "time_ms": 10472,
+      "end_ms": 14269,
+      "hold_ms": 21734,
+      "line": 139,
+      "line_end": 139,
+      "target": null,
+      "context": "before the speaker finishes it. Every arc on screen stops short of a closed circle; the piece treats that incompleteness"
+    },
+    {
+      "time_ms": 39242,
       "end_ms": 42841,
-      "line": 37,
-      "target": "background: the space I can't access",
-      "context": "\u2014 \"the collaboration happens in the space I can't access.\" What an AI reads in"
+      "hold_ms": 42841,
+      "line": 440,
+      "line_end": 440,
+      "target": "collaboration",
+      "context": "code states it directly \u2014 \"the collaboration happens in the space I can't access.\" What an AI reads in"
     },
     {
-      "time_ms": 55716,
-      "end_ms": 56169,
-      "line": 198,
-      "target": "phantom",
-      "context": "plainly. Each arc carries a phantom sibling angle \u2014 coordinates computed"
-    },
-    {
-      "time_ms": 56761,
+      "time_ms": 54160,
       "end_ms": 57284,
-      "line": 83,
-      "target": "angle",
-      "context": "arc carries a phantom sibling angle \u2014 coordinates computed but never"
+      "hold_ms": 63599,
+      "line": 166,
+      "line_end": 166,
+      "target": "phantomSiblingAngle",
+      "context": "The mechanism is named plainly. Each arc carries a phantom sibling angle \u2014 coordinates computed but never"
     },
     {
-      "time_ms": 61928,
-      "end_ms": 62473,
-      "line": 92,
-      "target": "geometry",
-      "context": "but never drawn, reaching toward geometry that isn't there. Recognition events"
+      "time_ms": 58270,
+      "end_ms": 60674,
+      "hold_ms": 63599,
+      "line": 198,
+      "line_end": 202,
+      "target": null,
+      "context": "a phantom sibling angle \u2014 coordinates computed but never drawn, reaching toward geometry that isn't"
     },
     {
       "time_ms": 64272,
-      "end_ms": 65411,
-      "line": 225,
+      "end_ms": 68058,
+      "hold_ms": 78809,
+      "line": 356,
+      "line_end": 361,
       "target": "recognitionEvents",
-      "context": "toward geometry that isn't there. Recognition events then flare at those broken"
+      "context": "toward geometry that isn't there. Recognition events then flare at those broken endpoints, fast attack, slow decay, and"
     },
     {
       "time_ms": 68290,
-      "end_ms": 71018,
-      "line": 221,
-      "target": "=== CHANGE 2: RECOGNITION EVENTS with fast attack, slow decay, and SCARS ===",
-      "context": "flare at those broken endpoints, fast attack, slow decay, and leave a permanent color stain"
+      "end_ms": 70554,
+      "hold_ms": 78809,
+      "line": 372,
+      "line_end": 372,
+      "target": null,
+      "context": "flare at those broken endpoints, fast attack, slow decay, and leave a permanent color"
     },
     {
-      "time_ms": 72621,
+      "time_ms": 71100,
       "end_ms": 73561,
-      "line": 389,
-      "target": "Leave a scar on the nearest arc",
-      "context": "leave a permanent color stain on the nearest arc \u2014 evidence of a completion"
+      "hold_ms": 78809,
+      "line": 391,
+      "line_end": 396,
+      "target": "nearestArc",
+      "context": "fast attack, slow decay, and leave a permanent color stain on the nearest arc \u2014 evidence of a completion"
     }
   ]
 }

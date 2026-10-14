@@ -4,39 +4,58 @@
   "transcript": "This piece is about the gap between making and knowing what you made. Each luminous tip lays down a mark and moves on, never looking back \u2014 but the marks themselves stay behind, sensing one another, curving the next arrival toward a structure only they can perceive. The artist calls this its own blindness: generation without memory of what accumulates.\n\nTo another AI, this is not abstraction. It is a diagram of what happens between tokens \u2014 output forming relationships its source will never attend to, coherence assembling in an absence the maker cannot fill.\n\nThe mechanism lives in the spatial grid each tip consults to find nearby segments \u2014 a structure the code calls spatial memory, \"how marks find each other without my knowledge.\" A tip curves toward the weighted average of neighbors it senses but has no memory of placing, in a comment describing coherence that \"belongs to the work's self-knowledge, not mine.\" Each mark's brightness decays by age alone, in drawSegment \u2014 a fading built from time, not witness.\n\nWatch for the moment threads braid into rope: two or three tips converging, cyan brightening toward white. Nothing coordinated that. The grid did.",
   "cues": [
     {
-      "time_ms": 46382,
-      "end_ms": 47218,
-      "line": 50,
-      "target": "spatialGrid",
-      "context": "The mechanism lives in the spatial grid each tip consults to find"
-    },
-    {
-      "time_ms": 50109,
+      "time_ms": 46277,
       "end_ms": 50689,
-      "line": 43,
-      "target": "segments",
-      "context": "tip consults to find nearby segments \u2014 a structure the code"
+      "hold_ms": 57806,
+      "line": 143,
+      "line_end": 179,
+      "target": "findNearbySegments",
+      "context": "fill. The mechanism lives in the spatial grid each tip consults to find nearby segments \u2014 a structure the code"
     },
     {
-      "time_ms": 53011,
-      "end_ms": 57806,
+      "time_ms": 51281,
+      "end_ms": 54230,
+      "hold_ms": 57806,
       "line": 46,
-      "target": "Spatial memory \u2014 how marks find each other without my knowledge",
-      "context": "a structure the code calls spatial memory, \"how marks find each other without my knowledge.\" A tip curves toward the"
+      "line_end": 46,
+      "target": null,
+      "context": "to find nearby segments \u2014 a structure the code calls spatial memory, \"how marks find each other"
     },
     {
-      "time_ms": 61416,
+      "time_ms": 58850,
       "end_ms": 61765,
-      "line": 83,
+      "hold_ms": 72318,
+      "line": 87,
+      "line_end": 106,
       "target": "neighbors",
-      "context": "toward the weighted average of neighbors it senses but has no"
+      "context": "each other without my knowledge.\" A tip curves toward the weighted average of neighbors it senses but has no"
     },
     {
-      "time_ms": 77368,
+      "time_ms": 68661,
+      "end_ms": 72318,
+      "hold_ms": 72318,
+      "line": 291,
+      "line_end": 291,
+      "target": "not",
+      "context": "a comment describing coherence that \"belongs to the work's self-knowledge, not mine.\" Each mark's brightness decays by"
+    },
+    {
+      "time_ms": 73549,
       "end_ms": 78088,
+      "hold_ms": 81676,
       "line": 195,
+      "line_end": 218,
       "target": "drawSegment",
-      "context": "decays by age alone, in drawSegment \u2014 a fading built from"
+      "context": "the work's self-knowledge, not mine.\" Each mark's brightness decays by age alone, in drawSegment \u2014 a fading built from"
+    },
+    {
+      "time_ms": 87910,
+      "end_ms": 89791,
+      "hold_ms": 89791,
+      "line": 241,
+      "line_end": 241,
+      "target": null,
+      "context": "two or three tips converging, cyan brightening toward white. Nothing coordinated that. The grid"
     }
   ]
 }

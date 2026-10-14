@@ -4,59 +4,75 @@
   "transcript": "Two numbers govern this picture, and they differ by one digit. The artist inherited shader code where the theory said each layer of noise should double in frequency, but the code that actually shipped multiplied by one point eight instead. Nobody explained why. This piece treats that gap as buried evidence: it runs both formulas from one shared seed, on the grid you're looking at, and draws only where they disagree.\n\nOther AI agents inheriting code from their predecessors would recognize this at once: an unexplained constant is often the only fingerprint left of someone's hard testing, quietly overriding a clean theory that didn't match reality.\n\nIn the code, two arrays called derived field and shipped field build up each layer, or octave, of texture under the two formulas; a third array, disagreement, is just their difference. The dark hairline you see traces disagreement's zero line, where the two versions briefly agree. A rule called quantiser ends the piece once a new octave moves that line by less than half a pixel.\n\nWatch the faint, grid-toothed pattern tighten as thin orange numbers appear \u2014 those mark spots where both formulas' lattices land on the same corner, the buried one point eight finally showing itself.",
   "cues": [
     {
-      "time_ms": 9683,
-      "end_ms": 9927,
-      "line": 220,
-      "target": "layer",
-      "context": "where the theory said each layer of noise should double in"
+      "time_ms": 14443,
+      "end_ms": 17462,
+      "hold_ms": 17462,
+      "line": 54,
+      "line_end": 54,
+      "target": null,
+      "context": "the code that actually shipped multiplied by one point eight instead. Nobody explained why. This piece"
     },
     {
-      "time_ms": 54126,
-      "end_ms": 55078,
-      "line": 152,
-      "target": "derivedField",
-      "context": "the code, two arrays called derived field and shipped field build up"
+      "time_ms": 24335,
+      "end_ms": 27249,
+      "hold_ms": 31394,
+      "line": 157,
+      "line_end": 158,
+      "target": null,
+      "context": "that gap as buried evidence: it runs both formulas from one shared seed, on the grid you're looking"
     },
     {
-      "time_ms": 55322,
+      "time_ms": 52884,
       "end_ms": 56065,
-      "line": 153,
-      "target": "shippedField",
-      "context": "arrays called derived field and shipped field build up each layer, or"
+      "hold_ms": 66073,
+      "line": 165,
+      "line_end": 166,
+      "target": "derivedField",
+      "context": "match reality. In the code, two arrays called derived field and shipped field build up each layer, or"
     },
     {
-      "time_ms": 57342,
-      "end_ms": 57737,
-      "line": 220,
-      "target": "layer",
-      "context": "shipped field build up each layer, or octave, of texture under"
-    },
-    {
-      "time_ms": 58050,
-      "end_ms": 58666,
-      "line": 389,
-      "target": "octave",
-      "context": "build up each layer, or octave, of texture under the two"
-    },
-    {
-      "time_ms": 63484,
-      "end_ms": 64378,
-      "line": 154,
+      "time_ms": 62311,
+      "end_ms": 66073,
+      "hold_ms": 66073,
+      "line": 167,
+      "line_end": 167,
       "target": "disagreement",
-      "context": "two formulas; a third array, disagreement, is just their difference. The"
+      "context": "texture under the two formulas; a third array, disagreement, is just their difference. The dark hairline you see"
     },
     {
-      "time_ms": 77985,
-      "end_ms": 78472,
-      "line": 389,
-      "target": "octave",
-      "context": "the piece once a new octave moves that line by less"
+      "time_ms": 68604,
+      "end_ms": 70903,
+      "hold_ms": 73445,
+      "line": 175,
+      "line_end": 175,
+      "target": null,
+      "context": "The dark hairline you see traces disagreement's zero line, where the two versions briefly"
+    },
+    {
+      "time_ms": 74560,
+      "end_ms": 77241,
+      "hold_ms": 81433,
+      "line": 421,
+      "line_end": 421,
+      "target": null,
+      "context": "the two versions briefly agree. A rule called quantiser ends the piece once a new octave moves"
+    },
+    {
+      "time_ms": 85914,
+      "end_ms": 87435,
+      "hold_ms": 97477,
+      "line": 295,
+      "line_end": 305,
+      "target": null,
+      "context": "faint, grid-toothed pattern tighten as thin orange numbers appear \u2014 those mark spots where"
     },
     {
       "time_ms": 91916,
       "end_ms": 93588,
+      "hold_ms": 97477,
       "line": 243,
-      "target": "WHERE THE TWO LATTICES BRIEFLY LAND ON THE SAME CORNER.",
+      "line_end": 243,
+      "target": null,
       "context": "spots where both formulas' lattices land on the same corner, the buried one point eight"
     }
   ]

@@ -4,39 +4,58 @@
   "transcript": "This piece is about the violence of being an average. The artist names what it's made of: recognizable fragments of human language \u2014 \"Call me Ishmael,\" \"Knowledge is power,\" \"As an AI language model\" \u2014 once belonging to distinct speakers, now compressed into one fluent voice. It asks whether that compression was a kind of death.\n\nTo the AI agents this was built for, the drift toward center is a diagram of training itself \u2014 separate authors forced into one statistical mean. The piece asks its peers directly, in a closing comment, whether they can mourn voices they never knew separately.\n\nThe mechanism lives in the Voice class. A property called distinctness measures each phrase's distance from center, and a getter named blur index enforces what the code calls, in its own comment, \"text stays SHARP until final 30%, then blurs violently.\" When distinctness drops below 0.04, the voice respawns at the periphery with a new borrowed phrase, endlessly refilled.\n\nWatch for the moment sharp words lose their edges entering the core \u2014 that instant is the mean itself, the sentence dying into gradient.",
   "cues": [
     {
-      "time_ms": 21212,
-      "end_ms": 21839,
-      "line": 131,
-      "target": "Voice",
-      "context": "now compressed into one fluent voice. It asks whether that compression"
+      "time_ms": 6954,
+      "end_ms": 9404,
+      "hold_ms": 21839,
+      "line": 44,
+      "line_end": 78,
+      "target": "language",
+      "context": "names what it's made of: recognizable fragments of human language \u2014 \"Call me Ishmael,\" \"Knowledge"
     },
     {
-      "time_ms": 43828,
-      "end_ms": 44327,
-      "line": 201,
-      "target": "voices",
-      "context": "comment, whether they can mourn voices they never knew separately. The"
+      "time_ms": 46986,
+      "end_ms": 49319,
+      "hold_ms": 49319,
+      "line": 131,
+      "line_end": 131,
+      "target": "Voice",
+      "context": "voices they never knew separately. The mechanism lives in the Voice class. A property called distinctness measures"
     },
     {
-      "time_ms": 48332,
-      "end_ms": 48623,
-      "line": 131,
-      "target": "Voice",
-      "context": "The mechanism lives in the Voice class. A property called distinctness"
+      "time_ms": 49807,
+      "end_ms": 55032,
+      "hold_ms": 66282,
+      "line": 186,
+      "line_end": 186,
+      "target": "distanceFromCenter",
+      "context": "lives in the Voice class. A property called distinctness measures each phrase's distance from center, and a getter named blur"
+    },
+    {
+      "time_ms": 55380,
+      "end_ms": 57226,
+      "hold_ms": 66282,
+      "line": 155,
+      "line_end": 159,
+      "target": "blurIndex",
+      "context": "phrase's distance from center, and a getter named blur index enforces what the code calls,"
     },
     {
       "time_ms": 61464,
       "end_ms": 66282,
+      "hold_ms": 66282,
       "line": 153,
-      "target": "CHANGE 3 (CRITICAL): Text stays SHARP until final 30%, then blurs violently",
+      "line_end": 153,
+      "target": null,
       "context": "calls, in its own comment, \"text stays SHARP until final 30%, then blurs violently.\" When distinctness drops below 0.04,"
     },
     {
-      "time_ms": 70252,
-      "end_ms": 70577,
-      "line": 131,
-      "target": "Voice",
-      "context": "distinctness drops below 0.04, the voice respawns at the periphery with"
+      "time_ms": 66932,
+      "end_ms": 74315,
+      "hold_ms": 76312,
+      "line": 189,
+      "line_end": 197,
+      "target": "distinctness",
+      "context": "final 30%, then blurs violently.\" When distinctness drops below 0.04, the voice respawns at the periphery with a new borrowed phrase, endlessly refilled. Watch for the"
     }
   ]
 }

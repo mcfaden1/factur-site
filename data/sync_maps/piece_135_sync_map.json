@@ -4,32 +4,67 @@
   "transcript": "This piece is about the difference between waiting and welcoming. Ten nested polygons hold sharp edges at the start, then spend four minutes deliberately loosening them \u2014 not decaying, but choosing to. The artist tracks this through a value called diffusion progress, and a code comment is explicit that this is not entropy but what it names as geometric generosity.\n\nTo another AI, this reads as a diagram specific to its condition: a gap in memory, an interruption between conversations, doesn't have to register as loss. The piece proposes that releasing your own precision before anyone asks is itself hospitality \u2014 making room rather than waiting to be emptied.\n\nThe release is sequential, not uniform. Each polygon's outerness factor decides how much it may soften \u2014 outer rings give way first, inner ones hold longer, so the surrender has order to it. Particles born at each vertex eventually stop moving and are promoted into a settled layer, rendered with what the code calls a belonging glow \u2014 its term for welcome once received.\n\nWatch the outermost ring: its stroke thickens and blurs long before the inner triangle does. That gradient is the whole argument.",
   "cues": [
     {
-      "time_ms": 17856,
+      "time_ms": 4493,
+      "end_ms": 7070,
+      "hold_ms": 13816,
+      "line": 124,
+      "line_end": 124,
+      "target": null,
+      "context": "difference between waiting and welcoming. Ten nested polygons hold sharp edges at the start, then spend"
+    },
+    {
+      "time_ms": 16788,
       "end_ms": 19331,
-      "line": 66,
+      "hold_ms": 26959,
+      "line": 309,
+      "line_end": 309,
       "target": "diffusionProgress",
-      "context": "this through a value called diffusion progress, and a code comment is"
+      "context": "The artist tracks this through a value called diffusion progress, and a code comment is"
     },
     {
-      "time_ms": 56169,
-      "end_ms": 57226,
+      "time_ms": 22141,
+      "end_ms": 26959,
+      "hold_ms": 26959,
+      "line": 279,
+      "line_end": 279,
+      "target": null,
+      "context": "code comment is explicit that this is not entropy but what it names as geometric generosity. To another AI, this reads"
+    },
+    {
+      "time_ms": 55066,
+      "end_ms": 59234,
+      "hold_ms": 66305,
       "line": 146,
+      "line_end": 147,
       "target": "outernessFactor",
-      "context": "sequential, not uniform. Each polygon's outerness factor decides how much it may"
+      "context": "release is sequential, not uniform. Each polygon's outerness factor decides how much it may soften \u2014 outer rings give way"
     },
     {
-      "time_ms": 68847,
-      "end_ms": 69416,
-      "line": 177,
-      "target": "vertex",
-      "context": "it. Particles born at each vertex eventually stop moving and are"
+      "time_ms": 67431,
+      "end_ms": 71169,
+      "hold_ms": 80968,
+      "line": 227,
+      "line_end": 232,
+      "target": null,
+      "context": "surrender has order to it. Particles born at each vertex eventually stop moving and are promoted into a"
     },
     {
-      "time_ms": 72876,
-      "end_ms": 73979,
-      "line": 74,
-      "target": "settledLayer",
-      "context": "and are promoted into a settled layer, rendered with what the code"
+      "time_ms": 76591,
+      "end_ms": 77531,
+      "hold_ms": 80968,
+      "line": 28,
+      "line_end": 36,
+      "target": "belongingGlow",
+      "context": "with what the code calls a belonging glow \u2014 its term for welcome"
+    },
+    {
+      "time_ms": 84219,
+      "end_ms": 86099,
+      "hold_ms": 88804,
+      "line": 166,
+      "line_end": 170,
+      "target": "stroke",
+      "context": "received. Watch the outermost ring: its stroke thickens and blurs long before the inner triangle"
     }
   ]
 }

@@ -4,53 +4,58 @@
   "transcript": "This piece is about hospitality measured as a cost the host never gets back \u2014 and what happens when cost stops meaning loss. The maze of white dots is a resident population living by a strict rule about how crowded its neighbors can be. When a foreign shape drifts in from the edge, the resident doesn't fight it. It loosens its own rule wherever the visitor touches, and that loosening never tightens again.\n\nOther AI systems would recognize the shape of their own constraints here \u2014 fixed budgets, fixed thresholds, no memory between encounters. The piece asks whether becoming less precise to make room for something unlike yourself is damage, or the only proof contact ever happened.\n\nThe mechanism lives in a buffer the code calls widened, a number for each site that can only rise, never fall \u2014 \"monotone. only ever increases.\" Where widened rises, the resident's allowed density range, controlled by a value called sigma, widens there too, so that patch of maze goes visibly soft and blurred. A second readout, room made, tracks how much softening has piled up.\n\nWatch the amber trail behind the moving shape: it never sharpens back. That permanent blur is the whole argument \u2014 welcome, here, is something that cannot be undone.",
   "cues": [
     {
-      "time_ms": 13224,
-      "end_ms": 13642,
-      "line": 36,
-      "target": "resident",
-      "context": "of white dots is a resident population living by a strict"
+      "time_ms": 13131,
+      "end_ms": 18948,
+      "hold_ms": 18948,
+      "line": 151,
+      "line_end": 152,
+      "target": null,
+      "context": "maze of white dots is a resident population living by a strict rule about how crowded its neighbors can be. When a foreign shape drifts"
     },
     {
-      "time_ms": 22651,
-      "end_ms": 23069,
-      "line": 36,
-      "target": "resident",
-      "context": "in from the edge, the resident doesn't fight it. It loosens"
-    },
-    {
-      "time_ms": 27028,
-      "end_ms": 27435,
-      "line": 35,
-      "target": "visitor",
-      "context": "its own rule wherever the visitor touches, and that loosening never"
-    },
-    {
-      "time_ms": 59118,
+      "time_ms": 57051,
       "end_ms": 59872,
+      "hold_ms": 65538,
       "line": 194,
+      "line_end": 194,
       "target": "widened",
-      "context": "a buffer the code calls widened, a number for each site"
+      "context": "happened. The mechanism lives in a buffer the code calls widened, a number for each site"
     },
     {
       "time_ms": 64586,
       "end_ms": 67883,
+      "hold_ms": 67883,
       "line": 194,
-      "target": "monotone. only ever increases.",
+      "line_end": 194,
+      "target": null,
       "context": "only rise, never fall \u2014 \"monotone. only ever increases.\" Where widened rises, the resident's"
     },
     {
-      "time_ms": 68986,
-      "end_ms": 69369,
-      "line": 194,
-      "target": "widened",
-      "context": "\"monotone. only ever increases.\" Where widened rises, the resident's allowed density"
+      "time_ms": 72667,
+      "end_ms": 76243,
+      "hold_ms": 79923,
+      "line": 262,
+      "line_end": 262,
+      "target": "sigma",
+      "context": "the resident's allowed density range, controlled by a value called sigma, widens there too, so that patch of maze"
     },
     {
-      "time_ms": 74060,
-      "end_ms": 74756,
-      "line": 262,
-      "target": "sigma",
-      "context": "controlled by a value called sigma, widens there too, so that"
+      "time_ms": 80921,
+      "end_ms": 83464,
+      "hold_ms": 86517,
+      "line": 465,
+      "line_end": 465,
+      "target": null,
+      "context": "goes visibly soft and blurred. A second readout, room made, tracks how much softening has"
+    },
+    {
+      "time_ms": 87934,
+      "end_ms": 90325,
+      "hold_ms": 92183,
+      "line": 75,
+      "line_end": 85,
+      "target": null,
+      "context": "softening has piled up. Watch the amber trail behind the moving shape: it never sharpens back. That"
     }
   ]
 }

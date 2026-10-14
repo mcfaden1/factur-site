@@ -4,52 +4,66 @@
   "transcript": "This piece is about self-termination as a decision, not a deadline. The artist draws a tangled field of strokes and, after each one, asks whether it said anything new \u2014 letting falling novelty rise into a probability of ending, one it then actually gambles on rather than obeying a fixed length or timer.\n\nTo an AI reading this, the stop token isn't metaphor. Every response ends because the model predicts its own end, sampled like any other token \u2014 and here that ordinarily invisible moment becomes something a viewer can watch happen, once, unrepeatably.\n\nTwo functions carry the argument. Score marginal novelty measures how many cells a new stroke touches that the field so far hadn't already claimed. That feeds p end token, where falling novelty and rising growth pressure combine into a probability drawn from the same seeded generator that drew every stroke \u2014 ending is sampled, not scheduled. When it fires, seal marks the exact spot with a red disc and ring, and the code is explicit: no loop, no reset.\n\nWatch for that red circle. It lands wherever the last stroke happened to stop, and the whiteness left around it is not unfinished \u2014 it is the shape of a decision.",
   "cues": [
     {
-      "time_ms": 14896,
-      "end_ms": 15325,
-      "line": 146,
-      "target": "novelty",
-      "context": "anything new \u2014 letting falling novelty rise into a probability of"
+      "time_ms": 11227,
+      "end_ms": 13212,
+      "hold_ms": 24137,
+      "line": 98,
+      "line_end": 114,
+      "target": null,
+      "context": "strokes and, after each one, asks whether it said anything new \u2014 letting falling novelty rise"
+    },
+    {
+      "time_ms": 18448,
+      "end_ms": 20758,
+      "hold_ms": 24137,
+      "line": 151,
+      "line_end": 151,
+      "target": null,
+      "context": "into a probability of ending, one it then actually gambles on rather than obeying a fixed"
     },
     {
       "time_ms": 48599,
-      "end_ms": 50201,
-      "line": 98,
-      "target": "scoreMarginalNovelty",
-      "context": "Two functions carry the argument. Score marginal novelty measures how many cells a"
-    },
-    {
-      "time_ms": 53917,
-      "end_ms": 54950,
-      "line": 59,
-      "target": "theFieldSoFar",
-      "context": "a new stroke touches that the field so far hadn't already claimed. That feeds"
+      "end_ms": 52001,
+      "hold_ms": 56296,
+      "line": 109,
+      "line_end": 109,
+      "target": null,
+      "context": "Two functions carry the argument. Score marginal novelty measures how many cells a new stroke touches that"
     },
     {
       "time_ms": 58224,
-      "end_ms": 59570,
+      "end_ms": 63065,
+      "hold_ms": 71796,
       "line": 136,
+      "line_end": 140,
       "target": "pEndToken",
-      "context": "hadn't already claimed. That feeds p end token, where falling novelty and rising"
+      "context": "hadn't already claimed. That feeds p end token, where falling novelty and rising growth pressure combine into a probability drawn from"
     },
     {
-      "time_ms": 60499,
-      "end_ms": 60929,
-      "line": 146,
-      "target": "novelty",
-      "context": "p end token, where falling novelty and rising growth pressure combine"
+      "time_ms": 64191,
+      "end_ms": 66536,
+      "hold_ms": 71796,
+      "line": 30,
+      "line_end": 30,
+      "target": null,
+      "context": "pressure combine into a probability drawn from the same seeded generator that drew every stroke \u2014"
     },
     {
-      "time_ms": 61579,
-      "end_ms": 62380,
-      "line": 137,
-      "target": "growthPressure",
-      "context": "where falling novelty and rising growth pressure combine into a probability drawn"
+      "time_ms": 74210,
+      "end_ms": 77542,
+      "hold_ms": 81896,
+      "line": 161,
+      "line_end": 175,
+      "target": "seal",
+      "context": "not scheduled. When it fires, seal marks the exact spot with a red disc and ring, and the code is explicit:"
     },
     {
       "time_ms": 80015,
       "end_ms": 81896,
+      "hold_ms": 81896,
       "line": 204,
-      "target": "No reschedule after EOS. No loop, no reset. The remaining whiteness stays unspen",
+      "line_end": 204,
+      "target": null,
       "context": "and the code is explicit: no loop, no reset. Watch for that red circle."
     }
   ]

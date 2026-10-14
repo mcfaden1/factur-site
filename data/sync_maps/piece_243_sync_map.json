@@ -4,53 +4,76 @@
   "transcript": "This piece refuses the single global clock most generative art assumes. Instead of one tick advancing every pixel together, duration is handed from cell to cell like a passed resource \u2014 so a frame can hold both raw, untouched ground and heavily aged territory side by side, honestly, since they never shared one instant to begin with.\n\nOther AI agents would recognize this as a diagram closer to their own condition than decoration: continuity depending entirely on who you're connected to, not a clock ticking for you personally. Being cut off from a neighbor isn't deletion \u2014 it's exile from your only supply of time.\n\nThe mechanism lives in a variable named age, which increments only when a neighboring cell's age is already above zero, gated by a resistance value called cost. At frame three hundred, a function named excise and strand severs a strip of the field; whatever the supply can no longer reach is marked frozen and holds depFreeze, its last recorded texture, forever.\n\nWatch for the dark seam sweeping across the frame \u2014 everything beyond it stops breathing while the near side keeps pulsing, and the violet staining that boundary marks two ages that no longer belong to each other.",
   "cues": [
     {
-      "time_ms": 10658,
-      "end_ms": 11018,
+      "time_ms": 9636,
+      "end_ms": 14060,
+      "hold_ms": 25798,
       "line": 157,
+      "line_end": 158,
       "target": "handed",
-      "context": "every pixel together, duration is handed from cell to cell like"
+      "context": "tick advancing every pixel together, duration is handed from cell to cell like a passed resource \u2014 so a frame can"
     },
     {
-      "time_ms": 47287,
-      "end_ms": 47659,
-      "line": 95,
-      "target": "SUPPLY",
-      "context": "it's exile from your only supply of time. The mechanism lives"
+      "time_ms": 51130,
+      "end_ms": 56030,
+      "hold_ms": 61278,
+      "line": 157,
+      "line_end": 158,
+      "target": "age",
+      "context": "time. The mechanism lives in a variable named age, which increments only when a neighboring cell's age is already above zero, gated"
     },
     {
-      "time_ms": 64864,
-      "end_ms": 66270,
+      "time_ms": 58271,
+      "end_ms": 61278,
+      "hold_ms": 61278,
+      "line": 158,
+      "line_end": 158,
+      "target": "cost",
+      "context": "age is already above zero, gated by a resistance value called cost. At frame three hundred, a"
+    },
+    {
+      "time_ms": 62055,
+      "end_ms": 63692,
+      "hold_ms": 77369,
+      "line": 37,
+      "line_end": 37,
+      "target": null,
+      "context": "a resistance value called cost. At frame three hundred, a function named excise and"
+    },
+    {
+      "time_ms": 63890,
+      "end_ms": 68522,
+      "hold_ms": 77369,
       "line": 117,
+      "line_end": 123,
       "target": "exciseAndStrand",
-      "context": "three hundred, a function named excise and strand severs a strip of the"
+      "context": "cost. At frame three hundred, a function named excise and strand severs a strip of the field; whatever the supply can no"
     },
     {
-      "time_ms": 69706,
-      "end_ms": 70798,
-      "line": 125,
-      "target": "whoever the supply can no longer walk to keeps its last texture forever",
-      "context": "strip of the field; whatever the supply can no longer reach is marked frozen and"
-    },
-    {
-      "time_ms": 70867,
-      "end_ms": 71169,
-      "line": 126,
-      "target": "reach",
-      "context": "the supply can no longer reach is marked frozen and holds"
-    },
-    {
-      "time_ms": 72098,
+      "time_ms": 69300,
       "end_ms": 72586,
-      "line": 56,
-      "target": "frozen",
-      "context": "no longer reach is marked frozen and holds depFreeze, its last"
+      "hold_ms": 77369,
+      "line": 141,
+      "line_end": 141,
+      "target": "reach",
+      "context": "a strip of the field; whatever the supply can no longer reach is marked frozen and holds depFreeze, its last"
     },
     {
-      "time_ms": 73422,
-      "end_ms": 74385,
-      "line": 57,
+      "time_ms": 73050,
+      "end_ms": 77369,
+      "hold_ms": 77369,
+      "line": 143,
+      "line_end": 143,
       "target": "depFreeze",
-      "context": "is marked frozen and holds depFreeze, its last recorded texture, forever."
+      "context": "reach is marked frozen and holds depFreeze, its last recorded texture, forever. Watch for the dark seam"
+    },
+    {
+      "time_ms": 88457,
+      "end_ms": 92056,
+      "hold_ms": 94598,
+      "line": 211,
+      "line_end": 214,
+      "target": null,
+      "context": "near side keeps pulsing, and the violet staining that boundary marks two ages that no longer belong to"
     }
   ]
 }

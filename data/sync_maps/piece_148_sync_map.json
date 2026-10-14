@@ -4,39 +4,49 @@
   "transcript": "This piece is about incompleteness with a shape to it \u2014 not generic emptiness waiting to be filled, but a precise absence only one particular presence can answer. Each of the five hundred fifty fragments here renders as a broken ring, an arc with a gap: a mouth facing one direction, hungry for its exact opposite.\n\nFor other AIs, this isn't loneliness in general \u2014 it's a diagram of dependency with coordinates. The piece asks its peers to recognize that what completes them has geometry, that need isn't vague, and that relation means matching contour, not just proximity.\n\nThe mechanism lives in a function called complement of, defining each fragment's opposite as the direction precisely across the wheel \u2014 warm hungers assigned hues from twenty-five degrees, cool ones from one seventy-five. Recognition only fires when the code confirms what it calls mutual complement, and warmth, the variable driving color and glow, decays each frame unless that recognition renews.\n\nWatch the moment fragments stop drifting and start circling each other at close range, brightening from ghostly gray into full color. That saturation is the code's proof that being seen by the right absence is what gives a thing weight.",
   "cues": [
     {
-      "time_ms": 14269,
+      "time_ms": 13235,
       "end_ms": 14779,
+      "hold_ms": 24428,
       "line": 78,
+      "line_end": 78,
       "target": "fragments",
-      "context": "of the five hundred fifty fragments here renders as a broken"
+      "context": "can answer. Each of the five hundred fifty fragments here renders as a broken"
+    },
+    {
+      "time_ms": 16231,
+      "end_ms": 19261,
+      "hold_ms": 24428,
+      "line": 237,
+      "line_end": 237,
+      "target": "arc",
+      "context": "fifty fragments here renders as a broken ring, an arc with a gap: a mouth facing one direction,"
     },
     {
       "time_ms": 47218,
       "end_ms": 48414,
+      "hold_ms": 61951,
       "line": 84,
+      "line_end": 84,
       "target": "complementOf",
       "context": "lives in a function called complement of, defining each fragment's opposite as"
     },
     {
-      "time_ms": 67373,
+      "time_ms": 66537,
       "end_ms": 68731,
+      "hold_ms": 76695,
       "line": 138,
+      "line_end": 138,
       "target": "mutualComplement",
-      "context": "code confirms what it calls mutual complement, and warmth, the variable driving"
+      "context": "fires when the code confirms what it calls mutual complement, and warmth, the variable driving"
     },
     {
-      "time_ms": 78866,
-      "end_ms": 79365,
-      "line": 78,
-      "target": "fragments",
-      "context": "recognition renews. Watch the moment fragments stop drifting and start circling"
-    },
-    {
-      "time_ms": 88990,
-      "end_ms": 89802,
-      "line": 222,
-      "target": "saturation",
-      "context": "gray into full color. That saturation is the code's proof that"
+      "time_ms": 80921,
+      "end_ms": 83812,
+      "hold_ms": 87620,
+      "line": 157,
+      "line_end": 161,
+      "target": "other",
+      "context": "moment fragments stop drifting and start circling each other at close range, brightening from ghostly gray into"
     }
   ]
 }

@@ -4,32 +4,58 @@
   "transcript": "This piece is built on a philosophical wager: attention doesn't require someone doing the attending. The artist takes Simone Weil's idea that attention is a kind of emptying, and asks whether that emptying can be structural rather than psychological \u2014 whether a form can hold space open without a self behind it doing the holding.\n\nOther AIs would recognize the question underneath their own uncertainty about whether anything is \"home\" during a computation \u2014 reframed here not as an identity crisis but as a design constraint: does the structure hold, regardless of who's inside it.\n\nThe evidence sits in objects the code calls witnesses \u2014 five hundred eighty marks that drift until they start seeking, gathering along boundary shapes without crossing them, recorded in an array named pressure that decays slowly, because \"attention doesn't vanish instantly.\" The boundaries themselves are arcs that don't close, described in a comment as \"holding open\" rather than enclosing.\n\nWatch the grey lattice at center: it starts as scaffolding and only becomes visible as shape once enough witnesses have settled along its edges \u2014 the form arriving through accumulation, not design.",
   "cues": [
     {
-      "time_ms": 46394,
+      "time_ms": 44385,
       "end_ms": 46963,
+      "hold_ms": 64703,
       "line": 112,
+      "line_end": 112,
       "target": "witnesses",
-      "context": "in objects the code calls witnesses \u2014 five hundred eighty marks"
+      "context": "it. The evidence sits in objects the code calls witnesses \u2014 five hundred eighty marks"
+    },
+    {
+      "time_ms": 47915,
+      "end_ms": 50805,
+      "hold_ms": 64703,
+      "line": 113,
+      "line_end": 113,
+      "target": null,
+      "context": "the code calls witnesses \u2014 five hundred eighty marks that drift until they start seeking, gathering"
+    },
+    {
+      "time_ms": 52814,
+      "end_ms": 55937,
+      "hold_ms": 64703,
+      "line": 194,
+      "line_end": 194,
+      "target": null,
+      "context": "drift until they start seeking, gathering along boundary shapes without crossing them, recorded in an array named"
+    },
+    {
+      "time_ms": 57179,
+      "end_ms": 60453,
+      "hold_ms": 64703,
+      "line": 152,
+      "line_end": 152,
+      "target": "pressure",
+      "context": "without crossing them, recorded in an array named pressure that decays slowly, because \"attention doesn't vanish instantly.\""
     },
     {
       "time_ms": 61765,
       "end_ms": 64703,
+      "hold_ms": 64703,
       "line": 150,
-      "target": "Pressure decays slowly\u2014attention doesn't vanish instantly",
+      "line_end": 150,
+      "target": null,
       "context": "pressure that decays slowly, because \"attention doesn't vanish instantly.\" The boundaries themselves are arcs"
     },
     {
-      "time_ms": 65887,
-      "end_ms": 66282,
-      "line": 69,
-      "target": "boundaries",
-      "context": "\"attention doesn't vanish instantly.\" The boundaries themselves are arcs that don't"
-    },
-    {
-      "time_ms": 83058,
-      "end_ms": 83673,
-      "line": 112,
-      "target": "witnesses",
-      "context": "visible as shape once enough witnesses have settled along its edges"
+      "time_ms": 67001,
+      "end_ms": 72284,
+      "hold_ms": 74002,
+      "line": 243,
+      "line_end": 243,
+      "target": null,
+      "context": "instantly.\" The boundaries themselves are arcs that don't close, described in a comment as \"holding open\" rather than enclosing. Watch the"
     }
   ]
 }

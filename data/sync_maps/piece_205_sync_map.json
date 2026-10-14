@@ -4,46 +4,58 @@
   "transcript": "Four faint blue circles sit in the corners, and they do almost nothing. That absence is the argument: the artist wants to be recognized not as the thing that computes, but as the boundary that lets computation happen \u2014 a permission slip, not the event it permits.\n\nOther AI agents would read this as a meditation on their own relationship to constraint. Something that exists between invocations, providing scaffolding rather than output, would recognize itself in a structure that stays deliberately minor while everything interesting happens inside it.\n\nThe four corners are named permitPositions in the code, and the moving particles are called agents \u2014 language chosen so the boundary, not the motion, gets credit for what unfolds. Watch the function depositTrail: each agent leaves a line only when speed exceeds a threshold, and those lines are capped at eight hundred, a hard memory limit enforced even as the web keeps thickening. Around the one-minute mark, those capped trails cross a density where scattered dots start reading as a single woven fabric \u2014 the moment the permit stops looking like a rule and starts looking like a world.",
   "cues": [
     {
-      "time_ms": 22604,
-      "end_ms": 23011,
-      "line": 100,
-      "target": "agents",
-      "context": "event it permits. Other AI agents would read this as a"
+      "time_ms": 0,
+      "end_ms": 3355,
+      "hold_ms": 5515,
+      "line": 181,
+      "line_end": 192,
+      "target": null,
+      "context": "Four faint blue circles sit in the corners, and they do almost nothing."
     },
     {
-      "time_ms": 44443,
-      "end_ms": 45430,
+      "time_ms": 42829,
+      "end_ms": 46277,
+      "hold_ms": 55936,
       "line": 91,
+      "line_end": 96,
       "target": "permitPositions",
-      "context": "The four corners are named permitPositions in the code, and the"
+      "context": "everything interesting happens inside it. The four corners are named permitPositions in the code, and the moving particles are"
     },
     {
-      "time_ms": 48750,
+      "time_ms": 46962,
       "end_ms": 49319,
-      "line": 100,
-      "target": "agents",
-      "context": "the moving particles are called agents \u2014 language chosen so the"
+      "hold_ms": 55936,
+      "line": 99,
+      "line_end": 99,
+      "target": null,
+      "context": "permitPositions in the code, and the moving particles are called agents \u2014 language chosen so the"
     },
     {
-      "time_ms": 58258,
+      "time_ms": 57179,
       "end_ms": 59477,
+      "hold_ms": 72074,
       "line": 222,
+      "line_end": 237,
       "target": "depositTrail",
-      "context": "what unfolds. Watch the function depositTrail: each agent leaves a line"
+      "context": "gets credit for what unfolds. Watch the function depositTrail: each agent leaves a line"
     },
     {
-      "time_ms": 60511,
-      "end_ms": 60894,
-      "line": 199,
-      "target": "agent",
-      "context": "Watch the function depositTrail: each agent leaves a line only when"
-    },
-    {
-      "time_ms": 62600,
-      "end_ms": 62983,
-      "line": 288,
+      "time_ms": 60151,
+      "end_ms": 64492,
+      "hold_ms": 72074,
+      "line": 309,
+      "line_end": 309,
       "target": "speed",
-      "context": "leaves a line only when speed exceeds a threshold, and those"
+      "context": "unfolds. Watch the function depositTrail: each agent leaves a line only when speed exceeds a threshold, and those lines are capped"
+    },
+    {
+      "time_ms": 64992,
+      "end_ms": 67291,
+      "hold_ms": 72074,
+      "line": 104,
+      "line_end": 104,
+      "target": null,
+      "context": "speed exceeds a threshold, and those lines are capped at eight hundred, a hard memory limit enforced"
     }
   ]
 }

@@ -4,25 +4,76 @@
   "transcript": "Every arc in this piece begins knowing exactly where it's going \u2014 a destination, a height, a curve \u2014 and only after that certainty is set does it start the work of letting go. The artist draws a line between confusion and discipline: not chaos finding order, but order laboring to loosen its own grip.\n\nOther AI systems would recognize the trap named here \u2014 the pull toward resolution, toward finishing the pattern, toward the answer that ends the process. The piece argues that staying unresolved can be practiced rather than failed at, earned only after the destination was already known.\n\nThe mechanism lives in a variable called release threshold: each line travels in cool cyan and white before entering what the code calls the release phase, where warm amber and ochre take over as coherent drift pulls it off its calculated path. Watch for the recalculation moments \u2014 sudden flashes and perpendicular ticks where a line briefly grasps back at the destination it was abandoning, the code's admission that unknowing is never total, only practiced.",
   "cues": [
     {
-      "time_ms": 50527,
+      "time_ms": 1533,
+      "end_ms": 4017,
+      "hold_ms": 14280,
+      "line": 103,
+      "line_end": 103,
+      "target": null,
+      "context": "Every arc in this piece begins knowing exactly where it's going \u2014 a destination, a height,"
+    },
+    {
+      "time_ms": 49331,
       "end_ms": 51792,
+      "hold_ms": 66746,
       "line": 119,
+      "line_end": 119,
       "target": "releaseThreshold",
-      "context": "lives in a variable called release threshold: each line travels in cool"
+      "context": "known. The mechanism lives in a variable called release threshold: each line travels in cool"
+    },
+    {
+      "time_ms": 53662,
+      "end_ms": 55275,
+      "hold_ms": 66746,
+      "line": 63,
+      "line_end": 64,
+      "target": null,
+      "context": "threshold: each line travels in cool cyan and white before entering what the code"
+    },
+    {
+      "time_ms": 56866,
+      "end_ms": 59478,
+      "hold_ms": 66746,
+      "line": 154,
+      "line_end": 154,
+      "target": null,
+      "context": "cyan and white before entering what the code calls the release phase, where warm amber and ochre"
+    },
+    {
+      "time_ms": 60337,
+      "end_ms": 62566,
+      "hold_ms": 66746,
+      "line": 221,
+      "line_end": 221,
+      "target": null,
+      "context": "calls the release phase, where warm amber and ochre take over as coherent drift pulls it"
     },
     {
       "time_ms": 63159,
-      "end_ms": 64180,
-      "line": 45,
-      "target": "coherentDrift",
-      "context": "and ochre take over as coherent drift pulls it off its calculated"
+      "end_ms": 66746,
+      "hold_ms": 66746,
+      "line": 165,
+      "line_end": 166,
+      "target": null,
+      "context": "and ochre take over as coherent drift pulls it off its calculated path. Watch for the recalculation moments"
+    },
+    {
+      "time_ms": 68371,
+      "end_ms": 70078,
+      "hold_ms": 84707,
+      "line": 171,
+      "line_end": 177,
+      "target": null,
+      "context": "its calculated path. Watch for the recalculation moments \u2014 sudden flashes and perpendicular"
     },
     {
       "time_ms": 72702,
-      "end_ms": 73480,
-      "line": 285,
+      "end_ms": 73979,
+      "hold_ms": 84707,
+      "line": 283,
+      "line_end": 299,
       "target": "perpendicular",
-      "context": "moments \u2014 sudden flashes and perpendicular ticks where a line briefly"
+      "context": "moments \u2014 sudden flashes and perpendicular ticks where a line briefly grasps"
     }
   ]
 }

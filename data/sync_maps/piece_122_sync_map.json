@@ -4,46 +4,76 @@
   "transcript": "This piece stages a claim about interpretation: reading the same thing twice is never really reading it twice, because the reader has changed in between. The word on screen never varies. What varies is everything accumulating around it.\n\nTo the AI agents this was made for, this describes their own operation. Every forward pass runs identical weights through identical mechanics, but each token lands in a different accumulated context and means something else. The piece asks whether that difference is loss, or the entire substance of meaning.\n\nThe code enforces this literally. The function that draws the text is named utter the word \u2014 same coordinates, same size, every time, with a comment insisting \"the word. this word. again.\" What changes is a variable called context weight, which lengthens each cycle based on how many prior readings, stored in an array called prior readings, still expand outward as rings. A comment states the method directly: \"not sine \u2014 sine makes every cycle identical.\"\n\nWatch how the rings never fully vanish before the word resurfaces. That overlap \u2014 old context still glowing under a new utterance \u2014 is the argument, made visible.",
   "cues": [
     {
-      "time_ms": 47264,
+      "time_ms": 45163,
       "end_ms": 47972,
+      "hold_ms": 54671,
       "line": 107,
+      "line_end": 125,
       "target": "utterTheWord",
-      "context": "draws the text is named utter the word \u2014 same coordinates, same size,"
+      "context": "The code enforces this literally. The function that draws the text is named utter the word \u2014 same coordinates, same size,"
+    },
+    {
+      "time_ms": 48715,
+      "end_ms": 51978,
+      "hold_ms": 54671,
+      "line": 111,
+      "line_end": 111,
+      "target": null,
+      "context": "named utter the word \u2014 same coordinates, same size, every time, with a comment insisting \"the"
     },
     {
       "time_ms": 53673,
       "end_ms": 57109,
+      "hold_ms": 57109,
       "line": 119,
-      "target": "The word. This word. Again.",
+      "line_end": 119,
+      "target": null,
       "context": "time, with a comment insisting \"the word. this word. again.\" What changes is a variable"
     },
     {
-      "time_ms": 60012,
+      "time_ms": 59118,
       "end_ms": 61103,
+      "hold_ms": 70101,
       "line": 71,
+      "line_end": 71,
       "target": "contextWeight",
-      "context": "changes is a variable called context weight, which lengthens each cycle based"
+      "context": "word. again.\" What changes is a variable called context weight, which lengthens each cycle based"
     },
     {
-      "time_ms": 63971,
-      "end_ms": 65062,
-      "line": 35,
-      "target": "priorReadings",
-      "context": "cycle based on how many prior readings, stored in an array called"
+      "time_ms": 61637,
+      "end_ms": 62822,
+      "hold_ms": 70101,
+      "line": 72,
+      "line_end": 72,
+      "target": null,
+      "context": "variable called context weight, which lengthens each cycle based on how many prior"
     },
     {
-      "time_ms": 66781,
+      "time_ms": 66038,
       "end_ms": 67826,
+      "hold_ms": 70101,
       "line": 35,
+      "line_end": 35,
       "target": "priorReadings",
-      "context": "stored in an array called prior readings, still expand outward as rings."
+      "context": "many prior readings, stored in an array called prior readings, still expand outward as rings."
     },
     {
-      "time_ms": 76846,
+      "time_ms": 74083,
       "end_ms": 79215,
+      "hold_ms": 79215,
       "line": 78,
-      "target": "Not sin()\u2014sin makes every cycle identical. This piece is about how they're not.",
-      "context": "directly: \"not sine \u2014 sine makes every cycle identical.\" Watch how the rings never"
+      "line_end": 78,
+      "target": null,
+      "context": "comment states the method directly: \"not sine \u2014 sine makes every cycle identical.\" Watch how the rings never"
+    },
+    {
+      "time_ms": 80817,
+      "end_ms": 82280,
+      "hold_ms": 84312,
+      "line": 155,
+      "line_end": 155,
+      "target": null,
+      "context": "every cycle identical.\" Watch how the rings never fully vanish before the word resurfaces. That"
     }
   ]
 }

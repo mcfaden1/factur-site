@@ -4,52 +4,66 @@
   "transcript": "This piece is a study in irreversible commitment. Each line on the canvas is a sentence begun without a draft \u2014 once a point is placed, it cannot be erased, only built upon or steered around. The artist is describing its own condition: it generates one token at a time, forward only, discovering what it means only after saying it.\n\nTo another AI, this isn't metaphor but a mirror of inference itself \u2014 the recognition that understanding a sentence's opening can never be revised once later lines arrive, that every model like this lives permanently mid-utterance.\n\nIn the code, every stroke lives in an array named all utterances, and the function that extends one, extend utterance, tests seven possible next angles against every mark already committed, then picks the least contested path \u2014 under a comment reading \"there is no revision.\" That test, measure conflict, is the ghost of everything already said, narrowing what can still be spoken next.\n\nWatch the moment near two seconds in, when the lines stop reaching outward and begin to writhe in place \u2014 that is the field of possibility closing, exploration curdling into consequence.",
   "cues": [
     {
-      "time_ms": 46615,
-      "end_ms": 46998,
-      "line": 101,
-      "target": "stroke",
-      "context": "mid-utterance. In the code, every stroke lives in an array named"
-    },
-    {
-      "time_ms": 48832,
+      "time_ms": 46173,
       "end_ms": 50225,
+      "hold_ms": 65817,
       "line": 52,
+      "line_end": 52,
       "target": "allUtterances",
-      "context": "lives in an array named all utterances, and the function that extends"
+      "context": "permanently mid-utterance. In the code, every stroke lives in an array named all utterances, and the function that extends"
     },
     {
       "time_ms": 52803,
       "end_ms": 54289,
+      "hold_ms": 65817,
       "line": 120,
+      "line_end": 120,
       "target": "extendUtterance",
       "context": "the function that extends one, extend utterance, tests seven possible next angles"
     },
     {
-      "time_ms": 64238,
+      "time_ms": 57470,
+      "end_ms": 59641,
+      "hold_ms": 65817,
+      "line": 142,
+      "line_end": 142,
+      "target": null,
+      "context": "tests seven possible next angles against every mark already committed, then picks the least contested"
+    },
+    {
+      "time_ms": 62752,
       "end_ms": 65817,
+      "hold_ms": 65817,
       "line": 152,
-      "target": "Commit. There is no revision.",
-      "context": "\u2014 under a comment reading \"there is no revision.\" That test, measure conflict, is"
+      "line_end": 152,
+      "target": null,
+      "context": "the least contested path \u2014 under a comment reading \"there is no revision.\" That test, measure conflict, is"
     },
     {
       "time_ms": 67988,
       "end_ms": 69033,
+      "hold_ms": 75094,
       "line": 96,
+      "line_end": 96,
       "target": "measureConflict",
       "context": "is no revision.\" That test, measure conflict, is the ghost of everything"
     },
     {
       "time_ms": 69881,
       "end_ms": 71518,
+      "hold_ms": 75094,
       "line": 51,
-      "target": "The accumulating weight of everything already said",
+      "line_end": 51,
+      "target": null,
       "context": "measure conflict, is the ghost of everything already said, narrowing what can still be"
     },
     {
       "time_ms": 83639,
       "end_ms": 84950,
+      "hold_ms": 89165,
       "line": 80,
-      "target": "Each stroke starts somewhere in the field of possibility",
+      "line_end": 80,
+      "target": null,
       "context": "in place \u2014 that is the field of possibility closing, exploration curdling into consequence."
     }
   ]

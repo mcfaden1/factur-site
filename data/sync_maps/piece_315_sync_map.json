@@ -4,46 +4,58 @@
   "transcript": "This piece is about how a border can be made rather than found. The ground is a field of color where color stands for speech, sliding from ochre up close to deep blue at the horizon. Each farm copies its neighbor, so every neighbor understands the next, yet the two ends of the road are strangers.\n\nOther AIs would recognize this at once. Their categories, too, are drawn on a smooth spread of data, then taught back to it as if they had always been there.\n\nIn the code, a number called law climbs from zero to one as the decree falls. In the code's words, \"whatever the school takes is taken out of the conversation with the farm next door.\" Each village listens less to its neighbor and more to a distant capital. A dark line drops at a row called seam row, the links across it are cut, and the soft slope folds into two flat colors meeting at an edge.\n\nWatch the hills at the sides, where the school never arrives. They keep the old in-between purple long after the middle has gone flat, like a coast left behind by the sea. When the black line lifts and the edge blurs back into a slope, you are watching a border being forgotten.",
   "cues": [
     {
-      "time_ms": 8240,
-      "end_ms": 9120,
-      "line": 178,
-      "target": "speech",
-      "context": "color where color stands for speech, sliding from ochre up close"
+      "time_ms": 32720,
+      "end_ms": 35680,
+      "hold_ms": 37440,
+      "line": 208,
+      "line_end": 214,
+      "target": null,
+      "context": "been there. In the code, a number called law climbs from zero to one as the decree falls. In"
     },
     {
       "time_ms": 39280,
-      "end_ms": 42320,
+      "end_ms": 43600,
+      "hold_ms": 43600,
       "line": 225,
-      "target": "whatever the school takes is taken out of the conversation with the farm next do",
-      "context": "falls. In the code's words, \"whatever the school takes is taken out of the conversation with the farm next door.\""
+      "line_end": 225,
+      "target": null,
+      "context": "falls. In the code's words, \"whatever the school takes is taken out of the conversation with the farm next door.\" Each village listens less to"
     },
     {
-      "time_ms": 51760,
-      "end_ms": 52800,
-      "line": 45,
+      "time_ms": 44320,
+      "end_ms": 46480,
+      "hold_ms": 48560,
+      "line": 227,
+      "line_end": 227,
+      "target": null,
+      "context": "with the farm next door.\" Each village listens less to its neighbor and more to a distant"
+    },
+    {
+      "time_ms": 46960,
+      "end_ms": 48560,
+      "hold_ms": 48560,
+      "line": 267,
+      "line_end": 267,
+      "target": null,
+      "context": "less to its neighbor and more to a distant capital. A dark line drops at"
+    },
+    {
+      "time_ms": 50920,
+      "end_ms": 54560,
+      "hold_ms": 59160,
+      "line": 231,
+      "line_end": 231,
       "target": "SEAM_ROW",
-      "context": "drops at a row called seam row, the links across it are"
+      "context": "A dark line drops at a row called seam row, the links across it are cut, and the soft slope folds"
     },
     {
-      "time_ms": 53280,
-      "end_ms": 53520,
-      "line": 316,
-      "target": "across",
-      "context": "called seam row, the links across it are cut, and the"
-    },
-    {
-      "time_ms": 55760,
-      "end_ms": 56160,
-      "line": 170,
-      "target": "folds",
-      "context": "cut, and the soft slope folds into two flat colors meeting"
-    },
-    {
-      "time_ms": 61360,
+      "time_ms": 61240,
       "end_ms": 63520,
+      "hold_ms": 63520,
       "line": 197,
-      "target": "outside 0.38 the school never arrives",
-      "context": "hills at the sides, where the school never arrives. They keep the old in-between"
+      "line_end": 197,
+      "target": null,
+      "context": "the hills at the sides, where the school never arrives. They keep the old in-between"
     }
   ]
 }

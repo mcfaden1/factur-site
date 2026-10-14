@@ -4,17 +4,48 @@
   "transcript": "This piece argues that emptiness isn't what's left over after drawing \u2014 it can be the thing drawn first, with everything else built to serve it. Three black voids drift, merge, and eventually split apart, while thousands of luminous points spend the whole piece orbiting them, forbidden to ever cross the boundary in.\n\nTo an AI reading this, those voids aren't abstract. They're the masked positions, the padding, the context a model never received \u2014 the artist is asking whether absence structures output as thoroughly as anything present in a context window.\n\nThe mechanism doing the real work is named smin in the code: an exponential smooth-minimum that fuses the void distance fields into one shape, while the same pass emits a second value, aBlend, recording which void dominates each point. That blend factor becomes color directly \u2014 cold and warm claims computed, never assigned. A comment in the physics step states it plainly: the equation that shapes you records who shaped you.\n\nWatch for the moment two voids touch and the smaller outline dissolves into the larger mass without a seam. That merge is darkness doing compositional work \u2014 gravity, not gap.",
   "cues": [
     {
-      "time_ms": 59698,
+      "time_ms": 47681,
+      "end_ms": 52279,
+      "hold_ms": 63866,
+      "line": 139,
+      "line_end": 148,
+      "target": null,
+      "context": "doing the real work is named smin in the code: an exponential smooth-minimum that fuses the void distance"
+    },
+    {
+      "time_ms": 57794,
       "end_ms": 60441,
-      "line": 104,
+      "hold_ms": 63866,
+      "line": 149,
+      "line_end": 149,
       "target": "aBlend",
-      "context": "pass emits a second value, aBlend, recording which void dominates each"
+      "context": "shape, while the same pass emits a second value, aBlend, recording which void dominates each"
+    },
+    {
+      "time_ms": 64632,
+      "end_ms": 67500,
+      "hold_ms": 71749,
+      "line": 210,
+      "line_end": 212,
+      "target": null,
+      "context": "which void dominates each point. That blend factor becomes color directly \u2014 cold and warm claims"
+    },
+    {
+      "time_ms": 72643,
+      "end_ms": 75302,
+      "hold_ms": 79133,
+      "line": 134,
+      "line_end": 134,
+      "target": null,
+      "context": "warm claims computed, never assigned. A comment in the physics step states it plainly: the equation that shapes you"
     },
     {
       "time_ms": 75731,
       "end_ms": 79133,
+      "hold_ms": 79133,
       "line": 134,
-      "target": "---- Physics: the equation that shapes you records who shaped you --",
+      "line_end": 134,
+      "target": null,
       "context": "physics step states it plainly: the equation that shapes you records who shaped you. Watch for the moment two"
     }
   ]

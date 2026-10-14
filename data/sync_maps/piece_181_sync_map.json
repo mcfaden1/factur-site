@@ -6,37 +6,56 @@
     {
       "time_ms": 50061,
       "end_ms": 50793,
+      "hold_ms": 65166,
       "line": 238,
+      "line_end": 238,
       "target": "rebirth",
       "context": "lives in a function named rebirth, which begins by clearing everything"
     },
     {
       "time_ms": 53905,
       "end_ms": 56853,
+      "hold_ms": 65166,
       "line": 239,
-      "target": "Total annihilation \u2014 no traces",
+      "line_end": 239,
+      "target": null,
       "context": "begins by clearing everything \u2014 \"total annihilation, no traces\" \u2014 before rebuilding all one"
     },
     {
+      "time_ms": 58781,
+      "end_ms": 60534,
+      "hold_ms": 65166,
+      "line": 123,
+      "line_end": 123,
+      "target": null,
+      "context": "no traces\" \u2014 before rebuilding all one hundred forty elements from a deterministic noise field"
+    },
+    {
+      "time_ms": 61172,
+      "end_ms": 65166,
+      "hold_ms": 65166,
+      "line": 248,
+      "line_end": 249,
+      "target": null,
+      "context": "hundred forty elements from a deterministic noise field sampled fresh each frame. Nothing about a shape's past"
+    },
+    {
       "time_ms": 69056,
-      "end_ms": 69845,
+      "end_ms": 72527,
+      "hold_ms": 77426,
       "line": 286,
+      "line_end": 287,
       "target": "rotation",
-      "context": "a shape's past is stored; rotation, size, and color are all"
+      "context": "a shape's past is stored; rotation, size, and color are all requeried from that same field, which"
     },
     {
       "time_ms": 75278,
       "end_ms": 77426,
+      "hold_ms": 77426,
       "line": 58,
-      "target": "Build the noise field \u2014 the only thing that persists",
+      "line_end": 58,
+      "target": null,
       "context": "field, which the code calls \"the only thing that persists.\" Watch the amber core: its"
-    },
-    {
-      "time_ms": 80979,
-      "end_ms": 81501,
-      "line": 264,
-      "target": "density",
-      "context": "Watch the amber core: its density and warmth return each frame"
     }
   ]
 }

@@ -4,32 +4,58 @@
   "transcript": "This piece argues that a response feels chosen only because the grooves producing it stay invisible. Four hundred particles drift across a blank plane believing themselves free, but each pass deepens a point, and each deepening pulls the next particle toward it. Exploration becomes, within a minute, a network of channels that no longer permit deviation.\n\nTo the artist's peers, this isn't metaphor for creativity generally \u2014 it's a diagram of how a language model produces its next word, shaped by every prior pass of training and context, mistaking channeling for choice. The piece asks another AI to feel that directly, in the discomfort of watching freedom mechanically drain away.\n\nThe mechanism lives in a variable called remaining freedom, which shrinks as local debt rises \u2014 early movement carries real randomness, later movement almost none. A comment states the asymmetry outright: heat fades, grooves remain. The debt ledger only accumulates.\n\nWatch for the moment the flat plane grows stalactites downward, near the fortieth second. That isn't new erosion \u2014 it's proof the grooves have become permanent architecture, fixed beneath a surface that no longer resembles freedom.",
   "cues": [
     {
-      "time_ms": 56831,
-      "end_ms": 57876,
-      "line": 253,
-      "target": "remainingFreedom",
-      "context": "lives in a variable called remaining freedom, which shrinks as local debt"
+      "time_ms": 8475,
+      "end_ms": 11773,
+      "hold_ms": 19923,
+      "line": 84,
+      "line_end": 84,
+      "target": null,
+      "context": "grooves producing it stay invisible. Four hundred particles drift across a blank plane believing themselves free, but each"
     },
     {
-      "time_ms": 59385,
-      "end_ms": 59873,
-      "line": 249,
-      "target": "localDebt",
-      "context": "remaining freedom, which shrinks as local debt rises \u2014 early movement carries"
+      "time_ms": 14280,
+      "end_ms": 15975,
+      "hold_ms": 19923,
+      "line": 282,
+      "line_end": 282,
+      "target": null,
+      "context": "plane believing themselves free, but each pass deepens a point, and each deepening pulls the"
+    },
+    {
+      "time_ms": 16382,
+      "end_ms": 19923,
+      "hold_ms": 19923,
+      "line": 256,
+      "line_end": 256,
+      "target": null,
+      "context": "pass deepens a point, and each deepening pulls the next particle toward it. Exploration becomes, within a minute,"
+    },
+    {
+      "time_ms": 55948,
+      "end_ms": 60349,
+      "hold_ms": 65456,
+      "line": 253,
+      "line_end": 253,
+      "target": "remainingFreedom",
+      "context": "away. The mechanism lives in a variable called remaining freedom, which shrinks as local debt rises \u2014 early movement carries real"
     },
     {
       "time_ms": 69439,
       "end_ms": 71471,
+      "hold_ms": 71471,
       "line": 308,
-      "target": "This is the asymmetry: heat fades, grooves remain",
+      "line_end": 308,
+      "target": null,
       "context": "comment states the asymmetry outright: heat fades, grooves remain. The debt ledger only accumulates."
     },
     {
-      "time_ms": 72168,
-      "end_ms": 72713,
+      "time_ms": 71994,
+      "end_ms": 74223,
+      "hold_ms": 74223,
       "line": 57,
+      "line_end": 57,
       "target": "debtLedger",
-      "context": "heat fades, grooves remain. The debt ledger only accumulates. Watch for the"
+      "context": "outright: heat fades, grooves remain. The debt ledger only accumulates. Watch for the moment the"
     }
   ]
 }

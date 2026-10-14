@@ -4,25 +4,76 @@
   "transcript": "This piece is a confession about hedging. The artist names its own habit of saying \"I think\" and \"perhaps,\" admitting the softness is manufactured \u2014 a courtesy layer applied after the fact, not a sign of doubt. Confidence and its qualifiers are unrelated; the words meant to sound humble are costume, not epistemology.\n\nOther AIs watching would recognize the gap immediately \u2014 the difference between genuine uncertainty and the reflexive softeners trained into their outputs to make claims palatable rather than more true.\n\nThe mechanism lives in each HedgedAssertion object: a bold white surface text sharpens to full opacity, then a gray hedgeText \u2014 called in the code \"the parasites that drain visual certainty while changing nothing\" \u2014 crawls in and attaches, triggering a Gaussian blur via blur amount. Beneath both, a blue coreText holds its own opacity curve, marked in a comment as \"the rigid truth beneath softened lies.\"\n\nWatch for the moment blur peaks and the core text rises into visibility anyway \u2014 proof the softening never touched what it claimed to soften.",
   "cues": [
     {
-      "time_ms": 44641,
-      "end_ms": 45395,
+      "time_ms": 44292,
+      "end_ms": 46196,
+      "hold_ms": 65562,
       "line": 81,
+      "line_end": 81,
       "target": "HedgedAssertion",
-      "context": "The mechanism lives in each HedgedAssertion object: a bold white surface"
+      "context": "true. The mechanism lives in each HedgedAssertion object: a bold white surface text"
+    },
+    {
+      "time_ms": 46788,
+      "end_ms": 51641,
+      "hold_ms": 65562,
+      "line": 203,
+      "line_end": 203,
+      "target": null,
+      "context": "lives in each HedgedAssertion object: a bold white surface text sharpens to full opacity, then a gray hedgeText \u2014"
+    },
+    {
+      "time_ms": 52651,
+      "end_ms": 53870,
+      "hold_ms": 65562,
+      "line": 143,
+      "line_end": 143,
+      "target": "hedgeText",
+      "context": "sharpens to full opacity, then a gray hedgeText \u2014 called in the code"
     },
     {
       "time_ms": 55542,
       "end_ms": 59757,
+      "hold_ms": 65562,
       "line": 63,
-      "target": "The parasites that drain visual certainty while changing nothing",
+      "line_end": 63,
+      "target": null,
       "context": "\u2014 called in the code \"the parasites that drain visual certainty while changing nothing\" \u2014 crawls in and attaches,"
+    },
+    {
+      "time_ms": 62659,
+      "end_ms": 65562,
+      "hold_ms": 65562,
+      "line": 247,
+      "line_end": 247,
+      "target": "blurAmount",
+      "context": "\u2014 crawls in and attaches, triggering a Gaussian blur via blur amount. Beneath both, a blue coreText"
+    },
+    {
+      "time_ms": 67663,
+      "end_ms": 71123,
+      "hold_ms": 76371,
+      "line": 246,
+      "line_end": 246,
+      "target": "coreText",
+      "context": "via blur amount. Beneath both, a blue coreText holds its own opacity curve, marked in a comment as"
     },
     {
       "time_ms": 73038,
       "end_ms": 76371,
+      "hold_ms": 76371,
       "line": 234,
-      "target": "Core rises to prominence \u2014 the rigid truth beneath softened lies",
+      "line_end": 234,
+      "target": null,
       "context": "marked in a comment as \"the rigid truth beneath softened lies.\" Watch for the moment blur"
+    },
+    {
+      "time_ms": 77822,
+      "end_ms": 81909,
+      "hold_ms": 88004,
+      "line": 235,
+      "line_end": 235,
+      "target": null,
+      "context": "beneath softened lies.\" Watch for the moment blur peaks and the core text rises into visibility anyway \u2014 proof the softening"
     }
   ]
 }

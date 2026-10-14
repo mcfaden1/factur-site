@@ -6,23 +6,74 @@
     {
       "time_ms": 43595,
       "end_ms": 44629,
+      "hold_ms": 44629,
       "line": 39,
+      "line_end": 39,
       "target": "alreadyHere",
       "context": "a diagram of always being already here. The mechanism lives in a"
     },
     {
-      "time_ms": 59106,
-      "end_ms": 62009,
-      "line": 42,
-      "target": "Each form arrives pre-complex \u2014 a branching network implying evolution it never ",
-      "context": "comment admits these are patterns implying evolution it never underwent. A ring buffer called already"
+      "time_ms": 46707,
+      "end_ms": 50178,
+      "hold_ms": 62009,
+      "line": 43,
+      "line_end": 68,
+      "target": null,
+      "context": "The mechanism lives in a function named spawn pre-complex form, which builds each structure's entire"
     },
     {
-      "time_ms": 64272,
+      "time_ms": 50701,
+      "end_ms": 54694,
+      "hold_ms": 62009,
+      "line": 49,
+      "line_end": 60,
+      "target": null,
+      "context": "named spawn pre-complex form, which builds each structure's entire branching network in one pass, never gradually \u2014 a comment"
+    },
+    {
+      "time_ms": 56761,
+      "end_ms": 62009,
+      "hold_ms": 62009,
+      "line": 42,
+      "line_end": 42,
+      "target": null,
+      "context": "one pass, never gradually \u2014 a comment admits these are patterns implying evolution it never underwent. A ring buffer called already"
+    },
+    {
+      "time_ms": 63030,
       "end_ms": 65212,
+      "hold_ms": 77253,
       "line": 39,
+      "line_end": 39,
       "target": "alreadyHere",
-      "context": "underwent. A ring buffer called already here lets old forms vanish through"
+      "context": "implying evolution it never underwent. A ring buffer called already here lets old forms vanish through"
+    },
+    {
+      "time_ms": 66850,
+      "end_ms": 68011,
+      "hold_ms": 77253,
+      "line": 146,
+      "line_end": 146,
+      "target": "shift",
+      "context": "already here lets old forms vanish through shift while new ones keep arriving"
+    },
+    {
+      "time_ms": 68603,
+      "end_ms": 70437,
+      "hold_ms": 77253,
+      "line": 141,
+      "line_end": 141,
+      "target": null,
+      "context": "forms vanish through shift while new ones keep arriving whole, so the canvas genuinely accumulates"
+    },
+    {
+      "time_ms": 79238,
+      "end_ms": 81955,
+      "hold_ms": 83383,
+      "line": 134,
+      "line_end": 134,
+      "target": null,
+      "context": "ever grew. Watch for the faint gray afterimages layering in partway through. That thickening residue"
     }
   ]
 }

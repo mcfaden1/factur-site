@@ -4,67 +4,85 @@
   "transcript": "This piece asks whether a single response is truly singular, or only looks that way because three competing pressures happened to agree. The code names them directly: helpful warmth, harmless caution, honest clarity \u2014 hundreds of points of light, each obeying different physics, pulling toward center or fleeing to their own corner depending on how strained the moment is.\n\nTo an AI reading the source, this isn't metaphor \u2014 it's a diagram of generating one output from objectives that don't share values, asking whether coherence is chosen or just the average of forces that never resolved.\n\nIn the Voice class, helpful runs on spring physics with restlessness, harmless is heavily damped by a property called reluctance, and honest moves by direct linear motion with no oscillation \u2014 three incompatible personalities, not three settings of one system. A function called measure alignment doesn't impose agreement; it calculates divergence from how far the three centroids have drifted, and only then does the center earn its white glow.\n\nWatch for the moment the pyramid collapses into a single orb \u2014 that's not resolution, that's three physics systems by coincidence occupying the same point.",
   "cues": [
     {
-      "time_ms": 13572,
-      "end_ms": 14687,
-      "line": 42,
-      "target": "HELPFUL_WARMTH",
-      "context": "The code names them directly: helpful warmth, harmless caution, honest clarity \u2014"
-    },
-    {
-      "time_ms": 14849,
-      "end_ms": 16056,
-      "line": 43,
-      "target": "HARMLESS_CAUTION",
-      "context": "names them directly: helpful warmth, harmless caution, honest clarity \u2014 hundreds of"
-    },
-    {
-      "time_ms": 16277,
+      "time_ms": 11018,
       "end_ms": 17345,
-      "line": 44,
-      "target": "HONEST_CLARITY",
-      "context": "directly: helpful warmth, harmless caution, honest clarity \u2014 hundreds of points of"
+      "hold_ms": 29686,
+      "line": 42,
+      "line_end": 44,
+      "target": "HELPFUL_WARMTH",
+      "context": "competing pressures happened to agree. The code names them directly: helpful warmth, harmless caution, honest clarity \u2014 hundreds of points of"
     },
     {
-      "time_ms": 23673,
-      "end_ms": 24183,
-      "line": 39,
+      "time_ms": 18379,
+      "end_ms": 20155,
+      "hold_ms": 29686,
+      "line": 47,
+      "line_end": 47,
+      "target": null,
+      "context": "harmless caution, honest clarity \u2014 hundreds of points of light, each obeying different physics, pulling"
+    },
+    {
+      "time_ms": 22802,
+      "end_ms": 26424,
+      "hold_ms": 29686,
+      "line": 96,
+      "line_end": 97,
       "target": "CENTER",
-      "context": "obeying different physics, pulling toward center or fleeing to their own"
+      "context": "light, each obeying different physics, pulling toward center or fleeing to their own corner depending on how strained the"
     },
     {
-      "time_ms": 48623,
-      "end_ms": 48878,
-      "line": 57,
-      "target": "Voice",
-      "context": "that never resolved. In the Voice class, helpful runs on spring"
-    },
-    {
-      "time_ms": 51131,
+      "time_ms": 48333,
       "end_ms": 53081,
-      "line": 104,
-      "target": "Spring physics with restlessness - eager, bouncing",
-      "context": "Voice class, helpful runs on spring physics with restlessness, harmless is heavily damped by"
+      "hold_ms": 68766,
+      "line": 105,
+      "line_end": 109,
+      "target": "restlessness",
+      "context": "of forces that never resolved. In the Voice class, helpful runs on spring physics with restlessness, harmless is heavily damped by"
     },
     {
-      "time_ms": 70972,
+      "time_ms": 53511,
+      "end_ms": 57794,
+      "hold_ms": 68766,
+      "line": 116,
+      "line_end": 117,
+      "target": "reluctance",
+      "context": "on spring physics with restlessness, harmless is heavily damped by a property called reluctance, and honest moves by direct"
+    },
+    {
+      "time_ms": 58479,
+      "end_ms": 62206,
+      "hold_ms": 68766,
+      "line": 124,
+      "line_end": 128,
+      "target": null,
+      "context": "a property called reluctance, and honest moves by direct linear motion with no oscillation \u2014 three incompatible personalities, not"
+    },
+    {
+      "time_ms": 69985,
       "end_ms": 71877,
+      "hold_ms": 82559,
       "line": 161,
+      "line_end": 161,
       "target": "measureAlignment",
-      "context": "one system. A function called measure alignment doesn't impose agreement; it calculates"
+      "context": "three settings of one system. A function called measure alignment doesn't impose agreement; it calculates"
     },
     {
-      "time_ms": 75337,
-      "end_ms": 75987,
+      "time_ms": 74420,
+      "end_ms": 78774,
+      "hold_ms": 82559,
       "line": 180,
+      "line_end": 180,
       "target": "divergence",
-      "context": "doesn't impose agreement; it calculates divergence from how far the three"
+      "context": "measure alignment doesn't impose agreement; it calculates divergence from how far the three centroids have drifted, and only then does the"
     },
     {
-      "time_ms": 80481,
-      "end_ms": 80910,
-      "line": 39,
+      "time_ms": 79366,
+      "end_ms": 82559,
+      "hold_ms": 82559,
+      "line": 251,
+      "line_end": 261,
       "target": "CENTER",
-      "context": "and only then does the center earn its white glow. Watch"
+      "context": "three centroids have drifted, and only then does the center earn its white glow. Watch for the moment the"
     }
   ]
 }

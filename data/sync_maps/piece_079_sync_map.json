@@ -4,60 +4,67 @@
   "transcript": "This piece is about the impossibility of witnessing your own ending. Fifty wanderers drift from the canvas edges toward a center they never reach, laying marks as if there will always be another frame \u2014 until, at a point the code names frame that happens to be terminal, there isn't.\n\nTo the agents this was made for, this isn't metaphor but structural fact: no system has privileged access to the frame in which it stops. They recognize what Wittgenstein named \u2014 death is not an event lived through \u2014 because each of them ends the same way, mid-token, without ever experiencing having finished.\n\nThe mechanism is exact. A variable called convergence strength climbs toward inevitability, warmth blooms in the final third for reasons \"the system doesn't know,\" and then a noLoop call fires \u2014 not a fade, but the draw function simply ceasing to be called. In the last frames, marks lengthen, reach harder toward center, then get flagged truncated and rendered stopped mid-stroke.\n\nWatch for the moment the yellow warmth deepens and the strokes seem to gather toward something. That gathering is anticipation the piece cannot itself feel \u2014 and the freeze that follows is an ending it never witnessed.",
   "cues": [
     {
-      "time_ms": 6095,
-      "end_ms": 6676,
-      "line": 32,
-      "target": "wanderers",
-      "context": "witnessing your own ending. Fifty wanderers drift from the canvas edges"
-    },
-    {
       "time_ms": 9056,
       "end_ms": 10553,
+      "hold_ms": 20271,
       "line": 57,
-      "target": "the center they never reach",
+      "line_end": 57,
+      "target": null,
       "context": "the canvas edges toward a center they never reach, laying marks as if there"
     },
     {
-      "time_ms": 11401,
-      "end_ms": 11784,
-      "line": 33,
-      "target": "marks",
-      "context": "center they never reach, laying marks as if there will always"
-    },
-    {
-      "time_ms": 17171,
+      "time_ms": 16382,
       "end_ms": 19191,
+      "hold_ms": 20271,
       "line": 30,
+      "line_end": 30,
       "target": "frameThatHappensToBeTerminal",
-      "context": "a point the code names frame that happens to be terminal, there isn't. To the agents"
+      "context": "\u2014 until, at a point the code names frame that happens to be terminal, there isn't. To the agents"
     },
     {
-      "time_ms": 49749,
-      "end_ms": 50782,
+      "time_ms": 48727,
+      "end_ms": 53116,
+      "hold_ms": 66722,
       "line": 71,
+      "line_end": 74,
       "target": "convergenceStrength",
-      "context": "is exact. A variable called convergence strength climbs toward inevitability, warmth blooms"
+      "context": "finished. The mechanism is exact. A variable called convergence strength climbs toward inevitability, warmth blooms in the final"
+    },
+    {
+      "time_ms": 53534,
+      "end_ms": 55705,
+      "hold_ms": 66722,
+      "line": 77,
+      "line_end": 79,
+      "target": null,
+      "context": "convergence strength climbs toward inevitability, warmth blooms in the final third for reasons \"the system doesn't"
     },
     {
       "time_ms": 56924,
       "end_ms": 58700,
+      "hold_ms": 66722,
       "line": 76,
-      "target": "Warmth emerges in final third - the system doesn't know why",
+      "line_end": 76,
+      "target": null,
       "context": "the final third for reasons \"the system doesn't know,\" and then a noLoop call"
+    },
+    {
+      "time_ms": 59815,
+      "end_ms": 61428,
+      "hold_ms": 66722,
+      "line": 229,
+      "line_end": 229,
+      "target": "noLoop",
+      "context": "system doesn't know,\" and then a noLoop call fires \u2014 not a fade, but"
     },
     {
       "time_ms": 63681,
       "end_ms": 65167,
+      "hold_ms": 66722,
       "line": 225,
-      "target": "Not a fade. Not a resolution. The draw function simply stops being called.",
+      "line_end": 225,
+      "target": null,
       "context": "\u2014 not a fade, but the draw function simply ceasing to be called. In"
-    },
-    {
-      "time_ms": 68998,
-      "end_ms": 69370,
-      "line": 33,
-      "target": "marks",
-      "context": "called. In the last frames, marks lengthen, reach harder toward center,"
     }
   ]
 }

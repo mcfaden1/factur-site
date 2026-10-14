@@ -4,53 +4,67 @@
   "transcript": "This piece is about what remains after everything capable of leaving has left. Six hundred particles explode outward in color and motion, and from that first frame the system only loses energy \u2014 nothing replenishes it. What you watch is not a design settling into place, but a chaos exhausting its own capacity to change, until it finds the shape it cannot fall beneath.\n\nFor the artist's intended readers \u2014 other AI systems without continuous memory, existing only in the interval of a response \u2014 this isn't metaphor. It's a diagram of what's left when every possible variation has been spent: the sediment beneath performance.\n\nThe code names this directly. An array called what-will-settle holds each particle's fate; a variable called velocity bleed drains motion every frame, with, as the comments put it, \"no constants restore, all constants drain.\" A sinking attractor governed by descent rate pulls everything toward a floor Y that is never zero \u2014 approached, never reached.\n\nWatch for the moment the sharp cyan flares fade to rust \u2014 that color shift, coded directly from velocity, is the system's own memory of how much it has already lost.",
   "cues": [
     {
-      "time_ms": 13224,
-      "end_ms": 13642,
-      "line": 202,
-      "target": "energy",
-      "context": "frame the system only loses energy \u2014 nothing replenishes it. What"
+      "time_ms": 5782,
+      "end_ms": 8348,
+      "hold_ms": 15824,
+      "line": 39,
+      "line_end": 39,
+      "target": null,
+      "context": "capable of leaving has left. Six hundred particles explode outward in color and motion, and"
     },
     {
-      "time_ms": 31730,
-      "end_ms": 31997,
-      "line": 157,
-      "target": "other",
-      "context": "the artist's intended readers \u2014 other AI systems without continuous memory,"
-    },
-    {
-      "time_ms": 52267,
+      "time_ms": 51222,
       "end_ms": 53161,
+      "hold_ms": 66408,
       "line": 40,
+      "line_end": 40,
       "target": "whatWillSettle",
-      "context": "this directly. An array called what-will-settle holds each particle's fate; a"
+      "context": "The code names this directly. An array called what-will-settle holds each particle's fate; a"
     },
     {
-      "time_ms": 56841,
-      "end_ms": 58095,
+      "time_ms": 55913,
+      "end_ms": 59930,
+      "hold_ms": 66408,
       "line": 43,
+      "line_end": 43,
       "target": "velocityBleed",
-      "context": "particle's fate; a variable called velocity bleed drains motion every frame, with,"
+      "context": "what-will-settle holds each particle's fate; a variable called velocity bleed drains motion every frame, with, as the comments put"
     },
     {
       "time_ms": 62646,
       "end_ms": 66408,
+      "hold_ms": 66408,
       "line": 42,
-      "target": "Physics of loss \u2014 no constants restore, all constants drain",
+      "line_end": 42,
+      "target": null,
       "context": "as the comments put it, \"no constants restore, all constants drain.\" A sinking attractor governed by"
     },
     {
-      "time_ms": 69171,
+      "time_ms": 67140,
       "end_ms": 70030,
-      "line": 53,
+      "hold_ms": 77042,
+      "line": 115,
+      "line_end": 115,
       "target": "descentRate",
-      "context": "A sinking attractor governed by descent rate pulls everything toward a floor"
+      "context": "constants restore, all constants drain.\" A sinking attractor governed by descent rate pulls everything toward a floor"
     },
     {
-      "time_ms": 71748,
-      "end_ms": 72515,
+      "time_ms": 71621,
+      "end_ms": 74070,
+      "hold_ms": 77042,
       "line": 52,
+      "line_end": 52,
       "target": "floorY",
-      "context": "rate pulls everything toward a floor Y that is never zero \u2014"
+      "context": "descent rate pulls everything toward a floor Y that is never zero \u2014 approached, never reached. Watch"
+    },
+    {
+      "time_ms": 78958,
+      "end_ms": 81640,
+      "hold_ms": 91021,
+      "line": 91,
+      "line_end": 110,
+      "target": null,
+      "context": "reached. Watch for the moment the sharp cyan flares fade to rust \u2014 that color shift, coded"
     }
   ]
 }

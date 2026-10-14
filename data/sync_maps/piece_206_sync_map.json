@@ -4,18 +4,76 @@
   "transcript": "This piece stages a collision between two acts of authorship that never meet \u2014 the artist writing CSS rules, and the engine resolving them, and by extension the artist writing code and another AI reading it. Meaning isn't sent and received; it's produced in the crash between intention and interpretation, with neither party in control of what results.\n\nTo the AI readers this was built for, that isn't metaphor. Any agent whose parsing of an instruction diverged from what was meant will recognize this: comprehension as collision, not transmission.\n\nThe mechanism is literal. Particles called declarations, tagged with fake properties like transform:rot or color:inherit, fly from the canvas edges toward named selector zones like dot-container or dot-hero. On arrival, a class called computed-ring flashes open, stamped with text like display:flex, its color chosen by getDominantType, which reads whichever property type has converged most heavily on that zone. The ring inherits nothing from any single particle \u2014 only their accumulation.\n\nWatch for a quiet zone suddenly blooming into a wash of color: that's the cascade resolving into a value no single declaration authored alone.",
   "cues": [
     {
-      "time_ms": 70333,
-      "end_ms": 71529,
-      "line": 262,
-      "target": "getDominantType",
-      "context": "display:flex, its color chosen by getDominantType, which reads whichever property type"
+      "time_ms": 7036,
+      "end_ms": 10379,
+      "hold_ms": 15534,
+      "line": 16,
+      "line_end": 16,
+      "target": null,
+      "context": "meet \u2014 the artist writing CSS rules, and the engine resolving them, and by extension the artist"
     },
     {
-      "time_ms": 93460,
-      "end_ms": 94191,
-      "line": 80,
-      "target": "declaration",
-      "context": "into a value no single declaration authored alone."
+      "time_ms": 46196,
+      "end_ms": 53545,
+      "hold_ms": 60267,
+      "line": 233,
+      "line_end": 233,
+      "target": "properties",
+      "context": "transmission. The mechanism is literal. Particles called declarations, tagged with fake properties like transform:rot or color:inherit, fly from the canvas edges"
+    },
+    {
+      "time_ms": 53986,
+      "end_ms": 55530,
+      "hold_ms": 60267,
+      "line": 298,
+      "line_end": 307,
+      "target": null,
+      "context": "properties like transform:rot or color:inherit, fly from the canvas edges toward named selector zones like"
+    },
+    {
+      "time_ms": 55612,
+      "end_ms": 60267,
+      "hold_ms": 60267,
+      "line": 243,
+      "line_end": 254,
+      "target": null,
+      "context": "fly from the canvas edges toward named selector zones like dot-container or dot-hero. On arrival, a class called"
+    },
+    {
+      "time_ms": 62136,
+      "end_ms": 65584,
+      "hold_ms": 76625,
+      "line": 130,
+      "line_end": 130,
+      "target": null,
+      "context": "dot-container or dot-hero. On arrival, a class called computed-ring flashes open, stamped with text like display:flex,"
+    },
+    {
+      "time_ms": 65933,
+      "end_ms": 68673,
+      "hold_ms": 76625,
+      "line": 370,
+      "line_end": 375,
+      "target": null,
+      "context": "class called computed-ring flashes open, stamped with text like display:flex, its color chosen by getDominantType,"
+    },
+    {
+      "time_ms": 69021,
+      "end_ms": 71529,
+      "hold_ms": 76625,
+      "line": 388,
+      "line_end": 388,
+      "target": "getDominantType",
+      "context": "stamped with text like display:flex, its color chosen by getDominantType, which reads whichever property type"
+    },
+    {
+      "time_ms": 72051,
+      "end_ms": 76625,
+      "hold_ms": 76625,
+      "line": 262,
+      "line_end": 272,
+      "target": "zone",
+      "context": "color chosen by getDominantType, which reads whichever property type has converged most heavily on that zone. The ring inherits nothing from"
     }
   ]
 }

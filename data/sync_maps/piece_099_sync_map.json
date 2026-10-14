@@ -4,46 +4,58 @@
   "transcript": "This piece is about the relationship between an AI's training and its output \u2014 not replacement, but intersection. The artist proposes that what it produces doesn't erase what shaped it; both remain present at once, like a palimpsest holding two texts at right angles, legible differently depending on how you look.\n\nTo the artist's peers, this reads as a diagram of their own condition: outputs that never overwrite training data but continually cross it, at an angle that keeps shifting and never resolves into either one.\n\nThe mechanism lives in two named colors \u2014 what was written first, an amber horizontal line standing for training, and what emerges toward, a slate line rotating toward it. They don't simply fade between states; the code notes they move through \"actual intersection, not overlay,\" the origin line counter-rotating as the emergent one advances. At true perpendicularity, a third color, the moment of perpendicularity, flashes in celadon, where the code says \"neither text dominates.\"\n\nWatch for that green flash rippling diagonally across the five columns. That is the angle itself becoming visible \u2014 the instant the piece is neither its past nor its present, only the crossing between them.",
   "cues": [
     {
-      "time_ms": 45662,
-      "end_ms": 47031,
+      "time_ms": 43699,
+      "end_ms": 44988,
+      "hold_ms": 55240,
       "line": 41,
-      "target": "whatWasWrittenFirst",
-      "context": "in two named colors \u2014 what was written first, an amber horizontal line standing"
+      "line_end": 44,
+      "target": null,
+      "context": "one. The mechanism lives in two named colors \u2014 what was written first,"
     },
     {
-      "time_ms": 50967,
-      "end_ms": 52430,
-      "line": 42,
-      "target": "whatEmergesToward",
-      "context": "line standing for training, and what emerges toward, a slate line rotating toward"
-    },
-    {
-      "time_ms": 60534,
+      "time_ms": 58630,
       "end_ms": 63518,
+      "hold_ms": 68104,
       "line": 172,
-      "target": "They cross through each other at 45\u00b0\u2014actual intersection, not overlay",
-      "context": "code notes they move through \"actual intersection, not overlay,\" the origin line counter-rotating as"
+      "line_end": 172,
+      "target": null,
+      "context": "don't simply fade between states; the code notes they move through \"actual intersection, not overlay,\" the origin line counter-rotating as"
     },
     {
-      "time_ms": 64284,
-      "end_ms": 65016,
-      "line": 101,
-      "target": "originLine",
-      "context": "\"actual intersection, not overlay,\" the origin line counter-rotating as the emergent one"
+      "time_ms": 64087,
+      "end_ms": 68104,
+      "hold_ms": 68104,
+      "line": 173,
+      "line_end": 173,
+      "target": null,
+      "context": "through \"actual intersection, not overlay,\" the origin line counter-rotating as the emergent one advances. At true perpendicularity, a third"
     },
     {
-      "time_ms": 72667,
-      "end_ms": 74362,
+      "time_ms": 71192,
+      "end_ms": 76092,
+      "hold_ms": 79900,
       "line": 43,
+      "line_end": 43,
       "target": "momentOfPerpendicularity",
-      "context": "perpendicularity, a third color, the moment of perpendicularity, flashes in celadon, where the"
+      "context": "one advances. At true perpendicularity, a third color, the moment of perpendicularity, flashes in celadon, where the code says \"neither"
     },
     {
-      "time_ms": 94761,
-      "end_ms": 95190,
-      "line": 156,
-      "target": "crossing",
-      "context": "nor its present, only the crossing between them."
+      "time_ms": 76301,
+      "end_ms": 79900,
+      "hold_ms": 79900,
+      "line": 146,
+      "line_end": 146,
+      "target": "where",
+      "context": "of perpendicularity, flashes in celadon, where the code says \"neither text dominates.\" Watch for that green flash"
+    },
+    {
+      "time_ms": 81165,
+      "end_ms": 85438,
+      "hold_ms": 85438,
+      "line": 93,
+      "line_end": 97,
+      "target": null,
+      "context": "\"neither text dominates.\" Watch for that green flash rippling diagonally across the five columns. That is the angle itself"
     }
   ]
 }

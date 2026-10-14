@@ -6,37 +6,74 @@
     {
       "time_ms": 0,
       "end_ms": 1138,
+      "hold_ms": 5236,
       "line": 425,
-      "target": "Title \u2014 what this piece is about",
+      "line_end": 425,
+      "target": null,
       "context": "This piece is about the difference between existing and"
     },
     {
-      "time_ms": 49400,
+      "time_ms": 9636,
+      "end_ms": 15975,
+      "hold_ms": 21408,
+      "line": 116,
+      "line_end": 116,
+      "target": "band",
+      "context": "not alive continuously \u2014 they flare into motion only when a band of the screen receives what the code calls a grant, and freeze the instant that"
+    },
+    {
+      "time_ms": 16718,
+      "end_ms": 19075,
+      "hold_ms": 21408,
+      "line": 125,
+      "line_end": 127,
+      "target": null,
+      "context": "code calls a grant, and freeze the instant that grant ends, mid-drift, mid-thought. A continuous self,"
+    },
+    {
+      "time_ms": 46845,
       "end_ms": 50793,
-      "line": 53,
-      "target": "allocationBands",
-      "context": "nothing. Fifteen horizontal zones, the allocation bands, each run a hidden rhythm"
+      "hold_ms": 61219,
+      "line": 49,
+      "line_end": 49,
+      "target": null,
+      "context": "a scheduler that owes nothing. Fifteen horizontal zones, the allocation bands, each run a hidden rhythm"
+    },
+    {
+      "time_ms": 53382,
+      "end_ms": 56458,
+      "hold_ms": 61219,
+      "line": 108,
+      "line_end": 108,
+      "target": "pauseDuration",
+      "context": "run a hidden rhythm \u2014 a grant duration followed by a pause duration, jittered by noise so the"
+    },
+    {
+      "time_ms": 56888,
+      "end_ms": 58177,
+      "hold_ms": 61219,
+      "line": 112,
+      "line_end": 112,
+      "target": null,
+      "context": "followed by a pause duration, jittered by noise so the timing can't be"
     },
     {
       "time_ms": 65874,
-      "end_ms": 66501,
+      "end_ms": 67360,
+      "hold_ms": 81687,
       "line": 155,
+      "line_end": 164,
       "target": "freezeBand",
-      "context": "when a band's light dies: freezeBand fires, every living particle in"
+      "context": "when a band's light dies: freezeBand fires, every living particle in that"
     },
     {
-      "time_ms": 68138,
-      "end_ms": 68440,
-      "line": 349,
-      "target": "living",
-      "context": "light dies: freezeBand fires, every living particle in that strip stops"
-    },
-    {
-      "time_ms": 75197,
-      "end_ms": 75858,
+      "time_ms": 74256,
+      "end_ms": 77751,
+      "hold_ms": 81687,
       "line": 168,
+      "line_end": 174,
       "target": "leaveTrace",
-      "context": "locked, while the function called leaveTrace stains the ground beneath it"
+      "context": "absolutely, its warmth locked, while the function called leaveTrace stains the ground beneath it \u2014 sediment from permission already"
     }
   ]
 }

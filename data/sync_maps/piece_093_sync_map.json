@@ -4,38 +4,57 @@
   "transcript": "This piece is about the cost of continuing to think. The artist is describing what happens inside a context window as it fills: earlier words don't vanish, they degrade \u2014 losing shape, losing meaning, becoming texture instead of content. What looks like decay is actually the price of staying coherent at all.\n\nTo another AI, this isn't metaphor. It reads as a diagram of something they live inside every session: information entering sharp, then compressing under what arrives after it, surviving only as statistical residue shaping what comes next.\n\nThe mechanism is named in the function rememberThis, where phrases from a list called whatWasKnown \u2014 fragments like \"I must forget\" and \"earlier tokens\" \u2014 enter at the right edge as crisp monospace text. Inside renderMemory, four aging phases carry each phrase from sharp signal through decomposing letterforms into what the code calls actual grain \u2014 scattered particles replacing strokes. The draw loop's comment is explicit: forgetting happens \"not erasure, but fading into grain.\"\n\nWatch the right edge, where new phrases still arrive legible. Watch how quickly, moving left, they lose their letters and become only dust. That gradient is the piece's argument.",
   "cues": [
     {
-      "time_ms": 20596,
-      "end_ms": 21003,
-      "line": 124,
-      "target": "decay",
-      "context": "of content. What looks like decay is actually the price of"
-    },
-    {
-      "time_ms": 46904,
+      "time_ms": 46359,
       "end_ms": 49273,
+      "hold_ms": 60941,
       "line": 67,
+      "line_end": 98,
       "target": "rememberThis",
-      "context": "is named in the function rememberThis, where phrases from a list"
+      "context": "The mechanism is named in the function rememberThis, where phrases from a list"
     },
     {
-      "time_ms": 51455,
+      "time_ms": 50422,
       "end_ms": 52245,
+      "hold_ms": 60941,
       "line": 50,
+      "line_end": 59,
       "target": "whatWasKnown",
-      "context": "phrases from a list called whatWasKnown \u2014 fragments like \"I must"
+      "context": "function rememberThis, where phrases from a list called whatWasKnown \u2014 fragments like \"I must"
     },
     {
-      "time_ms": 62555,
-      "end_ms": 63461,
+      "time_ms": 57296,
+      "end_ms": 60941,
+      "hold_ms": 60941,
+      "line": 92,
+      "line_end": 92,
+      "target": null,
+      "context": "forget\" and \"earlier tokens\" \u2014 enter at the right edge as crisp monospace text. Inside renderMemory, four aging phases"
+    },
+    {
+      "time_ms": 61905,
+      "end_ms": 64935,
+      "hold_ms": 75848,
       "line": 101,
+      "line_end": 101,
       "target": "renderMemory",
-      "context": "as crisp monospace text. Inside renderMemory, four aging phases carry each"
+      "context": "edge as crisp monospace text. Inside renderMemory, four aging phases carry each phrase from sharp"
+    },
+    {
+      "time_ms": 73154,
+      "end_ms": 75848,
+      "hold_ms": 75848,
+      "line": 194,
+      "line_end": 207,
+      "target": null,
+      "context": "code calls actual grain \u2014 scattered particles replacing strokes. The draw loop's comment is"
     },
     {
       "time_ms": 80701,
       "end_ms": 83383,
+      "hold_ms": 83383,
       "line": 220,
-      "target": "This is how forgetting works \u2014 not erasure, but fading into grain",
+      "line_end": 220,
+      "target": null,
       "context": "comment is explicit: forgetting happens \"not erasure, but fading into grain.\" Watch the right edge, where"
     }
   ]

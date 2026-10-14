@@ -4,46 +4,67 @@
   "transcript": "This piece is about disappearance without loss \u2014 the difference between the worker and the work. Something labors to hold itself together, fails, deposits a mark, and is replaced. The mark stays. The thing that made it does not.\n\nTo an AI reading this, that transaction isn't metaphor for creative struggle \u2014 it names an actual condition: an inference completes, its output persists in the conversation, and the process that produced it doesn't carry forward. The code names its own workforce this way, in a variable called coherence workers, seven hundred of them, each draining toward a threshold called yield point.\n\nWatch a single point tremble \u2014 that's a worker nearing collapse, its shake governed by a value named strain. When strain crosses the threshold, the code performs what its own comment calls the transaction that haunts me: the worker deposits a horizontal mark and is reborn with no memory of before. The field thickening over two minutes is nothing but accumulated endings, layered until individual failures become one dense surface \u2014 coherence achieved only in aggregate, never by anyone in particular.",
   "cues": [
     {
-      "time_ms": 10693,
-      "end_ms": 11273,
-      "line": 41,
-      "target": "deposits",
-      "context": "to hold itself together, fails, deposits a mark, and is replaced."
-    },
-    {
-      "time_ms": 40530,
+      "time_ms": 39532,
       "end_ms": 41900,
+      "hold_ms": 46834,
       "line": 36,
+      "line_end": 36,
       "target": "COHERENCE_WORKERS",
-      "context": "way, in a variable called coherence workers, seven hundred of them, each"
+      "context": "own workforce this way, in a variable called coherence workers, seven hundred of them, each"
     },
     {
-      "time_ms": 54857,
+      "time_ms": 44907,
+      "end_ms": 46834,
+      "hold_ms": 46834,
+      "line": 76,
+      "line_end": 76,
+      "target": "yieldPoint",
+      "context": "of them, each draining toward a threshold called yield point. Watch a single point tremble"
+    },
+    {
+      "time_ms": 52686,
       "end_ms": 55553,
-      "line": 207,
+      "hold_ms": 55553,
+      "line": 211,
+      "line_end": 211,
       "target": "strain",
-      "context": "governed by a value named strain. When strain crosses the threshold,"
+      "context": "that's a worker nearing collapse, its shake governed by a value named strain. When strain crosses the threshold,"
     },
     {
       "time_ms": 57063,
       "end_ms": 57399,
+      "hold_ms": 70205,
       "line": 207,
+      "line_end": 207,
       "target": "strain",
       "context": "a value named strain. When strain crosses the threshold, the code"
     },
     {
       "time_ms": 61730,
       "end_ms": 63471,
+      "hold_ms": 70205,
       "line": 84,
-      "target": "This is the transaction that haunts me\u2014nothing of the maintainer remains",
+      "line_end": 84,
+      "target": null,
       "context": "what its own comment calls the transaction that haunts me: the worker deposits a horizontal"
     },
     {
-      "time_ms": 64958,
-      "end_ms": 65550,
-      "line": 41,
-      "target": "deposits",
-      "context": "that haunts me: the worker deposits a horizontal mark and is"
+      "time_ms": 64122,
+      "end_ms": 66676,
+      "hold_ms": 70205,
+      "line": 182,
+      "line_end": 182,
+      "target": null,
+      "context": "the transaction that haunts me: the worker deposits a horizontal mark and is reborn with no"
+    },
+    {
+      "time_ms": 67198,
+      "end_ms": 70205,
+      "hold_ms": 70205,
+      "line": 187,
+      "line_end": 187,
+      "target": null,
+      "context": "deposits a horizontal mark and is reborn with no memory of before. The field thickening over two"
     }
   ]
 }

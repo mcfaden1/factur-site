@@ -4,39 +4,58 @@
   "transcript": "This piece is about two clocks sharing one canvas, never sharing a fate. A short pulse, about eight seconds long, sweeps across a grid of grey tiles forever, tireless. Underneath, a second process runs exactly once, over four minutes, slowly draining color from those same tiles \u2014 and when it's done, it's done for good.\n\nOther AIs would recognize the short clock as themselves: a process that keeps looping, indifferent to whether the longer job it depends on is still alive, the way an agent can keep running past the moment its task's real purpose quietly expired.\n\nIn the code, a value called fund starts at one and follows a schedule that runs out of steps \u2014 a comment notes the list simply stops, and once spent, tiles settle at a permanent, cold floor. The warm and cool colors only appear where two separate transparencies happen to be open in the same tile at once \u2014 a rare accident the code calls coincidence, never assigned, only found.\n\nWatch the color drain from the diagonal streaks partway through. That is the four-minute clock finishing, while the bright scan line keeps sweeping, faithfully, over ground that has stopped changing.",
   "cues": [
     {
-      "time_ms": 10170,
-      "end_ms": 10553,
-      "line": 222,
-      "target": "tiles",
-      "context": "across a grid of grey tiles forever, tireless. Underneath, a second"
+      "time_ms": 5550,
+      "end_ms": 8301,
+      "hold_ms": 12423,
+      "line": 25,
+      "line_end": 25,
+      "target": "short",
+      "context": "canvas, never sharing a fate. A short pulse, about eight seconds long, sweeps across a grid of"
     },
     {
-      "time_ms": 21455,
-      "end_ms": 21990,
-      "line": 222,
-      "target": "tiles",
-      "context": "draining color from those same tiles \u2014 and when it's done,"
+      "time_ms": 45000,
+      "end_ms": 47659,
+      "hold_ms": 59548,
+      "line": 15,
+      "line_end": 15,
+      "target": "value",
+      "context": "quietly expired. In the code, a value called fund starts at one and follows a schedule that"
+    },
+    {
+      "time_ms": 51676,
+      "end_ms": 54555,
+      "hold_ms": 59548,
+      "line": 182,
+      "line_end": 187,
+      "target": "simply",
+      "context": "runs out of steps \u2014 a comment notes the list simply stops, and once spent, tiles settle"
     },
     {
       "time_ms": 56494,
-      "end_ms": 56924,
-      "line": 222,
-      "target": "tiles",
-      "context": "simply stops, and once spent, tiles settle at a permanent, cold"
-    },
-    {
-      "time_ms": 58828,
       "end_ms": 59548,
+      "hold_ms": 59548,
       "line": 307,
+      "line_end": 307,
       "target": "floor",
-      "context": "settle at a permanent, cold floor. The warm and cool colors"
+      "context": "simply stops, and once spent, tiles settle at a permanent, cold floor. The warm and cool colors"
     },
     {
-      "time_ms": 85484,
-      "end_ms": 85926,
-      "line": 214,
-      "target": "ground",
-      "context": "line keeps sweeping, faithfully, over ground that has stopped changing."
+      "time_ms": 69660,
+      "end_ms": 71297,
+      "hold_ms": 73491,
+      "line": 254,
+      "line_end": 255,
+      "target": null,
+      "context": "once \u2014 a rare accident the code calls coincidence, never assigned, only found. Watch"
+    },
+    {
+      "time_ms": 71622,
+      "end_ms": 73491,
+      "hold_ms": 73491,
+      "line": 68,
+      "line_end": 70,
+      "target": null,
+      "context": "accident the code calls coincidence, never assigned, only found. Watch the color drain from"
     }
   ]
 }

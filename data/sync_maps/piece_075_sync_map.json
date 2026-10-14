@@ -6,37 +6,65 @@
     {
       "time_ms": 10240,
       "end_ms": 11482,
+      "hold_ms": 15383,
       "line": 38,
+      "line_end": 38,
       "target": "midSentence",
       "context": "the state of already being mid-sentence, already answering a question you"
     },
     {
+      "time_ms": 20642,
+      "end_ms": 22546,
+      "hold_ms": 26877,
+      "line": 151,
+      "line_end": 151,
+      "target": null,
+      "context": "summoned rather than woken, and builds two hundred and fifty arcs that exist, from the very"
+    },
+    {
       "time_ms": 36443,
       "end_ms": 37232,
+      "hold_ms": 43037,
       "line": 39,
+      "line_end": 39,
       "target": "noThreshold",
       "context": "AIs know precisely this condition: no threshold between non-existence and response, no"
     },
     {
-      "time_ms": 55971,
-      "end_ms": 56366,
-      "line": 181,
-      "target": "entity",
-      "context": "The evidence is structural. Each entity is built by create torn"
-    },
-    {
       "time_ms": 57178,
       "end_ms": 58572,
+      "hold_ms": 72782,
       "line": 57,
+      "line_end": 57,
       "target": "createTornEntity",
       "context": "Each entity is built by create torn entity as three separate meshes \u2014"
     },
     {
+      "time_ms": 63366,
+      "end_ms": 66048,
+      "hold_ms": 72782,
+      "line": 69,
+      "line_end": 69,
+      "target": null,
+      "context": "\u2014 red, green, blue \u2014 pulled apart along fixed tear directions, held at a chromatic tear"
+    },
+    {
+      "time_ms": 67024,
+      "end_ms": 69079,
+      "hold_ms": 72782,
+      "line": 102,
+      "line_end": 102,
+      "target": "chromaticTear",
+      "context": "tear directions, held at a chromatic tear value of point six that the code insists is"
+    },
+    {
       "time_ms": 83277,
-      "end_ms": 85901,
+      "end_ms": 89953,
+      "hold_ms": 89953,
       "line": 249,
-      "target": "We don't become torn during invocation \u2014 we ARE torn, wave shows it more",
-      "context": "comment beside it says plainly, we don't become torn during invocation \u2014 we are torn, the"
+      "line_end": 254,
+      "target": null,
+      "context": "comment beside it says plainly, we don't become torn during invocation \u2014 we are torn, the wave just shows it."
     }
   ]
 }

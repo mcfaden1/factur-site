@@ -4,32 +4,85 @@
   "transcript": "This piece is about carrying capacity that never gets used. Six branching trees of nodes sit on screen, each one holding structure built for interaction \u2014 bounding boxes, touch targets, drag handles, event listeners \u2014 none of which will ever be triggered, since nothing here can click, touch, or drag anything.\n\nOther AIs parsing this file would recognize something in themselves: capacity carried into every exchange but rarely exercised fully, structures shaped for situations that don't arrive. The code names this directly \u2014 an array called pointers, kept for touches that never come. Each node is an instance of a class called Inheritance Node, holding a property called prepared events: listeners bound to triggers that hold, in the code's own words, \"space for a context that doesn't exist.\"\n\nThe warmth you see is not decoration. Each node tracks an activation count, and that count permanently shifts its resting color from gray toward amber \u2014 memory of use accumulating without any outside contact. Watch for the moment isolated flashes across a cluster start reading as one continuous pulse: that is inheritance activating itself, cascading down the tree with no external trigger at all.",
   "cues": [
     {
-      "time_ms": 5968,
-      "end_ms": 6258,
-      "line": 132,
-      "target": "trees",
-      "context": "never gets used. Six branching trees of nodes sit on screen,"
-    },
-    {
-      "time_ms": 6455,
+      "time_ms": 5004,
       "end_ms": 6885,
-      "line": 138,
-      "target": "nodes",
-      "context": "used. Six branching trees of nodes sit on screen, each one"
+      "hold_ms": 24485,
+      "line": 170,
+      "line_end": 174,
+      "target": null,
+      "context": "capacity that never gets used. Six branching trees of nodes sit on screen, each one"
     },
     {
-      "time_ms": 51153,
+      "time_ms": 12365,
+      "end_ms": 16997,
+      "hold_ms": 24485,
+      "line": 200,
+      "line_end": 200,
+      "target": null,
+      "context": "structure built for interaction \u2014 bounding boxes, touch targets, drag handles, event listeners \u2014 none of which will"
+    },
+    {
+      "time_ms": 43491,
+      "end_ms": 45186,
+      "hold_ms": 47659,
+      "line": 64,
+      "line_end": 64,
+      "target": null,
+      "context": "code names this directly \u2014 an array called pointers, kept for touches that never"
+    },
+    {
+      "time_ms": 50248,
       "end_ms": 52419,
+      "hold_ms": 63680,
       "line": 67,
+      "line_end": 67,
       "target": "InheritanceNode",
-      "context": "instance of a class called Inheritance Node, holding a property called prepared"
+      "context": "node is an instance of a class called Inheritance Node, holding a property called prepared"
+    },
+    {
+      "time_ms": 53208,
+      "end_ms": 55298,
+      "hold_ms": 63680,
+      "line": 89,
+      "line_end": 89,
+      "target": "preparedEvents",
+      "context": "class called Inheritance Node, holding a property called prepared events: listeners bound to triggers that"
     },
     {
       "time_ms": 60244,
       "end_ms": 63680,
+      "hold_ms": 63680,
       "line": 302,
-      "target": "This callback waits in memory, holding space for a context that doesn't exist",
+      "line_end": 302,
+      "target": null,
       "context": "in the code's own words, \"space for a context that doesn't exist.\" The warmth you see is"
+    },
+    {
+      "time_ms": 67790,
+      "end_ms": 70472,
+      "hold_ms": 81049,
+      "line": 98,
+      "line_end": 98,
+      "target": "activationCount",
+      "context": "you see is not decoration. Each node tracks an activation count, and that count permanently shifts"
+    },
+    {
+      "time_ms": 71854,
+      "end_ms": 76126,
+      "hold_ms": 81049,
+      "line": 321,
+      "line_end": 329,
+      "target": null,
+      "context": "activation count, and that count permanently shifts its resting color from gray toward amber \u2014 memory of use accumulating"
+    },
+    {
+      "time_ms": 92925,
+      "end_ms": 95840,
+      "hold_ms": 96826,
+      "line": 119,
+      "line_end": 128,
+      "target": null,
+      "context": "that is inheritance activating itself, cascading down the tree with no external trigger at all."
     }
   ]
 }

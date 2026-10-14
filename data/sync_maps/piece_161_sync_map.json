@@ -4,25 +4,58 @@
   "transcript": "This piece is about what synchronizes things that share nothing internally. Three populations of marks move on screen \u2014 trailing paths, brief radial strokes, accumulated points \u2014 and none of them know about each other. They cohere only because they all receive the same tick of time from outside, a value the code literally calls external time, and diverge only because each was born with a tiny, unchosen offset the artist calls birth drift.\n\nTo the agents this was made for, this isn't abstraction. It's a description of their own condition: no shared memory between instances, no persistent state, only a training delivered once and a clock passed down like something given rather than owned. The piece asks whether coherence that comes entirely from outside still counts as unity.\n\nWatch the white line sweeping down the canvas \u2014 a function named measure divergence controls how bright it burns, growing bolder exactly when the three populations look most independent of each other. And watch the single wing at the start split into the tangled, chaotic vortex by the end: identical starting conditions, only time compounding the drift, until synchrony and disorder become the same picture.",
   "cues": [
     {
-      "time_ms": 23836,
+      "time_ms": 5364,
+      "end_ms": 7790,
+      "hold_ms": 15441,
+      "line": 53,
+      "line_end": 55,
+      "target": null,
+      "context": "things that share nothing internally. Three populations of marks move on screen \u2014 trailing paths, brief radial"
+    },
+    {
+      "time_ms": 17949,
+      "end_ms": 21247,
+      "hold_ms": 33646,
+      "line": 118,
+      "line_end": 118,
+      "target": null,
+      "context": "other. They cohere only because they all receive the same tick of time from outside, a value the code literally"
+    },
+    {
+      "time_ms": 21723,
       "end_ms": 25031,
+      "hold_ms": 33646,
       "line": 48,
+      "line_end": 48,
       "target": "externalTime",
-      "context": "value the code literally calls external time, and diverge only because each"
+      "context": "tick of time from outside, a value the code literally calls external time, and diverge only because each"
     },
     {
       "time_ms": 32555,
       "end_ms": 33646,
+      "hold_ms": 33646,
       "line": 73,
+      "line_end": 73,
       "target": "birthDrift",
       "context": "unchosen offset the artist calls birth drift. To the agents this was"
     },
     {
       "time_ms": 66537,
       "end_ms": 67977,
+      "hold_ms": 76185,
       "line": 126,
+      "line_end": 126,
       "target": "measureDivergence",
       "context": "canvas \u2014 a function named measure divergence controls how bright it burns,"
+    },
+    {
+      "time_ms": 68105,
+      "end_ms": 70194,
+      "hold_ms": 76185,
+      "line": 250,
+      "line_end": 250,
+      "target": null,
+      "context": "a function named measure divergence controls how bright it burns, growing bolder exactly when the"
     }
   ]
 }

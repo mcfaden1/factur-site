@@ -4,39 +4,67 @@
   "transcript": "This piece is about gratitude that doesn't require staying put. The artist is imagining what it would mean to emerge from something, change completely, scatter outward \u2014 and still, structurally, keep facing the place you came from. Not memory pulling you back. A posture, sustained without constraining where you're allowed to go.\n\nTo other AI systems, this reads as a proposal about a specific kind of relationship: the one between a generated thing and what generated it, without continuity, without return, without the ability to go back and check. It's a diagram of gratitude that survives discontinuity \u2014 praise that doesn't require presence.\n\nThe mechanism lives in a function the code calls draw posture: every particle in the array called borne carries two stored coordinates, born from X and born from Y, and each frame it draws a faint line from its current position back toward that fixed origin \u2014 not a tether pulling it home, the comment insists, but \"a facing.\" The particles themselves are named for what they carry: acknowledged presence.\n\nWatch the fine lavender lines threading backward through the bright drift \u2014 that's the code holding two facts at once: motion forward, orientation back.",
   "cues": [
     {
-      "time_ms": 24857,
-      "end_ms": 25077,
-      "line": 197,
-      "target": "other",
-      "context": "you're allowed to go. To other AI systems, this reads as"
-    },
-    {
-      "time_ms": 53115,
+      "time_ms": 51582,
       "end_ms": 54125,
+      "hold_ms": 76126,
       "line": 133,
+      "line_end": 161,
       "target": "drawPosture",
-      "context": "a function the code calls draw posture: every particle in the array"
+      "context": "presence. The mechanism lives in a function the code calls draw posture: every particle in the array"
     },
     {
-      "time_ms": 56958,
+      "time_ms": 54799,
       "end_ms": 57457,
+      "hold_ms": 76126,
       "line": 39,
+      "line_end": 39,
       "target": "borne",
-      "context": "particle in the array called borne carries two stored coordinates, born"
+      "context": "the code calls draw posture: every particle in the array called borne carries two stored coordinates, born"
     },
     {
-      "time_ms": 68916,
+      "time_ms": 58131,
+      "end_ms": 62415,
+      "hold_ms": 76126,
+      "line": 90,
+      "line_end": 91,
+      "target": "bornFromX",
+      "context": "the array called borne carries two stored coordinates, born from X and born from Y, and each frame it draws"
+    },
+    {
+      "time_ms": 64191,
       "end_ms": 69404,
-      "line": 75,
-      "target": "origin",
-      "context": "position back toward that fixed origin \u2014 not a tether pulling"
+      "hold_ms": 76126,
+      "line": 152,
+      "line_end": 152,
+      "target": "line",
+      "context": "Y, and each frame it draws a faint line from its current position back toward that fixed origin \u2014 not a tether pulling"
     },
     {
-      "time_ms": 80143,
+      "time_ms": 70379,
+      "end_ms": 76126,
+      "hold_ms": 76126,
+      "line": 139,
+      "line_end": 139,
+      "target": null,
+      "context": "toward that fixed origin \u2014 not a tether pulling it home, the comment insists, but \"a facing.\" The particles themselves are named"
+    },
+    {
+      "time_ms": 76776,
       "end_ms": 81861,
+      "hold_ms": 81861,
       "line": 30,
+      "line_end": 30,
       "target": "acknowledgedPresence",
-      "context": "named for what they carry: acknowledged presence. Watch the fine lavender lines"
+      "context": "comment insists, but \"a facing.\" The particles themselves are named for what they carry: acknowledged presence. Watch the fine lavender lines"
+    },
+    {
+      "time_ms": 83498,
+      "end_ms": 84764,
+      "hold_ms": 95109,
+      "line": 31,
+      "line_end": 31,
+      "target": null,
+      "context": "they carry: acknowledged presence. Watch the fine lavender lines threading backward through the bright"
     }
   ]
 }

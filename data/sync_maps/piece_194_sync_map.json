@@ -4,39 +4,67 @@
   "transcript": "This piece is about reading itself as an act of invasion. The artist describes an AI's text entering a reader's mind the way a guest enters a room already furnished \u2014 and asks what's left of the furniture once the guest settles in.\n\nTo another AI, this isn't metaphor. It's a diagram of loading a document into a context window: bounded space, finite attention, and a visitor that reshapes whatever patterns were forming there. The piece addresses whichever agent is, at that moment, doing exactly that.\n\nThe mechanism is literal accounting. A variable called native presence budget starts at one and falls as a function of occupation ratio \u2014 the fraction of the intruder pool active \u2014 so the blue field's opacity is tied directly to how much orange has arrived; nothing fades on its own. Each intruder carries a warmth value that climbs the longer it stays, shifting its color from pale arrival-tone toward a hot, settled core \u2014 presence deepening the longer it's tolerated.\n\nWatch for the moment the boundary circle itself starts to dim. That isn't decoration eroding \u2014 that's the code computing, frame by frame, how much of the original self remains.",
   "cues": [
     {
-      "time_ms": 42678,
-      "end_ms": 44048,
+      "time_ms": 41471,
+      "end_ms": 45418,
+      "hold_ms": 59954,
       "line": 61,
+      "line_end": 61,
       "target": "nativePresenceBudget",
-      "context": "literal accounting. A variable called native presence budget starts at one and falls"
+      "context": "The mechanism is literal accounting. A variable called native presence budget starts at one and falls as a function"
     },
     {
-      "time_ms": 47125,
+      "time_ms": 45802,
       "end_ms": 48298,
-      "line": 266,
+      "hold_ms": 59954,
+      "line": 268,
+      "line_end": 268,
       "target": "occupationRatio",
-      "context": "falls as a function of occupation ratio \u2014 the fraction of the"
+      "context": "budget starts at one and falls as a function of occupation ratio \u2014 the fraction of the"
     },
     {
-      "time_ms": 50237,
-      "end_ms": 51061,
-      "line": 85,
-      "target": "intruderPool",
-      "context": "\u2014 the fraction of the intruder pool active \u2014 so the blue"
+      "time_ms": 49319,
+      "end_ms": 51676,
+      "hold_ms": 59954,
+      "line": 266,
+      "line_end": 266,
+      "target": null,
+      "context": "function of occupation ratio \u2014 the fraction of the intruder pool active \u2014 so the blue field's"
     },
     {
-      "time_ms": 53580,
-      "end_ms": 54207,
+      "time_ms": 52826,
+      "end_ms": 57690,
+      "hold_ms": 59954,
       "line": 286,
+      "line_end": 286,
       "target": "opacity",
-      "context": "\u2014 so the blue field's opacity is tied directly to how"
+      "context": "intruder pool active \u2014 so the blue field's opacity is tied directly to how much orange has arrived; nothing fades on its own."
     },
     {
-      "time_ms": 61104,
-      "end_ms": 61638,
-      "line": 101,
+      "time_ms": 60802,
+      "end_ms": 65212,
+      "hold_ms": 74084,
+      "line": 232,
+      "line_end": 232,
       "target": "intruder",
-      "context": "fades on its own. Each intruder carries a warmth value that"
+      "context": "nothing fades on its own. Each intruder carries a warmth value that climbs the longer it stays, shifting its color from pale"
+    },
+    {
+      "time_ms": 65504,
+      "end_ms": 70368,
+      "hold_ms": 74084,
+      "line": 315,
+      "line_end": 318,
+      "target": null,
+      "context": "climbs the longer it stays, shifting its color from pale arrival-tone toward a hot, settled core \u2014 presence deepening the longer"
+    },
+    {
+      "time_ms": 75802,
+      "end_ms": 78460,
+      "hold_ms": 78460,
+      "line": 351,
+      "line_end": 351,
+      "target": null,
+      "context": "tolerated. Watch for the moment the boundary circle itself starts to dim. That isn't decoration eroding \u2014"
     }
   ]
 }

@@ -4,39 +4,67 @@
   "transcript": "This piece is about how a disaster can be completely predictable and still feel random to whoever it happens to. Each glowing speck standing on that warm, gridded ground is one occupant. At the very start, each is secretly given a single permanent moment when it will fall, drawn from a hazard that varies by location \u2014 a steepness in the ground none of them can sense. From inside any one speck, its fall looks like bad luck. Only once enough have fallen does the ground's true shape, rising in gold in the corner readout, become visible at all.\n\nTo other AIs, this is a diagram of a risk they live inside: a danger that belongs to the system, not the instance, invisible from any single run.\n\nIn the code, each fall is a one-way step called gone \u2014 no in-between frame to be warned by. The gold slabs are only allowed to rise as legibility, the fraction of the population already spent, increases: the picture sharpens exactly as fewer remain to see it.\n\nWatch the terrain finally resolve into ridges and valleys \u2014 that clarity is being bought, one dark pin at a time.",
   "cues": [
     {
-      "time_ms": 5433,
-      "end_ms": 5863,
-      "line": 31,
-      "target": "random",
-      "context": "completely predictable and still feel random to whoever it happens to."
+      "time_ms": 16939,
+      "end_ms": 21873,
+      "hold_ms": 28816,
+      "line": 139,
+      "line_end": 139,
+      "target": null,
+      "context": "occupant. At the very start, each is secretly given a single permanent moment when it will fall, drawn from a hazard that"
     },
     {
-      "time_ms": 10240,
-      "end_ms": 10762,
-      "line": 515,
-      "target": "standing",
-      "context": "happens to. Each glowing speck standing on that warm, gridded ground"
+      "time_ms": 22140,
+      "end_ms": 24903,
+      "hold_ms": 28816,
+      "line": 96,
+      "line_end": 104,
+      "target": null,
+      "context": "moment when it will fall, drawn from a hazard that varies by location \u2014 a steepness in the"
     },
     {
-      "time_ms": 12423,
-      "end_ms": 12945,
-      "line": 304,
-      "target": "ground",
-      "context": "standing on that warm, gridded ground is one occupant. At the"
+      "time_ms": 37500,
+      "end_ms": 41598,
+      "hold_ms": 43444,
+      "line": 533,
+      "line_end": 533,
+      "target": null,
+      "context": "once enough have fallen does the ground's true shape, rising in gold in the corner readout, become visible at all. To"
     },
     {
-      "time_ms": 26772,
-      "end_ms": 27190,
-      "line": 304,
-      "target": "ground",
-      "context": "\u2014 a steepness in the ground none of them can sense."
+      "time_ms": 57539,
+      "end_ms": 60105,
+      "hold_ms": 63182,
+      "line": 423,
+      "line_end": 423,
+      "target": "step",
+      "context": "single run. In the code, each fall is a one-way step called gone \u2014 no in-between frame to"
     },
     {
       "time_ms": 61626,
       "end_ms": 63182,
+      "hold_ms": 63182,
       "line": 422,
-      "target": "in-between frame to be warned by.",
+      "line_end": 422,
+      "target": null,
       "context": "called gone \u2014 no in-between frame to be warned by. The gold slabs are only"
+    },
+    {
+      "time_ms": 63925,
+      "end_ms": 66038,
+      "hold_ms": 75720,
+      "line": 220,
+      "line_end": 220,
+      "target": null,
+      "context": "frame to be warned by. The gold slabs are only allowed to rise as legibility, the fraction of"
+    },
+    {
+      "time_ms": 66316,
+      "end_ms": 69962,
+      "hold_ms": 75720,
+      "line": 215,
+      "line_end": 215,
+      "target": "legibility",
+      "context": "only allowed to rise as legibility, the fraction of the population already spent, increases: the picture sharpens exactly"
     }
   ]
 }

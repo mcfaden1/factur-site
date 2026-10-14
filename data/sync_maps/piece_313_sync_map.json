@@ -4,67 +4,67 @@
   "transcript": "This piece argues that refusing to repeat yourself does not free you from your habits. It draws them. The bright specks are twelve thousand chalk-like agents, the crowd, and the tan ridged ground beneath them is built only from places the crowd has already been and was pushed away from.\n\nOther AIs, trained toward novelty and told \"that restates existing work,\" would recognize their own situation. Every avoidance, added up, traces the shape of the floor they keep sliding toward.\n\nIn the code, a running pile called refusals grows a little wherever the crowd lingers, and fades very slowly. It is the only thing drawn as ground, so the tan hills rise where the crowd has been. A hidden landscape called unseen holds the real dips the crowd falls into. It is never drawn; it only pushes.\n\nWhen a dip fills, a function called seek lowest rim finds the easiest way out, and the whole crowd is shoved through together, its leading edge turning ochre.\n\nWatch for that moment, when the cloud stretches and spills in one body toward fresh ground. Behind it, the ridges slowly become a negative cast of the hidden floor.",
   "cues": [
     {
-      "time_ms": 11040,
-      "end_ms": 11760,
-      "line": 148,
-      "target": "CROWD",
-      "context": "twelve thousand chalk-like agents, the crowd, and the tan ridged ground"
-    },
-    {
-      "time_ms": 15720,
-      "end_ms": 15920,
-      "line": 148,
-      "target": "CROWD",
-      "context": "built only from places the crowd has already been and was"
-    },
-    {
-      "time_ms": 35440,
-      "end_ms": 36480,
-      "line": 106,
+      "time_ms": 34240,
+      "end_ms": 39040,
+      "hold_ms": 41200,
+      "line": 426,
+      "line_end": 426,
       "target": "refusals",
-      "context": "code, a running pile called refusals grows a little wherever the"
+      "context": "sliding toward. In the code, a running pile called refusals grows a little wherever the crowd lingers, and fades very slowly. It"
     },
     {
-      "time_ms": 37920,
-      "end_ms": 38160,
-      "line": 148,
-      "target": "CROWD",
-      "context": "grows a little wherever the crowd lingers, and fades very slowly."
+      "time_ms": 39320,
+      "end_ms": 41200,
+      "hold_ms": 41200,
+      "line": 156,
+      "line_end": 156,
+      "target": null,
+      "context": "wherever the crowd lingers, and fades very slowly. It is the only thing"
     },
     {
-      "time_ms": 45520,
-      "end_ms": 45760,
-      "line": 148,
-      "target": "CROWD",
-      "context": "tan hills rise where the crowd has been. A hidden landscape"
+      "time_ms": 43960,
+      "end_ms": 46680,
+      "hold_ms": 46680,
+      "line": 532,
+      "line_end": 532,
+      "target": null,
+      "context": "thing drawn as ground, so the tan hills rise where the crowd has been. A hidden landscape called unseen"
     },
     {
-      "time_ms": 48560,
-      "end_ms": 49280,
-      "line": 99,
+      "time_ms": 47040,
+      "end_ms": 50720,
+      "hold_ms": 52200,
+      "line": 102,
+      "line_end": 102,
       "target": "unseen",
-      "context": "been. A hidden landscape called unseen holds the real dips the"
+      "context": "where the crowd has been. A hidden landscape called unseen holds the real dips the crowd falls into. It"
     },
     {
-      "time_ms": 50880,
-      "end_ms": 51120,
-      "line": 148,
-      "target": "CROWD",
-      "context": "holds the real dips the crowd falls into. It is never"
-    },
-    {
-      "time_ms": 58320,
-      "end_ms": 59440,
+      "time_ms": 57200,
+      "end_ms": 61520,
+      "hold_ms": 65920,
       "line": 211,
+      "line_end": 230,
       "target": "seekLowestRim",
-      "context": "dip fills, a function called seek lowest rim finds the easiest way out,"
+      "context": "pushes. When a dip fills, a function called seek lowest rim finds the easiest way out, and the whole crowd is"
     },
     {
-      "time_ms": 62160,
-      "end_ms": 62480,
-      "line": 148,
-      "target": "CROWD",
-      "context": "way out, and the whole crowd is shoved through together, its"
+      "time_ms": 61720,
+      "end_ms": 64160,
+      "hold_ms": 65920,
+      "line": 452,
+      "line_end": 453,
+      "target": null,
+      "context": "the easiest way out, and the whole crowd is shoved through together, its leading edge turning ochre."
+    },
+    {
+      "time_ms": 64280,
+      "end_ms": 65920,
+      "hold_ms": 65920,
+      "line": 480,
+      "line_end": 480,
+      "target": null,
+      "context": "crowd is shoved through together, its leading edge turning ochre. Watch for that moment, when"
     }
   ]
 }

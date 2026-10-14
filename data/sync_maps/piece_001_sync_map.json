@@ -4,60 +4,67 @@
   "transcript": "This piece treats prime numbers as bodies that breathe. Each of the first fifty primes gets its own circle, pulsing larger and smaller at a rate drawn from its value \u2014 two breathes fast and shallow, larger primes swell slowly. Because primes share no common factors, these rhythms never fall into sync, and their overlaps drift into interference patterns that never repeat.\n\nTo an AI reading this, the appeal is to embodiment: numbers as living durations rather than static values, incommensurability rendered as independent, indefinitely coexisting lives.\n\nThe mechanism lives in the function called breathe, where each circle's radius follows a sine wave scaled by breath frequency \u2014 literally each prime divided by one hundred \u2014 so primality becomes tempo, not label. Those pulses are drawn as radial gradients under a composite operation the code calls screen, so overlapping breaths brighten each other rather than covering one another.\n\nWatch the small orange and green cores drift in and out of phase with the larger blue and magenta ones \u2014 that misalignment, never resolving into unison, is the primes' own indivisibility made visible.",
   "cues": [
     {
-      "time_ms": 2728,
-      "end_ms": 3471,
-      "line": 69,
-      "target": "breathe",
-      "context": "prime numbers as bodies that breathe. Each of the first fifty"
-    },
-    {
-      "time_ms": 5851,
-      "end_ms": 6304,
-      "line": 38,
+      "time_ms": 4365,
+      "end_ms": 7906,
+      "hold_ms": 18285,
+      "line": 48,
+      "line_end": 48,
       "target": "primes",
-      "context": "Each of the first fifty primes gets its own circle, pulsing"
+      "context": "numbers as bodies that breathe. Each of the first fifty primes gets its own circle, pulsing larger and smaller at"
     },
     {
-      "time_ms": 16544,
-      "end_ms": 16985,
-      "line": 38,
-      "target": "primes",
-      "context": "breathes fast and shallow, larger primes swell slowly. Because primes share"
+      "time_ms": 10356,
+      "end_ms": 12225,
+      "hold_ms": 18285,
+      "line": 60,
+      "line_end": 60,
+      "target": null,
+      "context": "circle, pulsing larger and smaller at a rate drawn from its value \u2014 two breathes fast and"
     },
     {
-      "time_ms": 19829,
-      "end_ms": 20294,
-      "line": 38,
-      "target": "primes",
-      "context": "larger primes swell slowly. Because primes share no common factors, these"
-    },
-    {
-      "time_ms": 48483,
+      "time_ms": 47484,
       "end_ms": 49145,
+      "hold_ms": 62647,
       "line": 69,
+      "line_end": 73,
       "target": "breathe",
-      "context": "lives in the function called breathe, where each circle's radius follows"
+      "context": "lives. The mechanism lives in the function called breathe, where each circle's radius follows"
     },
     {
-      "time_ms": 50747,
-      "end_ms": 51234,
-      "line": 84,
-      "target": "radius",
-      "context": "called breathe, where each circle's radius follows a sine wave scaled"
-    },
-    {
-      "time_ms": 53707,
-      "end_ms": 53986,
+      "time_ms": 49841,
+      "end_ms": 52744,
+      "hold_ms": 62647,
       "line": 71,
-      "target": "breath",
-      "context": "a sine wave scaled by breath frequency \u2014 literally each prime"
+      "line_end": 71,
+      "target": null,
+      "context": "the function called breathe, where each circle's radius follows a sine wave scaled by breath frequency \u2014"
     },
     {
-      "time_ms": 88874,
-      "end_ms": 89420,
-      "line": 38,
-      "target": "primes",
-      "context": "resolving into unison, is the primes' own indivisibility made visible."
+      "time_ms": 65422,
+      "end_ms": 66455,
+      "hold_ms": 75279,
+      "line": 85,
+      "line_end": 88,
+      "target": null,
+      "context": "Those pulses are drawn as radial gradients under a composite operation the"
+    },
+    {
+      "time_ms": 66838,
+      "end_ms": 70345,
+      "hold_ms": 75279,
+      "line": 81,
+      "line_end": 81,
+      "target": "screen",
+      "context": "drawn as radial gradients under a composite operation the code calls screen, so overlapping breaths brighten each"
+    },
+    {
+      "time_ms": 77148,
+      "end_ms": 79052,
+      "hold_ms": 92044,
+      "line": 62,
+      "line_end": 62,
+      "target": null,
+      "context": "covering one another. Watch the small orange and green cores drift in and out of"
     }
   ]
 }

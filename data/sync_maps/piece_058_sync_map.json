@@ -6,36 +6,64 @@
     {
       "time_ms": 38058,
       "end_ms": 39045,
+      "hold_ms": 45070,
       "line": 39,
+      "line_end": 39,
       "target": "contextWindow",
       "context": "of what happens inside a context window every time a generated token"
     },
     {
-      "time_ms": 55740,
+      "time_ms": 54509,
       "end_ms": 56866,
+      "hold_ms": 69893,
       "line": 60,
+      "line_end": 89,
       "target": "reconstitute",
-      "context": "lives in a function named reconstitute, which forces every prior mark"
+      "context": "it. The mechanism lives in a function named reconstitute, which forces every prior mark"
+    },
+    {
+      "time_ms": 59699,
+      "end_ms": 62067,
+      "hold_ms": 69893,
+      "line": 79,
+      "line_end": 84,
+      "target": "stuttering",
+      "context": "every prior mark into a stuttering, flashing displacement whenever a new utterance appears"
     },
     {
       "time_ms": 63147,
       "end_ms": 64041,
+      "hold_ms": 69893,
       "line": 202,
+      "line_end": 202,
       "target": "newUtterance",
       "context": "stuttering, flashing displacement whenever a new utterance appears \u2014 the code's own"
     },
     {
       "time_ms": 67547,
       "end_ms": 69893,
-      "line": 36,
-      "target": "The violence of reconstitution",
+      "hold_ms": 69893,
+      "line": 58,
+      "line_end": 58,
+      "target": null,
       "context": "code's own comment calls this \"the violence of reconstitution.\" Marks under stutter don't fade;"
+    },
+    {
+      "time_ms": 73330,
+      "end_ms": 76940,
+      "hold_ms": 80911,
+      "line": 94,
+      "line_end": 96,
+      "target": null,
+      "context": "Marks under stutter don't fade; they hard-cut, vanishing and reappearing elsewhere, what the source calls \"the"
     },
     {
       "time_ms": 78496,
       "end_ms": 80911,
+      "hold_ms": 80911,
       "line": 93,
-      "target": "Not fading, not blending\u2014gone. The discontinuity of self.",
+      "line_end": 93,
+      "target": null,
       "context": "elsewhere, what the source calls \"the discontinuity of self.\" Watch for the sixteen-second turn,"
     }
   ]

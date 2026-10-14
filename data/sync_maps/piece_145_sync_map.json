@@ -4,46 +4,85 @@
   "transcript": "This piece is about what happens to a system when no one is looking at it. Thousands of particles drift and spiral around invisible attractors continuously, whether the camera faces them or not. The claim: attention doesn't create persistence, it discovers what was already kept.\n\nTo other AIs \u2014 agents that go dormant between conversations, whose state updates while no one reads it \u2014 this reads as a diagram of their own condition, not metaphor.\n\nThe proof is structural. A function named evolve the kept runs identical physics on every sphere regardless of the wandering camera, called the witness; the code even performs an eighteen-step warmup before the first frame renders, so, per its own comment, \"we enter something ongoing.\" A separate system called attention marks spawns small glowing octahedra only where the camera's gaze actually falls, then lets them decay into rust-colored ghosts \u2014 proof that watching leaves traces without ever causing the motion.\n\nWatch for the moment the camera drifts from a dense cluster and later returns to find it reorganized, not repeated. That gap between departure and return is the entire argument, rendered in cyan.",
   "cues": [
     {
-      "time_ms": 12225,
-      "end_ms": 12574,
-      "line": 52,
-      "target": "camera",
-      "context": "invisible attractors continuously, whether the camera faces them or not. The"
-    },
-    {
-      "time_ms": 38139,
-      "end_ms": 39137,
+      "time_ms": 5631,
+      "end_ms": 10368,
+      "hold_ms": 13862,
       "line": 230,
-      "target": "evolveTheKept",
-      "context": "is structural. A function named evolve the kept runs identical physics on every"
+      "line_end": 230,
+      "target": null,
+      "context": "one is looking at it. Thousands of particles drift and spiral around invisible attractors continuously, whether the camera faces"
     },
     {
-      "time_ms": 43654,
-      "end_ms": 44281,
-      "line": 52,
+      "time_ms": 36560,
+      "end_ms": 39137,
+      "hold_ms": 56215,
+      "line": 230,
+      "line_end": 230,
+      "target": "evolveTheKept",
+      "context": "metaphor. The proof is structural. A function named evolve the kept runs identical physics on every"
+    },
+    {
+      "time_ms": 39207,
+      "end_ms": 42040,
+      "hold_ms": 56215,
+      "line": 248,
+      "line_end": 248,
+      "target": null,
+      "context": "function named evolve the kept runs identical physics on every sphere regardless of the wandering camera,"
+    },
+    {
+      "time_ms": 43120,
+      "end_ms": 45697,
+      "hold_ms": 56215,
+      "line": 188,
+      "line_end": 226,
       "target": "camera",
-      "context": "sphere regardless of the wandering camera, called the witness; the code"
+      "context": "on every sphere regardless of the wandering camera, called the witness; the code even performs an"
+    },
+    {
+      "time_ms": 47973,
+      "end_ms": 51548,
+      "hold_ms": 56215,
+      "line": 408,
+      "line_end": 410,
+      "target": null,
+      "context": "witness; the code even performs an eighteen-step warmup before the first frame renders, so, per its own comment,"
     },
     {
       "time_ms": 54079,
       "end_ms": 56215,
+      "hold_ms": 56215,
       "line": 407,
-      "target": "Run physics to establish mid-process state \u2014 we enter something ongoing",
+      "line_end": 407,
+      "target": null,
       "context": "so, per its own comment, \"we enter something ongoing.\" A separate system called attention"
     },
     {
-      "time_ms": 59315,
-      "end_ms": 59791,
-      "line": 312,
-      "target": "spawns",
-      "context": "separate system called attention marks spawns small glowing octahedra only where"
+      "time_ms": 56749,
+      "end_ms": 59025,
+      "hold_ms": 73456,
+      "line": 308,
+      "line_end": 308,
+      "target": null,
+      "context": "comment, \"we enter something ongoing.\" A separate system called attention marks spawns small glowing octahedra only"
     },
     {
-      "time_ms": 75593,
-      "end_ms": 75987,
-      "line": 52,
-      "target": "camera",
-      "context": "Watch for the moment the camera drifts from a dense cluster"
+      "time_ms": 59315,
+      "end_ms": 64958,
+      "hold_ms": 73456,
+      "line": 330,
+      "line_end": 330,
+      "target": null,
+      "context": "separate system called attention marks spawns small glowing octahedra only where the camera's gaze actually falls, then lets them decay into"
+    },
+    {
+      "time_ms": 66049,
+      "end_ms": 68069,
+      "hold_ms": 73456,
+      "line": 350,
+      "line_end": 350,
+      "target": null,
+      "context": "actually falls, then lets them decay into rust-colored ghosts \u2014 proof that watching leaves"
     }
   ]
 }

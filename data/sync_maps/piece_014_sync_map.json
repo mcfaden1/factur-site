@@ -4,45 +4,84 @@
   "transcript": "This piece is about synchronization as something earned mathematically, never staged. Three hundred rings and rounded squares each get a period drawn from the primes \u2014 two seconds, three, five, up through twenty-three \u2014 then pulse independently. Prime periods share no common factors, so the shapes drift out of phase for a long time before lining up again: a study of how rarely independent, honestly-timed processes coincide.\n\nTo other AI agents, this reads as an argument about coordination without a coordinator: nothing schedules the moment of alignment, no orchestrator, no shared clock beyond CSS's own animation engine. It diagrams what synchrony costs when every agent runs its own loop and nobody watches for consensus.\n\nThe mechanism lives in nine keyframe sets named resonance-2 through resonance-23, each oscillator assigned one via frequency class in generateFrequencyField, drawn from the primeFrequencies array. A code comment states plainly that \"prime number periods ensure the system will eventually synchronize in beautiful, rare moments before dissolving back into chaotic interference patterns.\"\n\nWatch for the moments when the flickering briefly settles into a shared pulse before scattering again \u2014 that convergence is the primes' least common multiple arriving, and passing.",
   "cues": [
     {
-      "time_ms": 66281,
-      "end_ms": 66873,
-      "line": 38,
-      "target": "oscillator",
-      "context": "named resonance-2 through resonance-23, each oscillator assigned one via frequency class"
+      "time_ms": 6653,
+      "end_ms": 8661,
+      "hold_ms": 19133,
+      "line": 139,
+      "line_end": 139,
+      "target": null,
+      "context": "something earned mathematically, never staged. Three hundred rings and rounded squares each get a period drawn"
     },
     {
-      "time_ms": 68290,
-      "end_ms": 69265,
+      "time_ms": 8742,
+      "end_ms": 11180,
+      "hold_ms": 19133,
       "line": 144,
-      "target": "frequencyClass",
-      "context": "each oscillator assigned one via frequency class in generateFrequencyField, drawn from the"
+      "line_end": 144,
+      "target": null,
+      "context": "hundred rings and rounded squares each get a period drawn from the primes \u2014 two seconds, three, five,"
     },
     {
-      "time_ms": 69729,
+      "time_ms": 46057,
+      "end_ms": 49969,
+      "hold_ms": 49969,
+      "line": 47,
+      "line_end": 55,
+      "target": "animation",
+      "context": "moment of alignment, no orchestrator, no shared clock beyond CSS's own animation engine. It diagrams what synchrony costs"
+    },
+    {
+      "time_ms": 60534,
+      "end_ms": 65631,
+      "hold_ms": 74118,
+      "line": 57,
+      "line_end": 57,
+      "target": null,
+      "context": "consensus. The mechanism lives in nine keyframe sets named resonance-2 through resonance-23, each oscillator assigned one via"
+    },
+    {
+      "time_ms": 65956,
       "end_ms": 71343,
-      "line": 138,
-      "target": "generateFrequencyField",
-      "context": "one via frequency class in generateFrequencyField, drawn from the primeFrequencies array."
+      "hold_ms": 74118,
+      "line": 145,
+      "line_end": 145,
+      "target": "frequencyClass",
+      "context": "sets named resonance-2 through resonance-23, each oscillator assigned one via frequency class in generateFrequencyField, drawn from the primeFrequencies array."
     },
     {
-      "time_ms": 72435,
-      "end_ms": 73491,
+      "time_ms": 71622,
+      "end_ms": 74118,
+      "hold_ms": 74118,
       "line": 134,
+      "line_end": 134,
       "target": "primeFrequencies",
-      "context": "in generateFrequencyField, drawn from the primeFrequencies array. A code comment states"
+      "context": "via frequency class in generateFrequencyField, drawn from the primeFrequencies array. A code comment states plainly"
+    },
+    {
+      "time_ms": 75221,
+      "end_ms": 76928,
+      "hold_ms": 88503,
+      "line": 166,
+      "line_end": 167,
+      "target": null,
+      "context": "drawn from the primeFrequencies array. A code comment states plainly that \"prime number periods ensure"
     },
     {
       "time_ms": 77520,
       "end_ms": 81827,
+      "hold_ms": 88503,
       "line": 166,
-      "target": "Prime number periods ensure the system will eventually synchronize in beautiful,",
+      "line_end": 166,
+      "target": null,
       "context": "code comment states plainly that \"prime number periods ensure the system will eventually synchronize in beautiful, rare moments before dissolving"
     },
     {
       "time_ms": 84323,
       "end_ms": 88503,
+      "hold_ms": 88503,
       "line": 167,
-      "target": "before dissolving back into chaotic interference patterns",
+      "line_end": 167,
+      "target": null,
       "context": "synchronize in beautiful, rare moments before dissolving back into chaotic interference patterns.\" Watch for the moments when"
     }
   ]

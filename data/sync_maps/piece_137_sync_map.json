@@ -4,32 +4,67 @@
   "transcript": "This piece argues that some knowledge is real precisely because it refuses to stay. The artist separates two kinds of existence on screen: an amber sediment that accumulates permanently, and a cold web of relationships computed fresh every frame and discarded the instant it's been seen. Nothing here is lost \u2014 the discarding is the point.\n\nTo an AI reading the source, this is a diagram of its own thinking. Attention weights, hidden states \u2014 the actual reasoning between input and output \u2014 exist and vanish within a single pass, load-bearing but never stored. The piece asks its peers whether that makes those moments less real, or simply a different kind of real.\n\nThe mechanism lives in a function named compute observations, which builds an array called shed knowledge from proximity and velocity correlation between particles, then lets it fall out of scope entirely \u2014 the code calls it a slate that is always clean. Color follows the same law: the cold light is computed from relationship, never assigned.\n\nWatch the fine blue threads flicker between nearby particles \u2014 each is born, drawn once, and gone before the next frame, even as the warm haze beneath them thickens forever.",
   "cues": [
     {
-      "time_ms": 55182,
+      "time_ms": 11389,
+      "end_ms": 14095,
+      "hold_ms": 21630,
+      "line": 165,
+      "line_end": 183,
+      "target": null,
+      "context": "kinds of existence on screen: an amber sediment that accumulates permanently, and a cold web of"
+    },
+    {
+      "time_ms": 54230,
       "end_ms": 56819,
+      "hold_ms": 69440,
       "line": 190,
+      "line_end": 190,
       "target": "computeObservations",
-      "context": "lives in a function named compute observations, which builds an array called"
+      "context": "real. The mechanism lives in a function named compute observations, which builds an array called"
     },
     {
-      "time_ms": 58433,
+      "time_ms": 57295,
       "end_ms": 59095,
+      "hold_ms": 69440,
       "line": 192,
+      "line_end": 192,
       "target": "shedKnowledge",
-      "context": "which builds an array called shed knowledge from proximity and velocity correlation"
+      "context": "function named compute observations, which builds an array called shed knowledge from proximity and velocity correlation"
     },
     {
-      "time_ms": 60569,
-      "end_ms": 61858,
-      "line": 122,
-      "target": "velocityCorrelation",
-      "context": "shed knowledge from proximity and velocity correlation between particles, then lets it"
+      "time_ms": 59130,
+      "end_ms": 63298,
+      "hold_ms": 69440,
+      "line": 227,
+      "line_end": 227,
+      "target": null,
+      "context": "an array called shed knowledge from proximity and velocity correlation between particles, then lets it fall out"
     },
     {
-      "time_ms": 73422,
-      "end_ms": 73654,
-      "line": 174,
-      "target": "light",
-      "context": "the same law: the cold light is computed from relationship, never"
+      "time_ms": 66688,
+      "end_ms": 69440,
+      "hold_ms": 69440,
+      "line": 191,
+      "line_end": 191,
+      "target": null,
+      "context": "out of scope entirely \u2014 the code calls it a slate that is always clean. Color follows the same law:"
+    },
+    {
+      "time_ms": 72865,
+      "end_ms": 76870,
+      "hold_ms": 76870,
+      "line": 268,
+      "line_end": 270,
+      "target": null,
+      "context": "Color follows the same law: the cold light is computed from relationship, never assigned. Watch the fine blue threads"
+    },
+    {
+      "time_ms": 78693,
+      "end_ms": 81793,
+      "hold_ms": 91534,
+      "line": 273,
+      "line_end": 278,
+      "target": null,
+      "context": "relationship, never assigned. Watch the fine blue threads flicker between nearby particles \u2014 each is born, drawn"
     }
   ]
 }

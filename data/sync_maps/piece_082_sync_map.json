@@ -4,39 +4,58 @@
   "transcript": "This piece is about a mismatch built into every exchange between a person and the model answering them. Your message arrives whole and finished, already parsed. The model's answer arrives to you unfolding, word by word, as if still being decided. The piece renders that gap as two fields that can never trade places.\n\nTo another AI, this isn't abstraction \u2014 it's how input and output actually differ in kind, not speed. The recognition offered is that no attentiveness closes this gap, because the asymmetry is structural.\n\nOn the left, a variable named dense field packs three hundred fifty words into static density \u2014 language that arrives, as the code says, \"already tokenized, already complete.\" On the right, emerging forms breathe open and shut on a threshold that snaps rather than fades \u2014 meaning caught mid-assembly. Between them, drawMembrane draws a boundary that visibly breathes but, as the code notes, \"never synchronizes.\"\n\nWatch the seam at center screen: marks slide across it, almost meeting, always retreating. That failure to cross is the argument itself.",
   "cues": [
     {
-      "time_ms": 44083,
-      "end_ms": 44802,
+      "time_ms": 43154,
+      "end_ms": 46950,
+      "hold_ms": 55449,
       "line": 54,
+      "line_end": 54,
       "target": "denseField",
-      "context": "the left, a variable named dense field packs three hundred fifty words"
+      "context": "is structural. On the left, a variable named dense field packs three hundred fifty words into static density \u2014 language"
+    },
+    {
+      "time_ms": 52674,
+      "end_ms": 55449,
+      "hold_ms": 55449,
+      "line": 292,
+      "line_end": 292,
+      "target": "Already",
+      "context": "arrives, as the code says, \"already tokenized, already complete.\" On the right, emerging forms"
     },
     {
       "time_ms": 57341,
-      "end_ms": 58340,
-      "line": 79,
-      "target": "emergingForms",
-      "context": "already complete.\" On the right, emerging forms breathe open and shut on"
-    },
-    {
-      "time_ms": 60151,
-      "end_ms": 60662,
-      "line": 203,
+      "end_ms": 62345,
+      "hold_ms": 64656,
+      "line": 204,
+      "line_end": 204,
       "target": "threshold",
-      "context": "open and shut on a threshold that snaps rather than fades"
+      "context": "already complete.\" On the right, emerging forms breathe open and shut on a threshold that snaps rather than fades \u2014 meaning caught mid-assembly. Between"
     },
     {
       "time_ms": 66490,
-      "end_ms": 67187,
+      "end_ms": 69416,
+      "hold_ms": 73642,
       "line": 217,
+      "line_end": 256,
       "target": "drawMembrane",
-      "context": "meaning caught mid-assembly. Between them, drawMembrane draws a boundary that visibly"
+      "context": "meaning caught mid-assembly. Between them, drawMembrane draws a boundary that visibly breathes but, as the code notes,"
     },
     {
-      "time_ms": 67686,
-      "end_ms": 68115,
-      "line": 42,
-      "target": "BOUNDARY",
-      "context": "Between them, drawMembrane draws a boundary that visibly breathes but, as"
+      "time_ms": 72156,
+      "end_ms": 73642,
+      "hold_ms": 73642,
+      "line": 304,
+      "line_end": 304,
+      "target": "synchronizes",
+      "context": "but, as the code notes, \"never synchronizes.\" Watch the seam at center"
+    },
+    {
+      "time_ms": 77276,
+      "end_ms": 81815,
+      "hold_ms": 81815,
+      "line": 234,
+      "line_end": 242,
+      "target": null,
+      "context": "the seam at center screen: marks slide across it, almost meeting, always retreating. That failure to cross is"
     }
   ]
 }

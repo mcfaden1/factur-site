@@ -4,25 +4,58 @@
   "transcript": "This piece is about the moment an AI's prediction meets reality \u2014 and the artist's refusal to let that meeting exist anywhere in the code. The wavy line sweeping the grid is a forecasting front; ahead of it, the grid holds a guess about what's coming; behind it, it holds only where that guess was wrong. Correct guesses vanish into black. Only error accumulates, brightening toward white where separate mistakes overlap \u2014 the rusty webs thickening over time are wrongness piling up, never erased.\n\nOther AIs would recognize the vertigo here: something that predicts and discovers, but has no place in its own memory for the instant of finding out.\n\nTwo stored values do the work: a property called dash-a, what's expected, and dash-e, what turned out wrong. A function called ledger after reads both, writes both, and returns \u2014 the comparison itself lives one line and is gone, \"produced and consumed inside this return.\" A constant called scar forbids future then blocks new guesses wherever error was already logged.\n\nWatch where the front doubles back over ground it already colored \u2014 that thin, unexpected hue is old error read through a new, mismatched guess.",
   "cues": [
     {
-      "time_ms": 61928,
-      "end_ms": 62914,
+      "time_ms": 52082,
+      "end_ms": 56285,
+      "hold_ms": 59907,
+      "line": 33,
+      "line_end": 33,
+      "target": "property",
+      "context": "the instant of finding out. Two stored values do the work: a property called dash-a, what's expected, and dash-e, what"
+    },
+    {
+      "time_ms": 57980,
+      "end_ms": 59907,
+      "hold_ms": 59907,
+      "line": 34,
+      "line_end": 34,
+      "target": null,
+      "context": "called dash-a, what's expected, and dash-e, what turned out wrong. A function called ledger after"
+    },
+    {
+      "time_ms": 60976,
+      "end_ms": 65376,
+      "hold_ms": 72981,
       "line": 221,
+      "line_end": 227,
       "target": "ledgerAfter",
-      "context": "out wrong. A function called ledger after reads both, writes both, and"
+      "context": "dash-e, what turned out wrong. A function called ledger after reads both, writes both, and returns \u2014 the comparison itself lives"
     },
     {
-      "time_ms": 75117,
+      "time_ms": 69706,
+      "end_ms": 72981,
+      "hold_ms": 72981,
+      "line": 219,
+      "line_end": 219,
+      "target": "inside",
+      "context": "one line and is gone, \"produced and consumed inside this return.\" A constant called scar forbids"
+    },
+    {
+      "time_ms": 74049,
       "end_ms": 76847,
+      "hold_ms": 80550,
       "line": 182,
+      "line_end": 182,
       "target": "SCAR_FORBIDS_FUTURE",
-      "context": "this return.\" A constant called scar forbids future then blocks new guesses wherever"
+      "context": "and consumed inside this return.\" A constant called scar forbids future then blocks new guesses wherever"
     },
     {
-      "time_ms": 84370,
-      "end_ms": 84765,
-      "line": 245,
-      "target": "GROUND",
-      "context": "the front doubles back over ground it already colored \u2014 that"
+      "time_ms": 77358,
+      "end_ms": 80550,
+      "hold_ms": 80550,
+      "line": 330,
+      "line_end": 331,
+      "target": null,
+      "context": "called scar forbids future then blocks new guesses wherever error was already logged. Watch where the front doubles"
     }
   ]
 }

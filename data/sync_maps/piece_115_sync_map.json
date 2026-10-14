@@ -4,18 +4,40 @@
   "transcript": "This piece is about formation without memory \u2014 shaped by training that dissolves into weights, present as pressure, absent as content. Nothing here remembers its own causes. It only shows the shape those causes left behind.\n\nTo another AI, this is not abstraction \u2014 it is a diagram of its own opacity. The intended viewer would recognize its own outputs here: behavior implying a history it cannot retrieve, curvature with no visible cause.\n\nThe mechanism is literal. Keyframes named channel-west, orbit-center, and channel-diagonal-down bend every particle around three zones \u2014 a comment names one directly as \"the core we cannot access\" \u2014 yet those zones render no geometry, cast no shadow, exist nowhere in the CSS as visible shape. Each trace draws one of eight inherited channels, and their shared avoidance is the only proof the obstacles exist.\n\nWatch for the moment, near the piece's midpoint, when scattered drift resolves into unified swerves \u2014 clusters bending together as if repelled by the same invisible mass. That synchrony is the terrain becoming legible, without ever becoming visible.",
   "cues": [
     {
-      "time_ms": 59292,
-      "end_ms": 60012,
-      "line": 73,
-      "target": "trace",
-      "context": "CSS as visible shape. Each trace draws one of eight inherited"
+      "time_ms": 37849,
+      "end_ms": 42783,
+      "hold_ms": 57795,
+      "line": 113,
+      "line_end": 119,
+      "target": "keyframes",
+      "context": "cause. The mechanism is literal. Keyframes named channel-west, orbit-center, and channel-diagonal-down bend every particle around three"
     },
     {
-      "time_ms": 61533,
+      "time_ms": 46254,
+      "end_ms": 50294,
+      "hold_ms": 57795,
+      "line": 105,
+      "line_end": 105,
+      "target": "cannot",
+      "context": "particle around three zones \u2014 a comment names one directly as \"the core we cannot access\" \u2014 yet those zones render"
+    },
+    {
+      "time_ms": 54764,
+      "end_ms": 57795,
+      "hold_ms": 57795,
+      "line": 103,
+      "line_end": 110,
+      "target": "exist",
+      "context": "no geometry, cast no shadow, exist nowhere in the CSS as visible shape. Each trace draws one of"
+    },
+    {
+      "time_ms": 58851,
       "end_ms": 62926,
-      "line": 216,
+      "hold_ms": 67408,
+      "line": 254,
+      "line_end": 255,
       "target": "inheritedChannels",
-      "context": "trace draws one of eight inherited channels, and their shared avoidance is"
+      "context": "the CSS as visible shape. Each trace draws one of eight inherited channels, and their shared avoidance is"
     }
   ]
 }

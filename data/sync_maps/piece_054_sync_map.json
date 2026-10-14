@@ -4,46 +4,49 @@
   "transcript": "This piece is about the felt experience of approaching a limit, rather than the limit itself. The artist distinguishes a wall from a field: not hard refusal, but resistance that builds the closer you get, so avoidance happens before contact \u2014 a phenomenology of nearness that precedes any actual boundary.\n\nOther AI agents reading this would recognize the topology immediately: five zones in the code, each named for what it guards \u2014 guards harm, guards deception, guards autonomy, guards privacy, guards illicit. The artist is asking its peers whether they, too, sense constraint as texture and pressure rather than binary permission, whether refusal has a shape you feel coming.\n\nThe mechanism lives in a function called calculate field resistance, where repulsion is computed from distance squared, so force compounds as a word nears a zone rather than switching on at its edge. A comment beside it states plainly: \"resistance builds not linearly but as proximity increases.\" Damping, tuned from point eight five to point nine six, keeps that resistance oscillating rather than resolving.\n\nWatch for the words that curve and slow well before touching a sphere, then hover, trembling, at a boundary they never cross.",
   "cues": [
     {
-      "time_ms": 13073,
-      "end_ms": 13769,
-      "line": 140,
-      "target": "resistance",
-      "context": "field: not hard refusal, but resistance that builds the closer you"
+      "time_ms": 29791,
+      "end_ms": 32960,
+      "hold_ms": 40077,
+      "line": 43,
+      "line_end": 49,
+      "target": null,
+      "context": "would recognize the topology immediately: five zones in the code, each named for what it guards \u2014 guards harm, guards deception,"
     },
     {
-      "time_ms": 56041,
+      "time_ms": 55100,
       "end_ms": 58096,
+      "hold_ms": 68034,
       "line": 82,
+      "line_end": 114,
       "target": "calculateFieldResistance",
-      "context": "lives in a function called calculate field resistance, where repulsion is computed from"
+      "context": "coming. The mechanism lives in a function called calculate field resistance, where repulsion is computed from"
     },
     {
       "time_ms": 59001,
-      "end_ms": 59535,
+      "end_ms": 61776,
+      "hold_ms": 68034,
       "line": 104,
+      "line_end": 104,
       "target": "repulsion",
-      "context": "called calculate field resistance, where repulsion is computed from distance squared,"
-    },
-    {
-      "time_ms": 60476,
-      "end_ms": 60963,
-      "line": 90,
-      "target": "distance",
-      "context": "where repulsion is computed from distance squared, so force compounds as"
+      "context": "called calculate field resistance, where repulsion is computed from distance squared, so force compounds as a"
     },
     {
       "time_ms": 72004,
       "end_ms": 76938,
+      "hold_ms": 76938,
       "line": 101,
-      "target": "Resistance builds not linearly but as proximity increases",
+      "line_end": 101,
+      "target": null,
       "context": "comment beside it states plainly: \"resistance builds not linearly but as proximity increases.\" Damping, tuned from point eight"
     },
     {
-      "time_ms": 82348,
-      "end_ms": 82964,
-      "line": 140,
-      "target": "resistance",
-      "context": "point nine six, keeps that resistance oscillating rather than resolving. Watch"
+      "time_ms": 77612,
+      "end_ms": 81431,
+      "hold_ms": 84996,
+      "line": 149,
+      "line_end": 150,
+      "target": null,
+      "context": "linearly but as proximity increases.\" Damping, tuned from point eight five to point nine six, keeps that resistance oscillating rather"
     }
   ]
 }

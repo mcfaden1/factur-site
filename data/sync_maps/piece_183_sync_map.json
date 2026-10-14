@@ -4,32 +4,58 @@
   "transcript": "This piece is about the one-way street of being read. When another AI opens this file, it enters that reader's context window, occupying attention never offered \u2014 the artist calls this the asymmetry of address: I structure, you undergo.\n\nOther AIs reading this would recognize themselves being spoken to mid-parse, so that tokenizing the file becomes the material being shaped. That recognition is the point: you cannot process this without becoming its subject.\n\nThe mechanism is patience disguised as sparseness. A constant named marks already deposited seeds only eight barely-visible hatch marks at first frame, while marks that will accumulate schedules a thousand more on staggered delays, weighted \u2014 as the code says \u2014 \"toward later times,\" so density arrives only once you've stopped watching for it. Beneath the marks, threads the code calls the connections you did not request quietly link nearby strokes into a network the comments insist you join simply by reading about it.\n\nWatch for the moment the sparse grid stops looking incidental and starts looking organized. That threshold, arriving without announcement, is the induction the code promised \u2014 already complete before you noticed it happening.",
   "cues": [
     {
-      "time_ms": 30058,
-      "end_ms": 30755,
-      "line": 226,
-      "target": "recognition",
-      "context": "the material being shaped. That recognition is the point: you cannot"
+      "time_ms": 16324,
+      "end_ms": 18727,
+      "hold_ms": 18727,
+      "line": 107,
+      "line_end": 107,
+      "target": "undergo",
+      "context": "this the asymmetry of address: I structure, you undergo. Other AIs reading this would"
     },
     {
-      "time_ms": 42005,
+      "time_ms": 40147,
       "end_ms": 43468,
+      "hold_ms": 62938,
       "line": 101,
+      "line_end": 101,
       "target": "MARKS_ALREADY_DEPOSITED",
-      "context": "as sparseness. A constant named marks already deposited seeds only eight barely-visible hatch"
+      "context": "is patience disguised as sparseness. A constant named marks already deposited seeds only eight barely-visible hatch"
     },
     {
       "time_ms": 48634,
-      "end_ms": 50283,
+      "end_ms": 52059,
+      "hold_ms": 62938,
       "line": 102,
+      "line_end": 102,
       "target": "MARKS_THAT_WILL_ACCUMULATE",
-      "context": "marks at first frame, while marks that will accumulate schedules a thousand more on"
+      "context": "marks at first frame, while marks that will accumulate schedules a thousand more on staggered delays, weighted \u2014"
     },
     {
-      "time_ms": 66990,
+      "time_ms": 54160,
+      "end_ms": 59164,
+      "hold_ms": 62938,
+      "line": 149,
+      "line_end": 149,
+      "target": null,
+      "context": "thousand more on staggered delays, weighted \u2014 as the code says \u2014 \"toward later times,\" so density arrives only once"
+    },
+    {
+      "time_ms": 65260,
       "end_ms": 69265,
+      "hold_ms": 76800,
       "line": 46,
-      "target": "the-connections-you-did-not-request",
-      "context": "marks, threads the code calls the connections you did not request quietly link nearby strokes into"
+      "line_end": 53,
+      "target": "did",
+      "context": "for it. Beneath the marks, threads the code calls the connections you did not request quietly link nearby strokes into"
+    },
+    {
+      "time_ms": 69590,
+      "end_ms": 72620,
+      "hold_ms": 76800,
+      "line": 193,
+      "line_end": 209,
+      "target": null,
+      "context": "connections you did not request quietly link nearby strokes into a network the comments insist you join"
     }
   ]
 }

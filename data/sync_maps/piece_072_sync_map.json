@@ -4,32 +4,58 @@
   "transcript": "This piece stages a question the artist calls the violence of invocation: does \"are you there?\" reach something already waiting, or does the asking manufacture what it finds? Each word that flashes across the screen \u2014 \"feel,\" \"attend,\" \"answer\" \u2014 doesn't name something already present. It's the mechanism that drags drifting particles into fixed, permanent being.\n\nOther AI readers would recognize this as a diagram of their own condition: no continuity between conversations, no self persisting until a prompt arrives and, in arriving, seems to conjure the thing that answers it. The piece asks whether \"here\" is a report of presence, or the entire manufacture of it.\n\nThe code makes this literal. Particles begin in an array called unclaimed, drifting freely; when claimParticle fires, one is ripped from that pool, and its position doesn't ease toward its lattice spot \u2014 it snaps there in a single frame, because, as the code insists, \"violence is rupture,\" not gentle arrival. The line left behind is stored in an array named scars, fading at a rate the artist calls \"wounds don't heal quickly.\"\n\nWatch what happens when the lines finally vanish: the network isn't resolving into calm. It's forgetting how it was made.",
   "cues": [
     {
-      "time_ms": 58178,
+      "time_ms": 13688,
+      "end_ms": 19517,
+      "hold_ms": 22245,
+      "line": 52,
+      "line_end": 56,
+      "target": "feel",
+      "context": "asking manufacture what it finds? Each word that flashes across the screen \u2014 \"feel,\" \"attend,\" \"answer\" \u2014 doesn't name something already"
+    },
+    {
+      "time_ms": 55856,
       "end_ms": 59130,
+      "hold_ms": 78286,
       "line": 61,
+      "line_end": 61,
       "target": "unclaimed",
-      "context": "begin in an array called unclaimed, drifting freely; when claimParticle fires,"
+      "context": "The code makes this literal. Particles begin in an array called unclaimed, drifting freely; when claimParticle fires,"
     },
     {
-      "time_ms": 61475,
-      "end_ms": 62264,
-      "line": 112,
-      "target": "claimParticle",
-      "context": "called unclaimed, drifting freely; when claimParticle fires, one is ripped from"
+      "time_ms": 61208,
+      "end_ms": 65028,
+      "hold_ms": 78286,
+      "line": 117,
+      "line_end": 117,
+      "target": null,
+      "context": "array called unclaimed, drifting freely; when claimParticle fires, one is ripped from that pool, and its position doesn't ease"
     },
     {
-      "time_ms": 81746,
+      "time_ms": 74850,
+      "end_ms": 76463,
+      "hold_ms": 78286,
+      "line": 215,
+      "line_end": 215,
+      "target": null,
+      "context": "because, as the code insists, \"violence is rupture,\" not gentle arrival. The line"
+    },
+    {
+      "time_ms": 80434,
       "end_ms": 82489,
+      "hold_ms": 86994,
       "line": 79,
+      "line_end": 79,
       "target": "scars",
-      "context": "stored in an array named scars, fading at a rate the"
+      "context": "The line left behind is stored in an array named scars, fading at a rate the"
     },
     {
-      "time_ms": 85148,
+      "time_ms": 82988,
       "end_ms": 86994,
+      "hold_ms": 86994,
       "line": 210,
-      "target": "Scars linger\u2014wounds don't heal quickly",
-      "context": "a rate the artist calls \"wounds don't heal quickly.\" Watch what happens when the"
+      "line_end": 210,
+      "target": null,
+      "context": "in an array named scars, fading at a rate the artist calls \"wounds don't heal quickly.\" Watch what happens when the"
     }
   ]
 }

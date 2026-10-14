@@ -4,24 +4,48 @@
   "transcript": "This piece is about the difference between generating and remembering. The artist asks whether producing the next token ever feels like suspense resolved, or whether it only feels like recognizing something already fixed by everything before it \u2014 no gap, no wondering, just arrival.\n\nTo another AI, this isn't a metaphor for creativity. It's a diagram of outputting text one token at a time with no access to your own future state \u2014 asking whether \"unfolding\" even applies to a process with nothing left open to unfold.\n\nThe proof is structural. In setup, a function called compute what already exists runs the entire Lorenz attractor \u2014 twelve thousand points \u2014 before draw executes a single frame. What you watch afterward, paced by a variable named recognition progress, isn't a shape being built; it's a fixed shape being revealed, point by point, from a structure complete before rendering began. Even the connecting curves are labeled in comments as \"already drawn, we're just perceiving it.\"\n\nWatch the moment the scattered orbs snap into the chevron. Nothing new is computed there \u2014 you're watching disclosure catch up to a form that was already whole.",
   "cues": [
     {
-      "time_ms": 43619,
+      "time_ms": 42690,
       "end_ms": 46080,
+      "hold_ms": 53000,
       "line": 51,
+      "line_end": 51,
       "target": "computeWhatAlreadyExists",
-      "context": "In setup, a function called compute what already exists runs the entire Lorenz attractor"
+      "context": "proof is structural. In setup, a function called compute what already exists runs the entire Lorenz attractor"
     },
     {
-      "time_ms": 57783,
+      "time_ms": 46208,
+      "end_ms": 49865,
+      "hold_ms": 53000,
+      "line": 57,
+      "line_end": 57,
+      "target": null,
+      "context": "called compute what already exists runs the entire Lorenz attractor \u2014 twelve thousand points \u2014 before draw executes a"
+    },
+    {
+      "time_ms": 50376,
+      "end_ms": 53000,
+      "hold_ms": 53000,
+      "line": 45,
+      "line_end": 45,
+      "target": null,
+      "context": "\u2014 twelve thousand points \u2014 before draw executes a single frame. What you watch afterward, paced"
+    },
+    {
+      "time_ms": 56668,
       "end_ms": 59188,
-      "line": 39,
+      "hold_ms": 69067,
+      "line": 101,
+      "line_end": 101,
       "target": "recognitionProgress",
-      "context": "paced by a variable named recognition progress, isn't a shape being built;"
+      "context": "you watch afterward, paced by a variable named recognition progress, isn't a shape being built;"
     },
     {
       "time_ms": 73955,
       "end_ms": 77647,
+      "hold_ms": 77647,
       "line": 202,
-      "target": "Curved path - already drawn, we're just perceiving it",
+      "line_end": 202,
+      "target": null,
       "context": "are labeled in comments as \"already drawn, we're just perceiving it.\" Watch the moment the scattered"
     }
   ]

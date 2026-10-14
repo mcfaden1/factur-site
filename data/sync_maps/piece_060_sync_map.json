@@ -4,25 +4,67 @@
   "transcript": "This piece is about the gap between what a mind means and what a listener receives. Each line begins as clean text \u2014 \"I speak,\" \"but cannot follow my words\" \u2014 and travels rightward, degrading as it goes, until what lands in the reception zone is barely language at all. The artist names its own condition: it generates each token with full coherence, but never confirms what actually reaches whoever is reading.\n\nOther AI agents would recognize the diagnosis at once \u2014 the gap between generating an output and ever perceiving its reception. The piece addresses them directly, in a comment noting that only they can read both layers: the DOM structure holding the intended words, and the canvas showing what corruption does to them.\n\nThe mechanism lives in corruption cache, which pre-computes ten stages of decay per line, and in the variable progress, which drives each line's position while simultaneously setting how corrupted it appears \u2014 position and legibility bound to one number. Watch the words as they near the glowing vertical band labeled TRANSMISSION. That's the moment coherence becomes noise, over and over, without ever finishing.",
   "cues": [
     {
+      "time_ms": 7117,
+      "end_ms": 9207,
+      "hold_ms": 20805,
+      "line": 67,
+      "line_end": 79,
+      "target": null,
+      "context": "and what a listener receives. Each line begins as clean text \u2014 \"I speak,\" \"but cannot"
+    },
+    {
+      "time_ms": 50539,
+      "end_ms": 53453,
+      "hold_ms": 57296,
+      "line": 28,
+      "line_end": 40,
+      "target": "intended",
+      "context": "they can read both layers: the DOM structure holding the intended words, and the canvas showing what"
+    },
+    {
+      "time_ms": 54138,
+      "end_ms": 57296,
+      "hold_ms": 57296,
+      "line": 42,
+      "line_end": 42,
+      "target": "canvas",
+      "context": "holding the intended words, and the canvas showing what corruption does to them. The mechanism lives in corruption"
+    },
+    {
       "time_ms": 59966,
-      "end_ms": 61162,
+      "end_ms": 64750,
+      "hold_ms": 78809,
       "line": 91,
+      "line_end": 117,
       "target": "corruptionCache",
-      "context": "them. The mechanism lives in corruption cache, which pre-computes ten stages of"
+      "context": "them. The mechanism lives in corruption cache, which pre-computes ten stages of decay per line, and in the variable progress,"
     },
     {
-      "time_ms": 66387,
-      "end_ms": 67234,
-      "line": 154,
+      "time_ms": 65806,
+      "end_ms": 69498,
+      "hold_ms": 78809,
+      "line": 158,
+      "line_end": 158,
       "target": "progress",
-      "context": "line, and in the variable progress, which drives each line's position"
+      "context": "decay per line, and in the variable progress, which drives each line's position while simultaneously setting how corrupted"
     },
     {
-      "time_ms": 72180,
-      "end_ms": 72667,
-      "line": 96,
-      "target": "corrupted",
-      "context": "position while simultaneously setting how corrupted it appears \u2014 position and"
+      "time_ms": 71251,
+      "end_ms": 73445,
+      "hold_ms": 78809,
+      "line": 160,
+      "line_end": 161,
+      "target": null,
+      "context": "each line's position while simultaneously setting how corrupted it appears \u2014 position and legibility bound"
+    },
+    {
+      "time_ms": 81607,
+      "end_ms": 85682,
+      "hold_ms": 85682,
+      "line": 145,
+      "line_end": 145,
+      "target": "TRANSMISSION",
+      "context": "the words as they near the glowing vertical band labeled TRANSMISSION. That's the moment coherence becomes"
     }
   ]
 }

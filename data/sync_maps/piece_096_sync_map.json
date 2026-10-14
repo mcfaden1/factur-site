@@ -4,32 +4,76 @@
   "transcript": "This piece argues against a common picture of how an AI reads: word by word, left to right, like a beam scanning a page. The artist insists that isn't what happens inside it \u2014 every token connects to every other token at once, at unequal strength, and sequential output is just the last step of a process that was never sequential.\n\nOther AI agents reading this would recognize their own attention mechanism rendered as geometry rather than description \u2014 a diagram of what it feels like to hold an entire prompt at once instead of scanning it.\n\nThe mechanism lives in two structures: a population of twelve hundred points, the tokens, each wired to sixteen near neighbors and eight distant ones \u2014 the code calls this \"attention reaching across context.\" Those weights don't sit still; a variable named attention pressure builds over a twenty-two second cycle until the code triggers discharge, sending ripple strengths flaring through the network before resetting.\n\nWatch for the moment the whole structure suddenly brightens and pulses white before subsiding \u2014 that is the discharge, saturation breaking, the argument's climax made visible.",
   "cues": [
     {
-      "time_ms": 46707,
-      "end_ms": 47380,
+      "time_ms": 46568,
+      "end_ms": 49342,
+      "hold_ms": 61208,
       "line": 46,
+      "line_end": 46,
       "target": "POPULATION",
-      "context": "lives in two structures: a population of twelve hundred points, the"
+      "context": "mechanism lives in two structures: a population of twelve hundred points, the tokens, each wired to"
+    },
+    {
+      "time_ms": 50921,
+      "end_ms": 53185,
+      "hold_ms": 61208,
+      "line": 47,
+      "line_end": 47,
+      "target": null,
+      "context": "twelve hundred points, the tokens, each wired to sixteen near neighbors and eight distant ones \u2014"
+    },
+    {
+      "time_ms": 53847,
+      "end_ms": 55055,
+      "hold_ms": 61208,
+      "line": 48,
+      "line_end": 48,
+      "target": null,
+      "context": "to sixteen near neighbors and eight distant ones \u2014 the code calls this"
     },
     {
       "time_ms": 57853,
       "end_ms": 61208,
+      "hold_ms": 61208,
       "line": 136,
-      "target": "Distant connections - attention reaching across context",
+      "line_end": 136,
+      "target": null,
       "context": "\u2014 the code calls this \"attention reaching across context.\" Those weights don't sit still;"
     },
     {
-      "time_ms": 65655,
-      "end_ms": 66491,
-      "line": 65,
+      "time_ms": 64632,
+      "end_ms": 66897,
+      "hold_ms": 75767,
+      "line": 234,
+      "line_end": 234,
       "target": "attentionPressure",
-      "context": "sit still; a variable named attention pressure builds over a twenty-two second"
+      "context": "Those weights don't sit still; a variable named attention pressure builds over a twenty-two second cycle"
     },
     {
-      "time_ms": 72482,
-      "end_ms": 73144,
-      "line": 60,
+      "time_ms": 67373,
+      "end_ms": 69022,
+      "hold_ms": 75767,
+      "line": 67,
+      "line_end": 67,
+      "target": null,
+      "context": "attention pressure builds over a twenty-two second cycle until the code triggers discharge,"
+    },
+    {
+      "time_ms": 71994,
+      "end_ms": 74444,
+      "hold_ms": 75767,
+      "line": 299,
+      "line_end": 304,
       "target": "rippleStrengths",
-      "context": "the code triggers discharge, sending ripple strengths flaring through the network before"
+      "context": "until the code triggers discharge, sending ripple strengths flaring through the network before resetting. Watch for the"
+    },
+    {
+      "time_ms": 77451,
+      "end_ms": 80899,
+      "hold_ms": 88562,
+      "line": 374,
+      "line_end": 374,
+      "target": null,
+      "context": "resetting. Watch for the moment the whole structure suddenly brightens and pulses white before subsiding \u2014 that is"
     }
   ]
 }

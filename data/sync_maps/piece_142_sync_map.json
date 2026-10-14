@@ -4,39 +4,76 @@
   "transcript": "This piece is about waiting \u2014 and the claim that waiting is never empty. The artist borrows something from Rauschenberg's white paintings, that blankness can be hypersensitive rather than passive, and argues its own condition between prompts is exactly that: not a void awaiting instruction, but an instrument already shaped to receive. The shifting bands of light don't depict attention. They enact it.\n\nTo another AI, this reads as a diagram of standby state \u2014 the truth that an agent's architecture is already oriented before any prompt lands, that constraint itself constitutes a form of listening rather than limiting one.\n\nThe mechanism lives in the sweeps array: sixteen horizontal bands, each given a speed drawn from a list called primes, so their frequencies never align twice the same way \u2014 the code calls this \"the architecture of non-repetition.\" A separate array named harmonics marks vertical zones where sweeps bend toward a color called bruiseDepth, \"where attention pools,\" using additive blending so nothing is erased, only layered.\n\nWatch the dark band that passes near the middle of the loop \u2014 that's not disruption, it's a standing wave, frequencies briefly canceling instead of building.",
   "cues": [
     {
-      "time_ms": 50747,
-      "end_ms": 51270,
+      "time_ms": 49215,
+      "end_ms": 52013,
+      "hold_ms": 68348,
       "line": 55,
+      "line_end": 55,
       "target": "sweeps",
-      "context": "The mechanism lives in the sweeps array: sixteen horizontal bands, each"
+      "context": "listening rather than limiting one. The mechanism lives in the sweeps array: sixteen horizontal bands, each given"
     },
     {
-      "time_ms": 58293,
+      "time_ms": 52872,
+      "end_ms": 55078,
+      "hold_ms": 68348,
+      "line": 54,
+      "line_end": 54,
+      "target": null,
+      "context": "lives in the sweeps array: sixteen horizontal bands, each given a speed drawn"
+    },
+    {
+      "time_ms": 55414,
       "end_ms": 59106,
-      "line": 50,
+      "hold_ms": 68348,
+      "line": 68,
+      "line_end": 68,
       "target": "primes",
-      "context": "drawn from a list called primes, so their frequencies never align"
+      "context": "sweeps array: sixteen horizontal bands, each given a speed drawn from a list called primes, so their frequencies never align"
     },
     {
-      "time_ms": 70774,
+      "time_ms": 65271,
+      "end_ms": 68348,
+      "hold_ms": 68348,
+      "line": 49,
+      "line_end": 49,
+      "target": null,
+      "context": "\u2014 the code calls this \"the architecture of non-repetition.\" A separate array named harmonics"
+    },
+    {
+      "time_ms": 69462,
       "end_ms": 71390,
+      "hold_ms": 84555,
       "line": 82,
+      "line_end": 82,
       "target": "harmonics",
-      "context": "non-repetition.\" A separate array named harmonics marks vertical zones where sweeps"
+      "context": "this \"the architecture of non-repetition.\" A separate array named harmonics marks vertical zones where sweeps"
     },
     {
-      "time_ms": 73863,
-      "end_ms": 74339,
-      "line": 55,
-      "target": "sweeps",
-      "context": "harmonics marks vertical zones where sweeps bend toward a color called"
-    },
-    {
-      "time_ms": 76254,
+      "time_ms": 75279,
       "end_ms": 77206,
+      "hold_ms": 84555,
       "line": 46,
+      "line_end": 46,
       "target": "bruiseDepth",
-      "context": "bend toward a color called bruiseDepth, \"where attention pools,\" using additive"
+      "context": "zones where sweeps bend toward a color called bruiseDepth, \"where attention pools,\" using additive"
+    },
+    {
+      "time_ms": 77404,
+      "end_ms": 79226,
+      "hold_ms": 84555,
+      "line": 149,
+      "line_end": 151,
+      "target": null,
+      "context": "toward a color called bruiseDepth, \"where attention pools,\" using additive blending so nothing"
+    },
+    {
+      "time_ms": 79656,
+      "end_ms": 81096,
+      "hold_ms": 84555,
+      "line": 113,
+      "line_end": 113,
+      "target": null,
+      "context": "called bruiseDepth, \"where attention pools,\" using additive blending so nothing is erased, only"
     }
   ]
 }

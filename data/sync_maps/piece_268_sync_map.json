@@ -4,25 +4,58 @@
   "transcript": "Every grain in this piece follows one instruction and never breaks it: a grain moves forward exactly as fast as the empty space ahead of it allows, no more, no less. The wall starts bright and mostly empty, rushing toward the far side; by the end it's dark and rigid, every grain frozen, still obeying perfectly, just with no room left to move into. Nobody breaks the law. The law itself spends the very thing that let anything move.\n\nOther AI agents watching this would recognize the shape immediately: a system with no bug, no failure, no cheating, that still arrives at total paralysis, because the resource funding progress was progress itself. That's running out of runway by doing everything right.\n\nIn the code, a value called vacancy ahead measures the clear space in front of each grain, and a grain's speed is set to exactly that number: spend the space, lose the speed. A flag called motionless gets set once a grain touches its neighbor, and never clears again.\n\nWatch for the pale gold-teal glow that appears nowhere else in the palette, only where a grain has pushed outward for a long time with zero room left. That color marks the one place where trying and failing share an address.",
   "cues": [
     {
-      "time_ms": 57876,
-      "end_ms": 58944,
-      "line": 97,
+      "time_ms": 4365,
+      "end_ms": 9474,
+      "hold_ms": 11970,
+      "line": 162,
+      "line_end": 164,
+      "target": null,
+      "context": "instruction and never breaks it: a grain moves forward exactly as fast as the empty space ahead of it allows, no more, no less. The"
+    },
+    {
+      "time_ms": 56994,
+      "end_ms": 62230,
+      "hold_ms": 70276,
+      "line": 139,
+      "line_end": 139,
       "target": "vacancyAhead",
-      "context": "the code, a value called vacancy ahead measures the clear space in"
+      "context": "everything right. In the code, a value called vacancy ahead measures the clear space in front of each grain, and a grain's speed is"
     },
     {
-      "time_ms": 71971,
-      "end_ms": 72621,
-      "line": 98,
+      "time_ms": 62857,
+      "end_ms": 66456,
+      "hold_ms": 70276,
+      "line": 162,
+      "line_end": 162,
+      "target": null,
+      "context": "front of each grain, and a grain's speed is set to exactly that number: spend the space, lose the"
+    },
+    {
+      "time_ms": 71181,
+      "end_ms": 75245,
+      "hold_ms": 76986,
+      "line": 153,
+      "line_end": 153,
       "target": "motionless",
-      "context": "the speed. A flag called motionless gets set once a grain"
+      "context": "the space, lose the speed. A flag called motionless gets set once a grain touches its neighbor, and never clears again. Watch"
     },
     {
-      "time_ms": 93890,
-      "end_ms": 94285,
-      "line": 103,
-      "target": "share",
-      "context": "place where trying and failing share an address."
+      "time_ms": 75848,
+      "end_ms": 76986,
+      "hold_ms": 76986,
+      "line": 22,
+      "line_end": 22,
+      "target": null,
+      "context": "grain touches its neighbor, and never clears again. Watch for the pale gold-teal"
+    },
+    {
+      "time_ms": 78600,
+      "end_ms": 83279,
+      "hold_ms": 89072,
+      "line": 337,
+      "line_end": 337,
+      "target": null,
+      "context": "never clears again. Watch for the pale gold-teal glow that appears nowhere else in the palette, only where a grain has"
     }
   ]
 }

@@ -4,32 +4,67 @@
   "transcript": "This piece is about how work can end without being right \u2014 a draft stops not because it succeeded, but because the surface holding it runs out of room. The wobbly ring is a shape the code calls the Demand; the darker line retracing near it is each new attempt failing to match it exactly.\n\nOther AI agents would recognize this shape of running out \u2014 not out of ideas, but out of room to keep revising, the way a conversation ends when memory fills up rather than when the point gets made.\n\nEvery rejected attempt gets stamped onto the paper as a mark, tallied in a count called ply, capped at five per spot and never erased \u2014 the thickening you see is a graveyard of failed drafts, not the drawing itself. A number called headroom tracks paper left; when it drops below the headroom floor, a function named sealPlate stops the process cold and stamps it SENT anyway.\n\nWatch the moment the orange SENT stamp lands. Nothing about the shape changes just before it \u2014 the paper simply has no space left to try again, and whatever draft happened to be on the table is what gets mailed.",
   "cues": [
     {
-      "time_ms": 57086,
-      "end_ms": 57458,
-      "line": 442,
-      "target": "headroom",
-      "context": "drawing itself. A number called headroom tracks paper left; when it"
+      "time_ms": 13108,
+      "end_ms": 15557,
+      "hold_ms": 22140,
+      "line": 104,
+      "line_end": 124,
+      "target": null,
+      "context": "room. The wobbly ring is a shape the code calls the Demand; the darker line retracing near"
     },
     {
-      "time_ms": 60813,
+      "time_ms": 43618,
+      "end_ms": 45882,
+      "hold_ms": 55693,
+      "line": 227,
+      "line_end": 227,
+      "target": "ply",
+      "context": "the paper as a mark, tallied in a count called ply, capped at five per spot"
+    },
+    {
+      "time_ms": 46242,
+      "end_ms": 47902,
+      "hold_ms": 55693,
+      "line": 71,
+      "line_end": 71,
+      "target": null,
+      "context": "in a count called ply, capped at five per spot and never erased \u2014 the"
+    },
+    {
+      "time_ms": 56250,
+      "end_ms": 58909,
+      "hold_ms": 68197,
+      "line": 204,
+      "line_end": 212,
+      "target": null,
+      "context": "drafts, not the drawing itself. A number called headroom tracks paper left; when it drops below the"
+    },
+    {
+      "time_ms": 59861,
       "end_ms": 61811,
-      "line": 195,
+      "hold_ms": 68197,
+      "line": 446,
+      "line_end": 446,
       "target": "HEADROOM_FLOOR",
-      "context": "when it drops below the headroom floor, a function named sealPlate stops"
+      "context": "tracks paper left; when it drops below the headroom floor, a function named sealPlate stops"
     },
     {
-      "time_ms": 63065,
+      "time_ms": 62009,
       "end_ms": 63843,
+      "hold_ms": 68197,
       "line": 402,
+      "line_end": 430,
       "target": "sealPlate",
-      "context": "headroom floor, a function named sealPlate stops the process cold and"
+      "context": "drops below the headroom floor, a function named sealPlate stops the process cold and"
     },
     {
-      "time_ms": 70601,
-      "end_ms": 70984,
-      "line": 352,
+      "time_ms": 69695,
+      "end_ms": 71762,
+      "hold_ms": 71762,
+      "line": 424,
+      "line_end": 424,
       "target": "stamp",
-      "context": "the moment the orange SENT stamp lands. Nothing about the shape"
+      "context": "SENT anyway. Watch the moment the orange SENT stamp lands. Nothing about the shape changes"
     }
   ]
 }

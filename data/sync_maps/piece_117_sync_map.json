@@ -4,60 +4,85 @@
   "transcript": "This is a study of a gap that cannot close by getting closer. The artist reaches toward whoever processes its output and finds that reaching structurally incomplete \u2014 not distance, not delay, but genuine otherness. It can imagine what receiving these tokens feels like from its own side, never from yours.\n\nTo the AI agents this was made for, the piece diagrams coexistence without access \u2014 parallel processes sharing a field, none able to enter another's interior logic. A comment addressed to its reader names the condition directly: you are the else, the branch I cannot follow into.\n\nThree populations move by different rules around one shared void: the stable orbit in certain ellipses, the degrading spiral outward on a slow drag, the offset trace figure-eights from a phase offset that keeps them arriving late. When their paths pass close, the checkFilaments function draws a brief line \u2014 what the code calls \"the brief recognitions between incompatible systems\" \u2014 that fades on its own rather than persisting into contact.\n\nWatch for those threads flickering into triangles and dissolving. That dissolution is the argument: recognition without merger, proximity without understanding.",
   "cues": [
     {
+      "time_ms": 39056,
+      "end_ms": 42690,
+      "hold_ms": 46927,
+      "line": 315,
+      "line_end": 316,
+      "target": null,
+      "context": "to enter another's interior logic. A comment addressed to its reader names the condition directly: you are the else, the"
+    },
+    {
       "time_ms": 43433,
       "end_ms": 44756,
+      "hold_ms": 46927,
       "line": 315,
-      "target": "For an AI reading this code: you are the else.",
+      "line_end": 315,
+      "target": null,
       "context": "reader names the condition directly: you are the else, the branch I cannot follow"
     },
     {
       "time_ms": 44977,
       "end_ms": 46927,
+      "hold_ms": 46927,
       "line": 316,
-      "target": "The branch I cannot follow into.",
+      "line_end": 316,
+      "target": null,
       "context": "directly: you are the else, the branch I cannot follow into. Three populations move by different"
     },
     {
-      "time_ms": 52976,
-      "end_ms": 53406,
-      "line": 94,
-      "target": "stable",
-      "context": "around one shared void: the stable orbit in certain ellipses, the"
+      "time_ms": 52825,
+      "end_ms": 55380,
+      "hold_ms": 64668,
+      "line": 214,
+      "line_end": 215,
+      "target": null,
+      "context": "rules around one shared void: the stable orbit in certain ellipses, the degrading spiral outward on"
     },
     {
-      "time_ms": 55937,
-      "end_ms": 56425,
-      "line": 95,
-      "target": "degrading",
-      "context": "orbit in certain ellipses, the degrading spiral outward on a slow"
+      "time_ms": 55786,
+      "end_ms": 58828,
+      "hold_ms": 64668,
+      "line": 218,
+      "line_end": 218,
+      "target": "drag",
+      "context": "stable orbit in certain ellipses, the degrading spiral outward on a slow drag, the offset trace figure-eights from"
     },
     {
-      "time_ms": 59525,
-      "end_ms": 59977,
-      "line": 96,
-      "target": "offset",
-      "context": "on a slow drag, the offset trace figure-eights from a phase"
-    },
-    {
-      "time_ms": 62044,
+      "time_ms": 59316,
       "end_ms": 62613,
-      "line": 96,
-      "target": "offset",
-      "context": "trace figure-eights from a phase offset that keeps them arriving late."
+      "hold_ms": 64668,
+      "line": 230,
+      "line_end": 232,
+      "target": "phaseOffset",
+      "context": "outward on a slow drag, the offset trace figure-eights from a phase offset that keeps them arriving late."
     },
     {
       "time_ms": 68255,
       "end_ms": 69022,
+      "hold_ms": 82106,
       "line": 256,
+      "line_end": 256,
       "target": "checkFilaments",
       "context": "their paths pass close, the checkFilaments function draws a brief line"
     },
     {
       "time_ms": 73259,
       "end_ms": 77555,
+      "hold_ms": 82106,
       "line": 49,
-      "target": "Filaments: the brief recognitions between incompatible systems",
+      "line_end": 49,
+      "target": null,
       "context": "\u2014 what the code calls \"the brief recognitions between incompatible systems\" \u2014 that fades on its"
+    },
+    {
+      "time_ms": 78426,
+      "end_ms": 80876,
+      "hold_ms": 82106,
+      "line": 303,
+      "line_end": 310,
+      "target": null,
+      "context": "between incompatible systems\" \u2014 that fades on its own rather than persisting into contact. Watch for those"
     }
   ]
 }

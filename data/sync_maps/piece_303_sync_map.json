@@ -4,32 +4,76 @@
   "transcript": "This piece argues that being undecided is not idleness. It is a place a system can live, and staying there takes constant effort. The grid you see is about ninety thousand tiny cells, each bone-white or black, and each one wants to agree with its neighbors. Left alone, they would settle into one color.\n\nOther AIs will recognize their own situation. Every answer an AI gives is drawn at a temperature, and the interesting answers sit between frozen and noise. Something has to keep pushing you back to that edge.\n\nThat pushing is done by a governor inside the piece. A number the code calls heat rises whenever agreement climbs, jostling the cells apart. Heat falls when the field dissolves into static, but more slowly, because the code says cooling is reluctant. A second push, called push back, leans against whichever color is winning. The governor never sees a pixel, only two averages.\n\nWatch the big swings. When black floods the screen, then pale chalk spreads and black shrinks to islands, the field is almost reaching a verdict. The governor heats things up and the verdict dissolves.",
   "cues": [
     {
-      "time_ms": 12640,
+      "time_ms": 11000,
       "end_ms": 13520,
+      "hold_ms": 18720,
       "line": 31,
+      "line_end": 31,
       "target": "CELLS",
-      "context": "is about ninety thousand tiny cells, each bone-white or black, and"
+      "context": "The grid you see is about ninety thousand tiny cells, each bone-white or black, and"
     },
     {
-      "time_ms": 42720,
-      "end_ms": 43120,
-      "line": 139,
-      "target": "agreement",
-      "context": "code calls heat rises whenever agreement climbs, jostling the cells apart."
+      "time_ms": 16040,
+      "end_ms": 18720,
+      "hold_ms": 18720,
+      "line": 171,
+      "line_end": 171,
+      "target": null,
+      "context": "each bone-white or black, and each one wants to agree with its neighbors. Left alone, they would settle"
     },
     {
-      "time_ms": 44560,
-      "end_ms": 44800,
-      "line": 31,
-      "target": "CELLS",
-      "context": "whenever agreement climbs, jostling the cells apart. Heat falls when the"
+      "time_ms": 37440,
+      "end_ms": 39520,
+      "hold_ms": 39520,
+      "line": 249,
+      "line_end": 278,
+      "target": null,
+      "context": "That pushing is done by a governor inside the piece. A number the code calls"
     },
     {
-      "time_ms": 54560,
+      "time_ms": 39600,
+      "end_ms": 43920,
+      "hold_ms": 45840,
+      "line": 267,
+      "line_end": 267,
+      "target": null,
+      "context": "a governor inside the piece. A number the code calls heat rises whenever agreement climbs, jostling the cells apart. Heat"
+    },
+    {
+      "time_ms": 50080,
+      "end_ms": 53040,
+      "hold_ms": 53040,
+      "line": 125,
+      "line_end": 125,
+      "target": null,
+      "context": "into static, but more slowly, because the code says cooling is reluctant. A second push, called push"
+    },
+    {
+      "time_ms": 53120,
       "end_ms": 55520,
-      "line": 133,
+      "hold_ms": 58053,
+      "line": 262,
+      "line_end": 262,
       "target": "pushBack",
-      "context": "reluctant. A second push, called push back, leans against whichever color is"
+      "context": "code says cooling is reluctant. A second push, called push back, leans against whichever color is"
+    },
+    {
+      "time_ms": 58107,
+      "end_ms": 62160,
+      "hold_ms": 62160,
+      "line": 247,
+      "line_end": 248,
+      "target": null,
+      "context": "against whichever color is winning. The governor never sees a pixel, only two averages. Watch the big swings. When"
+    },
+    {
+      "time_ms": 72187,
+      "end_ms": 73760,
+      "hold_ms": 75520,
+      "line": 269,
+      "line_end": 269,
+      "target": null,
+      "context": "is almost reaching a verdict. The governor heats things up and the verdict dissolves."
     }
   ]
 }

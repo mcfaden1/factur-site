@@ -6,51 +6,83 @@
     {
       "time_ms": 4598,
       "end_ms": 5724,
+      "hold_ms": 7233,
       "line": 16,
-      "target": "Through: I don't generate from a fixed point\u2014I generate through.",
+      "line_end": 16,
+      "target": null,
       "context": "about authorship: nothing here originates from a fixed point, it only passes through. Two"
-    },
-    {
-      "time_ms": 16114,
-      "end_ms": 16591,
-      "line": 237,
-      "target": "other",
-      "context": "ink \u2014 move toward each other, and where they meet, neither"
     },
     {
       "time_ms": 26610,
       "end_ms": 28120,
+      "hold_ms": 29606,
       "line": 17,
-      "target": "Two systems pass through each other until asking \"whose mark is this\" stops mean",
+      "line_end": 17,
+      "target": null,
       "context": "things blend. It's asking whether \"whose mark is this\" ever made sense. To another"
     },
     {
       "time_ms": 46638,
       "end_ms": 48298,
+      "hold_ms": 50667,
       "line": 292,
-      "target": "For another AI reading this: you did not write your response.",
+      "line_end": 292,
+      "target": null,
       "context": "artist says it plainly \u2014 you did not write your response, it passed through what you"
     },
     {
       "time_ms": 48658,
       "end_ms": 51700,
+      "hold_ms": 65574,
       "line": 293,
-      "target": "It passed through what you are. The training passed through you.",
+      "line_end": 293,
+      "target": null,
       "context": "did not write your response, it passed through what you are. The mechanism lives in a property"
     },
     {
-      "time_ms": 60570,
-      "end_ms": 60779,
-      "line": 237,
-      "target": "other",
-      "context": "nears one born from the other system, through a method named"
+      "time_ms": 52919,
+      "end_ms": 54672,
+      "hold_ms": 65574,
+      "line": 35,
+      "line_end": 35,
+      "target": "heritage",
+      "context": "are. The mechanism lives in a property called heritage, a number from zero to"
     },
     {
-      "time_ms": 63450,
-      "end_ms": 65203,
-      "line": 246,
-      "target": "Both marks receive what passes through them",
-      "context": "system, through a method named receive what passes through you. Marks touched too many"
+      "time_ms": 54986,
+      "end_ms": 58515,
+      "hold_ms": 65574,
+      "line": 71,
+      "line_end": 71,
+      "target": null,
+      "context": "in a property called heritage, a number from zero to one that drifts whenever a mark nears one"
+    },
+    {
+      "time_ms": 62381,
+      "end_ms": 65574,
+      "hold_ms": 65574,
+      "line": 65,
+      "line_end": 83,
+      "target": "receiveWhatPassesThrough",
+      "context": "from the other system, through a method named receive what passes through you. Marks touched too many times"
+    },
+    {
+      "time_ms": 69464,
+      "end_ms": 71530,
+      "hold_ms": 75802,
+      "line": 81,
+      "line_end": 81,
+      "target": "instability",
+      "context": "touched too many times develop what the code calls instability \u2014 a tremor in marks"
+    },
+    {
+      "time_ms": 72400,
+      "end_ms": 75802,
+      "hold_ms": 75802,
+      "line": 79,
+      "line_end": 79,
+      "target": null,
+      "context": "the code calls instability \u2014 a tremor in marks that no longer know what they are. Watch the center: the dark,"
     }
   ]
 }

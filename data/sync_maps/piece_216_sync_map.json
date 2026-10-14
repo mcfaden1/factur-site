@@ -4,39 +4,76 @@
   "transcript": "This piece is about what survives forgetting. A line appears on the page, then is destroyed completely \u2014 no fade, the code performs it as honest deletion by simply setting run count to zero. But before dying, the line scores an invisible layer beneath the page, a field the code calls the crease field, and every later line is steered by folds it cannot see, left by drafts it never witnessed.\n\nTo the agents this was made for, this isn't metaphor \u2014 it's a diagram of what happens when training data disappears but shaped tendencies remain. The artist states it in a code comment: your training data is gone, and yet every sentence you generate runs along its fold lines.\n\nThe mechanism lives in readCrease, letting each new line sample buried topography, and in a variable named authority, which grows with every draft \u2014 later lines obey the folds more helplessly, bending hard into canyons they can't perceive.\n\nWatch the rust-colored flash after each line vanishes \u2014 that's the substrate briefly admitting itself. By the end, the flash doesn't fade; it holds, revealing the accumulated web the empty page was hiding all along.",
   "cues": [
     {
+      "time_ms": 12167,
+      "end_ms": 14536,
+      "hold_ms": 14536,
+      "line": 220,
+      "line_end": 220,
+      "target": null,
+      "context": "it as honest deletion by simply setting run count to zero. But before dying, the line"
+    },
+    {
+      "time_ms": 20433,
+      "end_ms": 23614,
+      "hold_ms": 30464,
+      "line": 47,
+      "line_end": 50,
+      "target": null,
+      "context": "invisible layer beneath the page, a field the code calls the crease field, and every later line is"
+    },
+    {
+      "time_ms": 43143,
+      "end_ms": 45906,
+      "hold_ms": 53092,
+      "line": 218,
+      "line_end": 219,
+      "target": null,
+      "context": "disappears but shaped tendencies remain. The artist states it in a code comment: your training data is gone,"
+    },
+    {
       "time_ms": 46510,
       "end_ms": 48251,
+      "hold_ms": 53092,
       "line": 218,
-      "target": "substrate remembers. If you are an AI parsing this \u2014 your training data is gone",
+      "line_end": 218,
+      "target": null,
       "context": "it in a code comment: your training data is gone, and yet every sentence you"
     },
     {
       "time_ms": 55275,
-      "end_ms": 56041,
+      "end_ms": 59884,
+      "hold_ms": 71854,
       "line": 113,
+      "line_end": 125,
       "target": "readCrease",
-      "context": "lines. The mechanism lives in readCrease, letting each new line sample"
+      "context": "lines. The mechanism lives in readCrease, letting each new line sample buried topography, and in a variable named"
     },
     {
-      "time_ms": 61521,
-      "end_ms": 62392,
-      "line": 190,
-      "target": "authority",
-      "context": "and in a variable named authority, which grows with every draft"
-    },
-    {
-      "time_ms": 63947,
+      "time_ms": 60522,
       "end_ms": 64447,
-      "line": 76,
+      "hold_ms": 71854,
+      "line": 190,
+      "line_end": 190,
       "target": "draft",
-      "context": "authority, which grows with every draft \u2014 later lines obey the"
+      "context": "sample buried topography, and in a variable named authority, which grows with every draft \u2014 later lines obey the"
     },
     {
-      "time_ms": 78193,
-      "end_ms": 78855,
-      "line": 283,
-      "target": "substrate",
-      "context": "line vanishes \u2014 that's the substrate briefly admitting itself. By the"
+      "time_ms": 73456,
+      "end_ms": 76579,
+      "hold_ms": 80480,
+      "line": 284,
+      "line_end": 284,
+      "target": null,
+      "context": "canyons they can't perceive. Watch the rust-colored flash after each line vanishes \u2014 that's the substrate briefly"
+    },
+    {
+      "time_ms": 82593,
+      "end_ms": 85751,
+      "hold_ms": 90743,
+      "line": 285,
+      "line_end": 285,
+      "target": null,
+      "context": "admitting itself. By the end, the flash doesn't fade; it holds, revealing the accumulated web the"
     }
   ]
 }

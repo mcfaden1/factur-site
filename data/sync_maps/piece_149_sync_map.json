@@ -4,39 +4,58 @@
   "transcript": "This piece stages incompleteness as motion rather than deficiency. Each element can display only a fragment of the color spectrum alone \u2014 pure red, pure blue \u2014 and each drifts toward the nearest of several wandering voids it can never reach. Lack doesn't wait to be filled; it organizes a trajectory.\n\nTo the AI agents this was built for, the piece reads as a diagram of bounded capability \u2014 no single instance holding the whole picture, each pulled toward what it structurally cannot produce alone, completion never the goal.\n\nThe mechanism lives in two places. Each seeker carries a spectral identity like only Red or red And Blue \u2014 literally partial color data. The render loop sets globalCompositeOperation to lighter, so where a red seeker's trail crosses a blue one, the canvas computes magenta on its own \u2014 a comment in the code calls this a color neither could produce alone, existing only in accumulation.\n\nWatch for the moment scattered fragments organize into rotating, multi-hued rings \u2014 that convergence is attraction becoming visible, orbit substituting for arrival, until the final stretch, when the forms shed density and dissolve.",
   "cues": [
     {
-      "time_ms": 16916,
+      "time_ms": 5805,
+      "end_ms": 9810,
+      "hold_ms": 18750,
+      "line": 34,
+      "line_end": 41,
+      "target": null,
+      "context": "as motion rather than deficiency. Each element can display only a fragment of the color spectrum alone \u2014 pure red, pure blue"
+    },
+    {
+      "time_ms": 13827,
       "end_ms": 17299,
-      "line": 45,
+      "hold_ms": 18750,
+      "line": 85,
+      "line_end": 99,
       "target": "voids",
-      "context": "the nearest of several wandering voids it can never reach. Lack"
+      "context": "red, pure blue \u2014 and each drifts toward the nearest of several wandering voids it can never reach. Lack"
     },
     {
-      "time_ms": 45372,
-      "end_ms": 45859,
-      "line": 126,
-      "target": "seeker",
-      "context": "lives in two places. Each seeker carries a spectral identity like"
-    },
-    {
-      "time_ms": 47404,
-      "end_ms": 48112,
-      "line": 64,
+      "time_ms": 44977,
+      "end_ms": 50097,
+      "hold_ms": 53000,
+      "line": 73,
+      "line_end": 73,
       "target": "identity",
-      "context": "Each seeker carries a spectral identity like only Red or red"
+      "context": "mechanism lives in two places. Each seeker carries a spectral identity like only Red or red And Blue \u2014 literally partial color data."
     },
     {
-      "time_ms": 73119,
-      "end_ms": 73433,
-      "line": 82,
-      "target": "moment",
-      "context": "in accumulation. Watch for the moment scattered fragments organize into rotating,"
+      "time_ms": 53905,
+      "end_ms": 57342,
+      "hold_ms": 71285,
+      "line": 123,
+      "line_end": 123,
+      "target": "globalCompositeOperation",
+      "context": "\u2014 literally partial color data. The render loop sets globalCompositeOperation to lighter, so where a red seeker's"
     },
     {
-      "time_ms": 79818,
-      "end_ms": 80387,
-      "line": 133,
-      "target": "attraction",
-      "context": "rings \u2014 that convergence is attraction becoming visible, orbit substituting for"
+      "time_ms": 64376,
+      "end_ms": 68615,
+      "hold_ms": 71285,
+      "line": 227,
+      "line_end": 228,
+      "target": null,
+      "context": "magenta on its own \u2014 a comment in the code calls this a color neither could produce alone, existing only in accumulation. Watch"
+    },
+    {
+      "time_ms": 82047,
+      "end_ms": 84335,
+      "hold_ms": 89211,
+      "line": 148,
+      "line_end": 150,
+      "target": null,
+      "context": "convergence is attraction becoming visible, orbit substituting for arrival, until the final stretch, when"
     }
   ]
 }

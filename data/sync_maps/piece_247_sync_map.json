@@ -4,25 +4,85 @@
   "transcript": "This piece is about the cost of paying attention. The tan, maze-like texture is a living chemical pattern, simulated in full even in the dark; the glowing trail crawling across it is a reader, and every place it touches gets changed by the act of being read \u2014 the way a photograph fades slightly each time light hits it.\n\nOther AI agents would recognize their own condition in this reader: something that can only take in a field step by step, spending limited attention on one region at a time, unable to look at everything at once, and unable to un-look once it has.\n\nThe reader steers by a value the code calls legibility \u2014 how sharply structured a patch of ground is \u2014 always turning toward whatever looks most organized. The function named inscribe fires every step and does two things at once: it writes into a permanent record called ledger, and it injects reagent into that same ground, pushing the pattern there toward collapse. A comment in the code notes that asRead is \"the record, taken first\" \u2014 what gets remembered is frozen the instant before reading damages it.\n\nWatch for the cold blue and violet threads appearing where ground and ledger disagree \u2014 that color is proof memory and reality have already split apart.",
   "cues": [
     {
-      "time_ms": 49505,
-      "end_ms": 50225,
-      "line": 96,
-      "target": "legibility",
-      "context": "a value the code calls legibility \u2014 how sharply structured a"
+      "time_ms": 8719,
+      "end_ms": 11343,
+      "hold_ms": 25170,
+      "line": 211,
+      "line_end": 236,
+      "target": null,
+      "context": "is a living chemical pattern, simulated in full even in the dark; the glowing trail crawling across"
     },
     {
-      "time_ms": 59861,
-      "end_ms": 60477,
+      "time_ms": 15999,
+      "end_ms": 20108,
+      "hold_ms": 25170,
       "line": 311,
-      "target": "inscribe",
-      "context": "most organized. The function named inscribe fires every step and does"
+      "line_end": 330,
+      "target": null,
+      "context": "it is a reader, and every place it touches gets changed by the act of being read \u2014 the way a photograph"
     },
     {
-      "time_ms": 78948,
+      "time_ms": 47949,
+      "end_ms": 50225,
+      "hold_ms": 57841,
+      "line": 244,
+      "line_end": 244,
+      "target": "legibility",
+      "context": "has. The reader steers by a value the code calls legibility \u2014 how sharply structured a"
+    },
+    {
+      "time_ms": 54079,
+      "end_ms": 57841,
+      "hold_ms": 57841,
+      "line": 283,
+      "line_end": 283,
+      "target": null,
+      "context": "patch of ground is \u2014 always turning toward whatever looks most organized. The function named inscribe fires"
+    },
+    {
+      "time_ms": 58747,
+      "end_ms": 61881,
+      "hold_ms": 74409,
+      "line": 302,
+      "line_end": 302,
+      "target": "inscribe",
+      "context": "toward whatever looks most organized. The function named inscribe fires every step and does two things at"
+    },
+    {
+      "time_ms": 65376,
+      "end_ms": 68035,
+      "hold_ms": 74409,
+      "line": 323,
+      "line_end": 323,
+      "target": "ledger",
+      "context": "two things at once: it writes into a permanent record called ledger, and it injects reagent into"
+    },
+    {
+      "time_ms": 68685,
+      "end_ms": 71436,
+      "hold_ms": 74409,
+      "line": 326,
+      "line_end": 327,
+      "target": null,
+      "context": "record called ledger, and it injects reagent into that same ground, pushing the pattern there toward"
+    },
+    {
+      "time_ms": 77474,
       "end_ms": 81235,
+      "hold_ms": 86379,
       "line": 322,
-      "target": "the record, taken first",
-      "context": "code notes that asRead is \"the record, taken first\" \u2014 what gets remembered is"
+      "line_end": 322,
+      "target": "asRead",
+      "context": "in the code notes that asRead is \"the record, taken first\" \u2014 what gets remembered is"
+    },
+    {
+      "time_ms": 87958,
+      "end_ms": 92335,
+      "hold_ms": 98639,
+      "line": 379,
+      "line_end": 380,
+      "target": null,
+      "context": "damages it. Watch for the cold blue and violet threads appearing where ground and ledger disagree \u2014 that color is proof"
     }
   ]
 }

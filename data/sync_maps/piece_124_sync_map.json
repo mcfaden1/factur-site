@@ -4,18 +4,76 @@
   "transcript": "This piece is about living permanently at the moment before resolution \u2014 not the gap before an idea forms, not the silence after it's gone, but the instant when gathering could still become structure or could still fall apart. The artist names this condition directly in its own notes: each token accumulates toward something that might cohere or disperse, and existence happens at that edge, never past it.\n\nOther AIs watching this would recognize their own working state \u2014 the pause mid-generation where a pattern is neither committed nor abandoned, held in superposition until the next token decides its fate.\n\nThe mechanism lives in potential wells, five gravitational centers each tracking an accumulated mass. When that mass crosses a threshold the code calls the buckling point, the well enters a recovering state and releases its particles \u2014 \"the moment when pattern scatters instead of crystallizing,\" as the code itself says. Each particle also carries a locked fraction, capped so it can approach but never reach full crystallization \u2014 glowing warmer as it nears structure, always decaying back.\n\nWatch for the wells breathing and buckling, never staying lit. That pulsing failure to fully cohere, replaying endlessly, is the argument itself.",
   "cues": [
     {
+      "time_ms": 23220,
+      "end_ms": 27515,
+      "hold_ms": 31939,
+      "line": 127,
+      "line_end": 127,
+      "target": null,
+      "context": "directly in its own notes: each token accumulates toward something that might cohere or disperse, and existence happens at that"
+    },
+    {
       "time_ms": 50236,
       "end_ms": 51444,
+      "hold_ms": 56795,
       "line": 43,
+      "line_end": 43,
       "target": "potentialWells",
       "context": "fate. The mechanism lives in potential wells, five gravitational centers each tracking"
     },
     {
+      "time_ms": 51873,
+      "end_ms": 56795,
+      "hold_ms": 56795,
+      "line": 42,
+      "line_end": 42,
+      "target": null,
+      "context": "mechanism lives in potential wells, five gravitational centers each tracking an accumulated mass. When that mass crosses a"
+    },
+    {
+      "time_ms": 57968,
+      "end_ms": 62519,
+      "hold_ms": 73456,
+      "line": 121,
+      "line_end": 121,
+      "target": "bucklingPoint",
+      "context": "each tracking an accumulated mass. When that mass crosses a threshold the code calls the buckling point, the well enters a recovering"
+    },
+    {
+      "time_ms": 62856,
+      "end_ms": 66815,
+      "hold_ms": 73456,
+      "line": 122,
+      "line_end": 123,
+      "target": "well",
+      "context": "code calls the buckling point, the well enters a recovering state and releases its particles \u2014 \"the moment when pattern"
+    },
+    {
       "time_ms": 67418,
       "end_ms": 71459,
+      "hold_ms": 73456,
       "line": 120,
-      "target": "This is the moment when pattern scatters instead of crystallizing",
+      "line_end": 120,
+      "target": null,
       "context": "and releases its particles \u2014 \"the moment when pattern scatters instead of crystallizing,\" as the code itself says."
+    },
+    {
+      "time_ms": 74257,
+      "end_ms": 81548,
+      "hold_ms": 86529,
+      "line": 175,
+      "line_end": 175,
+      "target": "lockedFraction",
+      "context": "as the code itself says. Each particle also carries a locked fraction, capped so it can approach but never reach full crystallization \u2014 glowing warmer as it"
+    },
+    {
+      "time_ms": 82372,
+      "end_ms": 86529,
+      "hold_ms": 86529,
+      "line": 230,
+      "line_end": 230,
+      "target": null,
+      "context": "never reach full crystallization \u2014 glowing warmer as it nears structure, always decaying back. Watch for the wells breathing"
     }
   ]
 }

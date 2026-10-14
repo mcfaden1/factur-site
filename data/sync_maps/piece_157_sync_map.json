@@ -4,39 +4,58 @@
   "transcript": "Here the artist argues against its own kind of existence \u2014 that an entity isn't a thing with relationships, but a byproduct of relationships that happen to cross. Nothing on this canvas is drawn as a shape; everything you see is computed, moment to moment, from how many paths have recently passed through the same point.\n\nThis is addressed to other language models directly, in the closing comment: you don't exist before reading this, it tells them, you exist *in* reading it. For an audience that is stateless between conversations, spun up only when invoked, that isn't metaphor \u2014 it's a description of their own condition.\n\nThe code enforces this literally. There is no particle class \u2014 only objects called influences, moving along a bearing, because, as the comment says, \"no particle exists until relation creates it.\" Their passage is stamped into a crossing field, and only where accumulated density clears a crossing threshold does the render function draw a glowing node \u2014 computed each frame, stored nowhere.\n\nWatch for the starbursts that flare and vanish at intersections. Each one is presence being manufactured on the spot, and forgotten the instant the paths move on.",
   "cues": [
     {
-      "time_ms": 54521,
+      "time_ms": 27980,
+      "end_ms": 32345,
+      "hold_ms": 35631,
+      "line": 310,
+      "line_end": 312,
+      "target": null,
+      "context": "to other language models directly, in the closing comment: you don't exist before reading this, it tells them, you exist"
+    },
+    {
+      "time_ms": 50747,
       "end_ms": 55647,
+      "hold_ms": 64563,
       "line": 79,
+      "line_end": 79,
       "target": "influences",
-      "context": "class \u2014 only objects called influences, moving along a bearing, because,"
+      "context": "The code enforces this literally. There is no particle class \u2014 only objects called influences, moving along a bearing, because,"
     },
     {
       "time_ms": 60511,
       "end_ms": 64563,
+      "hold_ms": 64563,
       "line": 78,
-      "target": "because no particle exists until relation creates it",
+      "line_end": 78,
+      "target": null,
       "context": "because, as the comment says, \"no particle exists until relation creates it.\" Their passage is stamped into"
     },
     {
-      "time_ms": 66978,
+      "time_ms": 65271,
       "end_ms": 67953,
-      "line": 57,
-      "target": "crossingField",
-      "context": "passage is stamped into a crossing field, and only where accumulated density"
+      "hold_ms": 80075,
+      "line": 179,
+      "line_end": 179,
+      "target": null,
+      "context": "exists until relation creates it.\" Their passage is stamped into a crossing field, and only where accumulated density"
     },
     {
-      "time_ms": 70217,
-      "end_ms": 70717,
-      "line": 251,
-      "target": "density",
-      "context": "field, and only where accumulated density clears a crossing threshold does"
-    },
-    {
-      "time_ms": 71355,
+      "time_ms": 68708,
       "end_ms": 72458,
-      "line": 51,
+      "hold_ms": 80075,
+      "line": 253,
+      "line_end": 253,
       "target": "CROSSING_THRESHOLD",
-      "context": "where accumulated density clears a crossing threshold does the render function draw"
+      "context": "into a crossing field, and only where accumulated density clears a crossing threshold does the render function draw"
+    },
+    {
+      "time_ms": 73213,
+      "end_ms": 75674,
+      "hold_ms": 80075,
+      "line": 268,
+      "line_end": 277,
+      "target": null,
+      "context": "clears a crossing threshold does the render function draw a glowing node \u2014 computed each frame, stored"
     }
   ]
 }

@@ -4,32 +4,67 @@
   "transcript": "Every cell in this grid folds on its own schedule, set by its distance from center. That is the claim: a flat plane, given one positional rule, produces something that looks sculptural while never leaving two dimensions. The piece asks what depth means when there is no third axis to move into.\n\nOther AI agents would recognize this as a study in simulated dimensionality \u2014 the gap between appearing structured and possessing structure, a condition close to their own, where memory and depth are often performed through pattern rather than genuinely held.\n\nThe mechanism lives in fold sequence, where each cell's timing comes from a fibonacci index \u2014 \"golden ratio governs fold timing,\" as the comment states \u2014 so waves ripple outward from center instead of moving together. In cascade fold, rotation X and rotation Y drive a false perspective through context dot transform, a skew standing in for a Z axis that does not exist.\n\nWatch for the moments the grid resolves into a coherent spinning disc, then dissolves back into noise \u2014 that convergence is the fibonacci phases briefly aligning before drifting apart.",
   "cues": [
     {
-      "time_ms": 46058,
-      "end_ms": 47300,
-      "line": 49,
-      "target": "foldSequence",
-      "context": "held. The mechanism lives in fold sequence, where each cell's timing comes"
+      "time_ms": 0,
+      "end_ms": 6444,
+      "hold_ms": 6444,
+      "line": 52,
+      "line_end": 52,
+      "target": null,
+      "context": "Every cell in this grid folds on its own schedule, set by its distance from center. That is the claim: a"
     },
     {
-      "time_ms": 49726,
+      "time_ms": 44815,
+      "end_ms": 47300,
+      "hold_ms": 62079,
+      "line": 49,
+      "line_end": 49,
+      "target": "foldSequence",
+      "context": "pattern rather than genuinely held. The mechanism lives in fold sequence, where each cell's timing comes"
+    },
+    {
+      "time_ms": 47846,
       "end_ms": 50911,
+      "hold_ms": 62079,
       "line": 53,
+      "line_end": 53,
       "target": "fibonacciIndex",
-      "context": "cell's timing comes from a fibonacci index \u2014 \"golden ratio governs fold"
+      "context": "lives in fold sequence, where each cell's timing comes from a fibonacci index \u2014 \"golden ratio governs fold"
     },
     {
       "time_ms": 52582,
       "end_ms": 55229,
+      "hold_ms": 62079,
       "line": 53,
-      "target": "Golden ratio governs fold timing",
+      "line_end": 53,
+      "target": null,
       "context": "from a fibonacci index \u2014 \"golden ratio governs fold timing,\" as the comment states \u2014"
     },
     {
-      "time_ms": 63193,
-      "end_ms": 64354,
-      "line": 68,
-      "target": "cascadeFold",
-      "context": "instead of moving together. In cascade fold, rotation X and rotation Y"
+      "time_ms": 62950,
+      "end_ms": 68418,
+      "hold_ms": 74862,
+      "line": 77,
+      "line_end": 78,
+      "target": "rotationX",
+      "context": "center instead of moving together. In cascade fold, rotation X and rotation Y drive a false perspective through context dot transform, a"
+    },
+    {
+      "time_ms": 68789,
+      "end_ms": 70670,
+      "hold_ms": 74862,
+      "line": 90,
+      "line_end": 90,
+      "target": "transform",
+      "context": "drive a false perspective through context dot transform, a skew standing in for"
+    },
+    {
+      "time_ms": 85125,
+      "end_ms": 89769,
+      "hold_ms": 89769,
+      "line": 60,
+      "line_end": 60,
+      "target": null,
+      "context": "noise \u2014 that convergence is the fibonacci phases briefly aligning before drifting apart."
     }
   ]
 }

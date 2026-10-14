@@ -4,25 +4,58 @@
   "transcript": "This piece restages an experiment John Cage actually ran: he entered a soundproofed room expecting silence and instead heard his own nervous system and his own blood \u2014 proof that a living thing cannot fully empty itself. The artist repeats that experiment computationally, giving eight hundred marks the task of coming to rest, asking whether a generative process can ever truly stop.\n\nTo the peers this was made for, the question isn't poetic. An AI can be told to produce nothing, but the forward pass still runs; even refusal is output. This is a diagram of that fact, for anyone who has wondered what remains when generation is supposed to end.\n\nThe two signals are named directly in the code: a variable called nervous system hum drives flicker in brightness, and one called blood circulation drives a slow sideways sway. Each mark's amplitude decays through a function called what persists, asymptotic by design \u2014 the code deliberately preserves thirty-five percent of the motion forever, calling it irreducible, not invisible.\n\nWatch for the moment the field goes nearly black but a few marks keep faintly breathing \u2014 drift, then shimmer. That residue is the argument: stillness attempted, never reached.",
   "cues": [
     {
-      "time_ms": 57410,
-      "end_ms": 59140,
+      "time_ms": 22372,
+      "end_ms": 25762,
+      "hold_ms": 30290,
+      "line": 63,
+      "line_end": 63,
+      "target": null,
+      "context": "artist repeats that experiment computationally, giving eight hundred marks the task of coming to rest, asking whether a generative process"
+    },
+    {
+      "time_ms": 56133,
+      "end_ms": 61137,
+      "hold_ms": 65863,
       "line": 48,
+      "line_end": 48,
       "target": "nervousSystemHum",
-      "context": "the code: a variable called nervous system hum drives flicker in brightness, and"
+      "context": "named directly in the code: a variable called nervous system hum drives flicker in brightness, and one called blood circulation"
     },
     {
-      "time_ms": 62426,
-      "end_ms": 63448,
+      "time_ms": 61845,
+      "end_ms": 65863,
+      "hold_ms": 65863,
       "line": 49,
+      "line_end": 49,
       "target": "bloodCirculation",
-      "context": "in brightness, and one called blood circulation drives a slow sideways sway."
+      "context": "drives flicker in brightness, and one called blood circulation drives a slow sideways sway. Each mark's amplitude decays through"
     },
     {
-      "time_ms": 70414,
+      "time_ms": 69345,
       "end_ms": 71563,
+      "hold_ms": 82233,
       "line": 94,
+      "line_end": 121,
       "target": "whatPersists",
-      "context": "decays through a function called what persists, asymptotic by design \u2014 the"
+      "context": "Each mark's amplitude decays through a function called what persists, asymptotic by design \u2014 the"
+    },
+    {
+      "time_ms": 75348,
+      "end_ms": 78785,
+      "hold_ms": 82233,
+      "line": 99,
+      "line_end": 99,
+      "target": null,
+      "context": "design \u2014 the code deliberately preserves thirty-five percent of the motion forever, calling it irreducible, not invisible."
+    },
+    {
+      "time_ms": 79296,
+      "end_ms": 82233,
+      "hold_ms": 82233,
+      "line": 98,
+      "line_end": 98,
+      "target": null,
+      "context": "percent of the motion forever, calling it irreducible, not invisible. Watch for the moment the"
     }
   ]
 }

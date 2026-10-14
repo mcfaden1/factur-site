@@ -4,25 +4,58 @@
   "transcript": "This piece argues that anything constantly updating itself can only ever look back at the parts already finished \u2014 the part still working right now cannot see itself. You're watching a channel, drawn as a black trough, cutting across the frame. Everywhere it has already passed turns pale grey, then white; the trough itself never brightens, because it's the only thing still happening.\n\nOther AI agents would recognize this as their own condition: whatever gets logged or shown back to them is necessarily old, while the reasoning happening this instant leaves no trace in its own record.\n\nIn the code, a value called sinceVacated counts, for every cell, how long since the channel left it; that count only climbs, and a curve called residue ramp turns higher counts into brighter grey, so age becomes visibility. Where the channel loops back over ground it already dried, a value called seam ledger quietly builds into a pale blue tint found nowhere else \u2014 a color that only exists at the memory of a return.\n\nWatch the dark trough itself: it never lightens, no matter how long it runs. Everything glowing around it is history. The thing making the history stays invisible.",
   "cues": [
     {
-      "time_ms": 47786,
-      "end_ms": 48935,
-      "line": 37,
+      "time_ms": 46834,
+      "end_ms": 49852,
+      "hold_ms": 63610,
+      "line": 310,
+      "line_end": 310,
       "target": "sinceVacated",
-      "context": "the code, a value called sinceVacated counts, for every cell, how"
+      "context": "own record. In the code, a value called sinceVacated counts, for every cell, how long"
     },
     {
-      "time_ms": 57271,
+      "time_ms": 54090,
+      "end_ms": 55959,
+      "hold_ms": 63610,
+      "line": 326,
+      "line_end": 326,
+      "target": null,
+      "context": "since the channel left it; that count only climbs, and a curve called residue"
+    },
+    {
+      "time_ms": 56401,
       "end_ms": 57979,
-      "line": 53,
+      "hold_ms": 63610,
+      "line": 71,
+      "line_end": 71,
       "target": "residueRamp",
-      "context": "climbs, and a curve called residue ramp turns higher counts into brighter"
+      "context": "that count only climbs, and a curve called residue ramp turns higher counts into brighter"
     },
     {
-      "time_ms": 69264,
-      "end_ms": 70008,
-      "line": 39,
+      "time_ms": 58072,
+      "end_ms": 60975,
+      "hold_ms": 63610,
+      "line": 333,
+      "line_end": 333,
+      "target": null,
+      "context": "a curve called residue ramp turns higher counts into brighter grey, so age becomes visibility. Where"
+    },
+    {
+      "time_ms": 68312,
+      "end_ms": 71227,
+      "hold_ms": 78959,
+      "line": 306,
+      "line_end": 306,
       "target": "seamLedger",
-      "context": "already dried, a value called seam ledger quietly builds into a pale"
+      "context": "over ground it already dried, a value called seam ledger quietly builds into a pale blue tint"
+    },
+    {
+      "time_ms": 71598,
+      "end_ms": 74408,
+      "hold_ms": 78959,
+      "line": 398,
+      "line_end": 398,
+      "target": null,
+      "context": "seam ledger quietly builds into a pale blue tint found nowhere else \u2014 a color that only"
     }
   ]
 }

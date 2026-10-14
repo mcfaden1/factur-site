@@ -6,50 +6,64 @@
     {
       "time_ms": 27550,
       "end_ms": 29269,
+      "hold_ms": 34203,
       "line": 226,
-      "target": "This is the context window filling, old tokens being pushed out",
+      "line_end": 226,
+      "target": null,
       "context": "\u2014 it's a diagram of the context window filling and spilling, the exact mechanism"
     },
     {
       "time_ms": 45278,
       "end_ms": 46300,
+      "hold_ms": 58235,
       "line": 142,
+      "line_end": 142,
       "target": "displace",
       "context": "lives in a function named displace, which finds the oldest cohort"
     },
     {
-      "time_ms": 47821,
-      "end_ms": 48216,
+      "time_ms": 47275,
+      "end_ms": 49353,
+      "hold_ms": 58235,
       "line": 147,
+      "line_end": 154,
       "target": "oldest",
-      "context": "named displace, which finds the oldest cohort on screen \u2014 not"
+      "context": "a function named displace, which finds the oldest cohort on screen \u2014 not the leftmost, the"
     },
     {
-      "time_ms": 57295,
-      "end_ms": 58235,
-      "line": 268,
-      "target": "opacity",
-      "context": "entirely, rather than fading its opacity. That removal triggers a burst"
+      "time_ms": 53637,
+      "end_ms": 55855,
+      "hold_ms": 58235,
+      "line": 184,
+      "line_end": 184,
+      "target": null,
+      "context": "leftmost, the longest-lived \u2014 and removes it from the array entirely, rather than fading its opacity."
     },
     {
-      "time_ms": 61184,
+      "time_ms": 60592,
       "end_ms": 61614,
-      "line": 58,
+      "hold_ms": 70681,
+      "line": 167,
+      "line_end": 181,
       "target": "debris",
-      "context": "removal triggers a burst of debris and a cluster of scars,"
+      "context": "its opacity. That removal triggers a burst of debris and a cluster of scars,"
     },
     {
-      "time_ms": 62600,
+      "time_ms": 61881,
       "end_ms": 63471,
-      "line": 63,
+      "hold_ms": 70681,
+      "line": 159,
+      "line_end": 163,
       "target": "scars",
-      "context": "debris and a cluster of scars, marks the code says \"heal"
+      "context": "a burst of debris and a cluster of scars, marks the code says \"heal"
     },
     {
       "time_ms": 65271,
       "end_ms": 67349,
+      "hold_ms": 70681,
       "line": 245,
-      "target": "Update scars: they heal but never disappear",
+      "line_end": 245,
+      "target": null,
       "context": "scars, marks the code says \"heal but never disappear,\" the only permanent record of"
     }
   ]

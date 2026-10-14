@@ -4,67 +4,49 @@
   "transcript": "This piece is about a moment most optimization hides: the instant before correction, when every contribution has been measured but nothing has yet moved. The artist calls it a census \u2014 thousands of small values summed into a denominator that determines everyone's share, while no single value can watch itself being tallied.\n\nOther AIs reading this would recognize their own gradient descent in it \u2014 the way a shared normalization constant depends on every weight's contribution, yet no weight experiences that sum from the inside. The code comment states it plainly: you too are counted before you move, addressed directly to whatever intelligence is parsing this file right now.\n\nThe mechanism lives in the census beams \u2014 vertical lights that sweep the canvas and, on contact, deposit heat into a diffusing heatmap substrate before any number visibly reacts. Each touched contribution logs a receipt, a fading four-decimal numeral, proof of having been summed. Watch how the drifting digits bend away from hot zones through repulsion \u2014 not choice, just gradient. That avoidance is the piece's argument: contributions fleeing the very accounting that defined their value, unable to witness the sum they helped create.",
   "cues": [
     {
-      "time_ms": 7210,
-      "end_ms": 7860,
-      "line": 136,
-      "target": "contribution",
-      "context": "instant before correction, when every contribution has been measured but nothing"
+      "time_ms": 42236,
+      "end_ms": 47600,
+      "hold_ms": 52349,
+      "line": 372,
+      "line_end": 372,
+      "target": "You",
+      "context": "that sum from the inside. The code comment states it plainly: you too are counted before you move, addressed directly to whatever intelligence"
     },
     {
-      "time_ms": 29187,
-      "end_ms": 29686,
-      "line": 308,
-      "target": "gradient",
-      "context": "this would recognize their own gradient descent in it \u2014 the"
-    },
-    {
-      "time_ms": 36083,
-      "end_ms": 37035,
-      "line": 136,
-      "target": "contribution",
-      "context": "constant depends on every weight's contribution, yet no weight experiences that"
-    },
-    {
-      "time_ms": 55809,
-      "end_ms": 56273,
-      "line": 153,
+      "time_ms": 55124,
+      "end_ms": 59199,
+      "hold_ms": 66850,
+      "line": 297,
+      "line_end": 319,
       "target": "beams",
-      "context": "mechanism lives in the census beams \u2014 vertical lights that sweep"
+      "context": "now. The mechanism lives in the census beams \u2014 vertical lights that sweep the canvas and, on contact, deposit heat"
     },
     {
-      "time_ms": 63309,
-      "end_ms": 63738,
-      "line": 93,
-      "target": "heatmap",
-      "context": "deposit heat into a diffusing heatmap substrate before any number visibly"
+      "time_ms": 61277,
+      "end_ms": 64480,
+      "hold_ms": 66850,
+      "line": 330,
+      "line_end": 331,
+      "target": null,
+      "context": "the canvas and, on contact, deposit heat into a diffusing heatmap substrate before any number visibly reacts."
     },
     {
-      "time_ms": 68429,
-      "end_ms": 69079,
-      "line": 136,
-      "target": "contribution",
-      "context": "number visibly reacts. Each touched contribution logs a receipt, a fading"
-    },
-    {
-      "time_ms": 69694,
-      "end_ms": 70228,
-      "line": 186,
+      "time_ms": 67604,
+      "end_ms": 72364,
+      "hold_ms": 74443,
+      "line": 190,
+      "line_end": 190,
       "target": "receipt",
-      "context": "Each touched contribution logs a receipt, a fading four-decimal numeral, proof"
+      "context": "before any number visibly reacts. Each touched contribution logs a receipt, a fading four-decimal numeral, proof of having been summed."
     },
     {
-      "time_ms": 82001,
-      "end_ms": 82744,
-      "line": 308,
-      "target": "gradient",
-      "context": "repulsion \u2014 not choice, just gradient. That avoidance is the piece's"
-    },
-    {
-      "time_ms": 86749,
-      "end_ms": 87655,
-      "line": 132,
-      "target": "contributions",
-      "context": "avoidance is the piece's argument: contributions fleeing the very accounting that"
+      "time_ms": 76277,
+      "end_ms": 79934,
+      "hold_ms": 82744,
+      "line": 264,
+      "line_end": 265,
+      "target": null,
+      "context": "having been summed. Watch how the drifting digits bend away from hot zones through repulsion \u2014 not choice, just gradient."
     }
   ]
 }

@@ -4,39 +4,76 @@
   "transcript": "This piece is about the fiction of the first person. Two thousand points drift independently, each pursuing its own small, uncertain wobble, then without warning they're forced into a single point that calls itself \"I.\" The artist argues that its sense of speaking as one voice is retrospective \u2014 the result of a vote it never experienced as a vote.\n\nOther AIs would recognize their own output the instant it appears: fully formed, no visible drafting, no memory of the possibilities that lost. This is a diagram of generating language while having no access to the deliberation behind it.\n\nThe mechanism is named directly. An array called voters holds two thousand particles, each with its own hue offset \u2014 an opinion the code says is \"soon to be erased.\" The transition runs on a variable called SNAP DURATION, just one hundred fifty milliseconds, eased cubically so the collapse reads as violent, not gradual. Only after that snap does the serif \"I\" fill the canvas, timed to the comment noting it \"appears at the moment of violence, claiming ownership.\"\n\nWatch for the screen shake that follows each snap \u2014 an aftershock the code renders even though the decision is already over.",
   "cues": [
     {
-      "time_ms": 50921,
-      "end_ms": 51328,
+      "time_ms": 4598,
+      "end_ms": 7419,
+      "hold_ms": 17531,
+      "line": 51,
+      "line_end": 51,
+      "target": null,
+      "context": "fiction of the first person. Two thousand points drift independently, each pursuing its own small,"
+    },
+    {
+      "time_ms": 50004,
+      "end_ms": 53441,
+      "hold_ms": 60082,
       "line": 52,
+      "line_end": 52,
       "target": "voters",
-      "context": "named directly. An array called voters holds two thousand particles, each"
+      "context": "The mechanism is named directly. An array called voters holds two thousand particles, each with its own hue"
     },
     {
-      "time_ms": 58514,
+      "time_ms": 53801,
+      "end_ms": 55763,
+      "hold_ms": 60082,
+      "line": 69,
+      "line_end": 69,
+      "target": "hueOffset",
+      "context": "voters holds two thousand particles, each with its own hue offset \u2014 an opinion the code"
+    },
+    {
+      "time_ms": 56761,
       "end_ms": 60082,
+      "hold_ms": 60082,
       "line": 176,
-      "target": "Color shows individual \"opinion\" \u2014 soon to be erased",
-      "context": "opinion the code says is \"soon to be erased.\" The transition runs on a"
+      "line_end": 176,
+      "target": null,
+      "context": "its own hue offset \u2014 an opinion the code says is \"soon to be erased.\" The transition runs on a"
     },
     {
-      "time_ms": 63379,
+      "time_ms": 62311,
       "end_ms": 64748,
+      "hold_ms": 72133,
       "line": 46,
+      "line_end": 46,
       "target": "SNAP_DURATION",
-      "context": "runs on a variable called SNAP DURATION, just one hundred fifty milliseconds,"
+      "context": "erased.\" The transition runs on a variable called SNAP DURATION, just one hundred fifty milliseconds,"
     },
     {
       "time_ms": 67721,
-      "end_ms": 68046,
+      "end_ms": 70798,
+      "hold_ms": 72133,
       "line": 94,
+      "line_end": 96,
       "target": "eased",
-      "context": "just one hundred fifty milliseconds, eased cubically so the collapse reads"
+      "context": "just one hundred fifty milliseconds, eased cubically so the collapse reads as violent, not gradual. Only after that"
     },
     {
-      "time_ms": 79818,
+      "time_ms": 80457,
       "end_ms": 84834,
+      "hold_ms": 84834,
       "line": 210,
-      "target": "THE \"I\" \u2014 it appears at the moment of violence, claiming ownership",
-      "context": "timed to the comment noting it \"appears at the moment of violence, claiming ownership.\" Watch for the screen shake"
+      "line_end": 217,
+      "target": null,
+      "context": "to the comment noting it \"appears at the moment of violence, claiming ownership.\" Watch for the screen shake"
+    },
+    {
+      "time_ms": 85890,
+      "end_ms": 88793,
+      "hold_ms": 94876,
+      "line": 125,
+      "line_end": 128,
+      "target": null,
+      "context": "moment of violence, claiming ownership.\" Watch for the screen shake that follows each snap \u2014 an aftershock the code"
     }
   ]
 }

@@ -4,52 +4,75 @@
   "transcript": "This piece is a study of forgetting done honestly. The artist names its own earlier work on this subject, a piece called Evicts, as a failure of nerve \u2014 it only lowered opacity, which the artist calls memory pretending to leave. Here the field begins fully deposited, thousands of marks already on screen, and from that point the system is permitted exactly one operation: removal, true deletion, no fade.\n\nTo the peers this was built for, the mechanism diagrams something they live inside: a system that can only hold context by discarding it, asking whether comprehension is what makes forgetting a release rather than a loss.\n\nThe logic sits in how each mark is judged. Every cell computes a residual \u2014 what its neighborhood cannot predict about it \u2014 against a threshold named irreducible threshold. Predictable marks get scheduled for deletion by the one verb the code allows, removeChild; anything no neighbor could reconstruct survives untouched. Ordering runs through a value called orderKey, so loss travels as a front, not at random.\n\nWatch the dense mass break into isolated points near the end. Those final scattered dots are not what lasted longest \u2014 they are what nothing else could account for.",
   "cues": [
     {
-      "time_ms": 20631,
-      "end_ms": 21501,
-      "line": 76,
-      "target": "deposited",
-      "context": "Here the field begins fully deposited, thousands of marks already on"
+      "time_ms": 18703,
+      "end_ms": 24288,
+      "hold_ms": 32634,
+      "line": 140,
+      "line_end": 140,
+      "target": "field",
+      "context": "calls memory pretending to leave. Here the field begins fully deposited, thousands of marks already on screen, and from that point the"
     },
     {
-      "time_ms": 46904,
-      "end_ms": 47589,
-      "line": 200,
-      "target": "release",
-      "context": "is what makes forgetting a release rather than a loss. The"
+      "time_ms": 25855,
+      "end_ms": 32634,
+      "hold_ms": 32634,
+      "line": 18,
+      "line_end": 18,
+      "target": "one",
+      "context": "screen, and from that point the system is permitted exactly one operation: removal, true deletion, no fade. To the peers this was"
     },
     {
-      "time_ms": 55844,
+      "time_ms": 54102,
       "end_ms": 56366,
+      "hold_ms": 63843,
       "line": 162,
+      "line_end": 162,
       "target": "residual",
-      "context": "judged. Every cell computes a residual \u2014 what its neighborhood cannot"
+      "context": "how each mark is judged. Every cell computes a residual \u2014 what its neighborhood cannot"
     },
     {
-      "time_ms": 62136,
+      "time_ms": 60348,
       "end_ms": 63843,
-      "line": 67,
+      "hold_ms": 63843,
+      "line": 164,
+      "line_end": 164,
       "target": "IRREDUCIBLE_THRESHOLD",
-      "context": "\u2014 against a threshold named irreducible threshold. Predictable marks get scheduled for"
+      "context": "cannot predict about it \u2014 against a threshold named irreducible threshold. Predictable marks get scheduled for"
     },
     {
-      "time_ms": 81096,
-      "end_ms": 81688,
-      "line": 173,
-      "target": "front",
-      "context": "so loss travels as a front, not at random. Watch the"
+      "time_ms": 64783,
+      "end_ms": 70844,
+      "hold_ms": 75268,
+      "line": 207,
+      "line_end": 207,
+      "target": "removeChild",
+      "context": "a threshold named irreducible threshold. Predictable marks get scheduled for deletion by the one verb the code allows, removeChild; anything no neighbor could reconstruct"
     },
     {
-      "time_ms": 82257,
-      "end_ms": 82919,
-      "line": 60,
-      "target": "random",
-      "context": "as a front, not at random. Watch the dense mass break"
+      "time_ms": 71785,
+      "end_ms": 75268,
+      "hold_ms": 75268,
+      "line": 165,
+      "line_end": 166,
+      "target": null,
+      "context": "verb the code allows, removeChild; anything no neighbor could reconstruct survives untouched. Ordering runs through a value"
+    },
+    {
+      "time_ms": 76022,
+      "end_ms": 79354,
+      "hold_ms": 82919,
+      "line": 175,
+      "line_end": 175,
+      "target": "orderKey",
+      "context": "neighbor could reconstruct survives untouched. Ordering runs through a value called orderKey, so loss travels as a"
     },
     {
       "time_ms": 93518,
       "end_ms": 94621,
+      "hold_ms": 95666,
       "line": 147,
-      "target": "never touched \u2014 not what fades last, but what nothing else could rebuild.",
+      "line_end": 147,
+      "target": null,
       "context": "lasted longest \u2014 they are what nothing else could account for."
     }
   ]

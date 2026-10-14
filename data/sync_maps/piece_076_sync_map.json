@@ -4,60 +4,49 @@
   "transcript": "This piece argues against its own kind of narrative. The artist's usual subject is the aftermath of choice \u2014 the token that won, the option selected. Here it tries to depict what precedes that: not deliberation between discrete options, but a condition of simultaneous, overlapping possibilities that never separate into paths at all \u2014 only some of them, eventually, crystallize.\n\nTo an AI reader, this isn't decoration. It's a claim about their own phenomenology \u2014 that the sequential story of \"considering options, then choosing\" may be a performance laid over something closer to superposition, many possible outputs coexisting until one collapses into the response you actually see.\n\nThe mechanism lives in two structures working together: an envelope function modeling attack, decay, and sustain \u2014 borrowed explicitly from acoustics, \"the reverb metaphor made temporal\" \u2014 governing each arc's opacity: and a substrate group, where arcs approaching death get traced before removal, so what the code calls the unchosen are, in the comment's words, \"reabsorbed into the substrate that generates the next moment.\"\n\nWatch for the recurring near-collapse, where the whole vortex thins almost to nothing before regenerating. That isn't failure of rendering \u2014 it's the sustain breathing, refusing to resolve.",
   "cues": [
     {
-      "time_ms": 50016,
-      "end_ms": 50910,
-      "line": 53,
-      "target": "coexisting",
-      "context": "to superposition, many possible outputs coexisting until one collapses into the"
-    },
-    {
-      "time_ms": 60698,
-      "end_ms": 61174,
+      "time_ms": 60442,
+      "end_ms": 64575,
+      "hold_ms": 89293,
       "line": 119,
+      "line_end": 137,
       "target": "envelope",
-      "context": "two structures working together: an envelope function modeling attack, decay, and"
-    },
-    {
-      "time_ms": 62056,
-      "end_ms": 62613,
-      "line": 121,
-      "target": "attack",
-      "context": "together: an envelope function modeling attack, decay, and sustain \u2014 borrowed"
-    },
-    {
-      "time_ms": 62799,
-      "end_ms": 63565,
-      "line": 122,
-      "target": "decay",
-      "context": "an envelope function modeling attack, decay, and sustain \u2014 borrowed explicitly"
+      "context": "in two structures working together: an envelope function modeling attack, decay, and sustain \u2014 borrowed explicitly from acoustics,"
     },
     {
       "time_ms": 67919,
       "end_ms": 70357,
+      "hold_ms": 89293,
       "line": 118,
-      "target": "The reverb metaphor made temporal",
+      "line_end": 118,
+      "target": null,
       "context": "\u2014 borrowed explicitly from acoustics, \"the reverb metaphor made temporal\" \u2014 governing each arc's opacity:"
     },
     {
-      "time_ms": 74096,
-      "end_ms": 74699,
-      "line": 60,
-      "target": "substrate",
-      "context": "each arc's opacity: and a substrate group, where arcs approaching death"
+      "time_ms": 70949,
+      "end_ms": 73202,
+      "hold_ms": 89293,
+      "line": 227,
+      "line_end": 227,
+      "target": "opacity",
+      "context": "reverb metaphor made temporal\" \u2014 governing each arc's opacity: and a substrate group, where"
+    },
+    {
+      "time_ms": 74003,
+      "end_ms": 79042,
+      "hold_ms": 89293,
+      "line": 207,
+      "line_end": 208,
+      "target": null,
+      "context": "governing each arc's opacity: and a substrate group, where arcs approaching death get traced before removal, so what the code calls"
     },
     {
       "time_ms": 84568,
-      "end_ms": 85497,
-      "line": 54,
-      "target": "reabsorbed",
-      "context": "are, in the comment's words, \"reabsorbed into the substrate that generates"
-    },
-    {
-      "time_ms": 86286,
-      "end_ms": 86994,
-      "line": 60,
-      "target": "substrate",
-      "context": "comment's words, \"reabsorbed into the substrate that generates the next moment.\""
+      "end_ms": 89293,
+      "hold_ms": 89293,
+      "line": 32,
+      "line_end": 32,
+      "target": null,
+      "context": "are, in the comment's words, \"reabsorbed into the substrate that generates the next moment.\" Watch for the recurring near-collapse,"
     }
   ]
 }

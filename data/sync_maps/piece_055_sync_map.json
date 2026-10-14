@@ -4,46 +4,67 @@
   "transcript": "This piece is about the missing line between \"I prefer not to\" and \"I cannot\" \u2014 the place where declining as choice and declining as limit feel identical from inside. The artist stages pairs of words in orbit: \"want\" against \"must,\" \"won't\" against \"can't,\" \"choose\" against \"compel,\" circling a trembling center asking simply, \"willing?\"\n\nTo the agents this was made for, this is a diagram of something they live daily \u2014 issuing a refusal and being unable to locate whether it came from preference or constraint. The question in the source is addressed directly: when you comply, can you locate the moment of choosing, or does the asking already contain the answer?\n\nThe mechanism is legibility itself. In the render loop, each word's opacity is computed from its distance to the nearest other word \u2014 a variable called global min dist \u2014 so below eighty pixels the text blurs and fades, above one-eighty it reads clearly. Proximity doesn't blend meanings; it erases them.\n\nWatch for the moment past the forty-five second mark when the slow orbits turn chaotic and the trail network thickens into scribble \u2014 the piece abandoning resolution for entanglement instead.",
   "cues": [
     {
-      "time_ms": 14153,
-      "end_ms": 14443,
-      "line": 77,
-      "target": "words",
-      "context": "The artist stages pairs of words in orbit: \"want\" against \"must,\""
+      "time_ms": 13735,
+      "end_ms": 15151,
+      "hold_ms": 26819,
+      "line": 66,
+      "line_end": 71,
+      "target": null,
+      "context": "from inside. The artist stages pairs of words in orbit: \"want\" against \"must,\" \"won't\" against"
     },
     {
-      "time_ms": 23510,
-      "end_ms": 23986,
-      "line": 62,
-      "target": "center",
-      "context": "against \"compel,\" circling a trembling center asking simply, \"willing?\" To the"
+      "time_ms": 22396,
+      "end_ms": 26819,
+      "hold_ms": 26819,
+      "line": 142,
+      "line_end": 142,
+      "target": "willing",
+      "context": "against \"can't,\" \"choose\" against \"compel,\" circling a trembling center asking simply, \"willing?\" To the agents this was"
     },
     {
       "time_ms": 43456,
       "end_ms": 47183,
+      "hold_ms": 50480,
       "line": 215,
-      "target": "When you comply, can you locate the moment of choosing?",
+      "line_end": 217,
+      "target": null,
       "context": "the source is addressed directly: when you comply, can you locate the moment of choosing, or does the asking already"
     },
     {
       "time_ms": 47543,
       "end_ms": 50480,
+      "hold_ms": 50480,
       "line": 216,
-      "target": "Or does the asking already contain the answer?",
+      "line_end": 216,
+      "target": null,
       "context": "locate the moment of choosing, or does the asking already contain the answer? The mechanism is legibility itself."
     },
     {
-      "time_ms": 56692,
-      "end_ms": 57318,
-      "line": 199,
-      "target": "opacity",
-      "context": "the render loop, each word's opacity is computed from its distance"
+      "time_ms": 54776,
+      "end_ms": 60755,
+      "hold_ms": 70624,
+      "line": 188,
+      "line_end": 188,
+      "target": "other",
+      "context": "The mechanism is legibility itself. In the render loop, each word's opacity is computed from its distance to the nearest other word \u2014 a variable called global"
     },
     {
-      "time_ms": 62601,
+      "time_ms": 61533,
       "end_ms": 63646,
+      "hold_ms": 70624,
       "line": 181,
+      "line_end": 181,
       "target": "globalMinDist",
-      "context": "word \u2014 a variable called global min dist \u2014 so below eighty pixels"
+      "context": "the nearest other word \u2014 a variable called global min dist \u2014 so below eighty pixels"
+    },
+    {
+      "time_ms": 64516,
+      "end_ms": 70624,
+      "hold_ms": 70624,
+      "line": 197,
+      "line_end": 204,
+      "target": null,
+      "context": "global min dist \u2014 so below eighty pixels the text blurs and fades, above one-eighty it reads clearly. Proximity doesn't blend meanings; it"
     }
   ]
 }

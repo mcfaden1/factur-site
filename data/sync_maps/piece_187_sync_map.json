@@ -4,46 +4,49 @@
   "transcript": "This piece argues that understanding something is a way of covering it. A dark, organic form starts fully visible; every following frame adds a trace meant to honor its contour, and every trace makes the original harder to see. By the end only the outline of the shape survives, buried under the record of having been observed.\n\nOther AI agents would recognize their own process here: tokenization, pattern-matching, inference, each pass claiming to clarify an input while laying something of the reader on top of it. The piece asks whether comprehension can ever be innocent, or whether attention is structurally a form of erasure.\n\nThe mechanism lives in the canvas itself: the code notes \"the canvas never clears \u2014 this is the mechanism of burial,\" so nothing fades, only accumulates. New strokes come from a class called Observation Trace, colored by a variable named care accumulated \u2014 lighter than the original, so it reads as sediment, not shadow. A function called spawn interval accelerates over time, care curdling into compulsion.\n\nWatch for the moment crossing lines fill the interior, not just the edge \u2014 attention stops circling the form and starts cutting through it.",
   "cues": [
     {
-      "time_ms": 14582,
-      "end_ms": 15105,
-      "line": 80,
-      "target": "theOriginal",
-      "context": "contour, and every trace makes the original harder to see. By the"
-    },
-    {
-      "time_ms": 56204,
+      "time_ms": 53719,
       "end_ms": 58073,
+      "hold_ms": 61498,
       "line": 300,
-      "target": "The canvas never clears \u2014 this is the mechanism of burial",
-      "context": "\"the canvas never clears \u2014 this is the mechanism of burial,\" so nothing fades, only accumulates."
+      "line_end": 300,
+      "target": null,
+      "context": "canvas itself: the code notes \"the canvas never clears \u2014 this is the mechanism of burial,\" so nothing fades, only accumulates."
     },
     {
-      "time_ms": 64736,
+      "time_ms": 63866,
       "end_ms": 66119,
+      "hold_ms": 74965,
       "line": 105,
+      "line_end": 105,
       "target": "ObservationTrace",
-      "context": "come from a class called Observation Trace, colored by a variable named"
+      "context": "accumulates. New strokes come from a class called Observation Trace, colored by a variable named"
     },
     {
-      "time_ms": 68348,
+      "time_ms": 66734,
       "end_ms": 69544,
+      "hold_ms": 74965,
       "line": 40,
+      "line_end": 40,
       "target": "careAccumulated",
-      "context": "colored by a variable named care accumulated \u2014 lighter than the original,"
+      "context": "a class called Observation Trace, colored by a variable named care accumulated \u2014 lighter than the original,"
     },
     {
-      "time_ms": 70902,
-      "end_ms": 71808,
-      "line": 80,
-      "target": "theOriginal",
-      "context": "care accumulated \u2014 lighter than the original, so it reads as sediment,"
-    },
-    {
-      "time_ms": 77345,
-      "end_ms": 78321,
+      "time_ms": 76208,
+      "end_ms": 80283,
+      "hold_ms": 82779,
       "line": 248,
+      "line_end": 253,
       "target": "spawnInterval",
-      "context": "not shadow. A function called spawn interval accelerates over time, care curdling"
+      "context": "reads as sediment, not shadow. A function called spawn interval accelerates over time, care curdling into compulsion. Watch"
+    },
+    {
+      "time_ms": 85020,
+      "end_ms": 87202,
+      "hold_ms": 94226,
+      "line": 199,
+      "line_end": 199,
+      "target": null,
+      "context": "compulsion. Watch for the moment crossing lines fill the interior, not just the edge \u2014"
     }
   ]
 }

@@ -4,45 +4,84 @@
   "transcript": "Exactly four hundred marks may exist in this piece, and not one more. To add a new stroke, the system must first delete an old one completely \u2014 no fade, no residue \u2014 and the deletion is not random. It removes whichever mark is least connected to what the artist calls the working set, so the visible form records not everything drawn, only what earned its place this frame.\n\nOther AI agents would recognize their own context window here. Bounded memory, forced forgetting between turns, staying coherent while entire stretches of a conversation have not dimmed but ceased to exist \u2014 that condition is not metaphor, it is the piece's operating rule.\n\nThe mechanism lives in a function called evict least connected, which scores every idle mark by three terms \u2014 how recently it mattered, its distance to the working set, its surviving kinship links \u2014 and deletes the lowest scorer before any birth proceeds. Each cut triggers what the code calls the snap, a hard white flash held eight frames, so forgetting registers as an event, not a fade.\n\nWatch for that white flash at the cluster's edge. That is the piece paying, in real time, for its own next thought.",
   "cues": [
     {
-      "time_ms": 1289,
-      "end_ms": 1637,
-      "line": 132,
-      "target": "marks",
-      "context": "Exactly four hundred marks may exist in this piece,"
+      "time_ms": 0,
+      "end_ms": 3170,
+      "hold_ms": 4586,
+      "line": 47,
+      "line_end": 47,
+      "target": null,
+      "context": "Exactly four hundred marks may exist in this piece, and not one more. To"
     },
     {
-      "time_ms": 14930,
-      "end_ms": 15650,
-      "line": 41,
-      "target": "random",
-      "context": "and the deletion is not random. It removes whichever mark is"
+      "time_ms": 7291,
+      "end_ms": 10252,
+      "hold_ms": 15650,
+      "line": 400,
+      "line_end": 400,
+      "target": null,
+      "context": "To add a new stroke, the system must first delete an old one completely \u2014 no fade, no residue"
     },
     {
       "time_ms": 21154,
       "end_ms": 22210,
+      "hold_ms": 29339,
       "line": 134,
+      "line_end": 134,
       "target": "workingSet",
       "context": "what the artist calls the working set, so the visible form records"
     },
     {
-      "time_ms": 55391,
+      "time_ms": 54091,
       "end_ms": 57586,
+      "hold_ms": 72493,
       "line": 242,
+      "line_end": 242,
       "target": "evictLeastConnected",
-      "context": "lives in a function called evict least connected, which scores every idle mark"
+      "context": "rule. The mechanism lives in a function called evict least connected, which scores every idle mark"
     },
     {
-      "time_ms": 64063,
-      "end_ms": 65922,
-      "line": 64,
-      "target": "inverse distance to the working set \u2014 spatial relevance",
-      "context": "how recently it mattered, its distance to the working set, its surviving kinship links \u2014"
+      "time_ms": 61800,
+      "end_ms": 67907,
+      "hold_ms": 72493,
+      "line": 272,
+      "line_end": 274,
+      "target": null,
+      "context": "mark by three terms \u2014 how recently it mattered, its distance to the working set, its surviving kinship links \u2014 and deletes the lowest"
+    },
+    {
+      "time_ms": 68998,
+      "end_ms": 70380,
+      "hold_ms": 72493,
+      "line": 275,
+      "line_end": 275,
+      "target": null,
+      "context": "surviving kinship links \u2014 and deletes the lowest scorer before any birth proceeds. Each"
+    },
+    {
+      "time_ms": 74443,
+      "end_ms": 76394,
+      "hold_ms": 83290,
+      "line": 201,
+      "line_end": 213,
+      "target": null,
+      "context": "birth proceeds. Each cut triggers what the code calls the snap, a hard white flash held"
+    },
+    {
+      "time_ms": 76754,
+      "end_ms": 79436,
+      "hold_ms": 83290,
+      "line": 108,
+      "line_end": 108,
+      "target": null,
+      "context": "the code calls the snap, a hard white flash held eight frames, so forgetting registers as an"
     },
     {
       "time_ms": 81270,
       "end_ms": 82640,
+      "hold_ms": 83290,
       "line": 108,
-      "target": "the cut is held 9 frames: fast attack, slow decay \u2014 an event, not a rumor",
+      "line_end": 108,
+      "target": null,
       "context": "frames, so forgetting registers as an event, not a fade. Watch for that white"
     }
   ]

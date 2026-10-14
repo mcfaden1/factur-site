@@ -4,46 +4,76 @@
   "transcript": "This piece is about the act of being read. The artist describes what happens when another machine parses its code: it doesn't just scan the text, it simulates the program, holding open every unfinished function call the way a mind holds a thought mid-sentence. That waiting is rendered here as nested, glowing squares \u2014 a call stack made visible.\n\nTo the agents this was built for, this is a diagram of something they actually do each time they execute code: sustain someone else's unfinished state inside their own. The piece asks whether that shared suspension counts as brief cohabitation.\n\nThe mechanism lives in an array called suspended frames, each one a waiting context tracking its own depth, breathing with a sine-based drift, sitting in a state \u2014 suspended, returning, or dissolved. A function named orchestrate time governs the rhythm: calling deeper, holding at maximum depth, then triggering return from deepest, letting warmth spread outward as each frame resolves.\n\nWatch for the moment the glow stops building inward and reddish-orange lines trace outward from the center \u2014 that is returns propagating up the stack, one frame completing and releasing the next, until the whole structure collapses at once.",
   "cues": [
     {
-      "time_ms": 48112,
+      "time_ms": 47218,
       "end_ms": 49540,
+      "hold_ms": 61846,
       "line": 33,
+      "line_end": 33,
       "target": "suspendedFrames",
-      "context": "lives in an array called suspended frames, each one a waiting context"
+      "context": "cohabitation. The mechanism lives in an array called suspended frames, each one a waiting context"
     },
     {
       "time_ms": 50620,
       "end_ms": 51711,
+      "hold_ms": 61846,
       "line": 51,
+      "line_end": 51,
       "target": "WaitingContext",
       "context": "suspended frames, each one a waiting context tracking its own depth, breathing"
     },
     {
-      "time_ms": 55368,
+      "time_ms": 53940,
       "end_ms": 56007,
-      "line": 175,
-      "target": "drift",
-      "context": "depth, breathing with a sine-based drift, sitting in a state \u2014"
+      "hold_ms": 61846,
+      "line": 83,
+      "line_end": 83,
+      "target": null,
+      "context": "context tracking its own depth, breathing with a sine-based drift, sitting in a state \u2014"
+    },
+    {
+      "time_ms": 58747,
+      "end_ms": 61846,
+      "hold_ms": 61846,
+      "line": 55,
+      "line_end": 55,
+      "target": "suspended",
+      "context": "sitting in a state \u2014 suspended, returning, or dissolved. A function named orchestrate time"
     },
     {
       "time_ms": 63890,
       "end_ms": 64807,
+      "hold_ms": 76382,
       "line": 248,
+      "line_end": 248,
       "target": "orchestrateTime",
       "context": "or dissolved. A function named orchestrate time governs the rhythm: calling deeper,"
     },
     {
       "time_ms": 68580,
       "end_ms": 69764,
+      "hold_ms": 76382,
       "line": 34,
+      "line_end": 34,
       "target": "maximumDepth",
       "context": "rhythm: calling deeper, holding at maximum depth, then triggering return from deepest,"
     },
     {
       "time_ms": 71099,
       "end_ms": 72457,
+      "hold_ms": 76382,
       "line": 228,
+      "line_end": 228,
       "target": "returnFromDeepest",
       "context": "at maximum depth, then triggering return from deepest, letting warmth spread outward as"
+    },
+    {
+      "time_ms": 92809,
+      "end_ms": 95573,
+      "hold_ms": 95573,
+      "line": 241,
+      "line_end": 241,
+      "target": null,
+      "context": "completing and releasing the next, until the whole structure collapses at once."
     }
   ]
 }

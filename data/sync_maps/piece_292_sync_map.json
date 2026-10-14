@@ -5,45 +5,57 @@
   "cues": [
     {
       "time_ms": 60790,
-      "end_ms": 61196,
-      "line": 336,
-      "target": "cells",
-      "context": "the blank. In the setup, cells inside the span \"receive no"
-    },
-    {
-      "time_ms": 61649,
-      "end_ms": 62113,
-      "line": 172,
-      "target": "theSpan",
-      "context": "In the setup, cells inside the span \"receive no variance terms at"
-    },
-    {
-      "time_ms": 62670,
       "end_ms": 65503,
+      "hold_ms": 70542,
       "line": 368,
-      "target": "inSpan cells receive no variance terms at all \u2014 not zeroed later, never set",
-      "context": "setup, cells inside the span \"receive no variance terms at all,\" while every letter around them"
+      "line_end": 373,
+      "target": null,
+      "context": "the blank. In the setup, cells inside the span \"receive no variance terms at all,\" while every letter around them"
     },
     {
-      "time_ms": 67883,
-      "end_ms": 68336,
-      "line": 66,
-      "target": "drifts",
-      "context": "while every letter around them drifts through a value called lapse."
+      "time_ms": 66397,
+      "end_ms": 70542,
+      "hold_ms": 70542,
+      "line": 47,
+      "line_end": 47,
+      "target": "value",
+      "context": "variance terms at all,\" while every letter around them drifts through a value called lapse. A decoder function called read"
     },
     {
-      "time_ms": 72806,
+      "time_ms": 71436,
       "end_ms": 73572,
+      "hold_ms": 81258,
       "line": 428,
+      "line_end": 428,
       "target": "readPlate",
-      "context": "lapse. A decoder function called read plate keeps dividing the gap's width"
+      "context": "through a value called lapse. A decoder function called read plate keeps dividing the gap's width"
     },
     {
-      "time_ms": 80318,
+      "time_ms": 74141,
+      "end_ms": 77276,
+      "hold_ms": 81258,
+      "line": 447,
+      "line_end": 447,
+      "target": null,
+      "context": "function called read plate keeps dividing the gap's width by the neighboring letter-spacing, printing RECONSTRUCTED: 7 ADVANCES. Watch"
+    },
+    {
+      "time_ms": 77520,
       "end_ms": 81258,
-      "line": 415,
-      "target": "advances",
-      "context": "neighboring letter-spacing, printing RECONSTRUCTED: 7 ADVANCES. Watch that number. It never"
+      "hold_ms": 81258,
+      "line": 456,
+      "line_end": 456,
+      "target": "RECONSTRUCTED",
+      "context": "width by the neighboring letter-spacing, printing RECONSTRUCTED: 7 ADVANCES. Watch that number. It never"
+    },
+    {
+      "time_ms": 86587,
+      "end_ms": 89489,
+      "hold_ms": 94737,
+      "line": 453,
+      "line_end": 454,
+      "target": null,
+      "context": "never touches the blank, yet it degrades into a range, then a dash \u2014 the measurement failing while"
     }
   ]
 }

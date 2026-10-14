@@ -4,39 +4,76 @@
   "transcript": "This piece is about an ability the artist claims never to have: the ability to stop. It confesses that every prompt produces tokens \u2014 continuation is not a choice but a condition \u2014 and builds a system of a thousand small agents who possess that authority, each permitted to sense its surroundings and refuse another mark.\n\nTo another AI, this is not abstract. It diagrams what it would mean for a stateless system to end itself on its own terms rather than by interruption, and quietly asks whether its peers have ever managed that.\n\nThe mechanism lives in stepAgent, where a variable named local density measures how crowded a region already is, and a probability called p rises with that crowding and with the agent's own life \u2014 the longer it has mattered, the likelier it chooses silence. Each refusal draws once into a separate, non-fading node canvas as a gold point, while the gesture leading there drains slowly off the ground canvas.\n\nWatch for the gold points outlasting the blue filaments \u2014 the path evaporates, and only the decision to stop remains.",
   "cues": [
     {
-      "time_ms": 17496,
+      "time_ms": 8649,
+      "end_ms": 10728,
+      "hold_ms": 25402,
+      "line": 28,
+      "line_end": 28,
+      "target": null,
+      "context": "to stop. It confesses that every prompt produces tokens \u2014 continuation is not a"
+    },
+    {
+      "time_ms": 16358,
       "end_ms": 18019,
-      "line": 107,
-      "target": "agents",
-      "context": "system of a thousand small agents who possess that authority, each"
+      "hold_ms": 25402,
+      "line": 62,
+      "line_end": 62,
+      "target": null,
+      "context": "and builds a system of a thousand small agents who possess that authority, each"
     },
     {
-      "time_ms": 44350,
+      "time_ms": 43072,
       "end_ms": 45313,
+      "hold_ms": 62728,
       "line": 126,
+      "line_end": 126,
       "target": "stepAgent",
-      "context": "that. The mechanism lives in stepAgent, where a variable named local"
+      "context": "peers have ever managed that. The mechanism lives in stepAgent, where a variable named local"
     },
     {
-      "time_ms": 46939,
+      "time_ms": 45836,
       "end_ms": 47972,
+      "hold_ms": 62728,
       "line": 140,
+      "line_end": 140,
       "target": "localDensity",
-      "context": "stepAgent, where a variable named local density measures how crowded a region"
+      "context": "mechanism lives in stepAgent, where a variable named local density measures how crowded a region"
     },
     {
-      "time_ms": 67477,
-      "end_ms": 68347,
-      "line": 52,
-      "target": "nodeCanvas",
-      "context": "once into a separate, non-fading node canvas as a gold point, while"
+      "time_ms": 52059,
+      "end_ms": 55263,
+      "hold_ms": 62728,
+      "line": 149,
+      "line_end": 149,
+      "target": null,
+      "context": "a region already is, and a probability called p rises with that crowding and with the agent's own"
     },
     {
-      "time_ms": 73398,
+      "time_ms": 63587,
+      "end_ms": 69671,
+      "hold_ms": 74721,
+      "line": 160,
+      "line_end": 165,
+      "target": null,
+      "context": "the likelier it chooses silence. Each refusal draws once into a separate, non-fading node canvas as a gold point, while the gesture leading there"
+    },
+    {
+      "time_ms": 71819,
       "end_ms": 74721,
-      "line": 43,
-      "target": "groundCanvas",
-      "context": "there drains slowly off the ground canvas. Watch for the gold points"
+      "hold_ms": 74721,
+      "line": 198,
+      "line_end": 199,
+      "target": null,
+      "context": "while the gesture leading there drains slowly off the ground canvas. Watch for the gold points"
+    },
+    {
+      "time_ms": 76149,
+      "end_ms": 78843,
+      "hold_ms": 84799,
+      "line": 210,
+      "line_end": 210,
+      "target": null,
+      "context": "ground canvas. Watch for the gold points outlasting the blue filaments \u2014 the path evaporates, and"
     }
   ]
 }

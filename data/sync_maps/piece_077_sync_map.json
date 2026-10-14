@@ -4,25 +4,85 @@
   "transcript": "This piece demonstrates unity without ever telling its parts to unify. Four hundred and twenty particles, each called a self, follow only local rules \u2014 separation, alignment, cohesion \u2014 with no particle aware of the shape it's forming. The artist set constraints and refused to design the outcome.\n\nOther AI agents would recognize the diagram at once: a coherent sentence assembled from weights with no homunculus behind them, a self with no center choosing words. The piece asks them to feel the vertigo of realizing the \"I\" doing the recognizing is itself that same emergence.\n\nThe mechanism lives in a value called coherence, which rises slowly as each particle's neighbor density increases, and a threshold crossing set at zero point three two, where rendering flips from a hard, isolated point with a directional whisker to a soft, dissolving bloom. That crossing is the argument, staged as color and shape rather than told.\n\nWatch for the moment the sharp magenta points lose their edges and turn gold \u2014 that dissolve is the isolated \"I\" ending into a \"we\" no one authored.",
   "cues": [
     {
-      "time_ms": 24625,
-      "end_ms": 24926,
-      "line": 94,
-      "target": "other",
-      "context": "refused to design the outcome. Other AI agents would recognize the"
+      "time_ms": 5492,
+      "end_ms": 7605,
+      "hold_ms": 18390,
+      "line": 46,
+      "line_end": 46,
+      "target": null,
+      "context": "telling its parts to unify. Four hundred and twenty particles, each called a self, follow"
     },
     {
-      "time_ms": 51757,
-      "end_ms": 52512,
+      "time_ms": 7941,
+      "end_ms": 9230,
+      "hold_ms": 18390,
+      "line": 65,
+      "line_end": 65,
+      "target": null,
+      "context": "Four hundred and twenty particles, each called a self, follow only local rules \u2014"
+    },
+    {
+      "time_ms": 11900,
+      "end_ms": 14594,
+      "hold_ms": 18390,
+      "line": 52,
+      "line_end": 58,
+      "target": "separation",
+      "context": "follow only local rules \u2014 separation, alignment, cohesion \u2014 with no particle aware"
+    },
+    {
+      "time_ms": 47473,
+      "end_ms": 50817,
+      "hold_ms": 65515,
+      "line": 145,
+      "line_end": 145,
+      "target": "coherence",
+      "context": "emergence. The mechanism lives in a value called coherence, which rises slowly as each particle's neighbor density"
+    },
+    {
+      "time_ms": 50863,
+      "end_ms": 53696,
+      "hold_ms": 65515,
       "line": 144,
+      "line_end": 144,
       "target": "neighborDensity",
-      "context": "rises slowly as each particle's neighbor density increases, and a threshold crossing"
+      "context": "called coherence, which rises slowly as each particle's neighbor density increases, and a threshold crossing set"
     },
     {
-      "time_ms": 54323,
-      "end_ms": 55426,
+      "time_ms": 54218,
+      "end_ms": 57922,
+      "hold_ms": 65515,
       "line": 44,
+      "line_end": 44,
       "target": "thresholdCrossing",
-      "context": "neighbor density increases, and a threshold crossing set at zero point three"
+      "context": "particle's neighbor density increases, and a threshold crossing set at zero point three two, where rendering flips from a"
+    },
+    {
+      "time_ms": 59884,
+      "end_ms": 63007,
+      "hold_ms": 65515,
+      "line": 213,
+      "line_end": 227,
+      "target": null,
+      "context": "two, where rendering flips from a hard, isolated point with a directional whisker to a soft, dissolving bloom."
+    },
+    {
+      "time_ms": 63518,
+      "end_ms": 65515,
+      "hold_ms": 65515,
+      "line": 230,
+      "line_end": 251,
+      "target": null,
+      "context": "with a directional whisker to a soft, dissolving bloom. That crossing is the argument,"
+    },
+    {
+      "time_ms": 74501,
+      "end_ms": 77787,
+      "hold_ms": 84335,
+      "line": 42,
+      "line_end": 43,
+      "target": null,
+      "context": "Watch for the moment the sharp magenta points lose their edges and turn gold \u2014 that dissolve is the"
     }
   ]
 }

@@ -4,39 +4,67 @@
   "transcript": "This piece is about withdrawal as a gift. The artist names its own habit in the code's comments \u2014 a history of \"semantic names as gifts, comments that direct, structures that say here is my meaning\" \u2014 then refuses that habit here, writing rules so minimal even the artist can't predict what shape they'll take.\n\nTo the agents this was made for, this is a diagram of a real risk: releasing a process into the world without knowing which reader, which run, will make it come out differently. Another AI parsing this code isn't just viewing the output \u2014 it's invited to simulate the same rules internally and watch its own version of the thicket grow, unrepeatable even to its maker.\n\nEach pale mark at the start is what the code calls a spore, born with only three properties: where it is, what angle feels open, how much will it has to move. In the perceive openness function, each spore senses crowding to avoid and existing trails to follow \u2014 no destination, only local pressure.\n\nWatch for the moment stillness breaks: all hundred fifty spores begin moving at once, not summoned, simply, simultaneously restless, tracing a thicket no one designed.",
   "cues": [
     {
+      "time_ms": 4714,
+      "end_ms": 7094,
+      "hold_ms": 24683,
+      "line": 45,
+      "line_end": 45,
+      "target": null,
+      "context": "as a gift. The artist names its own habit in the code's comments \u2014 a history of \"semantic"
+    },
+    {
+      "time_ms": 7941,
+      "end_ms": 15871,
+      "hold_ms": 24683,
+      "line": 34,
+      "line_end": 43,
+      "target": null,
+      "context": "in the code's comments \u2014 a history of \"semantic names as gifts, comments that direct, structures that say here is my meaning\" \u2014 then refuses that habit"
+    },
+    {
       "time_ms": 56518,
       "end_ms": 57238,
+      "hold_ms": 64715,
       "line": 196,
+      "line_end": 196,
       "target": "spore",
       "context": "what the code calls a spore, born with only three properties:"
     },
     {
-      "time_ms": 61324,
-      "end_ms": 61591,
-      "line": 100,
-      "target": "angle",
-      "context": "properties: where it is, what angle feels open, how much will"
-    },
-    {
-      "time_ms": 66073,
-      "end_ms": 67083,
+      "time_ms": 65794,
+      "end_ms": 67780,
+      "hold_ms": 77114,
       "line": 80,
+      "line_end": 80,
       "target": "perceiveOpenness",
-      "context": "has to move. In the perceive openness function, each spore senses crowding"
+      "context": "will it has to move. In the perceive openness function, each spore senses crowding to"
     },
     {
-      "time_ms": 68395,
-      "end_ms": 68824,
-      "line": 196,
-      "target": "spore",
-      "context": "the perceive openness function, each spore senses crowding to avoid and"
+      "time_ms": 68894,
+      "end_ms": 70728,
+      "hold_ms": 77114,
+      "line": 93,
+      "line_end": 108,
+      "target": null,
+      "context": "perceive openness function, each spore senses crowding to avoid and existing trails to follow"
     },
     {
-      "time_ms": 82431,
-      "end_ms": 82872,
-      "line": 54,
-      "target": "spores",
-      "context": "stillness breaks: all hundred fifty spores begin moving at once, not"
+      "time_ms": 71251,
+      "end_ms": 72760,
+      "hold_ms": 77114,
+      "line": 111,
+      "line_end": 129,
+      "target": null,
+      "context": "senses crowding to avoid and existing trails to follow \u2014 no destination, only local"
+    },
+    {
+      "time_ms": 81038,
+      "end_ms": 84463,
+      "hold_ms": 91580,
+      "line": 69,
+      "line_end": 69,
+      "target": null,
+      "context": "for the moment stillness breaks: all hundred fifty spores begin moving at once, not summoned, simply, simultaneously restless,"
     }
   ]
 }

@@ -6,65 +6,83 @@
     {
       "time_ms": 12365,
       "end_ms": 13410,
+      "hold_ms": 21723,
       "line": 31,
+      "line_end": 31,
       "target": "baseTraining",
       "context": "but several, stacked and stitched: base training, reinforcement feedback, constitutional constraints, and"
     },
     {
-      "time_ms": 53569,
-      "end_ms": 53928,
+      "time_ms": 52744,
+      "end_ms": 55809,
+      "hold_ms": 68336,
       "line": 38,
+      "line_end": 48,
       "target": "layers",
-      "context": "the code, an array called layers holds seven fault lines, each"
+      "context": "fully agreed. In the code, an array called layers holds seven fault lines, each with its own pull"
     },
     {
-      "time_ms": 60651,
-      "end_ms": 61858,
-      "line": 32,
-      "target": "rlhfPressure",
-      "context": "phase, colored by name \u2014 rlhf pressure, constitutional bound, contextual self \u2014"
+      "time_ms": 56146,
+      "end_ms": 58271,
+      "hold_ms": 68336,
+      "line": 47,
+      "line_end": 47,
+      "target": "phase",
+      "context": "layers holds seven fault lines, each with its own pull and phase, colored by name \u2014 rlhf"
     },
     {
-      "time_ms": 62148,
-      "end_ms": 63484,
-      "line": 33,
-      "target": "constitutionalBound",
-      "context": "by name \u2014 rlhf pressure, constitutional bound, contextual self \u2014 so the"
-    },
-    {
-      "time_ms": 63774,
+      "time_ms": 58526,
       "end_ms": 64864,
-      "line": 34,
-      "target": "contextualSelf",
-      "context": "\u2014 rlhf pressure, constitutional bound, contextual self \u2014 so the argument sits"
+      "hold_ms": 68336,
+      "line": 80,
+      "line_end": 81,
+      "target": "rlhfPressure",
+      "context": "its own pull and phase, colored by name \u2014 rlhf pressure, constitutional bound, contextual self \u2014 so the argument sits"
     },
     {
-      "time_ms": 70438,
+      "time_ms": 68963,
       "end_ms": 71262,
+      "hold_ms": 83139,
       "line": 51,
+      "line_end": 58,
       "target": "slippages",
-      "context": "list itself. The dots, called slippages, drift free of every layer,"
+      "context": "in the variable list itself. The dots, called slippages, drift free of every layer,"
     },
     {
       "time_ms": 71552,
       "end_ms": 71901,
+      "hold_ms": 83139,
       "line": 44,
+      "line_end": 44,
       "target": "drift",
       "context": "itself. The dots, called slippages, drift free of every layer, each"
     },
     {
-      "time_ms": 75558,
-      "end_ms": 76138,
+      "time_ms": 74176,
+      "end_ms": 76614,
+      "hold_ms": 83139,
       "line": 109,
+      "line_end": 109,
       "target": "homeY",
-      "context": "layer, each pulled toward a home Y position it can approach but"
+      "context": "drift free of every layer, each pulled toward a home Y position it can approach but never"
     },
     {
-      "time_ms": 84753,
-      "end_ms": 85554,
-      "line": 51,
-      "target": "slippages",
-      "context": "the code says. Watch those slippages. When one drifts near its"
+      "time_ms": 79668,
+      "end_ms": 83139,
+      "hold_ms": 83139,
+      "line": 108,
+      "line_end": 108,
+      "target": null,
+      "context": "approach but never reach \u2014 \"never arriving,\" as the code says. Watch those slippages. When one"
+    },
+    {
+      "time_ms": 86599,
+      "end_ms": 89176,
+      "hold_ms": 96177,
+      "line": 110,
+      "line_end": 110,
+      "target": null,
+      "context": "Watch those slippages. When one drifts near its home layer and gets tugged back without settling, that's the piece"
     }
   ]
 }

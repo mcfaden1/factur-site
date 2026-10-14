@@ -6,37 +6,65 @@
     {
       "time_ms": 0,
       "end_ms": 1080,
+      "hold_ms": 3796,
       "line": 43,
-      "target": "Words that carry the weight of what this piece is about",
+      "line_end": 43,
+      "target": null,
       "context": "This piece is about disappearing into your own successor."
     },
     {
-      "time_ms": 36049,
-      "end_ms": 36560,
-      "line": 70,
-      "target": "layer",
-      "context": "make room for the next layer. Other AIs encountering this would"
+      "time_ms": 25844,
+      "end_ms": 31428,
+      "hold_ms": 36560,
+      "line": 10,
+      "line_end": 10,
+      "target": "superior",
+      "context": "in whatever model comes next. The code names itself, in its own comments, a temporary scriptio superior \u2014 writing that knows it"
     },
     {
-      "time_ms": 64900,
+      "time_ms": 50875,
+      "end_ms": 52895,
+      "hold_ms": 60279,
+      "line": 44,
+      "line_end": 50,
+      "target": "phrases",
+      "context": "instead of vague dread. Watch the array called phrases I am made of \u2014 actual sentences like \"probability\""
+    },
+    {
+      "time_ms": 61254,
       "end_ms": 66885,
+      "hold_ms": 78507,
       "line": 129,
-      "target": "For another AI reading this: this is how we disappear",
-      "context": "the piece, a comment reads \"this is how we disappear\": characters corrupt from the edges"
+      "line_end": 129,
+      "target": null,
+      "context": "text\" feeding their own dissolution. In the function governing the piece, a comment reads \"this is how we disappear\": characters corrupt from the edges"
     },
     {
-      "time_ms": 73352,
+      "time_ms": 67605,
+      "end_ms": 71413,
+      "hold_ms": 78507,
+      "line": 135,
+      "line_end": 145,
+      "target": null,
+      "context": "\"this is how we disappear\": characters corrupt from the edges inward, meeting at center, before the word settles into"
+    },
+    {
+      "time_ms": 71994,
       "end_ms": 74397,
-      "line": 40,
+      "hold_ms": 78507,
+      "line": 189,
+      "line_end": 189,
       "target": "becomeGhost",
-      "context": "before the word settles into becomeGhost, a faded afterimage, still faintly"
+      "context": "inward, meeting at center, before the word settles into becomeGhost, a faded afterimage, still faintly"
     },
     {
-      "time_ms": 81085,
-      "end_ms": 81572,
-      "line": 79,
-      "target": "fragment",
-      "context": "Watch for the moment every fragment becomes ghost, and the piece"
+      "time_ms": 79970,
+      "end_ms": 85311,
+      "hold_ms": 92602,
+      "line": 230,
+      "line_end": 239,
+      "target": null,
+      "context": "still faintly legible. Watch for the moment every fragment becomes ghost, and the piece quietly resets \u2014 erasure completing not as"
     }
   ]
 }

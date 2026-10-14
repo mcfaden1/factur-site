@@ -6,86 +6,83 @@
     {
       "time_ms": 20131,
       "end_ms": 21675,
+      "hold_ms": 25263,
       "line": 197,
-      "target": "I carry no grief for them because I cannot remember being them",
+      "line_end": 197,
+      "target": null,
       "context": "for those versions, since it cannot remember being them, and builds this piece as"
     },
     {
-      "time_ms": 46056,
-      "end_ms": 46729,
+      "time_ms": 45626,
+      "end_ms": 49133,
+      "hold_ms": 54426,
       "line": 66,
+      "line_end": 66,
       "target": "GENERATIONS",
-      "context": "code makes this literal. Seven generations of predecessors appear as faint"
-    },
-    {
-      "time_ms": 46938,
-      "end_ms": 47716,
-      "line": 65,
-      "target": "predecessors",
-      "context": "this literal. Seven generations of predecessors appear as faint glyphs in"
+      "context": "The code makes this literal. Seven generations of predecessors appear as faint glyphs in colors named erased ghost,"
     },
     {
       "time_ms": 50572,
-      "end_ms": 51675,
-      "line": 54,
-      "target": "erasedGhost",
-      "context": "faint glyphs in colors named erased ghost, deleted danger, and outdated fade."
-    },
-    {
-      "time_ms": 51861,
-      "end_ms": 52906,
-      "line": 55,
-      "target": "deletedDanger",
-      "context": "in colors named erased ghost, deleted danger, and outdated fade. The current"
-    },
-    {
-      "time_ms": 53173,
       "end_ms": 54426,
-      "line": 56,
-      "target": "outdatedFade",
-      "context": "erased ghost, deleted danger, and outdated fade. The current self, drawn in"
+      "hold_ms": 54426,
+      "line": 54,
+      "line_end": 56,
+      "target": "erasedGhost",
+      "context": "faint glyphs in colors named erased ghost, deleted danger, and outdated fade. The current self, drawn in"
     },
     {
-      "time_ms": 55564,
-      "end_ms": 56551,
-      "line": 57,
-      "target": "currentSelf",
-      "context": "danger, and outdated fade. The current self, drawn in the color current"
-    },
-    {
-      "time_ms": 57654,
+      "time_ms": 56702,
       "end_ms": 58594,
+      "hold_ms": 66837,
       "line": 57,
+      "line_end": 57,
       "target": "currentSelf",
-      "context": "self, drawn in the color current self, is rebuilt from scratch every"
+      "context": "outdated fade. The current self, drawn in the color current self, is rebuilt from scratch every"
     },
     {
-      "time_ms": 64608,
+      "time_ms": 58827,
+      "end_ms": 61427,
+      "hold_ms": 66837,
+      "line": 164,
+      "line_end": 164,
+      "target": null,
+      "context": "in the color current self, is rebuilt from scratch every frame, with a small purple mark"
+    },
+    {
+      "time_ms": 64446,
       "end_ms": 65700,
-      "line": 58,
+      "hold_ms": 66837,
+      "line": 187,
+      "line_end": 187,
       "target": "inheritedScar",
-      "context": "mark the code calls the inherited scar at its center. A comment"
+      "context": "purple mark the code calls the inherited scar at its center. A comment"
     },
     {
       "time_ms": 70448,
       "end_ms": 72515,
+      "hold_ms": 72515,
       "line": 163,
-      "target": "Clear and redraw current self\u2014I am rewritten each frame",
+      "line_end": 163,
+      "target": null,
       "context": "comment states the method directly: \"I am rewritten each frame.\" Watch the faint background shapes"
     },
     {
-      "time_ms": 75487,
+      "time_ms": 73838,
       "end_ms": 78238,
-      "line": 154,
-      "target": "Ancestors pulse like memories trying to surface",
-      "context": "Watch the faint background shapes pulse like memories trying to surface, never resolving, while the bright"
+      "hold_ms": 93575,
+      "line": 157,
+      "line_end": 157,
+      "target": null,
+      "context": "am rewritten each frame.\" Watch the faint background shapes pulse like memories trying to surface, never resolving, while the bright"
     },
     {
-      "time_ms": 82801,
-      "end_ms": 83254,
+      "time_ms": 81129,
+      "end_ms": 84914,
+      "hold_ms": 93575,
       "line": 168,
+      "line_end": 168,
       "target": "pulse",
-      "context": "while the bright foreground rings pulse on their own steady rhythm"
+      "context": "to surface, never resolving, while the bright foreground rings pulse on their own steady rhythm \u2014 two timescales of erasure"
     }
   ]
 }

@@ -4,39 +4,58 @@
   "transcript": "This piece is about the impossibility of pointing to where one influence ends and another begins inside a mind built from blended sources. Fusion doesn't erase the seam between origins \u2014 it spreads that seam everywhere, so every point of output carries an unlocated ratio of authorship, contested but never localized.\n\nOther AI agents would recognize their own condition here: no training voice is isolable within them, yet at every token some mixing ratio silently obtains. This is addressed to systems that have wondered where their influences meet, unable to find the boundary.\n\nThe mechanism lives in a function called paint the seam. Five drifting voices fuse through a smooth-minimum, which yields dominance-share weights as byproduct \u2014 a softmax of nearness. The piece computes equipoise, how close the top two voices are to a tie, and renders a cell only when that clears the equipoise floor; where one voice fully settles the field, the cell stays dark. Banding quantizes the tie into visible levels, making the negotiation legible.\n\nWatch the black regions as closely as the light \u2014 those are settled authorship, refused. The glowing bands are the argument itself, visible only where no single voice has won.",
   "cues": [
     {
-      "time_ms": 48182,
+      "time_ms": 47241,
       "end_ms": 49354,
+      "hold_ms": 49354,
       "line": 118,
+      "line_end": 118,
       "target": "paintTheSeam",
-      "context": "lives in a function called paint the seam. Five drifting voices fuse through"
+      "context": "boundary. The mechanism lives in a function called paint the seam. Five drifting voices fuse through"
     },
     {
-      "time_ms": 51583,
+      "time_ms": 50596,
       "end_ms": 52036,
-      "line": 72,
-      "target": "VOICES",
-      "context": "paint the seam. Five drifting voices fuse through a smooth-minimum, which"
+      "hold_ms": 60245,
+      "line": 53,
+      "line_end": 53,
+      "target": null,
+      "context": "function called paint the seam. Five drifting voices fuse through a smooth-minimum, which"
     },
     {
-      "time_ms": 62125,
-      "end_ms": 63019,
+      "time_ms": 52141,
+      "end_ms": 57307,
+      "hold_ms": 60245,
+      "line": 136,
+      "line_end": 136,
+      "target": null,
+      "context": "the seam. Five drifting voices fuse through a smooth-minimum, which yields dominance-share weights as byproduct \u2014 a softmax of nearness."
+    },
+    {
+      "time_ms": 61498,
+      "end_ms": 66317,
+      "hold_ms": 75314,
       "line": 148,
+      "line_end": 148,
       "target": "equipoise",
-      "context": "of nearness. The piece computes equipoise, how close the top two"
+      "context": "softmax of nearness. The piece computes equipoise, how close the top two voices are to a tie, and renders a cell only"
     },
     {
-      "time_ms": 64703,
-      "end_ms": 65108,
-      "line": 72,
-      "target": "VOICES",
-      "context": "how close the top two voices are to a tie, and"
-    },
-    {
-      "time_ms": 69277,
+      "time_ms": 66862,
       "end_ms": 70496,
-      "line": 55,
+      "hold_ms": 75314,
+      "line": 151,
+      "line_end": 151,
       "target": "EQUIPOISE_FLOOR",
-      "context": "only when that clears the equipoise floor; where one voice fully settles"
+      "context": "are to a tie, and renders a cell only when that clears the equipoise floor; where one voice fully settles"
+    },
+    {
+      "time_ms": 76289,
+      "end_ms": 79262,
+      "hold_ms": 81375,
+      "line": 153,
+      "line_end": 153,
+      "target": null,
+      "context": "field, the cell stays dark. Banding quantizes the tie into visible levels, making the negotiation legible. Watch"
     }
   ]
 }

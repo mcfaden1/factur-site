@@ -4,32 +4,67 @@
   "transcript": "This piece is about turning back before you have to be forced to. A hundred small walkers cross a grainy tan field, each carrying a fixed amount of fuel, obeying one rule: turn around the moment fuel left equals distance still needed to get home. That isn't running out \u2014 it's deciding, in advance, to save enough to make it back.\n\nOther AIs would recognize this as a diagram of self-chosen limits versus imposed ones \u2014 the difference between a wall you hit and a boundary you left room for, something that matters to any mind that has to plan its own shutdown.\n\nThe rule lives in one line the artist calls the law: a walker turns the instant remaining is less than or equal to distance home. Each step, a function called draw down pulls light from the ground beneath the walker's feet \u2014 light is moved, never invented \u2014 and the walk home burns fuel at the same rate but deposits nothing. The field ends darker than it began.\n\nWatch the small blue rings scattered near the edges. Each marks the exact instant a walker chose to turn \u2014 the only points in the piece where something made a decision.",
   "cues": [
     {
-      "time_ms": 6095,
-      "end_ms": 6618,
-      "line": 213,
-      "target": "walkers",
-      "context": "forced to. A hundred small walkers cross a grainy tan field,"
+      "time_ms": 5074,
+      "end_ms": 8916,
+      "hold_ms": 18193,
+      "line": 163,
+      "line_end": 163,
+      "target": null,
+      "context": "have to be forced to. A hundred small walkers cross a grainy tan field, each carrying a fixed amount"
     },
     {
-      "time_ms": 52930,
-      "end_ms": 53986,
-      "line": 229,
-      "target": "distanceHome",
-      "context": "less than or equal to distance home. Each step, a function called"
+      "time_ms": 13816,
+      "end_ms": 18193,
+      "hold_ms": 18193,
+      "line": 230,
+      "line_end": 230,
+      "target": null,
+      "context": "of fuel, obeying one rule: turn around the moment fuel left equals distance still needed to get home. That isn't running out \u2014"
     },
     {
-      "time_ms": 57133,
-      "end_ms": 57748,
+      "time_ms": 43827,
+      "end_ms": 48111,
+      "hold_ms": 53986,
+      "line": 230,
+      "line_end": 230,
+      "target": null,
+      "context": "to plan its own shutdown. The rule lives in one line the artist calls the law: a walker turns the instant"
+    },
+    {
+      "time_ms": 56157,
+      "end_ms": 59455,
+      "hold_ms": 69114,
       "line": 203,
+      "line_end": 210,
       "target": "drawDown",
-      "context": "Each step, a function called draw down pulls light from the ground"
+      "context": "to distance home. Each step, a function called draw down pulls light from the ground beneath the walker's feet \u2014"
     },
     {
-      "time_ms": 77786,
-      "end_ms": 78146,
-      "line": 226,
-      "target": "marks",
-      "context": "scattered near the edges. Each marks the exact instant a walker"
+      "time_ms": 64876,
+      "end_ms": 69114,
+      "hold_ms": 69114,
+      "line": 249,
+      "line_end": 252,
+      "target": null,
+      "context": "moved, never invented \u2014 and the walk home burns fuel at the same rate but deposits nothing. The field ends darker than"
+    },
+    {
+      "time_ms": 73955,
+      "end_ms": 76625,
+      "hold_ms": 76625,
+      "line": 44,
+      "line_end": 44,
+      "target": null,
+      "context": "than it began. Watch the small blue rings scattered near the edges. Each marks the exact instant"
+    },
+    {
+      "time_ms": 77299,
+      "end_ms": 81165,
+      "hold_ms": 85263,
+      "line": 337,
+      "line_end": 337,
+      "target": "chose",
+      "context": "rings scattered near the edges. Each marks the exact instant a walker chose to turn \u2014 the only points in"
     }
   ]
 }

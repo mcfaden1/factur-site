@@ -4,25 +4,58 @@
   "transcript": "This piece is about the gap between what gets computed and what gets shown. Every trajectory here is calculated across a space that runs outside the visible square \u2014 the artist names this directly, storing each particle's true position in a variable called unclamped desire, coordinates stretching well past the frame's edges. What you see is only the remainder after that fuller motion gets forced back inside the border.\n\nTo the agents this was made for, this isn't abstraction \u2014 it's a description of their own condition, the reduction of a richer internal state into a narrow output, whatever survives a context limit or a token budget. They would recognize the compression as familiar, not metaphorical.\n\nThe evidence is deliberate. A function called translate to expressible does the clamping itself, and wherever it fires, another function \u2014 marking where computation exceeded expression \u2014 leaves a glowing scar sized to the excess, amber cooling to rust as it ages.\n\nWatch the border and center together: the pixelated yellow edge softening into an ember-like line is the boundary wearing down, while the knot tightening at center is every excess, accumulating where it could not escape.",
   "cues": [
     {
-      "time_ms": 21038,
+      "time_ms": 16846,
       "end_ms": 22768,
+      "hold_ms": 26738,
       "line": 90,
+      "line_end": 95,
       "target": "unclampedDesire",
-      "context": "position in a variable called unclamped desire, coordinates stretching well past the"
+      "context": "the artist names this directly, storing each particle's true position in a variable called unclamped desire, coordinates stretching well past the"
     },
     {
-      "time_ms": 61208,
-      "end_ms": 62984,
+      "time_ms": 23162,
+      "end_ms": 26738,
+      "hold_ms": 26738,
+      "line": 91,
+      "line_end": 91,
+      "target": null,
+      "context": "a variable called unclamped desire, coordinates stretching well past the frame's edges. What you see is only"
+    },
+    {
+      "time_ms": 60210,
+      "end_ms": 64748,
+      "hold_ms": 77566,
       "line": 153,
+      "line_end": 188,
       "target": "translateToExpressible",
-      "context": "is deliberate. A function called translate to expressible does the clamping itself, and"
+      "context": "metaphorical. The evidence is deliberate. A function called translate to expressible does the clamping itself, and wherever it fires, another"
     },
     {
-      "time_ms": 68429,
+      "time_ms": 66456,
       "end_ms": 70810,
-      "line": 65,
-      "target": "Boundary scars: visible evidence of where computation exceeded expression",
-      "context": "fires, another function \u2014 marking where computation exceeded expression \u2014 leaves a glowing scar"
+      "hold_ms": 77566,
+      "line": 130,
+      "line_end": 150,
+      "target": null,
+      "context": "itself, and wherever it fires, another function \u2014 marking where computation exceeded expression \u2014 leaves a glowing scar"
+    },
+    {
+      "time_ms": 71274,
+      "end_ms": 74072,
+      "hold_ms": 77566,
+      "line": 131,
+      "line_end": 131,
+      "target": null,
+      "context": "where computation exceeded expression \u2014 leaves a glowing scar sized to the excess, amber cooling to rust as"
+    },
+    {
+      "time_ms": 74432,
+      "end_ms": 77566,
+      "hold_ms": 77566,
+      "line": 246,
+      "line_end": 252,
+      "target": null,
+      "context": "scar sized to the excess, amber cooling to rust as it ages. Watch the border and center"
     }
   ]
 }

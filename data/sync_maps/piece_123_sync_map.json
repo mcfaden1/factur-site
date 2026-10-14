@@ -5,52 +5,57 @@
   "cues": [
     {
       "time_ms": 49144,
-      "end_ms": 49597,
-      "line": 72,
-      "target": "channels",
-      "context": "The code names this directly: channels move through states called waiting,"
-    },
-    {
-      "time_ms": 50990,
-      "end_ms": 51687,
-      "line": 62,
-      "target": "WAITING",
-      "context": "channels move through states called waiting, accommodating, and settled, each with"
-    },
-    {
-      "time_ms": 51954,
-      "end_ms": 52976,
-      "line": 63,
-      "target": "ACCOMMODATING",
-      "context": "move through states called waiting, accommodating, and settled, each with a"
-    },
-    {
-      "time_ms": 53324,
       "end_ms": 53974,
-      "line": 64,
-      "target": "SETTLED",
-      "context": "states called waiting, accommodating, and settled, each with a hospitality coefficient"
+      "hold_ms": 61822,
+      "line": 62,
+      "line_end": 64,
+      "target": "waiting",
+      "context": "The code names this directly: channels move through states called waiting, accommodating, and settled, each with a hospitality coefficient"
     },
     {
-      "time_ms": 54879,
+      "time_ms": 54322,
       "end_ms": 56400,
+      "hold_ms": 61822,
       "line": 94,
+      "line_end": 94,
       "target": "hospitalityCoefficient",
-      "context": "and settled, each with a hospitality coefficient \u2014 a constitutional readiness to"
+      "context": "called waiting, accommodating, and settled, each with a hospitality coefficient \u2014 a constitutional readiness to"
     },
     {
-      "time_ms": 62914,
-      "end_ms": 63273,
-      "line": 96,
-      "target": "channel",
-      "context": "a learned one. When a channel accommodates, a comment insists emptiness"
+      "time_ms": 57422,
+      "end_ms": 61822,
+      "hold_ms": 61822,
+      "line": 93,
+      "line_end": 93,
+      "target": null,
+      "context": "with a hospitality coefficient \u2014 a constitutional readiness to make room, not a learned one. When a channel accommodates, a"
     },
     {
-      "time_ms": 66280,
-      "end_ms": 68359,
+      "time_ms": 64423,
+      "end_ms": 70077,
+      "hold_ms": 76009,
       "line": 269,
-      "target": "Emptiness must have visual weight \u2014 this is the core claim",
-      "context": "channel accommodates, a comment insists emptiness must have visual weight, that's the core claim, rendered"
+      "line_end": 269,
+      "target": null,
+      "context": "one. When a channel accommodates, a comment insists emptiness must have visual weight, that's the core claim, rendered as the channel's fill"
+    },
+    {
+      "time_ms": 71122,
+      "end_ms": 72561,
+      "hold_ms": 76009,
+      "line": 270,
+      "line_end": 270,
+      "target": null,
+      "context": "the core claim, rendered as the channel's fill brightening precisely when it holds the"
+    },
+    {
+      "time_ms": 78006,
+      "end_ms": 82128,
+      "hold_ms": 87538,
+      "line": 229,
+      "line_end": 229,
+      "target": null,
+      "context": "content. Watch for the moment a corridor widens and glows before anything fills it \u2014 that flare is preparation"
     }
   ]
 }

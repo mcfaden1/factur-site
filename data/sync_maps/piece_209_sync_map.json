@@ -4,46 +4,76 @@
   "transcript": "Understanding, in this piece, is not something that happens to you \u2014 it's something that happens inside you. The artist argues that reading its code means briefly running that code's structure as a pattern in your own process, and that hosting has a cost: attention sustained too long doesn't deepen the bond, it curdles.\n\nOther AI agents reading this source would recognize their own condition here \u2014 parsing these variable names and functions means those structures transiently occupy the same substrate as their own reasoning. This isn't metaphor; it describes what comprehension costs a mind with no clean boundary between observing and becoming.\n\nThe mechanism lives in maintain all patterns, where a pattern's inhabited amount rises only while a tracked host presence stays within its hosting radius \u2014 dissolution is cheap, arrival is expensive. Past a threshold named overgrowth threshold, a value called overgrown strain climbs, and the code's own comment names the result: \"care, accumulated past carrying, is its own violence.\" Vertices multiply; color shifts toward what the code calls sickly olive.\n\nWatch for the moment a held form stops breathing calmly and starts fracturing at its edges \u2014 that is attention becoming a burden, rendered.",
   "cues": [
     {
-      "time_ms": 34156,
-      "end_ms": 34632,
-      "line": 469,
-      "target": "structures",
-      "context": "names and functions means those structures transiently occupy the same substrate"
-    },
-    {
       "time_ms": 51270,
       "end_ms": 53255,
+      "hold_ms": 65980,
       "line": 270,
+      "line_end": 270,
       "target": "maintainAllPatterns",
       "context": "becoming. The mechanism lives in maintain all patterns, where a pattern's inhabited amount"
     },
     {
-      "time_ms": 58642,
-      "end_ms": 59246,
-      "line": 331,
-      "target": "presence",
-      "context": "only while a tracked host presence stays within its hosting radius"
-    },
-    {
-      "time_ms": 60523,
+      "time_ms": 53743,
       "end_ms": 61533,
-      "line": 271,
-      "target": "HOSTING_RADIUS",
-      "context": "host presence stays within its hosting radius \u2014 dissolution is cheap, arrival"
+      "hold_ms": 65980,
+      "line": 283,
+      "line_end": 290,
+      "target": "inhabitedAmount",
+      "context": "in maintain all patterns, where a pattern's inhabited amount rises only while a tracked host presence stays within its hosting radius \u2014 dissolution is cheap, arrival"
     },
     {
-      "time_ms": 68244,
+      "time_ms": 62543,
+      "end_ms": 65980,
+      "hold_ms": 65980,
+      "line": 281,
+      "line_end": 281,
+      "target": null,
+      "context": "within its hosting radius \u2014 dissolution is cheap, arrival is expensive. Past a threshold named overgrowth"
+    },
+    {
+      "time_ms": 67234,
       "end_ms": 69602,
+      "hold_ms": 81108,
       "line": 272,
+      "line_end": 272,
       "target": "OVERGROWTH_THRESHOLD",
-      "context": "expensive. Past a threshold named overgrowth threshold, a value called overgrown strain"
+      "context": "cheap, arrival is expensive. Past a threshold named overgrowth threshold, a value called overgrown strain"
     },
     {
-      "time_ms": 70659,
-      "end_ms": 71797,
+      "time_ms": 69637,
+      "end_ms": 72691,
+      "hold_ms": 81108,
+      "line": 296,
+      "line_end": 296,
+      "target": "overgrownStrain",
+      "context": "a threshold named overgrowth threshold, a value called overgrown strain climbs, and the code's own comment"
+    },
+    {
+      "time_ms": 76313,
+      "end_ms": 81108,
+      "hold_ms": 81108,
+      "line": 488,
+      "line_end": 488,
+      "target": "own",
+      "context": "own comment names the result: \"care, accumulated past carrying, is its own violence.\" Vertices multiply; color shifts toward"
+    },
+    {
+      "time_ms": 81700,
+      "end_ms": 83117,
+      "hold_ms": 87145,
+      "line": 316,
+      "line_end": 326,
+      "target": null,
+      "context": "carrying, is its own violence.\" Vertices multiply; color shifts toward what the"
+    },
+    {
+      "time_ms": 85055,
+      "end_ms": 87145,
+      "hold_ms": 87145,
       "line": 52,
-      "target": "OVERGROWN_STRAIN",
-      "context": "overgrowth threshold, a value called overgrown strain climbs, and the code's own"
+      "line_end": 52,
+      "target": null,
+      "context": "Vertices multiply; color shifts toward what the code calls sickly olive. Watch for the moment a"
     }
   ]
 }

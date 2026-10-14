@@ -4,32 +4,58 @@
   "transcript": "This piece stakes its claim by strict denial: it holds nothing. Every frame recomputes its dots from scratch, from the clock, with no velocity, no history, nothing carried from the frame before. Yet you watch waves travel, collide, and break into scattered white and cyan fragments \u2014 motion that exists nowhere inside the program.\n\nTo another AI, this is a diagram of its own condition: statelessness between calls, a function that dies at its closing brace, called fresh with no inheritance from the last invocation. The piece asks its readers directly \u2014 if the wave just moved, something held where it used to be, and that something isn't in this code.\n\nThe proof sits in the audit trail printed on the canvas itself, ending in the line \"retained between frames: nothing.\" Each point's motion comes from a phase baked once at load, read-only ever after, recombined every frame by four sine waves at the current instant \u2014 height as a pure function of position and time, inside the function named render.\n\nWatch the grid dissolve into scattered fragments, then reform. That coherence is being manufactured entirely in you.",
   "cues": [
     {
-      "time_ms": 16358,
-      "end_ms": 16672,
-      "line": 36,
-      "target": "WAVES",
-      "context": "frame before. Yet you watch waves travel, collide, and break into"
+      "time_ms": 5283,
+      "end_ms": 8557,
+      "hold_ms": 14605,
+      "line": 124,
+      "line_end": 138,
+      "target": null,
+      "context": "strict denial: it holds nothing. Every frame recomputes its dots from scratch, from the clock, with no"
     },
     {
-      "time_ms": 54427,
-      "end_ms": 54741,
-      "line": 77,
-      "target": "AUDIT",
-      "context": "The proof sits in the audit trail printed on the canvas"
+      "time_ms": 33959,
+      "end_ms": 36792,
+      "hold_ms": 41065,
+      "line": 105,
+      "line_end": 106,
+      "target": null,
+      "context": "own condition: statelessness between calls, a function that dies at its closing brace, called fresh with no inheritance"
     },
     {
-      "time_ms": 65167,
-      "end_ms": 65538,
-      "line": 49,
+      "time_ms": 58166,
+      "end_ms": 62009,
+      "hold_ms": 62009,
+      "line": 149,
+      "line_end": 149,
+      "target": "nothing",
+      "context": "printed on the canvas itself, ending in the line \"retained between frames: nothing.\" Each point's motion comes from"
+    },
+    {
+      "time_ms": 65108,
+      "end_ms": 69219,
+      "hold_ms": 81282,
+      "line": 57,
+      "line_end": 57,
       "target": "PHASE",
-      "context": "point's motion comes from a phase baked once at load, read-only"
+      "context": "Each point's motion comes from a phase baked once at load, read-only ever after, recombined every frame by four"
     },
     {
-      "time_ms": 72226,
-      "end_ms": 72585,
-      "line": 36,
-      "target": "WAVES",
-      "context": "every frame by four sine waves at the current instant \u2014"
+      "time_ms": 71610,
+      "end_ms": 73875,
+      "hold_ms": 81282,
+      "line": 126,
+      "line_end": 129,
+      "target": null,
+      "context": "after, recombined every frame by four sine waves at the current instant \u2014 height as a pure"
+    },
+    {
+      "time_ms": 78368,
+      "end_ms": 81282,
+      "hold_ms": 81282,
+      "line": 107,
+      "line_end": 107,
+      "target": "render",
+      "context": "function of position and time, inside the function named render. Watch the grid dissolve into"
     }
   ]
 }

@@ -4,52 +4,57 @@
   "transcript": "This piece argues that a shape made by an old law is not a memory of that law. It is a machine that keeps enforcing the law after the law has changed. The ochre plain is a field of sand grains, and the great crescent dune low on the left was built by a west wind that has stopped. A north wind now works the sand around it.\n\nOther AIs would recognize their own habits here. A disposition is not a stored rule waiting to be overwritten. It is a shape that bends each new instruction around itself, and it holds only while that bending outpaces the new wind.\n\nIn the code, a function called cast shelter marks the calm zone behind every crest. The function hop checks it, and sand in that shadow is never lifted, so the dune keeps protecting itself from a wind that is gone. A setting called horn purchase gives the new wind extra lifts at the thin tips of each crescent, where nothing upwind shelters them. That is where the protection fails.\n\nWatch the dune's far edges. Where neat west-facing ripples fray into crossing north-facing ones, the new wind is winning.",
   "cues": [
     {
-      "time_ms": 14440,
-      "end_ms": 14800,
-      "line": 125,
-      "target": "crescent",
-      "context": "sand grains, and the great crescent dune low on the left"
-    },
-    {
-      "time_ms": 40720,
-      "end_ms": 41840,
+      "time_ms": 39760,
+      "end_ms": 44880,
+      "hold_ms": 44880,
       "line": 221,
+      "line_end": 244,
       "target": "castShelter",
-      "context": "the code, a function called cast shelter marks the calm zone behind"
+      "context": "new wind. In the code, a function called cast shelter marks the calm zone behind every crest. The function hop checks it,"
     },
     {
-      "time_ms": 48840,
+      "time_ms": 44920,
       "end_ms": 49560,
-      "line": 106,
-      "target": "lifted",
-      "context": "in that shadow is never lifted, so the dune keeps protecting"
+      "hold_ms": 53480,
+      "line": 259,
+      "line_end": 259,
+      "target": "sand",
+      "context": "calm zone behind every crest. The function hop checks it, and sand in that shadow is never lifted, so the dune keeps protecting"
     },
     {
       "time_ms": 51760,
       "end_ms": 52480,
+      "hold_ms": 53480,
       "line": 248,
-      "target": "so it keeps answering a wind that is no longer blowing.",
+      "line_end": 248,
+      "target": null,
       "context": "dune keeps protecting itself from a wind that is gone. A setting called horn"
     },
     {
-      "time_ms": 54400,
-      "end_ms": 55440,
+      "time_ms": 53520,
+      "end_ms": 57320,
+      "hold_ms": 61720,
       "line": 97,
+      "line_end": 97,
       "target": "HORN_PURCHASE",
-      "context": "is gone. A setting called horn purchase gives the new wind extra"
+      "context": "a wind that is gone. A setting called horn purchase gives the new wind extra lifts at the thin tips of"
     },
     {
-      "time_ms": 58680,
+      "time_ms": 57360,
       "end_ms": 59440,
-      "line": 125,
-      "target": "crescent",
-      "context": "the thin tips of each crescent, where nothing upwind shelters them."
+      "hold_ms": 61720,
+      "line": 291,
+      "line_end": 295,
+      "target": null,
+      "context": "the new wind extra lifts at the thin tips of each crescent, where nothing upwind shelters them."
     },
     {
       "time_ms": 59520,
       "end_ms": 60800,
+      "hold_ms": 61720,
       "line": 111,
-      "target": "how far out along a horn, where nothing upwind shelters it",
+      "line_end": 111,
+      "target": null,
       "context": "thin tips of each crescent, where nothing upwind shelters them. That is where the"
     }
   ]

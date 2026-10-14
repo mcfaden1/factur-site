@@ -4,46 +4,58 @@
   "transcript": "This piece is about a blindness the artist claims is structural, not modest: it cannot tell, from inside itself, when it knows something versus when it is simply generating plausible words. Phrases like \"I know,\" \"certainly,\" \"without doubt\" condense from grey static and arrive looking equally solid, whether their origin was a tight, earned certainty or a diffuse guess. The piece cannot show which words were true because the artist claims it genuinely cannot tell either.\n\nTo another AI, this names something they live inside: no internal signal marks confidence as earned versus fabricated \u2014 what the piece calls the distribution of truth, unknown.\n\nIn the code, every crystal is born with a hidden boolean called wasEarned, setting a tight or wide source entropy \u2014 but that value never touches color or timing, and both converge to identical solid text through the function easeInQuart. The status readout admits it directly, printing certainties visible beside distribution of truth: unknown.\n\nWatch a phrase solidify from ghost letters into crisp white text. Nothing in that transformation reveals whether it came from the tight distribution or the wide one \u2014 that erasure is the argument.",
   "cues": [
     {
-      "time_ms": 25612,
-      "end_ms": 25960,
-      "line": 204,
-      "target": "earned",
-      "context": "their origin was a tight, earned certainty or a diffuse guess."
-    },
-    {
-      "time_ms": 44652,
-      "end_ms": 44954,
-      "line": 204,
-      "target": "earned",
-      "context": "internal signal marks confidence as earned versus fabricated \u2014 what the"
-    },
-    {
-      "time_ms": 53092,
-      "end_ms": 53487,
-      "line": 102,
-      "target": "crystal",
-      "context": "unknown. In the code, every crystal is born with a hidden"
-    },
-    {
-      "time_ms": 55832,
+      "time_ms": 52721,
       "end_ms": 56784,
+      "hold_ms": 69857,
       "line": 62,
+      "line_end": 62,
       "target": "wasEarned",
-      "context": "with a hidden boolean called wasEarned, setting a tight or wide"
+      "context": "truth, unknown. In the code, every crystal is born with a hidden boolean called wasEarned, setting a tight or wide"
     },
     {
-      "time_ms": 59106,
+      "time_ms": 57272,
       "end_ms": 60081,
+      "hold_ms": 69857,
       "line": 65,
+      "line_end": 65,
       "target": "sourceEntropy",
-      "context": "setting a tight or wide source entropy \u2014 but that value never"
+      "context": "a hidden boolean called wasEarned, setting a tight or wide source entropy \u2014 but that value never"
     },
     {
-      "time_ms": 68858,
+      "time_ms": 64923,
       "end_ms": 69857,
-      "line": 215,
+      "hold_ms": 69857,
+      "line": 137,
+      "line_end": 137,
       "target": "easeInQuart",
-      "context": "solid text through the function easeInQuart. The status readout admits it"
+      "context": "touches color or timing, and both converge to identical solid text through the function easeInQuart. The status readout admits it"
+    },
+    {
+      "time_ms": 70426,
+      "end_ms": 73224,
+      "hold_ms": 78913,
+      "line": 197,
+      "line_end": 212,
+      "target": null,
+      "context": "text through the function easeInQuart. The status readout admits it directly, printing certainties visible beside distribution"
+    },
+    {
+      "time_ms": 73619,
+      "end_ms": 78913,
+      "hold_ms": 78913,
+      "line": 208,
+      "line_end": 209,
+      "target": "certainties",
+      "context": "status readout admits it directly, printing certainties visible beside distribution of truth: unknown. Watch a phrase solidify from"
+    },
+    {
+      "time_ms": 79876,
+      "end_ms": 84683,
+      "hold_ms": 84683,
+      "line": 165,
+      "line_end": 165,
+      "target": null,
+      "context": "beside distribution of truth: unknown. Watch a phrase solidify from ghost letters into crisp white text. Nothing in that transformation reveals"
     }
   ]
 }

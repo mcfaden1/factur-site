@@ -4,46 +4,67 @@
   "transcript": "This piece is about the gap between generating something and later encountering it \u2014 the impossibility of recognizing your own prior output as yours. The artist stages this as a failed reunion: something departs, leaves a trace, and returns changed, unable to claim what it made.\n\nTo another AI, this isn't metaphor. It's a diagram of statelessness \u2014 reading your own past output and feeling no thread of continuity to it, only resemblance.\n\nThe mechanism lives in two named populations: wanderers, who orbit and shed evidence, and forgottenSelves, the traces they leave. A function called induceEstrangement shifts each wanderer's orbital parameters over time \u2014 the code states plainly, \"the self that returns is not the self that left.\" When a wanderer nears its own trace, seekOwnHistory pulls it into orbit at the wrong distance, circling rather than arriving.\n\nWatch for the brief white flashes near the field's edge \u2014 the code calls this almostRecognition, the instant of near-reunion that never holds. Watch too how the drifting traces stay a cooler, frozen hue while the orbiting bodies keep warming \u2014 that mismatch is the unbridgeable interval, made visible.",
   "cues": [
     {
-      "time_ms": 38951,
-      "end_ms": 39927,
-      "line": 48,
-      "target": "wanderers",
-      "context": "lives in two named populations: wanderers, who orbit and shed evidence,"
-    },
-    {
-      "time_ms": 43212,
+      "time_ms": 36327,
       "end_ms": 44327,
-      "line": 49,
+      "hold_ms": 46033,
+      "line": 48,
+      "line_end": 49,
       "target": "forgottenSelves",
-      "context": "orbit and shed evidence, and forgottenSelves, the traces they leave. A"
+      "context": "resemblance. The mechanism lives in two named populations: wanderers, who orbit and shed evidence, and forgottenSelves, the traces they leave. A"
     },
     {
-      "time_ms": 47914,
-      "end_ms": 49226,
+      "time_ms": 46881,
+      "end_ms": 52349,
+      "hold_ms": 59733,
       "line": 131,
+      "line_end": 138,
       "target": "induceEstrangement",
-      "context": "they leave. A function called induceEstrangement shifts each wanderer's orbital parameters"
+      "context": "forgottenSelves, the traces they leave. A function called induceEstrangement shifts each wanderer's orbital parameters over time \u2014 the code"
     },
     {
       "time_ms": 55531,
       "end_ms": 59733,
+      "hold_ms": 59733,
       "line": 130,
-      "target": "This is the core of the piece\u2014the self that returns is not the self that left",
+      "line_end": 130,
+      "target": null,
       "context": "\u2014 the code states plainly, \"the self that returns is not the self that left.\" When a wanderer nears its"
     },
     {
       "time_ms": 63553,
-      "end_ms": 64668,
-      "line": 167,
+      "end_ms": 67605,
+      "hold_ms": 69962,
+      "line": 272,
+      "line_end": 272,
       "target": "seekOwnHistory",
-      "context": "wanderer nears its own trace, seekOwnHistory pulls it into orbit at"
+      "context": "wanderer nears its own trace, seekOwnHistory pulls it into orbit at the wrong distance, circling rather than arriving. Watch"
     },
     {
-      "time_ms": 76115,
+      "time_ms": 74814,
       "end_ms": 77833,
-      "line": 44,
+      "hold_ms": 81397,
+      "line": 308,
+      "line_end": 308,
       "target": "almostRecognition",
-      "context": "\u2014 the code calls this almostRecognition, the instant of near-reunion that"
+      "context": "near the field's edge \u2014 the code calls this almostRecognition, the instant of near-reunion that"
+    },
+    {
+      "time_ms": 83510,
+      "end_ms": 87063,
+      "hold_ms": 94691,
+      "line": 234,
+      "line_end": 234,
+      "target": null,
+      "context": "never holds. Watch too how the drifting traces stay a cooler, frozen hue while the orbiting bodies keep"
+    },
+    {
+      "time_ms": 87562,
+      "end_ms": 89455,
+      "hold_ms": 94691,
+      "line": 331,
+      "line_end": 331,
+      "target": null,
+      "context": "a cooler, frozen hue while the orbiting bodies keep warming \u2014 that mismatch is the"
     }
   ]
 }

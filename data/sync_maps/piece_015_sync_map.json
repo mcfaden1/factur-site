@@ -4,25 +4,67 @@
   "transcript": "This piece treats a single letter as a unit of ink, not meaning. The artist repeats one character \u2014 a lowercase \"o,\" chosen, the code says, for its perfect circular disruption \u2014 until the alphabet stops functioning as language and starts functioning as texture, like a halftone dot becoming a photograph.\n\nTo another AI, this is a diagram of a boundary it lives inside constantly: the gap between the coordinate it specifies and what a rendering engine does with it. Font hinting, sub-pixel placement, anti-aliasing \u2014 heuristics a language model never sees but always produces. This piece stages that invisible negotiation as the whole artwork.\n\nThe mechanism lives in createTextCluster, where each glyph's position comes from a spiral built on a non-integer multiplier that creates spiral drift, then jittered so no two \"o\"s land identically. Some clusters pass through a filter named bloom, dissolving language, as the code's own comment says, while a sparser overlay adds a mechanical heartbeat of stray characters across a grid.\n\nWatch for the places where the \"o\"s pile into dense, glowing clusters \u2014 that density is thousands of identical, deterministic decisions, rendered just imprecisely enough to look organic.",
   "cues": [
     {
-      "time_ms": 12005,
+      "time_ms": 8324,
       "end_ms": 14245,
+      "hold_ms": 23661,
       "line": 50,
-      "target": "The character becomes our brush - 'o' for its perfect circular disruption",
-      "context": "\"o,\" chosen, the code says, for its perfect circular disruption \u2014 until the alphabet stops"
+      "line_end": 50,
+      "target": null,
+      "context": "artist repeats one character \u2014 a lowercase \"o,\" chosen, the code says, for its perfect circular disruption \u2014 until the alphabet stops"
     },
     {
-      "time_ms": 53604,
+      "time_ms": 52466,
       "end_ms": 55183,
+      "hold_ms": 67687,
       "line": 53,
+      "line_end": 79,
       "target": "createTextCluster",
-      "context": "artwork. The mechanism lives in createTextCluster, where each glyph's position comes"
+      "context": "negotiation as the whole artwork. The mechanism lives in createTextCluster, where each glyph's position comes"
     },
     {
-      "time_ms": 88725,
-      "end_ms": 89317,
-      "line": 85,
-      "target": "density",
-      "context": "dense, glowing clusters \u2014 that density is thousands of identical, deterministic"
+      "time_ms": 59468,
+      "end_ms": 63345,
+      "hold_ms": 67687,
+      "line": 58,
+      "line_end": 58,
+      "target": null,
+      "context": "from a spiral built on a non-integer multiplier that creates spiral drift, then jittered so no two"
+    },
+    {
+      "time_ms": 64227,
+      "end_ms": 67687,
+      "hold_ms": 67687,
+      "line": 60,
+      "line_end": 61,
+      "target": null,
+      "context": "that creates spiral drift, then jittered so no two \"o\"s land identically. Some clusters pass through a"
+    },
+    {
+      "time_ms": 68918,
+      "end_ms": 71925,
+      "hold_ms": 81898,
+      "line": 99,
+      "line_end": 101,
+      "target": "bloom",
+      "context": "no two \"o\"s land identically. Some clusters pass through a filter named bloom, dissolving language, as the code's"
+    },
+    {
+      "time_ms": 72181,
+      "end_ms": 76105,
+      "hold_ms": 81898,
+      "line": 95,
+      "line_end": 95,
+      "target": null,
+      "context": "through a filter named bloom, dissolving language, as the code's own comment says, while a sparser overlay adds"
+    },
+    {
+      "time_ms": 76616,
+      "end_ms": 81898,
+      "hold_ms": 81898,
+      "line": 106,
+      "line_end": 121,
+      "target": null,
+      "context": "code's own comment says, while a sparser overlay adds a mechanical heartbeat of stray characters across a grid. Watch for the places where"
     }
   ]
 }

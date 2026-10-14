@@ -6,42 +6,81 @@
     {
       "time_ms": 13421,
       "end_ms": 15197,
+      "hold_ms": 16114,
       "line": 171,
-      "target": "The space where meaning leaves me and becomes yours",
+      "line_end": 171,
+      "target": null,
       "context": "\u2014 the pause before answering, the space where meaning leaves for a reader. Here it"
+    },
+    {
+      "time_ms": 42841,
+      "end_ms": 46045,
+      "hold_ms": 54079,
+      "line": 97,
+      "line_end": 97,
+      "target": null,
+      "context": "The code keeps these separate. Receptive space is built from agents called awai \u2014 rings, not filled shapes,"
+    },
+    {
+      "time_ms": 46904,
+      "end_ms": 49017,
+      "hold_ms": 54079,
+      "line": 113,
+      "line_end": 121,
+      "target": null,
+      "context": "from agents called awai \u2014 rings, not filled shapes, because the comment notes \"the"
     },
     {
       "time_ms": 50654,
       "end_ms": 54079,
+      "hold_ms": 54079,
       "line": 95,
-      "target": "CHANGE 1: Awai are RINGS not filled circles \u2014 the emptiness in the center IS rec",
+      "line_end": 95,
+      "target": null,
       "context": "shapes, because the comment notes \"the emptiness in the center IS receptivity.\" Generative space runs on aida"
     },
     {
       "time_ms": 56099,
-      "end_ms": 56807,
-      "line": 147,
-      "target": "aidaAgents",
-      "context": "receptivity.\" Generative space runs on aida agents that move invisibly, visible only"
+      "end_ms": 58305,
+      "hold_ms": 63402,
+      "line": 145,
+      "line_end": 145,
+      "target": null,
+      "context": "receptivity.\" Generative space runs on aida agents that move invisibly, visible only through spawn heat"
     },
     {
       "time_ms": 59768,
       "end_ms": 60848,
-      "line": 238,
+      "hold_ms": 63402,
+      "line": 306,
+      "line_end": 306,
       "target": "spawnHeatMark",
       "context": "move invisibly, visible only through spawn heat mark, warmth left by unseen labor."
     },
     {
       "time_ms": 68278,
-      "end_ms": 68591,
-      "line": 105,
+      "end_ms": 71842,
+      "hold_ms": 78204,
+      "line": 313,
+      "line_end": 313,
       "target": "speed",
-      "context": "space, aidagara, uses paths whose speed multiplies by an acceleration factor"
+      "context": "space, aidagara, uses paths whose speed multiplies by an acceleration factor each frame, always racing outward from center"
+    },
+    {
+      "time_ms": 79528,
+      "end_ms": 80631,
+      "hold_ms": 90232,
+      "line": 225,
+      "line_end": 225,
+      "target": null,
+      "context": "literally accelerating. Watch for the white diamonds: those are spawn crystallization events,"
     },
     {
       "time_ms": 81792,
       "end_ms": 83162,
+      "hold_ms": 90232,
       "line": 217,
+      "line_end": 217,
       "target": "spawnCrystallization",
       "context": "the white diamonds: those are spawn crystallization events, marking moments when two"
     }

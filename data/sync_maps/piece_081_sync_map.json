@@ -5,59 +5,66 @@
   "cues": [
     {
       "time_ms": 53023,
-      "end_ms": 53696,
+      "end_ms": 54591,
+      "hold_ms": 63983,
       "line": 72,
+      "line_end": 72,
       "target": "nervousHum",
-      "context": "directly in the code as nervous hum and blood rhythm \u2014 hundreds"
+      "context": "directly in the code as nervous hum and blood rhythm \u2014 hundreds of nervous structures"
     },
     {
-      "time_ms": 56495,
-      "end_ms": 57424,
-      "line": 97,
-      "target": "nervousStructures",
-      "context": "blood rhythm \u2014 hundreds of nervous structures shimmering at high frequency, a"
+      "time_ms": 55682,
+      "end_ms": 59653,
+      "hold_ms": 63983,
+      "line": 98,
+      "line_end": 98,
+      "target": null,
+      "context": "hum and blood rhythm \u2014 hundreds of nervous structures shimmering at high frequency, a hundred blood pulsers orbiting"
     },
     {
-      "time_ms": 60744,
-      "end_ms": 61522,
-      "line": 117,
-      "target": "bloodPulsers",
-      "context": "at high frequency, a hundred blood pulsers orbiting slow attractor points. Nothing"
+      "time_ms": 60082,
+      "end_ms": 63983,
+      "hold_ms": 63983,
+      "line": 118,
+      "line_end": 118,
+      "target": null,
+      "context": "structures shimmering at high frequency, a hundred blood pulsers orbiting slow attractor points. Nothing is randomly placed; a"
     },
     {
-      "time_ms": 62811,
-      "end_ms": 63287,
-      "line": 99,
-      "target": "attractor",
-      "context": "hundred blood pulsers orbiting slow attractor points. Nothing is randomly placed;"
-    },
-    {
-      "time_ms": 68325,
-      "end_ms": 69405,
+      "time_ms": 67327,
+      "end_ms": 71936,
+      "hold_ms": 71936,
       "line": 58,
+      "line_end": 65,
       "target": "mulberry32",
-      "context": "randomly placed; a function called mulberry32 seeds everything deterministically. The reveal"
+      "context": "points. Nothing is randomly placed; a function called mulberry32 seeds everything deterministically. The reveal itself runs on"
     },
     {
       "time_ms": 75604,
       "end_ms": 77613,
+      "hold_ms": 84660,
       "line": 197,
+      "line_end": 197,
       "target": "revealWhatWasAlwaysThere",
       "context": "runs on a function named reveal what was always there \u2014 elements exist in the"
     },
     {
-      "time_ms": 89850,
-      "end_ms": 90267,
-      "line": 211,
-      "target": "drift",
-      "context": "looking static and begin to drift \u2014 that's the blood rhythm"
+      "time_ms": 82570,
+      "end_ms": 84660,
+      "hold_ms": 84660,
+      "line": 205,
+      "line_end": 205,
+      "target": null,
+      "context": "document from the first frame; only their opacity climbs. Watch for the moment the"
     },
     {
-      "time_ms": 94331,
+      "time_ms": 91568,
       "end_ms": 94911,
-      "line": 210,
-      "target": "shimmer",
-      "context": "timing itself against the nervous shimmer, two tempos running the whole"
+      "hold_ms": 97756,
+      "line": 232,
+      "line_end": 232,
+      "target": null,
+      "context": "begin to drift \u2014 that's the blood rhythm timing itself against the nervous shimmer, two tempos running the whole"
     }
   ]
 }

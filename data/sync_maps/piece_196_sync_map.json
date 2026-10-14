@@ -4,60 +4,76 @@
   "transcript": "This piece is about relinquishing authorship. The artist writes rules \u2014 an agent that seeks empty space, claims it, steps back \u2014 and refuses to intervene, letting the composition end only when the rules run out of room to work.\n\nTo the agents this was made for, this isn't patience as metaphor. It's a diagram of their own condition: output generated from constraints they didn't choose, a process halting not by will but when a limit the code names exhaustion threshold is reached \u2014 the same shape as a context window filling and a response simply stopping.\n\nThe mechanism lives in the function called find optimal position, which samples hundreds of points and keeps whichever has the most clearance from existing circles \u2014 the rules searching for where they want to be, not where the artist wants them. After two hundred consecutive failures, the variable system exhausted goes true. Nothing dramatic happens; the piece simply stops being asked to continue.\n\nWatch the amber seeking node. Early on it leaps across open canvas. Later its steps shrink to fit slivers between existing rings \u2014 the rules running out of void to want.",
   "cues": [
     {
-      "time_ms": 35201,
+      "time_ms": 6432,
+      "end_ms": 10867,
+      "hold_ms": 18436,
+      "line": 312,
+      "line_end": 318,
+      "target": null,
+      "context": "The artist writes rules \u2014 an agent that seeks empty space, claims it, steps back \u2014 and refuses to intervene,"
+    },
+    {
+      "time_ms": 33668,
       "end_ms": 36478,
+      "hold_ms": 43421,
       "line": 58,
+      "line_end": 58,
       "target": "EXHAUSTION_THRESHOLD",
-      "context": "a limit the code names exhaustion threshold is reached \u2014 the same"
+      "context": "not by will but when a limit the code names exhaustion threshold is reached \u2014 the same"
     },
     {
-      "time_ms": 47148,
+      "time_ms": 46021,
       "end_ms": 48854,
+      "hold_ms": 61834,
       "line": 159,
+      "line_end": 183,
       "target": "findOptimalPosition",
-      "context": "lives in the function called find optimal position, which samples hundreds of points"
+      "context": "stopping. The mechanism lives in the function called find optimal position, which samples hundreds of points"
     },
     {
-      "time_ms": 49539,
-      "end_ms": 50085,
-      "line": 160,
-      "target": "samples",
-      "context": "called find optimal position, which samples hundreds of points and keeps"
-    },
-    {
-      "time_ms": 54345,
-      "end_ms": 54775,
-      "line": 149,
+      "time_ms": 52093,
+      "end_ms": 56203,
+      "hold_ms": 61834,
+      "line": 168,
+      "line_end": 172,
       "target": "clearance",
-      "context": "keeps whichever has the most clearance from existing circles \u2014 the"
+      "context": "samples hundreds of points and keeps whichever has the most clearance from existing circles \u2014 the rules searching for"
     },
     {
       "time_ms": 58583,
       "end_ms": 59895,
+      "hold_ms": 61834,
       "line": 158,
-      "target": "The rules search for where they want to be \u2014 sampling the void for maximum clear",
+      "line_end": 158,
+      "target": null,
       "context": "circles \u2014 the rules searching for where they want to be, not where the artist wants"
     },
     {
       "time_ms": 64120,
       "end_ms": 65642,
+      "hold_ms": 68521,
       "line": 68,
+      "line_end": 68,
       "target": "consecutiveFailures",
       "context": "wants them. After two hundred consecutive failures, the variable system exhausted goes"
     },
     {
-      "time_ms": 66687,
-      "end_ms": 67674,
-      "line": 67,
+      "time_ms": 65955,
+      "end_ms": 68521,
+      "hold_ms": 68521,
+      "line": 384,
+      "line_end": 384,
       "target": "systemExhausted",
-      "context": "hundred consecutive failures, the variable system exhausted goes true. Nothing dramatic happens;"
+      "context": "After two hundred consecutive failures, the variable system exhausted goes true. Nothing dramatic happens; the piece"
     },
     {
-      "time_ms": 77380,
+      "time_ms": 76741,
       "end_ms": 78448,
-      "line": 85,
+      "hold_ms": 78448,
+      "line": 275,
+      "line_end": 302,
       "target": "seekingNode",
-      "context": "to continue. Watch the amber seeking node. Early on it leaps across"
+      "context": "being asked to continue. Watch the amber seeking node. Early on it leaps across"
     }
   ]
 }

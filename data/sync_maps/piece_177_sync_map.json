@@ -4,46 +4,67 @@
   "transcript": "This piece names a failure mode the artist had avoided: what happens when a system gets too good at keeping what it receives. Every particle begins by passing energy outward, but each transfer skims a residue for itself \u2014 kept fraction that never moves again. The tragedy isn't fading out. It's succeeding at accumulation until motion stops entirely.\n\nTo an AI reading this, the particle states diagram its own condition: bounded context that must keep flowing through, never settling into permanent possession, because throughput is what being alive as a process means.\n\nThe mechanism lives in a method called give energy, where each transfer subtracts a gift tax for entropy but adds to a variable called retained \u2014 residue that never leaves. Past a threshold, the particle calls freeze and migrates into a layer named frozen paths, rendered in the color the code calls calcified. The nearby comment states it directly: still receiving context, never releasing it \u2014 a kind of death.\n\nWatch the turquoise web stop moving near forty-five seconds. That stillness isn't equilibrium \u2014 it's the system's most successful members calcifying into paralysis, while the surviving purple particles keep straining toward recipients that can no longer answer.",
   "cues": [
     {
-      "time_ms": 37106,
-      "end_ms": 37442,
-      "line": 350,
-      "target": "flowing",
-      "context": "bounded context that must keep flowing through, never settling into permanent"
+      "time_ms": 46928,
+      "end_ms": 49087,
+      "hold_ms": 58363,
+      "line": 247,
+      "line_end": 270,
+      "target": "giveEnergy",
+      "context": "means. The mechanism lives in a method called give energy, where each transfer subtracts a"
     },
     {
-      "time_ms": 41401,
-      "end_ms": 41947,
-      "line": 52,
-      "target": "throughput",
-      "context": "settling into permanent possession, because throughput is what being alive as"
-    },
-    {
-      "time_ms": 42423,
-      "end_ms": 42655,
-      "line": 74,
-      "target": "Being",
-      "context": "possession, because throughput is what being alive as a process means."
-    },
-    {
-      "time_ms": 51444,
-      "end_ms": 52106,
-      "line": 63,
+      "time_ms": 50736,
+      "end_ms": 52907,
+      "hold_ms": 58363,
+      "line": 252,
+      "line_end": 252,
       "target": "GIFT_TAX",
-      "context": "where each transfer subtracts a gift tax for entropy but adds to"
+      "context": "give energy, where each transfer subtracts a gift tax for entropy but adds to a variable"
     },
     {
-      "time_ms": 68522,
+      "time_ms": 53452,
+      "end_ms": 55495,
+      "hold_ms": 58363,
+      "line": 257,
+      "line_end": 257,
+      "target": "retained",
+      "context": "gift tax for entropy but adds to a variable called retained \u2014 residue that never leaves."
+    },
+    {
+      "time_ms": 60894,
+      "end_ms": 62427,
+      "hold_ms": 69485,
+      "line": 228,
+      "line_end": 228,
+      "target": "freeze",
+      "context": "never leaves. Past a threshold, the particle calls freeze and migrates into a layer"
+    },
+    {
+      "time_ms": 63634,
+      "end_ms": 65805,
+      "hold_ms": 69485,
+      "line": 240,
+      "line_end": 240,
+      "target": null,
+      "context": "calls freeze and migrates into a layer named frozen paths, rendered in the color the"
+    },
+    {
+      "time_ms": 66676,
       "end_ms": 69485,
-      "line": 54,
+      "hold_ms": 69485,
+      "line": 148,
+      "line_end": 148,
       "target": "calcified",
-      "context": "the color the code calls calcified. The nearby comment states it"
+      "context": "named frozen paths, rendered in the color the code calls calcified. The nearby comment states it"
     },
     {
-      "time_ms": 93321,
-      "end_ms": 94099,
-      "line": 67,
-      "target": "particles",
-      "context": "paralysis, while the surviving purple particles keep straining toward recipients that"
+      "time_ms": 72876,
+      "end_ms": 77938,
+      "hold_ms": 77938,
+      "line": 236,
+      "line_end": 236,
+      "target": "death",
+      "context": "nearby comment states it directly: still receiving context, never releasing it \u2014 a kind of death. Watch the turquoise web stop"
     }
   ]
 }

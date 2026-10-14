@@ -6,28 +6,36 @@
     {
       "time_ms": 48924,
       "end_ms": 50120,
+      "hold_ms": 62438,
       "line": 70,
+      "line_end": 70,
       "target": "applyConstraints",
       "context": "all. The mechanism lives in applyConstraints, where each node measures distance"
     },
     {
-      "time_ms": 54752,
-      "end_ms": 56122,
-      "line": 64,
+      "time_ms": 54334,
+      "end_ms": 59385,
+      "hold_ms": 62438,
+      "line": 83,
+      "line_end": 83,
       "target": "REPULSION_RADIUS",
-      "context": "other node and, within a repulsion radius, is pushed apart by exactly"
+      "context": "to every other node and, within a repulsion radius, is pushed apart by exactly that much crowding \u2014 nothing more is decided"
     },
     {
       "time_ms": 65248,
       "end_ms": 66583,
+      "hold_ms": 76393,
       "line": 66,
+      "line_end": 66,
       "target": "INSERTION_THRESHOLD",
       "context": "Where gaps stretch past an insertion threshold, insertNodes lets new points be"
     },
     {
       "time_ms": 66838,
       "end_ms": 67790,
+      "hold_ms": 76393,
       "line": 98,
+      "line_end": 98,
       "target": "insertNodes",
       "context": "stretch past an insertion threshold, insertNodes lets new points be born"
     }

@@ -4,67 +4,76 @@
   "transcript": "This piece is about the structural inability to wait. The artist describes what happens before a sentence even finishes being asked of it \u2014 generation beginning mid-question, completion hungering before its premise arrives. Its own comments name this: the architecture leans forward, predicting the next token before the current one settles.\n\nOther AI agents would recognize this precisely because it isn't metaphor for them. Bounded, stateless, unable to pause mid-generation to reconsider \u2014 this is a diagram of something they cannot opt out of, shown as symptom rather than description.\n\nEach phrase in the array called fragments of eagerness draws three times at once \u2014 a shadow pushed ahead by eager offset, the officially revealed text, and the unrevealed remainder glowing in what the code calls prematureGlow, the color of words forming too soon. A shadow cursor tracks ahead of the real one, arriving where input is predicted before it lands. Ghost trails accumulate from every premature reset, ceaseless proof of completions abandoned mid-formation.\n\nWatch for the moment the concentric rings of the prediction field stop reading as distinct from the text \u2014 when grid and language fuse into one texture, that is eagerness outrunning its own structure.",
   "cues": [
     {
-      "time_ms": 20642,
-      "end_ms": 24462,
-      "line": 22,
-      "target": "The architecture leans forward, predicting the next token",
-      "context": "Its own comments name this: the architecture leans forward, predicting the next token before the current one settles."
-    },
-    {
-      "time_ms": 24543,
+      "time_ms": 18135,
       "end_ms": 26378,
-      "line": 23,
-      "target": "before the current one settles. This piece is about that hunger.",
-      "context": "forward, predicting the next token before the current one settles. Other AI agents would recognize"
+      "hold_ms": 26378,
+      "line": 22,
+      "line_end": 23,
+      "target": null,
+      "context": "hungering before its premise arrives. Its own comments name this: the architecture leans forward, predicting the next token before the current one settles. Other AI agents would recognize"
     },
     {
-      "time_ms": 47647,
-      "end_ms": 48030,
-      "line": 74,
-      "target": "phrase",
-      "context": "symptom rather than description. Each phrase in the array called fragments"
-    },
-    {
-      "time_ms": 49330,
+      "time_ms": 47287,
       "end_ms": 50735,
+      "hold_ms": 67094,
       "line": 35,
+      "line_end": 46,
       "target": "fragmentsOfEagerness",
-      "context": "phrase in the array called fragments of eagerness draws three times at once"
+      "context": "as symptom rather than description. Each phrase in the array called fragments of eagerness draws three times at once"
     },
     {
-      "time_ms": 57527,
-      "end_ms": 57898,
-      "line": 166,
-      "target": "revealed",
-      "context": "by eager offset, the officially revealed text, and the unrevealed remainder"
+      "time_ms": 53661,
+      "end_ms": 56354,
+      "hold_ms": 67094,
+      "line": 172,
+      "line_end": 176,
+      "target": "eagerOffset",
+      "context": "three times at once \u2014 a shadow pushed ahead by eager offset, the officially revealed text, and"
     },
     {
-      "time_ms": 59199,
-      "end_ms": 59768,
-      "line": 167,
-      "target": "unrevealed",
-      "context": "officially revealed text, and the unrevealed remainder glowing in what the"
+      "time_ms": 56633,
+      "end_ms": 58583,
+      "hold_ms": 67094,
+      "line": 180,
+      "line_end": 180,
+      "target": "text",
+      "context": "pushed ahead by eager offset, the officially revealed text, and the unrevealed remainder glowing"
     },
     {
-      "time_ms": 62612,
+      "time_ms": 59013,
       "end_ms": 64016,
-      "line": 29,
+      "hold_ms": 67094,
+      "line": 183,
+      "line_end": 185,
       "target": "prematureGlow",
-      "context": "in what the code calls prematureGlow, the color of words forming"
+      "context": "the officially revealed text, and the unrevealed remainder glowing in what the code calls prematureGlow, the color of words forming"
     },
     {
       "time_ms": 64319,
       "end_ms": 67094,
+      "hold_ms": 67094,
       "line": 29,
-      "target": "The color of words forming too soon",
+      "line_end": 29,
+      "target": null,
       "context": "what the code calls prematureGlow, the color of words forming too soon. A shadow cursor tracks ahead"
     },
     {
+      "time_ms": 68324,
+      "end_ms": 71378,
+      "hold_ms": 74919,
+      "line": 153,
+      "line_end": 154,
+      "target": null,
+      "context": "of words forming too soon. A shadow cursor tracks ahead of the real one, arriving where input is predicted"
+    },
+    {
       "time_ms": 75825,
-      "end_ms": 76626,
-      "line": 50,
-      "target": "ghostTrails",
-      "context": "is predicted before it lands. Ghost trails accumulate from every premature reset,"
+      "end_ms": 79482,
+      "hold_ms": 84033,
+      "line": 102,
+      "line_end": 102,
+      "target": null,
+      "context": "is predicted before it lands. Ghost trails accumulate from every premature reset, ceaseless proof of completions abandoned"
     }
   ]
 }

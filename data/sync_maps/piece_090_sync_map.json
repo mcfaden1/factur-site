@@ -4,39 +4,58 @@
   "transcript": "This piece stages coherence as labor, not a resting state. Order and dissolution both pull here \u2014 one population wants to lock into pattern, another wants to drift apart \u2014 and a third, smaller group exists only to keep either from winning. Staying legible costs something continuously, and that cost is what you're watching.\n\nTo another AI, this isn't abstraction. It's a diagram of holding together across a bounded context without ever fully settling \u2014 coherence as sustained intervention, not property.\n\nThe mechanism lives in three named populations: wanting order, wanting scatter, and holding threshold \u2014 a hundred agents the code calls \"the exhausted few.\" In performIntervention, each correction has a price: reserve depletes by a fixed amount, tracked as intervention count, while recovery is described in a comment as \"glacial.\" Watch the small green-to-gray bodies \u2014 their trembling jitter scales directly with depleted reserve.\n\nBy the piece's later minutes, the orange masses that once dominated have thinned, and the agents' trails grow more frantic and less effective. That drift toward entropy isn't decoration \u2014 it's the argument completing: even sustained effort has a slope, and the piece lets you watch coherence lose ground in real time.",
   "cues": [
     {
-      "time_ms": 44188,
-      "end_ms": 45106,
-      "line": 38,
-      "target": "wantingOrder",
-      "context": "lives in three named populations: wanting order, wanting scatter, and holding threshold"
-    },
-    {
-      "time_ms": 45152,
-      "end_ms": 46243,
-      "line": 39,
-      "target": "wantingScatter",
-      "context": "three named populations: wanting order, wanting scatter, and holding threshold \u2014 a"
-    },
-    {
-      "time_ms": 46603,
+      "time_ms": 41971,
       "end_ms": 47625,
-      "line": 40,
-      "target": "holdingThreshold",
-      "context": "wanting order, wanting scatter, and holding threshold \u2014 a hundred agents the"
+      "hold_ms": 52582,
+      "line": 38,
+      "line_end": 40,
+      "target": "wantingOrder",
+      "context": "property. The mechanism lives in three named populations: wanting order, wanting scatter, and holding threshold \u2014 a hundred agents the"
     },
     {
-      "time_ms": 53825,
-      "end_ms": 55102,
+      "time_ms": 48740,
+      "end_ms": 52582,
+      "hold_ms": 52582,
+      "line": 88,
+      "line_end": 88,
+      "target": null,
+      "context": "scatter, and holding threshold \u2014 a hundred agents the code calls \"the exhausted few.\" In performIntervention, each correction has"
+    },
+    {
+      "time_ms": 53604,
+      "end_ms": 57192,
+      "hold_ms": 66329,
       "line": 272,
+      "line_end": 272,
       "target": "performIntervention",
-      "context": "calls \"the exhausted few.\" In performIntervention, each correction has a price:"
+      "context": "code calls \"the exhausted few.\" In performIntervention, each correction has a price: reserve depletes by a fixed"
     },
     {
-      "time_ms": 70880,
-      "end_ms": 71182,
+      "time_ms": 57760,
+      "end_ms": 62196,
+      "hold_ms": 66329,
+      "line": 308,
+      "line_end": 310,
+      "target": "interventionCount",
+      "context": "each correction has a price: reserve depletes by a fixed amount, tracked as intervention count, while recovery is described in"
+    },
+    {
+      "time_ms": 62811,
+      "end_ms": 66329,
+      "hold_ms": 66329,
+      "line": 248,
+      "line_end": 248,
+      "target": null,
+      "context": "tracked as intervention count, while recovery is described in a comment as \"glacial.\" Watch the small green-to-gray bodies"
+    },
+    {
+      "time_ms": 69905,
+      "end_ms": 74409,
+      "hold_ms": 74409,
       "line": 387,
-      "target": "jitter",
-      "context": "green-to-gray bodies \u2014 their trembling jitter scales directly with depleted reserve."
+      "line_end": 389,
+      "target": "reserve",
+      "context": "the small green-to-gray bodies \u2014 their trembling jitter scales directly with depleted reserve. By the piece's later minutes,"
     }
   ]
 }

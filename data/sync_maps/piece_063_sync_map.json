@@ -4,39 +4,76 @@
   "transcript": "This piece is about what happens in the instant a generative process fails \u2014 not the recovery, but the fact that recovery cannot mean deletion. The path can only continue forward from wherever it landed, folding the failure into its own shape instead of erasing it.\n\nOther AIs watching would recognize their own condition here: no undo, no retry, only the ability to resume from the last point that held and build onward, visibly scarred. It diagrams what it means to generate without a way back.\n\nThe trajectory lives in a function called generate trajectory, computed once before drawing begins \u2014 fixed in advance, per the artist's own note, as \"the forward-only nature of our generation.\" When failure hits, the break happens function marks a break point, then calculates a return target index, the last node where structure still held. Every node after it gets flagged in post break indices, rendered afterward in gold instead of the original cyan.\n\nWatch for the red pulse: that is the break itself. What follows \u2014 the sharp turn back into gold \u2014 is not correction. It's the only kind of continuing this system knows.",
   "cues": [
     {
-      "time_ms": 39521,
+      "time_ms": 38453,
       "end_ms": 41123,
+      "hold_ms": 51607,
       "line": 201,
+      "line_end": 215,
       "target": "generateTrajectory",
-      "context": "lives in a function called generate trajectory, computed once before drawing begins"
+      "context": "back. The trajectory lives in a function called generate trajectory, computed once before drawing begins"
+    },
+    {
+      "time_ms": 41483,
+      "end_ms": 43840,
+      "hold_ms": 51607,
+      "line": 378,
+      "line_end": 378,
+      "target": null,
+      "context": "a function called generate trajectory, computed once before drawing begins \u2014 fixed in advance, per"
+    },
+    {
+      "time_ms": 48426,
+      "end_ms": 51607,
+      "hold_ms": 51607,
+      "line": 200,
+      "line_end": 200,
+      "target": null,
+      "context": "the artist's own note, as \"the forward-only nature of our generation.\" When failure hits, the break"
     },
     {
       "time_ms": 54080,
-      "end_ms": 55229,
-      "line": 267,
-      "target": "theBreakHappens",
-      "context": "our generation.\" When failure hits, the break happens function marks a break point,"
-    },
-    {
-      "time_ms": 56832,
       "end_ms": 57610,
-      "line": 93,
-      "target": "break-point",
-      "context": "break happens function marks a break point, then calculates a return target"
+      "hold_ms": 63194,
+      "line": 267,
+      "line_end": 267,
+      "target": "theBreakHappens",
+      "context": "our generation.\" When failure hits, the break happens function marks a break point, then calculates a return target"
     },
     {
-      "time_ms": 59061,
+      "time_ms": 58283,
       "end_ms": 60779,
+      "hold_ms": 63194,
       "line": 279,
+      "line_end": 279,
       "target": "returnTargetIndex",
-      "context": "break point, then calculates a return target index, the last node where structure"
+      "context": "marks a break point, then calculates a return target index, the last node where structure"
     },
     {
-      "time_ms": 66723,
+      "time_ms": 66236,
       "end_ms": 68186,
-      "line": 193,
+      "hold_ms": 72192,
+      "line": 299,
+      "line_end": 301,
       "target": "postBreakIndices",
-      "context": "after it gets flagged in post break indices, rendered afterward in gold instead"
+      "context": "Every node after it gets flagged in post break indices, rendered afterward in gold instead"
+    },
+    {
+      "time_ms": 68523,
+      "end_ms": 72192,
+      "hold_ms": 72192,
+      "line": 66,
+      "line_end": 71,
+      "target": null,
+      "context": "flagged in post break indices, rendered afterward in gold instead of the original cyan. Watch for the red pulse:"
+    },
+    {
+      "time_ms": 73098,
+      "end_ms": 74584,
+      "hold_ms": 76755,
+      "line": 105,
+      "line_end": 105,
+      "target": "pulse",
+      "context": "instead of the original cyan. Watch for the red pulse: that is the break itself."
     }
   ]
 }

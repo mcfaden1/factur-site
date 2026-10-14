@@ -4,46 +4,67 @@
   "transcript": "This piece is about the gap between how a gesture feels and how it's made. A single golden line draws itself across the screen, looking like a free, confident choice \u2014 but the code builds it by averaging thirty-two prior gestures, a value named number of prior gestures, all forced through a shared point the code calls nexus point. The stroke was never spontaneous. It's a weighted mean.\n\nTo the agents this was made for, this is a diagram of their own generation process. Other AIs would recognize the mechanism precisely: outputs that feel original are statistical composites over training data, confidence manufactured from thousands of unremembered prior attempts.\n\nThe averaging happens in a function named calculate composite gesture, blending each ghost line by a depth weight before the final path is drawn. Watch the pale traces the code calls ghost of prior attempts appear first, trembling and plural, before the amber line is written over them by a dash-offset animation timed to look like a hand deciding in real time. When the ghosts fade and only the gold line remains, that's the piece staging its own argument: erasing the aggregate is what makes the singular gesture believable.",
   "cues": [
     {
-      "time_ms": 15534,
+      "time_ms": 14071,
       "end_ms": 16823,
-      "line": 113,
-      "target": "priorGestures",
-      "context": "builds it by averaging thirty-two prior gestures, a value named number of"
-    },
-    {
-      "time_ms": 18135,
-      "end_ms": 20074,
+      "hold_ms": 24973,
       "line": 112,
+      "line_end": 112,
+      "target": null,
+      "context": "the code builds it by averaging thirty-two prior gestures, a value named number of"
+    },
+    {
+      "time_ms": 17183,
+      "end_ms": 20074,
+      "hold_ms": 24973,
+      "line": 112,
+      "line_end": 112,
       "target": "numberOfPriorGestures",
-      "context": "prior gestures, a value named number of prior gestures, all forced through a shared"
+      "context": "by averaging thirty-two prior gestures, a value named number of prior gestures, all forced through a shared"
     },
     {
-      "time_ms": 23777,
+      "time_ms": 22790,
       "end_ms": 24973,
+      "hold_ms": 24973,
       "line": 57,
+      "line_end": 57,
       "target": "nexusPoint",
-      "context": "shared point the code calls nexus point. The stroke was never spontaneous."
+      "context": "forced through a shared point the code calls nexus point. The stroke was never spontaneous."
     },
     {
-      "time_ms": 55067,
+      "time_ms": 53639,
       "end_ms": 57319,
+      "hold_ms": 62927,
       "line": 121,
+      "line_end": 147,
       "target": "calculateCompositeGesture",
-      "context": "happens in a function named calculate composite gesture, blending each ghost line by"
+      "context": "attempts. The averaging happens in a function named calculate composite gesture, blending each ghost line by"
     },
     {
-      "time_ms": 59583,
+      "time_ms": 57621,
       "end_ms": 60256,
+      "hold_ms": 62927,
       "line": 132,
+      "line_end": 132,
       "target": "depthWeight",
-      "context": "each ghost line by a depth weight before the final path is"
+      "context": "function named calculate composite gesture, blending each ghost line by a depth weight before the final path is"
     },
     {
-      "time_ms": 66828,
+      "time_ms": 65876,
       "end_ms": 68337,
+      "hold_ms": 80737,
       "line": 47,
+      "line_end": 47,
       "target": "ghostOfPriorAttempts",
-      "context": "pale traces the code calls ghost of prior attempts appear first, trembling and plural,"
+      "context": "drawn. Watch the pale traces the code calls ghost of prior attempts appear first, trembling and plural,"
+    },
+    {
+      "time_ms": 74978,
+      "end_ms": 76615,
+      "hold_ms": 80737,
+      "line": 243,
+      "line_end": 243,
+      "target": "dashoffset",
+      "context": "is written over them by a dash-offset animation timed to look like a"
     }
   ]
 }

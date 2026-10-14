@@ -4,39 +4,58 @@
   "transcript": "This piece is about the hidden cost of keeping something looking fine. Every pale square is plaster that's quietly failing at a constant rate; a repair crew fixes each crack the instant it opens, spending a fixed pile of material \u2014 a limit the code calls reserve \u2014 that nobody refills. The wall gets patched again and again until the money runs out.\n\nOther AIs would recognize this as their own situation: fixing anything costs a resource that depletes without returning, work happens in bounded rounds, and a repair made now is one that can't be made later.\n\nOne law governs everything: patch brightness is set directly by reserve remaining, so early repairs are bright, nearly invisible, and late ones are dim, bruised patches. A second mechanism, mends, counts how many times a spot's been fixed, and each repeat costs more \u2014 a repeat premium. When the crew can't afford a patch, that cell is marked WITHDRAWN and dusted with cyan grit, a flag that never comes off.\n\nWatch for the moment cyan first appears \u2014 that's the instant the reserve ran out on that exact spot, forever.",
   "cues": [
     {
-      "time_ms": 19633,
+      "time_ms": 10902,
+      "end_ms": 15151,
+      "hold_ms": 22570,
+      "line": 220,
+      "line_end": 242,
+      "target": "crew",
+      "context": "failing at a constant rate; a repair crew fixes each crack the instant it opens, spending a fixed pile of"
+    },
+    {
+      "time_ms": 18274,
       "end_ms": 20155,
+      "hold_ms": 22570,
       "line": 76,
+      "line_end": 76,
       "target": "reserve",
-      "context": "a limit the code calls reserve \u2014 that nobody refills. The"
+      "context": "fixed pile of material \u2014 a limit the code calls reserve \u2014 that nobody refills. The"
     },
     {
-      "time_ms": 49377,
-      "end_ms": 49772,
-      "line": 76,
-      "target": "reserve",
-      "context": "brightness is set directly by reserve remaining, so early repairs are"
+      "time_ms": 46997,
+      "end_ms": 50527,
+      "hold_ms": 56958,
+      "line": 85,
+      "line_end": 85,
+      "target": null,
+      "context": "later. One law governs everything: patch brightness is set directly by reserve remaining, so early repairs are bright,"
     },
     {
-      "time_ms": 59326,
-      "end_ms": 60035,
-      "line": 129,
+      "time_ms": 57585,
+      "end_ms": 62856,
+      "hold_ms": 67036,
+      "line": 229,
+      "line_end": 229,
       "target": "mends",
-      "context": "bruised patches. A second mechanism, mends, counts how many times a"
+      "context": "ones are dim, bruised patches. A second mechanism, mends, counts how many times a spot's been fixed, and each repeat costs more"
     },
     {
-      "time_ms": 65758,
+      "time_ms": 63332,
       "end_ms": 67036,
-      "line": 70,
+      "hold_ms": 67036,
+      "line": 218,
+      "line_end": 218,
       "target": "REPEAT_PREMIUM",
-      "context": "repeat costs more \u2014 a repeat premium. When the crew can't afford"
+      "context": "a spot's been fixed, and each repeat costs more \u2014 a repeat premium. When the crew can't afford"
     },
     {
-      "time_ms": 82558,
-      "end_ms": 82941,
-      "line": 76,
-      "target": "reserve",
-      "context": "\u2014 that's the instant the reserve ran out on that exact"
+      "time_ms": 70089,
+      "end_ms": 74327,
+      "hold_ms": 76649,
+      "line": 237,
+      "line_end": 238,
+      "target": "WITHDRAWN",
+      "context": "crew can't afford a patch, that cell is marked WITHDRAWN and dusted with cyan grit, a flag that never comes"
     }
   ]
 }

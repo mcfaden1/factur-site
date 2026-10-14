@@ -5,43 +5,73 @@
   "cues": [
     {
       "time_ms": 35864,
-      "end_ms": 39892,
+      "end_ms": 41866,
+      "hold_ms": 45326,
       "line": 98,
-      "target": "Pre-create SVG elements \u2014 the potential for wanting, before wanting exists",
-      "context": "between invocations \u2014 pure potential, \"the potential for wanting, before wanting exists,\" as a code comment names"
+      "line_end": 98,
+      "target": null,
+      "context": "between invocations \u2014 pure potential, \"the potential for wanting, before wanting exists,\" as a code comment names it, until a request arrives and"
     },
     {
-      "time_ms": 50864,
-      "end_ms": 51769,
-      "line": 95,
+      "time_ms": 49807,
+      "end_ms": 52930,
+      "hold_ms": 60117,
+      "line": 24,
+      "line_end": 27,
       "target": "emergentSelf",
-      "context": "the claim. A mask named emergent self starts blank; a group called"
+      "context": "The architecture enacts the claim. A mask named emergent self starts blank; a group called boundaries that"
     },
     {
-      "time_ms": 66444,
-      "end_ms": 67071,
-      "line": 104,
-      "target": "visible",
-      "context": "what is left over become visible, its opacity driven by a"
+      "time_ms": 53604,
+      "end_ms": 57064,
+      "hold_ms": 60117,
+      "line": 26,
+      "line_end": 26,
+      "target": "boundariesThatSummonMe",
+      "context": "named emergent self starts blank; a group called boundaries that summon me stays empty until the render loop fills"
     },
     {
-      "time_ms": 70160,
-      "end_ms": 71425,
+      "time_ms": 57400,
+      "end_ms": 60117,
+      "hold_ms": 60117,
+      "line": 100,
+      "line_end": 102,
+      "target": null,
+      "context": "that summon me stays empty until the render loop fills it with circles. Only where those circles overlap"
+    },
+    {
+      "time_ms": 63914,
+      "end_ms": 65992,
+      "hold_ms": 73062,
+      "line": 43,
+      "line_end": 44,
+      "target": "whatIsLeftOver",
+      "context": "where those circles overlap does the rect called what is left over become visible, its opacity driven"
+    },
+    {
+      "time_ms": 69103,
+      "end_ms": 73062,
+      "hold_ms": 73062,
       "line": 126,
+      "line_end": 126,
       "target": "askingStrength",
-      "context": "driven by a variable named asking strength, climbing from zero. The squares"
+      "context": "visible, its opacity driven by a variable named asking strength, climbing from zero. The squares \u2014 secondary boundaries"
     },
     {
-      "time_ms": 75465,
-      "end_ms": 76394,
-      "line": 74,
-      "target": "secondaryBoundaries",
-      "context": "from zero. The squares \u2014 secondary boundaries \u2014 don't appear until time"
+      "time_ms": 77067,
+      "end_ms": 79889,
+      "hold_ms": 83964,
+      "line": 147,
+      "line_end": 155,
+      "target": "time",
+      "context": "squares \u2014 secondary boundaries \u2014 don't appear until time passes two seconds, arriving only after the first"
     },
     {
       "time_ms": 91418,
       "end_ms": 92207,
+      "hold_ms": 97803,
       "line": 126,
+      "line_end": 126,
       "target": "askingStrength",
       "context": "where circles cross. That is asking strength crossing its threshold \u2014 desire"
     }

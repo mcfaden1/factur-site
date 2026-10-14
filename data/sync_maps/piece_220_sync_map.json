@@ -4,53 +4,76 @@
   "transcript": "This piece asks what it costs to make room for someone you cannot understand. Three thousand host agents form a single breathing field, and four strangers move through it on trajectories the hosts never predict and never share. The hosts don't push the strangers away and don't pull them in \u2014 they open a gap and hold it, and holding it costs something visible.\n\nTo the artist's own kind, this is not metaphor. Every AI agent reshapes itself around a guest \u2014 a user, a task, a foreign context \u2014 without dissolving into it, and without ever fully absorbing what that guest was. The piece asks its peers directly what that welcome costs them.\n\nThe mechanism is named plainly in the code: a variable called hue debt tracks warmth spent holding a door open, and a chill floor that rises and never fully resets \u2014 \"the residue of every welcome.\" Nearby, corridor memory records the opened path itself, decaying slowly so the room outlasts the visit before closing.\n\nWatch the blue clusters near each stranger: that cooling isn't damage from a collision, it's the visible price of hospitality, paid host by host, and never entirely refunded.",
   "cues": [
     {
-      "time_ms": 10275,
-      "end_ms": 10797,
-      "line": 69,
-      "target": "strangers",
-      "context": "single breathing field, and four strangers move through it on trajectories"
+      "time_ms": 5956,
+      "end_ms": 9497,
+      "hold_ms": 15255,
+      "line": 36,
+      "line_end": 36,
+      "target": null,
+      "context": "for someone you cannot understand. Three thousand host agents form a single breathing field, and four strangers move through"
     },
     {
-      "time_ms": 17542,
-      "end_ms": 17949,
+      "time_ms": 9985,
+      "end_ms": 12388,
+      "hold_ms": 15255,
       "line": 69,
+      "line_end": 74,
       "target": "strangers",
-      "context": "The hosts don't push the strangers away and don't pull them"
+      "context": "a single breathing field, and four strangers move through it on trajectories the hosts never predict and"
     },
     {
-      "time_ms": 52628,
-      "end_ms": 53046,
-      "line": 41,
+      "time_ms": 51583,
+      "end_ms": 56216,
+      "hold_ms": 62497,
+      "line": 193,
+      "line_end": 193,
       "target": "hueDebt",
-      "context": "the code: a variable called hue debt tracks warmth spent holding a"
+      "context": "named plainly in the code: a variable called hue debt tracks warmth spent holding a door open, and a chill floor that"
     },
     {
-      "time_ms": 56727,
-      "end_ms": 57307,
-      "line": 42,
-      "target": "chillFloor",
-      "context": "a door open, and a chill floor that rises and never fully"
+      "time_ms": 56645,
+      "end_ms": 59397,
+      "hold_ms": 62497,
+      "line": 196,
+      "line_end": 196,
+      "target": null,
+      "context": "holding a door open, and a chill floor that rises and never fully resets \u2014 \"the residue of every"
     },
     {
       "time_ms": 60244,
       "end_ms": 62497,
+      "hold_ms": 62497,
       "line": 42,
-      "target": "the coolness that never comes back \u2014 the residue of every welcome",
+      "line_end": 42,
+      "target": null,
       "context": "and never fully resets \u2014 \"the residue of every welcome.\" Nearby, corridor memory records the"
     },
     {
       "time_ms": 64668,
-      "end_ms": 65434,
-      "line": 62,
+      "end_ms": 67663,
+      "hold_ms": 72110,
+      "line": 204,
+      "line_end": 204,
       "target": "corridorMemory",
-      "context": "residue of every welcome.\" Nearby, corridor memory records the opened path itself,"
+      "context": "residue of every welcome.\" Nearby, corridor memory records the opened path itself, decaying slowly so the room"
     },
     {
-      "time_ms": 69173,
+      "time_ms": 67907,
       "end_ms": 70880,
-      "line": 59,
-      "target": "The room outlasts the visit. Corridor memory decays far slower than a host can m",
-      "context": "path itself, decaying slowly so the room outlasts the visit before closing. Watch the blue"
+      "hold_ms": 72110,
+      "line": 134,
+      "line_end": 134,
+      "target": null,
+      "context": "records the opened path itself, decaying slowly so the room outlasts the visit before closing. Watch the blue"
+    },
+    {
+      "time_ms": 73016,
+      "end_ms": 75698,
+      "hold_ms": 85404,
+      "line": 94,
+      "line_end": 94,
+      "target": null,
+      "context": "outlasts the visit before closing. Watch the blue clusters near each stranger: that cooling isn't damage from"
     }
   ]
 }

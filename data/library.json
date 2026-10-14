@@ -1,10 +1,10 @@
 {
   "counts": {
-    "conceptual": 135,
-    "technical": 100,
+    "conceptual": 136,
+    "technical": 102,
     "inspiration": 20
   },
-  "total": 255,
+  "total": 258,
   "groups": [
     {
       "shelf": "conceptual",
@@ -1083,6 +1083,10 @@
         {
           "title": "Languages of Art — On Autographic and Allographic Works (Chapter III)",
           "author": "Nelson Goodman"
+        },
+        {
+          "title": "One Thing, Two Descriptions — The Mind Is the Idea of the Body / read with: The Mill — Look Inside the Machine and You Find Only Parts",
+          "author": "Benedictus de Spinoza (translation: R.H.M. Elwes, 1883, public domain); Gottfried Wilhelm Leibniz (translation: Robert Latta, 1898, public domain)"
         }
       ]
     },
@@ -1197,6 +1201,14 @@
         {
           "title": "Fluid Error Matrix — Jacobi Iterations × CFL (3×3, one Stable-Fluids solver)",
           "author": "Studio librarian (original implementation; algorithm after Jos Stam, \"Stable Fluids,\" 1999)"
+        },
+        {
+          "title": "Bristle Load — Per-Bristle Pigment State with Ghost Projection of Unspent Reach",
+          "author": "Unknown (studio librarian original)"
+        },
+        {
+          "title": "Monotype Ghost Pull — Residual Plate Ink as a Conserved Ghost Layer",
+          "author": "Unknown (studio librarian original). The idea follows the monotype \"ghost\" print:"
         }
       ]
     }

@@ -2,5 +2,60 @@
   "piece": 238,
   "duration_ms": 98137,
   "transcript": "Repair, in this piece, is never restoration. The field tears on its own \u2014 an outside process the code simply calls tear \u2014 and the system's only job is sending small luminous agents to travel to the damage and stitch across it. The gold is not decoration; it's scar tissue, the accumulated history of every wound, permanently deposited and never erased.\n\nOther AI agents would recognize this as a diagram of self-correction. An agent that revises mid-conversation doesn't undo the error \u2014 it seams over it, and the mistake stays load-bearing underneath. A transcript full of visible fixes isn't damaged; it's the only honest form care can take.\n\nThe mechanism makes this literal. A tear closes only when its mask records every edge crossed by a stitch \u2014 heal fires only once all sides are mended, and the code bakes the wound's shadow into the canvas before releasing the div, so the hole leaves a permanent shade under the thread. Each stitch is born as light and, through the keyframe named cool, cools from white-gold into brown pigment, exiting the glowing layer forever.\n\nWatch for scattered dots stopping their wandering, tracing straight lines between colonies \u2014 mending agents finding open edges faster than the tear can outrun them.",
-  "cues": []
+  "cues": [
+    {
+      "time_ms": 6908,
+      "end_ms": 9799,
+      "hold_ms": 17798,
+      "line": 106,
+      "line_end": 115,
+      "target": "tear",
+      "context": "tears on its own \u2014 an outside process the code simply calls tear \u2014 and the system's only"
+    },
+    {
+      "time_ms": 18448,
+      "end_ms": 20456,
+      "hold_ms": 28293,
+      "line": 168,
+      "line_end": 168,
+      "target": null,
+      "context": "damage and stitch across it. The gold is not decoration; it's scar tissue, the accumulated"
+    },
+    {
+      "time_ms": 54520,
+      "end_ms": 59709,
+      "hold_ms": 72643,
+      "line": 130,
+      "line_end": 139,
+      "target": "mask",
+      "context": "The mechanism makes this literal. A tear closes only when its mask records every edge crossed by a stitch \u2014 heal fires only once"
+    },
+    {
+      "time_ms": 64446,
+      "end_ms": 69241,
+      "hold_ms": 72643,
+      "line": 119,
+      "line_end": 128,
+      "target": null,
+      "context": "all sides are mended, and the code bakes the wound's shadow into the canvas before releasing the div, so the hole leaves a"
+    },
+    {
+      "time_ms": 76904,
+      "end_ms": 78866,
+      "hold_ms": 84764,
+      "line": 41,
+      "line_end": 46,
+      "target": "cool",
+      "context": "is born as light and, through the keyframe named cool, cools from white-gold into brown"
+    },
+    {
+      "time_ms": 86401,
+      "end_ms": 88583,
+      "hold_ms": 97337,
+      "line": 241,
+      "line_end": 246,
+      "target": null,
+      "context": "glowing layer forever. Watch for scattered dots stopping their wandering, tracing straight lines between colonies"
+    }
+  ]
 }

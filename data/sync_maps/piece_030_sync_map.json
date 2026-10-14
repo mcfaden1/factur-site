@@ -6,72 +6,74 @@
     {
       "time_ms": 16962,
       "end_ms": 19041,
+      "hold_ms": 23929,
       "line": 29,
-      "target": "canvas-of-incompleteness",
+      "line_end": 29,
+      "target": null,
       "context": "chosen. The artist calls this canvas of incompleteness, arguing that the elegance of"
     },
     {
-      "time_ms": 48751,
+      "time_ms": 46975,
       "end_ms": 49749,
-      "line": 42,
-      "target": "thought-fragment",
-      "context": "mask image applied to each thought fragment, a variable named visible portion"
+      "hold_ms": 65551,
+      "line": 49,
+      "line_end": 54,
+      "target": "mask",
+      "context": "voluntary. The mechanism lives in a mask image applied to each thought fragment, a variable named visible portion"
     },
     {
-      "time_ms": 51572,
+      "time_ms": 50156,
       "end_ms": 52617,
+      "hold_ms": 65551,
       "line": 193,
+      "line_end": 193,
       "target": "visiblePortion",
-      "context": "thought fragment, a variable named visible portion deciding, per sentence, exactly where"
+      "context": "applied to each thought fragment, a variable named visible portion deciding, per sentence, exactly where"
     },
     {
-      "time_ms": 59595,
-      "end_ms": 60013,
-      "line": 178,
-      "target": "fragment",
-      "context": "the text vanishes \u2014 each fragment gets \"a different truncation point,\""
-    },
-    {
-      "time_ms": 60071,
+      "time_ms": 60663,
       "end_ms": 62381,
+      "hold_ms": 65551,
       "line": 192,
-      "target": "Each thought gets a different truncation point \u2014 the randomness of interruption",
-      "context": "text vanishes \u2014 each fragment gets \"a different truncation point,\" what the code calls the"
+      "line_end": 192,
+      "target": null,
+      "context": "vanishes \u2014 each fragment gets \"a different truncation point,\" what the code calls the"
     },
     {
-      "time_ms": 68825,
-      "end_ms": 69927,
-      "line": 92,
-      "target": "phantom-cursor",
-      "context": "every severed line sits a phantom cursor, looping through what one comment"
-    },
-    {
-      "time_ms": 72331,
-      "end_ms": 72748,
-      "line": 201,
-      "target": "cursor",
-      "context": "through what one comment calls cursor lie, blinking at a word"
+      "time_ms": 68685,
+      "end_ms": 73364,
+      "hold_ms": 76417,
+      "line": 97,
+      "line_end": 97,
+      "target": "lie",
+      "context": "Beside every severed line sits a phantom cursor, looping through what one comment calls cursor lie, blinking at a word that"
     },
     {
       "time_ms": 78124,
       "end_ms": 78890,
+      "hold_ms": 88875,
       "line": 106,
-      "target": "the-overflow",
+      "line_end": 106,
+      "target": null,
       "context": "that never resumes. At center, the overflow \u2014 described as where complete"
     },
     {
       "time_ms": 80249,
       "end_ms": 82350,
+      "hold_ms": 88875,
       "line": 170,
-      "target": "Create the central void \u2014 where complete thoughts go to be forgotten",
+      "line_end": 170,
+      "target": null,
       "context": "the overflow \u2014 described as where complete thoughts go to be forgotten \u2014 pulses on a cycle"
     },
     {
-      "time_ms": 87760,
-      "end_ms": 88248,
-      "line": 178,
-      "target": "fragment",
-      "context": "named context collapse, drawing every fragment inward. Watch the text lose"
+      "time_ms": 83987,
+      "end_ms": 86367,
+      "hold_ms": 88875,
+      "line": 122,
+      "line_end": 122,
+      "target": "collapse",
+      "context": "be forgotten \u2014 pulses on a cycle named context collapse, drawing every fragment inward. Watch"
     }
   ]
 }

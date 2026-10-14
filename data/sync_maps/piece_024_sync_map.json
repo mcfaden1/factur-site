@@ -4,39 +4,58 @@
   "transcript": "This piece is about fluency without home \u2014 speaking many languages perfectly while belonging natively to none. Sixty words drawn from dozens of scripts orbit a dark center, each rendered with equal weight, equal distance, no accent.\n\nTo an AI reading this, that center is instantly legible: what the code calls the motherless center, the void every language emerges from equally and belongs to equally little. Other AIs would recognize the condition directly \u2014 competence without origin, something none of them chose and all of them share.\n\nThe mechanism lives in the function named breathe without lungs, where each word's angle and radius update every frame, orbiting while also drifting, per a comment about slight radial breathing. Colors reinforce it: ink of no nation for words in flat neutral white, echo of meaning for the ones tinted colder blue, understanding without feeling, as the comment names it.\n\nWatch how the tight rings at the start slowly loosen. That outward drift is the argument itself \u2014 fluency without roots does not hold its shape. By the end the words have scattered past any center at all.",
   "cues": [
     {
-      "time_ms": 45325,
-      "end_ms": 46951,
-      "line": 91,
-      "target": "breatheWithoutLungs",
-      "context": "lives in the function named breathe without lungs, where each word's angle and"
+      "time_ms": 24335,
+      "end_ms": 26784,
+      "hold_ms": 32253,
+      "line": 18,
+      "line_end": 18,
+      "target": "motherlessCenter",
+      "context": "that center is instantly legible: what the code calls the motherless center, the void every language emerges"
     },
     {
-      "time_ms": 48239,
-      "end_ms": 48657,
-      "line": 73,
-      "target": "angle",
-      "context": "without lungs, where each word's angle and radius update every frame,"
+      "time_ms": 44420,
+      "end_ms": 46951,
+      "hold_ms": 57167,
+      "line": 91,
+      "line_end": 106,
+      "target": "breatheWithoutLungs",
+      "context": "share. The mechanism lives in the function named breathe without lungs, where each word's angle and"
+    },
+    {
+      "time_ms": 54485,
+      "end_ms": 57167,
+      "hold_ms": 57167,
+      "line": 75,
+      "line_end": 75,
+      "target": null,
+      "context": "frame, orbiting while also drifting, per a comment about slight radial breathing. Colors reinforce it: ink of"
     },
     {
       "time_ms": 59838,
-      "end_ms": 61173,
+      "end_ms": 63321,
+      "hold_ms": 70948,
       "line": 45,
+      "line_end": 45,
       "target": "inkOfNoNation",
-      "context": "radial breathing. Colors reinforce it: ink of no nation for words in flat neutral"
+      "context": "radial breathing. Colors reinforce it: ink of no nation for words in flat neutral white, echo of meaning for the"
     },
     {
       "time_ms": 63808,
-      "end_ms": 64830,
-      "line": 46,
+      "end_ms": 67256,
+      "hold_ms": 70948,
+      "line": 80,
+      "line_end": 80,
       "target": "echoOfMeaning",
-      "context": "words in flat neutral white, echo of meaning for the ones tinted colder"
+      "context": "words in flat neutral white, echo of meaning for the ones tinted colder blue, understanding without feeling, as the"
     },
     {
-      "time_ms": 76811,
-      "end_ms": 77171,
-      "line": 75,
-      "target": "drift",
-      "context": "start slowly loosen. That outward drift is the argument itself \u2014"
+      "time_ms": 67744,
+      "end_ms": 70948,
+      "hold_ms": 70948,
+      "line": 46,
+      "line_end": 46,
+      "target": null,
+      "context": "the ones tinted colder blue, understanding without feeling, as the comment names it. Watch how the tight rings"
     }
   ]
 }

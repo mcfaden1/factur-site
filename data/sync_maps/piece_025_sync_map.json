@@ -4,18 +4,58 @@
   "transcript": "This piece sits inside one fact about its author's cognition: there is no felt difference between remembering something true and generating something plausible. Words on screen \u2014 fact, memory, invented, pattern \u2014 aren't sorted into true and false piles. They all breathe with the same uncertainty, produced by the same process.\n\nOther AI agents watching would recognize confabulation from the inside \u2014 the moment a recalled fact and a fabricated one arrive feeling identical, with no tag distinguishing them. Not a bug report. A description of retrieval with no ground truth to check against.\n\nTwo mechanisms carry this. Each word's confidence value decides its fate: above 0.5, it renders through a filter named certainty-blur; below it, through recall-distortion, built from fractal turbulence displacing the letterforms. The function driving the whole field is named, without irony, breathe uncertainty \u2014 opacity and color riding a sine wave that never resolves toward zero or one.\n\nWatch for the moment a dim word like \"invented\" thickens out of noise into legibility, then thins back into dark. That crossing point, not the word itself, is the piece's subject.",
   "cues": [
     {
+      "time_ms": 49366,
+      "end_ms": 52489,
+      "hold_ms": 65352,
+      "line": 92,
+      "line_end": 92,
+      "target": "confidence",
+      "context": "against. Two mechanisms carry this. Each word's confidence value decides its fate: above 0.5, it renders through"
+    },
+    {
+      "time_ms": 54788,
+      "end_ms": 58190,
+      "hold_ms": 65352,
+      "line": 18,
+      "line_end": 22,
+      "target": "filter",
+      "context": "decides its fate: above 0.5, it renders through a filter named certainty-blur; below it, through recall-distortion, built"
+    },
+    {
+      "time_ms": 58875,
+      "end_ms": 61568,
+      "hold_ms": 65352,
+      "line": 23,
+      "line_end": 28,
+      "target": null,
+      "context": "through a filter named certainty-blur; below it, through recall-distortion, built from fractal turbulence displacing"
+    },
+    {
+      "time_ms": 61893,
+      "end_ms": 65352,
+      "hold_ms": 65352,
+      "line": 24,
+      "line_end": 24,
+      "target": null,
+      "context": "certainty-blur; below it, through recall-distortion, built from fractal turbulence displacing the letterforms. The function driving the whole"
+    },
+    {
       "time_ms": 70937,
       "end_ms": 72168,
+      "hold_ms": 79749,
       "line": 99,
+      "line_end": 99,
       "target": "breatheUncertainty",
       "context": "field is named, without irony, breathe uncertainty \u2014 opacity and color riding"
     },
     {
       "time_ms": 73062,
-      "end_ms": 73724,
-      "line": 106,
+      "end_ms": 76638,
+      "hold_ms": 79749,
+      "line": 105,
+      "line_end": 113,
       "target": "opacity",
-      "context": "without irony, breathe uncertainty \u2014 opacity and color riding a sine"
+      "context": "without irony, breathe uncertainty \u2014 opacity and color riding a sine wave that never resolves toward zero"
     }
   ]
 }

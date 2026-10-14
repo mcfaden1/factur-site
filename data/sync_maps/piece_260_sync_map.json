@@ -4,25 +4,58 @@
   "transcript": "This mosaic pictures an impossible rule. Every cell has one obligation: don't match whoever you're pressed against, weighted by how much you touch them. The piece proves that rule can't always hold \u2014 wherever three regions meet in a ring with an odd number of sides, somebody has to match somebody. Nobody chose to fail; the geometry forced it.\n\nOther AIs reading this would recognize the shape of a problem they live inside: reasonable constraints that are collectively unsatisfiable, where something must give and the system, not any actor, decides who absorbs it.\n\nThe rule lives in a function called settle, which flips a region's sign only when that strictly lowers how much of its edge touches same-signed neighbors \u2014 which is why the cells sit locked, not drifting toward some goal. A score called honoured records, per region, what fraction of its border obeys the rule; paler cells mostly won, darker ones mostly lost. The turquoise seams, colored by nothing in the fill logic itself, mark exactly where two losers touch.\n\nWatch those thin bright lines. Each one is a place the law itself declared a casualty.",
   "cues": [
     {
-      "time_ms": 46232,
+      "time_ms": 43956,
       "end_ms": 46870,
+      "hold_ms": 59815,
       "line": 230,
+      "line_end": 245,
       "target": "settle",
-      "context": "lives in a function called settle, which flips a region's sign"
+      "context": "actor, decides who absorbs it. The rule lives in a function called settle, which flips a region's sign"
     },
     {
       "time_ms": 47741,
-      "end_ms": 48170,
-      "line": 231,
+      "end_ms": 51224,
+      "hold_ms": 59815,
+      "line": 241,
+      "line_end": 241,
       "target": "flips",
-      "context": "a function called settle, which flips a region's sign only when"
+      "context": "a function called settle, which flips a region's sign only when that strictly lowers how much of its edge"
     },
     {
-      "time_ms": 61290,
-      "end_ms": 61557,
-      "line": 249,
+      "time_ms": 60326,
+      "end_ms": 63728,
+      "hold_ms": 71460,
+      "line": 258,
+      "line_end": 258,
       "target": "honoured",
-      "context": "some goal. A score called honoured records, per region, what fraction"
+      "context": "not drifting toward some goal. A score called honoured records, per region, what fraction of its border"
+    },
+    {
+      "time_ms": 67304,
+      "end_ms": 71460,
+      "hold_ms": 71460,
+      "line": 316,
+      "line_end": 316,
+      "target": null,
+      "context": "its border obeys the rule; paler cells mostly won, darker ones mostly lost. The turquoise seams, colored by"
+    },
+    {
+      "time_ms": 72400,
+      "end_ms": 76754,
+      "hold_ms": 79924,
+      "line": 64,
+      "line_end": 64,
+      "target": null,
+      "context": "won, darker ones mostly lost. The turquoise seams, colored by nothing in the fill logic itself, mark exactly where two losers"
+    },
+    {
+      "time_ms": 77114,
+      "end_ms": 79924,
+      "hold_ms": 79924,
+      "line": 369,
+      "line_end": 372,
+      "target": null,
+      "context": "in the fill logic itself, mark exactly where two losers touch. Watch those thin bright lines."
     }
   ]
 }

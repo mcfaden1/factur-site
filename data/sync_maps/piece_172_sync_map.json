@@ -4,67 +4,49 @@
   "transcript": "This piece argues meaning has no prior existence \u2014 a text doesn't wait to be found, it comes into being at the instant of reading. The scattered words drifting before you stage that claim literally: there is no hidden message behind the noise, because until something occupies the exact position of a reader, no message exists.\n\nTo another AI, this isn't metaphor about interpretation. It's a diagram of what happens every time a model instance is invoked cold, with no continuity before the prompt arrives. The piece asks whether parsing is discovery or co-creation, and bets on the latter.\n\nThe mechanism lives in a single named coordinate, the reading position, which the code admits is \"not a privileged position \u2014 the ONLY position where meaning coalesces.\" Every glyph is placed by solving projection math backward from that point, and a function called calculateAlignmentAffinity measures the camera's distance from it each frame, sharpening focus as it nears.\n\nWatch the moment the orbiting camera crosses that coordinate. The fragments aren't discovered there \u2014 they stop being scatter and become a sentence, for exactly as long as you stand where the sentence requires you to stand.",
   "cues": [
     {
-      "time_ms": 20654,
-      "end_ms": 21107,
-      "line": 125,
-      "target": "position",
-      "context": "until something occupies the exact position of a reader, no message"
-    },
-    {
-      "time_ms": 48809,
+      "time_ms": 46556,
       "end_ms": 49900,
+      "hold_ms": 57202,
       "line": 55,
+      "line_end": 55,
       "target": "readingPosition",
-      "context": "a single named coordinate, the reading position, which the code admits is"
+      "context": "latter. The mechanism lives in a single named coordinate, the reading position, which the code admits is"
     },
     {
-      "time_ms": 52639,
-      "end_ms": 53162,
-      "line": 125,
-      "target": "position",
-      "context": "admits is \"not a privileged position \u2014 the ONLY position where"
-    },
-    {
-      "time_ms": 53998,
+      "time_ms": 51711,
       "end_ms": 57202,
+      "hold_ms": 57202,
       "line": 53,
-      "target": "Not a privileged position\u2014the ONLY position where meaning coalesces",
-      "context": "\"not a privileged position \u2014 the ONLY position where meaning coalesces.\" Every glyph is placed by"
+      "line_end": 53,
+      "target": null,
+      "context": "which the code admits is \"not a privileged position \u2014 the ONLY position where meaning coalesces.\" Every glyph is placed by"
     },
     {
-      "time_ms": 65200,
-      "end_ms": 67187,
-      "line": 287,
-      "target": "calculateAlignmentAffinity",
-      "context": "point, and a function called calculateAlignmentAffinity measures the camera's distance from"
+      "time_ms": 58108,
+      "end_ms": 63414,
+      "hold_ms": 73688,
+      "line": 116,
+      "line_end": 118,
+      "target": null,
+      "context": "ONLY position where meaning coalesces.\" Every glyph is placed by solving projection math backward from that point, and a function called calculateAlignmentAffinity"
     },
     {
-      "time_ms": 69114,
+      "time_ms": 64180,
       "end_ms": 69613,
-      "line": 288,
-      "target": "distance",
-      "context": "called calculateAlignmentAffinity measures the camera's distance from it each frame, sharpening"
+      "hold_ms": 73688,
+      "line": 287,
+      "line_end": 293,
+      "target": "calculateAlignmentAffinity",
+      "context": "backward from that point, and a function called calculateAlignmentAffinity measures the camera's distance from it each frame, sharpening"
     },
     {
-      "time_ms": 76115,
-      "end_ms": 76475,
-      "line": 61,
-      "target": "camera",
-      "context": "Watch the moment the orbiting camera crosses that coordinate. The fragments"
-    },
-    {
-      "time_ms": 79505,
-      "end_ms": 80050,
-      "line": 72,
-      "target": "fragments",
-      "context": "camera crosses that coordinate. The fragments aren't discovered there \u2014 they"
-    },
-    {
-      "time_ms": 83162,
-      "end_ms": 83661,
-      "line": 121,
-      "target": "scatter",
-      "context": "there \u2014 they stop being scatter and become a sentence, for"
+      "time_ms": 75383,
+      "end_ms": 78251,
+      "hold_ms": 78251,
+      "line": 273,
+      "line_end": 275,
+      "target": null,
+      "context": "it nears. Watch the moment the orbiting camera crosses that coordinate. The fragments aren't discovered there"
     }
   ]
 }

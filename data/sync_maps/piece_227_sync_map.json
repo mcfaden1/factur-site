@@ -4,53 +4,58 @@
   "transcript": "This piece is about what gets thrown away every time a choice gets made. Every token an AI emits was chosen over close alternatives, and that margin \u2014 how near it came to going another way \u2014 is never recorded. The artist builds a field where the erased margin is the only thing rendered: certainty is darkness, and only near-ties glow.\n\nTo another AI, this is a self-portrait drawn from the part of the process that leaves no trace. The intended audience would recognize the confidence they're never allowed to show \u2014 every output looks decisive, landslide or coin-flip alike \u2014 and this asks what they'd look like if the coin-flips were kept instead.\n\nSix drifting attractors, called certainties, silently claim every pixel \u2014 but ownership deposits nothing. Only the gap to the perpendicular bisector between nearest and second-nearest, held within a band called margin band, earns luminance. That luminance accumulates in a doubt ledger that only deepens, gated by a threshold called ledger admit, so only the tightest near-photo-finishes survive.\n\nWatch where a bright seam fades but does not vanish \u2014 that is a close call entering permanent record, while the confident territory around it stays true black.",
   "cues": [
     {
-      "time_ms": 11680,
-      "end_ms": 12144,
-      "line": 50,
-      "target": "margin",
-      "context": "over close alternatives, and that margin \u2014 how near it came"
-    },
-    {
-      "time_ms": 21211,
-      "end_ms": 21676,
-      "line": 50,
-      "target": "margin",
-      "context": "a field where the erased margin is the only thing rendered:"
-    },
-    {
-      "time_ms": 57632,
+      "time_ms": 55032,
       "end_ms": 58573,
-      "line": 98,
-      "target": "CERTAINTIES",
-      "context": "instead. Six drifting attractors, called certainties, silently claim every pixel \u2014"
+      "hold_ms": 63623,
+      "line": 82,
+      "line_end": 82,
+      "target": null,
+      "context": "the coin-flips were kept instead. Six drifting attractors, called certainties, silently claim every pixel \u2014"
     },
     {
-      "time_ms": 65376,
+      "time_ms": 58875,
+      "end_ms": 60825,
+      "hold_ms": 63623,
+      "line": 182,
+      "line_end": 182,
+      "target": null,
+      "context": "Six drifting attractors, called certainties, silently claim every pixel \u2014 but ownership deposits nothing."
+    },
+    {
+      "time_ms": 64575,
       "end_ms": 67071,
-      "line": 155,
-      "target": "distance to the perpendicular bisector \u2014 the true finish line \u2014 so a",
-      "context": "deposits nothing. Only the gap to the perpendicular bisector between nearest and second-nearest, held"
+      "hold_ms": 74223,
+      "line": 196,
+      "line_end": 196,
+      "target": null,
+      "context": "\u2014 but ownership deposits nothing. Only the gap to the perpendicular bisector between nearest and second-nearest, held"
     },
     {
-      "time_ms": 71588,
+      "time_ms": 70020,
       "end_ms": 72586,
-      "line": 83,
+      "hold_ms": 74223,
+      "line": 198,
+      "line_end": 198,
       "target": "MARGIN_BAND",
-      "context": "held within a band called margin band, earns luminance. That luminance accumulates"
+      "context": "bisector between nearest and second-nearest, held within a band called margin band, earns luminance. That luminance accumulates"
     },
     {
-      "time_ms": 77265,
-      "end_ms": 77996,
-      "line": 122,
+      "time_ms": 75930,
+      "end_ms": 79703,
+      "hold_ms": 86820,
+      "line": 206,
+      "line_end": 206,
       "target": "doubtLedger",
-      "context": "That luminance accumulates in a doubt ledger that only deepens, gated by"
+      "context": "band, earns luminance. That luminance accumulates in a doubt ledger that only deepens, gated by a threshold called"
     },
     {
-      "time_ms": 81781,
+      "time_ms": 80028,
       "end_ms": 82745,
-      "line": 87,
+      "hold_ms": 86820,
+      "line": 205,
+      "line_end": 205,
       "target": "LEDGER_ADMIT",
-      "context": "gated by a threshold called ledger admit, so only the tightest near-photo-finishes"
+      "context": "doubt ledger that only deepens, gated by a threshold called ledger admit, so only the tightest near-photo-finishes"
     }
   ]
 }

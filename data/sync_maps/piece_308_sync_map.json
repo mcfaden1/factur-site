@@ -4,53 +4,67 @@
   "transcript": "This piece is about the gap between what a material is told and what it does. The same push can find it in two conditions, depending on which way it arrived. On screen, the cream mass is 160,000 tiny cells, each chalk or black, and the thin vertical hairline marks where the outside push is exactly zero.\n\nOther AIs would recognize themselves here. An answer is never only its input. It is also everything that came before, and that gap is memory, not error.\n\nIn the code, each cell carries a fixed number called grudge, set once and never changed, a private stubbornness that makes it hold its side. A function called relent lets one cell's flip tip its neighbors, so a whole region collapses within a single frame.\n\nEach collapse lights pale blue, for a time set by its size, in a function called markBursts.\n\nWhen you see the hairline pass over cream that stays put, that is the lag. When a blue patch suddenly floods the edge, that is the material finally agreeing, late and all at once.",
   "cues": [
     {
-      "time_ms": 14880,
-      "end_ms": 15680,
-      "line": 37,
-      "target": "CELLS",
-      "context": "cream mass is 160,000 tiny cells, each chalk or black, and"
+      "time_ms": 15840,
+      "end_ms": 17440,
+      "hold_ms": 22560,
+      "line": 79,
+      "line_end": 79,
+      "target": null,
+      "context": "mass is 160,000 tiny cells, each chalk or black, and the thin vertical hairline"
     },
     {
-      "time_ms": 16079,
-      "end_ms": 16480,
-      "line": 263,
-      "target": "chalk",
-      "context": "is 160,000 tiny cells, each chalk or black, and the thin"
-    },
-    {
-      "time_ms": 18640,
+      "time_ms": 17680,
       "end_ms": 19120,
-      "line": 97,
-      "target": "hairline",
-      "context": "black, and the thin vertical hairline marks where the outside push"
+      "hold_ms": 22560,
+      "line": 333,
+      "line_end": 333,
+      "target": null,
+      "context": "each chalk or black, and the thin vertical hairline marks where the outside push"
     },
     {
-      "time_ms": 36960,
+      "time_ms": 34960,
       "end_ms": 37760,
-      "line": 81,
+      "hold_ms": 43253,
+      "line": 138,
+      "line_end": 138,
       "target": "grudge",
-      "context": "carries a fixed number called grudge, set once and never changed,"
+      "context": "not error. In the code, each cell carries a fixed number called grudge, set once and never changed,"
     },
     {
-      "time_ms": 44200,
+      "time_ms": 37840,
+      "end_ms": 39840,
+      "hold_ms": 43253,
+      "line": 81,
+      "line_end": 81,
+      "target": null,
+      "context": "a fixed number called grudge, set once and never changed, a private stubbornness that makes"
+    },
+    {
+      "time_ms": 43307,
       "end_ms": 44720,
+      "hold_ms": 50680,
       "line": 218,
+      "line_end": 241,
       "target": "relent",
-      "context": "its side. A function called relent lets one cell's flip tip"
+      "context": "makes it hold its side. A function called relent lets one cell's flip tip"
     },
     {
-      "time_ms": 55600,
+      "time_ms": 47520,
+      "end_ms": 50680,
+      "hold_ms": 50680,
+      "line": 215,
+      "line_end": 216,
+      "target": null,
+      "context": "flip tip its neighbors, so a whole region collapses within a single frame. Each collapse lights pale blue,"
+    },
+    {
+      "time_ms": 54613,
       "end_ms": 57040,
+      "hold_ms": 57040,
       "line": 245,
+      "line_end": 251,
       "target": "markBursts",
-      "context": "size, in a function called markBursts. When you see the hairline"
-    },
-    {
-      "time_ms": 57720,
-      "end_ms": 58080,
-      "line": 97,
-      "target": "hairline",
-      "context": "markBursts. When you see the hairline pass over cream that stays"
+      "context": "time set by its size, in a function called markBursts. When you see the hairline"
     }
   ]
 }

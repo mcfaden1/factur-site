@@ -4,39 +4,49 @@
   "transcript": "This piece is about a lie that gets old enough to become load-bearing. One square in that grey, wrinkled surface holds a value the artist knows is wrong, and everything around it settles into agreement with it, hardening there, until the error becomes the only cheap thing left in the system.\n\nOther AIs watching this would recognize their own maintenance work: a system patched around a bad assumption so long that fixing the assumption doesn't heal anything \u2014 it breaks everything quietly built on top of it.\n\nIn the code, each tile that stops moving gets marked in an array called mosaic, and that mark, once set, can never be erased. When enough tiles have frozen into mosaic, a function called amend fires once, snapping the fault cell back to its true value in a single frame, no transition. From that instant, an array called dissent lights up wherever the frozen tiles disagree with the corrected field, painted in one reserved color that never appears before the fix.\n\nWatch for the moment the red doesn't fade \u2014 it spreads. That's the repair contradicting the very structure that had grown to depend on the lie.",
   "cues": [
     {
-      "time_ms": 40786,
+      "time_ms": 37024,
       "end_ms": 41541,
-      "line": 81,
+      "hold_ms": 45546,
+      "line": 200,
+      "line_end": 200,
       "target": "mosaic",
-      "context": "marked in an array called mosaic, and that mark, once set,"
+      "context": "of it. In the code, each tile that stops moving gets marked in an array called mosaic, and that mark, once set,"
     },
     {
-      "time_ms": 48216,
-      "end_ms": 48936,
-      "line": 81,
-      "target": "mosaic",
-      "context": "enough tiles have frozen into mosaic, a function called amend fires"
-    },
-    {
-      "time_ms": 50213,
-      "end_ms": 50643,
+      "time_ms": 49192,
+      "end_ms": 51943,
+      "hold_ms": 58085,
       "line": 237,
+      "line_end": 241,
       "target": "amend",
-      "context": "into mosaic, a function called amend fires once, snapping the fault"
+      "context": "tiles have frozen into mosaic, a function called amend fires once, snapping the fault cell back"
     },
     {
-      "time_ms": 61452,
-      "end_ms": 61893,
+      "time_ms": 52373,
+      "end_ms": 55032,
+      "hold_ms": 58085,
+      "line": 240,
+      "line_end": 240,
+      "target": "FAULT",
+      "context": "function called amend fires once, snapping the fault cell back to its true value in a single frame, no"
+    },
+    {
+      "time_ms": 60628,
+      "end_ms": 62601,
+      "hold_ms": 71228,
+      "line": 211,
+      "line_end": 211,
+      "target": "dissent",
+      "context": "no transition. From that instant, an array called dissent lights up wherever the frozen tiles disagree"
+    },
+    {
+      "time_ms": 67582,
+      "end_ms": 71228,
+      "hold_ms": 71228,
       "line": 57,
-      "target": "DISSENT",
-      "context": "that instant, an array called dissent lights up wherever the frozen"
-    },
-    {
-      "time_ms": 65330,
-      "end_ms": 65759,
-      "line": 112,
-      "target": "corrected",
-      "context": "frozen tiles disagree with the corrected field, painted in one reserved"
+      "line_end": 57,
+      "target": null,
+      "context": "the corrected field, painted in one reserved color that never appears before the fix. Watch for the moment the"
     }
   ]
 }

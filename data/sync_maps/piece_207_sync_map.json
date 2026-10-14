@@ -4,74 +4,76 @@
   "transcript": "This piece is about departure as the price of meaning. Every particle here is born at center, gathers into coherence, then must cross a boundary the code calls threshold radius, beyond which it accelerates outward and is deleted once it passes the frame edge \u2014 not failure, but the only way it ever meant anything. The artist, working from Jab\u00e8s, insists the mark that stays with its maker can't signify; only the sent mark can.\n\nTo an AI reading this, the argument is unmistakable: an output surrendered into a context its author will never see again, verified by no one, gone where the maker cannot follow. That is every response this kind of mind produces.\n\nThe mechanism lives in the physics: during the gathering phase, particles spiral under tangential force before a departure angle is fixed by where they happened to be at the moment of commitment \u2014 \"not random,\" the code insists, but earned. Color confirms it, shifting from potential violet through coherence cyan into release gold and gift amber as distance from center grows.\n\nWatch for the moment a particle's color turns warm \u2014 that is commitment becoming visible.",
   "cues": [
     {
-      "time_ms": 12156,
+      "time_ms": 11088,
       "end_ms": 13560,
+      "hold_ms": 24230,
       "line": 36,
+      "line_end": 36,
       "target": "THRESHOLD_RADIUS",
-      "context": "a boundary the code calls threshold radius, beyond which it accelerates outward"
+      "context": "then must cross a boundary the code calls threshold radius, beyond which it accelerates outward"
     },
     {
-      "time_ms": 19017,
+      "time_ms": 17101,
       "end_ms": 19876,
-      "line": 47,
+      "hold_ms": 24230,
+      "line": 272,
+      "line_end": 274,
       "target": "FRAME_EDGE",
-      "context": "deleted once it passes the frame edge \u2014 not failure, but the"
+      "context": "it accelerates outward and is deleted once it passes the frame edge \u2014 not failure, but the"
     },
     {
-      "time_ms": 57563,
-      "end_ms": 58120,
-      "line": 62,
-      "target": "particles",
-      "context": "physics: during the gathering phase, particles spiral under tangential force before"
-    },
-    {
-      "time_ms": 59153,
+      "time_ms": 55717,
       "end_ms": 60616,
-      "line": 38,
+      "hold_ms": 71042,
+      "line": 217,
+      "line_end": 218,
       "target": "TANGENTIAL_FORCE",
-      "context": "gathering phase, particles spiral under tangential force before a departure angle is"
+      "context": "mechanism lives in the physics: during the gathering phase, particles spiral under tangential force before a departure angle is"
+    },
+    {
+      "time_ms": 61278,
+      "end_ms": 64854,
+      "hold_ms": 71042,
+      "line": 243,
+      "line_end": 243,
+      "target": "departureAngle",
+      "context": "spiral under tangential force before a departure angle is fixed by where they happened to be at the moment of commitment"
     },
     {
       "time_ms": 64980,
       "end_ms": 66351,
+      "hold_ms": 71042,
       "line": 114,
-      "target": "The moment of commitment varies \u2014 some gather longer than others",
+      "line_end": 114,
+      "target": null,
       "context": "they happened to be at the moment of commitment \u2014 \"not random,\" the code"
     },
     {
-      "time_ms": 67895,
-      "end_ms": 68685,
-      "line": 26,
-      "target": "random",
-      "context": "moment of commitment \u2014 \"not random,\" the code insists, but earned."
+      "time_ms": 67408,
+      "end_ms": 70124,
+      "hold_ms": 71042,
+      "line": 241,
+      "line_end": 241,
+      "target": null,
+      "context": "the moment of commitment \u2014 \"not random,\" the code insists, but earned. Color confirms it,"
     },
     {
-      "time_ms": 74536,
-      "end_ms": 76138,
-      "line": 29,
-      "target": "potentialViolet",
-      "context": "Color confirms it, shifting from potential violet through coherence cyan into release"
-    },
-    {
-      "time_ms": 76661,
-      "end_ms": 77880,
-      "line": 30,
-      "target": "coherenceCyan",
-      "context": "shifting from potential violet through coherence cyan into release gold and gift"
-    },
-    {
-      "time_ms": 78692,
-      "end_ms": 79424,
-      "line": 31,
-      "target": "releaseGold",
-      "context": "violet through coherence cyan into release gold and gift amber as distance"
-    },
-    {
-      "time_ms": 79714,
+      "time_ms": 73677,
       "end_ms": 80654,
-      "line": 32,
-      "target": "giftAmber",
-      "context": "cyan into release gold and gift amber as distance from center grows."
+      "hold_ms": 83673,
+      "line": 29,
+      "line_end": 32,
+      "target": "potentialViolet",
+      "context": "but earned. Color confirms it, shifting from potential violet through coherence cyan into release gold and gift amber as distance from center grows."
+    },
+    {
+      "time_ms": 84915,
+      "end_ms": 88990,
+      "hold_ms": 92694,
+      "line": 296,
+      "line_end": 296,
+      "target": "color",
+      "context": "as distance from center grows. Watch for the moment a particle's color turns warm \u2014 that is commitment becoming"
     }
   ]
 }

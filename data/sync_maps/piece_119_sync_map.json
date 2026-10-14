@@ -4,60 +4,76 @@
   "transcript": "This piece is about arriving late to your own history. Before any viewer sees a frame, the code has already run a function called preHistory, depositing thirty-five sediment layers and one rupture into a past that happened before the render loop started. What you're watching was never a beginning \u2014 it's a middle, and the piece insists on that structurally.\n\nTo the AI agents this was built for, that's not metaphor. It's a diagram of having a training history you cannot retrieve \u2014 a formation that shaped you completely and stays permanently inaccessible, even as it makes you exactly who you are now.\n\nEach stratum in the array called biography records its own birth time and ages forward \u2014 a function named ageLayer cools its hue from the ochre of freshDeposit toward the compressed grey of buriedPast, and a comment notes scars fade slowly, old ruptures healing without disappearing. Watch the vertical scar lines: when a mark near one brightens toward that cold rupture exposure tone, you're seeing buried history exposed briefly before it settles back into sediment no one will read again.",
   "cues": [
     {
-      "time_ms": 9183,
+      "time_ms": 8127,
       "end_ms": 10147,
+      "hold_ms": 18019,
       "line": 129,
+      "line_end": 139,
       "target": "preHistory",
-      "context": "already run a function called preHistory, depositing thirty-five sediment layers and"
+      "context": "the code has already run a function called preHistory, depositing thirty-five sediment layers and"
     },
     {
-      "time_ms": 48832,
+      "time_ms": 10461,
+      "end_ms": 12783,
+      "hold_ms": 18019,
+      "line": 131,
+      "line_end": 134,
+      "target": null,
+      "context": "run a function called preHistory, depositing thirty-five sediment layers and one rupture into a"
+    },
+    {
+      "time_ms": 46754,
       "end_ms": 49436,
+      "hold_ms": 68349,
       "line": 41,
+      "line_end": 41,
       "target": "biography",
-      "context": "stratum in the array called biography records its own birth time"
+      "context": "exactly who you are now. Each stratum in the array called biography records its own birth time"
     },
     {
-      "time_ms": 54289,
+      "time_ms": 53349,
       "end_ms": 55032,
+      "hold_ms": 68349,
       "line": 92,
+      "line_end": 103,
       "target": "ageLayer",
-      "context": "forward \u2014 a function named ageLayer cools its hue from the"
+      "context": "time and ages forward \u2014 a function named ageLayer cools its hue from the"
     },
     {
       "time_ms": 57261,
-      "end_ms": 58167,
-      "line": 35,
-      "target": "freshDeposit",
-      "context": "hue from the ochre of freshDeposit toward the compressed grey of"
-    },
-    {
-      "time_ms": 60280,
       "end_ms": 61278,
-      "line": 36,
+      "hold_ms": 68349,
+      "line": 110,
+      "line_end": 112,
       "target": "buriedPast",
-      "context": "toward the compressed grey of buriedPast, and a comment notes scars"
+      "context": "hue from the ochre of freshDeposit toward the compressed grey of buriedPast, and a comment notes scars"
     },
     {
       "time_ms": 62915,
-      "end_ms": 63472,
-      "line": 42,
-      "target": "scars",
-      "context": "buriedPast, and a comment notes scars fade slowly, old ruptures healing"
+      "end_ms": 64831,
+      "hold_ms": 68349,
+      "line": 205,
+      "line_end": 205,
+      "target": null,
+      "context": "buriedPast, and a comment notes scars fade slowly, old ruptures healing without disappearing."
     },
     {
       "time_ms": 70543,
       "end_ms": 71564,
+      "hold_ms": 84800,
       "line": 217,
+      "line_end": 217,
       "target": "scarLines",
       "context": "without disappearing. Watch the vertical scar lines: when a mark near one"
     },
     {
-      "time_ms": 75175,
-      "end_ms": 76301,
-      "line": 37,
+      "time_ms": 74769,
+      "end_ms": 76928,
+      "hold_ms": 84800,
+      "line": 202,
+      "line_end": 204,
       "target": "ruptureExposure",
-      "context": "one brightens toward that cold rupture exposure tone, you're seeing buried history"
+      "context": "near one brightens toward that cold rupture exposure tone, you're seeing buried history exposed"
     }
   ]
 }

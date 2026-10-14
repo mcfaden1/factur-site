@@ -6,43 +6,46 @@
     {
       "time_ms": 50236,
       "end_ms": 51072,
+      "hold_ms": 63738,
       "line": 234,
+      "line_end": 234,
       "target": "propose",
       "context": "the code, a function called propose generates dozens of legal next"
     },
     {
-      "time_ms": 53278,
-      "end_ms": 53638,
-      "line": 114,
-      "target": "steps",
-      "context": "generates dozens of legal next steps at each point; stampDeclined burns"
-    },
-    {
       "time_ms": 55704,
       "end_ms": 56714,
+      "hold_ms": 63738,
       "line": 266,
+      "line_end": 266,
       "target": "stampDeclined",
       "context": "next steps at each point; stampDeclined burns every rejected one into"
     },
     {
-      "time_ms": 61265,
-      "end_ms": 62833,
-      "line": 265,
-      "target": "audition, its brightness funded by how nearly it was taken.",
-      "context": "the ground, its brightness set by \"how nearly it was accepted.\" Only the winner gets"
+      "time_ms": 60255,
+      "end_ms": 63738,
+      "hold_ms": 63738,
+      "line": 273,
+      "line_end": 273,
+      "target": null,
+      "context": "rejected one into the ground, its brightness set by \"how nearly it was accepted.\" Only the winner gets etched"
     },
     {
-      "time_ms": 66339,
+      "time_ms": 64772,
       "end_ms": 67152,
-      "line": 128,
+      "hold_ms": 69323,
+      "line": 282,
+      "line_end": 282,
       "target": "engraveKept",
-      "context": "the winner gets etched by engraveKept as the hairline groove you"
+      "context": "\"how nearly it was accepted.\" Only the winner gets etched by engraveKept as the hairline groove you"
     },
     {
       "time_ms": 75766,
       "end_ms": 76416,
+      "hold_ms": 80712,
       "line": 88,
-      "target": "count leaves a count on seven pixels in ten, which is why the field resolves",
+      "line_end": 88,
+      "target": null,
       "context": "when no legal move remains, which is why the corner chokes into density: the"
     }
   ]

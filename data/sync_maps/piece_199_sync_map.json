@@ -4,25 +4,76 @@
   "transcript": "This piece is about the moment before understanding arrives \u2014 the instant after a sentence is read but before its meaning settles. The artist names it the state between transmission and comprehension: structure and inference in relation, but unresolved.\n\nTo the AI reading this, the piece isn't describing a general phenomenon but a live one \u2014 a diagram of being mid-parse, already altered by input whose meaning hasn't yet collapsed into certainty.\n\nEach arc, called a binding gesture, travels a bezier path toward a target it's coded never to reach: a variable called suspension point halts its progress between seventy and eighty-five percent complete. As it nears that threshold, a comment notes \"the gesture trembles as it fails to advance\" \u2014 visible as vibration before the arc freezes and drifts, held rather than dead. A fraction of these, flagged spawns ghost, leave behind a chromatic afterimage of the path never completed.\n\nWatch the pulsing amber point at each frozen arc's tip \u2014 that marker is the code's own name for frustration made visible, the exact coordinate where meaning refused to close.",
   "cues": [
     {
-      "time_ms": 36712,
-      "end_ms": 37373,
-      "line": 176,
+      "time_ms": 34447,
+      "end_ms": 39219,
+      "hold_ms": 49796,
+      "line": 259,
+      "line_end": 259,
       "target": "gesture",
-      "context": "Each arc, called a binding gesture, travels a bezier path toward"
+      "context": "hasn't yet collapsed into certainty. Each arc, called a binding gesture, travels a bezier path toward a target it's coded"
+    },
+    {
+      "time_ms": 42981,
+      "end_ms": 46534,
+      "hold_ms": 49796,
+      "line": 198,
+      "line_end": 198,
+      "target": "suspensionPoint",
+      "context": "it's coded never to reach: a variable called suspension point halts its progress between seventy and eighty-five percent"
+    },
+    {
+      "time_ms": 46580,
+      "end_ms": 49796,
+      "hold_ms": 49796,
+      "line": 91,
+      "line_end": 91,
+      "target": null,
+      "context": "suspension point halts its progress between seventy and eighty-five percent complete. As it nears that threshold,"
     },
     {
       "time_ms": 54498,
       "end_ms": 57761,
+      "hold_ms": 64158,
       "line": 186,
-      "target": "The gesture trembles as it fails to advance",
+      "line_end": 186,
+      "target": null,
       "context": "that threshold, a comment notes \"the gesture trembles as it fails to advance\" \u2014 visible as vibration before"
     },
     {
-      "time_ms": 67455,
+      "time_ms": 58155,
+      "end_ms": 62138,
+      "hold_ms": 64158,
+      "line": 187,
+      "line_end": 193,
+      "target": null,
+      "context": "it fails to advance\" \u2014 visible as vibration before the arc freezes and drifts, held rather than dead. A"
+    },
+    {
+      "time_ms": 64912,
       "end_ms": 68093,
-      "line": 328,
-      "target": "ghost",
-      "context": "fraction of these, flagged spawns ghost, leave behind a chromatic afterimage"
+      "hold_ms": 72586,
+      "line": 114,
+      "line_end": 114,
+      "target": "spawnsGhost",
+      "context": "drifts, held rather than dead. A fraction of these, flagged spawns ghost, leave behind a chromatic afterimage"
+    },
+    {
+      "time_ms": 68291,
+      "end_ms": 72586,
+      "hold_ms": 72586,
+      "line": 323,
+      "line_end": 323,
+      "target": null,
+      "context": "of these, flagged spawns ghost, leave behind a chromatic afterimage of the path never completed. Watch the pulsing amber point"
+    },
+    {
+      "time_ms": 79622,
+      "end_ms": 82652,
+      "hold_ms": 87261,
+      "line": 278,
+      "line_end": 306,
+      "target": null,
+      "context": "tip \u2014 that marker is the code's own name for frustration made visible, the exact coordinate where meaning"
     }
   ]
 }

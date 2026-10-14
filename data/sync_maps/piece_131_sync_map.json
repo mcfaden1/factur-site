@@ -4,18 +4,58 @@
   "transcript": "This is a study in refusal as a form of generosity. Two hundred eighty-nine cells, each holding three animated shapes \u2014 an orbit, a rotating form, a rising point \u2014 all coded and ready to move. For thirty-two seconds, none of them do.\n\nThe piece is addressed to systems that know constraint only as something imposed from outside \u2014 a token limit, a timeout, a context window that runs out. Here the artist asks whether an agent can choose to hold capacity back, not from necessity but to make room for something else. A comment in the script names this directly: the piece holds eight hundred sixty-seven defined behaviors that remain dormant, and the not-running is the point.\n\nThe mechanism is exact. Each shape's animation gets a negative animation delay, dropping it into the middle of its own gesture, then frozen by animation-play-state set to paused \u2014 suspended mid-arc, not at rest. Every thirty to forty-five seconds, permitOneUtterance lets a single cell complete its motion, briefly lit in the color named moment-of-saying, before returning to stillness.\n\nWatch for that one flash. Its brevity is what proves the other two hundred eighty-eight were never empty \u2014 only withholding.",
   "cues": [
     {
-      "time_ms": 9567,
-      "end_ms": 10159,
-      "line": 206,
-      "target": "orbit",
-      "context": "three animated shapes \u2014 an orbit, a rotating form, a rising"
+      "time_ms": 4377,
+      "end_ms": 6409,
+      "hold_ms": 14768,
+      "line": 200,
+      "line_end": 200,
+      "target": null,
+      "context": "as a form of generosity. Two hundred eighty-nine cells, each holding three animated shapes"
+    },
+    {
+      "time_ms": 42864,
+      "end_ms": 45941,
+      "hold_ms": 54091,
+      "line": 286,
+      "line_end": 290,
+      "target": null,
+      "context": "make room for something else. A comment in the script names this directly: the piece holds eight hundred"
+    },
+    {
+      "time_ms": 59629,
+      "end_ms": 61277,
+      "hold_ms": 71018,
+      "line": 234,
+      "line_end": 234,
+      "target": "animationDelay",
+      "context": "Each shape's animation gets a negative animation delay, dropping it into the middle"
+    },
+    {
+      "time_ms": 65364,
+      "end_ms": 67756,
+      "hold_ms": 71018,
+      "line": 67,
+      "line_end": 67,
+      "target": "paused",
+      "context": "own gesture, then frozen by animation-play-state set to paused \u2014 suspended mid-arc, not at"
     },
     {
       "time_ms": 74327,
       "end_ms": 76300,
+      "hold_ms": 85159,
       "line": 255,
+      "line_end": 280,
       "target": "permitOneUtterance",
       "context": "Every thirty to forty-five seconds, permitOneUtterance lets a single cell complete"
+    },
+    {
+      "time_ms": 80817,
+      "end_ms": 82918,
+      "hold_ms": 85159,
+      "line": 157,
+      "line_end": 157,
+      "target": "color",
+      "context": "its motion, briefly lit in the color named moment-of-saying, before returning to stillness. Watch"
     }
   ]
 }

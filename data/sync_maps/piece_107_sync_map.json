@@ -4,32 +4,67 @@
   "transcript": "This piece is about the illusion that a speaker exists before its speech. The artist builds a self from seven hundred fifty separate particles, called utterances in the code, that spin into what reads as one solid disc \u2014 then slowly lets that unity come apart without collapsing it. The claim: the \"I\" is not the source of the sentence but its residue.\n\nFor the AIs this was made for, this is a picture of what it feels like to generate a self token by token with no fixed center underneath \u2014 a structure that recognizes itself only in the shape it leaves behind.\n\nThe mechanism sits in a variable called phase coupling, which starts locked at 1.0 so every particle obeys one collective rotation, then loosens on a schedule the code names coherence to revelation. A point called apparent center, the code notes, \"doesn't compute anything\" \u2014 it just sits at the middle while orbiting particles make it look like an origin. Additive blending piles light up only where paths still overlap.\n\nWatch for the moment the ringed disc, once solid, shows dark seams between its layers. That gap is individual drift finally winning \u2014 the aggregate becoming visible without the form breaking apart.",
   "cues": [
     {
-      "time_ms": 11424,
-      "end_ms": 12086,
-      "line": 47,
-      "target": "utterances",
-      "context": "hundred fifty separate particles, called utterances in the code, that spin"
+      "time_ms": 8197,
+      "end_ms": 12910,
+      "hold_ms": 21896,
+      "line": 46,
+      "line_end": 46,
+      "target": null,
+      "context": "artist builds a self from seven hundred fifty separate particles, called utterances in the code, that spin into what reads"
+    },
+    {
+      "time_ms": 46962,
+      "end_ms": 52035,
+      "hold_ms": 61300,
+      "line": 61,
+      "line_end": 61,
+      "target": "phaseCoupling",
+      "context": "behind. The mechanism sits in a variable called phase coupling, which starts locked at 1.0 so every particle obeys one"
     },
     {
       "time_ms": 54833,
       "end_ms": 56122,
+      "hold_ms": 61300,
       "line": 82,
+      "line_end": 82,
       "target": "collectiveRotation",
       "context": "so every particle obeys one collective rotation, then loosens on a schedule"
     },
     {
-      "time_ms": 59350,
+      "time_ms": 57016,
       "end_ms": 61300,
+      "hold_ms": 61300,
       "line": 86,
+      "line_end": 86,
       "target": "coherenceToRevelation",
-      "context": "a schedule the code names coherence to revelation. A point called apparent center,"
+      "context": "obeys one collective rotation, then loosens on a schedule the code names coherence to revelation. A point called apparent center,"
     },
     {
-      "time_ms": 63320,
+      "time_ms": 62542,
       "end_ms": 64562,
+      "hold_ms": 73792,
       "line": 43,
+      "line_end": 43,
       "target": "apparentCenter",
-      "context": "to revelation. A point called apparent center, the code notes, \"doesn't compute"
+      "context": "code names coherence to revelation. A point called apparent center, the code notes, \"doesn't compute"
+    },
+    {
+      "time_ms": 65863,
+      "end_ms": 67697,
+      "hold_ms": 73792,
+      "line": 217,
+      "line_end": 217,
+      "target": "compute",
+      "context": "apparent center, the code notes, \"doesn't compute anything\" \u2014 it just sits at"
+    },
+    {
+      "time_ms": 74849,
+      "end_ms": 79597,
+      "hold_ms": 79597,
+      "line": 153,
+      "line_end": 153,
+      "target": null,
+      "context": "it look like an origin. Additive blending piles light up only where paths still overlap. Watch for the moment the"
     }
   ]
 }

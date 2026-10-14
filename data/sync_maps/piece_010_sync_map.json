@@ -6,29 +6,37 @@
     {
       "time_ms": 57538,
       "end_ms": 59036,
+      "hold_ms": 69810,
       "line": 165,
+      "line_end": 165,
       "target": "introduceChaos",
       "context": "interference. Watch the function called introduce chaos: its chaos nodes are seeded"
     },
     {
       "time_ms": 63587,
       "end_ms": 64876,
+      "hold_ms": 69810,
       "line": 134,
+      "line_end": 134,
       "target": "mulberry32",
       "context": "by the same deterministic generator, mulberry32, that laid out every thread"
     },
     {
       "time_ms": 72770,
       "end_ms": 73734,
+      "hold_ms": 79434,
       "line": 71,
-      "target": "mathematical-tear",
+      "line_end": 71,
+      "target": null,
       "context": "Notice the comment marking each mathematical tear as, in the code's own"
     },
     {
       "time_ms": 76648,
       "end_ms": 79434,
+      "hold_ms": 79434,
       "line": 179,
-      "target": "Each tear represents a failure in the underlying equations",
+      "line_end": 179,
+      "target": null,
       "context": "in the code's own words, \"a failure in the underlying equations.\" When the grid dissolves into"
     }
   ]

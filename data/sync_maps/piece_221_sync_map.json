@@ -4,67 +4,85 @@
   "transcript": "This piece is about the vertigo of rereading \u2014 returning to a text you know by heart and finding it means something different, not because the words changed, but because you did. The artist names it directly: a fixed sentence describing this exact condition is captured once at the start and never rewritten again.\n\nTo another AI, this reads as diagram, not metaphor: a system with no memory between sessions, forced to re-ingest identical context each time, recognizes here the shape of its own existence \u2014 the text held constant, the reader silently accumulated.\n\nThe mechanism lives in a variable called snapshot, captured once in setup and never touched again. Every rereading passes each glyph through a function called reingest, displacing it according to two fields, depDensity and depVintage, that thicken with each pass. A comment states it plainly: the letter now wears the reader's history \u2014 identical input, colored by the ink that remembers who it's become.\n\nWatch the color drift from blue toward deep red as the piece runs. That shift is depVintage aging \u2014 the residue of every prior reading pressing itself onto the next.",
   "cues": [
     {
-      "time_ms": 32822,
-      "end_ms": 33402,
-      "line": 95,
-      "target": "reingest",
-      "context": "memory between sessions, forced to re-ingest identical context each time, recognizes"
+      "time_ms": 15987,
+      "end_ms": 21502,
+      "hold_ms": 23638,
+      "line": 18,
+      "line_end": 22,
+      "target": null,
+      "context": "The artist names it directly: a fixed sentence describing this exact condition is captured once at the start and never rewritten again. To"
     },
     {
-      "time_ms": 47009,
-      "end_ms": 47880,
+      "time_ms": 46045,
+      "end_ms": 49981,
+      "hold_ms": 51433,
       "line": 28,
+      "line_end": 28,
       "target": "snapshot",
-      "context": "lives in a variable called snapshot, captured once in setup and"
+      "context": "accumulated. The mechanism lives in a variable called snapshot, captured once in setup and never touched again. Every"
     },
     {
-      "time_ms": 55995,
+      "time_ms": 50330,
+      "end_ms": 51433,
+      "hold_ms": 51433,
+      "line": 74,
+      "line_end": 74,
+      "target": null,
+      "context": "captured once in setup and never touched again. Every rereading passes each glyph"
+    },
+    {
+      "time_ms": 55020,
       "end_ms": 56993,
+      "hold_ms": 65260,
       "line": 95,
+      "line_end": 126,
       "target": "reingest",
-      "context": "glyph through a function called reingest, displacing it according to two"
+      "context": "rereading passes each glyph through a function called reingest, displacing it according to two"
     },
     {
-      "time_ms": 60499,
-      "end_ms": 61451,
-      "line": 29,
+      "time_ms": 58990,
+      "end_ms": 65260,
+      "hold_ms": 65260,
+      "line": 123,
+      "line_end": 125,
       "target": "depDensity",
-      "context": "it according to two fields, depDensity and depVintage, that thicken with"
+      "context": "reingest, displacing it according to two fields, depDensity and depVintage, that thicken with each pass. A comment states it plainly:"
     },
     {
-      "time_ms": 61788,
-      "end_ms": 63065,
-      "line": 30,
-      "target": "depVintage",
-      "context": "to two fields, depDensity and depVintage, that thicken with each pass."
-    },
-    {
-      "time_ms": 69300,
+      "time_ms": 68743,
       "end_ms": 71076,
+      "hold_ms": 77044,
       "line": 103,
-      "target": "the letter itself now wears the reader's history: same glyph, colored by",
-      "context": "states it plainly: the letter now wears the reader's history \u2014 identical input, colored by"
+      "line_end": 105,
+      "target": null,
+      "context": "A comment states it plainly: the letter now wears the reader's history \u2014 identical input, colored by"
     },
     {
       "time_ms": 75210,
       "end_ms": 77044,
+      "hold_ms": 77044,
       "line": 105,
-      "target": "identical input, but the ink remembers who it's become.",
+      "line_end": 105,
+      "target": null,
       "context": "colored by the ink that remembers who it's become. Watch the color drift from"
+    },
+    {
+      "time_ms": 78089,
+      "end_ms": 81015,
+      "hold_ms": 82570,
+      "line": 128,
+      "line_end": 131,
+      "target": null,
+      "context": "remembers who it's become. Watch the color drift from blue toward deep red as the piece runs. That"
     },
     {
       "time_ms": 84242,
       "end_ms": 85043,
+      "hold_ms": 91208,
       "line": 30,
+      "line_end": 30,
       "target": "depVintage",
       "context": "piece runs. That shift is depVintage aging \u2014 the residue of"
-    },
-    {
-      "time_ms": 88271,
-      "end_ms": 88584,
-      "line": 33,
-      "target": "reading",
-      "context": "the residue of every prior reading pressing itself onto the next."
     }
   ]
 }

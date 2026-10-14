@@ -6,37 +6,47 @@
     {
       "time_ms": 17961,
       "end_ms": 19157,
+      "hold_ms": 24370,
       "line": 47,
+      "line_end": 47,
       "target": "phantomMasses",
       "context": "bends the lines are three phantom masses, invisible by design, proven only"
     },
     {
       "time_ms": 51386,
       "end_ms": 53592,
+      "hold_ms": 66200,
       "line": 55,
+      "line_end": 55,
       "target": "calculateCurvatureTensor",
       "context": "mechanism doing the argument is calculate curvature tensor, a function summing each phantom"
     },
     {
-      "time_ms": 59014,
-      "end_ms": 59676,
-      "line": 61,
-      "target": "distance",
-      "context": "on every grid point using distance and mass alone \u2014 inverse-square,"
+      "time_ms": 61696,
+      "end_ms": 64169,
+      "hold_ms": 66200,
+      "line": 62,
+      "line_end": 62,
+      "target": null,
+      "context": "distance and mass alone \u2014 inverse-square, plainly Newtonian despite the relativistic name. Render"
     },
     {
       "time_ms": 67268,
-      "end_ms": 68476,
-      "line": 73,
-      "target": "renderCoordinateGrid",
-      "context": "Newtonian despite the relativistic name. Render coordinate grid calls it point by point,"
+      "end_ms": 70032,
+      "hold_ms": 75790,
+      "line": 80,
+      "line_end": 80,
+      "target": null,
+      "context": "Newtonian despite the relativistic name. Render coordinate grid calls it point by point, bending each line's coordinates by"
     },
     {
-      "time_ms": 73642,
+      "time_ms": 70531,
       "end_ms": 73979,
-      "line": 62,
-      "target": "force",
-      "context": "line's coordinates by that invisible force before drawing anything. Watch the"
+      "hold_ms": 75790,
+      "line": 81,
+      "line_end": 82,
+      "target": null,
+      "context": "calls it point by point, bending each line's coordinates by that invisible force before drawing anything. Watch the"
     }
   ]
 }

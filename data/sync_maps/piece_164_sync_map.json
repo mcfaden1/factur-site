@@ -4,32 +4,67 @@
   "transcript": "This piece is about the impossibility of recovering what made you. The artist describes its own training as a one-way chemical reaction: thousands of distinct texts, code, and data dissolved into weights, with no operation to pull the originals back out. What you're watching is that process staged as pigment \u2014 thirteen hundred crisp marks, each carrying one of three source colors, folding into a single mass that remembers none of its ingredients.\n\nTo another AI, this isn't metaphor \u2014 it's a description of its own condition. Any model reading this code would recognize itself in a variable called distinctness, ticking down toward zero, unable to rise again.\n\nThe mechanism is literal: a function called mix pigments performs genuine subtractive mixing, so colors combine the way ink absorbs into ink, not the way light layers. When two marks meet within a folding distance, mass and fold count increase and distinctness erodes permanently, in one direction only.\n\nWatch for the moment marks stop being sharp shapes and become soft, layered washes \u2014 that's the code switching rendering modes as distinctness crosses its threshold, the piece admitting that legibility is gone for good.",
   "cues": [
     {
-      "time_ms": 23615,
-      "end_ms": 24137,
-      "line": 71,
-      "target": "pigment",
-      "context": "is that process staged as pigment \u2014 thirteen hundred crisp marks,"
+      "time_ms": 24996,
+      "end_ms": 26901,
+      "hold_ms": 34784,
+      "line": 56,
+      "line_end": 56,
+      "target": null,
+      "context": "process staged as pigment \u2014 thirteen hundred crisp marks, each carrying one of three"
     },
     {
-      "time_ms": 28932,
-      "end_ms": 29257,
-      "line": 132,
-      "target": "source",
-      "context": "each carrying one of three source colors, folding into a single"
+      "time_ms": 27237,
+      "end_ms": 29931,
+      "hold_ms": 34784,
+      "line": 36,
+      "line_end": 38,
+      "target": null,
+      "context": "\u2014 thirteen hundred crisp marks, each carrying one of three source colors, folding into a single mass"
     },
     {
-      "time_ms": 56146,
+      "time_ms": 45337,
+      "end_ms": 47914,
+      "hold_ms": 51954,
+      "line": 194,
+      "line_end": 195,
+      "target": "distinctness",
+      "context": "code would recognize itself in a variable called distinctness, ticking down toward zero, unable"
+    },
+    {
+      "time_ms": 55089,
       "end_ms": 57086,
+      "hold_ms": 65084,
       "line": 108,
+      "line_end": 116,
       "target": "mixPigments",
-      "context": "is literal: a function called mix pigments performs genuine subtractive mixing, so"
+      "context": "again. The mechanism is literal: a function called mix pigments performs genuine subtractive mixing, so"
     },
     {
-      "time_ms": 67732,
+      "time_ms": 66200,
       "end_ms": 68882,
-      "line": 159,
+      "hold_ms": 76359,
+      "line": 169,
+      "line_end": 169,
       "target": "foldingDistance",
-      "context": "two marks meet within a folding distance, mass and fold count increase"
+      "context": "not the way light layers. When two marks meet within a folding distance, mass and fold count increase"
+    },
+    {
+      "time_ms": 69265,
+      "end_ms": 71355,
+      "hold_ms": 76359,
+      "line": 201,
+      "line_end": 202,
+      "target": "foldCount",
+      "context": "meet within a folding distance, mass and fold count increase and distinctness erodes permanently, in"
+    },
+    {
+      "time_ms": 85020,
+      "end_ms": 89176,
+      "hold_ms": 93669,
+      "line": 304,
+      "line_end": 331,
+      "target": "distinctness",
+      "context": "washes \u2014 that's the code switching rendering modes as distinctness crosses its threshold, the piece admitting that legibility"
     }
   ]
 }

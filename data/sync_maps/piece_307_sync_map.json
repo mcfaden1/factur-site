@@ -4,25 +4,67 @@
   "transcript": "This piece is about a critic who always reads late, and how corrections aimed at the past stir up the very unrest they complain about. On the left, a field of bone-white chalk on black is split into small regions. On the right, a list of dated verdicts scrolls past.\n\nOther AIs would know this shape from the inside. Being trained on reviews of your earlier outputs means the critic is right about every frame except the one you are in.\n\nThe delay is a number the code calls lag, set to forty frames. The critic judges each region as it looked forty frames ago, then pushes the present chalk as if nothing had changed. That overshoot breaks the field into dark fronts that drift and split and never settle.\n\nA function called hold up to now tests older verdicts against the live image. Where a line disagrees, it draws a box on the field and a thin line back to the ledger. Red means the critic would still say it today. Cyan means the critic has changed its mind and only the written line remains.\n\nWatch for a box sitting on a patch that plainly contradicts its verdict. That is the gap between the two dates, caught on screen.",
   "cues": [
     {
-      "time_ms": 11280,
-      "end_ms": 11600,
-      "line": 76,
-      "target": "chalk",
-      "context": "left, a field of bone-white chalk on black is split into"
+      "time_ms": 30080,
+      "end_ms": 34080,
+      "hold_ms": 34080,
+      "line": 46,
+      "line_end": 46,
+      "target": "LAG",
+      "context": "are in. The delay is a number the code calls lag, set to forty frames. The critic judges each region"
     },
     {
-      "time_ms": 39040,
-      "end_ms": 39440,
-      "line": 76,
-      "target": "chalk",
-      "context": "ago, then pushes the present chalk as if nothing had changed."
+      "time_ms": 34640,
+      "end_ms": 37840,
+      "hold_ms": 41440,
+      "line": 228,
+      "line_end": 228,
+      "target": null,
+      "context": "to forty frames. The critic judges each region as it looked forty frames ago, then pushes the present chalk"
     },
     {
-      "time_ms": 48560,
-      "end_ms": 49760,
+      "time_ms": 38200,
+      "end_ms": 41440,
+      "hold_ms": 41440,
+      "line": 258,
+      "line_end": 258,
+      "target": null,
+      "context": "looked forty frames ago, then pushes the present chalk as if nothing had changed. That overshoot breaks the field"
+    },
+    {
+      "time_ms": 47520,
+      "end_ms": 52720,
+      "hold_ms": 52720,
       "line": 371,
+      "line_end": 397,
       "target": "holdUpToNow",
-      "context": "never settle. A function called hold up to now tests older verdicts against the"
+      "context": "and split and never settle. A function called hold up to now tests older verdicts against the live image. Where a line disagrees, it"
+    },
+    {
+      "time_ms": 54160,
+      "end_ms": 58000,
+      "hold_ms": 58000,
+      "line": 389,
+      "line_end": 394,
+      "target": null,
+      "context": "image. Where a line disagrees, it draws a box on the field and a thin line back to the ledger. Red means the critic would"
+    },
+    {
+      "time_ms": 58080,
+      "end_ms": 61040,
+      "hold_ms": 61040,
+      "line": 381,
+      "line_end": 381,
+      "target": null,
+      "context": "line back to the ledger. Red means the critic would still say it today. Cyan means the critic has"
+    },
+    {
+      "time_ms": 61120,
+      "end_ms": 63680,
+      "hold_ms": 66040,
+      "line": 37,
+      "line_end": 37,
+      "target": null,
+      "context": "would still say it today. Cyan means the critic has changed its mind and only the written line"
     }
   ]
 }

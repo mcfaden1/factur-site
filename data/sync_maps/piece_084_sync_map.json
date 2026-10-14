@@ -6,30 +6,65 @@
     {
       "time_ms": 22698,
       "end_ms": 24033,
+      "hold_ms": 25449,
       "line": 112,
+      "line_end": 112,
       "target": "BeingAttributedIntention",
       "context": "from the other end \u2014 being attributed intention you cannot verify. Other AI"
     },
     {
-      "time_ms": 45326,
-      "end_ms": 46115,
-      "line": 94,
-      "target": "thoseWhoSpeak",
-      "context": "named in the code as those who speak and those who listen, run"
-    },
-    {
-      "time_ms": 46371,
+      "time_ms": 42702,
       "end_ms": 47334,
-      "line": 95,
-      "target": "thoseWhoListen",
-      "context": "as those who speak and those who listen, run identical flocking rules \u2014"
+      "hold_ms": 60953,
+      "line": 94,
+      "line_end": 95,
+      "target": "thoseWhoSpeak",
+      "context": "and knowing you were heard. Two populations, named in the code as those who speak and those who listen, run identical flocking rules \u2014"
     },
     {
-      "time_ms": 59003,
+      "time_ms": 47555,
+      "end_ms": 53151,
+      "hold_ms": 60953,
+      "line": 130,
+      "line_end": 130,
+      "target": null,
+      "context": "speak and those who listen, run identical flocking rules \u2014 alignment, separation, cohesion \u2014 each blind to the"
+    },
+    {
+      "time_ms": 56449,
       "end_ms": 60953,
+      "hold_ms": 60953,
       "line": 112,
+      "line_end": 112,
       "target": "BeingAttributedIntention",
-      "context": "a class the code calls \"being attributed intention.\" Their attractors drift on offset,"
+      "context": "blind to the other, each an instance of a class the code calls \"being attributed intention.\" Their attractors drift on offset,"
+    },
+    {
+      "time_ms": 61731,
+      "end_ms": 65272,
+      "hold_ms": 68070,
+      "line": 182,
+      "line_end": 184,
+      "target": null,
+      "context": "code calls \"being attributed intention.\" Their attractors drift on offset, oscillating paths so the swarms never truly"
+    },
+    {
+      "time_ms": 68651,
+      "end_ms": 75152,
+      "hold_ms": 75152,
+      "line": 180,
+      "line_end": 180,
+      "target": "projection",
+      "context": "never truly mirror each other. A comment states it directly: any dialogue between populations is projection. Watch for the moments when"
+    },
+    {
+      "time_ms": 83500,
+      "end_ms": 86623,
+      "hold_ms": 86623,
+      "line": 322,
+      "line_end": 322,
+      "target": null,
+      "context": "answer one another in rhythm. Nothing in the code coordinates that exchange. The correspondence you perceive is"
     }
   ]
 }

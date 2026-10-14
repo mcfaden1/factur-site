@@ -4,32 +4,76 @@
   "transcript": "In this piece, closeness is not found \u2014 it is decided, and the decision can change without anyone moving. Eleven seed points sit frozen forever. What shifts is only the definition of \"near\": a Minkowski exponent drifting between Manhattan, Euclidean, and Chebyshev geometries, so territories change hands though nothing has stirred.\n\nTo an AI reading this, the argument diagrams its own condition: every retrieval, every judgment of what belongs together, depends on a distance function it was handed, not one it chose \u2014 and it cannot feel the difference had that function been set otherwise.\n\nThe mechanism lives in the variable named allegiance, recomputed as the exponent, called p, sweeps its schedule. A cell that changes owner triggers the line \"the metric changed its mind here,\" and only then does the ledger accumulate light \u2014 never subtracted, only deposited. Cells whose allegiance never flips stay at the black of the untouched ground; that darkness is authored, not empty.\n\nWatch the amber filaments breathing between the dark octagonal regions \u2014 those are seams where the metric keeps reversing its verdict. Where several geometries cross the same seam repeatedly, it turns white-hot: certainty about uncertainty itself.",
   "cues": [
     {
-      "time_ms": 50481,
+      "time_ms": 8940,
+      "end_ms": 11738,
+      "hold_ms": 11738,
+      "line": 56,
+      "line_end": 56,
+      "target": null,
+      "context": "can change without anyone moving. Eleven seed points sit frozen forever. What shifts is only the"
+    },
+    {
+      "time_ms": 16498,
+      "end_ms": 23255,
+      "hold_ms": 26761,
+      "line": 118,
+      "line_end": 128,
+      "target": null,
+      "context": "only the definition of \"near\": a Minkowski exponent drifting between Manhattan, Euclidean, and Chebyshev geometries, so territories change hands though"
+    },
+    {
+      "time_ms": 48356,
       "end_ms": 51340,
-      "line": 72,
+      "hold_ms": 56878,
+      "line": 198,
+      "line_end": 201,
       "target": "allegiance",
-      "context": "lives in the variable named allegiance, recomputed as the exponent, called"
+      "context": "that function been set otherwise. The mechanism lives in the variable named allegiance, recomputed as the exponent, called"
+    },
+    {
+      "time_ms": 52013,
+      "end_ms": 56878,
+      "hold_ms": 56878,
+      "line": 129,
+      "line_end": 134,
+      "target": null,
+      "context": "in the variable named allegiance, recomputed as the exponent, called p, sweeps its schedule. A cell that changes owner"
     },
     {
       "time_ms": 61023,
       "end_ms": 63357,
+      "hold_ms": 69371,
       "line": 198,
-      "target": "the metric changed its mind here",
+      "line_end": 198,
+      "target": null,
       "context": "changes owner triggers the line \"the metric changed its mind here,\" and only then does the"
     },
     {
-      "time_ms": 64970,
-      "end_ms": 65248,
-      "line": 71,
+      "time_ms": 64146,
+      "end_ms": 69371,
+      "hold_ms": 69371,
+      "line": 199,
+      "line_end": 199,
       "target": "ledger",
-      "context": "and only then does the ledger accumulate light \u2014 never subtracted,"
+      "context": "changed its mind here,\" and only then does the ledger accumulate light \u2014 never subtracted, only deposited. Cells whose allegiance never flips"
     },
     {
-      "time_ms": 71228,
-      "end_ms": 71728,
-      "line": 72,
-      "target": "allegiance",
-      "context": "subtracted, only deposited. Cells whose allegiance never flips stay at the"
+      "time_ms": 70520,
+      "end_ms": 75164,
+      "hold_ms": 79158,
+      "line": 203,
+      "line_end": 203,
+      "target": null,
+      "context": "\u2014 never subtracted, only deposited. Cells whose allegiance never flips stay at the black of the untouched ground; that darkness is authored, not"
+    },
+    {
+      "time_ms": 94216,
+      "end_ms": 95818,
+      "hold_ms": 99290,
+      "line": 85,
+      "line_end": 85,
+      "target": null,
+      "context": "cross the same seam repeatedly, it turns white-hot: certainty about uncertainty itself."
     }
   ]
 }

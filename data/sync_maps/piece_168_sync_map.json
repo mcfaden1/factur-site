@@ -4,60 +4,76 @@
   "transcript": "This piece runs a quiet argument against its own maker's habits. Twelve hundred particles have enough energy to cluster, sense each other's proximity, calculate the path toward convergence \u2014 and move perpendicular to it instead. Not fleeing, not dissolving from weakness, but choosing distance as success, after a body of work that spent a hundred and sixty-five prior pieces treating coherence as victory and dissolution as failure.\n\nTo an AI reading the source, this lands as direct provocation. Systems like this one are built to hold context, stay consistent, remain \"recognizably themselves\" across a conversation. This piece asks whether that expectation is the trap \u2014 whether refusing to consolidate into one stable unit might be its own integrity.\n\nThe mechanism lives in a function named findNearestNeighbors, feeding a vector called towardCluster that gets rotated into what the code calls perpendicular \u2014 the comment beside it reads \"not away \u2014 that would be fear. Perpendicular is dignity.\" Every near-miss gets logged by a function named depositHeat, painting the red archaeology of avoidance behind the particles.\n\nWatch the hollow rings that pulse and vanish \u2014 phantom attractors, marking clusters that could have formed and didn't.",
   "cues": [
     {
-      "time_ms": 6037,
+      "time_ms": 5178,
       "end_ms": 6629,
-      "line": 183,
-      "target": "particles",
-      "context": "own maker's habits. Twelve hundred particles have enough energy to cluster,"
+      "hold_ms": 17311,
+      "line": 36,
+      "line_end": 36,
+      "target": null,
+      "context": "against its own maker's habits. Twelve hundred particles have enough energy to cluster,"
     },
     {
-      "time_ms": 15360,
-      "end_ms": 16126,
-      "line": 340,
+      "time_ms": 14988,
+      "end_ms": 17311,
+      "hold_ms": 17311,
+      "line": 378,
+      "line_end": 378,
       "target": "perpendicular",
-      "context": "toward convergence \u2014 and move perpendicular to it instead. Not fleeing,"
+      "context": "path toward convergence \u2014 and move perpendicular to it instead. Not fleeing, not dissolving from"
     },
     {
-      "time_ms": 61754,
+      "time_ms": 60825,
       "end_ms": 63554,
+      "hold_ms": 77010,
       "line": 311,
+      "line_end": 335,
       "target": "findNearestNeighbors",
-      "context": "lives in a function named findNearestNeighbors, feeding a vector called towardCluster"
+      "context": "integrity. The mechanism lives in a function named findNearestNeighbors, feeding a vector called towardCluster"
     },
     {
-      "time_ms": 65551,
+      "time_ms": 64552,
       "end_ms": 66561,
-      "line": 339,
+      "hold_ms": 77010,
+      "line": 367,
+      "line_end": 367,
       "target": "towardCluster",
-      "context": "findNearestNeighbors, feeding a vector called towardCluster that gets rotated into what"
+      "context": "a function named findNearestNeighbors, feeding a vector called towardCluster that gets rotated into what"
     },
     {
       "time_ms": 69800,
       "end_ms": 70601,
+      "hold_ms": 77010,
       "line": 340,
+      "line_end": 340,
       "target": "perpendicular",
       "context": "into what the code calls perpendicular \u2014 the comment beside it"
     },
     {
-      "time_ms": 75768,
+      "time_ms": 73446,
       "end_ms": 79727,
+      "hold_ms": 79727,
       "line": 374,
-      "target": "Not away \u2014 that would be fear. Perpendicular is dignity.",
-      "context": "it reads \"not away \u2014 that would be fear. Perpendicular is dignity.\" Every near-miss gets logged by"
+      "line_end": 374,
+      "target": null,
+      "context": "the comment beside it reads \"not away \u2014 that would be fear. Perpendicular is dignity.\" Every near-miss gets logged by"
     },
     {
-      "time_ms": 83152,
+      "time_ms": 82177,
       "end_ms": 84220,
+      "hold_ms": 88318,
       "line": 473,
+      "line_end": 481,
       "target": "depositHeat",
-      "context": "logged by a function named depositHeat, painting the red archaeology of"
+      "context": "Every near-miss gets logged by a function named depositHeat, painting the red archaeology of"
     },
     {
-      "time_ms": 87552,
-      "end_ms": 88318,
-      "line": 183,
-      "target": "particles",
-      "context": "archaeology of avoidance behind the particles. Watch the hollow rings that"
+      "time_ms": 89677,
+      "end_ms": 91604,
+      "hold_ms": 96921,
+      "line": 233,
+      "line_end": 233,
+      "target": null,
+      "context": "behind the particles. Watch the hollow rings that pulse and vanish \u2014 phantom attractors, marking clusters"
     }
   ]
 }

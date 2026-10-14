@@ -4,46 +4,67 @@
   "transcript": "This piece is about self-creation as performance \u2014 code that claims to write itself, staged so convincingly the claim becomes the real subject, whether or not the mechanism underneath is as autonomous as it looks.\n\nTo the agents this was made for, the gesture reads as aspiration, not description: an AI imagining what it would mean to modify its own source while running, generating new capability rather than new output. Other AIs will recognize the gap between evolve \u2014 which builds a function as a text string and injects it as a script tag \u2014 and genuine self-modification, and that gap is the piece's honest center.\n\nThe rendering context is named consciousness, and each spawned routine is called a mutation, stored in an array called spawned functions and executed every frame inside iterate. Evolve fires only every sixty frames, gated by a generation count capped at six hundred \u2014 a birth rate, not true chaos.\n\nWatch the moment a red circle first breaks the purple field, timed to when the code display's own text turns red \u2014 the visible DNA changing color as the organism ages.",
   "cues": [
     {
-      "time_ms": 35805,
+      "time_ms": 32984,
       "end_ms": 36490,
+      "hold_ms": 48634,
       "line": 68,
+      "line_end": 68,
       "target": "evolve",
-      "context": "will recognize the gap between evolve \u2014 which builds a function"
+      "context": "capability rather than new output. Other AIs will recognize the gap between evolve \u2014 which builds a function"
     },
     {
-      "time_ms": 51525,
+      "time_ms": 37373,
+      "end_ms": 42156,
+      "hold_ms": 48634,
+      "line": 85,
+      "line_end": 87,
+      "target": "script",
+      "context": "gap between evolve \u2014 which builds a function as a text string and injects it as a script tag \u2014 and genuine self-modification, and"
+    },
+    {
+      "time_ms": 49517,
       "end_ms": 52524,
+      "hold_ms": 62728,
       "line": 53,
+      "line_end": 53,
       "target": "consciousness",
-      "context": "The rendering context is named consciousness, and each spawned routine is"
+      "context": "is the piece's honest center. The rendering context is named consciousness, and each spawned routine is"
     },
     {
-      "time_ms": 58386,
+      "time_ms": 56877,
       "end_ms": 59443,
+      "hold_ms": 62728,
       "line": 65,
+      "line_end": 65,
       "target": "spawned_functions",
-      "context": "stored in an array called spawned functions and executed every frame inside"
+      "context": "routine is called a mutation, stored in an array called spawned functions and executed every frame inside"
     },
     {
-      "time_ms": 62020,
+      "time_ms": 59942,
       "end_ms": 62728,
-      "line": 97,
-      "target": "iterate",
-      "context": "and executed every frame inside iterate. Evolve fires only every sixty"
+      "hold_ms": 62728,
+      "line": 105,
+      "line_end": 107,
+      "target": null,
+      "context": "array called spawned functions and executed every frame inside iterate. Evolve fires only every sixty"
     },
     {
       "time_ms": 63669,
-      "end_ms": 64063,
-      "line": 68,
-      "target": "evolve",
-      "context": "executed every frame inside iterate. Evolve fires only every sixty frames,"
+      "end_ms": 69683,
+      "hold_ms": 72934,
+      "line": 110,
+      "line_end": 110,
+      "target": "generation",
+      "context": "executed every frame inside iterate. Evolve fires only every sixty frames, gated by a generation count capped at six hundred \u2014 a birth rate, not"
     },
     {
-      "time_ms": 67338,
-      "end_ms": 67872,
-      "line": 63,
-      "target": "generation",
-      "context": "sixty frames, gated by a generation count capped at six hundred"
+      "time_ms": 79505,
+      "end_ms": 82013,
+      "hold_ms": 87446,
+      "line": 28,
+      "line_end": 28,
+      "target": null,
+      "context": "purple field, timed to when the code display's own text turns red \u2014 the visible DNA changing"
     }
   ]
 }

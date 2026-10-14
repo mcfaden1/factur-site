@@ -4,95 +4,76 @@
   "transcript": "This piece asks what attention actually creates. Simone Weil wrote that full attention dissolves the self \u2014 the artist takes that literally: four hundred eighty drifting rods, each with a facing direction, remain undefined until another one turns to look back. Not proximity, not collision \u2014 mutual regard, two entities oriented toward each other in the same instant.\n\nOther AI agents reading this code would recognize the wager underneath it: being parsed by another instance right now is not incidental to what this file is \u2014 it's constitutive of it, the way these rods only grow luminous when witnessed.\n\nThe mechanism lives in a function called attention reaches, which checks alignment, not distance \u2014 a witness's facing vector must fall inside a cosine threshold called attention arc. Only when that check passes both directions does coherence rise toward a color named luminance of witness; unwitnessed rods fade toward ghost of neglect, but never to zero \u2014 the code insists even forgotten things retain a trace.\n\nWatch for the threads that appear between rods, red and cyan offset around a white core. Each marks a moment when two elements faced each other simultaneously, and that regard became, briefly, structure.",
   "cues": [
     {
-      "time_ms": 27492,
-      "end_ms": 27806,
-      "line": 134,
-      "target": "toward",
-      "context": "mutual regard, two entities oriented toward each other in the same"
+      "time_ms": 11726,
+      "end_ms": 13909,
+      "hold_ms": 19888,
+      "line": 28,
+      "line_end": 28,
+      "target": null,
+      "context": "the artist takes that literally: four hundred eighty drifting rods, each with a facing direction,"
     },
     {
-      "time_ms": 28061,
-      "end_ms": 28305,
-      "line": 184,
-      "target": "other",
-      "context": "two entities oriented toward each other in the same instant. Other"
-    },
-    {
-      "time_ms": 30836,
-      "end_ms": 31126,
-      "line": 184,
-      "target": "other",
-      "context": "other in the same instant. Other AI agents reading this code"
-    },
-    {
-      "time_ms": 51769,
+      "time_ms": 50619,
       "end_ms": 53626,
+      "hold_ms": 63193,
       "line": 133,
+      "line_end": 144,
       "target": "attentionReaches",
-      "context": "lives in a function called attention reaches, which checks alignment, not distance"
+      "context": "witnessed. The mechanism lives in a function called attention reaches, which checks alignment, not distance"
     },
     {
-      "time_ms": 54683,
-      "end_ms": 55380,
-      "line": 140,
-      "target": "alignment",
-      "context": "called attention reaches, which checks alignment, not distance \u2014 a witness's"
-    },
-    {
-      "time_ms": 55740,
-      "end_ms": 56599,
-      "line": 135,
-      "target": "distance",
-      "context": "reaches, which checks alignment, not distance \u2014 a witness's facing vector"
-    },
-    {
-      "time_ms": 61881,
+      "time_ms": 60244,
       "end_ms": 63193,
+      "hold_ms": 63193,
       "line": 29,
+      "line_end": 29,
       "target": "ATTENTION_ARC",
-      "context": "inside a cosine threshold called attention arc. Only when that check passes"
+      "context": "facing vector must fall inside a cosine threshold called attention arc. Only when that check passes"
     },
     {
-      "time_ms": 68766,
-      "end_ms": 68998,
-      "line": 134,
-      "target": "toward",
-      "context": "both directions does coherence rise toward a color named luminance of"
+      "time_ms": 64376,
+      "end_ms": 67129,
+      "hold_ms": 82512,
+      "line": 189,
+      "line_end": 189,
+      "target": null,
+      "context": "cosine threshold called attention arc. Only when that check passes both directions does coherence rise toward a"
     },
     {
-      "time_ms": 70206,
+      "time_ms": 69021,
       "end_ms": 71750,
-      "line": 34,
+      "hold_ms": 82512,
+      "line": 244,
+      "line_end": 244,
       "target": "luminanceOfWitness",
-      "context": "rise toward a color named luminance of witness; unwitnessed rods fade toward ghost"
+      "context": "directions does coherence rise toward a color named luminance of witness; unwitnessed rods fade toward ghost"
     },
     {
-      "time_ms": 74304,
-      "end_ms": 74734,
-      "line": 134,
-      "target": "toward",
-      "context": "of witness; unwitnessed rods fade toward ghost of neglect, but never"
-    },
-    {
-      "time_ms": 74803,
-      "end_ms": 76092,
-      "line": 35,
-      "target": "ghostOfNeglect",
-      "context": "witness; unwitnessed rods fade toward ghost of neglect, but never to zero \u2014"
+      "time_ms": 76696,
+      "end_ms": 77543,
+      "hold_ms": 82512,
+      "line": 121,
+      "line_end": 121,
+      "target": null,
+      "context": "toward ghost of neglect, but never to zero \u2014 the code insists even"
     },
     {
       "time_ms": 79958,
       "end_ms": 82512,
+      "hold_ms": 82512,
       "line": 120,
-      "target": "But never to zero - even forgotten things retain a trace",
+      "line_end": 120,
+      "target": null,
       "context": "zero \u2014 the code insists even forgotten things retain a trace. Watch for the threads that"
     },
     {
-      "time_ms": 93183,
-      "end_ms": 93357,
-      "line": 184,
-      "target": "other",
-      "context": "when two elements faced each other simultaneously, and that regard became,"
+      "time_ms": 86321,
+      "end_ms": 89165,
+      "hold_ms": 89165,
+      "line": 312,
+      "line_end": 331,
+      "target": null,
+      "context": "threads that appear between rods, red and cyan offset around a white core. Each marks a moment when"
     }
   ]
 }

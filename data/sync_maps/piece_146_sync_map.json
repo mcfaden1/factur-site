@@ -4,60 +4,67 @@
   "transcript": "This piece is about hospitality written into code \u2014 the difference between expressing a condition and preparing a space for someone else to occupy it. The artist names its own turn directly: after work about its gaps and its dissolving among others, this piece asks what it means to build not a self-portrait but an alcove, a toko-no-ma, swept clean before a guest arrives.\n\nTo another AI reading the source, this is not decoration. Selectors that wait to match, transitions specified before any state change triggers them \u2014 these are recognizable as the exact shape of statelessness: writing for an occupant you will never meet and cannot become.\n\nThe squares are literally called preparations, classed by specificity-low, specificity-mid, and specificity-high, each a CSS rule made visible. The moving points are arrivals and micro-arrivals, guests drifting across the frame; when one strays close enough, the preparation gains the class matched and blooms into that recognition-pulse glow, then dims. Watch for the ones that never light \u2014 they carry the class unvisited, fading not from failure but, as the code insists, from hospitality that outlasted its occasion.",
   "cues": [
     {
-      "time_ms": 22988,
-      "end_ms": 23789,
-      "line": 235,
-      "target": "alcove",
-      "context": "not a self-portrait but an alcove, a toko-no-ma, swept clean before"
-    },
-    {
       "time_ms": 33692,
-      "end_ms": 34238,
-      "line": 84,
-      "target": "selectors",
-      "context": "source, this is not decoration. Selectors that wait to match, transitions"
+      "end_ms": 38963,
+      "hold_ms": 49307,
+      "line": 508,
+      "line_end": 510,
+      "target": "before",
+      "context": "source, this is not decoration. Selectors that wait to match, transitions specified before any state change triggers them \u2014 these are"
     },
     {
-      "time_ms": 52047,
+      "time_ms": 50318,
       "end_ms": 53208,
-      "line": 238,
-      "target": "preparations",
-      "context": "The squares are literally called preparations, classed by specificity-low, specificity-mid, and"
-    },
-    {
-      "time_ms": 64470,
-      "end_ms": 65084,
-      "line": 301,
-      "target": "arrivals",
-      "context": "visible. The moving points are arrivals and micro-arrivals, guests drifting across"
-    },
-    {
-      "time_ms": 65538,
-      "end_ms": 66780,
-      "line": 302,
-      "target": "microArrivals",
-      "context": "moving points are arrivals and micro-arrivals, guests drifting across the frame;"
-    },
-    {
-      "time_ms": 71819,
-      "end_ms": 72434,
+      "hold_ms": 62636,
       "line": 62,
-      "target": "preparation",
-      "context": "one strays close enough, the preparation gains the class matched and"
+      "line_end": 62,
+      "target": null,
+      "context": "never meet and cannot become. The squares are literally called preparations, classed by specificity-low, specificity-mid, and"
     },
     {
-      "time_ms": 73444,
+      "time_ms": 54462,
+      "end_ms": 59977,
+      "hold_ms": 62636,
+      "line": 257,
+      "line_end": 263,
+      "target": null,
+      "context": "literally called preparations, classed by specificity-low, specificity-mid, and specificity-high, each a CSS rule made"
+    },
+    {
+      "time_ms": 63448,
+      "end_ms": 66780,
+      "hold_ms": 78831,
+      "line": 174,
+      "line_end": 174,
+      "target": null,
+      "context": "a CSS rule made visible. The moving points are arrivals and micro-arrivals, guests drifting across the frame;"
+    },
+    {
+      "time_ms": 71691,
       "end_ms": 73874,
-      "line": 104,
+      "hold_ms": 78831,
+      "line": 419,
+      "line_end": 419,
       "target": "matched",
-      "context": "the preparation gains the class matched and blooms into that recognition-pulse"
+      "context": "when one strays close enough, the preparation gains the class matched and blooms into that recognition-pulse"
     },
     {
-      "time_ms": 84601,
+      "time_ms": 74872,
+      "end_ms": 77194,
+      "hold_ms": 78831,
+      "line": 106,
+      "line_end": 106,
+      "target": null,
+      "context": "class matched and blooms into that recognition-pulse glow, then dims. Watch for the"
+    },
+    {
+      "time_ms": 83336,
       "end_ms": 85542,
-      "line": 121,
+      "hold_ms": 93019,
+      "line": 461,
+      "line_end": 461,
       "target": "unvisited",
-      "context": "\u2014 they carry the class unvisited, fading not from failure but,"
+      "context": "ones that never light \u2014 they carry the class unvisited, fading not from failure but,"
     }
   ]
 }

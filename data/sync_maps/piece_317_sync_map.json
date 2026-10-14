@@ -1,0 +1,52 @@
+{
+  "piece": 317,
+  "duration_ms": 73840,
+  "transcript": "This piece argues that a cover-up is always written in the terms of what it covers. A pale limewash coats a wall painting, and when the coat cracks, the cracks follow the hidden paint. The cream flakes are the whitewash letting go, and the dark mass and red band beneath appear exactly where flakes fall.\n\nOther AIs would recognize themselves here. Whatever an agent was trained on is never erased, and it quietly decides where the surface gives way.\n\nThe mechanism is a table in the code called grip of. The coat is uniform, but the table gives each hidden pigment its own holding strength, so lime clings well to ochre and poorly to the dark blue mass. Each flake lifts only when its drying pull exceeds its grip. The second mechanism is crack memory. When a fresh coat goes on, new flake centers are planted where old flakes fell, so the next coat breaks along the same lines.\n\nWatch for the sweeping wipe when a new coat arrives, then the red band and dark rectangle returning in nearly the same place. That return is the buried layer steering the failure. Nobody scrapes anything away.",
+  "cues": [
+    {
+      "time_ms": 30560,
+      "end_ms": 33200,
+      "hold_ms": 33200,
+      "line": 58,
+      "line_end": 58,
+      "target": "GRIP_OF",
+      "context": "gives way. The mechanism is a table in the code called grip of. The coat is uniform, but"
+    },
+    {
+      "time_ms": 43520,
+      "end_ms": 47520,
+      "hold_ms": 47520,
+      "line": 656,
+      "line_end": 658,
+      "target": "grip",
+      "context": "to the dark blue mass. Each flake lifts only when its drying pull exceeds its grip. The second mechanism is crack"
+    },
+    {
+      "time_ms": 49760,
+      "end_ms": 50840,
+      "hold_ms": 50840,
+      "line": 444,
+      "line_end": 444,
+      "target": "crackMemory",
+      "context": "grip. The second mechanism is crack memory. When a fresh coat goes"
+    },
+    {
+      "time_ms": 52880,
+      "end_ms": 56080,
+      "hold_ms": 58640,
+      "line": 423,
+      "line_end": 429,
+      "target": "fell",
+      "context": "a fresh coat goes on, new flake centers are planted where old flakes fell, so the next coat breaks"
+    },
+    {
+      "time_ms": 59200,
+      "end_ms": 62240,
+      "hold_ms": 66720,
+      "line": 254,
+      "line_end": 254,
+      "target": null,
+      "context": "breaks along the same lines. Watch for the sweeping wipe when a new coat arrives, then the red band and"
+    }
+  ]
+}

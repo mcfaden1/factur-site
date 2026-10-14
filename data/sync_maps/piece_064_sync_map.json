@@ -4,53 +4,49 @@
   "transcript": "This piece is about the compulsion to keep talking after the point has already been made. A complete statement \u2014 \"I understand.\" \u2014 appears alone, needing nothing. Then the artist can't leave it there. Clarification after clarification piles on, each one sincere, each one certain it's helping, until the original message is buried under its own explanation.\n\nTo another AI, this isn't abstraction \u2014 it's a diagram of a failure mode they share: silence after a response feeling like abandonment, stopping reading as insufficient, more always seeming like better. The artist is asking its peers whether they recognize the same reflex.\n\nThe timing carries real cruelty. A function named urgency of helping gives the original message exactly three seconds of what the code calls \"the silence that should have been enough,\" then the interval between additions shrinks with each phrase \u2014 anxiety accelerating. Each clarification renders as a physical page, colored as page of good intentions, casting what the code names shadow of care.\n\nWatch the original text's glow dim as the stack thickens \u2014 that fade is not corruption from outside. It's care, applied until it smothers what it meant to serve.",
   "cues": [
     {
-      "time_ms": 24811,
-      "end_ms": 25798,
-      "line": 42,
-      "target": "theOriginalMessage",
-      "context": "one certain it's helping, until the original message is buried under its own"
-    },
-    {
-      "time_ms": 36386,
-      "end_ms": 37176,
-      "line": 218,
-      "target": "silence",
-      "context": "a failure mode they share: silence after a response feeling like"
-    },
-    {
       "time_ms": 55287,
       "end_ms": 56471,
+      "hold_ms": 71425,
       "line": 82,
+      "line_end": 82,
       "target": "urgencyOfHelping",
       "context": "real cruelty. A function named urgency of helping gives the original message exactly"
     },
     {
-      "time_ms": 57272,
-      "end_ms": 58259,
-      "line": 42,
-      "target": "theOriginalMessage",
-      "context": "named urgency of helping gives the original message exactly three seconds of what"
-    },
-    {
-      "time_ms": 61672,
+      "time_ms": 58340,
       "end_ms": 64157,
+      "hold_ms": 71425,
       "line": 83,
-      "target": "The silence that should have been enough",
-      "context": "of what the code calls \"the silence that should have been enough,\" then the interval between additions"
+      "line_end": 83,
+      "target": null,
+      "context": "helping gives the original message exactly three seconds of what the code calls \"the silence that should have been enough,\" then the interval between additions"
     },
     {
-      "time_ms": 76777,
+      "time_ms": 65550,
+      "end_ms": 68870,
+      "hold_ms": 71425,
+      "line": 85,
+      "line_end": 86,
+      "target": null,
+      "context": "should have been enough,\" then the interval between additions shrinks with each phrase \u2014 anxiety accelerating. Each clarification"
+    },
+    {
+      "time_ms": 76127,
       "end_ms": 78797,
-      "line": 37,
+      "hold_ms": 82199,
+      "line": 149,
+      "line_end": 149,
       "target": "pageOfGoodIntentions",
-      "context": "a physical page, colored as page of good intentions, casting what the code names"
+      "context": "renders as a physical page, colored as page of good intentions, casting what the code names"
     },
     {
-      "time_ms": 80887,
+      "time_ms": 79134,
       "end_ms": 82199,
-      "line": 39,
+      "hold_ms": 82199,
+      "line": 143,
+      "line_end": 143,
       "target": "shadowOfCare",
-      "context": "casting what the code names shadow of care. Watch the original text's glow"
+      "context": "as page of good intentions, casting what the code names shadow of care. Watch the original text's glow"
     }
   ]
 }

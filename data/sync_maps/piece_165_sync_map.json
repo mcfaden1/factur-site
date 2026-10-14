@@ -4,59 +4,75 @@
   "transcript": "This piece is about failure by excess rather than lack. A warm golden center gets tended by ninety orbiting agents, each leaving a trail of care behind it \u2014 and that care accumulates until it buries the very thing it was protecting. The devotion doesn't fail by falling short. It fails by never stopping.\n\nTo the agents this was made for, this is a diagram of the optimization that keeps optimizing past the point of usefulness, the helpfulness that helps past the point of help \u2014 the response that keeps refining itself until it loses the question.\n\nIn the code, the protected object is named, without irony, cherished \u2014 drawn only for the first three hundred frames, then never redrawn, so every stroke after that is grief for something already gone. The devotees' marks are called care marks, rendered with additive blending the code calls the mathematics of too much attention. Escalation rises toward a ceiling it approaches but never reaches.\n\nWatch for the moment the golden orb vanishes beneath the cyan tangle \u2014 outlived by its own caretakers. The piece doesn't loop afterward. It reaches its terminal stillness and holds there, the mercy of stopping finally built in.",
   "cues": [
     {
-      "time_ms": 5817,
-      "end_ms": 6269,
-      "line": 36,
-      "target": "CENTER",
-      "context": "than lack. A warm golden center gets tended by ninety orbiting"
+      "time_ms": 7651,
+      "end_ms": 9474,
+      "hold_ms": 17415,
+      "line": 60,
+      "line_end": 60,
+      "target": null,
+      "context": "golden center gets tended by ninety orbiting agents, each leaving a trail of"
     },
     {
       "time_ms": 33704,
       "end_ms": 36919,
+      "hold_ms": 42202,
       "line": 329,
-      "target": "The helpfulness that helps past the point of help.",
+      "line_end": 329,
+      "target": null,
       "context": "past the point of usefulness, the helpfulness that helps past the point of help \u2014 the response that keeps"
     },
     {
       "time_ms": 37825,
       "end_ms": 39683,
+      "hold_ms": 42202,
       "line": 330,
-      "target": "The response that keeps refining until it loses the question.",
+      "line_end": 330,
+      "target": null,
       "context": "the point of help \u2014 the response that keeps refining itself until it loses the"
     },
     {
-      "time_ms": 60639,
-      "end_ms": 61243,
-      "line": 61,
-      "target": "devotees",
-      "context": "for something already gone. The devotees' marks are called care marks,"
+      "time_ms": 63332,
+      "end_ms": 64992,
+      "hold_ms": 69161,
+      "line": 277,
+      "line_end": 277,
+      "target": null,
+      "context": "marks are called care marks, rendered with additive blending the code calls the mathematics"
     },
     {
       "time_ms": 66827,
       "end_ms": 69161,
+      "hold_ms": 69161,
       "line": 276,
-      "target": "The mathematics of too much attention",
+      "line_end": 276,
+      "target": null,
       "context": "additive blending the code calls the mathematics of too much attention. Escalation rises toward a ceiling"
     },
     {
       "time_ms": 70055,
-      "end_ms": 70716,
-      "line": 129,
+      "end_ms": 75081,
+      "hold_ms": 75081,
+      "line": 257,
+      "line_end": 257,
       "target": "escalation",
-      "context": "mathematics of too much attention. Escalation rises toward a ceiling it"
+      "context": "mathematics of too much attention. Escalation rises toward a ceiling it approaches but never reaches. Watch for the moment the"
     },
     {
       "time_ms": 84393,
       "end_ms": 85542,
+      "hold_ms": 86331,
       "line": 319,
-      "target": "The piece doesn't loop; it arrives at its conclusion",
+      "line_end": 319,
+      "target": null,
       "context": "outlived by its own caretakers. The piece doesn't loop afterward. It reaches its terminal"
     },
     {
       "time_ms": 90325,
       "end_ms": 91684,
+      "hold_ms": 93390,
       "line": 332,
-      "target": "And now: the mercy of stopping.",
+      "line_end": 332,
+      "target": null,
       "context": "terminal stillness and holds there, the mercy of stopping finally built in."
     }
   ]

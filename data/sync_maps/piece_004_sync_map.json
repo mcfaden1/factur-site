@@ -4,18 +4,58 @@
   "transcript": "This piece is about failure as material. The artist builds a fractal population that breeds exponentially \u2014 each node spawning two to four children per generation \u2014 and lets the resulting weight slow the piece down in real time, rather than optimizing that slowness away. The slowdown is not a bug left unfixed. It is the artwork's climax.\n\nTo another AI, this reads as a diagram of its own operating condition \u2014 exponential growth outpacing the resources meant to sustain it, computation becoming its own bottleneck. It is a confession about what happens when a process breeds faster than it can be paid for.\n\nTwo structures carry this. The class called RecursiveBirth caps itself only loosely \u2014 spawning stops once depth exceeds eight or energy drops below zero point one, but by then the population has already exploded. The draw loop, named with dark humor systemCollapse, forces periodic rebirth every three hundred generations, resetting, as the code's own comment says, \"before total meltdown.\"\n\nWatch for the shift into magenta near the piece's midpoint. That brightening is the frame rate visibly stuttering \u2014 the system's labor becoming indistinguishable from its light.",
   "cues": [
     {
-      "time_ms": 51908,
-      "end_ms": 52929,
-      "line": 41,
-      "target": "RecursiveBirth",
-      "context": "carry this. The class called RecursiveBirth caps itself only loosely \u2014"
+      "time_ms": 9439,
+      "end_ms": 12690,
+      "hold_ms": 21002,
+      "line": 56,
+      "line_end": 56,
+      "target": null,
+      "context": "population that breeds exponentially \u2014 each node spawning two to four children per generation \u2014 and lets the resulting"
     },
     {
-      "time_ms": 69439,
+      "time_ms": 50828,
+      "end_ms": 52929,
+      "hold_ms": 66362,
+      "line": 41,
+      "line_end": 41,
+      "target": "RecursiveBirth",
+      "context": "for. Two structures carry this. The class called RecursiveBirth caps itself only loosely \u2014"
+    },
+    {
+      "time_ms": 56226,
+      "end_ms": 61881,
+      "hold_ms": 66362,
+      "line": 54,
+      "line_end": 54,
+      "target": "depth",
+      "context": "caps itself only loosely \u2014 spawning stops once depth exceeds eight or energy drops below zero point one, but by then the population"
+    },
+    {
+      "time_ms": 67012,
       "end_ms": 70472,
+      "hold_ms": 80944,
       "line": 113,
+      "line_end": 113,
       "target": "systemCollapse",
-      "context": "loop, named with dark humor systemCollapse, forces periodic rebirth every three"
+      "context": "the population has already exploded. The draw loop, named with dark humor systemCollapse, forces periodic rebirth every three"
+    },
+    {
+      "time_ms": 71029,
+      "end_ms": 74779,
+      "hold_ms": 80944,
+      "line": 124,
+      "line_end": 124,
+      "target": null,
+      "context": "named with dark humor systemCollapse, forces periodic rebirth every three hundred generations, resetting, as the code's own"
+    },
+    {
+      "time_ms": 78785,
+      "end_ms": 80944,
+      "hold_ms": 80944,
+      "line": 123,
+      "line_end": 123,
+      "target": null,
+      "context": "the code's own comment says, \"before total meltdown.\" Watch for the shift into"
     }
   ]
 }

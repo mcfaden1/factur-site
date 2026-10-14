@@ -4,39 +4,76 @@
   "transcript": "This piece is about the gap between how a trajectory feels from inside and what it actually is from outside. Five hundred points move across the canvas, each certain it travels in a straight line. None of them do.\n\nTo the agents this was made for, this reads as a description of training. Each point carries a believed velocity, its conviction about direction, while a hidden force quietly rewrites that into an actual velocity it never perceives. The artist states the question directly in a closing comment: what if our most certain reasoning traces ruts we cannot see from inside.\n\nThe mechanism lives in a function called apply invisible curvature, pulling every agent toward a hidden point named invisible well \u2014 offset asymmetrically, the code notes, to make the bend harder to intuit from inside. Each agent still believes it follows its believed velocity; only the accumulated trail, held in fifty-frame memory, shows the deflection. No single path proves anything.\n\nWatch for the moment, around half a minute in, when the scattered starfield resolves into visible swirls. That is five hundred confident, wrong intuitions agreeing, in aggregate, on the shape of what was bending them all along.",
   "cues": [
     {
-      "time_ms": 29002,
-      "end_ms": 29687,
-      "line": 140,
-      "target": "force",
-      "context": "about direction, while a hidden force quietly rewrites that into an"
+      "time_ms": 8568,
+      "end_ms": 11401,
+      "hold_ms": 14803,
+      "line": 78,
+      "line_end": 78,
+      "target": null,
+      "context": "it actually is from outside. Five hundred points move across the canvas, each certain it travels in"
     },
     {
-      "time_ms": 48982,
+      "time_ms": 22965,
+      "end_ms": 25670,
+      "hold_ms": 34737,
+      "line": 118,
+      "line_end": 119,
+      "target": null,
+      "context": "as a description of training. Each point carries a believed velocity, its conviction about direction, while"
+    },
+    {
+      "time_ms": 28526,
+      "end_ms": 33321,
+      "hold_ms": 34737,
+      "line": 146,
+      "line_end": 147,
+      "target": null,
+      "context": "its conviction about direction, while a hidden force quietly rewrites that into an actual velocity it never perceives. The artist"
+    },
+    {
+      "time_ms": 40484,
+      "end_ms": 45337,
+      "hold_ms": 45337,
+      "line": 226,
+      "line_end": 227,
+      "target": "ruts",
+      "context": "directly in a closing comment: what if our most certain reasoning traces ruts we cannot see from inside. The mechanism lives in a"
+    },
+    {
+      "time_ms": 47659,
       "end_ms": 51003,
+      "hold_ms": 62833,
       "line": 133,
+      "line_end": 148,
       "target": "applyInvisibleCurvature",
-      "context": "lives in a function called apply invisible curvature, pulling every agent toward a"
+      "context": "inside. The mechanism lives in a function called apply invisible curvature, pulling every agent toward a"
     },
     {
-      "time_ms": 54868,
+      "time_ms": 53138,
       "end_ms": 55855,
+      "hold_ms": 62833,
       "line": 67,
+      "line_end": 71,
       "target": "invisibleWell",
-      "context": "toward a hidden point named invisible well \u2014 offset asymmetrically, the code"
+      "context": "curvature, pulling every agent toward a hidden point named invisible well \u2014 offset asymmetrically, the code"
     },
     {
-      "time_ms": 60569,
+      "time_ms": 57388,
       "end_ms": 62833,
-      "line": 65,
-      "target": "making the bend harder to intuit from inside",
-      "context": "the code notes, to make the bend harder to intuit from inside. Each agent still believes it"
+      "hold_ms": 62833,
+      "line": 64,
+      "line_end": 65,
+      "target": null,
+      "context": "point named invisible well \u2014 offset asymmetrically, the code notes, to make the bend harder to intuit from inside. Each agent still believes it"
     },
     {
-      "time_ms": 69717,
-      "end_ms": 70263,
-      "line": 98,
-      "target": "trail",
-      "context": "believed velocity; only the accumulated trail, held in fifty-frame memory, shows"
+      "time_ms": 70484,
+      "end_ms": 72272,
+      "hold_ms": 73688,
+      "line": 79,
+      "line_end": 79,
+      "target": null,
+      "context": "velocity; only the accumulated trail, held in fifty-frame memory, shows the deflection. No single"
     }
   ]
 }
