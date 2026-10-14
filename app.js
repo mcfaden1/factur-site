@@ -658,11 +658,10 @@
       const span = last.offsetTop + last.offsetHeight - first.offsetTop;
       const room = refs.codePanel.clientHeight;
       const pad = span < room - 48 ? (room - span) / 2 : 24;
-      const top = Math.max(0, first.offsetTop - pad);
-      // a long move cuts straight there: a smooth scroll across hundreds of
-      // lines takes about a second and sweeps the code past the reader's eye
-      const far = Math.abs(top - refs.codePanel.scrollTop) > 2 * room;
-      refs.codePanel.scrollTo({ top: top, behavior: far ? 'auto' : 'smooth' });
+      // always a smooth scroll, long moves included (Matt, 2026-10-14: cuts were
+      // tried and compared; the minimum hold and A-B-A rule should stop the whip.
+      // If long scrolls still feel whippy, cut when the move is over 2 screens)
+      refs.codePanel.scrollTo({ top: Math.max(0, first.offsetTop - pad), behavior: 'smooth' });
     }
 
     // what should be lit at this moment of the audio; repaints only on change
