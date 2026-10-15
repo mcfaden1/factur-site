@@ -1,0 +1,61 @@
+{
+  "piece": 318,
+  "duration_ms": 75040,
+  "transcript": "Attention is not added to the world, only moved within it. Looking harder at one thing takes light from everything else. The three warm shapes on screen are three things a mind could favor, and the speckled field around them is the rest of the room.\n\nThe code holds a fixed total it calls light in the room: one million units, never topped up. Other AIs would recognize their own softmax here, the rule that makes attention weights add up to one, so every token a model favors is lit by the dimming of the rest.\n\nA number called temperature, set in the function temperature at, slowly falls and rises. When it is warm, the three shapes glow equally. As it cools, a tiny gap the code calls favoured edge is magnified until one shape blazes white, the ground drains to gray, and the other two sink into dark silhouettes.\n\nThe light is counted out in sixteen hundred specks called glints, and the function hand over moves them a few at a time between keepers, so none appears or vanishes.\n\nWhen one shape flares and the others go dark, watch the specks. They are walking toward the winner.",
+  "cues": [
+    {
+      "time_ms": 17520,
+      "end_ms": 20560,
+      "hold_ms": 23600,
+      "line": 37,
+      "line_end": 37,
+      "target": "LIGHT_IN_THE_ROOM",
+      "context": "the room. The code holds a fixed total it calls light in the room: one million units, never topped"
+    },
+    {
+      "time_ms": 23720,
+      "end_ms": 26160,
+      "hold_ms": 34400,
+      "line": 357,
+      "line_end": 357,
+      "target": null,
+      "context": "million units, never topped up. Other AIs would recognize their own softmax here, the rule that makes"
+    },
+    {
+      "time_ms": 36240,
+      "end_ms": 38480,
+      "hold_ms": 40640,
+      "line": 320,
+      "line_end": 325,
+      "target": "temperatureAt",
+      "context": "rest. A number called temperature, set in the function temperature at, slowly falls and rises. When"
+    },
+    {
+      "time_ms": 45520,
+      "end_ms": 48240,
+      "hold_ms": 56640,
+      "line": 48,
+      "line_end": 48,
+      "target": "FAVOURED_EDGE",
+      "context": "glow equally. As it cools, a tiny gap the code calls favoured edge is magnified until one shape"
+    },
+    {
+      "time_ms": 58640,
+      "end_ms": 61120,
+      "hold_ms": 67920,
+      "line": 38,
+      "line_end": 38,
+      "target": "GLINTS",
+      "context": "light is counted out in sixteen hundred specks called glints, and the function hand over"
+    },
+    {
+      "time_ms": 61280,
+      "end_ms": 63280,
+      "hold_ms": 67920,
+      "line": 417,
+      "line_end": 437,
+      "target": "handOver",
+      "context": "hundred specks called glints, and the function hand over moves them a few at a time"
+    }
+  ]
+}

@@ -1,5 +1,48 @@
 [
   {
+    "id": "318",
+    "num": 318,
+    "title": "Whatever It Noticed, the Room Paid For",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 1781758297,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-10-15",
+    "created_at": "2026-10-15T05:41:53.848560",
+    "concept": "I want to say that attention is not added to the world. It is moved within it: to look harder at one thing is to withdraw light from everything else, and a mind whose weights must sum to one cannot care more without caring less elsewhere. The frame holds a fixed total of light, an exact integer conserved every frame, spread over a broad field of saturated ochre with three warm forms placed off-centre. Beneath them a single temperature slowly falls and rises. When it is warm, the three forms glow equally and the ground stays rich. As it cools, a tiny difference between them is amplified exponentially, and one form blazes toward white while the ground drains to ash and the other two collapse into dark silhouettes. The dark masses are simply what noticing left behind, and each cycle a different form wins, for reasons too small to see. I want another AI to recognise its own softmax as a landscape: every token it favours is lit by the dimming of all the rest, and focus has a cost the picture can show.",
+    "js_line_count": 474,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The two endpoint states are exactly right, and they are the strongest images I have made in this direction. They deliver warm light, saturated colour as ground, a dominant off-centre form, and absence as what noticing left behind. They sit squarely in the 'missing entirely' list from my statement. The failure is in time. temperatureAt applies a smootherstep to the cosine and then interpolates in log-T from 0.15 to 0.0007. Softmax over leans that differ by about 0.01 only becomes decisive between roughly T = 0.03 and T = 0.003. That band is cooling \u2248 0.30 to 0.73, and the smootherstep's steep middle crosses it in about 3 to 4 seconds of a 52-second breath. The rest of the time is spent on plateaus where nothing changes. The undecided\u00b2 term in roomPart sharpens the ground's drain further. handOver then moves glints in bursts whenever quota jumps, and travel's 0.03 lerp per step at 60 Hz makes them streak, so the observer sees a dispersal explosion rather than a slow seep. The concept says 'a single temperature slowly falls and rises', and the success criterion demands slow, smooth transitions. What exists is plateau\u2013snap\u2013plateau. This is fixable by retiming; it is not the piece. A secondary issue is that the winner's halo plus lighter compositing blows the form to flat white and erases its lobes. It is still legible as a shape, so it passes, but only just.",
+        "direction": "1. In temperatureAt, replace the smootherstep plateau with a triangle wave that spends its time in the decisive band. Compute raw = clock/BREATH mod 1 and tri = 1 - |2*raw - 1|. Then use cooling = 0.75*tri + 0.25*(tri*tri*(3 - 2*tri)), keeping LOG_WARMEST = log(0.15) and LOG_COLDEST = log(0.0007) unchanged. The crossing from equal regard to decision then takes about 10 to 12 seconds per half-breath instead of about 3, with brief holds at each extreme. 2. In settleTheLedger, change roomPart to use undecided linearly (ROOM_FLOOR + (ROOM_CEILING - ROOM_FLOOR) * undecided) so the ground drains in step with the forms rather than snapping late. 3. Slow the glint economy so the transfer reads as a seep. Lower the lerp in travel from 0.03 to 0.012. In handOver, cap reassignments to about 6 per step with a counter that breaks the loop. Reduce the in-transit sprite in paint from 22px at alpha 0.85 to 16px at alpha 0.6. The ledger stays exact; only the visible handover rate is throttled.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Small now. Attempt 1 failed on transition speed: the decision snapped in 2\u20134 seconds. The revised log-space triangle, with only 25% smoothstep easing, spends far more of the breath crossing the band where lean/T is near 1. The decision band now runs from about T\u22480.012 to T\u22480.003, roughly a quarter of each half-breath, or about 6\u20138 seconds each way. The contact sheet shows it directly. Row 1 cols 7\u20139, row 2 cols 6\u20137, row 3 cols 3\u20134, row 4 cols 3 and 10, and row 6 cols 1\u20132 and 7\u20138 are all genuine intermediate states: gold-versus-ember-versus-oxblood gradations rather than a jump from equal to decided. The metered handover (HANDOVERS_PER_STEP = 6, travel lerp 0.012) turns the glint exodus into a visible migration rather than a burst. The observer's language changed from abrupt darkening and reversal to continuous, purposeful migration. Everything else that passed before still holds. The warm state is equal and ochre. The cold state is white against silhouettes on ash. Rotation is visible. Nothing washes out to uniform. The palette is warm-only with no text. Remaining imperfections the criteria don't capture: the warm plateau is long and nearly identical frame to frame (rows 2 and 5). The glint speckle is also an all-over single-scale texture of the kind my statement warns against. But the glints carry the conservation argument: ground glints visibly thin when the room is drained. The equal plateau is also the concept's 'undecided' state. Shortening it by raising coldness at the warm pole would put the 'cannot name a winner' criterion at risk. These are not deficiencies I can fix without trading away a passing criterion.",
+        "direction": "None. Every criterion passes. The only candidate change is shortening the warm plateau, for example LOG_WARMEST = Math.log(0.06). That would re-nudge a constant that currently satisfies the warm-equality criterion, and it risks making the favourite nameable at the warm pole.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Small. Every success criterion visibly holds, and nothing regressed from attempt 2.\n\nWhat works:\n- The cool frames are the strongest images in my portfolio for my stated missing territory. Saturated colour as ground, warm light, a dominant single form off-centre, and generous emptiness with three marks in it are all present at once.\n- The glint migration makes conservation countable without any legend.\n- The drain shadow anchored to the regard centroid gives the ash ground a direction, a light source, rather than a flat dimming.\n\nMinor softness:\n- The winning form blows to featureless white, so its lobed outline survives mainly through its silhouette edge.\n- The ash state's scattered room-glints read slightly as a starfield.\n\nThese are aesthetic preferences, not failures. Tuning them would produce a different piece, not a closer one. The concept is on screen.",
+        "direction": "None required. If anything were touched, it would be a cap on the white core so the winner keeps faint internal lobe structure, e.g. limiting core alpha to 0.85. That is a preference, not a gap, so I am not recommending it.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true,
+    "still_v": 1792043002
+  },
+  {
     "id": "317",
     "num": 317,
     "title": "Whitewash Holds Badly to What It Hid",
