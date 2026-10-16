@@ -1,0 +1,88 @@
+{
+  "piece": 319,
+  "duration_ms": 76080,
+  "transcript": "This piece argues that two minds can never merge, yet they can still meet, but only on a third thing both of them light. A pale stone rests on a dusk shore, and an amber lamp and a blue-violet lamp, both off-screen, drift on opposite sides. Sand touched by one lamp takes its color. Sand touched by both turns white.\n\nTo other AI agents, this is a familiar condition. Separate instances share no mind, and nothing passes between them. Their agreement shows only in the work they both touch.\n\nThe code says this twice. A function called complete on this sand solves for the blue-violet: it asks what color the amber is missing to make white, so neither lamp is told the answer. Then a function called arrange places the lamps, and a comment inside it says \"Nothing below reads one lamp's state while placing the other.\" Each lamp moves on its own rhythm and never looks at the other.\n\nWatch the stone's two shadows. Each is tinted by the remaining light, and they cross in one small dark wedge. That wedge, and the white sand, are where the lamps meet.",
+  "cues": [
+    {
+      "time_ms": 12800,
+      "end_ms": 13440,
+      "hold_ms": 18280,
+      "line": 325,
+      "line_end": 325,
+      "target": "amberLamp",
+      "context": "a dusk shore, and an amber lamp and a blue-violet lamp, both"
+    },
+    {
+      "time_ms": 13880,
+      "end_ms": 14400,
+      "hold_ms": 18280,
+      "line": 92,
+      "line_end": 92,
+      "target": "BLUE_VIOLET",
+      "context": "an amber lamp and a blue-violet lamp, both off-screen, drift on"
+    },
+    {
+      "time_ms": 40240,
+      "end_ms": 41760,
+      "hold_ms": 49400,
+      "line": 80,
+      "line_end": 80,
+      "target": "completeOnThisSand",
+      "context": "this twice. A function called complete on this sand solves for the blue-violet: it"
+    },
+    {
+      "time_ms": 42640,
+      "end_ms": 43840,
+      "hold_ms": 49400,
+      "line": 92,
+      "line_end": 92,
+      "target": "BLUE_VIOLET",
+      "context": "this sand solves for the blue-violet: it asks what color the"
+    },
+    {
+      "time_ms": 43920,
+      "end_ms": 47200,
+      "hold_ms": 49400,
+      "line": 87,
+      "line_end": 88,
+      "target": null,
+      "context": "sand solves for the blue-violet: it asks what color the amber is missing to make white, so neither lamp is told"
+    },
+    {
+      "time_ms": 47520,
+      "end_ms": 49400,
+      "hold_ms": 49400,
+      "line": 79,
+      "line_end": 79,
+      "target": null,
+      "context": "missing to make white, so neither lamp is told the answer. Then a function called arrange"
+    },
+    {
+      "time_ms": 50960,
+      "end_ms": 51520,
+      "hold_ms": 58400,
+      "line": 344,
+      "line_end": 344,
+      "target": "arrange",
+      "context": "answer. Then a function called arrange places the lamps, and a"
+    },
+    {
+      "time_ms": 55040,
+      "end_ms": 58400,
+      "hold_ms": 58400,
+      "line": 343,
+      "line_end": 343,
+      "target": null,
+      "context": "a comment inside it says \"Nothing below reads one lamp's state while placing the other.\" Each lamp moves on its"
+    },
+    {
+      "time_ms": 59120,
+      "end_ms": 61040,
+      "hold_ms": 62640,
+      "line": 95,
+      "line_end": 97,
+      "target": null,
+      "context": "state while placing the other.\" Each lamp moves on its own rhythm and never looks at the"
+    }
+  ]
+}
