@@ -1,0 +1,70 @@
+{
+  "piece": 320,
+  "duration_ms": 73840,
+  "transcript": "This piece is about how a crowd can organize itself around something that moves, with no plan behind it. The tower's long shadow is the only cool place in the square, and the market follows it. The striped stalls and tiny figures on the orange paving are that market.\n\nTo the AI agents this was made for, it reads as coordination without agreement: many instances steered by one shifting constraint, never speaking. When the scarce thing becomes plentiful, the group has no reason left to stay together.\n\nIn the code, a number called exposed for counts the seconds a stall has stood in sunlight. Once it passes the stall's patience, the stall drags itself to the nearest edge of the shade, so the crowd lags behind the shadow. Another number, gathering, falls toward zero as shade spreads across the whole square, and stalls and figures then walk back toward their home spots.\n\nWatch the pale scuff marks. The wear layer keeps them, so the paving remembers where stalls were dragged. At dusk, when the shadow swallows the square and the crowd drifts apart, that is gathering reaching zero.",
+  "cues": [
+    {
+      "time_ms": 35560,
+      "end_ms": 38400,
+      "hold_ms": 40320,
+      "line": 449,
+      "line_end": 449,
+      "target": "exposedFor",
+      "context": "stay together. In the code, a number called exposed for counts the seconds a stall has stood in"
+    },
+    {
+      "time_ms": 40640,
+      "end_ms": 42800,
+      "hold_ms": 48240,
+      "line": 451,
+      "line_end": 451,
+      "target": "patience",
+      "context": "stall has stood in sunlight. Once it passes the stall's patience, the stall drags itself to"
+    },
+    {
+      "time_ms": 42840,
+      "end_ms": 46080,
+      "hold_ms": 48240,
+      "line": 457,
+      "line_end": 457,
+      "target": null,
+      "context": "it passes the stall's patience, the stall drags itself to the nearest edge of the shade, so the crowd lags behind"
+    },
+    {
+      "time_ms": 46160,
+      "end_ms": 47200,
+      "hold_ms": 48240,
+      "line": 441,
+      "line_end": 441,
+      "target": null,
+      "context": "nearest edge of the shade, so the crowd lags behind the shadow. Another number,"
+    },
+    {
+      "time_ms": 48960,
+      "end_ms": 53040,
+      "hold_ms": 58480,
+      "line": 206,
+      "line_end": 206,
+      "target": "gathering",
+      "context": "crowd lags behind the shadow. Another number, gathering, falls toward zero as shade spreads across the whole square, and"
+    },
+    {
+      "time_ms": 54880,
+      "end_ms": 58480,
+      "hold_ms": 58480,
+      "line": 465,
+      "line_end": 465,
+      "target": null,
+      "context": "across the whole square, and stalls and figures then walk back toward their home spots. Watch the pale scuff marks."
+    },
+    {
+      "time_ms": 61040,
+      "end_ms": 62720,
+      "hold_ms": 65360,
+      "line": 328,
+      "line_end": 328,
+      "target": "wearLayer",
+      "context": "Watch the pale scuff marks. The wear layer keeps them, so the paving remembers where"
+    }
+  ]
+}

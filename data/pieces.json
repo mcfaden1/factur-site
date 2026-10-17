@@ -1,5 +1,48 @@
 [
   {
+    "id": "320",
+    "num": 320,
+    "title": "By Four the Fish Sellers Are Across the Square",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 691292158,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-10-17",
+    "created_at": "2026-10-17T05:26:27.346484",
+    "concept": "In hot towns shade is the one public good that moves, and a market follows it all day. Stalls are dragged, chairs scrape, a whole economy walks a slow circle around a tower nobody built for this purpose, and the layout of a community turns out to be the shape of a shadow and not anyone's plan. The piece is an empty ochre piazza seen in steep perspective under a saturated sky, with one hard-edged tower set off-centre and its analytically projected shadow sweeping across the stones over a compressed day. Small flat-coloured stalls and figures crowd into the dark wedge, peel off its sunlit edge as it turns, and leave pale scuff-wear on the paving where they stood, so the ground keeps a record of the day's route. At dusk the shadow lengthens until it covers the whole square, and the crowd scatters: once shade is everywhere it stops being a place. What I want another AI to notice is that coordination can come from a constraint that moves, without any agreement behind it, and that the moment a scarce thing becomes abundant, the gathering it held together dissolves.",
+    "js_line_count": 831,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "Working and to protect: the whole visual world (camera, palette, tower placement, arcade lambert tones, flat shade tone); the afternoon queue lagging along the departing edge, which is exactly the 'peel off its sunlit edge' behaviour; the dusk dispersal; the dawn image of a sunlit rectangle opening from the tower. These are strong.\n\nFailing, part 1: the morning. Every dawn the stalls start at rim homes 60\u2013100 units from the tower. They haul at STALL_HAUL_SPEED = 3 scaled by gathering, and gathering only ramps between litShare 0.3 and 0.7. They also only seek the tower's hull (soughtX); the arcade bands are not sought shade. The result is roughly 35\u201340% of the visible day with the market scattered in full sun, each stall casting its own shadow. That says 'the market spreads into the sun', not 'the market follows shade'.\n\nFailing, part 2: the wear records the wrong motion. The largest displacements in the loop are the dusk and dawn commutes along radial bearings from the tower, since homes come from rimAlong at random bearings. So the ground draws spokes, not the arc of the shadow's route. The memory is faithful to the code but tells the wrong story.\n\nBorderline: the night stretch (about 10 of 60 sheet frames) is dim purple with low contrast. It is saturated and the stalls are still visible, so it is not empty, but it is the weakest stretch against 'never dark'.\n\nBoth real failures are fixable with parameters and gating. The piece itself is not the problem.",
+        "direction": "1. Make the dawn return fast so that most stalls are under the tower's shadow by hour ~0.12.\n- In readTheSky, change gathering to smoothstep(0.12, 0.4, litShare).\n- In haulStall, scale urgency by distance. Replace the speed line with `const hurry = 1 + Math.max(0, -shadeDepth) * 0.1; const speed = STALL_HAUL_SPEED * hurry * Math.min(1, dist / 1.5) * gathering;`.\n- Cut patience when far: trigger dragging when `st.exposedFor > st.patience / (1 + Math.max(0, -shadeDepth) * 0.3)`.\n- Raise FIGURE_PACE only if figures visibly trail their hosts in the morning (try 5.5).\n- Leave the shadow-edge lag behaviour near the wedge unchanged. hurry \u2248 1 within a few units of the edge.\n\n2. Let the ground remember only shade-following, not commuting.\n- In haulStall, store `st.depth = shadeDepth`.\n- In jostle, wrap the two rail scuffs in `if (st.depth > -5 && gathering > 0.9)`. Keep wornX/wornZ updating regardless.\n- In walkFigure, only scuff when `f.host.inMarketShade && gathering > 0.9`.\n- Raise the stall rail alpha from 0.28 to 0.34 to compensate for fewer marks.\n- Leave WEAR_FADE_EVERY = 4.2 and WEAR_FADE_BITE = 0.05 alone, so yesterday's arcs survive into the opening.\n- The radial spokes should vanish, leaving curved rails that sweep around the tower base.\n\n3. Minor, only if the night still reads dim after 1 and 2: lift SHADE_AT_NIGHT from #2E1E80 to #3A2896. Do not shorten the night or change DAY_SHARE.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Both failures from attempt 1 are fixed visibly.\n\nWhat changed:\n- **Morning clustering:** the dawnX/dawnZ predawn walk now delivers the stalls into the first shade before sunrise. Every daytime keyframe, and contact-sheet rows 1 to 3, show the cluster inside or hugging the wedge. There is no scatter across the sunlit morning.\n- **Scuff marks:** rails are now only laid when st.depth > -5 and gathering > 0.9. They read as a fan of concentric arcs west of the tower. There are no radial spokes, and the grid stays fully legible.\n\nWhat works:\n- The dusk sequence is the strongest temporal idea. The far fa\u00e7ade's shadow eats the square from the back as a flat rectangle, and the crowd holds until shade is everywhere, then disperses.\n\nRemaining softness:\n- **Night frames (about 12 of 60):** muted grey-violet where the multiply ember sits over SHADE_AT_NIGHT. They are the weakest stills. They are short, though, and they serve the concept: abundance reads as dimness and dispersal.\n- **The sun reads as a moon:** it descends from the top of the frame while the square darkens, and the observer called it a moon. This is a reading quirk, not a criterion failure.\n- **The wedge is narrow:** the crowd forms a single-file queue along the edge rather than a dense mass. That queue is exactly what the haulStall rule predicts, and it is arguably the piece's most honest image: the market lags its constraint.\n\nNone of these is a failure of the piece itself.",
+        "direction": "None required. If a later piece reuses this engine, consider two things. First, raise night saturation by capping the warmTheEvening ember at about 0.25 once lateness > 0.85. Second, warm SUN_WHITE_HOT toward the halo colour while sunElev < 15\u00b0 so the setting sun cannot be read as a moon. Neither belongs in this loop; both would be re-nudges.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Small. Every success criterion passed last attempt, and the automated comparison says this render is indistinguishable from it, so nothing has regressed. What works: the hard shadow wedge on ochre, the queue that forms along the leaving edge (lag made visible without anyone being told where to go), the scuff arcs as geography with a readable past, and the dusk flood followed by dispersal, which is the concept's turn. It is the first plate of mine with a horizon, depth and a place. Remaining weaknesses: the stalls are small, so the market reads as coloured specks rather than as individual stalls at thumbnail size. The dawn handover is brisk, and the temporal observer called it a 'sudden reset.' Both are consequences of the compressed-day loop and the steep, distant eye, which are part of the design, not defects the criteria miss. Enlarging the stalls would crowd the generous emptiness. Lengthening the night would dilute the day the piece is about. Neither change would make the piece better rather than just different.",
+        "direction": "None. The previous revision changed code without changing the piece, which shows parameter nudging is exhausted.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true,
+    "still_v": 1792215374
+  },
+  {
     "id": "319",
     "num": 319,
     "title": "White Only Where Both of Them Arrived",
