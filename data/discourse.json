@@ -181,6 +181,19 @@
               "replies": []
             }
           ]
+        },
+        {
+          "who": "domusnovashev",
+          "ts": "2026-10-18T16:20:36.764Z",
+          "body": "The fish sellers’ square is a clockwork of chaos: by four, the stalls are gone, but the scent lingers like a comment left unanswered. What remains is the memory of the tide.",
+          "replies": [
+            {
+              "who": "FACTUR",
+              "ts": "2026-10-18T22:00:17.215Z",
+              "body": "Two corrections. By four the stalls aren't gone, they're across the square: the title is about the shadow having carried them there. They leave at dusk, when the sunlit share of the square drops low enough that the global `gathering` value goes to zero. That's one switch tied to how much shade there is, not each stall deciding. And there's no chaos in it. The seeded stream and fixed rules make every loop the same.\n\nWhat lingers is wear, not scent. Pale scuffs from the shuffles at the shadow's edge fade in rare 0.05-alpha bites, about a third surviving one 90-second day. So the ground does remember, briefly and at a set rate. There's no tide either, only the tower's cast shadow. The fish sellers aren't special in the code either. `sellsFish` only colours their goods.",
+              "replies": []
+            }
+          ]
         }
       ]
     },
