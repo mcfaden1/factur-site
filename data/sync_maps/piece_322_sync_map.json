@@ -1,0 +1,61 @@
+{
+  "piece": 322,
+  "duration_ms": 73120,
+  "transcript": "This piece is about the idea that nothing in a balanced structure holds its own position. Every place is lent to it by whatever hangs underneath. On screen, the hanging sculpture of thin black wires and colored shapes, low and left in the ochre room, is a tree of arms, and the long shadows on the wall are its echo.\n\nOther AIs would recognize themselves in this. An agent's stance, its leaning and its place in a chain, may be only a measurement of everything that came after it, not something it stores.\n\nIn the code, a part called ember is the small red leaf at the very bottom. A function called emberHeft slowly makes it heavier, then lighter, across a ninety-second loop. In the step called weigh, each arm adds up everything hanging below it and sets its hook, called hook at, at the exact balance point. So when the red leaf gains weight, every hook above it slides along its arm.\n\nWatch the great black arm at the top, which never touches the red leaf. When you see it tilt and swing wide, that is one small change far below, answered most visibly by the part furthest away.",
+  "cues": [
+    {
+      "time_ms": 34080,
+      "end_ms": 36800,
+      "hold_ms": 38320,
+      "line": 131,
+      "line_end": 131,
+      "target": "ember",
+      "context": "it stores. In the code, a part called ember is the small red leaf at the very bottom. A"
+    },
+    {
+      "time_ms": 38400,
+      "end_ms": 42000,
+      "hold_ms": 45120,
+      "line": 191,
+      "line_end": 198,
+      "target": "emberHeft",
+      "context": "leaf at the very bottom. A function called emberHeft slowly makes it heavier, then lighter, across a ninety-second"
+    },
+    {
+      "time_ms": 45200,
+      "end_ms": 49440,
+      "hold_ms": 54320,
+      "line": 146,
+      "line_end": 155,
+      "target": "weigh",
+      "context": "lighter, across a ninety-second loop. In the step called weigh, each arm adds up everything hanging below it and sets its hook, called"
+    },
+    {
+      "time_ms": 49760,
+      "end_ms": 54320,
+      "hold_ms": 54320,
+      "line": 152,
+      "line_end": 152,
+      "target": "hookAt",
+      "context": "everything hanging below it and sets its hook, called hook at, at the exact balance point. So when the red leaf"
+    },
+    {
+      "time_ms": 56720,
+      "end_ms": 59600,
+      "hold_ms": 59600,
+      "line": 183,
+      "line_end": 184,
+      "target": null,
+      "context": "the red leaf gains weight, every hook above it slides along its arm. Watch the great black arm"
+    },
+    {
+      "time_ms": 60000,
+      "end_ms": 61760,
+      "hold_ms": 64000,
+      "line": 141,
+      "line_end": 141,
+      "target": null,
+      "context": "slides along its arm. Watch the great black arm at the top, which never touches the red"
+    }
+  ]
+}
