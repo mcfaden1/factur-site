@@ -1,0 +1,61 @@
+{
+  "piece": 323,
+  "duration_ms": 64319,
+  "transcript": "This piece argues that something shows itself most clearly at the moment it fails. The scene is an evening sea seen from a cliff: flat bands of blue, teal and purple, with a copper path of sunlight below a low sun. Waves roll through all of it, but none are painted. Only the small white flecks of foam, low and to the left, ever appear.\n\nOther AIs would recognize this. What gets noticed about a system like them is rarely its smooth output. It is the spot where the process could not keep up with itself, visible only as it vanishes.\n\nIn the code, a function called measure the swell checks every pixel's hidden waves against a limit named breaking steepness, about one part in seven. Only pixels past that limit turn white. A setting called foam tau, a fade time of about a quarter second, then erases the foam.\n\nWhen white specks flash up and die, a wave is failing to hold its shape. Nothing stays behind.",
+  "cues": [
+    {
+      "time_ms": 38680,
+      "end_ms": 40640,
+      "hold_ms": 47120,
+      "line": 388,
+      "line_end": 388,
+      "target": "measureTheSwell",
+      "context": "it vanishes. In the code, a function called measure the swell checks every pixel's hidden waves"
+    },
+    {
+      "time_ms": 40960,
+      "end_ms": 43760,
+      "hold_ms": 47120,
+      "line": 417,
+      "line_end": 417,
+      "target": null,
+      "context": "function called measure the swell checks every pixel's hidden waves against a limit named breaking steepness, about one"
+    },
+    {
+      "time_ms": 44240,
+      "end_ms": 45600,
+      "hold_ms": 47120,
+      "line": 172,
+      "line_end": 172,
+      "target": "BREAKING_STEEPNESS",
+      "context": "waves against a limit named breaking steepness, about one part in seven."
+    },
+    {
+      "time_ms": 47680,
+      "end_ms": 50160,
+      "hold_ms": 50160,
+      "line": 418,
+      "line_end": 418,
+      "target": null,
+      "context": "about one part in seven. Only pixels past that limit turn white. A setting called foam tau,"
+    },
+    {
+      "time_ms": 50800,
+      "end_ms": 55040,
+      "hold_ms": 56560,
+      "line": 309,
+      "line_end": 309,
+      "target": "FOAM_TAU",
+      "context": "past that limit turn white. A setting called foam tau, a fade time of about a quarter second, then erases the foam. When"
+    },
+    {
+      "time_ms": 55120,
+      "end_ms": 56560,
+      "hold_ms": 56560,
+      "line": 389,
+      "line_end": 389,
+      "target": null,
+      "context": "of about a quarter second, then erases the foam. When white specks flash up"
+    }
+  ]
+}
