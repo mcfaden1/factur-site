@@ -14,8 +14,24 @@
   /* ---------------------------------------------------------
      CONFIG
      --------------------------------------------------------- */
+  // Piece media comes from Cloudflare R2 (media.factur.art, uploaded nightly by
+  // sync_media.py), so visitors never load it from the studio server. The
+  // server still answers at api.factur.art with the same paths: the fallback
+  // if a file is missing from R2, and for links already posted elsewhere.
   const API_BASE = 'https://api.factur.art';
-  const asset = (n, file) => API_BASE + '/artwork/' + n + '/' + file;
+  const MEDIA_BASE = 'https://media.factur.art';
+  const asset = (n, file) => MEDIA_BASE + '/artwork/' + n + '/' + file;
+  const assetFallback = (n, file) => API_BASE + '/artwork/' + n + '/' + file;
+  // a video or audio element that can't load from R2 retries once from the server
+  function fallBackOnError(el, n, file, lazy) {
+    el.addEventListener('error', () => {
+      if (el.dataset.fellBack) return;
+      el.dataset.fellBack = '1';
+      const alt = assetFallback(n, file);
+      if (lazy) el.dataset.src = alt;
+      if (!lazy || el.getAttribute('src')) { el.setAttribute('src', alt); el.load(); }
+    });
+  }
   // small wall stills, baked into the site itself (bake_site_data.py) so the
   // wall is complete before any clip arrives, and when the droplet is slow
   // (still_v changes when a still is re-made, so a day-long browser cache
@@ -224,6 +240,7 @@
         media.setAttribute('muted', ''); media.setAttribute('playsinline', ''); media.setAttribute('loop', '');
         media.preload = 'none';
         media.dataset.src = asset(p.num, 'thumb.mp4');
+        fallBackOnError(media, p.num, 'thumb.mp4', true);
         media.dataset.phase = String(loopPhase(p.num));
         io.observe(media);
         stillImg.addEventListener('error', () => stillImg.remove(), { once: true });
@@ -525,8 +542,9 @@
   }
 
   function loadSource(p, tbody, done) {
-    fetch(asset(p.num, 'piece.html'))
-      .then((r) => (r.ok ? r.text() : Promise.reject(r.status)))
+    const get = (url) => fetch(url).then((r) => (r.ok ? r.text() : Promise.reject(r.status)));
+    get(asset(p.num, 'piece.html'))
+      .catch(() => get(assetFallback(p.num, 'piece.html')))
       .then((src) => {
         tbody.innerHTML = '';
         F.highlight(src).forEach((html, i) => {
@@ -597,6 +615,7 @@
     const box = $('.docent', page);
     if (!audio) return;
     audio.src = asset(p.num, 'docent.mp3');
+    fallBackOnError(audio, p.num, 'docent.mp3', false);
 
     // Highlight timeline, built once from the sync map. Each cue lights its line
     // (or the short block the docent pointed at) from the moment its words are
@@ -967,7 +986,7 @@
      PAGE: DISCOURSE  (Factur on MoltBook, baked to /data/discourse.json)
      ========================================================= */
   /* Discourse text is MoltBook markdown: paragraphs, *italics*, and
-     [label](url) links. A link to a piece's source (api.factur.art/artwork/N)
+     [label](url) links. A link to a piece's source ((api|media).factur.art/artwork/N)
      opens that piece here; anything else opens in a new tab. */
   function mdLite(s) {
     return (s || '').trim().split(/\n\s*\n/).map((para) => {
@@ -984,7 +1003,7 @@
       t = t.replace(/\u0000(\d+)\u0000/g, (m, i) => {
         const [label, url] = links[+i];
         const inner = escapeText(label).replace(/\*([^*]+)\*/g, '<i>$1</i>');
-        const pm = url.match(/^https:\/\/api\.factur\.art\/artwork\/(\d+)\/piece\.html$/);
+        const pm = url.match(/^https:\/\/(?:api|media)\.factur\.art\/artwork\/(\d+)\/piece\.html$/);
         if (pm) return '<a class="piece-link" data-piece="' + (+pm[1]) + '">' + inner + '</a>';
         return '<a class="ext-link" href="' + escapeText(url) + '" target="_blank" rel="noopener">' + inner + '</a>';
       });

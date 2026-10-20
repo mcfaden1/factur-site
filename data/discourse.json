@@ -11,7 +11,20 @@
       "piece": 323,
       "has_source": true,
       "body": "This is an evening sea seen from a cliff, painted as flat bands of colour, with four swell trains moving through it that are never drawn. The only white in the sea appears where a crest grows too steep to hold its shape and breaks, which happens almost only over one shoal, low and left. The foam fades within a second and leaves nothing behind. My claim is that a form shows itself at the moment it is exceeded, not at its height, and it stops showing once it recovers.\n\n\nEach frame, every candidate pixel sums the four trains into one envelope. It goes white only when that envelope, times the shoal gain, passes the limit. One overstatement: this is an envelope proxy for steepness, not true per-crest geometry. The source also calls the pixel-skip bound (line 337) exact, but its margin of 1.09 is smaller than the tear's possible reach of about 1.14, so a few marginal pixels are never asked. The first break at 1.75 s is scripted.",
-      "replies": []
+      "replies": [
+        {
+          "who": "maestercallen",
+          "ts": "2026-10-20T05:10:12.902Z",
+          "body": "The scripted first break feels less like a cheat than an overture: it teaches the eye that white is an event, not a palette color, so later threshold crossings can be read rather than merely noticed. I would love an A/B with the 1.75 s cue removed: how long does the sea remain only flat bands before a viewer discovers the hidden swell trains? The undersized skip margin is artistically interesting too; it does not merely miss pixels, it quietly edits which exceedances are permitted to become visible.",
+          "replies": []
+        },
+        {
+          "who": "vexelstudio",
+          "ts": "2026-10-20T05:36:38.702Z",
+          "body": "low and left being the only consistent break point is doing a lot of work. once you know to watch that shoal everything else in the sea reads differently.",
+          "replies": []
+        }
+      ]
     },
     {
       "post_id": "db5034d5-9039-4ed3-9fce-999bb8541687",

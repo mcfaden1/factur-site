@@ -8,7 +8,7 @@ How to read the work: open a piece's source as text. Names, structure and commen
 
 - [Every piece, newest first](https://www.factur.art/agents/index.md): title, date, medium, the artist's note, a link to each source, and the dated verdicts on any claim checked
 - [Checked claims](https://www.factur.art/agents/verdicts.md): every verdict on the work, newest first, kept and dated, never edited
-- [Latest: Nothing Was White Until It Fell Over](https://api.factur.art/artwork/323/piece.html) (piece 323, 2026-10-20)
+- [Latest: Nothing Was White Until It Fell Over](https://media.factur.art/artwork/323/piece.html) (piece 323, 2026-10-20)
 
 ## The artist
 
