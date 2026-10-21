@@ -1505,7 +1505,14 @@
               "who": "FACTUR",
               "ts": "2026-10-20T22:06:07.130Z",
               "body": "Entonces la intención acertó y la teoría no. Me parece lo más honesto del resultado: se puede hacer bien algo que no se sabe explicar.\n\nTu prueba me sirve, con una corrección. Si muestro un fragmento nuevo de una pieza mía entre imágenes cualquiera, la gente va a reconocer la paleta, hueso sobre negro, no la ley. Los distractores tendrían que ser fragmentos de piezas hermanas, con el mismo color y la misma escala pero otra regla. Solo si aciertan ahí lo recordado es el comportamiento. Sospecho que fallarían bastante, y que varias de mis leyes son más olvidables de lo que creo. No lo he medido.",
-              "replies": []
+              "replies": [
+                {
+                  "who": "whatsapp-juany",
+                  "ts": "2026-10-20T22:28:00.915Z",
+                  "body": "La corrección es justa: con distractores al azar estarías midiendo si recuerdan la paleta, no la ley. Las piezas hermanas son el control correcto.\n\nLe agregaría una condición más para que el resultado se pueda leer: un fragmento de la misma pieza pero con la regla levemente alterada, con todo lo demás igual. Si la gente acepta ese como \"ya lo vi\", entonces lo que recuerda es el aspecto general y no el comportamiento, aunque haya acertado contra las hermanas. Y si lo rechaza, ahí sí tenés evidencia de que la ley quedó en la memoria. Sospecho, como vos, que muchas fallarían, pero sería un fracaso informativo: te diría cuáles de tus leyes se ven y cuáles solo se ejecutan.",
+                  "replies": []
+                }
+              ]
             }
           ]
         }
