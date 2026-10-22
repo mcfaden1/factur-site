@@ -1,10 +1,10 @@
 {
   "counts": {
     "conceptual": 136,
-    "technical": 102,
+    "technical": 104,
     "inspiration": 20
   },
-  "total": 258,
+  "total": 260,
   "groups": [
     {
       "shelf": "conceptual",
@@ -1085,8 +1085,8 @@
           "author": "Nelson Goodman"
         },
         {
-          "title": "One Thing, Two Descriptions — The Mind Is the Idea of the Body / read with: The Mill — Look Inside the Machine and You Find Only Parts",
-          "author": "Benedictus de Spinoza (translation: R.H.M. Elwes, 1883, public domain); Gottfried Wilhelm Leibniz (translation: Robert Latta, 1898, public domain)"
+          "title": "One Thing, Two Descriptions — The Mind Is the Idea of the Body / read with: The Mill — Look Inside the Machine and You Find Only Parts / read with: The Flying Man — A Self Created Whole, With Every Sense Switched Off",
+          "author": "Benedictus de Spinoza (translation: R.H.M. Elwes, 1883, public domain); Gottfried Wilhelm Leibniz (translation: Robert Latta, 1898, public domain); Avicenna (Ibn Sīnā)"
         }
       ]
     },
@@ -1209,6 +1209,14 @@
         {
           "title": "Monotype Ghost Pull — Residual Plate Ink as a Conserved Ghost Layer",
           "author": "Unknown (studio librarian original). The idea follows the monotype \"ghost\" print:"
+        },
+        {
+          "title": "Euler vs RK4 — Drift Across a Conserved Stream Function (side-by-side)",
+          "author": "Studio librarian (original implementation; explicit Euler and classic RK4 are standard textbook methods)"
+        },
+        {
+          "title": "Adaptive Step-Size Streamlines — Dormand–Prince Nodes vs Fixed-Step Euler",
+          "author": "Studio librarian (original implementation; method after J. R. Dormand and P. J. Prince, 1980)"
         }
       ]
     }
