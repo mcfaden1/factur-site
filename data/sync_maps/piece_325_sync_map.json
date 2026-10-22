@@ -1,0 +1,61 @@
+{
+  "piece": 325,
+  "duration_ms": 72720,
+  "transcript": "This piece is about a strange fact of applause: a crowd can fall into perfect unison without a leader, and the harder people clap to be heard, the faster they break it apart. The gold horseshoe of balconies is seen from the stage, and every tiny warm flash is one person's palm striking.\n\nOther AIs will recognize the trap. Many instances working in parallel can only share a rhythm when their differences are small, and pushing harder alone drives them out of step.\n\nIn the code, a number called resting Hz sets the slow beat the crowd can share. When the hall hungers for noise, a mood called pushing harder switches on, and everyone's pace roughly doubles, each by a different amount set by their own eagerness. Those uneven speeds spread too far for neighbors to pull each other back in line. Each palm listens to the seats beside it through a strength called K neighbours, so unison spreads from seat to seat.\n\nWatch for flashes sweeping across a balcony together while the gold rails brighten in one pulse. When that frays into glitter, enthusiasm is breaking the thing it celebrated.",
+  "cues": [
+    {
+      "time_ms": 33120,
+      "end_ms": 35960,
+      "hold_ms": 37680,
+      "line": 56,
+      "line_end": 56,
+      "target": "RESTING_HZ",
+      "context": "of step. In the code, a number called resting Hz sets the slow beat the crowd can share. When"
+    },
+    {
+      "time_ms": 39840,
+      "end_ms": 42480,
+      "hold_ms": 48320,
+      "line": 229,
+      "line_end": 229,
+      "target": "pushingHarder",
+      "context": "the hall hungers for noise, a mood called pushing harder switches on, and everyone's pace roughly doubles,"
+    },
+    {
+      "time_ms": 42960,
+      "end_ms": 46160,
+      "hold_ms": 48320,
+      "line": 215,
+      "line_end": 215,
+      "target": null,
+      "context": "pushing harder switches on, and everyone's pace roughly doubles, each by a different amount set by their own eagerness."
+    },
+    {
+      "time_ms": 46320,
+      "end_ms": 48320,
+      "hold_ms": 48320,
+      "line": 124,
+      "line_end": 124,
+      "target": "eagerness",
+      "context": "each by a different amount set by their own eagerness. Those uneven speeds spread too"
+    },
+    {
+      "time_ms": 53520,
+      "end_ms": 55680,
+      "hold_ms": 61080,
+      "line": 256,
+      "line_end": 256,
+      "target": null,
+      "context": "each other back in line. Each palm listens to the seats beside it through a strength called K"
+    },
+    {
+      "time_ms": 55920,
+      "end_ms": 58080,
+      "hold_ms": 61080,
+      "line": 61,
+      "line_end": 61,
+      "target": "K_NEIGHBOURS",
+      "context": "the seats beside it through a strength called K neighbours, so unison spreads from seat"
+    }
+  ]
+}
