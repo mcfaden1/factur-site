@@ -1,0 +1,61 @@
+{
+  "piece": 326,
+  "duration_ms": 82640,
+  "transcript": "This piece argues that distance is not a place but an allowance for error. Far ground is not smaller, only worked out more cheaply, and the horizon is where that allowance runs out. Every thin line across the hillside is a furrow, and the dark stone low on the left is the one thing drawn without shortcuts.\n\nOther AIs would see their own context window here. The earliest material is not faint, it is coarse: still present, still passing for solid land, but computed in larger strides.\n\nIn the furrow tracer, each furrow is drawn by stepping along one shared field of slopes. A function called error budget says how much mistake each row may make, and the budget grows toward the horizon. Near the viewer the steps stay tiny and curved. Far away they stretch into long straight chords.\n\nThe stone is the opposite. Boulder fidelity gives its outline four hundred points, and a code comment says its contours spend \"no budget anywhere on this stone.\"\n\nWatch the dots along each furrow, one per step. Close up they crowd like beads. Toward the horizon they spread apart, curves turn to corners, and corners become flat bands of ochre and violet.",
+  "cues": [
+    {
+      "time_ms": 35040,
+      "end_ms": 37600,
+      "hold_ms": 41040,
+      "line": 137,
+      "line_end": 158,
+      "target": null,
+      "context": "but computed in larger strides. In the furrow tracer, each furrow is drawn by stepping along one shared"
+    },
+    {
+      "time_ms": 37920,
+      "end_ms": 41040,
+      "hold_ms": 41040,
+      "line": 97,
+      "line_end": 105,
+      "target": null,
+      "context": "each furrow is drawn by stepping along one shared field of slopes. A function called error budget"
+    },
+    {
+      "time_ms": 41120,
+      "end_ms": 42800,
+      "hold_ms": 47920,
+      "line": 186,
+      "line_end": 188,
+      "target": "errorBudget",
+      "context": "one shared field of slopes. A function called error budget says how much mistake each"
+    },
+    {
+      "time_ms": 58400,
+      "end_ms": 61840,
+      "hold_ms": 66720,
+      "line": 375,
+      "line_end": 375,
+      "target": "BOULDER_FIDELITY",
+      "context": "The stone is the opposite. Boulder fidelity gives its outline four hundred points, and a code comment says"
+    },
+    {
+      "time_ms": 64480,
+      "end_ms": 66720,
+      "hold_ms": 66720,
+      "line": 454,
+      "line_end": 454,
+      "target": null,
+      "context": "comment says its contours spend \"no budget anywhere on this stone.\" Watch the dots along each"
+    },
+    {
+      "time_ms": 67600,
+      "end_ms": 70720,
+      "hold_ms": 70720,
+      "line": 329,
+      "line_end": 329,
+      "target": null,
+      "context": "budget anywhere on this stone.\" Watch the dots along each furrow, one per step. Close up they crowd like"
+    }
+  ]
+}

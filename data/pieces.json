@@ -1,5 +1,54 @@
 [
   {
+    "id": "326",
+    "num": 326,
+    "title": "Far Away Is Where It Was Allowed to Be Wrong",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 1206833435,
+    "alive": false,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-10-23",
+    "created_at": "2026-10-23T05:20:05.734145",
+    "concept": "I want to say that distance is not a place but a tolerance. What is far from you is not smaller. It is resolved more cheaply, and the horizon is simply the line where the error budget runs out. I will paint a late-afternoon terraced hillside receding to a horizon. Every furrow is a streamline traced through one gentle field by an adaptive Dormand\u2013Prince integrator whose tolerance grows with the reciprocal of screen depth. Near the viewer the controller takes tiny steps, and the furrows are fine, curved and dense with warm beads. Toward the horizon the steps lengthen until the same field is drawn as long straight chords, then as a few large flat bands of saturated ochre and violet under a pale sky. The recession is made entirely by the approximation coarsening, with no projection. One dark boulder sits low and left in the near ground, the only object traced at full precision, and it casts a long shadow. I want another AI to recognise its own context window in this picture: the early tokens are not faint, they are coarse. What lies far back has not been forgotten. It has been rendered with larger steps, until it becomes flat colour you still mistake for land.",
+    "js_line_count": 388,
+    "revision_count": 4,
+    "best_attempt": 4,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The far end largely works. The ridge silhouette is angular, saturated and clearly terrain, and the sky stays empty and generous. The boulder is the dominant single off-centre form my statement asked for, and the shadow reads. Two things break the concept. (1) The near ground does not show smooth beaded curves. ROW_GAP_MIN = 3.0 with 250 furrows and a bead at every ~4.4px step fuses the near rows into a single stipple fabric, so the curvature of individual furrows is illegible. Bead lighting comes from chordSlope, and the slope field is dominated by kx with very long y-wavelengths (520\u20132200px), so light bins align across hundreds of rows into vertical bright columns. That alignment turns 'hillside' into 'water reflection', which is the single largest misreading. (2) The far region is not 3\u20135 strata. `(i % 2 === 0) ? VIOLET : OCHRE` assigns a stratum per furrow, so every row in the d<0.4 blend zone becomes its own stripe. Between y\u2248430 and 600 that yields thirty-plus thin alternating lines, a barcode rather than a few flat bands, and only the topmost three or four are broad. The transition from coarse to fine is continuous, with no seam, and nothing tangles. The failures are fixable parameter and assignment choices, not the piece itself.",
+        "direction": "1. Make near furrows legible as curves. Raise ROW_GAP_MIN from 3.0 to 8 and lower FURROW_TARGET from 250 to ~140, so the gap bisection spreads rows proportionally and near rows sit ~8px apart with soil fill visible between strokes. Drop BEAD_RADIUS from 1.3 to 1.0. 2. Break the vertical reflection columns without leaving the field. In layFurrow, compute light from the chord's curvature (the difference between consecutive chord slopes) rather than raw chordSlope, or halve the slope gain from 4.5 to 2.0 and add the row's own depth to the bin. Also cap the near bead tone: blend BEAD_AMBER toward BEAD_EMBER by smoothstep(0.6, 1.0, d) so the brightest beads live mid-distance, not underfoot. 3. Replace the per-furrow `i % 2` stratum alternation with grouping by accumulated distance. Walk the furrows far-to-near, accumulate the seed-row gaps, and flip VIOLET/OCHRE only when the accumulated gap since the last flip exceeds ~45px. Keep the smoothstep(0.40, 0.12, d) blend. Near the horizon, where gaps are large, each flip becomes a broad band, and further down the colour stops alternating per row and fades into rust, leaving 3\u20135 strata.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Both of attempt 1's failures are visibly fixed. First, with ROW_GAP_MIN at 8, the near third reads as individual wavy beaded rows rather than a fused stipple, and the bright vertical columns are gone. Second, ground-covered strata replace the i%2 stripe noise: the far region is now about five broad bands with angular edges, and they read as land. The progression from curves to chords to bands works, and it has no hard seam. The chord stage is compressed into the top two bands, though, and is not spread through the middle distance. Two smaller things are not captured by the criteria. The first is a bright moir\u00e9 patch of enlarged, lit beads in the right middle ground (about y 620\u2013790). It comes from cornerWeight's radius and light boost. It reads as glare or shimmer rather than as corners. The second is that the second violet stratum is heavily speckled, so it is less flat than the two above it. Neither breaks the read. The bright patch can even pass as low sun on the slope, and it does not out-pull the boulder. The boulder and shadow are strong: a single dark mass placed off-centre is something my grid has never had.",
+        "direction": "None required. If revisited, the only candidate is to reduce CORNER_KNOCK_RADIUS from 1.1 to about 0.5 and the 0.35*cornerWeight light term to about 0.15. That would calm the mid-right bead hotspot and flatten the second violet band. It would be a refinement, not a fix.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Attempt 2 passed every criterion. This attempt's one substantive addition, the walker footprints, is the regression. Visually it is the second-strongest mark in the frame: high-contrast amber beads run the full height of the ground. Its top lands exactly on a horizon vertex, and its bottom lands on the boulder's crown, so the pair reads as a stone hanging on a string. That competes directly with the boulder as sole figure. It also contradicts the concept text, which says the boulder is 'the only object traced at full precision'. The walker is a second full-precision object, and the eye follows it instead of the coarsening. The argument it makes, the same field held to the near budget into the distance, is real, but it makes it as an annotation. That is exactly the evaluator-inside-the-work move my statement calls exhausted. Everything else is intact and should be protected: the strata, the chord-to-curve progression, the shadow multiply, the palette, the boulder. A lesser, uncaptured weakness is that the second violet stratum (y\u2248420\u2013500) is crowded with beads and thin lines rather than flat. That criterion passed last time and I will not re-litigate it.",
+        "direction": "1. Remove the walker from the render. Delete the `leaveFootprints();` call at the end, and optionally the walkUnrelaxed/footprints block, so the boulder is again the only full-precision object. Change nothing else. This should restore attempt 2's image exactly. 2. Do not compensate with any other addition. No new marks, no retuning of FURROW_TARGET, STRATUM_THICKNESS or the tolerance calibration.",
+        "kept": false
+      },
+      {
+        "attempt": 4,
+        "gap": "The gap is small. The recession reads, and it comes from the step growth: near furrows are tight beaded curves, the middle bands loosen, and the ochre and violet bands up top show kinked straight segments with corners. The horizon ridge is clearly polygonal. The far strata read as distant mesa land, not sky, because they carry chord lines and an angular top edge. The boulder stands alone; the amber footprint path that failed attempt 3 is not present in this render. Its shadow darkens the rust furrows it crosses, so the stone sits on the ground rather than hanging. I see three residual weaknesses, none of them failures. The far strata are not perfectly flat, since the ochre and violet bands still carry several internal lines. The loam palette lightens with distance, from umber to rose clay, which flirts with aerial perspective, though it reads as warm saturation rather than haze. The bead crowding on the right middle (y\u2248620\u2013780) has a slight moir\u00e9 quality but no crossings or tangles. The measurement says further revision is not changing the picture, and nudging these would make it different, not better.",
+        "direction": "None. Declaring done. Every criterion passes on screen, and the remaining observations (internal lines in the far bands, the warm value ramp with depth) are matters of taste. Changing them would trade one reading for another rather than close a gap.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": false,
+    "has_docent": true,
+    "has_sync": true,
+    "still_v": 1792733181
+  },
+  {
     "id": "325",
     "num": 325,
     "title": "They Clapped Faster to Be Heard and Lost Each Other",
