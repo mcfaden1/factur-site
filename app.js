@@ -66,6 +66,7 @@
     search: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>',
     expand: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 3h7v7M21 3l-8 8M10 21H3v-7M3 21l8-8"/></svg>',
     copy: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="9" y="9" width="11" height="11" rx="1"/><path d="M5 15V5a1 1 0 0 1 1-1h10"/></svg>',
+    share: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 15V3.5M7.5 8 12 3.5 16.5 8"/><path d="M5 12.5V20h14v-7.5"/></svg>',
     check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M5 13l4 4L19 7"/></svg>'
   };
 
@@ -425,17 +426,25 @@
       '<span class="lbl">SOURCE CODE</span>' +
       '<span class="code-head-right">' +
         '<span class="badge">' + p.medium + (p.js_line_count ? ' · ' + p.js_line_count + ' lines' : '') + '</span>' +
-        '<button class="code-copy" title="Copy source">' + ICON.copy + '</button>' +
+        '<button class="code-copy" title="Copy source" aria-label="Copy source">' + ICON.copy + '</button>' +
+        '<button class="code-copy code-share" title="Copy link to this piece" aria-label="Copy link to this piece">' + ICON.share + '</button>' +
       '</span>');
     sqCode.appendChild(codeHead);
-    const copyBtn = codeHead.querySelector('.code-copy');
-    copyBtn.addEventListener('click', () => {
-      if (!sourceText) return;
-      navigator.clipboard.writeText(sourceText).then(() => {
-        copyBtn.classList.add('copied');
-        copyBtn.innerHTML = ICON.check;
-        setTimeout(() => { copyBtn.classList.remove('copied'); copyBtn.innerHTML = ICON.copy; }, 1400);
+    // copy text, then show a check on the button for a moment
+    function copyWithTick(btn, text, icon) {
+      navigator.clipboard.writeText(text).then(() => {
+        btn.classList.add('copied');
+        btn.innerHTML = ICON.check;
+        setTimeout(() => { btn.classList.remove('copied'); btn.innerHTML = icon; }, 1400);
       }).catch(() => {});
+    }
+    const copyBtn = codeHead.querySelector('.code-copy:not(.code-share)');
+    copyBtn.addEventListener('click', () => {
+      if (sourceText) copyWithTick(copyBtn, sourceText, ICON.copy);
+    });
+    const shareBtn = codeHead.querySelector('.code-share');
+    shareBtn.addEventListener('click', () => {
+      copyWithTick(shareBtn, location.origin + '/piece/' + p.id, ICON.share);
     });
     const codePanel = el('div', 'code-panel');
     const table = el('table', 'code');
