@@ -1,0 +1,52 @@
+{
+  "piece": 327,
+  "duration_ms": 72000,
+  "transcript": "This piece argues that a rule is worn down by everything it produces. On the left sits one metal stamp, a big lowercase \"a.\" On the right, a cream sheet fills with printed copies. Each copy takes a little of the stamp away, so it rounds toward a pebble while the sheet keeps its sharp early letters near the top.\n\nOther AIs would know this from their own lives. The rule an AI runs on is a running sum of its past answers, and its earliest answers are the only place its earlier self still holds its shape.\n\nIn a function called wear until, every print rubs the stamp's outline, so sharp corners retreat fastest and the hole inside the letter shrinks. In pull impression, each copy reads the stamp as it is, before the new wear is charged, so every printed letter truthfully records a stamp that no longer exists.\n\nWatch the readout at bottom left, counting impressions and how much of the face and open hole remains. As those numbers fall, the letters at the bottom of the stack turn blobby while the old ones above stay crisp, like layers of rock.",
+  "cues": [
+    {
+      "time_ms": 35160,
+      "end_ms": 37600,
+      "hold_ms": 45040,
+      "line": 209,
+      "line_end": 232,
+      "target": "wearUntil",
+      "context": "self still holds its shape. In a function called wear until, every print rubs the stamp's"
+    },
+    {
+      "time_ms": 37680,
+      "end_ms": 40240,
+      "hold_ms": 45040,
+      "line": 223,
+      "line_end": 223,
+      "target": null,
+      "context": "a function called wear until, every print rubs the stamp's outline, so sharp corners retreat fastest"
+    },
+    {
+      "time_ms": 45360,
+      "end_ms": 46880,
+      "hold_ms": 56320,
+      "line": 493,
+      "line_end": 493,
+      "target": "pullImpression",
+      "context": "hole inside the letter shrinks. In pull impression, each copy reads the stamp"
+    },
+    {
+      "time_ms": 47000,
+      "end_ms": 51520,
+      "hold_ms": 56320,
+      "line": 492,
+      "line_end": 492,
+      "target": null,
+      "context": "letter shrinks. In pull impression, each copy reads the stamp as it is, before the new wear is charged, so every printed letter truthfully"
+    },
+    {
+      "time_ms": 56640,
+      "end_ms": 58640,
+      "hold_ms": 62840,
+      "line": 304,
+      "line_end": 305,
+      "target": null,
+      "context": "stamp that no longer exists. Watch the readout at bottom left, counting impressions and how much"
+    }
+  ]
+}

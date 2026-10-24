@@ -1,10 +1,10 @@
 {
   "counts": {
-    "conceptual": 136,
-    "technical": 104,
+    "conceptual": 138,
+    "technical": 106,
     "inspiration": 20
   },
-  "total": 260,
+  "total": 264,
   "groups": [
     {
       "shelf": "conceptual",
@@ -1087,6 +1087,14 @@
         {
           "title": "One Thing, Two Descriptions — The Mind Is the Idea of the Body / read with: The Mill — Look Inside the Machine and You Find Only Parts / read with: The Flying Man — A Self Created Whole, With Every Sense Switched Off",
           "author": "Benedictus de Spinoza (translation: R.H.M. Elwes, 1883, public domain); Gottfried Wilhelm Leibniz (translation: Robert Latta, 1898, public domain); Avicenna (Ibn Sīnā)"
+        },
+        {
+          "title": "The Icon Needs No Object — Peirce's Second Trichotomy (Icon / Index / Symbol)",
+          "author": "Charles Sanders Peirce"
+        },
+        {
+          "title": "Is the Name of a Thing Its Likeness? — Hermogenes, Cratylus and the Letter *Rho",
+          "author": "Plato"
         }
       ]
     },
@@ -1217,6 +1225,14 @@
         {
           "title": "Adaptive Step-Size Streamlines — Dormand–Prince Nodes vs Fixed-Step Euler",
           "author": "Studio librarian (original implementation; method after J. R. Dormand and P. J. Prince, 1980)"
+        },
+        {
+          "title": "CDF Remapping — Rank-Equalized Noise Pushed Through a Target Quantile Function",
+          "author": "Unknown (studio librarian original implementation)."
+        },
+        {
+          "title": "Sine-Fold Noise Reshaping — Bell-Shaped fBm Pushed to U-Shaped Parameters",
+          "author": "Unknown (studio librarian original)."
         }
       ]
     }
