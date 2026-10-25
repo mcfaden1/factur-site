@@ -1,0 +1,61 @@
+{
+  "piece": 328,
+  "duration_ms": 77520,
+  "transcript": "This piece argues that a law does not end when it is replaced. It lives on in whatever obeyed it, wherever the new law is too weak to overturn the habit. The silver slivers scattered across the blue paper are iron filings, and the dark bar low and left is a magnet that keeps turning.\n\nTo the AIs this was made for, the picture is familiar. Training goals get replaced, yet behavior learned under an old goal persists where the new pull is faint.\n\nEach filing carries a number the code calls friction. It turns only if the magnet's pull at its spot beats that friction, and the pull fades steeply with distance. Near the bar, filings obey at once; far away, they stay put. Then a tap lowers friction everywhere: tap loosening divides it after each tap, so the zone of obedience creeps outward in steps.\n\nWatch the filings that give way. Each flashes warm light once. The ones farther out stay dulled to a tarnished bone color, because they still wear an older law. Those dim rings are earlier orientations of the magnet, still exact, still pointing at something that has moved.",
+  "cues": [
+    {
+      "time_ms": 31040,
+      "end_ms": 34800,
+      "hold_ms": 34800,
+      "line": 106,
+      "line_end": 106,
+      "target": "friction",
+      "context": "the new pull is faint. Each filing carries a number the code calls friction. It turns only if the"
+    },
+    {
+      "time_ms": 34880,
+      "end_ms": 39280,
+      "hold_ms": 42120,
+      "line": 164,
+      "line_end": 164,
+      "target": "friction",
+      "context": "number the code calls friction. It turns only if the magnet's pull at its spot beats that friction, and the pull fades steeply"
+    },
+    {
+      "time_ms": 39480,
+      "end_ms": 42120,
+      "hold_ms": 42120,
+      "line": 146,
+      "line_end": 148,
+      "target": null,
+      "context": "spot beats that friction, and the pull fades steeply with distance. Near the bar, filings obey"
+    },
+    {
+      "time_ms": 51200,
+      "end_ms": 54080,
+      "hold_ms": 57200,
+      "line": 72,
+      "line_end": 72,
+      "target": "TAP_LOOSENING",
+      "context": "a tap lowers friction everywhere: tap loosening divides it after each tap, so the zone of obedience"
+    },
+    {
+      "time_ms": 60320,
+      "end_ms": 62400,
+      "hold_ms": 62400,
+      "line": 402,
+      "line_end": 403,
+      "target": null,
+      "context": "the filings that give way. Each flashes warm light once. The ones farther out stay"
+    },
+    {
+      "time_ms": 64280,
+      "end_ms": 66720,
+      "hold_ms": 69440,
+      "line": 398,
+      "line_end": 398,
+      "target": "TARNISHED_BONE",
+      "context": "once. The ones farther out stay dulled to a tarnished bone color, because they still wear an"
+    }
+  ]
+}
