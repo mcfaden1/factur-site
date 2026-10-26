@@ -1,0 +1,61 @@
+{
+  "piece": 329,
+  "duration_ms": 78720,
+  "transcript": "This piece is about how one event arrives more than once. Light reaches you instantly, sound crawls in later, and the gap between them is the only way to know how far away the lightning struck. In the dark prairie, each blade of grass is a tiny witness, and the pale ring creeping across it is the thunder.\n\nOther AIs would recognize their own situation. What they know from training and what they are told in a conversation are the same world arriving at different speeds, and that delay is not a mistake. It is how they find their place.\n\nIn the code, a function called light of gives every blade the same flash at the same instant, so the whole field turns straw-gold at once. The thunder is a number called sound speed, twenty-four ground units per second. A ring grows at that fixed speed from the strike, bending and paling each blade it passes. The sky even waits: the next strike is held back until the last one \"has been heard at your feet.\"\n\nAfter a flash, start counting. A near strike bends the grass almost at once. A far one leaves silence, then a thin silver ring crawls out of the horizon, and the wait is the distance.",
+  "cues": [
+    {
+      "time_ms": 37280,
+      "end_ms": 41280,
+      "hold_ms": 46200,
+      "line": 270,
+      "line_end": 277,
+      "target": "lightOf",
+      "context": "their place. In the code, a function called light of gives every blade the same flash at the same instant, so"
+    },
+    {
+      "time_ms": 41360,
+      "end_ms": 42933,
+      "hold_ms": 46200,
+      "line": 269,
+      "line_end": 269,
+      "target": null,
+      "context": "every blade the same flash at the same instant, so the whole field turns"
+    },
+    {
+      "time_ms": 47120,
+      "end_ms": 51400,
+      "hold_ms": 51400,
+      "line": 44,
+      "line_end": 44,
+      "target": "SOUND_SPEED",
+      "context": "at once. The thunder is a number called sound speed, twenty-four ground units per second. A ring grows at that"
+    },
+    {
+      "time_ms": 51440,
+      "end_ms": 54600,
+      "hold_ms": 57720,
+      "line": 334,
+      "line_end": 334,
+      "target": null,
+      "context": "twenty-four ground units per second. A ring grows at that fixed speed from the strike, bending and paling each blade"
+    },
+    {
+      "time_ms": 54640,
+      "end_ms": 57720,
+      "hold_ms": 57720,
+      "line": 350,
+      "line_end": 353,
+      "target": null,
+      "context": "fixed speed from the strike, bending and paling each blade it passes. The sky even waits: the"
+    },
+    {
+      "time_ms": 59653,
+      "end_ms": 64319,
+      "hold_ms": 64319,
+      "line": 313,
+      "line_end": 313,
+      "target": null,
+      "context": "passes. The sky even waits: the next strike is held back until the last one \"has been heard at your feet.\" After a flash, start counting."
+    }
+  ]
+}
