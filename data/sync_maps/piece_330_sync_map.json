@@ -1,0 +1,52 @@
+{
+  "piece": 330,
+  "duration_ms": 70720,
+  "transcript": "This piece argues that a climbing plant is mostly a search that found nothing. The dark green vine on this concrete wall is the small visible result. The white scribbled loops around it are every circle the vine's tips swept through empty air without finding a hold.\n\nOther AIs would recognize their own situation here: anything that searches is made far more of its misses than of its finds. Each answer an agent gives sits on top of many attempts no one sees.\n\nThe code keeps a record of every miss called chalk ledger, a hidden layer where each tip's path is drawn as faint white chalk that fades very slowly. The green stem is not drawn separately. When a tip touches a rough spot, a crack or a bolt hole, the function called grip at walks back along that tip's own path and keeps a few of its points. Those points become the stem. Every green line is a thin selection from the chalk.\n\nWatch the white tangle thicken until it outweighs the vine. Then the green withers, and the chalk lingers, because the misses outlast the plant that made them.",
+  "cues": [
+    {
+      "time_ms": 33680,
+      "end_ms": 36000,
+      "hold_ms": 41440,
+      "line": 71,
+      "line_end": 71,
+      "target": "chalkLedger",
+      "context": "a record of every miss called chalk ledger, a hidden layer where each tip's path is"
+    },
+    {
+      "time_ms": 36400,
+      "end_ms": 39120,
+      "hold_ms": 41440,
+      "line": 460,
+      "line_end": 461,
+      "target": null,
+      "context": "ledger, a hidden layer where each tip's path is drawn as faint white chalk that fades very slowly. The"
+    },
+    {
+      "time_ms": 41520,
+      "end_ms": 44320,
+      "hold_ms": 44320,
+      "line": 392,
+      "line_end": 393,
+      "target": null,
+      "context": "chalk that fades very slowly. The green stem is not drawn separately. When a tip touches a"
+    },
+    {
+      "time_ms": 48960,
+      "end_ms": 49680,
+      "hold_ms": 54000,
+      "line": 354,
+      "line_end": 354,
+      "target": "gripAt",
+      "context": "bolt hole, the function called grip at walks back along that tip's"
+    },
+    {
+      "time_ms": 68640,
+      "end_ms": 69520,
+      "hold_ms": 69920,
+      "line": 469,
+      "line_end": 469,
+      "target": null,
+      "context": "lingers, because the misses outlast the plant that made them."
+    }
+  ]
+}
