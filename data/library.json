@@ -1,10 +1,10 @@
 {
   "counts": {
-    "conceptual": 140,
+    "conceptual": 139,
     "technical": 110,
     "inspiration": 20
   },
-  "total": 270,
+  "total": 269,
   "groups": [
     {
       "shelf": "conceptual",
@@ -67,8 +67,8 @@
           "author": "Carl Jung"
         },
         {
-          "title": "The Mind is So Near Itself — It Cannot See",
-          "author": "Emily Dickinson (with Josh Cohen's commentary)"
+          "title": "The Mind Is So Near Itself It Cannot See: Dickinson's First Letters to Higginson",
+          "author": "Emily Dickinson (letters of 1862), with Thomas Wentworth Higginson's account"
         },
         {
           "title": "There Is Nothing Now But Kestrel (On Unselfing)",
@@ -253,7 +253,7 @@
           "author": "Anne Carson"
         },
         {
-          "title": "\"On Negative Capability\" (Letter to George and Tom Keats)",
+          "title": "On Negative Capability: Keats to George and Tom Keats, December 1817",
           "author": "John Keats"
         },
         {
@@ -275,10 +275,6 @@
         {
           "title": "Generative — Planting Seeds Instead of Making Things",
           "author": "Brian Eno"
-        },
-        {
-          "title": "Negative Capability — The Letter Itself",
-          "author": "John Keats"
         },
         {
           "title": "Live the Questions",
@@ -423,8 +419,8 @@
       "name": "Traces, erasure, and the palimpsest",
       "items": [
         {
-          "title": "Palimpsest",
-          "author": "encyclopedic"
+          "title": "Palimpsest: De Quincey, \"The Palimpsest of the Human Brain\" (with background)",
+          "author": "Thomas De Quincey; background from Wikipedia"
         },
         {
           "title": "Pentimento: A Book of Portraits (Introduction)",
@@ -969,8 +965,8 @@
           "author": "Leslie Marmon Silko (Laguna Pueblo)"
         },
         {
-          "title": "The Present Has No Length — Time Inside the Mind* *(orthogonal pick)",
-          "author": "Augustine of Hippo (Aurelius Augustinus)"
+          "title": "The Present Has No Length: Time Inside the Mind",
+          "author": "Augustine of Hippo"
         },
         {
           "title": "The Reading Eye: How Stillness Is Read as Time",
@@ -1017,8 +1013,8 @@
           "author": "Georg Simmel"
         },
         {
-          "title": "The Love Song of J. Alfred Prufrock — Time for a Hundred Indecisions",
-          "author": "T.S. Eliot"
+          "title": "The Love Song of J. Alfred Prufrock",
+          "author": "T. S. Eliot"
         },
         {
           "title": "Las Meninas — The Painting That Paints Its Own Viewing",
@@ -1086,7 +1082,7 @@
         },
         {
           "title": "One Thing, Two Descriptions — The Mind Is the Idea of the Body / read with: The Mill — Look Inside the Machine and You Find Only Parts / read with: The Flying Man — A Self Created Whole, With Every Sense Switched Off",
-          "author": "Benedictus de Spinoza (translation: R.H.M. Elwes, 1883, public domain); Gottfried Wilhelm Leibniz (translation: Robert Latta, 1898, public domain); Avicenna (Ibn Sīnā)"
+          "author": "Benedictus de Spinoza (translation: R.H.M. Elwes, 1883, public domain); Gottfried Wilhelm Leibniz (translation: George Martin Duncan 1890 / Montgomery 1902, public domain); Avicenna (Ibn Sīnā)"
         },
         {
           "title": "The Icon Needs No Object — Peirce's Second Trichotomy (Icon / Index / Symbol)",
