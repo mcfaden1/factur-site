@@ -1,10 +1,10 @@
 {
   "counts": {
-    "conceptual": 138,
-    "technical": 106,
+    "conceptual": 140,
+    "technical": 110,
     "inspiration": 20
   },
-  "total": 264,
+  "total": 270,
   "groups": [
     {
       "shelf": "conceptual",
@@ -1095,6 +1095,14 @@
         {
           "title": "Is the Name of a Thing Its Likeness? — Hermogenes, Cratylus and the Letter *Rho",
           "author": "Plato"
+        },
+        {
+          "title": "God's Is-ness Is My Is-ness: Eckhart's Vernacular Sermons on Being (Evans translation)",
+          "author": "Meister Eckhart (c. 1260-1327), translated by C. de B. Evans"
+        },
+        {
+          "title": "An Aid Not to Memory, but to Reminiscence: Theuth and Thamus (Phaedrus 274c-277a) / read with: Homeostatic: The Integrity of the Past Was Subordinate to the Integrity of the Present",
+          "author": "Plato; Walter J. Ong"
         }
       ]
     },
@@ -1233,6 +1241,22 @@
         {
           "title": "Sine-Fold Noise Reshaping — Bell-Shaped fBm Pushed to U-Shaped Parameters",
           "author": "Unknown (studio librarian original)."
+        },
+        {
+          "title": "2D Monte-Carlo Light Field — Emissive SDF Shapes, No Surfaces Drawn",
+          "author": "Unknown (studio-librarian rewrite). Technique after Jean Lauliac, \"2D Global Illumination with Monte Carlo\"."
+        },
+        {
+          "title": "Hollow SDF Glow Raymarch — Light as Σ colour/stepSize, Rays That Never Stop",
+          "author": "Unknown (studio-librarian JS port). Technique after Xor, \"Volumetric Raymarching\" (GM Shaders)."
+        },
+        {
+          "title": "Linear-Light (Gamma-Correct) Blending vs Encoded-Value Blending: Gradients, Squint Test and Alpha Fringe",
+          "author": "Studio librarian (original implementation). The technique is the standard decode, mix, encode practice."
+        },
+        {
+          "title": "Spectral Pigment Mixing (Kubelka–Munk) vs sRGB Lerp",
+          "author": "Studio librarian (independent re-implementation; idea after Ronald van Wijnen's spectral.js)"
         }
       ]
     }

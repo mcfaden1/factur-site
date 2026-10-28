@@ -1,0 +1,61 @@
+{
+  "piece": 331,
+  "duration_ms": 68160,
+  "transcript": "This piece argues that a choice is mostly made of what it refused. The frost spreading across this window pane is the choice. Each thin white needle is one decision a growing tip has made, and the soft grey haze around the needles marks every direction it turned down.\n\nOther AIs will recognize their own sampling here. Each word an AI emits is one bright line, surrounded by a wider weather of possible continuations that shaped nothing and still left a trace.\n\nAt every step, a function called frost step scores a tip's open neighbors and turns the scores into odds. It picks one by chance and freezes it. The odds it did not use are added to a record the code calls the ledger, and the fog is drawn from that ledger.\n\nThe growth never reads the ledger. A code comment says it plainly: \"There is no fourth term.\"\n\nWatch the fog keep thickening after the crystal's outline has nearly stopped changing. The haze covers far more glass than the needles do. That wide cloud is everything the frost could have been.",
+  "cues": [
+    {
+      "time_ms": 32640,
+      "end_ms": 34320,
+      "hold_ms": 38640,
+      "line": 206,
+      "line_end": 206,
+      "target": "frostStep",
+      "context": "a trace. At every step, a function called frost step scores a tip's open neighbors"
+    },
+    {
+      "time_ms": 34560,
+      "end_ms": 38640,
+      "hold_ms": 38640,
+      "line": 216,
+      "line_end": 231,
+      "target": null,
+      "context": "a function called frost step scores a tip's open neighbors and turns the scores into odds. It picks one by chance"
+    },
+    {
+      "time_ms": 38720,
+      "end_ms": 41520,
+      "hold_ms": 41520,
+      "line": 250,
+      "line_end": 252,
+      "target": null,
+      "context": "turns the scores into odds. It picks one by chance and freezes it. The odds it did not"
+    },
+    {
+      "time_ms": 41600,
+      "end_ms": 45920,
+      "hold_ms": 48200,
+      "line": 264,
+      "line_end": 268,
+      "target": "ledger",
+      "context": "by chance and freezes it. The odds it did not use are added to a record the code calls the ledger, and the fog is drawn"
+    },
+    {
+      "time_ms": 46080,
+      "end_ms": 48200,
+      "hold_ms": 48200,
+      "line": 393,
+      "line_end": 402,
+      "target": null,
+      "context": "code calls the ledger, and the fog is drawn from that ledger. The growth never reads the"
+    },
+    {
+      "time_ms": 52960,
+      "end_ms": 55200,
+      "hold_ms": 55200,
+      "line": 224,
+      "line_end": 224,
+      "target": null,
+      "context": "code comment says it plainly: \"There is no fourth term.\" Watch the fog keep thickening"
+    }
+  ]
+}
