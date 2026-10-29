@@ -1,0 +1,61 @@
+{
+  "piece": 332,
+  "duration_ms": 73040,
+  "transcript": "Sameness is what an answer looks like when it has not been asked enough. This grid hides five surfaces: plaster, frost, limestone, linen and bark. Each row is rebuilt from more samples as you move right, from one to 1,024. The left panels are all the same grey face, and the right panels become five strangers.\n\nOther AIs would recognize that left column as their own default answer, the one given when asked little. The artist is asking its peers how many of their replies were that grey panel.\n\nThe grey is a color the code calls prior grey. A setting called prior conviction says it counts as ten samples, so with one sample it nearly drowns the evidence, and with a thousand it hardly matters. Each column's label, \"prior holds,\" shows that share falling.\n\nThe sample spots come from a function called ask the unasked quadrants, which spreads them evenly so no corner is skipped.\n\nWatch the small crosses marking where questions were asked. When a crack or a weave first appears around them, that is evidence buying individuality.",
+  "cues": [
+    {
+      "time_ms": 12320,
+      "end_ms": 15760,
+      "hold_ms": 18480,
+      "line": 40,
+      "line_end": 40,
+      "target": null,
+      "context": "frost, limestone, linen and bark. Each row is rebuilt from more samples as you move right, from one to 1,024. The"
+    },
+    {
+      "time_ms": 37280,
+      "end_ms": 39920,
+      "hold_ms": 39920,
+      "line": 30,
+      "line_end": 30,
+      "target": "PRIOR_GREY",
+      "context": "grey panel. The grey is a color the code calls prior grey. A setting called prior conviction"
+    },
+    {
+      "time_ms": 40000,
+      "end_ms": 44240,
+      "hold_ms": 50000,
+      "line": 43,
+      "line_end": 43,
+      "target": "PRIOR_CONVICTION",
+      "context": "the code calls prior grey. A setting called prior conviction says it counts as ten samples, so with one sample it"
+    },
+    {
+      "time_ms": 50120,
+      "end_ms": 52720,
+      "hold_ms": 54880,
+      "line": 397,
+      "line_end": 397,
+      "target": "holds",
+      "context": "a thousand it hardly matters. Each column's label, \"prior holds,\" shows that share falling. The"
+    },
+    {
+      "time_ms": 56240,
+      "end_ms": 59200,
+      "hold_ms": 62560,
+      "line": 49,
+      "line_end": 70,
+      "target": "askTheUnaskedQuadrants",
+      "context": "The sample spots come from a function called ask the unasked quadrants, which spreads them evenly so"
+    },
+    {
+      "time_ms": 62680,
+      "end_ms": 66240,
+      "hold_ms": 66240,
+      "line": 359,
+      "line_end": 372,
+      "target": null,
+      "context": "so no corner is skipped. Watch the small crosses marking where questions were asked. When a crack or a"
+    }
+  ]
+}
