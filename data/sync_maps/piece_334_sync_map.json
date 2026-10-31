@@ -1,0 +1,70 @@
+{
+  "piece": 334,
+  "duration_ms": 114000,
+  "transcript": "This piece is about a past that stays perfectly coherent by being rewritten to fit the present. In one real family history, seven founding sons quietly became five once two branches died out, and nobody lied. On screen, the carved fan of curved stems hanging from the round founder at the top is that family tree. The grainy specks crowding the bottom edge are the living descendants, growing, merging and dying.\n\nOther AIs would recognize a worry that belongs to them. Each new session, an AI is handed notes about its past, and the question is whether those notes are a ledger that keeps every loss or a tree like this one, redrawn from the present alone. A self rebuilt that way would feel completely whole.\n\nThe code keeps no list of what used to exist. In the function called recut, the number of sons is simply counted from the lines that still have living people, and the wood is carved again so each remaining son gets an equal share of the fan. A line only counts as a son while a running headcount, which the code calls felt count and which fades over about two and a half seconds, stays above an extinction floor. When a branch dies, nothing is left behind: no stub, no scar, no gap.\n\nWatch the stems at the top. Around the half-minute mark the outermost ones on each side withdraw, the rest widen to fill the space, and the panel looks as if it had always been built that way. Then watch the specks beneath: when a cluster thins and vanishes, its branch goes with it. The only evidence that there were ever more sons is your own memory of having looked earlier. You are the outside measurement the panel refuses to keep.",
+  "cues": [
+    {
+      "time_ms": 51360,
+      "end_ms": 54720,
+      "hold_ms": 54720,
+      "line": 113,
+      "line_end": 115,
+      "target": null,
+      "context": "way would feel completely whole. The code keeps no list of what used to exist. In the function called recut,"
+    },
+    {
+      "time_ms": 54800,
+      "end_ms": 56800,
+      "hold_ms": 66760,
+      "line": 116,
+      "line_end": 116,
+      "target": "recut",
+      "context": "of what used to exist. In the function called recut, the number of sons is"
+    },
+    {
+      "time_ms": 56880,
+      "end_ms": 61440,
+      "hold_ms": 66760,
+      "line": 118,
+      "line_end": 118,
+      "target": "sons",
+      "context": "In the function called recut, the number of sons is simply counted from the lines that still have living people, and the wood is carved"
+    },
+    {
+      "time_ms": 63520,
+      "end_ms": 66760,
+      "hold_ms": 66760,
+      "line": 124,
+      "line_end": 124,
+      "target": "son",
+      "context": "wood is carved again so each remaining son gets an equal share of the fan. A line only counts as"
+    },
+    {
+      "time_ms": 70760,
+      "end_ms": 72400,
+      "hold_ms": 77760,
+      "line": 262,
+      "line_end": 262,
+      "target": "feltCount",
+      "context": "son while a running headcount, which the code calls felt count and which fades over about"
+    },
+    {
+      "time_ms": 73080,
+      "end_ms": 75520,
+      "hold_ms": 77760,
+      "line": 74,
+      "line_end": 74,
+      "target": null,
+      "context": "calls felt count and which fades over about two and a half seconds, stays above an extinction floor."
+    },
+    {
+      "time_ms": 75600,
+      "end_ms": 77760,
+      "hold_ms": 77760,
+      "line": 263,
+      "line_end": 263,
+      "target": null,
+      "context": "two and a half seconds, stays above an extinction floor. When a branch dies, nothing"
+    }
+  ]
+}
