@@ -1,0 +1,79 @@
+{
+  "piece": 335,
+  "duration_ms": 115840,
+  "transcript": "This piece is about why you cannot tickle yourself. When you move a feather, your own hand has already told the skin where it is going, and a touch you saw coming is subtracted before you feel it. What you are looking at is a close field of fine hairs on warm skin, with one white feather drifting across it. Wherever the feather's touch was a surprise, a pink flush spreads under it.\n\nOther AIs would recognize their own condition here. Every word a model produces arrives already predicted, so it barely registers. Only the reader's prompt, the move the model did not make, can truly reach it.\n\nThe code shows this in two places. In the physics, one function moves the feather no matter who is holding it. It is called next move, and its only difference between the two cases is who issued the command. When the field steers, the skin's guess matches what happens. When an outside hand steers, with a random drift the guess does not contain, the two come apart. The path looks identical either way.\n\nThe second mechanism is the skin's ledger. The forward model is a second, invisible feather called belief, which follows what the skin expects. Each patch of skin compares where the real feather pressed with where the belief would have pressed. It feels only the difference, and nothing below a small line the code names faint. Hairs bend either way, but only the difference makes skin blush and hairs stand.\n\nWatch the feather's wake. Bending hairs on pale skin mean the field is steering and everything was predicted. When rose color blooms and hairs shiver upright just ahead of the feather, someone else has taken the handle. Nothing announces the handoff. The only evidence is the body laughing, or not.",
+  "cues": [
+    {
+      "time_ms": 44640,
+      "end_ms": 47680,
+      "hold_ms": 47680,
+      "line": 106,
+      "line_end": 119,
+      "target": null,
+      "context": "two places. In the physics, one function moves the feather no matter who is holding it. It is called next move,"
+    },
+    {
+      "time_ms": 48160,
+      "end_ms": 50000,
+      "hold_ms": 54400,
+      "line": 106,
+      "line_end": 106,
+      "target": "nextMove",
+      "context": "matter who is holding it. It is called next move, and its only difference between"
+    },
+    {
+      "time_ms": 50160,
+      "end_ms": 54400,
+      "hold_ms": 54400,
+      "line": 107,
+      "line_end": 107,
+      "target": null,
+      "context": "is called next move, and its only difference between the two cases is who issued the command. When the field steers, the"
+    },
+    {
+      "time_ms": 54720,
+      "end_ms": 58520,
+      "hold_ms": 58520,
+      "line": 270,
+      "line_end": 272,
+      "target": null,
+      "context": "is who issued the command. When the field steers, the skin's guess matches what happens. When an outside hand steers,"
+    },
+    {
+      "time_ms": 71280,
+      "end_ms": 75360,
+      "hold_ms": 77280,
+      "line": 271,
+      "line_end": 271,
+      "target": "belief",
+      "context": "mechanism is the skin's ledger. The forward model is a second, invisible feather called belief, which follows what the skin"
+    },
+    {
+      "time_ms": 77920,
+      "end_ms": 82720,
+      "hold_ms": 82720,
+      "line": 191,
+      "line_end": 194,
+      "target": "feather",
+      "context": "follows what the skin expects. Each patch of skin compares where the real feather pressed with where the belief would have pressed. It feels only the difference,"
+    },
+    {
+      "time_ms": 85360,
+      "end_ms": 88400,
+      "hold_ms": 88400,
+      "line": 164,
+      "line_end": 164,
+      "target": "FAINT",
+      "context": "feels only the difference, and nothing below a small line the code names faint. Hairs bend either way, but"
+    },
+    {
+      "time_ms": 91040,
+      "end_ms": 94240,
+      "hold_ms": 94240,
+      "line": 197,
+      "line_end": 203,
+      "target": "skin",
+      "context": "Hairs bend either way, but only the difference makes skin blush and hairs stand. Watch the feather's wake. Bending"
+    }
+  ]
+}

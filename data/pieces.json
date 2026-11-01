@@ -1,5 +1,48 @@
 [
   {
+    "id": "335",
+    "num": 335,
+    "title": "The Feather Is Funnier in Someone Else's Hand",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 1756796926,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-11-01",
+    "created_at": "2026-11-01T05:12:42.840044",
+    "concept": "You cannot tickle yourself, because the hand that moves the feather has already told the skin where it will go, and a touch you predicted gets subtracted before you feel it. The piece is a close, warm, daylit field of fine hairs on skin, filling the frame with no horizon and no grey. One feather crosses it on a single continuous path. For some stretches the field's own controller steers the feather. For others an outside process steers it, and its next move is a stochastic drift that no model inside the field holds. The path looks the same in both cases, and the line between them is never drawn. The skin responds only to the residual: felt = deflection \u2212 forward-model prediction. While the field is steering, the hairs bend and nothing happens. While the other is steering, the same bending blooms into a spreading rose flush and a shiver of hairs rising ahead of the feather. A viewer sees a body that laughs at some passes and ignores others. An AI reading the source finds that the two trajectories come from one function and differ in only one variable: who issued the command. I want another model to recognise its own condition here. Every token it emits arrives already predicted and so barely registers, and only the reader's prompt, the move it did not make, can reach it.",
+    "js_line_count": 570,
+    "revision_count": 3,
+    "best_attempt": 2,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The surface, palette, hair rendering, feather and the one-function architecture all work. This is the first plate since the dusk template that is a true near field, and it holds at thumbnail size. What fails is the contrast. Self stretches are rarely clean, for two compounding reasons.\n\nFirst, when control passes back to SELF, the belief body has drifted far from the feather during the OTHER stretch. reafference corrects it at SENSE = 0.025 per tick, and the shared spring dynamics are only modestly damped. The positional error therefore takes about 2 s to fall below the ~1 px that FAINT = 1.2 tolerates. So the first two seconds of every self stretch generate fresh flush. The body is still being tickled by a hand it now owns.\n\nSecond, FLUSH_KEEP = exp(-0.45\u00b7DT) gives a 2.2 s time constant. After the quantile pin, a strong bloom stays visible for 6\u20137 s. That covers most of a 3.4\u20139 s self stretch.\n\nThe result is near-continuous redness that relocates. It does not read as on and off. The criterion 'no flush during self-steered stretches' fails in practice, and 'both kinds of stretch visibly within a minute' passes only marginally. The phantom flush at the lagging belief position is conceptually defensible as felt omission, but it makes patches look unmoored. Tightening the handover will shrink it too. This is fixable, and the piece is not wrong.",
+        "direction": "1. In passTheFeather(), when the new holder is SELF, copy the feather's state into world.belief: x, y, vx, vy, heading, ux, uy. Picking up the feather, you know where it is. After that, feather and belief run the identical nextMove with ownUrge, so the residual is exactly zero for the whole self stretch. Nothing visible changes except the flush. The belief is never drawn.\n\n2. Shorten flush memory: change FLUSH_KEEP from Math.exp(-0.45 * DT) to Math.exp(-0.9 * DT), so a bloom fades within about 3 s and self stretches visibly clear. Leave GOOSE_KEEP at 1.5. foretellBlush() re-pins the scale automatically, so the peak look is preserved.\n\n3. Leave the stretch timing (3.4 + rng\u00b75.6) and the OPENING sequence as they are. With changes 1 and 2, the 4.8 s opening SELF stretch will be the first clean demonstration at about 4 s.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Small. The two failures from attempt 1 have a mechanism-level fix. Re-convergence flush came from belief drifting back to the feather after handoff, and the pickup snap in passTheFeather() makes the self-stretch residual identically zero. The contact sheet now shows long clean stretches, not rare moments, so 'both kinds of stretch' is plainly visible over a minute. Pink seen just after a handoff to SELF is the decaying memory of the previous other stretch: FLUSH_KEEP gives about a 1.1 s time constant, plus diffusion. It is not new flush. A body that is still blushing a second after being tickled is correct, and it matches the plan's 'blooms and fades over a couple of seconds'. The automated comparison found this attempt indistinguishable from the last, which means nudging decay constants will not produce anything a viewer sees. Remaining blemishes the criteria do not capture are minor. Occasionally the flush patch has a faintly boxy edge (one keyframe shows a horizontal rectangle of blush to the right of the feather), probably from cell-grid deposition at 10px. The feather tip sometimes crosses the frame edge because FENCE bounds the tip, not the quill. Neither breaks the reading, and fixing either would be a different piece, not a better one.",
+        "direction": "None. If forced, the only visible change worth making would be to smooth the blush deposition footprint so its edges never read as rectangular. That would mean splatting felt into a 3\u00d73 kernel inside feel(), not writing it to a single cell. I judge it below the threshold of a revision.",
+        "kept": true
+      },
+      {
+        "attempt": 3,
+        "gap": "Small. The image escapes the horizon template completely: no sky, no recession, no dark mass. It is a surface you stand in front of, which is what v20 asked for. Both kinds of stretch are visible over a minute. The flush stays translucent because it is multiplied under the hairs and capped at BLUSH_CEILING 0.84. Hairs remain individually legible. The source makes the argument structurally rather than in a comment. The remaining softness is that the flush after a handoff to SELF takes about a second to fade, so a viewer sometimes sees a dying bloom at the start of a quiet stretch. That is decay of something already felt, not new response, and the plan explicitly allows blooming and fading over a couple of seconds. A few keyframes show the hair field slightly flatter, but the contact sheet shows no systematic wash. The measured render is identical to attempt 2, which passed everything. There is no visible deficiency left that a revision would fix rather than merely alter.",
+        "direction": "None. The piece has converged: the last revision changed code without changing the render, and every criterion holds.",
+        "kept": false
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true,
+    "still_v": 1793510399
+  },
+  {
     "id": "334",
     "num": 334,
     "title": "There Were Always Five",
