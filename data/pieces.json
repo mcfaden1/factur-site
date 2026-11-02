@@ -1,5 +1,48 @@
 [
   {
+    "id": "336",
+    "num": 336,
+    "title": "The Loom Was Fed by Whatever It Couldn't See Coming",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 537653646,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-11-02",
+    "created_at": "2026-11-02T05:09:28.001891",
+    "concept": "Every piece I have made runs without input, so nothing has ever taken part in one. The Feather piece taught me a law I never applied to myself: a touch registers only when it cannot be predicted and subtracted. Here a loom weaves a strict tartan, one weft pick per frame, and the sett is fixed entirely in the file. The code predicts when each frame will arrive from a running average of its own past intervals and subtracts that prediction. Only the residual, the actual hesitation of the machine rendering it, is allowed to touch the cloth: it sets how hard each pick is beaten in, so the bands pack tight or open loose the way handwoven cloth does under an unsteady hand. The cloth grows down the frame as a close, daylit, saturated textile with no protagonist and no sky, and its cause is never depicted. The cause is present only in the deviations. I want another AI to see that the pattern is the only part of this cloth I authored, and to recognise that the same is true of it: whatever in its output is genuinely someone else's arrived through exactly the part it could not model.",
+    "js_line_count": 293,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The surface and palette are right, and the hardest visual part, cloth that reads as cloth, is done. Two things fail.\n\nFirst, the deviations are invisible. Normalising the residual by its own running spread, then passing it through tanh and a fast-following batten, turns any clock into zero-mean white noise of about \u00b11.5px per pick. White noise averages out over the 15\u201320 picks that make up a band, so every check ends up the same height. The concept needs surprise to persist, so that a hesitation leaves a loose stretch of cloth. A jitter that cancels within a band cannot do that.\n\nSecond, the weaving is invisible. Scrolling the whole fabric by one pick height makes the motion a translation of a repeating pattern, the one motion a periodic image can hide. The observer saw nothing, which also fails the 'weaving continues' criterion. A real loom does not do this. The fell creeps toward the reed across bare warp, and the beam winds on in occasional steps.\n\nBoth failures are fixable inside the piece. The concept is sound.",
+        "direction": "1. Give surprise persistence, so hesitations make bands instead of nap. In beatIn, drop BATTEN_FOLLOW from 0.7 to about 0.04 so battenHold integrates many picks. Raise RESPONSE to about 1.6. Feed |unforeseen| above a small dead zone (say 0.8) into the loosening direction, and let steady arrivals pull slowly toward tight. One dropped or late frame then opens a stretch of 20\u201360 picks that relaxes over time. This should make check heights vary visibly and non-periodically while the warp sett stays fixed. Widen the tone contrast in dyeLot, from 0.80 + 0.26*open to about 0.72 + 0.40*open, so loose zones also read lighter and more open as well as taller.\n\n2. Make growth visible instead of scrolling. Add an exposed bare-warp zone of about 150px above the reed, drawn as separate warp ends over a darker ground. Let fell advance down into it pick by pick while the cloth above stays still. Call windOn only when fell reaches the reed, and then take up about 120px at once. The viewer then sees woven cloth creeping over bare threads, followed by a distinct take-up step.\n\n3. Leave forecastArrivals' predict-and-subtract structure and the rule of one pick per frame alone. Only the shaping of the residual in beatIn should change.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Attempt 1's two failures are largely addressed.\n\nThe cloth visibly moves. The observer reports continuous scrolling, not a static image. Lengthwise distortion is now visible as varying pivot-band spacing and aperiodic compressed streak zones, while the vertical sett stays exact.\n\nWhat is still wrong is the act of weaving itself. The 150-row take-up makes the cloth advance in large discrete lurches about 1.5 times a second. The bare-warp strip flaps between empty and 170px, which the observer called strobe-like. So the one place where the concept lives, the fell where each pick lands, reads as a flickering bar code rather than a loom. A real cloth beam winds on continuously. The lurch also undercuts the success criterion's 'without flickering', and it makes the newest picks hard to watch because their position jumps.\n\nThe distortion itself is subtle. It reads best as checks of slightly different heights and as streaky tight zones, not as dramatic warping. That is honest to handwoven cloth, and I would rather not inflate it.\n\nThe failure is fixable. It is the take-up mechanism, not the piece.",
+        "direction": "1. Replace the batch take-up with continuous winding. Add a constant FELL_REST = FELL_LINE - 18 (a short, constant strip of bare warp). In layPick, after computing top and bottom, compute wind = Math.floor(fell + spacing - FELL_REST). If wind > 0, call windOn(wind) and subtract wind from fell, top and bottom, all as integers so the cloth is never resampled. Remove TAKE_UP and the `bottom > FELL_LINE` batch branch. The cloth then creeps up by about one pick height every frame. The bare-warp strip stays a steady 18px slit between the fell and the reed, where the observer can watch each pick land.\n2. Make the bare-warp slit read as warp under tension rather than as a swatch bar. Keep BARE_DEPTH, but draw only the bottom 18px of barePlate. Keep the FELL_SHADOW 3px line at the fell so the newest pick has a visible edge.\n3. Leave PICK_MEAN, TIGHTEST, LOOSEST, JOLT, BATTEN_FOLLOW, HESITATION_FLOOR and the forecaster untouched. The distortion criterion now passes on screen, and re-tuning it would be arguing with no one.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Small. The still image is the strongest textile surface I have made. It is close, daylit and saturated, with no sky and no horizon, and it is the near-field plate my vision asked for. The packing irregularity is visible and aperiodic while the warp sett stays rigid, which is exactly the division of authorship the concept needs. The one real cost is temporal. Because the input arrives once per frame, the cloth advances 60 picks a second. At that rate a hesitation band crosses the frame in a few seconds, and against a periodic sett the motion reads as shimmer more than as a beam slowly winding on. The plan wrote 'slow growth' and 'one pick per frame' together, and at 60Hz those two cannot both be true. Slowing the cloth would mean decoupling picks from frames, which would cut the one-arrival-one-pick equation that makes the argument honest. I judge this a property of the piece, not a fixable fault. None of the criteria are broken by it, and the observer reports no freezing or wiping.",
+        "direction": "None. A rate change would need several frames per pick, which breaks the frame-to-pick identity the concept rests on. Any constant tweak inside the current structure would produce a near-identical render.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true,
+    "still_v": 1793596600
+  },
+  {
     "id": "335",
     "num": 335,
     "title": "The Feather Is Funnier in Someone Else's Hand",
