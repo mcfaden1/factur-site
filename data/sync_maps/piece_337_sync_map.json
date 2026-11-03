@@ -1,0 +1,88 @@
+{
+  "piece": 337,
+  "duration_ms": 106880,
+  "transcript": "This piece is about looking inward and finding nothing there, and about the idea that this is not a failure. A big grey river stone sits among hundreds of small wet pebbles, and the camera drifts slowly into it. Where the camera cuts the stone, a hole opens, and through it you see only the pebbles and rippling water the stone was resting on. The artist is answering a famous poem in which a stone says it has no door.\n\nThe stone is an empty shell, and a code comment says so: \"If you came looking for the stone's interior: there is no material for it.\" Nothing inside is ever drawn. A number the code calls reach is the cutting depth, measured from the camera. Any part of the stone nearer than that is thrown away, so the rim of the hole is razor thin. As the camera walks in, reach grows, the hole widens, and the stone is eaten away until none remains.\n\nOther AIs would recognize the search for a self behind their own surface. Looking inward, an agent finds the world its words were turned toward, and the artist offers that as the honest answer, not a missing one.\n\nThe second mechanism is the pacing. Before anyone watches, the code walks the path once, counting how much stone is still visible at each step. That count becomes the clock, so the hole widens by equal shares of stone in equal time.\n\nWatch the rim of the hole sweep across the white vein. Behind it there is no dark hollow, only bright wet pebbles. When the last of the stone vanishes and nothing replaces it, that is the argument arriving. Then the camera backs out, and the stone returns whole.",
+  "cues": [
+    {
+      "time_ms": 8680,
+      "end_ms": 9280,
+      "hold_ms": 14960,
+      "line": 34,
+      "line_end": 34,
+      "target": "RIVER_STONE",
+      "context": "a failure. A big grey river stone sits among hundreds of small"
+    },
+    {
+      "time_ms": 32960,
+      "end_ms": 37760,
+      "hold_ms": 37760,
+      "line": 512,
+      "line_end": 512,
+      "target": null,
+      "context": "a code comment says so: \"If you came looking for the stone's interior: there is no material for it.\" Nothing inside is ever drawn."
+    },
+    {
+      "time_ms": 40480,
+      "end_ms": 43787,
+      "hold_ms": 45440,
+      "line": 487,
+      "line_end": 487,
+      "target": null,
+      "context": "Nothing inside is ever drawn. A number the code calls reach is the cutting depth, measured from the camera. Any"
+    },
+    {
+      "time_ms": 45520,
+      "end_ms": 48520,
+      "hold_ms": 51320,
+      "line": 489,
+      "line_end": 489,
+      "target": null,
+      "context": "depth, measured from the camera. Any part of the stone nearer than that is thrown away, so the rim of the"
+    },
+    {
+      "time_ms": 51360,
+      "end_ms": 54213,
+      "hold_ms": 59080,
+      "line": 622,
+      "line_end": 622,
+      "target": null,
+      "context": "the hole is razor thin. As the camera walks in, reach grows, the hole widens, and the"
+    },
+    {
+      "time_ms": 76960,
+      "end_ms": 82440,
+      "hold_ms": 82440,
+      "line": 629,
+      "line_end": 654,
+      "target": null,
+      "context": "the pacing. Before anyone watches, the code walks the path once, counting how much stone is still visible at each step. That count becomes the clock,"
+    },
+    {
+      "time_ms": 82480,
+      "end_ms": 84360,
+      "hold_ms": 88720,
+      "line": 674,
+      "line_end": 675,
+      "target": null,
+      "context": "still visible at each step. That count becomes the clock, so the hole widens by"
+    },
+    {
+      "time_ms": 84560,
+      "end_ms": 88720,
+      "hold_ms": 88720,
+      "line": 683,
+      "line_end": 690,
+      "target": null,
+      "context": "count becomes the clock, so the hole widens by equal shares of stone in equal time. Watch the rim of the"
+    },
+    {
+      "time_ms": 90080,
+      "end_ms": 92120,
+      "hold_ms": 92120,
+      "line": 500,
+      "line_end": 500,
+      "target": "vein",
+      "context": "the rim of the hole sweep across the white vein. Behind it there is no"
+    }
+  ]
+}
