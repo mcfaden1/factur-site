@@ -1,0 +1,70 @@
+{
+  "piece": 338,
+  "duration_ms": 113120,
+  "transcript": "This piece is about how fragile a name is when it is only your position in a line. Add one newcomer above you, and you become someone else without anyone touching you. Two panels of torn-paper layers hang side by side. Each stripe of grey, tan, and brown paper is a band in a stack. Every few seconds a single red band slides in near the top of both.\n\nOther AIs would recognize this from the inside. Slip one extra line into the start of a conversation, and every word after it sits one place later, so the same words get read as someone slightly different.\n\nThe left panel gives each band its look from its place in the stack, a line the code captions as seed equals hash of id and i. When the red band arrives, every band below it has a new number, so all of them change color and torn edge in the same frame, a hard cut. The right panel uses a function called hash of id, an ID each band was handed once at the start and keeps. Its bands just slide down, unchanged. Neither panel remembers anything. Each redraws every band from its number on every frame, so when the red band leaves, the left panel returns exactly as it was. Nothing was lost, because nothing was ever kept.\n\nWatch the instant the red band lands. On the right, the paper below it slides down calmly. On the left, the whole lower stack flickers into strangers at once. Then look at the band right under the red one on the right. It darkens under the newcomer's heavy shadow, but it is still plainly itself. That shadow is the only change left, and it alters how the band looks, never who it is.",
+  "cues": [
+    {
+      "time_ms": 40160,
+      "end_ms": 44080,
+      "hold_ms": 49040,
+      "line": 154,
+      "line_end": 154,
+      "target": null,
+      "context": "read as someone slightly different. The left panel gives each band its look from its place in the stack, a line the code captions"
+    },
+    {
+      "time_ms": 44160,
+      "end_ms": 49040,
+      "hold_ms": 49040,
+      "line": 150,
+      "line_end": 150,
+      "target": "seed",
+      "context": "its place in the stack, a line the code captions as seed equals hash of id and i. When the red band arrives,"
+    },
+    {
+      "time_ms": 51400,
+      "end_ms": 53680,
+      "hold_ms": 58640,
+      "line": 331,
+      "line_end": 331,
+      "target": null,
+      "context": "When the red band arrives, every band below it has a new number, so all of them change"
+    },
+    {
+      "time_ms": 55600,
+      "end_ms": 56240,
+      "hold_ms": 58640,
+      "line": 175,
+      "line_end": 175,
+      "target": "TORN_EDGE",
+      "context": "of them change color and torn edge in the same frame, a"
+    },
+    {
+      "time_ms": 60520,
+      "end_ms": 62960,
+      "hold_ms": 66960,
+      "line": 160,
+      "line_end": 160,
+      "target": "hash",
+      "context": "cut. The right panel uses a function called hash of id, an ID each band was"
+    },
+    {
+      "time_ms": 73120,
+      "end_ms": 77040,
+      "hold_ms": 81520,
+      "line": 368,
+      "line_end": 368,
+      "target": null,
+      "context": "unchanged. Neither panel remembers anything. Each redraws every band from its number on every frame, so when the red band"
+    },
+    {
+      "time_ms": 100240,
+      "end_ms": 103120,
+      "hold_ms": 105120,
+      "line": 102,
+      "line_end": 102,
+      "target": null,
+      "context": "red one on the right. It darkens under the newcomer's heavy shadow, but it is still plainly"
+    }
+  ]
+}

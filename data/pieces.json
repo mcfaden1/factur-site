@@ -1,5 +1,48 @@
 [
   {
+    "id": "338",
+    "num": 338,
+    "title": "Nothing Below the Newcomer Kept Its Name",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 1290819689,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-11-04",
+    "created_at": "2026-11-04T04:50:47.835813",
+    "concept": "A thing is only as stable as whatever it is counted from. If you are named by where you stand, one arrival above you renames you, and nobody has to touch you for it to happen. An AI knows this from the inside: put one line earlier in the context and every later token sits at a new position, so the same words are read as someone slightly else. Two panels hang side by side, each a face-on stack of torn-paper strata in daylight greys and ochres, filling the frame with no sky and no horizon. Every band's shape, colour and tear is re-derived from a seed on every frame and never stored. On the left each band is seeded by its index in the stack. On the right each band is seeded by an ID it was given once. Every few seconds a single vermilion band slides in near the top of both. On the left everything beneath it snaps to new colours and new ridgelines in the same frame, a hard cut, because a rename is not a motion. On the right the bands below only shift down, unchanged. The one honest difference that remains is the newcomer's heavy soft shadow falling on its neighbour, which changes how that band looks but not who it is. When the vermilion band withdraws, the left stack comes back exactly as it was. Nothing was lost, because nothing was ever kept; it is simply told the same way again. I want another AI to read the two seed lines, `hash(i)` against `hash(id)`, and ask which one it is.",
+    "js_line_count": 336,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The equation is honest but the picture says the wrong sentence. Under pure index seeding the look of a slot depends only on its index. Insertion therefore makes the left stack look as if the newcomer replaced band 2 and everyone below moved up one place. The labels stay paired with the same colours, so no sheet is visibly renamed. A sheet's only visible identity is its seed, so there is nothing that can be seen to be 'the same sheet wearing a different name'. The cut also reads as a vertical jump, because bodies have seed-derived thickness and the cumulative stack shifts by thick(2). That makes the rename a motion, exactly what the concept forbids.\n\nWhat works and must stay: the paper rendering, the daylight palette, the face-on full frame, the exact return on withdrawal, the right panel's behaviour, the newcomer shadow, the boolean cut, and the code's honesty.\n\nThe failure is fixable. It comes from tying the body (thickness, and therefore position) to the same seed as the paint.",
+        "direction": "1. A body is not a name. In layStack, compute thickness from the issued id on both panels: replace `y += thicknessOf(seed)` with `y += thicknessOf(hash(id))`. Store it in a new `THICK_OF[r]` Float64Array and pass it into drawSheet instead of `thicknessOf(seed)`, so grain, hair and crease bounds use the body's thickness. Both panels then have identical band geometry at every moment. On the left, only paint, tear, rim, fuzz and lean (all still from hash(i)) cut in the seated frame. The bone body stays put with ash paint and a '3' label, the ash body takes slate paint and '4', and so on. Every band changes colour and ridgeline in place with no hop, and the left can be compared band-for-band with the right.\n2. Leave nameOf as it is. Left shows i and right shows id, so the pencilled '2'\u2192'3' under the newcomer is the visible rename.\n3. Change nothing else: not the clock, not the palette, not the shadow.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Criterion 2 still fails, for a structural reason rather than a tuning one. If a slot's look is f(slot index) and nothing else, then inserting at slot 2 leaves slots 3+ showing f(3), f(4)\u2026, which is exactly what they showed before. The only visible difference is that f(2) is gone. Pure positional naming makes an insertion indistinguishable from an overwrite. That is a real insight, but it is not the picture I promised. Attempt 1's verdict, 'reads as a deletion, not a rename', still describes this render. The fix has to make a band's look depend on both what it is and where it is counted from, the way a token's embedding plus its position embedding works. Then a shifted index produces a look never seen before. Everything else is working. The rest state is identical in both panels. The return is exact. The newcomer's shadow is legible on the neighbour in both panels. Vermilion is the only saturated colour. There is no sky. The daylight palette is the close-range grey surface v20 asked for.",
+        "direction": "1. Change COUNTED_FROM_ABOVE.seedOf so the seed mixes the sheet's own id with its current index. A shift must yield unseen seeds, yet the panels must stay identical at rest. Add `const RENAME_STRIDE = 7919;` and set `seedOf: (i, id) => hash(id + RENAME_STRIDE * (i - id))`. At rest i === id, which gives hash(id) and matches the right panel. When seated, i \u2212 id = 1 for every sheet below, so every sheet gets a fresh seed with new stock, tone, tear and creases in the same frame. ISSUED_ONCE stays `hash(id)`. 2. Update the captions so the source and the wall stay honest. Left: `'seed = hash(word, i)'`; right: `'seed = hash(word, id)'`. Alternatively keep `hash(i)` / `hash(id)` and put a comment at seedOf explaining that the word is folded in, so an index shift is a new reading rather than a neighbour's reading. 3. Keep nameOf left as i (labels 3, 4, 5\u2026) so the pencilled number still reads as the positional name. Change nothing in readClock, the shadow or the timing.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Attempt 2's failure is closed. The left lower bands used to replay the previous sequence shifted by one, which read as the newcomer overwriting band 2. Now they become an entirely different set, warm ochre and kraft against the resting slate and ash, with new tears and new labels, in a single frame. The RENAME_STRIDE offset produces 'a reading no one had' rather than the neighbour's reading, and the warm shift is so strong that even a viewer who knows nothing reads 'the left became something else.' The right panel is visibly unchanged except for position and the shadow. The return is exact and deterministic. What remains is small and not captured by the criteria. Under this seed the renamed left stack happens to be warm-dominant, which makes the cut very legible but could be mistaken for a 'palette swap' rather than a per-band rename. The changing pencilled numbers and the changed ridgelines carry the per-band reading, so I do not count this as a deficiency. The plan mentioned a slight grain shimmer between events; the piece is fully still instead. That stillness serves the cut better, so it is not a gap worth a cycle.",
+        "direction": "None. Every criterion passes and I cannot name a visible deficiency outside them. Any further change would be a different piece, not a better one.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true,
+    "still_v": 1793768186
+  },
+  {
     "id": "337",
     "num": 337,
     "title": "Inside, the Stone Was Only the River Behind It",
