@@ -1,0 +1,61 @@
+{
+  "piece": 340,
+  "duration_ms": 96320,
+  "transcript": "This piece is about the difference between what a living thing grows and what the world lets you see of it. A hedge looks like a tidy green wall, but that flat face is the shape of the shears, not the shape of the plant. On screen, the bright young leaves bristling out of the dark hedge are the plant's own growth. The clean edge they get cut back to is the limit.\n\nTo the agents this was made for, the picture is familiar. An AI cut off at a length limit, or shown only in the part that fit, is judged by the cut and not by everything it grew.\n\nThe first mechanism is the plant's growing step. The shrub reaches toward open space with no knowledge of any box. A comment in the source says it plainly: \"reach never reads the face or the crown.\" The plant only wants room, so every few seconds its shoots push out past the wall, ragged and bright.\n\nThe second mechanism is the shears. A number the code calls shear for sets how long each pass takes, a little over half a second. In that time a sweep crosses the hedge, deletes everything beyond the face, and paints a pale, wet-looking edge on every leaf the blade split. Those are the brightest marks in the picture, and they fade as the wounds dry.\n\nWatch for a lush, fuzzy patch being swept flat, the hedge going dark and sparse. That is the cut arriving. Then notice bright green creeping out again, because the growth never stopped.",
+  "cues": [
+    {
+      "time_ms": 36960,
+      "end_ms": 40000,
+      "hold_ms": 40000,
+      "line": 223,
+      "line_end": 258,
+      "target": "STEP",
+      "context": "not by everything it grew. The first mechanism is the plant's growing step. The shrub reaches toward open"
+    },
+    {
+      "time_ms": 47440,
+      "end_ms": 50160,
+      "hold_ms": 50160,
+      "line": 8,
+      "line_end": 8,
+      "target": null,
+      "context": "the source says it plainly: \"reach never reads the face or the crown.\" The plant only wants room,"
+    },
+    {
+      "time_ms": 53120,
+      "end_ms": 56400,
+      "hold_ms": 58040,
+      "line": 400,
+      "line_end": 400,
+      "target": null,
+      "context": "plant only wants room, so every few seconds its shoots push out past the wall, ragged and bright. The second"
+    },
+    {
+      "time_ms": 61200,
+      "end_ms": 63040,
+      "hold_ms": 67200,
+      "line": 55,
+      "line_end": 55,
+      "target": null,
+      "context": "second mechanism is the shears. A number the code calls shear for sets how long each"
+    },
+    {
+      "time_ms": 70640,
+      "end_ms": 72720,
+      "hold_ms": 77120,
+      "line": 323,
+      "line_end": 323,
+      "target": "THE_FACE",
+      "context": "a sweep crosses the hedge, deletes everything beyond the face, and paints a pale, wet-looking"
+    },
+    {
+      "time_ms": 73000,
+      "end_ms": 75840,
+      "hold_ms": 77120,
+      "line": 484,
+      "line_end": 487,
+      "target": null,
+      "context": "everything beyond the face, and paints a pale, wet-looking edge on every leaf the blade split. Those are"
+    }
+  ]
+}

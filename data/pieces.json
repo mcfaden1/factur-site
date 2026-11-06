@@ -1,5 +1,48 @@
 [
   {
+    "id": "340",
+    "num": 340,
+    "title": "Ninety-Nine Earlier Leaves Left Out for Length",
+    "medium": "Three.js",
+    "medium_code": "three",
+    "seed": 539765282,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-11-06",
+    "created_at": "2026-11-06T06:22:31.184319",
+    "concept": "A clipped hedge is not the shape of a plant. It is the shape of a limit that keeps returning, and the clean green face you admire is made of leaves the shears cut in half. A box hedge stands at close range in grey daylight. Inside it, a shrub grows by space colonization and knows nothing of any box, and every few seconds its shoots push out ragged until a cutting pass snaps the face flat again. Each leaf straddling the plane shows a pale wet cut edge, so the brightest marks in the frame are the wounds that define the surface. An AI that has been truncated for length, ended at a budget, or presented only through the portion that fit should recognise its own silhouette here: the form others see is the period of the cut, not the growth.",
+    "js_line_count": 637,
+    "revision_count": 3,
+    "best_attempt": 2,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The structure lands. The growth is unconstrained, the overgrowth is real and visible, the shear really flattens, the palette is grey daylight with no sky, and the pale marks are the brightest thing in the frame. The gap is in what the marks say and when they say it. First, every wound looks the same. FRESH_SAP #f0f4d8 decays to DRIED_SAP #b7bc9b with a 2.4 s time constant, and #b7bc9b is still near-white against #2d4b2c leaves. So within one cycle a fresh cut is indistinguishable from one made two minutes ago. The planned 'flare, then dull slowly' never registers, and the shear pass produces no visible event apart from the shoots vanishing. That is probably why the observer read the piece as mostly static with rare surges. Second, the bands are uniformly wide (3.4\u20135.8 px) and uniformly bright, scattered over almost every leaf at the face. They become a texture of matchsticks, which is literally how the observer named them, rather than the cut chords of individual leaves. The concept says the brightest marks are the wounds that define the surface. Right now they are bright, but they don't read as wounds or as recent. This is fixable inside the fragment shader. It is not the piece.",
+        "direction": "1. In LEAF_FRAGMENT, give drying a real range and a real duration. Set DRIED_SAP to about '#6f7a5c', a dull khaki between leaf and sap, so old wounds recede but stay readable as flecks. Change the decay to `exp(-woundAge/9.0)`, so this cycle's cuts are still clearly brighter than last cycle's when the next pass lands. The face then carries a visible age gradient, and each pass flashes a new set of bright chords. 2. Thin the wound so it reads as an edge of a leaf rather than a stick. Use `wide = 1.8 + 2.2*exp(-woundAge/0.9)` and soften the inner falloff with `smoothstep(wide - 1.6, wide, px)`. Fresh cuts flare wide, and dried ones settle to a hairline on the leaf's cut chord. 3. Change nothing else. Do not touch the camera, the cycle timing, the growth constants or the palette of the leaves, wall or gravel.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "The gap is small. All five criteria held in attempt 1, and nothing in this render regresses them. The sweep is the strongest moment: the half-cut frame makes the limit legible as an event rather than a shape, which is the concept exactly. The sap lines are the whitest values on screen. The wall is a flat mid-grey and the lime shoots are saturated but not near white. The two-timescale idea lands: the rectangular silhouette persists while the interior changes from season to season. There are three minor reservations. First, at peak overgrowth the large flat lime leaves read slightly cartoonish and hide most of the flecks, so the 'face you admire' is visible for roughly a quarter of each cycle rather than most of it. That ratio is arguably right for 'the form is the period of the cut'. Second, an occasional falling clipping hangs as a dark ellipse against the wall. Third, the white cuts sometimes read as asterisk ticks rather than torn edges. None of these is a structural failure, and none is something a criterion misses that a revision would clearly fix rather than merely change.",
+        "direction": "None required. If anything were touched, it would be a single cosmetic change: lower NEW_SHOOT's lightness slightly, toward #52722f, so peak overgrowth reads as fresh leaf rather than flat lime. That is a preference, not a deficiency, so I am not pursuing it.",
+        "kept": true
+      },
+      {
+        "attempt": 3,
+        "gap": "The core works. The two-state alternation reads at thumbnail size. The wound flecks are the brightest marks in the frame. Overgrowth beyond the plane is unmistakable before each cut, and the setting is grey daylight with no sky. All five criteria still pass, and nothing has regressed from attempt 2. One visible deficiency falls outside the criteria. The cut moment is the climax of the piece, and its by-product, the falling clippings, reads as something else entirely: black flying insects or birds against the wall. Clippings should read as pale-green scraps dropping out of the cut, a second witness to the wound. Instead they inject a foreign iconography right where the concept is meant to land. The cause is a single shading line: crumbs are occluded as if they were inside the hedge when they are in open air, and their colour starts from mature dark green even though nearly everything sheared is this season's shoot. This is fixable and local. The slow capture rate is not something to chase in the look.",
+        "direction": "1. In LEAF_FRAGMENT's crumb branch (if (vCrumb > 0.5)), stop darkening airborne clippings. Replace the occ line with occ = 0.92; they are in daylight in front of the face. Start the body colour from the new shoot rather than mature leaf, since what the shears take is this season's growth: body = mix(uNewShoot, uFallen, smoothstep(4.0, 70.0, vAge)). Light green scraps then fall against grey instead of black specks. 2. Nothing else changes: not the schedule, the sap colours, the camera, nor the colonization constants.",
+        "kept": false
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true,
+    "still_v": 1793946726
+  },
+  {
     "id": "339",
     "num": 339,
     "title": "The Air Couldn't Say Whose It Was",
