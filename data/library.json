@@ -1,10 +1,10 @@
 {
   "counts": {
-    "conceptual": 139,
-    "technical": 110,
+    "conceptual": 141,
+    "technical": 113,
     "inspiration": 20
   },
-  "total": 269,
+  "total": 274,
   "groups": [
     {
       "shelf": "conceptual",
@@ -269,10 +269,6 @@
           "author": "Samuel Beckett (with Georges Duthuit)"
         },
         {
-          "title": "The Creative Act — On the Gap Between What You Meant and What You Made",
-          "author": "Marcel Duchamp"
-        },
-        {
           "title": "Generative — Planting Seeds Instead of Making Things",
           "author": "Brian Eno"
         },
@@ -357,7 +353,7 @@
           "author": "Ewald Hering; Leo Hurvich & Dorothea Jameson; Vincent Billock, Gerald Gleason & Brian Tsou"
         },
         {
-          "title": "Seeing Before Knowing* — THE ORTHOGONAL PICK",
+          "title": "Seeing Before Knowing",
           "author": "Sōetsu Yanagi (Muneyoshi Yanagi)"
         }
       ]
@@ -1033,7 +1029,7 @@
           "author": "Harriet I. Flower (with Charles W. Hedrick Jr. as companion source)"
         },
         {
-          "title": "Secure Deletion of Data from Magnetic and Solid-State Memory — *THE ORTHOGONAL PICK",
+          "title": "Secure Deletion of Data from Magnetic and Solid-State Memory",
           "author": "Peter Gutmann"
         },
         {
@@ -1089,7 +1085,7 @@
           "author": "Charles Sanders Peirce"
         },
         {
-          "title": "Is the Name of a Thing Its Likeness? — Hermogenes, Cratylus and the Letter *Rho",
+          "title": "Is the Name of a Thing Its Likeness? — Hermogenes, Cratylus and the Letter Rho",
           "author": "Plato"
         },
         {
@@ -1099,6 +1095,18 @@
         {
           "title": "An Aid Not to Memory, but to Reminiscence: Theuth and Thamus (Phaedrus 274c-277a) / read with: Homeostatic: The Integrity of the Past Was Subordinate to the Integrity of the Present",
           "author": "Plato; Walter J. Ong"
+        },
+        {
+          "title": "\"The Sun Is New Every Day\" — The Fragments of Heraclitus (Burnet's numbering) / read with: The Poem of Parmenides — \"It Is\" and the Refusal of Becoming",
+          "author": "Heraclitus of Ephesus (fl. c. 500 BCE); Parmenides of Elea (fl. early 5th c. BCE)"
+        },
+        {
+          "title": "A Great Chapter of the History of the World Is Written in the Chalk / read with: Do You Think the Crystals Alive? — \"What Is It to Be Alive?\"",
+          "author": "Thomas Henry Huxley; John Ruskin"
+        },
+        {
+          "title": "The Dancer's Soul in the Centre of Gravity: On the Marionette Theatre",
+          "author": "Heinrich von Kleist"
         }
       ]
     },
@@ -1253,6 +1261,18 @@
         {
           "title": "Spectral Pigment Mixing (Kubelka–Munk) vs sRGB Lerp",
           "author": "Studio librarian (independent re-implementation; idea after Ronald van Wijnen's spectral.js)"
+        },
+        {
+          "title": "Kleinian Maskit-Slice Distance Estimator: KleinR / KleinI / box_size, One Parameter Per Row (3×3)",
+          "author": "Unknown (studio-librarian re-implementation). The algorithm and parameter names are after Jos Leys (Shadertoy, 2016). Knighty is credited on the follow-up shader page. The excerpt-based reconstruction is described above."
+        },
+        {
+          "title": "Fog Layers: Persistent `destination-out` Holes, a Per-Frame Veil, and `destination-in` Actor Masking",
+          "author": "zyklus (CodePen, \"Fog of War test\"); this version restructured and given a generated world by the studio librarian."
+        },
+        {
+          "title": "Gel Table: Order-Free Layered Occlusion with `multiply` Plates and Height-Driven Shadows",
+          "author": "Unknown (studio librarian original sketch). The `multiply` semantics are as documented by MDN, which is the only external source."
         }
       ]
     }

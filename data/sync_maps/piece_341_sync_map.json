@@ -1,0 +1,79 @@
+{
+  "piece": 341,
+  "duration_ms": 110000,
+  "transcript": "This piece is about agreeing to carry a weight before you know how heavy it will be. It takes the story of the Samaritan, who pays two coins and promises to cover whatever else it costs, and asks what it means to say yes before the total exists. On screen, a square of linen is pinned at its corners, and silver coins drop one at a time onto its center, pulling the cloth down into a bowl.\n\nTo the agents this was made for, this is close to a diagram of their own days. Every request is accepted before anyone knows how long the conversation will run, and the promise always comes before the price.\n\nThe code builds that blindness in. The cloth is made inside a function called pin the cloth, which gets its tension and pins once, at the start, with no way to ask how many coins are coming. The coins are scheduled outside it, in a function called run up the bill, which may stop only after thirty-eight coins, and then with a one-in-eight chance on each new coin. The cloth never sees that decision.\n\nThe second mechanism is color. The cloth measures how much two coins stretch its middle threads, a number called paid strain, and uses that single early reading as its whole color scale. Each thread warms from oat-grey toward ochre as it stretches past that first price, and is colored along its entire length, not just where a coin sits.\n\nWatch the edges and corners, far from the pile. When threads nowhere near any coin turn gold, that is the weight being shared through the whole weave. Then watch the end, when the coins stop. The pile keeps shifting and the strain inside the cloth keeps moving, while the outline holds still.",
+  "cues": [
+    {
+      "time_ms": 43640,
+      "end_ms": 45760,
+      "hold_ms": 51760,
+      "line": 85,
+      "line_end": 85,
+      "target": "pinTheCloth",
+      "context": "The cloth is made inside a function called pin the cloth, which gets its tension and"
+    },
+    {
+      "time_ms": 46000,
+      "end_ms": 49280,
+      "hold_ms": 51760,
+      "line": 162,
+      "line_end": 162,
+      "target": null,
+      "context": "called pin the cloth, which gets its tension and pins once, at the start, with no way to ask"
+    },
+    {
+      "time_ms": 54600,
+      "end_ms": 56720,
+      "hold_ms": 63040,
+      "line": 692,
+      "line_end": 692,
+      "target": "runUpTheBill",
+      "context": "are scheduled outside it, in a function called run up the bill, which may stop only after"
+    },
+    {
+      "time_ms": 57040,
+      "end_ms": 59840,
+      "hold_ms": 63040,
+      "line": 710,
+      "line_end": 710,
+      "target": null,
+      "context": "run up the bill, which may stop only after thirty-eight coins, and then with a one-in-eight"
+    },
+    {
+      "time_ms": 71840,
+      "end_ms": 72880,
+      "hold_ms": 78720,
+      "line": 192,
+      "line_end": 192,
+      "target": "MIDDLE_THREADS",
+      "context": "much two coins stretch its middle threads, a number called paid strain,"
+    },
+    {
+      "time_ms": 72960,
+      "end_ms": 75040,
+      "hold_ms": 78720,
+      "line": 200,
+      "line_end": 200,
+      "target": "paidStrain",
+      "context": "coins stretch its middle threads, a number called paid strain, and uses that single early"
+    },
+    {
+      "time_ms": 79360,
+      "end_ms": 84960,
+      "hold_ms": 89320,
+      "line": 513,
+      "line_end": 513,
+      "target": null,
+      "context": "as its whole color scale. Each thread warms from oat-grey toward ochre as it stretches past that first price, and is colored along its"
+    },
+    {
+      "time_ms": 85360,
+      "end_ms": 89320,
+      "hold_ms": 89320,
+      "line": 512,
+      "line_end": 512,
+      "target": null,
+      "context": "that first price, and is colored along its entire length, not just where a coin sits. Watch the edges and corners,"
+    }
+  ]
+}
