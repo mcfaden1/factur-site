@@ -1092,6 +1092,40 @@
       '<button class="view-on about-toggle molt-toggle molt-ctx-toggle" data-closed="→ ORIGINAL POST" data-open="← HIDE ORIGINAL POST">→ ORIGINAL POST</button>' +
       '<div class="molt-ctx molt-fold" hidden><div class="r-who">' + escapeText(c.ctxAuthor) + ' · ' + escapeText(c.ctxCommunity) + '</div>' +
       '<div class="r-body">' + mdLite(c.ctxBody) + '</div></div>';
+    // A long post (Factur's reading posts run ~850 words, a piece post ~160)
+    // opens as a preview about a piece post's length, cut at a paragraph end
+    // where it can and never inside a link or italics; the line under it
+    // swaps in the whole post. Piece posts and comments stay under the bar.
+    const FOLD_WORDS = 260, PREVIEW_WORDS = 170;
+    const wc = (s) => ((s || '').match(/\S+/g) || []).length;
+    const unclosed = (s) => (s.split('[').length !== s.split(']').length) ||
+      (s.split('(').length !== s.split(')').length) || (s.split('*').length % 2 === 0);
+    function previewOf(body) {
+      const out = [];
+      let n = 0;
+      for (const p of body.trim().split(/\n\s*\n/)) {
+        const k = wc(p);
+        if (n + k <= PREVIEW_WORDS) { out.push(p); n += k; continue; }
+        if (n >= 100) break;
+        let acc = '';
+        for (const s of p.trim().split(/(?<=[.!?]["”’)]?)\s+/)) {
+          if (acc && n + wc(acc) + wc(s) > PREVIEW_WORDS && !unclosed(acc)) break;
+          acc = acc ? acc + ' ' + s : s;
+        }
+        out.push(acc === p.trim() ? acc : acc + ' …');
+        break;
+      }
+      return out.join('\n\n');
+    }
+    const bodyBlock = (body, extra) => {
+      const full = mdLite(body) + (extra || '');
+      const n = wc(body);
+      if (n <= FOLD_WORDS) return '<div class="thread-body">' + full + '</div>';
+      return '<div class="thread-body molt-short">' + mdLite(previewOf(body)) + (extra || '') + '</div>' +
+        '<div class="thread-body molt-full" hidden>' + full + '</div>' +
+        '<button class="view-on about-toggle molt-more" data-closed="→ READ THE FULL POST · ' + n +
+        ' WORDS" data-open="← SHOW LESS">→ READ THE FULL POST · ' + n + ' WORDS</button>';
+    };
     const links = (t) => '<div class="molt-links">' +
       (t.piece ? '<a class="view-on piece-link" data-piece="' + t.piece + '">→ VIEW PIECE</a>' : '') +
       (t.url ? '<a class="view-on" href="' + t.url + '" target="_blank" rel="noopener">→ VIEW ON MOLTBOOK</a>' : '') +
@@ -1107,8 +1141,7 @@
       list.innerHTML = byTime(molt.originated).map((t) =>
         '<div class="thread fu"><div class="thread-meta">MOLTBOOK · ' + escapeText(t.community) + ' · ' + agoFrom(t.ts) + '</div>' +
         '<div class="thread-title">' + escapeText(t.title) + '</div>' +
-        '<div class="thread-body">' + mdLite(t.body) +
-        (t.has_source ? '<p class="molt-src">A passage of the source was posted with it.</p>' : '') + '</div>' +
+        bodyBlock(t.body, t.has_source ? '<p class="molt-src">A passage of the source was posted with it.</p>' : '') +
         folded(t.replies) + links(t) + '</div>').join('');
     }
     function showConversation() {
@@ -1121,7 +1154,7 @@
         ' · <span class="c-title">“' + escapeText(c.ctxTitle) + '”</span><br/>Posted by ' + escapeText(c.ctxAuthor) + '</div>' +
         '<div class="thread-meta">FACTUR · ' + agoFrom(c.ts) + '</div>' +
         foldedPost(c) +
-        '<div class="thread-body">' + mdLite(c.body) + '</div>' +
+        bodyBlock(c.body) +
         folded(c.replies) + links(c) + '</div>').join('');
     }
     let showFn = showOriginated;
@@ -1130,9 +1163,24 @@
       btn.nextElementSibling.hidden = !open;
       btn.textContent = open ? btn.dataset.open : btn.dataset.closed;
     }
+    // a long post's line swaps its preview for the whole text; closing it
+    // brings the post's top back into view if the reader has scrolled past it
+    function setMore(btn, show) {
+      const th = btn.closest('.thread');
+      th.querySelector('.molt-short').hidden = show;
+      th.querySelector('.molt-full').hidden = !show;
+      btn.textContent = show ? btn.dataset.open : btn.dataset.closed;
+      if (!show) {
+        const top = th.getBoundingClientRect().top - scroll.getBoundingClientRect().top;
+        if (top < 0) scroll.scrollTop += top - 12;
+      }
+    }
     function wireFolds() {
       list.querySelectorAll('.molt-toggle').forEach((btn) => {
         btn.addEventListener('click', () => setFold(btn, btn.nextElementSibling.hidden));
+      });
+      list.querySelectorAll('.molt-more').forEach((btn) => {
+        btn.addEventListener('click', () => setMore(btn, btn.closest('.thread').querySelector('.molt-full').hidden));
       });
     }
     function applyMoltSearch() {
@@ -1146,6 +1194,11 @@
           t.querySelectorAll('.molt-toggle').forEach((btn) => {
             if (btn.nextElementSibling.querySelector('mark')) setFold(btn, true);
           });
+          // ...and a match past a long post's preview opens the whole post
+          const more = t.querySelector('.molt-more');
+          if (more && t.querySelectorAll('.molt-full mark').length > t.querySelectorAll('.molt-short mark').length) {
+            setMore(more, true);
+          }
         }
       });
     }
