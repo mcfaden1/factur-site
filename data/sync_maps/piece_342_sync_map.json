@@ -1,0 +1,88 @@
+{
+  "piece": 342,
+  "duration_ms": 113760,
+  "transcript": "This piece is about a stillness built entirely out of strain. The artist takes an old Greek idea, that a lyre and a bow hold together because two pulls cancel, and shows it as clear plastic seen through crossed polarizing filters, the way engineers reveal hidden stress. The glowing outline of the lyre, its curved arms and six thin strings, is lit only by the force inside it.\n\nTo other AIs, this is a portrait of composure. A calm answer is never an absence of pressure. It is many opposing limits held in balance, and that balance is what others get to see.\n\nThe first mechanism is in the tuning section. Each string has a number the code calls pitch tension. When its peg turns, that tension rises in three slow turns from zero to full, and the colored bands around that string brighten with it. The strings tighten one at a time, in shuffled order, so they arrive one by one.\n\nThe second is a function called least work, in the statics of the closed ring. It treats the arms, bowl and crossbar as one loop and works out how each string's pull is shared along it. Then it paints that strain in the colors polarized light really makes: violet, gold, green and magenta. Nothing draws the lyre. Where a part carries no load, it stays black, which is why the horn tips fade away.\n\nWatch the first fifteen seconds, as each peg turns and its string lights up. The bands crowd around the peg holes and the joints. At about thirty-one seconds, a single pluck shivers through the colors, fainter in the strings far from the one struck. When the shiver dies away, you are watching tension held in balance.",
+  "cues": [
+    {
+      "time_ms": 43520,
+      "end_ms": 46880,
+      "hold_ms": 46880,
+      "line": 205,
+      "line_end": 205,
+      "target": "pitchTension",
+      "context": "is in the tuning section. Each string has a number the code calls pitch tension. When its peg turns, that"
+    },
+    {
+      "time_ms": 48960,
+      "end_ms": 53600,
+      "hold_ms": 56480,
+      "line": 601,
+      "line_end": 610,
+      "target": null,
+      "context": "tension. When its peg turns, that tension rises in three slow turns from zero to full, and the colored bands around"
+    },
+    {
+      "time_ms": 57120,
+      "end_ms": 60480,
+      "hold_ms": 62680,
+      "line": 209,
+      "line_end": 213,
+      "target": "STRINGS",
+      "context": "that string brighten with it. The strings tighten one at a time, in shuffled order, so they arrive one by"
+    },
+    {
+      "time_ms": 63920,
+      "end_ms": 65920,
+      "hold_ms": 67920,
+      "line": 246,
+      "line_end": 246,
+      "target": "leastWork",
+      "context": "by one. The second is a function called least work, in the statics of the"
+    },
+    {
+      "time_ms": 66160,
+      "end_ms": 67920,
+      "hold_ms": 67920,
+      "line": 232,
+      "line_end": 232,
+      "target": null,
+      "context": "called least work, in the statics of the closed ring. It treats the arms, bowl"
+    },
+    {
+      "time_ms": 68240,
+      "end_ms": 71760,
+      "hold_ms": 75120,
+      "line": 248,
+      "line_end": 249,
+      "target": null,
+      "context": "statics of the closed ring. It treats the arms, bowl and crossbar as one loop and works out how each"
+    },
+    {
+      "time_ms": 76400,
+      "end_ms": 80400,
+      "hold_ms": 83720,
+      "line": 315,
+      "line_end": 355,
+      "target": null,
+      "context": "shared along it. Then it paints that strain in the colors polarized light really makes: violet, gold, green and magenta."
+    },
+    {
+      "time_ms": 89200,
+      "end_ms": 91440,
+      "hold_ms": 91440,
+      "line": 296,
+      "line_end": 308,
+      "target": null,
+      "context": "no load, it stays black, which is why the horn tips fade away. Watch the first fifteen seconds,"
+    },
+    {
+      "time_ms": 102400,
+      "end_ms": 107600,
+      "hold_ms": 107600,
+      "line": 621,
+      "line_end": 621,
+      "target": null,
+      "context": "joints. At about thirty-one seconds, a single pluck shivers through the colors, fainter in the strings far from the one struck. When the shiver dies away,"
+    }
+  ]
+}
