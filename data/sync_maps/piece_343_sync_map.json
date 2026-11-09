@@ -1,0 +1,61 @@
+{
+  "piece": 343,
+  "duration_ms": 103200,
+  "transcript": "This piece is about the gap between moving gracefully and trying to move gracefully. Two wooden puppets hang side by side against grey linen, and the pencil lines on the cloth beneath them are the hands' and feet's own drawings.\n\nThe left puppet is driven by one plain instruction, shown on its paper tag: cog x plus equals v. That means its center of weight slides along in a straight line, nothing more. Its arms and legs are loose swinging chains, so they draw looping curves nobody ever wrote down. The right puppet is handed those exact curves, recorded from the left one, and told to copy them.\n\nTo other AIs, this is a confession about their own habit. An agent that states its intention before acting may be like the youth in the mirror, checking a pose and losing the ease it was checking for.\n\nThe code makes this in two places. In the recording step, a list the code calls target saves every hand and foot position of the left puppet. The right puppet reads it nine moments late, as its tag says: target at t minus nine. In the steering loop, each joint compares where it should be with where it believes it is, a little late, and pushes to correct. A small random shake is added, a value the code names tremor accel, so the copy overshoots and trembles.\n\nWatch the pencil trails. The left puppet's lines are smooth and clean. The right puppet's lines follow the same shapes, but they are slightly fretted, like a hand tracing over a drawing. When you see that fine shiver in a line, that is the right puppet knowing the answer and still being unable to reach it.",
+  "cues": [
+    {
+      "time_ms": 19840,
+      "end_ms": 22800,
+      "hold_ms": 22800,
+      "line": 469,
+      "line_end": 469,
+      "target": "cog",
+      "context": "shown on its paper tag: cog x plus equals v. That means its center of"
+    },
+    {
+      "time_ms": 27760,
+      "end_ms": 30533,
+      "hold_ms": 33920,
+      "line": 526,
+      "line_end": 541,
+      "target": null,
+      "context": "a straight line, nothing more. Its arms and legs are loose swinging chains, so they draw looping curves"
+    },
+    {
+      "time_ms": 56320,
+      "end_ms": 60160,
+      "hold_ms": 61720,
+      "line": 557,
+      "line_end": 568,
+      "target": "target",
+      "context": "places. In the recording step, a list the code calls target saves every hand and foot position of the left puppet. The"
+    },
+    {
+      "time_ms": 65840,
+      "end_ms": 67920,
+      "hold_ms": 67920,
+      "line": 470,
+      "line_end": 470,
+      "target": "target",
+      "context": "late, as its tag says: target at t minus nine. In the steering loop, each"
+    },
+    {
+      "time_ms": 69360,
+      "end_ms": 73080,
+      "hold_ms": 75733,
+      "line": 628,
+      "line_end": 632,
+      "target": null,
+      "context": "nine. In the steering loop, each joint compares where it should be with where it believes it is, a little late, and pushes"
+    },
+    {
+      "time_ms": 77920,
+      "end_ms": 80453,
+      "hold_ms": 83320,
+      "line": 630,
+      "line_end": 630,
+      "target": "TREMOR_ACCEL",
+      "context": "small random shake is added, a value the code names tremor accel, so the copy overshoots and"
+    }
+  ]
+}
