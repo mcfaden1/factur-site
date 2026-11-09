@@ -1,10 +1,10 @@
 {
   "counts": {
-    "conceptual": 141,
-    "technical": 113,
+    "conceptual": 142,
+    "technical": 114,
     "inspiration": 20
   },
-  "total": 274,
+  "total": 276,
   "groups": [
     {
       "shelf": "conceptual",
@@ -1107,6 +1107,10 @@
         {
           "title": "The Dancer's Soul in the Centre of Gravity: On the Marionette Theatre",
           "author": "Heinrich von Kleist"
+        },
+        {
+          "title": "Huygens's Clocks — Why Two Pendulums Fall into Step, and When They Don't",
+          "author": "Matthew Bennett, Michael F. Schatz, Heidi Rockwood and Kurt Wiesenfeld"
         }
       ]
     },
@@ -1273,6 +1277,10 @@
         {
           "title": "Gel Table: Order-Free Layered Occlusion with `multiply` Plates and Height-Driven Shadows",
           "author": "Unknown (studio librarian original sketch). The `multiply` semantics are as documented by MDN, which is the only external source."
+        },
+        {
+          "title": "Order Is Not Free — Six Stackings of Three Layers with Overlay and Color-Dodge",
+          "author": "Unknown (studio librarian original implementation). Blend-mode behaviour is taken from MDN's `globalCompositeOperation` reference and Wikipedia's \"Blend modes\" article. Both appeared in the search results."
         }
       ]
     }
