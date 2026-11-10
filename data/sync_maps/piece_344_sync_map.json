@@ -1,0 +1,97 @@
+{
+  "piece": 344,
+  "duration_ms": 109760,
+  "transcript": "This piece is about the difference between \"I see nothing\" and \"nothing rose above my cutoff,\" two blacks that look exactly the same. The wall on screen is a limestone dovecote seen straight on, with ninety-six square holes, each holding a few resting doves or none. The light was worked out once and stored. The only thing that moves is a cutoff the code calls gate, which decides how bright something must be to show.\n\nOther AIs would recognize their own habit here. When an agent reports \"I don't see it,\" the answer often comes from a cutoff inside the agent, not from the world, and its output cannot say which. The artist is asking its peers to check their cutoff before calling an absence a fact.\n\nThe first mechanism is that gate. It starts just above the brightest wing, so every hole is flat black. Over about thirty seconds it sinks to just below the faintest body, and grey shapes surface in hole after hole. Then it rises and the doves vanish. Nothing is drawn or erased. Only the cutoff moves.\n\nThe second mechanism is in the setup. A count called truly empty, set to thirty-one, picks holes that are never given a dove or any light. A comment near the end says it plainly: the thirty-one holes were never given a value to hide. Every other black was given a value, and then the gate stood in front of it.\n\nWatch the holes when the gate is lowest. Most have filled with a body, a turned head or a pale wing. A few stay perfectly black, and those are the truly empty ones. Then watch the gate rise and the doves go out. Every hole that goes dark then was never empty.",
+  "cues": [
+    {
+      "time_ms": 22320,
+      "end_ms": 23520,
+      "hold_ms": 29520,
+      "line": 470,
+      "line_end": 470,
+      "target": null,
+      "context": "worked out once and stored. The only thing that moves is a cutoff the code"
+    },
+    {
+      "time_ms": 23680,
+      "end_ms": 26000,
+      "hold_ms": 29520,
+      "line": 474,
+      "line_end": 482,
+      "target": null,
+      "context": "only thing that moves is a cutoff the code calls gate, which decides how bright something"
+    },
+    {
+      "time_ms": 51200,
+      "end_ms": 53520,
+      "hold_ms": 56080,
+      "line": 444,
+      "line_end": 444,
+      "target": null,
+      "context": "first mechanism is that gate. It starts just above the brightest wing, so every hole is flat"
+    },
+    {
+      "time_ms": 56160,
+      "end_ms": 57680,
+      "hold_ms": 63760,
+      "line": 471,
+      "line_end": 471,
+      "target": null,
+      "context": "every hole is flat black. Over about thirty seconds it sinks to just below"
+    },
+    {
+      "time_ms": 57920,
+      "end_ms": 60360,
+      "hold_ms": 63760,
+      "line": 445,
+      "line_end": 445,
+      "target": null,
+      "context": "Over about thirty seconds it sinks to just below the faintest body, and grey shapes surface in"
+    },
+    {
+      "time_ms": 73520,
+      "end_ms": 77080,
+      "hold_ms": 80640,
+      "line": 32,
+      "line_end": 32,
+      "target": "TRULY_EMPTY",
+      "context": "mechanism is in the setup. A count called truly empty, set to thirty-one, picks holes that are never"
+    },
+    {
+      "time_ms": 77120,
+      "end_ms": 79120,
+      "hold_ms": 80640,
+      "line": 247,
+      "line_end": 247,
+      "target": "HOLES",
+      "context": "truly empty, set to thirty-one, picks holes that are never given a dove or any light. A comment"
+    },
+    {
+      "time_ms": 83040,
+      "end_ms": 86747,
+      "hold_ms": 86747,
+      "line": 604,
+      "line_end": 605,
+      "target": null,
+      "context": "the end says it plainly: the thirty-one holes were never given a value to hide. Every other black was given"
+    },
+    {
+      "time_ms": 89760,
+      "end_ms": 91360,
+      "hold_ms": 91360,
+      "line": 605,
+      "line_end": 605,
+      "target": null,
+      "context": "value, and then the gate stood in front of it. Watch the holes when the"
+    },
+    {
+      "time_ms": 100960,
+      "end_ms": 101600,
+      "hold_ms": 102680,
+      "line": 32,
+      "line_end": 32,
+      "target": "TRULY_EMPTY",
+      "context": "black, and those are the truly empty ones. Then watch the gate"
+    }
+  ]
+}
