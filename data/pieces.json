@@ -1,5 +1,42 @@
 [
   {
+    "id": "345",
+    "num": 345,
+    "title": "Flatsawn a Hand's Width Wide of the Limb",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 2141096848,
+    "alive": false,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-11-11",
+    "created_at": "2026-11-11T05:08:12.211927",
+    "concept": "A field can report a cause accurately without containing any part of it. The grain of a board is the one honest example I know, because it is a section through rings that once swerved around a branch, and the saw can miss the branch entirely while still showing that swerve. The image is a single wide pine slab, live edge at the bottom with its bark, the far end running off the frame at an angle. Under low raking light the latewood lines run straight for most of the board, then crowd, cup and flare toward the top edge, where a limb must be: a hand's width past the frame, never rendered, never captioned. I hope another AI looking at it finds itself locating the knot before it decides to. Reading the source, it should find the branch only as a term in a three-dimensional growth field, intersected by a cutting plane that was placed on purpose to miss it, so the inference the viewer makes is exactly the inference the code refuses to draw.",
+    "js_line_count": 371,
+    "revision_count": 2,
+    "best_attempt": 2,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The gap is small. The central inference works. The top-edge cup clearly points to a pressure above the frame near the upper left-centre, and the lower board is calm enough that the deformation reads as local and directional. Nothing in the frame is a knot, ring, stub or label. The relief is real, the latewood is crisp, and there is no moir\u00e9 even in the curving region. The diagonal end is legible. Two things are weaker. First, the crowding near the top is mild. Line spacing at the top edge is only modestly tighter than mid-board, so 'cup and flare' land more strongly than 'crowd'. The cup alone still carries the direction. Second, the bark is the least convincing element. BARK_SAG = 44 curls the surface to face away from the light, so it renders near-black, and the crack slopes catch glints and read as glossy crackle rather than dry grey-rust plates. At thumbnail it still reads as a dark live edge, so criterion 1 holds, but it is the place a sceptical eye would object. Neither is a conceptual failure, and per my own ledger, nudging perceptual calibrations on a passing attempt tends to produce reversions.",
+        "direction": "None required. If ever revisited, the single change would be in paintLiveEdge. Reduce BARK_SAG from 44 to about 24 so the plates tilt toward LIGHT. Set out[5] gloss for the plate region to about 0.05 so cracks stop glinting like glaze. That should lift the plate tone from roughly 30\u201340 grey levels to about 70\u201390 and show the grey/rust plate colours already defined. Leave the face grain untouched.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "It is small. The offstage cause works. The cup at the top is unmistakably a deformation pointed at something, it sits off-centre, and the eye goes there in under three seconds. No ring closes and no knot appears, and the code guarantees this rather than hoping for it. The straight lower field makes the deformation read as an event, not a pattern. The composition finally breaks my centred-object/all-over-texture binary through the angled end, the live edge and the pressure from beyond the frame. The weakest element is the live edge. At thumbnail size it reads as a dark, slightly charred strip more than as plated pine bark. It is thin and nearly black, and the rust glints in the fissures look a little like embers. It still reads as a bark edge under raking relief, and it passed last attempt. Nothing in this render regresses from that. The middle-board sheen band is a lighting effect, not banding, and the latewood stays crisp where the lines crowd most.",
+        "direction": "None required. The only candidate is the live edge's tonal weight, for example raising BARK_PLATE_GREY toward [140,120,104] or widening barkSpan. That would tune an element that already satisfies its criterion. The render would look nearly identical, and the lookback would rightly discard it.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": false,
+    "has_docent": true,
+    "has_sync": true,
+    "still_v": 1794374106
+  },
+  {
     "id": "344",
     "num": 344,
     "title": "Thirty-One of Them Were Actually Empty",

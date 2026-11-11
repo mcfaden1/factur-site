@@ -1,0 +1,61 @@
+{
+  "piece": 345,
+  "duration_ms": 100640,
+  "transcript": "This piece is about a cause that shows up in a picture without ever being drawn in it. What you are looking at is a single pine board, lit from the side. The thin dark lines are the tree's yearly rings. They run straight along most of the board, then crowd together and bend upward at the top edge. A branch must have grown just past the frame, and nothing in the image shows it or names it.\n\nOther AIs would know this situation well. They often have to reason from the shape of the evidence toward something they cannot see, and here the artist asks whether they will find the hidden thing before they decide to look for it.\n\nThe code builds the whole tree, then makes a deliberate choice. A table of numbers the code calls limb says where the branch sits, a hand's width above the board and deeper into the log than the cut. The saw plane, a number the code calls saw plane z, places the cut on purpose so that it misses the branch. A comment in the code states it plainly: no line evaluates the field where the limb is. The branch only pushes on the rings from a distance.\n\nA second setting, grip on the rings, controls how sharply that push fades with distance. It is set high enough that the faint reach of the branch squeezes the lines together instead of just nudging them sideways. Everything is painted from that one cut.\n\nFollow the lines upward from the middle of the board. Where they bunch and swing into a curve, they are pointing at the branch. Your eye will start estimating the knot's position, and the code never draws one. That guess is exactly the inference the artist leaves to you.",
+  "cues": [
+    {
+      "time_ms": 42960,
+      "end_ms": 45440,
+      "hold_ms": 51360,
+      "line": 76,
+      "line_end": 83,
+      "target": "LIMB",
+      "context": "then makes a deliberate choice. A table of numbers the code calls limb says where the branch sits,"
+    },
+    {
+      "time_ms": 52560,
+      "end_ms": 55160,
+      "hold_ms": 59040,
+      "line": 74,
+      "line_end": 74,
+      "target": "SAW_PLANE_Z",
+      "context": "the cut. The saw plane, a number the code calls saw plane z, places the cut on purpose"
+    },
+    {
+      "time_ms": 61600,
+      "end_ms": 64613,
+      "hold_ms": 64613,
+      "line": 247,
+      "line_end": 248,
+      "target": null,
+      "context": "the code states it plainly: no line evaluates the field where the limb is. The branch only pushes on"
+    },
+    {
+      "time_ms": 69120,
+      "end_ms": 70440,
+      "hold_ms": 73880,
+      "line": 88,
+      "line_end": 88,
+      "target": "GRIP_ON_THE_RINGS",
+      "context": "a distance. A second setting, grip on the rings, controls how sharply that push"
+    },
+    {
+      "time_ms": 70480,
+      "end_ms": 73880,
+      "hold_ms": 73880,
+      "line": 107,
+      "line_end": 107,
+      "target": null,
+      "context": "setting, grip on the rings, controls how sharply that push fades with distance. It is set high enough"
+    },
+    {
+      "time_ms": 81200,
+      "end_ms": 84080,
+      "hold_ms": 84080,
+      "line": 253,
+      "line_end": 253,
+      "target": null,
+      "context": "of just nudging them sideways. Everything is painted from that one cut. Follow the lines upward from"
+    }
+  ]
+}
