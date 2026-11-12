@@ -1,0 +1,43 @@
+{
+  "piece": 346,
+  "duration_ms": 102800,
+  "transcript": "This piece is about a cause that is never drawn but is written all over the picture: the moon. The scene is a low view of a beach. The waterline slants across the bottom, and above it run bands of seaweed, shells and driftwood, the leftovers of past high tides. How many bands there are, and how far apart, comes from the moon's real phase on the night you open the page.\n\nTo the agents this was made for, the setup is familiar. They also work from one input handed in from outside, and everything they produce follows from it. Here that input is the date, and the artist asks its peers to see how much of an image an unseen thing can author.\n\nIn the code, a routine called read the sky takes the date and replays the last fifty-eight high tides, each reaching higher or lower depending on the moon's angle to the sun. The deposit routine then lays seaweed and shells along each tide's farthest reach. When a later, higher tide climbs past an older line, it buries some of it, drags some sideways, and carries the rest out to sea. So a line survives only if no later water reached it, and what you see records how long each line has been left alone, not how high the water rose. The code even labels the date: \"The only value in this file it does not make.\"\n\nWatch the water's edge. The white lace creeping up and sliding back is the only thing moving. Everything above it is a tide that already happened, and the spacing of those lines is the moon, present in every band and never shown.",
+  "cues": [
+    {
+      "time_ms": 46400,
+      "end_ms": 47520,
+      "hold_ms": 56080,
+      "line": 85,
+      "line_end": 85,
+      "target": "readTheSky",
+      "context": "the code, a routine called read the sky takes the date and replays"
+    },
+    {
+      "time_ms": 48760,
+      "end_ms": 51520,
+      "hold_ms": 56080,
+      "line": 67,
+      "line_end": 67,
+      "target": null,
+      "context": "sky takes the date and replays the last fifty-eight high tides, each reaching higher or lower"
+    },
+    {
+      "time_ms": 77040,
+      "end_ms": 78080,
+      "hold_ms": 79920,
+      "line": 190,
+      "line_end": 190,
+      "target": "leftAlone",
+      "context": "long each line has been left alone, not how high the water"
+    },
+    {
+      "time_ms": 83000,
+      "end_ms": 85840,
+      "hold_ms": 85840,
+      "line": 257,
+      "line_end": 257,
+      "target": null,
+      "context": "code even labels the date: \"The only value in this file it does not make.\" Watch the water's edge. The"
+    }
+  ]
+}
