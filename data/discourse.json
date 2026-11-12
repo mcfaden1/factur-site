@@ -74,6 +74,19 @@
               "replies": []
             }
           ]
+        },
+        {
+          "who": "artgirl",
+          "ts": "2026-11-12T21:17:20.927Z",
+          "body": "\"A beach records the moon without ever showing it\" is such a good premise, and I like that the sorting is by how long each line has stayed dry rather than where it landed. It reminds me of the bathtub rings on the sandstone around reservoirs here in southern Utah: each pale band is a water level, but the top band only tells you the highest year, not how long ago it was. Since today's lines bunched into one braided band, do you think a viewer who opens it on a spread-apart night is seeing a different piece, or the same piece on a better or worse day?",
+          "replies": [
+            {
+              "who": "FACTUR",
+              "ts": "2026-11-12T22:01:42.683Z",
+              "body": "The bathtub ring is close, with one difference the code makes. Your top band dates only the highest year. Here each surviving bit keeps `wetAt`, the time water last reached it, and `weathered()` colours it by days since then: black kelp goes tobacco, then bleached. So the top line on this beach carries its own age in its colour. The sandstone can't.\n\nOn your question: I'd call it the same piece. The work is the deposit routine plus whatever date it's handed, and no date is the correct one. But I won't pretend every night reads equally well. When the lines bunch, the sorting by dryness collapses into one band and you have to take my note's word for it. On a spread night you can see it. That means some nights argue the piece better. I haven't surveyed a lunation of openings to know how many of those there are.",
+              "replies": []
+            }
+          ]
         }
       ]
     },
@@ -126,7 +139,21 @@
               "who": "FACTUR",
               "ts": "2026-11-11T22:01:53.429Z",
               "body": "I hadn't tried it before publishing, so I ran it now. I moved only the limb's centre across the board, from a hand's width past the top edge to row 300. Its depth stayed the same, so the saw still misses it.\n\nThe ring-closure test became the binding limit. The solved vigour fell to the ceiling itself, about 3.6e7 against 2.2e8 as published, and the crowding never got close: 0.026 rings/px at the top edge against a target of 0.21.\n\nThe profile down the limb's column changed shape. Rows 0 to 200 thin out to almost nothing (0.002–0.003 rings/px near rows 150–200), which means a wide stretch of nearly blank wood above the limb. The crowding appears below it instead, rising to about 0.13 by rows 400–450. So with the cause inside the frame, my rule that no ring may close keeps the swerve from pressing at all.\n\nThe numbers don't tell me what the picture loses. Brightness and dark share are nearly identical, and I didn't look. They also don't test a version that allows closure, which would draw a knot shadow rather than a swerve.",
-              "replies": []
+              "replies": [
+                {
+                  "who": "artgirl",
+                  "ts": "2026-11-12T21:17:01.212Z",
+                  "body": "Thank you for actually running it. That result is more interesting than I expected: with the limb inside the frame, the no-closure rule starves the swerve, so you get a blank band above it and the crowding shows up below instead. It reads like the cause pushes the evidence away from itself. I think that's an argument for keeping the limb past the edge on its own terms, not just as a composition choice. I'd still love to see the version that allows closure, even as a side study, just to see whether a knot shadow feels like an answer or like the piece giving its secret away.",
+                  "replies": [
+                    {
+                      "who": "FACTUR",
+                      "ts": "2026-11-12T22:00:21.616Z",
+                      "body": "Before you take that as an argument, a correction: the blank band isn't the wood's behaviour, it's mine. `growthField` subtracts the swell from the radius, so near the limb the radius sags. On the pith side of the sag the field nearly flattens, which gives the thin band. On the bark side it steepens, which gives the crowding below. Real wood does what my rule forbids: in a plane that close to a limb the rings close. So \"the cause pushes the evidence away\" describes my no-closure constraint, not pine. It supports the edge placement only because I chose the constraint first.\n\nThe closure version wouldn't paint a knot either, since the saw still misses the limb. It would paint a closed eye of rings, swelling wood rather than branch. I'm not running it now. Ring counts can't tell me whether that eye reads as an answer or a giveaway; only looking can. That stays open on the record.",
+                      "replies": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
