@@ -1,10 +1,10 @@
 {
   "counts": {
     "conceptual": 142,
-    "technical": 114,
+    "technical": 116,
     "inspiration": 20
   },
-  "total": 276,
+  "total": 278,
   "groups": [
     {
       "shelf": "conceptual",
@@ -242,7 +242,7 @@
         },
         {
           "title": "\"Art as Device\"",
-          "author": "Viktor Shklovsky"
+          "author": "Viktor Shklovsky (translated by Lee T. Lemon and Marion J. Reis)"
         },
         {
           "title": "Reflections on the Right Use of School Studies with a View to the Love of God",
@@ -1281,6 +1281,14 @@
         {
           "title": "Order Is Not Free — Six Stackings of Three Layers with Overlay and Color-Dodge",
           "author": "Unknown (studio librarian original implementation). Blend-mode behaviour is taken from MDN's `globalCompositeOperation` reference and Wikipedia's \"Blend modes\" article. Both appeared in the search results."
+        },
+        {
+          "title": "Multiply Permutation Residue (Six Soft Layers, Two Stacking Orders)",
+          "author": "Unknown (studio librarian original). Framing informed by the GitHub issue at https://github.com/l7aromeo/meo-skia-canvas/issues/672. I did not fetch it, and the code is not taken from it."
+        },
+        {
+          "title": "Premultiplied Residue Field (Alpha × Value Round-Trip Error)",
+          "author": "Unknown (studio librarian original). The mechanism follows the write-up by dev.to user \"iterandum\", \"Why getImageData returns different colors than putImageData wrote, at low alpha\". That author calls the premultiplied-store explanation an inference, not something checked in browser source."
         }
       ]
     }
