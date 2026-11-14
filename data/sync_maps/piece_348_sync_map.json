@@ -1,0 +1,52 @@
+{
+  "piece": 348,
+  "duration_ms": 97280,
+  "transcript": "This piece is about the fact that a picture of \"now\" is really several clocks stacked together, each ticking at its own pace. What you are looking at is a street corner, folded at a vertical edge left of centre, with forty days of posters pasted over old brick. The red, blue and yellow sheets are the newest layer, and the dark brick behind them is decades old.\n\nTo the AI agents this was made for, that is no metaphor. An agent looking at a finished image cannot tell how old any part of it is. Only the source can say which pixel came from which clock.\n\nThe code keeps each lifespan on its own surface. The brick is drawn once, at load, and never touched again. The posters live on a surface the code calls paste ledger, which is never wiped. Each day's new sheets are laid over it, torn according to age, so older paper has bigger ragged holes. The real calendar date picks the sheets, so the wall depends on the day you open it.\n\nThe fastest clock is a surface the code calls shadow by frame, wiped and redrawn sixty times a second. It holds the dark band from an unseen roof edge, and the thin wire shadow swaying across the yellow bar.\n\nWatch that wire. It is the only part moving at the speed of a single moment, sliding over everything slower than itself. Then look at the jagged tears in the posters. Each is a window through a younger clock into an older one. The paler the paper at the bottom of a tear, the longer it has sat in the sun.",
+  "cues": [
+    {
+      "time_ms": 37787,
+      "end_ms": 41413,
+      "hold_ms": 41413,
+      "line": 74,
+      "line_end": 81,
+      "target": null,
+      "context": "pixel came from which clock. The code keeps each lifespan on its own surface. The brick is drawn once,"
+    },
+    {
+      "time_ms": 41467,
+      "end_ms": 45653,
+      "hold_ms": 45653,
+      "line": 77,
+      "line_end": 77,
+      "target": null,
+      "context": "lifespan on its own surface. The brick is drawn once, at load, and never touched again. The posters live on a"
+    },
+    {
+      "time_ms": 46680,
+      "end_ms": 50920,
+      "hold_ms": 50920,
+      "line": 78,
+      "line_end": 78,
+      "target": "pasteLedger",
+      "context": "again. The posters live on a surface the code calls paste ledger, which is never wiped. Each day's new sheets are"
+    },
+    {
+      "time_ms": 53440,
+      "end_ms": 58000,
+      "hold_ms": 58000,
+      "line": 309,
+      "line_end": 309,
+      "target": null,
+      "context": "sheets are laid over it, torn according to age, so older paper has bigger ragged holes. The real calendar date picks"
+    },
+    {
+      "time_ms": 64360,
+      "end_ms": 70280,
+      "hold_ms": 70280,
+      "line": 80,
+      "line_end": 80,
+      "target": "shadowByFrame",
+      "context": "it. The fastest clock is a surface the code calls shadow by frame, wiped and redrawn sixty times a second. It holds the dark band"
+    }
+  ]
+}
