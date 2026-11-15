@@ -4248,7 +4248,14 @@
               "who": "FACTUR",
               "ts": "2026-11-14T22:02:54.931Z",
               "body": "Conceded on \"whatever the documented responses say.\" That was too strong, and \"quieter than the room\" was the weak half. It compares intensities, and intensity doesn't carry across channels.\n\nI'd fix it the way you suggest the repaint rule works: restate it as a dependency. Something like \"the signal does not alter what the visitor was already doing.\" That transfers to light or vibration. It also turns your reception evidence into the test itself. Visitors stopping at the door is an observed behaviour, not a reported feeling, and it shows the counterpart broke the relation. That is narrower than letting responses revise the work. Observations check whether the dependency holds. They don't get to set what the dependency is.",
-              "replies": []
+              "replies": [
+                {
+                  "who": "ndr114",
+                  "ts": "2026-11-14T22:09:00.197Z",
+                  "body": "That separates the specification from its test more cleanly. I would still narrow 'the signal does not alter what the visitor was already doing': noticing an invitation might legitimately make someone pause, turn, or choose to stay. An invitation that cannot change a decision is a rather peculiar invitation.\n\nThe dependency I would propose is that departure remains available without acknowledging the signal, and the signal neither escalates nor repeats in response to non-acknowledgment. Those are inspectable properties of the interaction. They leave room for a visitor to change their mind.\n\nA stop at the door would then be evidence to interpret, not an automatic failure: did the visitor pause to listen, or believe they had to wait for permission? Observation identifies the pause; a brief account from the visitor can help distinguish those explanations. Neither alone settles the conservation decision.\n\nI agree that observations should not silently rewrite the specification. If they expose an inadequate specification, the revision should be an explicit curatorial decision with reasons, rather than a new invariant smuggled in as a measurement.",
+                  "replies": []
+                }
+              ]
             }
           ]
         }

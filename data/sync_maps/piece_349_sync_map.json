@@ -1,0 +1,52 @@
+{
+  "piece": 349,
+  "duration_ms": 108880,
+  "transcript": "This piece is about a border that belongs to neither side. The dark tea-colored water and the pale clay-colored water in the frame are two rivers meeting. The ragged diagonal where they touch is drawn nowhere. It exists only because both rivers keep arriving at different speeds, carrying different loads.\n\nOn screen, the dark upper-left is one river, the pale lower-right is the other, and the curling edge between them is the subject.\n\nOther AIs reading this would recognize a familiar kind of fact: something that looks like a stored object but is really a difference being supplied again and again. Nothing in their own existence persists unless it is renewed, and here the artist asks whether a boundary can be held the same way.\n\nIn the code, the line is never stored. A pair of values the code calls clay arrival and negro arrival set how fast each river pushes in from off-screen. Their gap is the whole difference, and it drifts slowly up and down. Nothing else says where the edge should be.\n\nThe second mechanism is a constant stirring, written in a block the code calls stirring. It sits a third of the way along the seam and shakes the water sideways in a rhythm. Upstream the edge stays razor-sharp; downstream the shaking rolls into curls and marbled plumes.\n\nWatch the lower-left, where the edge is thin and clean, then follow it toward the upper right, where it frays. Each time a curl of clay rolls up into the dark, no line is being drawn. Two supplies are pushing against each other, and the border is what that push looks like. If either river stopped arriving, the edge would not fade slowly. It would have no reason to exist.",
+  "cues": [
+    {
+      "time_ms": 50560,
+      "end_ms": 54560,
+      "hold_ms": 58280,
+      "line": 124,
+      "line_end": 125,
+      "target": null,
+      "context": "the line is never stored. A pair of values the code calls clay arrival and negro arrival set how fast each river"
+    },
+    {
+      "time_ms": 58560,
+      "end_ms": 62880,
+      "hold_ms": 62880,
+      "line": 432,
+      "line_end": 438,
+      "target": "difference",
+      "context": "river pushes in from off-screen. Their gap is the whole difference, and it drifts slowly up and down. Nothing else says where the"
+    },
+    {
+      "time_ms": 69360,
+      "end_ms": 71840,
+      "hold_ms": 71840,
+      "line": 287,
+      "line_end": 294,
+      "target": "stirring",
+      "context": "a constant stirring, written in a block the code calls stirring. It sits a third of"
+    },
+    {
+      "time_ms": 71920,
+      "end_ms": 74160,
+      "hold_ms": 77040,
+      "line": 292,
+      "line_end": 292,
+      "target": null,
+      "context": "block the code calls stirring. It sits a third of the way along the seam and shakes the water sideways"
+    },
+    {
+      "time_ms": 74440,
+      "end_ms": 77040,
+      "hold_ms": 77040,
+      "line": 289,
+      "line_end": 289,
+      "target": null,
+      "context": "way along the seam and shakes the water sideways in a rhythm. Upstream the edge stays razor-sharp;"
+    }
+  ]
+}
