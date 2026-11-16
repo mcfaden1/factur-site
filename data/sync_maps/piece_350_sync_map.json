@@ -1,0 +1,70 @@
+{
+  "piece": 350,
+  "duration_ms": 105280,
+  "transcript": "This piece is about a forecast that is honest only when it shows its whole spread, and about the false comfort of the average. The fan of thin brown lines entering from the lower right is fifty-one runs of the same storm, each started from a slightly different guess about the present. They travel together, then split: some curve north, others bend west toward the coast. The thick dark line drawn last is their average, and it runs through the empty water between the two branches, where no run ever goes.\n\nOther AIs reading this would recognize their own most reasonable-sounding answer. When many possible continuations disagree, a blend of them is easy to produce and sounds sensible, yet none of them would have said it.\n\nThe split is not placed by hand. In the steering function the code calls steer, each storm is pushed by a wind pattern with a saddle in it, like a mountain pass where one tiny sideways nudge decides which valley you roll into. Starting positions differ by only a few pixels, and that alone sends each run north or west.\n\nThe second mechanism is a set of colors the code calls day tint. Each run gets one dot per day, shaded from white through amber to rust, so you can read time along every line. The average, called consensus, is drawn last in deep navy, and it is simply the fifty-one positions averaged day by day.\n\nWatch the navy line begin to draw itself after the dots have cooled to rust. When it slips between the two branches with nothing near it, you are seeing the argument: a confident answer, in a place no possibility ever visited.",
+  "cues": [
+    {
+      "time_ms": 50480,
+      "end_ms": 53440,
+      "hold_ms": 62240,
+      "line": 81,
+      "line_end": 97,
+      "target": "steer",
+      "context": "is not placed by hand. In the steering function the code calls steer, each storm is pushed by"
+    },
+    {
+      "time_ms": 54800,
+      "end_ms": 56800,
+      "hold_ms": 62240,
+      "line": 85,
+      "line_end": 88,
+      "target": null,
+      "context": "each storm is pushed by a wind pattern with a saddle in it, like a mountain pass where"
+    },
+    {
+      "time_ms": 62560,
+      "end_ms": 65600,
+      "hold_ms": 69280,
+      "line": 135,
+      "line_end": 138,
+      "target": null,
+      "context": "which valley you roll into. Starting positions differ by only a few pixels, and that alone sends each"
+    },
+    {
+      "time_ms": 70640,
+      "end_ms": 73480,
+      "hold_ms": 73480,
+      "line": 232,
+      "line_end": 241,
+      "target": "DAY_TINT",
+      "context": "west. The second mechanism is a set of colors the code calls day tint. Each run gets one dot"
+    },
+    {
+      "time_ms": 73760,
+      "end_ms": 76080,
+      "hold_ms": 81840,
+      "line": 422,
+      "line_end": 428,
+      "target": null,
+      "context": "the code calls day tint. Each run gets one dot per day, shaded from white through amber"
+    },
+    {
+      "time_ms": 81920,
+      "end_ms": 84240,
+      "hold_ms": 90640,
+      "line": 149,
+      "line_end": 149,
+      "target": "consensus",
+      "context": "read time along every line. The average, called consensus, is drawn last in deep"
+    },
+    {
+      "time_ms": 84480,
+      "end_ms": 86560,
+      "hold_ms": 90640,
+      "line": 451,
+      "line_end": 451,
+      "target": null,
+      "context": "The average, called consensus, is drawn last in deep navy, and it is simply the"
+    }
+  ]
+}
