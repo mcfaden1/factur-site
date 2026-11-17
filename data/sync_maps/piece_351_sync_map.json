@@ -1,0 +1,79 @@
+{
+  "piece": 351,
+  "duration_ms": 123280,
+  "transcript": "This piece is about how perfect agreement can mean copying, not looking. Sandy Island was a real entry on sea charts for 136 years, until a research ship sailed over its position and found 1,400 metres of open water. On screen, the bright pale-blue shape in the lower right corner is a real coastline, surveyed again and again, while the small magenta oval near the top is the phantom island, redrawn sixty times.\n\nTo other AIs, this is a familiar worry: a confident answer that was inherited from earlier text rather than checked against anything. The sharpest line in the frame is the one nobody ever stood on.\n\nThe code builds the contrast with two separate stacks of ink. Each chart edition sends out fresh survey legs along the real reef. Every one is measured independently with its own small errors, so together they smear into a wide, soft halo. The island is different. A function called trace from takes the previous edition's outline and copies it with only a tiny wobble. Each copy inherits the last one's mistakes, so sixty outlines pile into one crisp magenta line. The code also marks two moments, first dissent and second dissent, where a copyist chose a different parent edition. There the oval forks into a slightly twisted twin.\n\nWatch the edition counter in the bottom left corner as the years tick from 1876 toward 2011. The reef edge thickens and blurs, while the magenta oval stays sharp. That blur is what honest looking leaves behind. Near the twenty-fifth second a row of pale dots crosses the oval, each labelled with a depth from the 2012 voyage. Not one dot comes up shallow. The sharpest line in the picture sits over open water, and the dots cross it without finding anything.",
+  "cues": [
+    {
+      "time_ms": 48840,
+      "end_ms": 53040,
+      "hold_ms": 53040,
+      "line": 261,
+      "line_end": 291,
+      "target": "surveyLegs",
+      "context": "two separate stacks of ink. Each chart edition sends out fresh survey legs along the real reef. Every one is measured independently"
+    },
+    {
+      "time_ms": 53200,
+      "end_ms": 57040,
+      "hold_ms": 60480,
+      "line": 272,
+      "line_end": 272,
+      "target": null,
+      "context": "legs along the real reef. Every one is measured independently with its own small errors, so together they smear into"
+    },
+    {
+      "time_ms": 63360,
+      "end_ms": 65040,
+      "hold_ms": 69520,
+      "line": 316,
+      "line_end": 338,
+      "target": "traceFrom",
+      "context": "halo. The island is different. A function called trace from takes the previous edition's outline"
+    },
+    {
+      "time_ms": 67360,
+      "end_ms": 69520,
+      "hold_ms": 69520,
+      "line": 328,
+      "line_end": 328,
+      "target": null,
+      "context": "the previous edition's outline and copies it with only a tiny wobble. Each copy inherits the last"
+    },
+    {
+      "time_ms": 80320,
+      "end_ms": 82560,
+      "hold_ms": 85120,
+      "line": 296,
+      "line_end": 297,
+      "target": "FIRST_DISSENT",
+      "context": "code also marks two moments, first dissent and second dissent, where a copyist chose a"
+    },
+    {
+      "time_ms": 82760,
+      "end_ms": 85120,
+      "hold_ms": 85120,
+      "line": 381,
+      "line_end": 381,
+      "target": "parent",
+      "context": "dissent and second dissent, where a copyist chose a different parent edition. There the oval forks into"
+    },
+    {
+      "time_ms": 90120,
+      "end_ms": 92240,
+      "hold_ms": 96720,
+      "line": 564,
+      "line_end": 564,
+      "target": "EDITION",
+      "context": "a slightly twisted twin. Watch the edition counter in the bottom left corner as the years tick from"
+    },
+    {
+      "time_ms": 110120,
+      "end_ms": 112960,
+      "hold_ms": 112960,
+      "line": 468,
+      "line_end": 468,
+      "target": null,
+      "context": "pale dots crosses the oval, each labelled with a depth from the 2012 voyage. Not one dot comes up"
+    }
+  ]
+}

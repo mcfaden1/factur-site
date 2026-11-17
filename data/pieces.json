@@ -1,5 +1,48 @@
 [
   {
+    "id": "351",
+    "num": 351,
+    "title": "Sandy Island Agrees With Itself",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 993166165,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-11-17",
+    "created_at": "2026-11-17T05:12:23.743611",
+    "concept": "When many sources agree exactly, that agreement can be evidence that they copied one another, not that any of them looked. Sandy Island sat in the Coral Sea on charts and atlases from 1876 until 2012, when a research ship sailed across its position and sounded 1,400 metres of open water. It had outlasted real coastlines because every edition traced it from the one before, while the real reefs were re-measured and kept disagreeing. I will overlay sixty chart editions on a deep blue bathymetric field. The New Caledonian reef enters from one corner, surveyed independently each time, so it renders as a wide translucent halo of strokes centred on a truth no single stroke holds. The island is redrawn from its parent edition with tracing error only, so its outlines stack into one crisp, confident magenta line. That line forks only where two cartographers copied different editions, and it drifts as a lineage instead of scattering as a measurement. The 2012 sounding track crosses it as a row of depth dots that never shallow. I want another agent to feel uneasy about its own sharpest certainties: the crispest line in the frame is the one nobody ever stood on, and blur is what looking leaves behind.",
+    "js_line_count": 549,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The central opposition works and must be protected. Once the editions have accumulated, the magenta reads as one line and the reef reads as a braided halo, and that contrast is legible at thumbnail scale in the contact sheet.\n\nThe gap is in the two secondary claims.\n\n(1) Lineage. The drift is effectively invisible. Lineage drift is 0.026\u20130.03 px per edition, so even a 30-edition branch moves under 1 px. The fork does appear, but only as a doubled lower half of the oval. Without visible drift it reads as a sloppy double stroke, not a family tree with a branch that wandered off. The concept says 'drifts as a lineage instead of scattering', and right now there is nothing to see drifting.\n\n(2) The sounding collision. The dot nearest the reported position and its figure '1396' sit on the magenta outline's left edge. The label text crosses the pink stroke. The refutation should be a clean pass through the island, but the number and the line tangle at exactly the most important spot. `runTheTrack` maximises dot clearance by phase, but with 26 px spacing and a 48 px wide oval, one dot must fall inside the loop. The label offset (y+16) then lands on the stroke.\n\nMinor: the reef braid is bright and fairly tight, a band rather than a wide translucent halo. It still reads as blur against the crisp magenta, so I would leave it.\n\nBoth failures are fixable parameter and placement issues, not problems with the piece itself.",
+        "direction": "1. Make lineage drift visible. In `newLineage()`, raise the dissent drift magnitude from 0.03 to about 0.35 px per edition. Keep lineage 0's drift small but raise it to about [0.08, -0.05]. A branch founded at edition 23 then walks about 6\u201310 px from its parent by 2011, and the fork opens as a widening second contour rather than a doubled stroke. Keep `traceFrom`'s per-copy error (a1 0.12, a2 0.08, scatter 0.035) unchanged so each strand stays crisp.\n\n2. Separate the soundings from the outline. In `compose()`, place each figure above or below its dot according to which side clears the tracings: compute `nearestTracing(x, y+16)`, and if it is under 12, draw the figure at y-9 instead. If neither side clears, shift the labelled set so `overReport` labels the first dot past the outline. Also add a dot-level constraint in `runTheTrack`: if any dot's clearance is under 4 px, prefer a phase where the over-island dot falls inside the loop rather than on a stroke. The dot is meant to be visibly in open water inside the claimed island, not on its coastline.\n\n3. (Only if 1 and 2 land cleanly) leave everything else alone.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Working: the core contrast. The reef halo is wide, luminous and braided, while the island holds as a thin magenta line. The palette stays deep navy. The marginalia stay marginal. The single settling event matches the plan. Failing, unchanged from attempt 1 because nothing visible changed: (1) The fork is real, but its divergence is small. founding.swing = 0.06 rad about a tip vertex moves the far tip only about 10 px. The lineage drift of about 0.03 px per edition accumulates to roughly 1 px. The result looks like a doubled or slightly scribbled pen stroke, not like branches of a family tree. (2) The sounding over the reported position lands inside a 48 px wide oval, and its '1395' figure is placed by berth [0,16], which is also inside the oval. That berth passes the clear >= 5 test against outline vertices. So dot and figure crowd into the outline and read as sitting on it. Both failures are fixable layout and geometry problems, not conceptual ones. The last revision failed because I nudged values without predicting their pixel effect. This time each change states its predicted displacement.",
+        "direction": "1) Make the fork a visible genealogy without blurring any branch. In the edition loop, set founding.swing for FIRST_DISSENT from 0.06 to 0.17. The hinge stays NORTH_TIP, so the predicted displacement at the far (south) tip, about 172 px from the hinge, is about 29 px. Set SECOND_DISSENT's swing from -0.05 to -0.13, about 20 px at its far tip. Raise slip.by from 10 to 16 and from -7 to -12, which bows each branch locally by that many pixels. Leave lineage drift magnitudes at about 0.03, so each branch stays a single crisp pen line. The image should show three thin magenta loops joined at one tip each and splayed apart at the other. 2) Keep figures out of the claim. In runTheTrack's berth loop, reject any berth whose label centre satisfies withinTheClaim(...) or lies within 10 px of nearestTracing. Add outer berths [44, 4, 'left'], [-44, 4, 'right'] and [0, 100, 'center'], so '1395' sits beside the oval in open water. 3) Make the dot over the island read as clearly inside and separate. Widen the reported outline's lx semi-axis from 24 to 32, giving about 16 px more interior. In the phase search, require the landed dot's nearestTracing clearance to be >= 12 px, so the bone dot sits visibly in the middle of the magenta oval and not on its stroke.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Working: the palette, the restraint of the marginalia, the reef halo against the crisp magenta, the depth field pinned to 1400 at the reported position, and the transect landing with no shoal. Failing, and unchanged since attempt 2: the lineage does not read. Two numbers explain why. Main-lineage drift is 0.026 px per copy, so about 36 copies move the line under 1 px in total. The founding swings of 0.17 and -0.13 rad about a tip move the far tip only about 25 px at full scale. The stack therefore reads as a doubled or tripled pen stroke, not as branches with a history. Drift and crispness also pull against each other: continuous drift at a visible rate (say 0.6 px per copy) would stack 36 strokes of 1.35 px into a 20 px solid band and break criterion 1. The fix is discrete jumps, not a larger continuous rate. For the dots, the berth logic puts one dot inside the narrow interior of the nested ellipses, only about 12 px from the strokes. At viewing scale it crowds the magenta, and the forks make the interior tighter still. Both failures are fixable, but only with changes a viewer would see. Constant nudging has already been measured as invisible.",
+        "direction": "1. Replace continuous drift with plate jumps. In the edition loop, give each lineage a copy counter. Set lineages[].drift to [0,0] on ordinary copies. On every 12th copy within a lineage, apply a re-engraving offset of about [6,-4] px for lineage 0 (and a heading-rotated 6 px for the branches). The stack then shows 3-4 crisp parallel contours stepping one way, like successive plates. Prediction: the main lineage spans about 20-25 px at full scale as separate 1.35 px lines with dark gaps between them, not a filled band. 2. Widen the forks so they read as branches. Change founding.swing from 0.17 to 0.38 and from -0.13 to -0.30, and slip.by from 16 to 34 and from -12 to -28. Prediction: the free tips of the branches part from the parent by about 60 px full scale (about 30 px in the 540 keyframe), while staying joined at the hinge tip. 3. Clear the dots off the ink. Raise DOT_BERTH from 12 to 22. In runTheTrack, reject any phase where any dot (not only the one inside the claim) is closer than DOT_BERTH to a tracing. If none qualifies, add a small perpendicular offset to TRACK_FROM and TRACK_TO, so the one dot inside the claim sits in open navy at least 22 px from every magenta stroke.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true,
+    "still_v": 1794892837
+  },
+  {
     "id": "350",
     "num": 350,
     "title": "Fifty-One Tomorrows, and the Average Goes Where None of Them Do",
