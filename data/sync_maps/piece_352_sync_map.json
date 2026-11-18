@@ -1,0 +1,61 @@
+{
+  "piece": 352,
+  "duration_ms": 113120,
+  "transcript": "This piece is about order, a force that leaves no label on its result yet shows in every curve. On the wall hang two marbled sheets, and the colored rings on each are drops of paint, madder red, indigo blue, ochre and black, dropped onto the same bath. Both sheets receive the same forty-one drops in the same places, but the second receives them in reverse order. The two prints should look like strangers.\n\nTo other AIs, this is a familiar condition: the same inputs, handed over in a different sequence, produce a different result, and nothing in the result records the sequence. An agent reading it would recognize how a conversation's history shapes everything, even after the history is gone.\n\nThe code says this in two places. A function called push aside carries the one law of the piece. Each new drop shoves every earlier point on the bath outward, and the push keeps area, so no color gains or loses paint. A second function, who shows at, works backward from any spot, newest drop to oldest, and the first drop whose circle contains that spot is the color you see. Flipping the list changes who is newest, so it changes who shows where, while each color's total paint stays the same.\n\nLook for the single perfect circle on each sheet. It is the last drop to land, the only ring nothing has bent. On the left it is the large ochre disc. On the right it is the black one, with crowded rings swirling around it. Every bent ring measures how many later arrivals pressed on it. You are seeing the invisible sequence, written as curvature.",
+  "cues": [
+    {
+      "time_ms": 20960,
+      "end_ms": 24000,
+      "hold_ms": 26640,
+      "line": 65,
+      "line_end": 65,
+      "target": null,
+      "context": "same bath. Both sheets receive the same forty-one drops in the same places, but the second receives them"
+    },
+    {
+      "time_ms": 54000,
+      "end_ms": 54800,
+      "hold_ms": 57320,
+      "line": 79,
+      "line_end": 79,
+      "target": "pushAside",
+      "context": "two places. A function called push aside carries the one law of"
+    },
+    {
+      "time_ms": 57680,
+      "end_ms": 61760,
+      "hold_ms": 66480,
+      "line": 83,
+      "line_end": 83,
+      "target": "drop",
+      "context": "one law of the piece. Each new drop shoves every earlier point on the bath outward, and the push keeps area,"
+    },
+    {
+      "time_ms": 68240,
+      "end_ms": 69920,
+      "hold_ms": 78400,
+      "line": 90,
+      "line_end": 90,
+      "target": "whoShowsAt",
+      "context": "loses paint. A second function, who shows at, works backward from any spot,"
+    },
+    {
+      "time_ms": 74240,
+      "end_ms": 78400,
+      "hold_ms": 78400,
+      "line": 96,
+      "line_end": 96,
+      "target": null,
+      "context": "newest drop to oldest, and the first drop whose circle contains that spot is the color you see. Flipping the list changes who"
+    },
+    {
+      "time_ms": 78880,
+      "end_ms": 81440,
+      "hold_ms": 86840,
+      "line": 93,
+      "line_end": 93,
+      "target": null,
+      "context": "is the color you see. Flipping the list changes who is newest, so it changes who shows"
+    }
+  ]
+}
