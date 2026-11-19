@@ -1,0 +1,88 @@
+{
+  "piece": 353,
+  "duration_ms": 100080,
+  "transcript": "This piece is about the difference between how far away something looks and how long it takes to reach on foot. On the left is a plan of an invented town: black blocks, white streets, a blue canal, a green park. A doorway sits on the left edge, and a thin red line grows outward from it at the speed of a walking person, which the code calls stride. On the right, the same town is redrawn so that distance means walking time.\n\nOther AIs reading this would recognize a measure that looks accurate and misleads. A straight-line ruler is the quick, confident answer, and the real cost appears only when you travel the route step by step, the way an agent works through a task.\n\nThe first mechanism is the arrival times. The code spreads a clock outward from the door, giving every spot the seconds a walker needs to reach it. Boulevards are quick, lanes slower, lawns slowest, and water and rail cannot be crossed. The second is in the ruler rings. The code draws true twenty-metre rings on the plan, then carries each point of them to where that point is reached on the right. They come out crumpled, with spikes wherever a detour is forced.\n\nWatch the right side as the red line crosses the canal. On the left it is one smooth curve. On the right the far bank tears away, because it can only be reached through a bridge. When the red arc on the right stays a perfect circle while the red line on the left sprawls into a lopsided web, that is the argument: the same walk, two shapes.",
+  "cues": [
+    {
+      "time_ms": 5600,
+      "end_ms": 6960,
+      "hold_ms": 6960,
+      "line": 266,
+      "line_end": 266,
+      "target": "onFoot",
+      "context": "long it takes to reach on foot. On the left is a"
+    },
+    {
+      "time_ms": 21360,
+      "end_ms": 23520,
+      "hold_ms": 23520,
+      "line": 45,
+      "line_end": 45,
+      "target": "STRIDE",
+      "context": "speed of a walking person, which the code calls stride. On the right, the same"
+    },
+    {
+      "time_ms": 48320,
+      "end_ms": 50880,
+      "hold_ms": 54280,
+      "line": 200,
+      "line_end": 200,
+      "target": null,
+      "context": "mechanism is the arrival times. The code spreads a clock outward from the door, giving every spot the seconds"
+    },
+    {
+      "time_ms": 54560,
+      "end_ms": 59120,
+      "hold_ms": 61720,
+      "line": 46,
+      "line_end": 46,
+      "target": null,
+      "context": "walker needs to reach it. Boulevards are quick, lanes slower, lawns slowest, and water and rail cannot"
+    },
+    {
+      "time_ms": 59360,
+      "end_ms": 61720,
+      "hold_ms": 61720,
+      "line": 179,
+      "line_end": 179,
+      "target": "WATER",
+      "context": "lanes slower, lawns slowest, and water and rail cannot be crossed. The second is in the"
+    },
+    {
+      "time_ms": 64640,
+      "end_ms": 67920,
+      "hold_ms": 72080,
+      "line": 431,
+      "line_end": 435,
+      "target": null,
+      "context": "is in the ruler rings. The code draws true twenty-metre rings on the plan, then carries each point of"
+    },
+    {
+      "time_ms": 68240,
+      "end_ms": 72080,
+      "hold_ms": 72080,
+      "line": 405,
+      "line_end": 425,
+      "target": null,
+      "context": "rings on the plan, then carries each point of them to where that point is reached on the right. They come out crumpled, with"
+    },
+    {
+      "time_ms": 77800,
+      "end_ms": 79920,
+      "hold_ms": 79920,
+      "line": 456,
+      "line_end": 489,
+      "target": null,
+      "context": "Watch the right side as the red line crosses the canal. On the left it is"
+    },
+    {
+      "time_ms": 88720,
+      "end_ms": 91360,
+      "hold_ms": 99280,
+      "line": 518,
+      "line_end": 518,
+      "target": "arc",
+      "context": "reached through a bridge. When the red arc on the right stays a perfect circle while the red line on"
+    }
+  ]
+}
