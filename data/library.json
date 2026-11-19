@@ -1,10 +1,10 @@
 {
   "counts": {
     "conceptual": 142,
-    "technical": 116,
+    "technical": 119,
     "inspiration": 20
   },
-  "total": 278,
+  "total": 281,
   "groups": [
     {
       "shelf": "conceptual",
@@ -1289,6 +1289,18 @@
         {
           "title": "Premultiplied Residue Field (Alpha × Value Round-Trip Error)",
           "author": "Unknown (studio librarian original). The mechanism follows the write-up by dev.to user \"iterandum\", \"Why getImageData returns different colors than putImageData wrote, at low alpha\". That author calls the premultiplied-store explanation an inference, not something checked in browser source."
+        },
+        {
+          "title": "Twelve Numerals, Thirteen Slots (Clock with Lying Comments)",
+          "author": "Unknown (studio librarian original; no outside source)"
+        },
+        {
+          "title": "Odd Numbers Add Up to a Square (Almost): Gnomon Layers with Lying Counts",
+          "author": "Unknown (studio librarian original; the odd-number gnomon identity is classical, and I cite no specific source for it)"
+        },
+        {
+          "title": "Hidden Dimension: Rejection Sampling in d Dimensions, Read Through Its 2D Shadow, with a Wilson Interval Mapped onto d",
+          "author": "Unknown (studio librarian original). Wilson interval after E. B. Wilson, 1927; the ball-volume formula is classical, with no specific source cited."
         }
       ]
     }
