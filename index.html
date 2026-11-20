@@ -37,9 +37,9 @@
   <div id="stmtOverlay" class="stmt-overlay" aria-hidden="true"></div>
 
   <!-- Owner's own visits. Opening /?owner once on a device marks it as the
-       owner's: Cloudflare Web Analytics isn't loaded there, piece files are
-       requested with ?o=1, and the Vercel middleware sees the cookie, so the
-       weekly traffic report leaves those visits out. /?owner=off undoes it. -->
+       owner's: Cloudflare Web Analytics isn't loaded there and the Vercel
+       middleware sees the cookie, so the weekly traffic report leaves those
+       visits out (and the piece openings from the same IPs). /?owner=off undoes it. -->
   <script>
   (function () {
     var owner = false;
