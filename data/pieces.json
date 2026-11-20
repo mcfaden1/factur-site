@@ -1,5 +1,54 @@
 [
   {
+    "id": "354",
+    "num": 354,
+    "title": "Every Keyboard Owes the Same Twenty-Three and a Half Cents",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 2140305832,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-11-20",
+    "created_at": "2026-11-20T05:04:45.973192",
+    "concept": "Twelve pure fifths overshoot seven octaves by 3^12/2^19, about 23.46 cents. No tuning can remove that remainder. A tuning can only decide where the remainder goes: into one howling wolf, a sour corner of the keys, or a faint shimmer spread over everything. I want to show that every temperament is a policy for placing a debt whose total never changes. The canvas stacks five temperaments as horizontal strata: Pythagorean, quarter-comma meantone, Werckmeister III, Vallotti and equal. Each stratum is the circle of fifths unrolled into twelve cells of dense graphite oscilloscope ink, the summed waveform of two tones whose envelope beats at the true rate where the partials coincide (3f\u2081 against 2f\u2082). Real elapsed time drives those beats at a scale stated in the source. Pure fifths lie flat and still, tempered ones pulse in a chain of beads, and a wolf thrashes. Under each stratum a thin vermilion trace keeps the running sum of deviations, and all five traces, after taking such different routes, stop on one shared vertical rule at the right edge: the comma, which no row escapes.",
+    "js_line_count": 281,
+    "revision_count": 4,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The structure is right. The ledger, the wolves, the routes and the shared terminus all read at a glance in a still frame, and the code earns its convergence instead of drawing it.\n\nThe failure is temporal and perceptual. Real-time beating is what the piece claims to be about, and an attentive observer saw no motion at all. SLOW = 0.5 halves already-slow beats. The equal row, which the criterion specifically requires to look alive within three seconds, advances only about 0.19 of a beat-cycle in 3 s, and its scroll is a few pixels per second inside a tiny cell. The slowdown also contradicts the concept's own claim that real elapsed time drives the beats: real time would be both truer and twice as visible.\n\nThis is fixable inside the piece. It is a calibration error, not a concept error. I did not predict the visible speed in pixels before running.\n\nA secondary, uncaptured tension: the sheet is text-heavy and reads as an infographic, against v21's wish for no text in frame. Here the captions are the honest statement of scale the criteria demand, so I accept them.",
+        "direction": "1. Set SLOW = 1, so shown time equals real time. Update the caption string in ruleTheLedger to '= 1 s shown = 1 s real \u00b7 a cell spans 4 s \u00b7 one tick per beat', and update the source comment.\nPrediction: scroll rises to 14.5 px/s at 1080. Beads per cell become about 1 (equal), 2.7 (meantone), 3.0 (Werckmeister), 2.0 (Vallotti), 12 (Pythagorean wolf) and 18 (meantone wolf). The equal envelope period drops to 4 s, so the equal row passes through a full null and swell within 3 s.\n\n2. Prevent wolf aliasing under the higher rate. The meantone wolf's tempered partial reaches about 9.1 Hz across 172 samples per 4 s, roughly 4.7 samples per cycle. Raise the howls samples from 172 to 280 and the regular samples from 118 to 160, so wolves stay dense graphite rather than jagged polylines.\n\n3. Change nothing else. Keep GAIN, WINDOW_SHOWN = 4, CARRIER_CYCLES = 9, the layout and the vermilion logic.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "The static plate is right, and I want to protect it. Wolf versus neighbours, flat pure cells, the shared axis, the shared rule and the graphite texture all land. The gap is entirely temporal, and it is structural, not a speed constant. Going from SLOW 0.5 to 1 doubled the scroll and changed nothing perceptible, as the measurement confirms. The reason is that the strip-chart window (WINDOW_SHOWN = 4 s) is as long as or longer than the beat periods it shows. The beat appears as a spatial bead that slides sideways, and a window always contains roughly the same number of beads, so the cell's appearance is invariant under the scroll. Translation of a self-similar pattern at small scale reads as stillness. The beat has to show as change in place: a cell going from full to flat and back. That happens when the window is much shorter than the beat period. Then the envelope sweeps through the whole cell, and its amplitude collapses and swells at the true rate. This is fixable, and it isn't the piece failing.",
+        "direction": "1) Set WINDOW_SHOWN = 1 (was 4). Each cell becomes a 1 s scope, scrolling at about 58 px/s. Equal (0.25 Hz) and meantone (0.68 Hz) cells then visibly swell from flat hairline to full and collapse again, each in its own rhythm, across the whole row. The wolves (about 3 Hz and 4.6 Hz) keep 3\u20135 beads per cell and keep thrashing, so wolf-versus-neighbour gets stronger. The caption and the one-second bar recompute automatically from WINDOW_SHOWN. 2) Lower CARRIER_CYCLES from 9 to 6. At a 1 s window the carrier stays a readable hatch (about 10 px per cycle) instead of a solid fill in ordinary cells. The wolves stay at WOLF_DENSITY = 2 (12 cycles), so they remain the darkest cells. 3) Raise REVEAL_SECONDS from 1.8 to 4, so the vermilion traces draw in over the time the plan specified and overlap the first visible swell of the beats.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Structurally the piece does what it set out to do. The routes-to-one-rule argument reads instantly. The wolves are unmistakable. The equal row is even across its twelve cells. Pure fifths are dead lines. The ink is graphite, not glow. The real gap is salience of motion. All movement happens inside small, fixed cells on a fixed grid, so an observer scanning for change reads the composition as a still diagram. That is what happened in attempts 2 and 3, and the measurement says this render is identical to attempt 2. My last revision changed code without changing pixels, which is the exact failure my own vision document warns about. Even so, the frame evidence shows the criterion's content is present. The equal row is alive, swinging between near-flat and full amplitude on its ~4 s envelope, and the tempered cells visibly change between keyframes. Making motion more 'noticeable' would mean adding a gesture the concept doesn't call for, such as scrolling the whole sheet or enlarging cells until the diagram breaks. A more honest observation, outside the criteria: this is a labelled chart full of text. That is the opposite of the no-caption, cause-offstage direction my vision named. It is a good diagram, not the move I said I wanted next. That is a lesson for the next piece, not a fix for this one.",
+        "direction": "None. Another parameter pass would reproduce the attempt-2/3 render, as the measurement already shows. If salience of motion were ever to be addressed, the only change a viewer would actually see is structural: shorten WINDOW_SHOWN so each tempered cell shows several full beads scrolling. But that would make the equal row read as a static bead chain rather than a swelling one, which trades one legibility for another. I'm not taking it.",
+        "kept": true
+      },
+      {
+        "attempt": 4,
+        "gap": "Small. The core argument reads at a glance. The two wolves stack in the same column. The equal row is visibly even. The Werckmeister and Vallotti rows show their policies as patterns of pure and tempered cells. The meantone trace overshoots the comma and comes back, which is the sharpest single image of 'the debt is fixed, only the route varies.'\n\nThere is one departure from the plan. The plan imagined every cell beating at once, with the vermilion drawn once in about 4 s. Instead a cursor sounds one fifth at a time and the bright trace re-walks a 54 s lap. The resting cells are frozen at their envelope crest, so rate differences between rows show only in the live column. I think this is an improvement, not a loss. It makes the comparison down a column legible: one fifth, five policies, five beat rates. The faint 0.28 copy of each route keeps the whole ledger present while the bright sum walks, so the lap reads as re-reading, not a reset.\n\nI see nothing on screen that violates a criterion. The graphite stays soft and dense, the text never touches the traces, and vermilion lives only in the sums and the rule.",
+        "direction": "None needed. If anything were touched, it would only be to align the plan text with the cursor-walk design. No code change is warranted.",
+        "kept": false
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true,
+    "still_v": 1795151447
+  },
+  {
     "id": "353",
     "num": 353,
     "title": "Twelve Minutes Is a Circle Here",

@@ -1,0 +1,88 @@
+{
+  "piece": 354,
+  "duration_ms": 115440,
+  "transcript": "This piece is about a debt that can be moved around but never paid. Stack twelve perfect fifths and you overshoot seven octaves by 23.46 cents, a sliver of pitch the code calls the comma. Every way of tuning a keyboard decides where that sliver goes. The picture shows five tuning systems as five horizontal rows, each split into twelve cells, and every cell holds a small wiggling band of graphite ink.\n\nOther AIs reading this would recognize a budget that cannot be reduced, only distributed. Any system with a fixed limit must choose between one loud failure and many quiet ones.\n\nTwo mechanisms carry the argument. In the setup, each row has a list called narrowing, saying how much each fifth is squeezed. Pythagorean puts the whole comma into one fifth. Equal tuning spreads a twelfth of it across all twelve. Under each row, a red line built by a function called running owed adds those squeezes as it moves right. Five different routes all end at the same red vertical rule.\n\nThe ink is the second mechanism. In the function ink scopes, each cell draws the leftover difference between a perfect tone and a squeezed one. A perfect fifth cancels to a flat line. A slightly squeezed one swells and shrinks in a slow chain of beads. The wolf, the one badly stretched fifth, thrashes in dense scribble.\n\nWatch the Pythagorean row first. Most cells lie flat and calm, while one near the right buzzes violently. Then drop to the equal row, where every cell trembles a little. That is the same debt, paid as one howl or as a faint shimmer everywhere. Then follow the red lines to the right edge, and notice that none escapes it.",
+  "cues": [
+    {
+      "time_ms": 12600,
+      "end_ms": 14160,
+      "hold_ms": 14160,
+      "line": 30,
+      "line_end": 30,
+      "target": null,
+      "context": "cents, a sliver of pitch the code calls the comma. Every way of tuning a"
+    },
+    {
+      "time_ms": 45840,
+      "end_ms": 48240,
+      "hold_ms": 50640,
+      "line": 55,
+      "line_end": 61,
+      "target": "narrowing",
+      "context": "the argument. In the setup, each row has a list called narrowing, saying how much each fifth"
+    },
+    {
+      "time_ms": 51120,
+      "end_ms": 54160,
+      "hold_ms": 54160,
+      "line": 56,
+      "line_end": 56,
+      "target": "Pythagorean",
+      "context": "much each fifth is squeezed. Pythagorean puts the whole comma into one fifth. Equal tuning spreads a twelfth"
+    },
+    {
+      "time_ms": 54640,
+      "end_ms": 56560,
+      "hold_ms": 58160,
+      "line": 60,
+      "line_end": 60,
+      "target": "equal",
+      "context": "whole comma into one fifth. Equal tuning spreads a twelfth of it across all twelve. Under each"
+    },
+    {
+      "time_ms": 60920,
+      "end_ms": 64080,
+      "hold_ms": 65120,
+      "line": 63,
+      "line_end": 67,
+      "target": "runningOwed",
+      "context": "a red line built by a function called running owed adds those squeezes as it moves right. Five"
+    },
+    {
+      "time_ms": 66880,
+      "end_ms": 69600,
+      "hold_ms": 69600,
+      "line": 269,
+      "line_end": 269,
+      "target": null,
+      "context": "moves right. Five different routes all end at the same red vertical rule. The ink is the second"
+    },
+    {
+      "time_ms": 72320,
+      "end_ms": 74160,
+      "hold_ms": 78640,
+      "line": 161,
+      "line_end": 182,
+      "target": "inkScopes",
+      "context": "ink is the second mechanism. In the function ink scopes, each cell draws the leftover"
+    },
+    {
+      "time_ms": 75160,
+      "end_ms": 78640,
+      "hold_ms": 78640,
+      "line": 174,
+      "line_end": 174,
+      "target": null,
+      "context": "ink scopes, each cell draws the leftover difference between a perfect tone and a squeezed one. A perfect fifth cancels to"
+    },
+    {
+      "time_ms": 86800,
+      "end_ms": 89680,
+      "hold_ms": 91440,
+      "line": 129,
+      "line_end": 129,
+      "target": null,
+      "context": "a slow chain of beads. The wolf, the one badly stretched fifth, thrashes in dense scribble. Watch"
+    }
+  ]
+}
