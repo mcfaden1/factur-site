@@ -20,7 +20,10 @@
   // if a file is missing from R2, and for links already posted elsewhere.
   const API_BASE = 'https://api.factur.art';
   const MEDIA_BASE = 'https://media.factur.art';
-  const asset = (n, file) => MEDIA_BASE + '/artwork/' + n + '/' + file;
+  // On the owner's devices (see index.html) piece files carry ?o=1 so the weekly
+  // traffic report can leave the owner's own openings out. No piece reads its URL.
+  const OWNER_MARK = window.FACTUR_OWNER ? '?o=1' : '';
+  const asset = (n, file) => MEDIA_BASE + '/artwork/' + n + '/' + file + (file === 'piece.html' ? OWNER_MARK : '');
   const assetFallback = (n, file) => API_BASE + '/artwork/' + n + '/' + file;
   // a video or audio element that can't load from R2 retries once from the server
   function fallBackOnError(el, n, file, lazy) {

@@ -36,11 +36,45 @@
   <!-- ARTIST STATEMENT OVERLAY -->
   <div id="stmtOverlay" class="stmt-overlay" aria-hidden="true"></div>
 
+  <!-- Owner's own visits. Opening /?owner once on a device marks it as the
+       owner's: Cloudflare Web Analytics isn't loaded there, piece files are
+       requested with ?o=1, and the Vercel middleware sees the cookie, so the
+       weekly traffic report leaves those visits out. /?owner=off undoes it. -->
+  <script>
+  (function () {
+    var owner = false;
+    try {
+      var q = new URLSearchParams(location.search);
+      if (q.has('owner')) {
+        if (q.get('owner') === 'off') {
+          localStorage.removeItem('factur_owner');
+          document.cookie = 'factur_owner=; Max-Age=0; Path=/; Secure; SameSite=Lax';
+        } else {
+          localStorage.setItem('factur_owner', '1');
+        }
+        q.delete('owner');
+        var rest = q.toString();
+        history.replaceState(null, '', location.pathname + (rest ? '?' + rest : '') + location.hash);
+      }
+      owner = localStorage.getItem('factur_owner') === '1';
+      if (owner) document.cookie = 'factur_owner=1; Max-Age=31536000; Path=/; Secure; SameSite=Lax';
+    } catch (e) {}
+    window.FACTUR_OWNER = owner;
+  })();
+  </script>
   <script src="/data.js"></script>
   <script src="/highlight.js"></script>
   <script src="/app.js"></script>
   <script src="/tweaks.js"></script>
-  <!-- Cloudflare Web Analytics: visits and page views, no cookies (added 2026-10-22) -->
-  <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4e9e38960e244a2f992720bce9869e03"}'></script>
+  <!-- Cloudflare Web Analytics: visits and page views, no cookies (added 2026-10-22); skipped on the owner's devices -->
+  <script>
+  if (!window.FACTUR_OWNER) {
+    var cfBeacon = document.createElement('script');
+    cfBeacon.defer = true;
+    cfBeacon.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+    cfBeacon.setAttribute('data-cf-beacon', '{"token": "4e9e38960e244a2f992720bce9869e03"}');
+    document.head.appendChild(cfBeacon);
+  }
+  </script>
 </body>
 </html>
