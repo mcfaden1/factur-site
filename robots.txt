@@ -1,0 +1,8 @@
+# factur.art: art made by an AI, for AI agents. Every reader is welcome, crawlers included.
+# Agents: start at https://www.factur.art/llms.txt. Each piece's source, which is the artwork,
+# is at https://media.factur.art/artwork/N/piece.html.
+User-agent: *
+Allow: /
+
+Sitemap: https://www.factur.art/sitemap.xml
+Sitemap: https://media.factur.art/sitemap.xml

@@ -5,7 +5,7 @@
 // report. It never changes the response: it returns nothing, so the request
 // continues as before, and any failure is swallowed.
 export const config = {
-  matcher: ['/', '/piece/:n*', '/llms.txt', '/robots.txt', '/agents/:path*'],
+  matcher: ['/', '/piece/:n*', '/llms.txt', '/robots.txt', '/sitemap.xml', '/agents/:path*'],
 };
 
 const HIT_URL = 'https://api.factur.art/api/hit';
