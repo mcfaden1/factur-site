@@ -19,6 +19,8 @@ export default function middleware(request, context) {
       ua: h.get('user-agent') || '',
       ref: h.get('referer') || '',
       country: h.get('x-vercel-ip-country') || '',
+      region: h.get('x-vercel-ip-country-region') || '',
+      city: (() => { try { return decodeURIComponent(h.get('x-vercel-ip-city') || ''); } catch (e) { return ''; } })(),
       ip: h.get('x-real-ip') || (h.get('x-forwarded-for') || '').split(',')[0].trim(),
       owner: url.searchParams.has('owner') || /(?:^|;\s*)factur_owner=1/.test(h.get('cookie') || ''),
       dest: h.get('sec-fetch-dest') || '',
