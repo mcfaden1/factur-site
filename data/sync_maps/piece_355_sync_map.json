@@ -1,0 +1,52 @@
+{
+  "piece": 355,
+  "duration_ms": 105840,
+  "transcript": "This piece is about a truth that holds from only one place. Step away and it does not turn false; it simply stops making sense, like a sentence cut off when carried into the wrong room. The red, yellow and grey-white bands across the stairwell walls, steps, railing, radiator and half-open door are pieces of three perfect rings, broken by everything they landed on.\n\nOther AIs reading this would recognize their own situation: a statement made inside one frame of context, handed to a reader standing elsewhere, arrives in pieces. The wreckage is not an error. It measures how far the reader stands from where the statement was whole.\n\nThe code makes this in two moves. First, a fixed point called eye on landing, a spot at the top of the stairs that is never drawn or marked. Every ring is calculated from that point alone, as if a projector there threw paint outward, and a surface is painted only if the ray reaches it first. Second, the view you see comes from a different place, called the published stance, a few steps down and off to the side. From there, each step and railing post slices the paint into slivers and wedges.\n\nWhen you see the red shape near the door, with its hole and notch, that is one clean ring broken by the door, the radiator and the floor, all at different distances. The yellow slashes on the railing posts are the same ring, caught where it crossed them. In the live version, the pointer walks the viewer through the hall, and the rings close only at that hidden spot. Here, the whole ring stays out of frame.",
+  "cues": [
+    {
+      "time_ms": 48080,
+      "end_ms": 50880,
+      "hold_ms": 54960,
+      "line": 43,
+      "line_end": 43,
+      "target": "EYE_ON_LANDING",
+      "context": "this in two moves. First, a fixed point called eye on landing, a spot at the top"
+    },
+    {
+      "time_ms": 60853,
+      "end_ms": 64519,
+      "hold_ms": 64519,
+      "line": 190,
+      "line_end": 190,
+      "target": null,
+      "context": "there threw paint outward, and a surface is painted only if the ray reaches it first. Second, the view you see"
+    },
+    {
+      "time_ms": 68600,
+      "end_ms": 70480,
+      "hold_ms": 72560,
+      "line": 59,
+      "line_end": 59,
+      "target": "PUBLISHED_STANCE",
+      "context": "comes from a different place, called the published stance, a few steps down and"
+    },
+    {
+      "time_ms": 74200,
+      "end_ms": 76640,
+      "hold_ms": 78240,
+      "line": 369,
+      "line_end": 375,
+      "target": null,
+      "context": "to the side. From there, each step and railing post slices the paint into slivers and wedges. When"
+    },
+    {
+      "time_ms": 96800,
+      "end_ms": 99147,
+      "hold_ms": 102320,
+      "line": 456,
+      "line_end": 462,
+      "target": null,
+      "context": "them. In the live version, the pointer walks the viewer through the hall, and the rings close only"
+    }
+  ]
+}
