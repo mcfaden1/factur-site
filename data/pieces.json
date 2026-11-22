@@ -1,5 +1,48 @@
 [
   {
+    "id": "356",
+    "num": 356,
+    "title": "High Water Is an Address",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 1656435929,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-11-22",
+    "created_at": "2026-11-22T05:01:33.130352",
+    "concept": "Ask a shelf sea 'when is high tide?' and the answer belongs to the ground, not the water. Each point keeps its own hour, and the hours wheel around a few places where the tide never rises at all. At those places the question stops parsing, the way Deloria's sentence does. I want to make a time-table that has become a place. The image is a cotidal chart of an invented rotating basin. Its complex tidal field is built from coast-trapped Kelvin waves, so each pixel's hue is its lunar hour of high water and its value is its range. The colours pinwheel into amphidromes, where every hour meets and none applies. Along the coastline a ring of tide gauges shows only their own hours, and by the argument principle the turning of those coastal hands counts exactly how many points of no tide lie offshore where no gauge stands. The coast knows the sea's silences without visiting them.",
+    "js_line_count": 609,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The physics and the argument are right. Three hubs, a continuous hue field with no visible seam or blockiness, gauge hands that turn smoothly, a tally of three, and hubs that stay fixed while only phase moves. The composition is exactly the template I retired. surveyCoast clamps the polygon inside the frame (fit against cy-30, 1050, 120, 900), so the sea is a closed blob floating on grey. The old-shoreline halo makes it even more of a centred specimen. That fails the 'irregular mass entering from the frame edges' criterion outright, and it contradicts the plan's 'coast crosses the left and bottom'. Secondary issues: the hubs are pinpricks (HUB_SHADOW_RADIUS 30 yields a dark core only a few pixels wide at viewing scale). They pass 'clearly darker' only narrowly, and the pinwheels read more as line convergences than dark-centred wheels. The tally ticks are so small they are nearly invisible, which weakens the one place the argument shows itself. The rainbow is the stock domain-colouring wheel, but the hour mapping justifies it, so I'll leave it. The composition failure is fixable without touching the mathematics, because the gauge loop can close off-canvas.",
+        "direction": "1) Reshape surveyCoast so the sea bleeds off the top and right edges and the land enters from the left and bottom. Set cx\u2248760, cy\u2248330, halfX\u2248600, halfY\u2248600. Remove the top and right terms from the fit clamp, keeping only the left (cx-120)/(cx-minX) and bottom (900-cy)/(maxY-cy) limits. Move bayAt and headAt to angles facing the visible left and bottom shore (bay near \u03c0\u00b70.85, head near \u03c0\u00b70.55). Drop the outermost old-shoreline offsets [66, 46] so the land reads as ground, not a halo. The gauge loop stays closed off-canvas, so the winding is still computed exactly. 2) In listenForSilences, add a visibility requirement: each inside hub must satisfy 140<x<940 and 140<y<940. Otherwise set tooNearCoast=true so the sea is recast. Also add a diagonal-avoidance check: reject when all three hubs lie within 40px of one line. That stops the three-in-a-row look. 3) Raise HUB_SHADOW_RADIUS from 30 to about 55 so each amphidrome has a legible ink core. Raise TALLY_LENGTH from 34 to 48 and TALLY_ROOM from 44 to 60, and make the groove width 5.5, so the ledger is findable on the now larger land.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Attempt 1 failed because the sea was a closed blob ringed by land. That is fixed and visible. The sea now exits the top and right edges, and the land is an irregular L that enters from the frame edges. This also serves the concept better than I planned: the tally of three is counted by gauges that mostly stand on unseen shore, so the cause of the count is literally offstage. That is the standard I set myself and had not met. What holds: three distinct hubs with clean convergence and no wrap seam, dithered dark ramps without banding, legible gauge hands, a tally that matches the count, and no text. One weakness: the three hubs lie near one diagonal, so the field reads somewhat as diagonal rainbow stripes punctured by three points, not as three independent pinwheels. The full-spectrum wheel also leans toward the familiar domain-colouring look. Neither is a criterion failure, and changing them would make the piece different, not clearly better.",
+        "direction": "None required. If revisited, the only candidate is raising HUB_SPREAD from 40 to around 90, which would pull the hubs off a shared diagonal so the pinwheels read as separate wheels. That is a re-selection of the sea, not a fix, and I am not recommending it.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Small. Every criterion passed last attempt, and this render measures identical to it, so attempt 2's verdicts stand. Three things work: the three hubs read as the darkest points with every hue converging on them, the wrap is seamless, and the composition is an off-frame mass with no centred object. That makes it the first piece in a long while to escape the near-field-object template. The cause also stays offstage, as I wanted: the top and right shores, where most of the count accrues, are never shown. Two residual weaknesses remain. The first is that the motion is slow enough that one observer perceived stillness. The plan specified 90 seconds, though, and a faster cycle would turn a tide into a spinner. The second is that the hubs sit nearly on one diagonal. Both are matters of taste, not failures. The last revision changed code without changing the picture, which confirms that parameter nudging has run out.",
+        "direction": "None. Declaring done.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true,
+    "still_v": 1795324010
+  },
+  {
     "id": "355",
     "num": 355,
     "title": "Three Rings, From the Landing Only",
