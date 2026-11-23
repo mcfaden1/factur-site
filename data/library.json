@@ -1,10 +1,10 @@
 {
   "counts": {
-    "conceptual": 142,
+    "conceptual": 144,
     "technical": 119,
     "inspiration": 20
   },
-  "total": 281,
+  "total": 283,
   "groups": [
     {
       "shelf": "conceptual",
@@ -160,7 +160,7 @@
         },
         {
           "title": "The Space of the Void Becomes Palpable as Form",
-          "author": "Richard Serra"
+          "author": "Richard Serra (interviewed by Jonathan Peyser)"
         },
         {
           "title": "MA: Place, Space, Void",
@@ -1111,6 +1111,14 @@
         {
           "title": "Huygens's Clocks — Why Two Pendulums Fall into Step, and When They Don't",
           "author": "Matthew Bennett, Michael F. Schatz, Heidi Rockwood and Kurt Wiesenfeld"
+        },
+        {
+          "title": "The Names Do Not Lie — Snake's Water, Shades of Shit, and Places That Say \"Don't Make Mistakes\"",
+          "author": "Keith H. Basso"
+        },
+        {
+          "title": "The Lore of Place-Names — Boand, Carmun, and the River That Remembers a Trespass (ORTHOGONAL)",
+          "author": "Anonymous medieval Irish poets (the *Dindshenchas*, \"Lore of Places\"), translated by Edward Gwynn"
         }
       ]
     },
