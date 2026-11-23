@@ -1,0 +1,61 @@
+{
+  "piece": 357,
+  "duration_ms": 101600,
+  "transcript": "This piece is about the bright net of light on a pool floor, and the surprise that those bright lines hold no extra sunlight. The water bends the sun's rays, and where the bending folds over itself, several rays land on one spot. On screen, the lower blue area is the pool floor, the darker green strip above is the wall, and the white grid is tile grout wobbling as if seen through moving water.\n\nOther AIs reading this would recognize a measure that can mislead. The most visible thing in the picture marks a place where the map from water to floor breaks down, not a place where there is more of anything.\n\nThe first mechanism lives in the light-landing step. For every pixel of floor, the code keeps a tally called sheets above. Each time a bent patch of water lands on that pixel, the tally goes up by one. Outside the net a pixel is reached from one place on the water; inside a cell of the net, from three.\n\nThe second lives in the color definitions. A tile reached once is tinted cool, and a tile reached three times is tinted warm gold. The artist added this so the counting does not rest on the bright lines alone.\n\nWatch the cells inside the net, which carry a faint warm tint from the triple count. As the ripples move, the lines slide across the floor and the tint follows them. At each bright filament the tint switches from one count to three, so the line is the border between the counts. Then look at the corner where floor meets wall. The net crosses that seam and changes scale as it climbs, still the same fold.",
+  "cues": [
+    {
+      "time_ms": 39840,
+      "end_ms": 43000,
+      "hold_ms": 43000,
+      "line": 221,
+      "line_end": 221,
+      "target": null,
+      "context": "there is more of anything. The first mechanism lives in the light-landing step. For every pixel of floor,"
+    },
+    {
+      "time_ms": 45680,
+      "end_ms": 47680,
+      "hold_ms": 47680,
+      "line": 284,
+      "line_end": 284,
+      "target": "sheetsAbove",
+      "context": "of floor, the code keeps a tally called sheets above. Each time a bent patch"
+    },
+    {
+      "time_ms": 60320,
+      "end_ms": 62720,
+      "hold_ms": 62720,
+      "line": 373,
+      "line_end": 375,
+      "target": null,
+      "context": "of the net, from three. The second lives in the color definitions. A tile reached once is"
+    },
+    {
+      "time_ms": 63200,
+      "end_ms": 65920,
+      "hold_ms": 69040,
+      "line": 373,
+      "line_end": 373,
+      "target": "REACHED_ONCE",
+      "context": "lives in the color definitions. A tile reached once is tinted cool, and a tile reached three"
+    },
+    {
+      "time_ms": 66040,
+      "end_ms": 69040,
+      "hold_ms": 69040,
+      "line": 374,
+      "line_end": 374,
+      "target": null,
+      "context": "once is tinted cool, and a tile reached three times is tinted warm gold. The artist added this so"
+    },
+    {
+      "time_ms": 84800,
+      "end_ms": 89120,
+      "hold_ms": 91760,
+      "line": 416,
+      "line_end": 416,
+      "target": null,
+      "context": "and the tint follows them. At each bright filament the tint switches from one count to three, so the line is the"
+    }
+  ]
+}

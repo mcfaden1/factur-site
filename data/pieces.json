@@ -1,5 +1,48 @@
 [
   {
+    "id": "357",
+    "num": 357,
+    "title": "Three Ways Down to the Same Tile",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 572204707,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-11-23",
+    "created_at": "2026-11-23T05:19:38.228806",
+    "concept": "The brightest lines on a pool floor hold no extra sunlight. Total light is conserved, so the net is not a source. It is where the map from rippled surface to floor folds over itself and neighbouring rays agree on one destination. Inside each cell of the net, a patch of floor is reached from three places on the water. Outside, it is reached from one. Every bright filament is the border between those counts, a crease where the map loses a dimension and the density formula divides by zero. I'll trace a dense lattice of rays from the sun, refract them by Snell's law through a sum-of-waves height field, and splat them onto the corner of a pool where the floor meets the wall. The net crosses that seam and changes scale as it climbs. Tile grout, seen from above through the same water, wobbles as the smooth part of the map. The caustic is the singular part. A faint second witness tints each tile by how many surface points reach it, so the counting does not rest on the shape alone. The water and the sun are never drawn. Only what lands is.",
+    "js_line_count": 385,
+    "revision_count": 3,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The caustic and the seam work. Filaments are sharp, the net is connected, and the wall reads as the same map at a different stretch. The piece already makes 'only what lands' legible without drawing water. Three gaps remain. (1) The second witness is invisible. tileWitness uses the median sheet count per tile, but the thrice-covered regions are only the thin lenses, about 14% of the floor by construction. Almost no tile has a median of 3 or more, so nearly every tile gets REACHED_ONCE. Even where one flips, REACHED_ONCE vs REACHED_THRICE differ by roughly 6\u20139% per channel, about 6\u20138 grey levels on a ~90-level base. The counting argument lives entirely in code. That is exactly the v21 complaint: the argument sits in a caption the viewer never gets. The attempt also taught me something about the concept itself: the three-way regions are the lenses, not the dark net cells. The image says this more truthfully than my concept did. (2) The grout tears. calmCol/calmRow average the calm positions of all sheets over a pixel, weighted by stretch. Where sheets carry different calm positions, the average invents coordinates belonging to no sheet. Near the seam, where SEAM_HOLD blends this in, it draws small closed grout ovals. (3) The lenses read as frosty fills with ragged, beaded edges rather than bright edges with moderate interiors. Three things cause this: sliver triangles at STEP 0.025 (about 4.3 px per mesh cell), the gold threshold of 1.6 being low enough to flood whole lens interiors, and only one softening pass. This pushes the net a little toward speckle at the edges. Compositionally the seam saves it from being a pure all-over texture. Still, without the tint it risks reading as a well-made stock pool shader.",
+        "direction": "1. Make the witness visible and true to the physics. In settleGroutAndTally, replace the median rule with a share rule: tileWitness[t] = 2 if (pixels with n\u22655)/total > 0.03, else 1 if (pixels with n\u22653)/total > 0.04, else 0. Then tiles touched by a lens flip, and the tint boundaries follow the filaments as they move. Widen the colours so the flip clears about 15 grey levels with a hue shift: REACHED_ONCE = [0.90, 0.98, 1.08], REACHED_THRICE = [1.10, 1.04, 0.86], REACHED_FIVE = [1.18, 1.06, 0.78]. Predicted result on the floor base (G\u22480.58\u00b7shade): green steady, red rising about 18 levels, blue falling about 22. That gives a warm sand cast that stays well below filament brightness. 2. Stop averaging calm positions across sheets. In pourTriangle, keep the calm position of the most-stretched sheet instead of summing: if (stretch > calmWeight[idx]) { calmWeight[idx] = stretch; calmCol[idx] = interpolated col; calmRow[idx] = interpolated row; }. In settleGroutAndTally, read calmCol/calmRow directly, with no division by wgt. Any grout discontinuity then falls on a fold line, hidden under the brightest filament, and the seam ovals should disappear. 3. Clean the lens edges. Raise the gold threshold in paintCorner from 1.6 to 2.6 so only the crease rims go gold-mint and lens interiors stay at the cyan shade. Then add a second softenOnePixel() call in pourFrame, applied to irradiance only. Predicted result: lens interiors drop from about 230 to about 190 in G, and the beaded dots merge into continuous rims. Leave STEP alone unless the frame rate allows 0.02.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "The big things work. The net is sharp and caustic-true. The seam and the wall stretch are the strongest feature. The palette is the subject's own, and the composition is an edge rather than a centred object, which is what v21 asked for.\n\nThe tint criterion now passes. Replacing the median rule with the per-pixel sheet count made the three-sheet regions visible as mint lenses, and their boundaries are the creases by construction.\n\nOne honest note against my own concept text: the triple-coverage regions are thin lenses hugging the filaments, not whole net cells. The render is right and the concept sentence was wrong.\n\nWhat still fails: small closed grout ovals sit just above or below the seam line in several keyframes, at roughly x\u2248160\u2013500 near y\u2248170 in frames 7, 8, 9, 13, 14 and 15. I am fairly sure these are not sheet-averaging artefacts any more. In settleGrout the warped row is blended toward calmRow by `hold`. Where the calm displacement is larger than the pixel's distance from the seam, the blended row crosses SEAM_ROW. When that happens, the v=0 grout contour, which is the seam joint itself, closes into a bubble on the wrong side. This is fixable and local.",
+        "direction": "1. In settleGrout, stop the blended coordinate from crossing the seam. Blend the row as distance from the seam, in log space:\n   - Let s = sign(rowMid \u2212 SEAM_ROW) and d = |rowMid \u2212 SEAM_ROW|.\n   - Let dc = s\u00b7(calmRow \u2212 SEAM_ROW), clamped to \u2265 0.05\u00b7TILE_PX.\n   - Set row = SEAM_ROW + s\u00b7exp((1\u2212hold)\u00b7ln(d) + hold\u00b7ln(dc)).\n   - Keep the col blend as it is.\n   The geometric blend keeps every pixel on its own side, so the v=0 contour exists only at the seam and the ovals cannot form.\n\n2. Change nothing else. Specifically, do not touch the witness colours, SLOPE_SCALE solving, softening or the shade curve. Re-render and look only at the seam band for remaining ovals.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "It is small. The fold witness turned out more truthful than my concept text. The three-count regions are not whole net cells. They are the thin lenses between paired creases, and the render shows exactly that: mint lenses bounded on both sides by filaments. Their tint boundaries are the creases by construction, so they track the net in motion. The wall/floor contrast reads strongly as vertical streaks above versus a web below, and the seam is one clean dark line. In these keyframes the grout meets the seam cleanly. The geometric blending in settleGrout, which keeps calmAway positive and clamped to SEAM_NEAREST, appears to have removed the closed ovals that attempt 2 showed. There are two residual imperfections outside the criteria. A few filament stretches bead into dotted runs where sliver triangles alias. The output is also slightly soft because it renders at 720 and upscales to 1080. Neither breaks the reading. The FILAMENT_GOLD term almost never fires, so the filaments stay cyan-white. That is fine for the subject. Compositionally it sits close to the all-over texture I warned myself about. The seam is the edge that saves it: an off-centre fold where one law visibly changes its scale.",
+        "direction": "None required. If anything were touched, it would be to raise RENDER toward FRAME or shrink STEP to reduce the beaded filament runs. That would mostly change cost, not the reading, so I am not recommending it.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true,
+    "still_v": 1795411647
+  },
+  {
     "id": "356",
     "num": 356,
     "title": "High Water Is an Address",
