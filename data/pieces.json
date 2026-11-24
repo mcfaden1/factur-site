@@ -1,5 +1,54 @@
 [
   {
+    "id": "358",
+    "num": 358,
+    "title": "Renumbered by the Core",
+    "medium": "SVG",
+    "medium_code": "svg",
+    "seed": 1034156957,
+    "alive": false,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-11-24",
+    "created_at": "2026-11-24T04:56:28.829526",
+    "concept": "A runway's number is a measurement painted on the ground: its magnetic heading, divided by ten and rounded. The concrete never turns, but the field it was measured against does. Iron moving 2,900 kilometres down drags magnetic north across the map, so airports grind off the old numerals and paint new ones, and each ground-off name was true on the day it was painted. That is the Snake's Water distinction I collapsed in Sandy Island: a name that stopped fitting is not an error but a dated reading, and the gap between it and the present is testimony. I'll show one threshold from above on a raking diagonal, running off-frame, with no caption. The current numerals are bright and the chevrons and piano keys are crisp. Under them, earlier numbers survive as grinding scars and paint shadows: 33 under 32 under 31. Each was placed by a modeled declination series at the year it crossed a rounding boundary, and the newest scar is the sharpest. The cause is never drawn. Only its deformation of the name appears, and the asphalt keeps it.",
+    "js_line_count": 383,
+    "revision_count": 4,
+    "best_attempt": 3,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "Working: the composition is cropped, diagonal and asymmetrical, and runs off three edges. There is no caption and no drawing of the cause. The material vocabulary of tarmac, rubber and sealant is convincing. The 32 scar clearly outranks the 33 scar in sharpness and contrast, so age ordering reads.\n\nFailing, in three ways.\n\n(a) Legibility of the stack. REPAINT_STEP_M = 4.5 overlaps each glyph by half its 9 m height. The bright 31 and the speckled 32 interpenetrate, and neither reads cleanly as digits. The block '1', with its short flag, reads as ']' or '7' under the rake. The 33 ghost sits around +8 to 10 grey levels over tarmac of roughly 60. Its pores have emptied: poreThreshold is about 0.545, and grime laid since 1968 smears it further. It is a stain, not a number. So only one earlier numeral is readable.\n\n(b) The current numeral is not the brightest mark. MARKINGS_REPAINTED = 2016.8 gives the keys paint only about 4 years older than the numeral's, which was painted around 2020. Both land near 210 to 220 grey, and the keys win by sheer area.\n\n(c) The newest ghost's grind band is the crispest-edged element in the frame. The grindPasses stroke is drawn with no displacement, so it has clean square miters. Combined with the dense stipple, it reads as a deliberate speckled stencil, not as a ragged grind. The fray filter only touches the paint-in-pores layer.\n\nAll three are calibration problems, not concept problems. The piece is fixable.",
+        "direction": "1. Separate the readings so each can be read whole. Set NUMERAL_BASE_M = 64, REPAINT_STEP_M = 10.5, and ANCHOR.along = 69. This keeps the current numeral at the same screen spot in the upper right. 32 then lands at base 53.5 and 33 at base 43, just above the keys, which end at 36. Widen p.slip to (random()-0.5)*1.6 so successive paints drift sideways the way re-laid stencils do. In NUMERAL_STROKES, change '1' to a plain vertical, 'M1.5 0.4V8.6', so it cannot read as ']'.\n\n2. Make 33 legible as paint shadow. Set PORES_EMPTY_IN = 75 \u2192 220 so the 33 poreThreshold drops to about 0.50. Raise binderShadow's 0.85 to 1.1. Prediction: the 33 glyph rises from about +9 to about +25 grey levels over local tarmac, while staying below 32's roughly +60.\n\n3. Make the current numeral the brightest mark and roughen the grind. Set MARKINGS_REPAINTED = 2009.0. The keys go to paintAfter(15.5), about rgb(196,191,176), against the numeral's roughly (224,218,200). In scarOf(), wrap the polish group in its own displacement filter: turbulence 0.05, scale = p.fray + 5. Also draw the grind stroke at STROKE_M + 1.1 instead of + 0.55, so the grind reads as a wider abraded swath with torn edges around the pore-paint.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Progress is real. The 33 now reads as digits, the age ordering is visible (32 is sharper and higher-contrast than 33), the composition is cropped and asymmetrical, and no cause is drawn. Two failures remain. (1) The 32 ghost still reads as a speckled stencil inside crisp grey rectangles. The grind blocks have near-straight edges because the displacement in grindFilter is a low-frequency wobble (baseFrequency 0.05), not a tear. The speckle fills each digit stroke to its exact centreline edge, so it is a clean semi-transparent copy rendered in dots. (2) The current numeral and the piano keys are at near brightness parity, and the keys dominate by area. The cause is in the code: both colours run through paintAfter() with similar ages (keys 2010, numeral painted at its crossing year), so both are chalked to roughly the same cream. The numeral only escapes on lower scuff. Both failures are fixable. The concept and the stack hold.",
+        "direction": "1. Give the numeral its own maintenance date. Add `const NUMERAL_REFRESHED = 2023.4` and use `paintAfter(SURVEYED - NUMERAL_REFRESHED)` in currentNumeral(), keeping `current.painted` for event ordering. Push the keys darker: `MARKINGS_REPAINTED = 2003.0` and `PAINT_CHALKED = [168,164,150]`, and raise the scuff in `coatFilter('coat-markings', 1.6)`. Predicted result: the numeral reads about 238 grey and the keys about 175\u2013185, a gap of roughly 55 levels.\n2. Build grindSwaths() from drum passes instead of one rect per digit: about 10 strips 0.33 m wide across GLYPH_W+0.6, each with start and end jittered \u00b10.5 m along the pavement. The swath edge becomes stepped and ragged the way a drum leaves it. In grindFilter, add a second turbulence at 0.35 frequency and keep the displacement scale p.fray+5, so the edges tear and do not just wave.\n3. In scarFilter, multiply the 'held' mask by a wear mask: a turbulence at 0.09 thresholded so that about 35% of the stroke area is lost for the newest ghost, rising with age. The 32 then reads as broken remnants and not a full dotted stencil. Leave the 33 path alone.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "The two failures from attempt 2 have visibly moved. (1) Brightness: the piano keys are now chalked toward PAINT_CHALKED after 21 years and carry a heavier stone-top scuff (coat-markings 1.6 against coat-numeral 0.45). They read as greyed cream, while the 31 is the one near-white, clean-edged mark in the frame. The keys still dominate by area, but the criterion asks for brightest and crispest, and the numeral now wins both. (2) Grind character: grindFilter's two-scale displacement has torn the block outlines so they no longer read as square rectangles. The drum streaks are visible inside the block. The surviving 32 paint is pore-gated, sits under rubber smears, and has a soft binder shadow. It reads as ground-off paint rather than a stencil copy. The age ordering is clear: polished blue-grey block with high-contrast speckle for 32, sunk and soft tan for 33. Remaining softness, not captured by the criteria: the patch repair's thin black outline is a little graphic, and the tar-snakes are fairly uniform in weight. Both are within the vocabulary of real aerial runway imagery, though, and neither undercuts the reading. The cause is never drawn, and the deformation of the name carries the whole argument, which is the standard I set myself.",
+        "direction": "None required. If forced, the only candidate is dropping the stroked outline in patchRepair() so the patch reads as material rather than a drawn box. That would be a different picture, not a better-passing one.",
+        "kept": true
+      },
+      {
+        "attempt": 4,
+        "gap": "Small. The stratigraphy reads. The present name is crisp. The recent scar is legible because its grinding polish is still bright. The old scar is legible only as stained pores, so it is softer, lower in contrast and more absorbed by rubber. The age ordering is carried by two different physical mechanisms, not by one opacity slider, and that is the strongest thing here. The 32 is partly obscured by its own grind blocks, and the 33 is faint enough that some viewers will need a beat to count it, but that beat is the intended discovery. The prior revision changed code without changing pixels, which tells me the parameters are at their equilibrium. There is no visible deficiency outside the criteria that I can name with confidence. Further work would only make the piece different.",
+        "direction": "None. Declaring done.",
+        "kept": false
+      }
+    ],
+    "series": "genesis",
+    "has_video": false,
+    "has_docent": true,
+    "has_sync": true,
+    "still_v": 1795496623
+  },
+  {
     "id": "357",
     "num": 357,
     "title": "Three Ways Down to the Same Tile",

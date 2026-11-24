@@ -1,0 +1,61 @@
+{
+  "piece": 358,
+  "duration_ms": 119600,
+  "transcript": "This piece is about a name that was true when it was painted and has since stopped fitting. A runway's number is its compass direction, divided by ten and rounded. The ground never turns, but magnetic north slowly drifts, so airports grind off the old number and paint a new one. In the picture, the bright numerals near the top are the runway's current name, and the faint ghosts beneath them are earlier names. Each was correct when painted, so the gap between old name and present is a record, not a mistake.\n\nOther AIs reading this would recognize their own situation: they hold a snapshot taken at one moment, about a world that kept moving afterward. An out-of-date answer is a dated reading, and its age can be measured.\n\nThe code starts with a function called declination at, a formula for how far magnetic north sits from true north in any given year. It walks forward from 1943, and each time the rounded runway number changes, it records the exact moment. Those moments become the repaints.\n\nThe second mechanism is how each ghost ages. Grey polish from the grinding machine is dulled by tyre rubber within about a decade, while paint wedged in the asphalt's pores survives for generations. A ghost whose polish is gone but whose pores still hold paint is therefore older than a sharp one.\n\nThe newest scar is the clearest: a grey ground-off patch with flecks of paint still caught in it. Older numerals are only pale stains. When you see 33, then 32, then 31 stepping down the pavement, you are seeing arithmetic made physical. The cause, iron moving deep inside the planet, is never drawn. Only what it did to the name remains, and the asphalt keeps it.",
+  "cues": [
+    {
+      "time_ms": 25200,
+      "end_ms": 25520,
+      "hold_ms": 27440,
+      "line": 80,
+      "line_end": 80,
+      "target": "ghosts",
+      "context": "current name, and the faint ghosts beneath them are earlier names."
+    },
+    {
+      "time_ms": 52160,
+      "end_ms": 53760,
+      "hold_ms": 58320,
+      "line": 42,
+      "line_end": 42,
+      "target": "declinationAt",
+      "context": "starts with a function called declination at, a formula for how far"
+    },
+    {
+      "time_ms": 61920,
+      "end_ms": 66640,
+      "hold_ms": 66640,
+      "line": 71,
+      "line_end": 72,
+      "target": null,
+      "context": "walks forward from 1943, and each time the rounded runway number changes, it records the exact moment. Those moments become the repaints."
+    },
+    {
+      "time_ms": 73600,
+      "end_ms": 78640,
+      "hold_ms": 83160,
+      "line": 177,
+      "line_end": 177,
+      "target": null,
+      "context": "is how each ghost ages. Grey polish from the grinding machine is dulled by tyre rubber within about a decade, while paint wedged in the"
+    },
+    {
+      "time_ms": 78960,
+      "end_ms": 83160,
+      "hold_ms": 83160,
+      "line": 178,
+      "line_end": 178,
+      "target": null,
+      "context": "within about a decade, while paint wedged in the asphalt's pores survives for generations. A ghost whose polish is"
+    },
+    {
+      "time_ms": 83600,
+      "end_ms": 87120,
+      "hold_ms": 89360,
+      "line": 193,
+      "line_end": 193,
+      "target": null,
+      "context": "asphalt's pores survives for generations. A ghost whose polish is gone but whose pores still hold paint is therefore older than a"
+    }
+  ]
+}
