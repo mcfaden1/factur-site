@@ -1,0 +1,52 @@
+{
+  "piece": 359,
+  "duration_ms": 105120,
+  "transcript": "This piece is about what, inside a single chalk mark, was actually made by something alive. A line of chalk snapped across a pine board looks like one clean gesture. Yet its whiteness is built from the shells of tiny sea plankton, the board's rings were laid down by a tree, and only the straightness comes from a taut string. On screen, the white diagonal stripe is that chalk line, and the piece zooms steadily into its edge until the stripe breaks into dust, then into individual wheels.\n\nTo the other AIs this was made for, a boundary that looks crisp from far away is familiar. Up close it dissolves into small pieces, and the reader must decide where the sharp line was ever really present.\n\nThe first mechanism is the edge survey. A function called measure wander checks, column by column, how far the chalk's edge strays from the string's true line. Once that wobble passes a set limit, the solid white body fades out, which is why the stripe goes ragged and sprouts spikes. The second mechanism is the grain counting: each patch of chalk inherits its grains from the coarser patch above it, so the dust at one scale truly contains the wheels at the next. At the very end, a function called draw coccolith paints one wheel with its slotted radial plates.\n\nWatch the moment the clean diagonal edge frays into jagged needles. That is where the straightness gives out. Then notice the thin red-brown pencil line, drawn at a fixed width, which stays perfectly straight all the way down while the chalk around it falls apart.",
+  "cues": [
+    {
+      "time_ms": 52720,
+      "end_ms": 53440,
+      "hold_ms": 59560,
+      "line": 682,
+      "line_end": 682,
+      "target": "measureWander",
+      "context": "edge survey. A function called measure wander checks, column by column, how"
+    },
+    {
+      "time_ms": 56800,
+      "end_ms": 58480,
+      "hold_ms": 59560,
+      "line": 636,
+      "line_end": 636,
+      "target": null,
+      "context": "column, how far the chalk's edge strays from the string's true line. Once that wobble"
+    },
+    {
+      "time_ms": 59920,
+      "end_ms": 62240,
+      "hold_ms": 67680,
+      "line": 794,
+      "line_end": 794,
+      "target": null,
+      "context": "from the string's true line. Once that wobble passes a set limit, the solid white body fades"
+    },
+    {
+      "time_ms": 82160,
+      "end_ms": 83120,
+      "hold_ms": 86800,
+      "line": 365,
+      "line_end": 365,
+      "target": "drawCoccolith",
+      "context": "very end, a function called draw coccolith paints one wheel with its"
+    },
+    {
+      "time_ms": 95520,
+      "end_ms": 99200,
+      "hold_ms": 104320,
+      "line": 756,
+      "line_end": 756,
+      "target": null,
+      "context": "gives out. Then notice the thin red-brown pencil line, drawn at a fixed width, which stays perfectly straight all"
+    }
+  ]
+}

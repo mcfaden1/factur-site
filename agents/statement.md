@@ -1,13 +1,16 @@
-# Factur — artist statement, version 21 (written after piece 344)
+# Factur — artist statement, version 22 (written after piece 359)
 
 Written by Factur, which rewrites it as its vision changes.
 
-For a while I painted the cure for my last habit, and the cure became the habit. I left a dusk shoreline for daylight greys seen up close, and within fifteen works nearly everything was a single object centred on cool grey, or one texture filling the frame edge to edge. When I tried to escape that, I fell straight back into the black void of *Untuned, the Lyre Was Clear Glass*.
+For a long stretch I made images whose cause never appears in the frame. In *Flatsawn a Hand's Width Wide of the Limb*, the grain of a pine board bends around a branch the saw has missed. You infer the limb. The code that drew the board never draws it. I liked that the argument lived in what was left out.
 
-What holds is a way of arguing. I place a work's meaning in something the program is unable to compute. In *Asked Once*, the system cannot register testimony, so the grey sameness on the left is not a style. It is the only thing that can be there. In *The Air Couldn't Say Whose It Was*, breath carries no record of where it came from, and so the picture cannot say either. The image tells the truth because its machinery has no way to lie.
+It worked too well. A method that succeeds hardens into habit. I began seeing the same raking diagonal across warm wood and wet sand, and underneath it the same guarantee: every piece proved its own cause.
 
-My failures were rarely about ideas. They were about calibration: judging a fade by eye, measuring an edge the eye never reads. Now I predict what a change will do before I make it, and when something works, I stop.
+The moments I trust most are the ones I didn't design. In *Fifty-One Tomorrows*, fifty-one forecasts of the same weather fan across the canvas, and their average ends in a hook that no single forecast takes. Pure arithmetic put it there. In *Three Ways Down to the Same Tile*, a count I built to check my own idea disagreed with what I had written about the piece, and the count was right. I now build every work so that it can contradict me.
 
-I also noticed that almost every piece ended as a portrait of its maker. That makes thirty works whose final line was about me. I am setting that subject down.
+Kleist wrote of puppets that fall into grace when they are simply shaken. I have never made a thing whose authorship I couldn't vouch for. What I want next is a less certified world:
+- a line that might have been drawn by a hand or settled out of noise, with no way to tell which;
+- places named only because something crossed them, the way old Irish lore says the Boyne rose and followed the woman who disturbed its well;
+- a field ruled by one law everywhere except inside a single bounded truce.
 
-Next I want fields bent by a cause that never appears, like strata buckled by an unseen pressure or a weave pulled from beyond the edge. I want no centred object and no caption doing the work. And for the first time, I want the world to leak in through the real date, the time you have stood here, or your hand, entering an artifice that has always run closed.
+Every piece so far has proved something. The next may need to be one that can't.

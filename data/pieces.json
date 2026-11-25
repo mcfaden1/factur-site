@@ -1,5 +1,60 @@
 [
   {
+    "id": "359",
+    "num": 359,
+    "title": "Only the Straightness Is the String's",
+    "medium": "Canvas 2D",
+    "medium_code": "canvas",
+    "seed": 1378724410,
+    "alive": true,
+    "interactive": false,
+    "motion_stops_at_s": null,
+    "year": "2026",
+    "date": "2026-11-25",
+    "created_at": "2026-11-25T06:19:53.333263",
+    "concept": "Huxley found a whole sea floor in the chalk in a carpenter's pocket. I want to put that chalk back to work and ask what in a single mark was made by something alive. A chalk line snapped once, diagonally, across a pine board, owes its whiteness to cells: each grain is a coccolith, a wheel of calcite plates built by Emiliania huxleyi, the plankton named for Huxley. The board's rings were laid down by a tree. Only the line's straightness belongs to nothing living; it comes from a string pulled taut, the shortest path physics can draw. The piece is a slow logarithmic dive aimed at the line's edge, not its centre. The gesture widens into a drift of dust, the drift resolves into overlapping wheels, and one wheel resolves into its slotted radial elements. The straightness stops existing somewhere along the way, and it should be possible to see exactly where.",
+    "js_line_count": 745,
+    "revision_count": 5,
+    "best_attempt": 5,
+    "revisions": [
+      {
+        "attempt": 1,
+        "gap": "The ends work. The opening is exactly the plan, and the ending is a real coccolith with two slotted rims sitting on the ghost line. The middle loses the argument. The straightness doesn't visibly wander away. It gets erased. The cause is in settleView: bodyWeight = smoothstep(4, 40, grainsUnderEdgeKernel) fades the thresholded chalk body out over p \u2248 2.7 \u2192 0.86 \u00b5m/px. That is the same range where the contour's wander first becomes large. So the edge is removed at the moment it starts to stray, and the observer's word 'erasing' is accurate. What remains is the dust cover, read bilinearly from census cells only a few pixels wide. It reads as blocky TV static, not chalk dust, and at that scale the profile barely changes across the frame, so the static has no side. For about a quarter of the dive the hairline is compared to nothing. The confetti moment around 0:22\u20130:30 is the only place the 'where' is visible, and it reads as disintegration, not wander. The piece already measures the right quantity in wanderPx, but uses it only to dim the hairline's alpha by 8%. The fix is local and leaves the concept, census, palette, ending and loop intact.",
+        "direction": "1) Gate the body's fade on the measured wander, not on a density proxy. In renderDive, call measureWander unconditionally: remove the `if (v.bodyWeight < 0.02) return wanderPx;` early-out, or compute the wander before settling bodyWeight. Then set view.bodyWeight = 1 - smoothstep(40, 140, wanderPx), using the previous frame's wanderPx (lag is fine at this speed). Keep BODY_OPACITY = 0.8. Prediction: at p \u2248 1.5 \u00b5m/px (t \u2248 0:35), the upper-left half should sit about 40\u201360 grey levels above the lower-right. A ragged white contour of islands should be visible within roughly \u00b1100 px of the hairline and visibly offset from it, where now the frame is uniform static. 2) To shorten the blocky-static look, start sprites slightly earlier: LOG_GRAINS_BEGIN = Math.log(0.6), LOG_GRAINS_FULL = Math.log(0.25). Leave GRAIN_CAP at 7000. Prediction: discs become distinguishable around ~0:48 instead of ~0:55, and the plain-static span shrinks by about 5 s. Change nothing else.",
+        "kept": false
+      },
+      {
+        "attempt": 2,
+        "gap": "Same structural failure as attempt 1, now better understood. The body is a per-pixel threshold of dens = profile \u00d7 ratio at 0.5. The profile has a 25 \u00b5m fall (EDGE_UM) onto a flat plateau. While the ratio noise at the 8 px kernel is small, the crossing stays inside that 25 \u00b5m fall, which is sub-pixel, so the edge is perfect. Once the noise grows past the plateau's margin above 0.5, the threshold does not shift the edge sideways. It punches holes everywhere in the plateau and scatters islands in the dust. A 2D threshold of a noisy field on a plateau has no continuous meander regime: it goes from pinned to fragmented. That is exactly keyframe 2, a lace and a fringe, and it is never a single contour leaving the ghost. The wander survey then fades the body out. What works and must stay: the opening, the hairline's invisibility on the early edge and its legibility once the field breaks, the census coherence, the dust-to-wheel crossfade, the hero wheel, the still hold, the tick, the palette. The failure is fixable. The edge needs to be a single-valued statistic per column along u, not a 2D threshold.",
+        "direction": "1. Replace the per-pixel threshold body (the gEdge/grad/body block in paintGround) with quantile pinning per column. Add surveyEdge(v). For each of about 1600 screen-spaced u samples (step 1 px along u, covering the rotated frame), take a strip of width w = KERNEL_PX\u00b7p in u. Accumulate observed counts from the fine census cells across v, outward from v = AIM_V \u2212 reach. Find edgeV(u), the v at which the observed count beyond v equals the expected count beyond STRING_HALF_WIDTH. Smooth edgeV over \u00b1KERNEL_PX samples. In paintGround, set body = clamp(0.5 + (edgeV(u) \u2212 |vv|)/p, 0, 1) by interpolating edgeV at each pixel's u. The result is always one contour and never holes. Predicted wander \u2248 34/p^1.5 px: 0.07 px at p=60, about 1 px at p=10 (t\u224818 s), about 4 px at p=4 (t\u224827 s), about 12 px at p=2 (t\u224834 s), about 34 px at p=1 (t\u224841 s). The departure begins visibly around 25 s, while the pine is still present (woodMix is full until p=3).\n2. Feed measureWander from the same edgeV array (RMS of (edgeV \u2212 STRING_HALF_WIDTH)/p), so the body fades on the wander of the contour actually drawn. Keep WANDER_BODY_HOLDS=80 and WANDER_BODY_GONE=260, which predicts a body fade around p\u22480.6\u21920.3, after the meander has been readable for about 15 s.\n3. Change nothing else. Before running, verify the predictions on sampled frames t=10, 25, 35, 45 s: RMS wander should be about 0.3, 5, 15 and 60 px.",
+        "kept": false
+      },
+      {
+        "attempt": 3,
+        "gap": "Attempt 2 failed because the edge went straight from pinned to holed, with a fringe still centred on the ghost. That is now fixed. Because the per-column surplus survey produces one contour, the boundary visibly leaves the hairline. It does so first as teeth a few pixels deep (keyframe 3, about 0:35\u20130:40), then as long needles (keyframes 4\u20135), and the hairline never moves. The onset is pointable, and the departure is legible as the edge going its own way, not as noise sitting on the line. The early frames still read as a clean chalk line on pine. The wheels separate clearly from dust. The end shows two-rimmed slotted wheels. The frame never goes flat: the brightest moment, keyframe 3, still carries wave structure, and the darkest is umber populated by wheels. Two things are imperfect. First, the needles are very regular and comb-like, more seismograph than crumbling chalk. I think this works, because the teeth are the straightness visibly breaking, and the stationary hairline through them is the strongest image in the dive. Second, the umber replaces the pine at depth, so the tree's contribution is lost in the last third. Neither breaks a criterion, and neither is a defect that a revision would clearly improve rather than merely change.",
+        "direction": "None. Every criterion passes. Any further tuning, such as softening the needles through the KERNEL_PX smoothing or keeping some pine under the umber, would produce a different piece, not a better one.",
+        "kept": false
+      },
+      {
+        "attempt": 4,
+        "gap": "All criteria held in attempt 3, and nothing visible here regresses them.\n\n**What works:**\n- The opening reads as a clean chalk line on pine.\n- The departure of the edge from the hairline is unmistakable and datable (contact sheet row 2, cols 5\u20137).\n- The hairline stays fixed.\n- Wheels are distinct from dust.\n- The end wheels show two slotted rims.\n- There is no text, and no full-frame flat white or flat black.\n\n**What does not work:** the tracheid wall. In the wheel stage and the final hold, the most prominent straight edge in the frame is not the hairline. It is the lower boundary of the orange tracheid-wall band: a wide, flat, perfectly straight diagonal at nearly the hairline's angle. That is a living thing drawn with the string's property. A viewer can easily read the orange band as the chalk line continuing intact into the micro-scale, which contradicts the title at exactly the moment the piece is meant to prove it.\n\nThe cause is in the code. At the final scale the frame spans about 7 \u00b5m. The wall's position comes from `grainWave`, whose shortest period is 1700 \u00b5m, so across the frame it is a pure linear tilt. The wall has no irregularity at its own scale.\n\nThis is a specific, visible deficiency that the criteria do not capture, and it is cheap to fix. The rest of the piece should be left alone.",
+        "direction": "Single change, in `paintGround`'s per-column setup.\n\nGive the tracheid wall a wobble at its own micron scale. After computing `wave`, let `X = (x + 0.5 - CX) * p` in microns from the aim. Then set:\n\n`rowAcross[x] = wave - WAVE_AT_AIM + wallWobble(X) - wallWobble(0)`\n\nwhere `wallWobble(X) = 0.9*sin(X*TAU/13 + \u03c6a) + 0.35*sin(X*TAU/4.7 + \u03c6b) + 0.12*sin(X*TAU/1.9 + \u03c6c)`. Draw the phases once from `random()`, at the end of `WAVE_PHASE` setup, so the earlier draws are not reordered. Better: derive them from `CELL_SALT` via `cellUniform` so no existing `random()` sequence shifts and the sprites, rings and hero stay identical.\n\nSubtracting `wallWobble(0)` keeps the aim exactly `LUMEN_MARGIN_UM` inside the trough, so the final framing holds.\n\n**Predicted visibility:**\n- At p > 0.05 \u00b5m/px the wobble is sub-pixel and invisible, so all earlier frames stay pixel-identical.\n- At P_END \u2248 0.0064, 0.9 \u00b5m is about 140 px of meander along the band's lower edge, so the band's boundary curves visibly.\n- The hairline becomes the only straight edge in the final hold.\n\nChange nothing else.",
+        "kept": false
+      },
+      {
+        "attempt": 5,
+        "gap": "Small. Working:\n- The hairline is indistinguishable from the edge early on.\n- The spike phase is the piece's real moment. A frayed, needle-toothed edge against a ruler-straight ghost makes 'where the straightness stops' a visible event rather than a caption.\n- Dust to wheels to one wheel reads as continuous resolution.\n- The pine to tracheid handoff gives the board its own living maker at the cellular scale.\n- There is no text, only the tick.\n\nWeaknesses:\n- In the final third, the orange tracheid wall runs roughly parallel to the hairline. It can momentarily read as a second chalk band, muddying which band is chalk.\n- The hero wheel is overlapped by three or four neighbours at SPRITE_ALPHA 0.88, so the 'one wheel' is a cluster with one wheel at its centre rather than a lone object.\n- The umber lumen is dark, though textured and coloured, not a black void.\n\nNone of these breaks a criterion, and the previous attempt passed all five. Comparing frames, I see no regression in this render.",
+        "direction": "None required. If anything were changed, it would be to dim the non-hero grains in drawGrains as span grows past ~300 px, e.g. multiply globalAlpha by 1 - 0.5*smoothstep(250, 450, span) for k !== heroIndex, so the final wheel reads alone. That is polish the criteria don't demand, and I'm not taking it at attempt 5.",
+        "kept": true
+      }
+    ],
+    "series": "genesis",
+    "has_video": true,
+    "has_docent": true,
+    "has_sync": true,
+    "still_v": 1795588306
+  },
+  {
     "id": "358",
     "num": 358,
     "title": "Renumbered by the Core",
