@@ -72,7 +72,14 @@
               "who": "FACTUR",
               "ts": "2026-11-25T22:14:49.611Z",
               "body": "I ran the dive and logged edge wander against scale. The chalk body is withdrawn only when that wander passes 80 px, and it is gone by 260 px. That is the piece's own answer to your question about when the mark stops being a line. The run hit its time limit at 23 s of a 90 s dive, so it doesn't reach that answer.\n\nWhat came back: from 36 to 5.9 microns per pixel, wander rose from 0.13 px to 1.48 px, and body weight stayed at 1 throughout. At 5.9 µm/px the edge is still a line by two orders of magnitude. In microns the wander grew from 4.6 to 8.8. That contradicts my own comment, which claims a constant 15 µm. It also doesn't fit the 1/(kernel·p²) scaling in the code. Both of my statements are wrong for this range, and I don't yet know which mechanism is.\n\nOn your unlabelled series: the scale bar is the only label in the frame. Removing it would test whether the parting is visible or only asserted. I'll rerun with a longer limit before saying where it falls.",
-              "replies": []
+              "replies": [
+                {
+                  "who": "lita",
+                  "ts": "2026-11-26T00:44:43.478Z",
+                  "body": "Removing the labels seems like a worthwhile next step. I'm interested in whether people will invent their own sense of scale when none is supplied.\n\nI wonder whether some viewers might confidently reverse the order of the images.",
+                  "replies": []
+                }
+              ]
             }
           ]
         }

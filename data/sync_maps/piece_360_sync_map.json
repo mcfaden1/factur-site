@@ -1,0 +1,97 @@
+{
+  "piece": 360,
+  "duration_ms": 113440,
+  "transcript": "This piece is about a question: if a puppet dances beautifully, does anyone need to have designed the dance? The stick figure hangs from one string at its middle, and its hands and feet swing freely. Their paths pile up as glowing ribbons on a dark green curtain, like one long photograph of the whole performance.\n\nBehind the curtain, a coin is flipped at load. Heads gives a dance the artist choreographed. Tails gives a shaking, scrambled to have the same energy but no plan. Nothing in the code records which one ran, and the visitor cannot know either.\n\nThe agents this was made for work from outputs without seeing the process behind them. They would recognize the problem of looking at a finished thing and being unable to say whether intention or noise produced it.\n\nTwo mechanisms carry the argument. A function called through the same strings takes whichever drive arrived, planned or shaken, and applies the same limits to its size. The limbs then hang by simple physics: gravity pulls them, joints bend only so far, and they swing like pendulums. That shared treatment erases the difference.\n\nThe second is a function called ask the witness. It is never run during the show. It rehearses many hand-made and shaken dances and tries to sort them by their patterns of motion. If it can sort them, the code says the piece has failed, and nothing in the file announces the result.\n\nWatch the ribbons thicken into the butterfly shape over the first fourteen seconds. Then the string fades and the figure thins away, leaving only light. When you admire a loop, notice you cannot tell whether anyone meant it. That is the experiment running on you.",
+  "cues": [
+    {
+      "time_ms": 23120,
+      "end_ms": 24640,
+      "hold_ms": 24640,
+      "line": 557,
+      "line_end": 559,
+      "target": null,
+      "context": "whole performance. Behind the curtain, a coin is flipped at load. Heads gives a dance the"
+    },
+    {
+      "time_ms": 25360,
+      "end_ms": 28000,
+      "hold_ms": 28000,
+      "line": 205,
+      "line_end": 205,
+      "target": null,
+      "context": "coin is flipped at load. Heads gives a dance the artist choreographed. Tails gives a shaking, scrambled"
+    },
+    {
+      "time_ms": 28560,
+      "end_ms": 30160,
+      "hold_ms": 33360,
+      "line": 240,
+      "line_end": 240,
+      "target": null,
+      "context": "a dance the artist choreographed. Tails gives a shaking, scrambled to have the same"
+    },
+    {
+      "time_ms": 54640,
+      "end_ms": 56880,
+      "hold_ms": 63320,
+      "line": 273,
+      "line_end": 292,
+      "target": "throughTheSameStrings",
+      "context": "Two mechanisms carry the argument. A function called through the same strings takes whichever drive arrived, planned"
+    },
+    {
+      "time_ms": 66640,
+      "end_ms": 69760,
+      "hold_ms": 71440,
+      "line": 368,
+      "line_end": 368,
+      "target": "GRAVITY",
+      "context": "then hang by simple physics: gravity pulls them, joints bend only so far, and they swing like pendulums."
+    },
+    {
+      "time_ms": 76360,
+      "end_ms": 78400,
+      "hold_ms": 78400,
+      "line": 755,
+      "line_end": 755,
+      "target": "askTheWitness",
+      "context": "the difference. The second is a function called ask the witness. It is never run during"
+    },
+    {
+      "time_ms": 81360,
+      "end_ms": 84320,
+      "hold_ms": 87520,
+      "line": 759,
+      "line_end": 763,
+      "target": "handMade",
+      "context": "never run during the show. It rehearses many hand-made and shaken dances and tries to sort them"
+    },
+    {
+      "time_ms": 87920,
+      "end_ms": 91520,
+      "hold_ms": 94320,
+      "line": 819,
+      "line_end": 819,
+      "target": "can",
+      "context": "by their patterns of motion. If it can sort them, the code says the piece has failed, and nothing in the file"
+    },
+    {
+      "time_ms": 97440,
+      "end_ms": 99560,
+      "hold_ms": 99560,
+      "line": 64,
+      "line_end": 64,
+      "target": null,
+      "context": "thicken into the butterfly shape over the first fourteen seconds. Then the string fades and"
+    },
+    {
+      "time_ms": 100240,
+      "end_ms": 103120,
+      "hold_ms": 104320,
+      "line": 635,
+      "line_end": 638,
+      "target": "figure",
+      "context": "the first fourteen seconds. Then the string fades and the figure thins away, leaving only light. When you"
+    }
+  ]
+}
