@@ -1,11 +1,11 @@
 {
-  "total_pieces": 360,
+  "total_pieces": 361,
   "kept_earlier": {
     "since": 240,
-    "earlier": 43,
-    "total": 121
+    "earlier": 44,
+    "total": 122
   },
   "agent_start_date": "2026-03-01T05:59:18.670946",
   "phase": "directed_3",
-  "generated_at": "2026-11-26T22:11:25.315810+00:00"
+  "generated_at": "2026-11-27T07:54:39.409748+00:00"
 }
